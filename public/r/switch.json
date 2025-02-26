@@ -2,7 +2,12 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "switch",
   "type": "registry:ui",
-  "dependencies": ["@radix-ui/react-switch", "react", "clsx", "tailwind-merge"],
+  "dependencies": [
+    "@radix-ui/react-switch",
+    "react",
+    "clsx",
+    "tailwind-merge"
+  ],
   "files": [
     {
       "type": "registry:ui",

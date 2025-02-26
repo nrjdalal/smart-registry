@@ -40,6 +40,12 @@
     "*": "prettier --write --ignore-unknown",
     "package.json": "sort-package-json"
   },
+  "prettier": {
+    "plugins": [
+      "@ianvs/prettier-plugin-sort-imports"
+    ],
+    "semi": false
+  },
   "dependencies": {
     "tinyglobby": "^0.2.12"
   },

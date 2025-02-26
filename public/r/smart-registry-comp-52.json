@@ -2,7 +2,12 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "smart-registry-comp-52",
   "type": "registry:component",
-  "dependencies": ["react", "clsx", "tailwind-merge", "@radix-ui/react-label"],
+  "dependencies": [
+    "react",
+    "clsx",
+    "tailwind-merge",
+    "@radix-ui/react-label"
+  ],
   "files": [
     {
       "type": "registry:component",

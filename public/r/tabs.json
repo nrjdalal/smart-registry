@@ -2,7 +2,12 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "tabs",
   "type": "registry:ui",
-  "dependencies": ["@radix-ui/react-tabs", "react", "clsx", "tailwind-merge"],
+  "dependencies": [
+    "@radix-ui/react-tabs",
+    "react",
+    "clsx",
+    "tailwind-merge"
+  ],
   "files": [
     {
       "type": "registry:ui",

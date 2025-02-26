@@ -2,7 +2,12 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "select-native",
   "type": "registry:ui",
-  "dependencies": ["lucide-react", "react", "clsx", "tailwind-merge"],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "clsx",
+    "tailwind-merge"
+  ],
   "files": [
     {
       "type": "registry:ui",

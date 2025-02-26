@@ -2,7 +2,11 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "datefield-rac",
   "type": "registry:ui",
-  "dependencies": ["react-aria-components", "clsx", "tailwind-merge"],
+  "dependencies": [
+    "react-aria-components",
+    "clsx",
+    "tailwind-merge"
+  ],
   "files": [
     {
       "type": "registry:ui",

@@ -2,7 +2,11 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "textarea",
   "type": "registry:ui",
-  "dependencies": ["react", "clsx", "tailwind-merge"],
+  "dependencies": [
+    "react",
+    "clsx",
+    "tailwind-merge"
+  ],
   "files": [
     {
       "type": "registry:ui",
