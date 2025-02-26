@@ -134,6 +134,27 @@ const main = async () => {
         )
       }
 
+      let registry: boolean | { [key: string]: any } =
+        files.includes("registry.json")
+
+      if (registry) {
+        const registryContent = await fs.promises.readFile(
+          "registry.json",
+          "utf-8",
+        )
+        const registryJson = JSON.parse(registryContent)
+        const items = registryJson.items || []
+        registry = items.find((item: any) => item.name === name) || {}
+        if (typeof registry === "object" && registry !== null) {
+          delete registry.$schema
+          delete registry.dependencies
+          delete registry.files
+          delete registry.name
+          delete registry.type
+          delete registry.registryDependencies
+        }
+      }
+
       const outputPath = path.join("public", "r", `${name}.json`)
       const outputData = {
         $schema: "https://ui.shadcn.com/schema/registry-item.json",
@@ -148,6 +169,7 @@ const main = async () => {
             path: imports.data.orignal[imports.data.files.indexOf(file)],
           }
         }),
+        ...(typeof registry === "object" && registry !== null ? registry : {}),
       }
 
       fs.mkdirSync(path.dirname(outputPath), { recursive: true })
