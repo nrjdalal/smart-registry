@@ -1,0 +1,155 @@
+#!/usr/bin/env node
+import fs from "node:fs"
+import path from "node:path"
+import { parseArgs } from "node:util"
+import { getAliases } from "@/bin/utils/aliases"
+import {
+  getFiles,
+  getImports,
+  normalizeAndFilter,
+  normalizeImports,
+} from "@/bin/utils/files"
+import { author, name, version } from "@/package.json"
+
+const helpMessage = `Version:
+  ${name}@${version}
+
+Usage:
+  $ ${name} [options]
+
+Options:
+  -v, --version  Display version
+  -h, --help     Display help
+
+Author:
+  ${author.name} <${author.email}> (${author.url})`
+
+const parse: typeof parseArgs = (config) => {
+  try {
+    return parseArgs(config)
+  } catch (err: any) {
+    throw new Error(`Error parsing arguments: ${err.message}`)
+  }
+}
+
+const main = async () => {
+  try {
+    const { positionals, values } = parse({
+      allowPositionals: true,
+      options: {
+        help: { type: "boolean", short: "h" },
+        version: { type: "boolean", short: "v" },
+      },
+    })
+
+    if (!positionals.length) {
+      if (values.version) {
+        console.log(`${name}@${version}`)
+        process.exit(0)
+      }
+      if (values.help) {
+        console.log(helpMessage)
+        process.exit(0)
+      }
+    }
+
+    const config = {
+      files: [],
+      directories: ["@/registry/default"],
+    }
+
+    const files = await getFiles()
+    const aliases = await getAliases()
+
+    const normalizedConfig = {
+      files: normalizeAndFilter({
+        paths: config.files,
+        files,
+        aliases,
+      }),
+      directories: normalizeAndFilter({
+        paths: config.directories,
+        files,
+        aliases,
+        directory: true,
+      }),
+    }
+
+    const configFiles = [
+      ...normalizedConfig.files,
+      ...files.filter((file) =>
+        normalizedConfig.directories.some((directory) =>
+          file.startsWith(directory),
+        ),
+      ),
+    ]
+
+    for (const file of configFiles) {
+      const imports = normalizeImports({
+        imports: await getImports({
+          filePath: file,
+          aliases,
+          files: configFiles,
+        }),
+        aliases,
+      })
+
+      const name = imports.data.files[0]
+        .replace(/^registry\/[^\/]+\/blocks\//, "blocks/")
+        .replace(/^registry\/([^\/]+)\/components\//, "components/$1/")
+        .replace(/^registry\/[^\/]+\/ui\//, "components/ui/")
+        .replace(/^registry\/[^\/]+\/hooks\//, "hooks/")
+        .replace(/^registry\/[^\/]+\/lib\//, "lib/")
+        .replace(/^blocks\//, "")
+        .replace(/^components\/ui\//, "")
+        .replace(/^components\//, "")
+        .replace(/^hooks\//, "")
+        .replace(/^lib\//, "")
+        .replace(/\..*$/, "")
+        .replace(/\//g, "-")
+
+      const getType = (filePath: string) => {
+        return (
+          filePath
+            .match(/^(block|components\/ui|components|hooks|lib)/)?.[0]
+            .replace("components/ui", "registry:ui")
+            .replace("components", "registry:component")
+            .replace("hooks", "registry:hook")
+            .replace("lib", "registry:lib")
+            .replace("blocks", "registry:block") || "registry:file"
+        )
+      }
+
+      const outputPath = path.join("public", "r", `${name}.json`)
+      const outputData = {
+        $schema: "https://ui.shadcn.com/schema/registry-item.json",
+        name,
+        type: getType(imports.data.files[0]),
+        dependencies: imports.data.dependencies,
+        files: imports.data.files.map((file) => {
+          return {
+            type: getType(file),
+            target: file,
+            content: imports.content[file],
+            path: imports.data.orignal[imports.data.files.indexOf(file)],
+          }
+        }),
+      }
+
+      fs.mkdirSync(path.dirname(outputPath), { recursive: true })
+      fs.writeFileSync(
+        outputPath,
+        JSON.stringify(outputData, null, 2) + "\n",
+        "utf-8",
+      )
+    }
+
+    process.exit(0)
+  } catch (err: any) {
+    console.error(helpMessage)
+    console.error(`\n${err.message}\n`)
+    process.exit(1)
+  }
+}
+
+main()
