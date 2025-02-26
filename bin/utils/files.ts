@@ -157,8 +157,11 @@ export const normalizeImports = ({
   }
   aliases: Record<string, string>
 }) => {
+  const cwd = path.basename(process.cwd())
+
   const normalizePath = (file: string) => {
     return file
+      .replace(/^registry\/default\/components\//, `components/${cwd}/`)
       .replace(/^registry\/[^\/]+\/blocks\//, "blocks/")
       .replace(/^registry\/([^\/]+)\/components\//, "components/$1/")
       .replace(/^registry\/[^\/]+\/ui\//, "components/ui/")
@@ -203,6 +206,10 @@ export const normalizeImports = ({
             }
             return match
           })
+          .replace(
+            /@\/registry\/default\/components\//g,
+            `@/components/${cwd}/`,
+          )
           .replace(/@\/registry\/[^\/]+\/blocks\//g, "@/blocks/")
           .replace(/@\/registry\/([^\/]+)\/components\//g, "@/components/$1/")
           .replace(/@\/registry\/[^\/]+\/ui\//g, "@/components/ui/")
