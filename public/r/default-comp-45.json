@@ -8,7 +8,6 @@
     "react",
     "clsx",
     "tailwind-merge",
-    "@/registry",
     "@radix-ui/react-label"
   ],
   "files": [

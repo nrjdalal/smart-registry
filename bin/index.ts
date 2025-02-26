@@ -37,6 +37,8 @@ const main = async () => {
     const { positionals, values } = parse({
       allowPositionals: true,
       options: {
+        files: { type: "string", multiple: true, short: "f" },
+        directories: { type: "string", multiple: true, short: "d" },
         help: { type: "boolean", short: "h" },
         version: { type: "boolean", short: "v" },
       },
@@ -54,8 +56,19 @@ const main = async () => {
     }
 
     const config = {
-      files: [],
-      directories: ["@/registry/default"],
+      files: values.files || [],
+      directories: values.directories || [],
+    }
+
+    if (!config.files.length && !config.directories.length) {
+      // check if folder named registry exists
+      if (!fs.existsSync("registry")) {
+        throw new Error(
+          "No files or directories provided and no registry folder found",
+        )
+      }
+
+      config.directories.push("@/registry")
     }
 
     const files = await getFiles()

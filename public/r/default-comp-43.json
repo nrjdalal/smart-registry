@@ -9,7 +9,6 @@
     "react-aria-components",
     "clsx",
     "tailwind-merge",
-    "@/registry",
     "react"
   ],
   "files": [

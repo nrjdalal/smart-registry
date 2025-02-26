@@ -6,7 +6,6 @@
     "react",
     "clsx",
     "tailwind-merge",
-    "@/registry",
     "@radix-ui/react-label",
     "@radix-ui/react-select",
     "lucide-react"

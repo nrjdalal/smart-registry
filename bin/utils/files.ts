@@ -125,7 +125,11 @@ export const getImports = async ({
   const uniqueFiles = new Set(data.files)
 
   for (const file of uniqueFiles) {
-    const importsData = await getImports({ filePath: file })
+    const importsData = await getImports({
+      filePath: file,
+      aliases,
+      files,
+    })
     content[file] = importsData.content[file]
     importsData.data.files.forEach((importFile) => uniqueFiles.add(importFile))
     importsData.data.dependencies.forEach((dependency) => {

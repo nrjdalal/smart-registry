@@ -7,7 +7,6 @@
     "react-aria-components",
     "clsx",
     "tailwind-merge",
-    "@/registry",
     "@internationalized/date",
     "react"
   ],

@@ -7,8 +7,7 @@
     "lucide-react",
     "react",
     "clsx",
-    "tailwind-merge",
-    "@/registry"
+    "tailwind-merge"
   ],
   "files": [
     {

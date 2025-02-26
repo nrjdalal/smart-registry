@@ -7,7 +7,6 @@
     "react",
     "clsx",
     "tailwind-merge",
-    "@/registry",
     "@radix-ui/react-slot",
     "class-variance-authority",
     "@radix-ui/react-dialog"
