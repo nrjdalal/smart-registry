@@ -1,0 +1,35 @@
+{
+  "accordion": {
+    "tailwind.config.theme.extend.keyframes": {
+      "accordion-down.from.height": "0",
+      "accordion-down.to.height": "var(--radix-accordion-content-height)",
+      "accordion-up.from.height": "var(--radix-accordion-content-height)",
+      "accordion-up.to.height": "0"
+    },
+    "tailwind.config.theme.extend.animation": {
+      "accordion-down": "accordion-down 0.2s ease-out",
+      "accordion-up": "accordion-up 0.2s ease-out"
+    }
+  },
+  "comp-01": {
+    "meta.tags": ["input", "label"]
+  },
+  "comp-02": {
+    "meta.tags": ["input", "label", "required"]
+  },
+  "comp-03": {
+    "meta.tags": ["input", "label", "helper"]
+  },
+  "comp-98": {
+    "meta.tags": ["button", "menu"],
+    "meta.style": 2
+  },
+  "comp-99": {
+    "meta.tags": ["button", "tooltip"],
+    "meta.style": 2
+  },
+  "comp-100": {
+    "meta.tags": ["button", "menu", "hamburger"],
+    "meta.style": 2
+  }
+}
