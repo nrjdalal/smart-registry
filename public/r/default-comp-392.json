@@ -4,21 +4,21 @@
   "type": "registry:component",
   "dependencies": [
     "lucide-react",
+    "@/registry",
     "@radix-ui/react-avatar",
-    "react",
-    "@/registry"
+    "react"
   ],
   "files": [
     {
       "type": "registry:component",
       "target": "components/default/comp-392.tsx",
-      "content": "import { Avatar, AvatarFallback } from \"@/components/ui/avatar\";\nimport { UserRoundIcon } from \"lucide-react\";\n\nexport default function Component() {\n  return (\n    <Avatar>\n      <AvatarFallback>\n        <UserRoundIcon size={16} className=\"opacity-60\" aria-hidden=\"true\" />\n      </AvatarFallback>\n    </Avatar>\n  );\n}\n",
+      "content": "import { Avatar, AvatarFallback } from \"@/components/ui/avatar\"\nimport { UserRoundIcon } from \"lucide-react\"\n\nexport default function Component() {\n  return (\n    <Avatar>\n      <AvatarFallback>\n        <UserRoundIcon size={16} className=\"opacity-60\" aria-hidden=\"true\" />\n      </AvatarFallback>\n    </Avatar>\n  )\n}\n",
       "path": "registry/default/components/comp-392.tsx"
     },
     {
       "type": "registry:ui",
       "target": "components/ui/avatar.tsx",
-      "content": "\"use client\";\n\nimport * as AvatarPrimitive from \"@radix-ui/react-avatar\";\nimport * as React from \"react\";\n\nimport { cn } from \"@/lib/utils\";\n\nfunction Avatar({ className, ...props }: React.ComponentProps<typeof AvatarPrimitive.Root>) {\n  return (\n    <AvatarPrimitive.Root\n      data-slot=\"avatar\"\n      className={cn(\"relative flex size-8 shrink-0 overflow-hidden rounded-full\", className)}\n      {...props}\n    />\n  );\n}\n\nfunction AvatarImage({ className, ...props }: React.ComponentProps<typeof AvatarPrimitive.Image>) {\n  return (\n    <AvatarPrimitive.Image\n      data-slot=\"avatar-image\"\n      className={cn(\"aspect-square size-full\", className)}\n      {...props}\n    />\n  );\n}\n\nfunction AvatarFallback({\n  className,\n  ...props\n}: React.ComponentProps<typeof AvatarPrimitive.Fallback>) {\n  return (\n    <AvatarPrimitive.Fallback\n      data-slot=\"avatar-fallback\"\n      className={cn(\n        \"bg-secondary flex size-full items-center justify-center rounded-[inherit] text-xs\",\n        className,\n      )}\n      {...props}\n    />\n  );\n}\n\nexport { Avatar, AvatarFallback, AvatarImage };\n",
+      "content": "\"use client\"\n\nimport { cn } from \"@/lib/utils\"\nimport * as AvatarPrimitive from \"@radix-ui/react-avatar\"\nimport * as React from \"react\"\n\nfunction Avatar({\n  className,\n  ...props\n}: React.ComponentProps<typeof AvatarPrimitive.Root>) {\n  return (\n    <AvatarPrimitive.Root\n      data-slot=\"avatar\"\n      className={cn(\n        \"relative flex size-8 shrink-0 overflow-hidden rounded-full\",\n        className,\n      )}\n      {...props}\n    />\n  )\n}\n\nfunction AvatarImage({\n  className,\n  ...props\n}: React.ComponentProps<typeof AvatarPrimitive.Image>) {\n  return (\n    <AvatarPrimitive.Image\n      data-slot=\"avatar-image\"\n      className={cn(\"aspect-square size-full\", className)}\n      {...props}\n    />\n  )\n}\n\nfunction AvatarFallback({\n  className,\n  ...props\n}: React.ComponentProps<typeof AvatarPrimitive.Fallback>) {\n  return (\n    <AvatarPrimitive.Fallback\n      data-slot=\"avatar-fallback\"\n      className={cn(\n        \"bg-secondary flex size-full items-center justify-center rounded-[inherit] text-xs\",\n        className,\n      )}\n      {...props}\n    />\n  )\n}\n\nexport { Avatar, AvatarFallback, AvatarImage }\n",
       "path": "registry/default/ui/avatar.tsx"
     }
   ]
