@@ -1,13 +1,13 @@
 {
-  "name": "starter",
-  "version": "0.0.1",
+  "name": "smart-registry",
+  "version": "0.0.2",
   "description": "placeholder for a new package",
   "keywords": [
-    "starter"
+    "smart-registry"
   ],
-  "homepage": "https://github.com/nrjdalal/starter#readme",
-  "bugs": "https://github.com/nrjdalal/starter/issues",
-  "repository": "nrjdalal/starter",
+  "homepage": "https://github.com/nrjdalal/smart-registry#readme",
+  "bugs": "https://github.com/nrjdalal/smart-registry/issues",
+  "repository": "nrjdalal/smart-registry",
   "funding": "https://github.com/sponsors/nrjdalal",
   "license": "MIT",
   "author": {
