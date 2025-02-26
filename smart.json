@@ -1,14 +1,12 @@
 {
   "accordion": {
-    "tailwind.config.theme.extend.keyframes": {
-      "accordion-down.from.height": "0",
-      "accordion-down.to.height": "var(--radix-accordion-content-height)",
-      "accordion-up.from.height": "var(--radix-accordion-content-height)",
-      "accordion-up.to.height": "0"
-    },
-    "tailwind.config.theme.extend.animation": {
-      "accordion-down": "accordion-down 0.2s ease-out",
-      "accordion-up": "accordion-up 0.2s ease-out"
+    "tailwind.config.theme.extend": {
+      "keyframes.accordion-down.from.height": "0",
+      "keyframes.accordion-down.to.height": "var(--radix-accordion-content-height)",
+      "keyframes.accordion-up.from.height": "var(--radix-accordion-content-height)",
+      "keyframes.accordion-up.to.height": "0",
+      "animation.accordion-down": "accordion-down 0.2s ease-out",
+      "animation.accordion-up": "accordion-up 0.2s ease-out"
     }
   },
   "comp-01": {
