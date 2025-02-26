@@ -161,8 +161,8 @@ export const normalizeImports = ({
 
   const normalizePath = (file: string) => {
     return file
-      .replace(/^registry\/default\/components\//, `components/${cwd}/`)
       .replace(/^registry\/[^\/]+\/blocks\//, "blocks/")
+      .replace(/^registry\/default\/components\//, `components/${cwd}/`)
       .replace(/^registry\/([^\/]+)\/components\//, "components/$1/")
       .replace(/^registry\/[^\/]+\/ui\//, "components/ui/")
       .replace(/^registry\/[^\/]+\/hooks\//, "hooks/")
@@ -206,11 +206,11 @@ export const normalizeImports = ({
             }
             return match
           })
+          .replace(/@\/registry\/[^\/]+\/blocks\//g, "@/blocks/")
           .replace(
             /@\/registry\/default\/components\//g,
             `@/components/${cwd}/`,
           )
-          .replace(/@\/registry\/[^\/]+\/blocks\//g, "@/blocks/")
           .replace(/@\/registry\/([^\/]+)\/components\//g, "@/components/$1/")
           .replace(/@\/registry\/[^\/]+\/ui\//g, "@/components/ui/")
           .replace(/@\/registry\/[^\/]+\/hooks\//g, "@/hooks/")

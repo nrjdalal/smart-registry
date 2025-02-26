@@ -107,8 +107,9 @@ const main = async () => {
         aliases,
       })
 
-      const name = imports.data.files[0]
+      const name = file
         .replace(/^registry\/[^\/]+\/blocks\//, "blocks/")
+        .replace(/^registry\/default\/components\//, `components/`)
         .replace(/^registry\/([^\/]+)\/components\//, "components/$1/")
         .replace(/^registry\/[^\/]+\/ui\//, "components/ui/")
         .replace(/^registry\/[^\/]+\/hooks\//, "hooks/")
