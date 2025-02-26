@@ -102,7 +102,7 @@ const main = async () => {
         imports: await getImports({
           filePath: file,
           aliases,
-          files: configFiles,
+          files,
         }),
         aliases,
       })
