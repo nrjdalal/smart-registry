@@ -102,6 +102,7 @@ const main = async () => {
       $schema?: string
       name?: string
       homepage?: string
+      description?: string
       items?: {
         $schema?: string
         name?: string
@@ -118,10 +119,11 @@ const main = async () => {
       $schema: "https://ui.shadcn.com/schema/registry.json",
       name: registryConfig.name || "acme",
       homepage: registryConfig.homepage || "https://acme.com",
+      description: `${registryConfig.name || "acme"} registry schema w/o content`,
       items: [],
     }
 
-    registryJson.items = registryJson.items || []
+    registryJson.items = []
 
     for (const file of configFiles) {
       if (file === "registry.json") continue
@@ -252,12 +254,13 @@ const main = async () => {
           : {}),
       }
 
-      registryJson.items.push({
-        name: outputData.name,
-        type: outputData.type,
-        dependencies: outputData.dependencies,
+      const prepareItem = {
+        ...outputData,
+        $schema: undefined,
         files: outputData.files.map(({ content, ...rest }) => rest),
-      })
+      }
+
+      registryJson.items.push(prepareItem)
 
       fs.mkdirSync(path.dirname(outputPath), { recursive: true })
       fs.writeFileSync(
@@ -266,6 +269,10 @@ const main = async () => {
         "utf-8",
       )
     }
+
+    registryJson.items = registryJson.items.sort((a, b) => {
+      return (a.name || "").localeCompare(b.name || "")
+    })
 
     const registryMapPath = path.join("public", "r", "registry.json")
     fs.writeFileSync(
