@@ -61,13 +61,23 @@ const main = async () => {
     }
 
     if (!config.files.length && !config.directories.length) {
-      if (!fs.existsSync("registry")) {
+      if (
+        !fs.existsSync("registry") &&
+        !fs.existsSync("components") &&
+        !fs.existsSync("src/components")
+      ) {
         throw new Error(
-          "No files or directories provided and no registry folder found",
+          "No files or directories provided and no registry/component folder found",
         )
       }
 
-      config.directories.push("@/registry")
+      if (fs.existsSync("registry")) {
+        config.directories.push("registry")
+      } else if (fs.existsSync("components")) {
+        config.directories.push("components")
+      } else {
+        config.directories.push("src/components")
+      }
     }
 
     const files = await getFiles()
@@ -96,8 +106,14 @@ const main = async () => {
       ),
     ]
 
-    const registryConfig =
-      JSON.parse(await fs.promises.readFile("registry.json", "utf-8")) || {}
+    let registryConfig: { name?: string; homepage?: string; items?: any[] } = {}
+
+    if (fs.existsSync("registry.json")) {
+      registryConfig = JSON.parse(
+        await fs.promises.readFile("registry.json", "utf-8"),
+      )
+    }
+
     const registryJson: {
       $schema?: string
       name?: string
