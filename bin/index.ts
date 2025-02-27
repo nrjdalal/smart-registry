@@ -97,6 +97,8 @@ const main = async () => {
       ),
     ]
 
+    const registryMap: { [key: string]: string } = {}
+
     for (const file of configFiles) {
       let imports = normalizeImports({
         imports: await getImports({
@@ -121,6 +123,10 @@ const main = async () => {
         .replace(/^lib\//, "")
         .replace(/\..*$/, "")
         .replace(/\//g, "-")
+
+      if (imports.data.files.length) {
+        registryMap[name] = file
+      }
 
       const getType = (filePath: string) => {
         return (
@@ -232,6 +238,13 @@ const main = async () => {
         "utf-8",
       )
     }
+
+    const registryMapPath = path.join("public", "r", "registry.json")
+    fs.writeFileSync(
+      registryMapPath,
+      JSON.stringify(registryMap, null, 2) + "\n",
+      "utf-8",
+    )
 
     process.exit(0)
   } catch (err: any) {
