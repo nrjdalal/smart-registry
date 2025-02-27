@@ -98,7 +98,7 @@ const main = async () => {
     ]
 
     for (const file of configFiles) {
-      const imports = normalizeImports({
+      let imports = normalizeImports({
         imports: await getImports({
           filePath: file,
           aliases,
@@ -136,6 +136,7 @@ const main = async () => {
 
       let registry: boolean | { [key: string]: any } =
         files.includes("registry.json")
+      let registryFiles: any = null
 
       if (registry) {
         const registryContent = await fs.promises.readFile(
@@ -144,14 +145,66 @@ const main = async () => {
         )
         const registryJson = JSON.parse(registryContent)
         const items = registryJson.items || []
+
         registry = items.find((item: any) => item.name === name) || {}
-        if (typeof registry === "object" && registry !== null) {
-          delete registry.$schema
+
+        if (typeof registry === "object" && registry.files) {
+          registryFiles = await Promise.all(
+            registry.files.map(async (file: { path: string }) => {
+              return normalizeImports({
+                imports: await getImports({
+                  filePath: file.path,
+                  aliases,
+                  files,
+                }),
+                aliases,
+              })
+            }),
+          )
+
+          registryFiles = registryFiles.reduce((acc: any, curr: any) => {
+            return {
+              data: {
+                files: [...acc.data.files, ...curr.data.files],
+                dependencies: [
+                  ...acc.data.dependencies,
+                  ...curr.data.dependencies,
+                ],
+                orignal: [...acc.data.orignal, ...curr.data.orignal],
+              },
+              content: {
+                ...acc.content,
+                ...curr.content,
+              },
+            }
+          })
+
           delete registry.dependencies
           delete registry.files
           delete registry.name
           delete registry.type
           delete registry.registryDependencies
+        }
+      }
+
+      if (registryFiles) {
+        imports.data = {
+          files: Array.from(
+            new Set([...imports.data.files, ...registryFiles.data.files]),
+          ),
+          dependencies: Array.from(
+            new Set([
+              ...imports.data.dependencies,
+              ...registryFiles.data.dependencies,
+            ]),
+          ),
+          orignal: Array.from(
+            new Set([...imports.data.orignal, ...registryFiles.data.orignal]),
+          ),
+        }
+        imports.content = {
+          ...imports.content,
+          ...registryFiles.content,
         }
       }
 
