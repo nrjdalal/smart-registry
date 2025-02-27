@@ -255,21 +255,23 @@ const main = async () => {
       }
 
       outputData.dependencies?.sort()
+
+      outputData.files.sort((a, b) => {
+        return a.target.localeCompare(b.target)
+      })
       const typeOrder = {
         "registry:block": 1,
         "registry:file": 2,
         "registry:component": 3,
         "registry:ui": 4,
-        "registry:lib": 5,
+        "registry:hook": 5,
+        "registry:lib": 6,
       }
-
       outputData.files.sort((a, b) => {
-        const typeA = typeOrder[a.type as keyof typeof typeOrder]
-        const typeB = typeOrder[b.type as keyof typeof typeOrder]
-        if (typeA === typeB) {
-          return a.target.localeCompare(b.target)
-        }
-        return typeA - typeB
+        return (
+          typeOrder[a.type as keyof typeof typeOrder] -
+          typeOrder[b.type as keyof typeof typeOrder]
+        )
       })
 
       const prepareItem = {
