@@ -61,7 +61,6 @@ const main = async () => {
     }
 
     if (!config.files.length && !config.directories.length) {
-      // check if folder named registry exists
       if (!fs.existsSync("registry")) {
         throw new Error(
           "No files or directories provided and no registry folder found",
@@ -97,9 +96,36 @@ const main = async () => {
       ),
     ]
 
-    const registryMap: { [key: string]: string } = {}
+    const registryConfig =
+      JSON.parse(await fs.promises.readFile("registry.json", "utf-8")) || {}
+    const registryJson: {
+      $schema?: string
+      name?: string
+      homepage?: string
+      items?: {
+        $schema?: string
+        name?: string
+        type?: string
+        dependencies?: string[]
+        files?: {
+          type?: string
+          target?: string
+          content?: string
+          path?: string
+        }[]
+      }[]
+    } = {
+      $schema: "https://ui.shadcn.com/schema/registry.json",
+      name: registryConfig.name || "acme",
+      homepage: registryConfig.homepage || "https://acme.com",
+      items: [],
+    }
+
+    registryJson.items = registryJson.items || []
 
     for (const file of configFiles) {
+      if (file === "registry.json") continue
+
       let imports = normalizeImports({
         imports: await getImports({
           filePath: file,
@@ -124,10 +150,6 @@ const main = async () => {
         .replace(/\..*$/, "")
         .replace(/\//g, "-")
 
-      if (imports.data.files.length) {
-        registryMap[name] = file
-      }
-
       const getType = (filePath: string) => {
         return (
           filePath
@@ -140,23 +162,18 @@ const main = async () => {
         )
       }
 
-      let registry: boolean | { [key: string]: any } =
+      let registryItem: boolean | { [key: string]: any } =
         files.includes("registry.json")
       let registryFiles: any = null
 
-      if (registry) {
-        const registryContent = await fs.promises.readFile(
-          "registry.json",
-          "utf-8",
-        )
-        const registryJson = JSON.parse(registryContent)
-        const items = registryJson.items || []
+      if (registryConfig) {
+        const items = registryConfig.items || []
 
-        registry = items.find((item: any) => item.name === name) || {}
+        registryItem = items.find((item: any) => item.name === name) || {}
 
-        if (typeof registry === "object" && registry.files) {
+        if (typeof registryItem === "object" && registryItem.files) {
           registryFiles = await Promise.all(
-            registry.files.map(async (file: { path: string }) => {
+            registryItem.files.map(async (file: { path: string }) => {
               return normalizeImports({
                 imports: await getImports({
                   filePath: file.path,
@@ -185,11 +202,11 @@ const main = async () => {
             }
           })
 
-          delete registry.dependencies
-          delete registry.files
-          delete registry.name
-          delete registry.type
-          delete registry.registryDependencies
+          delete registryItem.dependencies
+          delete registryItem.files
+          delete registryItem.name
+          delete registryItem.type
+          delete registryItem.registryDependencies
         }
       }
 
@@ -219,7 +236,9 @@ const main = async () => {
         $schema: "https://ui.shadcn.com/schema/registry-item.json",
         name,
         type: getType(imports.data.files[0]),
-        dependencies: imports.data.dependencies,
+        ...(imports.data.dependencies.length && {
+          dependencies: imports.data.dependencies,
+        }),
         files: imports.data.files.map((file) => {
           return {
             type: getType(file),
@@ -228,8 +247,17 @@ const main = async () => {
             path: imports.data.orignal[imports.data.files.indexOf(file)],
           }
         }),
-        ...(typeof registry === "object" && registry !== null ? registry : {}),
+        ...(typeof registryItem === "object" && registryItem !== null
+          ? registryItem
+          : {}),
       }
+
+      registryJson.items.push({
+        name: outputData.name,
+        type: outputData.type,
+        dependencies: outputData.dependencies,
+        files: outputData.files.map(({ content, ...rest }) => rest),
+      })
 
       fs.mkdirSync(path.dirname(outputPath), { recursive: true })
       fs.writeFileSync(
@@ -242,7 +270,7 @@ const main = async () => {
     const registryMapPath = path.join("public", "r", "registry.json")
     fs.writeFileSync(
       registryMapPath,
-      JSON.stringify(registryMap, null, 2) + "\n",
+      JSON.stringify(registryJson, null, 2) + "\n",
       "utf-8",
     )
 
