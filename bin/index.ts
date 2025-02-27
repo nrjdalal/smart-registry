@@ -144,6 +144,7 @@ const main = async () => {
         .replace(/^registry\/[^\/]+\/ui\//, "components/ui/")
         .replace(/^registry\/[^\/]+\/hooks\//, "hooks/")
         .replace(/^registry\/[^\/]+\/lib\//, "lib/")
+        .replace(/^registry\//, "")
         .replace(/^blocks\//, "")
         .replace(/^components\/ui\//, "")
         .replace(/^components\//, "")

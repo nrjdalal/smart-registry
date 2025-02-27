@@ -19932,6 +19932,279 @@
       }
     },
     {
+      "name": "comp-530",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/smart-registry/comp-530.tsx",
+          "path": "registry/default/components/comp-530.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "comp-531",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/smart-registry/comp-531.tsx",
+          "path": "registry/default/components/comp-531.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "comp-532",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/smart-registry/comp-532.tsx",
+          "path": "registry/default/components/comp-532.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "comp-533",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/smart-registry/comp-533.tsx",
+          "path": "registry/default/components/comp-533.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "comp-534",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/smart-registry/comp-534.tsx",
+          "path": "registry/default/components/comp-534.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "comp-535",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/smart-registry/comp-535.tsx",
+          "path": "registry/default/components/comp-535.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "comp-536",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/smart-registry/comp-536.tsx",
+          "path": "registry/default/components/comp-536.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "comp-537",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/smart-registry/comp-537.tsx",
+          "path": "registry/default/components/comp-537.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "comp-538",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/smart-registry/comp-538.tsx",
+          "path": "registry/default/components/comp-538.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "comp-539",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/smart-registry/comp-539.tsx",
+          "path": "registry/default/components/comp-539.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
       "name": "comp-54",
       "type": "registry:component",
       "dependencies": [
@@ -19970,6 +20243,60 @@
           "mask"
         ]
       }
+    },
+    {
+      "name": "comp-540",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/smart-registry/comp-540.tsx",
+          "path": "registry/default/components/comp-540.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "comp-541",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/smart-registry/comp-541.tsx",
+          "path": "registry/default/components/comp-541.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
     },
     {
       "name": "comp-55",
@@ -21886,6 +22213,17 @@
       ]
     },
     {
+      "name": "registry-tags",
+      "type": "registry:file",
+      "files": [
+        {
+          "type": "registry:file",
+          "target": "registry/registry-tags.ts",
+          "path": "registry/registry-tags.ts"
+        }
+      ]
+    },
+    {
       "name": "resizable",
       "type": "registry:ui",
       "dependencies": [
@@ -22118,6 +22456,28 @@
           "type": "registry:ui",
           "target": "components/ui/textarea.tsx",
           "path": "registry/default/ui/textarea.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "timeline",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
         },
         {
           "type": "registry:lib",
