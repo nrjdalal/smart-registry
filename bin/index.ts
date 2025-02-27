@@ -154,6 +154,7 @@ const main = async () => {
       })
 
       const name = file
+        .replace(/^src\//, "")
         .replace(/^registry\/[^\/]+\/blocks\//, "blocks/")
         .replace(/^registry\/default\/components\//, `components/`)
         .replace(/^registry\/([^\/]+)\/components\//, "components/$1/")
