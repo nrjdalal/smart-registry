@@ -166,21 +166,59 @@ const main = async () => {
     // ~ Build registry-item for each file in the registry
     for (const filepath of registryFiles) {
       const resolvedData = await resolveData(filepath)
+
+      const cwd = process.cwd().split("/").pop()
+
+      const name = filepath
+        .replace(aliases["@/"], "")
+        .replace(/^registry\//, "")
+        .replace(/^([^\/]+)\/blocks\//, "blocks/$1/")
+        .replace(/^([^\/]+)\/components\//, "components/$1/")
+        .replace(/^([^\/]+)\/hooks\//, "hooks/$1/")
+        .replace(/^([^\/]+)\/lib\//, "lib/$1/")
+        .replace(/^([^\/]+)\/ui\//, "components/ui/$1/")
+        .replace(/\/default\//, `/${cwd}/`)
+        .replace(/\.[^/.]+$/, "")
+
       console.log(
-        `- ${filepath.padEnd(
-          Math.max(...registryFiles.map((f) => f.length)) + 1,
-          " ",
-        )} ${
+        `- ${name.padEnd(50, " ")} ${
           resolvedData.dependencies.length
-            ? "📦" + String(resolvedData.dependencies.length).padEnd(1, " ")
+            ? "📦" + String(resolvedData.dependencies.length).padEnd(2, " ")
             : "   "
         }  ${
           resolvedData.files.length - 1
-            ? "📄" + String(resolvedData.files.length - 1).padEnd(1, " ")
+            ? "📄" + String(resolvedData.files.length - 1).padEnd(2, " ")
             : "   "
         }`,
       )
-      console.log(resolvedData)
+
+      const registryItem = {
+        $schema: "https://ui.shadcn.com/schema/registry-item.json",
+        name,
+        type: "component",
+        ...(resolvedData.dependencies.length && {
+          dependencies: resolvedData.dependencies,
+        }),
+        files: resolvedData.files.map((file) => {
+          return {
+            type: "source",
+            target: file
+              .replace(aliases["@/"], "")
+              .replace(/^registry\//, "")
+              .replace(/^([^\/]+)\/blocks\//, "blocks/$1/")
+              .replace(/^([^\/]+)\/components\//, "components/$1/")
+              .replace(/^([^\/]+)\/hooks\//, "hooks/$1/")
+              .replace(/^([^\/]+)\/lib\//, "lib/$1/")
+              .replace(/^([^\/]+)\/ui\//, "components/ui/$1/")
+              .replace(/\/default\//, `/${cwd}/`)
+              .replace(/\.[^/.]+$/, ""),
+            content: resolvedData.content[file],
+            path: file,
+          }
+        }),
+      }
+
+      console.log(JSON.stringify(registryItem, null, 2))
     }
 
     process.exit(0)
