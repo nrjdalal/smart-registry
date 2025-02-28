@@ -167,172 +167,30 @@ const main = async () => {
     const createConfig = (filepath: string) => {
       filepath = filepath.replace(aliases["@/"], "")
       if (filepath.startsWith("registry/")) {
-        filepath = filepath.replace(/^registry\//, "")
-        if (filepath.startsWith("default/")) {
-          filepath = filepath.replace(/^default\//, "")
-          if (filepath.startsWith("blocks/"))
-            return {
-              name: filepath.replace(/^blocks\//, "").replace(/\.[^/.]+$/, ""),
-              import: "@/" + filepath.replace(/\.[^/.]+$/, ""),
-              target: filepath,
-              type: "registry:block",
-            }
-          if (
-            filepath.startsWith("components/ui") ||
-            filepath.startsWith("ui/")
-          )
-            return {
-              name: filepath
-                .replace(/^components\/ui\//, "")
-                .replace(/^ui\//, "")
-                .replace(/\.[^/.]+$/, ""),
-              import: "@/components/" + filepath.replace(/\.[^/.]+$/, ""),
-              target: "components/" + filepath,
-              type: "registry:ui",
-            }
-          if (filepath.startsWith("components/"))
-            return {
-              name: filepath
-                .replace(/^components\//, "")
-                .replace(/\.[^/.]+$/, ""),
-              import: "@/" + filepath.replace(/\.[^/.]+$/, ""),
-              target: filepath,
-              type: "registry:component",
-            }
-          if (filepath.startsWith("hooks/"))
-            return {
-              name: filepath.replace(/^hooks\//, "").replace(/\.[^/.]+$/, ""),
-              import: "@/" + filepath.replace(/\.[^/.]+$/, ""),
-              target: filepath,
-              type: "registry:hook",
-            }
-          if (filepath.startsWith("lib/"))
-            return {
-              name: filepath.replace(/^lib\//, "").replace(/\.[^/.]+$/, ""),
-              import: "@/" + filepath.replace(/\.[^/.]+$/, ""),
-              target: filepath,
-              type: "registry:lib",
-            }
-          return {
-            name: filepath.replace(/\.[^/.]+$/, ""),
-            import: "@/" + filepath.replace(/\.[^/.]+$/, ""),
-            target: filepath,
-            type: "registry:file",
-          }
-        }
-        if (filepath.startsWith("blocks/"))
-          return {
-            name: filepath.replace(/^blocks\//, "").replace(/\.[^/.]+$/, ""),
-            import: "@/" + filepath.replace(/\.[^/.]+$/, ""),
-            target: filepath,
-            type: "registry:block",
-          }
-        if (filepath.startsWith("components/ui") || filepath.startsWith("ui/"))
-          return {
-            name: filepath.replace(/^ui\//, "").replace(/\.[^/.]+$/, ""),
-            import: "@/" + filepath.replace(/\.[^/.]+$/, ""),
-            target: filepath,
-            type: "registry:ui",
-          }
-        if (filepath.startsWith("components/"))
-          return {
-            name: filepath
-              .replace(/^components\//, "")
-              .replace(/\.[^/.]+$/, ""),
-            import: "@/" + filepath.replace(/\.[^/.]+$/, ""),
-            target: filepath,
-            type: "registry:component",
-          }
-        if (filepath.startsWith("hooks/"))
-          return {
-            name: filepath.replace(/^hooks\//, "").replace(/\.[^/.]+$/, ""),
-            import: "@/" + filepath.replace(/\.[^/.]+$/, ""),
-            target: filepath,
-            type: "registry:hook",
-          }
-        if (filepath.startsWith("lib/"))
-          return {
-            name: filepath.replace(/^lib\//, "").replace(/\.[^/.]+$/, ""),
-            import: "@/" + filepath.replace(/\.[^/.]+$/, ""),
-            target: filepath,
-            type: "registry:lib",
-          }
-        const isFolder = filepath.split("/")
-        if (isFolder.length > 1) {
-          if (isFolder[1] === "blocks")
-            return {
-              name: filepath
-                .replace(/^([^\/]+)\/blocks\//, "$1/")
-                .replace(/\.[^/.]+$/, ""),
-              import:
-                "@/" +
-                filepath
-                  .replace(/^([^\/]+)\/blocks\//, "$1/")
-                  .replace(/\.[^/.]+$/, ""),
-              target: filepath.replace(/^([^\/]+)\/blocks\//, "blocks/$1/"),
-              type: "registry:block",
-            }
-          if (isFolder[1] === "components/ui" || isFolder[1] === "ui")
-            return {
-              name: filepath
-                .replace(/^([^\/]+)\/ui\//, "$1/")
-                .replace(/\.[^/.]+$/, ""),
-              import:
-                "@/" +
-                filepath
-                  .replace(/^([^\/]+)\/ui\//, "$1/")
-                  .replace(/\.[^/.]+$/, ""),
-              target: filepath.replace(/^([^\/]+)\/ui\//, "components/ui/$1/"),
-              type: "registry:ui",
-            }
-          if (isFolder[1] === "components")
-            return {
-              name: filepath
-                .replace(/^([^\/]+)\/components\//, "$1/")
-                .replace(/\.[^/.]+$/, ""),
-              import:
-                "@/" +
-                filepath
-                  .replace(/^([^\/]+)\/components\//, "components/$1/")
-                  .replace(/\.[^/.]+$/, ""),
-              target: filepath.replace(
-                /^([^\/]+)\/components\//,
-                "components/$1/",
-              ),
-              type: "registry:component",
-            }
-          if (isFolder[1] === "hooks")
-            return {
-              name: filepath
-                .replace(/^([^\/]+)\/hooks\//, "$1/")
-                .replace(/\.[^/.]+$/, ""),
-              import:
-                "@/" +
-                filepath
-                  .replace(/^([^\/]+)\/hooks\//, "hooks/$1/")
-                  .replace(/\.[^/.]+$/, ""),
-              target: filepath.replace(/^([^\/]+)\/hooks\//, "hooks/$1/"),
-              type: "registry:hook",
-            }
-          if (isFolder[1] === "lib")
-            return {
-              name: filepath
-                .replace(/^([^\/]+)\/lib\//, "$1/")
-                .replace(/\.[^/.]+$/, ""),
-              import:
-                "@/" +
-                filepath
-                  .replace(/^([^\/]+)\/lib\//, "lib/$1/")
-                  .replace(/\.[^/.]+$/, ""),
-              target: filepath.replace(/^([^\/]+)\/lib\//, "lib/$1/"),
-              type: "registry:lib",
-            }
-        }
+        const transformedPath = filepath
+          .replace(/^registry\//, "")
+          .replace(/^([^\/]+)\/blocks\//, "blocks/$1/")
+          .replace(/^([^\/]+)\/components\/ui\//, "$1/ui/")
+          .replace(/^([^\/]+)\/components\//, "components/$1/")
+          .replace(/^([^\/]+)\/hooks\//, "hooks/$1/")
+          .replace(/^([^\/]+)\/lib\//, "lib/$1/")
+          .replace(/^([^\/]+)\/ui\//, "components/ui/$1/")
+
         return {
-          name: filepath.replace(/^registry\//, "").replace(/\.[^/.]+$/, ""),
-          import: "@/" + filepath.replace(/\.[^/.]+$/, ""),
-          target: filepath,
-          type: "registry:file",
+          type:
+            transformedPath
+              .match(/^(blocks|components\/ui|components|hooks|lib)/)?.[1]
+              .replace("blocks", "registry:block")
+              .replace("components/ui", "registry:ui")
+              .replace("components", "registry:component")
+              .replace("hooks", "registry:hook")
+              .replace("lib", "registry:lib") || "registry:file",
+          name: transformedPath
+            .replace(/\.[^/.]+$/, "")
+            .replace(/^(blocks|components\/ui|components|hooks|lib)\//, ""),
+          import: "@/" + transformedPath.replace(/\.[^/.]+$/, ""),
+          target: transformedPath,
+          path: filepath,
         }
       }
     }

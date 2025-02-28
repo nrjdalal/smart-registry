@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "components/legacy/ui/test",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/legacy/ui/test.tsx",
+      "content": "",
+      "path": "registry/legacy/components/ui/test.tsx"
+    }
+  ]
+}
