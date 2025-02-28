@@ -186,8 +186,8 @@ const main = async () => {
                 .replace(/^components\/ui\//, "")
                 .replace(/^ui\//, "")
                 .replace(/\.[^/.]+$/, ""),
-              import: "@/" + filepath.replace(/\.[^/.]+$/, ""),
-              target: filepath,
+              import: "@/components/" + filepath.replace(/\.[^/.]+$/, ""),
+              target: "components/" + filepath,
               type: "registry:ui",
             }
           if (filepath.startsWith("components/"))
@@ -262,12 +262,12 @@ const main = async () => {
           if (isFolder[1] === "blocks")
             return {
               name: filepath
-                .replace(/^([^\/]+)\/blocks\//, "blocks/$1/")
+                .replace(/^([^\/]+)\/blocks\//, "$1/")
                 .replace(/\.[^/.]+$/, ""),
               import:
                 "@/" +
                 filepath
-                  .replace(/^([^\/]+)\/blocks\//, "blocks/$1/")
+                  .replace(/^([^\/]+)\/blocks\//, "$1/")
                   .replace(/\.[^/.]+$/, ""),
               target: filepath.replace(/^([^\/]+)\/blocks\//, "blocks/$1/"),
               type: "registry:block",
@@ -275,12 +275,12 @@ const main = async () => {
           if (isFolder[1] === "components/ui" || isFolder[1] === "ui")
             return {
               name: filepath
-                .replace(/^([^\/]+)\/ui\//, "components/ui/$1/")
+                .replace(/^([^\/]+)\/ui\//, "$1/")
                 .replace(/\.[^/.]+$/, ""),
               import:
                 "@/" +
                 filepath
-                  .replace(/^([^\/]+)\/ui\//, "components/ui/$1/")
+                  .replace(/^([^\/]+)\/ui\//, "$1/")
                   .replace(/\.[^/.]+$/, ""),
               target: filepath.replace(/^([^\/]+)\/ui\//, "components/ui/$1/"),
               type: "registry:ui",
@@ -288,7 +288,7 @@ const main = async () => {
           if (isFolder[1] === "components")
             return {
               name: filepath
-                .replace(/^([^\/]+)\/components\//, "components/$1/")
+                .replace(/^([^\/]+)\/components\//, "$1/")
                 .replace(/\.[^/.]+$/, ""),
               import:
                 "@/" +
@@ -304,7 +304,7 @@ const main = async () => {
           if (isFolder[1] === "hooks")
             return {
               name: filepath
-                .replace(/^([^\/]+)\/hooks\//, "hooks/$1/")
+                .replace(/^([^\/]+)\/hooks\//, "$1/")
                 .replace(/\.[^/.]+$/, ""),
               import:
                 "@/" +
@@ -317,7 +317,7 @@ const main = async () => {
           if (isFolder[1] === "lib")
             return {
               name: filepath
-                .replace(/^([^\/]+)\/lib\//, "lib/$1/")
+                .replace(/^([^\/]+)\/lib\//, "$1/")
                 .replace(/\.[^/.]+$/, ""),
               import:
                 "@/" +
