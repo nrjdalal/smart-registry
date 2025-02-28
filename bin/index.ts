@@ -218,7 +218,6 @@ const main = async () => {
       }
 
       // ~ Sort dependencies and files
-
       data.dependencies.sort()
       data.files.sort((a, b) =>
         tranformer(a).target.localeCompare(tranformer(b).target),
