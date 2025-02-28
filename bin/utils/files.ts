@@ -101,14 +101,17 @@ export const getImports = async ({
         aliases[aliasKey],
         importFrom.slice(aliasKey.length),
       )
+
       resolvedPath =
-        files.find((file) => file.startsWith(resolvedPath + ".")) || ""
+        files.find((file) => file.startsWith(resolvedPath + ".")) ||
+        resolvedPath
       if (!data.files.includes(resolvedPath)) {
         data.files.push(resolvedPath)
       }
     } else if (importFrom.startsWith(".")) {
       let resolvedPath = path.join(path.dirname(filePath), importFrom)
-      resolvedPath = files.find((file) => file.startsWith(resolvedPath)) || ""
+      resolvedPath =
+        files.find((file) => file.startsWith(resolvedPath)) || resolvedPath
       if (!data.files.includes(resolvedPath)) {
         data.files.push(resolvedPath)
       }
@@ -197,13 +200,7 @@ export const normalizeImports = ({
       return [
         key,
         value
-          .replace(/import\s+['"](.*)['"]/, (match, p1) => {
-            const aliasKey = Object.keys(aliases).find((alias) =>
-              p1.startsWith(alias),
-            )
-            if (aliasKey) {
-              return `import "${p1.replace(aliasKey, aliases[aliasKey])}"`
-            }
+          .replace(/import\s+['"](.*)['"]/, (match) => {
             return match
           })
           .replace(/@\/registry\/[^\/]+\/blocks\//g, "@/blocks/")

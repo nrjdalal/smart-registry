@@ -153,6 +153,8 @@ const main = async () => {
         aliases,
       })
 
+      console.log(`Processing ${file}`)
+
       const name = file
         .replace(/^src\//, "")
         .replace(/^registry\/[^\/]+\/blocks\//, "blocks/")
