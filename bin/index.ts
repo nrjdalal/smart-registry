@@ -167,32 +167,30 @@ const main = async () => {
     const createConfig = (filepath: string) => {
       const cwd = process.cwd().split("/").pop()
       filepath = filepath.replace(aliases["@/"], "")
-      if (filepath.startsWith("registry/")) {
-        const transformedPath = filepath
-          .replace(/^registry\//, "")
-          .replace(/^([^\/]+)\/blocks\//, "blocks/$1/")
-          .replace(/^([^\/]+)\/components\/ui\//, "$1/ui/")
-          .replace(/^([^\/]+)\/components\//, "components/$1/")
-          .replace(/^([^\/]+)\/hooks\//, "hooks/$1/")
-          .replace(/^([^\/]+)\/lib\//, "lib/$1/")
-          .replace(/^([^\/]+)\/ui\//, "components/ui/$1/")
-          .replace(/\/default\//, `/${cwd}/`)
-        return {
-          type:
-            transformedPath
-              .match(/^(blocks|components\/ui|components|hooks|lib)/)?.[1]
-              .replace("blocks", "registry:block")
-              .replace("components/ui", "registry:ui")
-              .replace("components", "registry:component")
-              .replace("hooks", "registry:hook")
-              .replace("lib", "registry:lib") || "registry:file",
-          name: transformedPath
-            .replace(/^(blocks|components\/ui|components|hooks|lib)\//, "")
-            .replace(/\.[^\/.]+$/, ""),
-          import: "@/" + transformedPath.replace(/\.[^/.]+$/, ""),
-          target: transformedPath,
-          path: filepath,
-        }
+      const transformedPath = filepath
+        .replace(/^registry\//, "")
+        .replace(/^([^\/]+)\/blocks\//, "blocks/$1/")
+        .replace(/^([^\/]+)\/components\/ui\//, "$1/ui/")
+        .replace(/^([^\/]+)\/components\//, "components/$1/")
+        .replace(/^([^\/]+)\/hooks\//, "hooks/$1/")
+        .replace(/^([^\/]+)\/lib\//, "lib/$1/")
+        .replace(/^([^\/]+)\/ui\//, "components/ui/$1/")
+        .replace(/\/default\//, `/${cwd}/`)
+      return {
+        type:
+          transformedPath
+            .match(/^(blocks|components\/ui|components|hooks|lib)/)?.[1]
+            .replace("blocks", "registry:block")
+            .replace("components/ui", "registry:ui")
+            .replace("components", "registry:component")
+            .replace("hooks", "registry:hook")
+            .replace("lib", "registry:lib") || "registry:file",
+        name: transformedPath
+          .replace(/^(blocks|components\/ui|components|hooks|lib)\//, "")
+          .replace(/\.[^\/.]+$/, ""),
+        import: "@/" + transformedPath.replace(/\.[^/.]+$/, ""),
+        target: transformedPath,
+        path: filepath,
       }
     }
 
