@@ -266,24 +266,10 @@ const main = async () => {
           ?.files?.map((file: { path?: string }) => file.path) || []),
       ])
 
-      console.log(
-        `- ${filePath.padEnd(50, " ")} ${
-          resolvedData.dependencies.length
-            ? "📦" + String(resolvedData.dependencies.length).padEnd(2, " ")
-            : "   "
-        }  ${
-          resolvedData.files.length - 1
-            ? "📄" + String(resolvedData.files.length - 1).padEnd(2, " ")
-            : "   "
-        }`,
-      )
-
       const registryItem = {
-        $schema:
-          "https://raw.githubusercontent.com/nrjdalal/smart-registry/refs/heads/main/schemas/item.json",
+        $schema: "https://ui.shadcn.com/schema/registry-item.json",
         name: tranformer(filePath).name,
         type: tranformer(filePath).type || "registry:file",
-        // dependencies: resolvedData.dependencies,
         ...(resolvedData.dependencies.length && {
           dependencies: resolvedData.dependencies,
         }),
@@ -313,6 +299,22 @@ const main = async () => {
         "public/r",
         registryItem.name + ".json",
       )
+
+      console.log(
+        `- ${filePath.padEnd(
+          Math.max(...registryFiles.map((file) => file.length)) + 2,
+          " ",
+        )} ${
+          resolvedData.dependencies.length
+            ? "📦" + String(resolvedData.dependencies.length).padEnd(2, " ")
+            : "    "
+        }  ${
+          resolvedData.files.length - 1
+            ? "📄" + String(resolvedData.files.length).padEnd(2, " ")
+            : "    "
+        }   ${registryItemPath.replace(process.cwd() + "/", "")}`,
+      )
+
       await fs.promises.mkdir(path.dirname(registryItemPath), {
         recursive: true,
       })

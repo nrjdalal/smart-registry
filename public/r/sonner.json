@@ -1,10 +1,10 @@
 {
-  "$schema": "https://raw.githubusercontent.com/nrjdalal/smart-registry/refs/heads/main/schemas/item.json",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "sonner",
   "type": "registry:ui",
   "dependencies": [
-    "next-themes",
-    "sonner"
+    "sonner",
+    "next-themes"
   ],
   "files": [
     {

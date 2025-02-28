@@ -1,14 +1,10 @@
 {
-  "$schema": "https://raw.githubusercontent.com/nrjdalal/smart-registry/refs/heads/main/schemas/item.json",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "calendar-rac",
   "type": "registry:ui",
   "dependencies": [
-    "@internationalized/date",
-    "clsx",
-    "lucide-react",
-    "react",
     "react-aria-components",
-    "tailwind-merge"
+    "@internationalized/date"
   ],
   "files": [
     {

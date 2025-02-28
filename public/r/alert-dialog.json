@@ -1,14 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/nrjdalal/smart-registry/refs/heads/main/schemas/item.json",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "alert-dialog",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-alert-dialog",
-    "@radix-ui/react-slot",
-    "class-variance-authority",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "@radix-ui/react-alert-dialog"
   ],
   "files": [
     {
@@ -29,5 +24,8 @@
       "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
+  ],
+  "registryDependencies": [
+    "https://originui.com/r/button.json"
   ]
 }

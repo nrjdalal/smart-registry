@@ -1,12 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/nrjdalal/smart-registry/refs/heads/main/schemas/item.json",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "tabs",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-tabs",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "@radix-ui/react-tabs"
   ],
   "files": [
     {

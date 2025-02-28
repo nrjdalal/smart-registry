@@ -1,14 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/nrjdalal/smart-registry/refs/heads/main/schemas/item.json",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "command",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-dialog",
-    "clsx",
-    "cmdk",
-    "lucide-react",
-    "react",
-    "tailwind-merge"
+    "cmdk@1.0.0"
   ],
   "files": [
     {
@@ -29,5 +24,8 @@
       "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
+  ],
+  "registryDependencies": [
+    "dialog"
   ]
 }

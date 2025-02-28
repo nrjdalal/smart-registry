@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/nrjdalal/smart-registry/refs/heads/main/schemas/item.json",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-125",
   "type": "registry:component",
   "dependencies": [
@@ -30,11 +30,20 @@
       "path": "registry/default/hooks/use-image-upload.ts"
     },
     {
+      "type": "registry:hook",
+      "target": "hooks/use-image-upload.ts",
+      "content": "\"use client\"\n\nimport { useCallback, useEffect, useRef, useState } from \"react\"\n\ninterface UseImageUploadProps {\n  onUpload?: (url: string) => void\n}\n\nexport function useImageUpload({ onUpload }: UseImageUploadProps = {}) {\n  const previewRef = useRef<string | null>(null)\n  const fileInputRef = useRef<HTMLInputElement>(null)\n  const [previewUrl, setPreviewUrl] = useState<string | null>(null)\n  const [fileName, setFileName] = useState<string | null>(null)\n\n  const handleThumbnailClick = useCallback(() => {\n    fileInputRef.current?.click()\n  }, [])\n\n  const handleFileChange = useCallback(\n    (event: React.ChangeEvent<HTMLInputElement>) => {\n      const file = event.target.files?.[0]\n      if (file) {\n        setFileName(file.name)\n        const url = URL.createObjectURL(file)\n        setPreviewUrl(url)\n        previewRef.current = url\n        onUpload?.(url)\n      }\n    },\n    [onUpload],\n  )\n\n  const handleRemove = useCallback(() => {\n    if (previewUrl) {\n      URL.revokeObjectURL(previewUrl)\n    }\n    setPreviewUrl(null)\n    setFileName(null)\n    previewRef.current = null\n    if (fileInputRef.current) {\n      fileInputRef.current.value = \"\"\n    }\n  }, [previewUrl])\n\n  useEffect(() => {\n    return () => {\n      if (previewRef.current) {\n        URL.revokeObjectURL(previewRef.current)\n      }\n    }\n  }, [])\n\n  return {\n    previewUrl,\n    fileName,\n    fileInputRef,\n    handleThumbnailClick,\n    handleFileChange,\n    handleRemove,\n  }\n}\n",
+      "path": "registry/default/hooks/use-image-upload.ts"
+    },
+    {
       "type": "registry:lib",
       "target": "lib/utils.ts",
       "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
+  ],
+  "registryDependencies": [
+    "https://originui.com/r/button.json"
   ],
   "meta": {
     "tags": [

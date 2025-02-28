@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/nrjdalal/smart-registry/refs/heads/main/schemas/item.json",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-62",
   "type": "registry:component",
   "dependencies": [
@@ -14,6 +14,12 @@
       "target": "components/comp-62.tsx",
       "content": "import { Label } from \"@/components/ui/label\"\nimport { Textarea } from \"@/components/ui/textarea\"\nimport { useId } from \"react\"\n\nexport default function Component() {\n  const id = useId()\n  return (\n    <div className=\"*:not-first:mt-2\">\n      <div className=\"flex items-center justify-between gap-1\">\n        <Label htmlFor={id} className=\"leading-6\">\n          Textarea with hint\n        </Label>\n        <span className=\"text-muted-foreground text-sm\">Optional</span>\n      </div>\n      <Textarea id={id} placeholder=\"Leave a comment\" />\n    </div>\n  )\n}\n",
       "path": "registry/default/components/comp-62.tsx"
+    },
+    {
+      "type": "registry:component",
+      "target": "components/comp-63.tsx",
+      "content": "import { Label } from \"@/components/ui/label\"\nimport { Textarea } from \"@/components/ui/textarea\"\nimport { useId } from \"react\"\n\nexport default function Component() {\n  const id = useId()\n  return (\n    <div className=\"[--ring:var(--color-indigo-300)] *:not-first:mt-2 in-[.dark]:[--ring:var(--color-indigo-900)]\">\n      <Label htmlFor={id}>Textarea with colored border and ring</Label>\n      <Textarea id={id} placeholder=\"Leave a comment\" />\n    </div>\n  )\n}\n",
+      "path": "registry/default/components/comp-63.tsx"
     },
     {
       "type": "registry:ui",
@@ -33,6 +39,10 @@
       "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
+  ],
+  "registryDependencies": [
+    "https://originui.com/r/label.json",
+    "https://originui.com/r/textarea.json"
   ],
   "meta": {
     "tags": [

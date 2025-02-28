@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/nrjdalal/smart-registry/refs/heads/main/schemas/item.json",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-333",
   "type": "registry:component",
   "dependencies": [
@@ -36,6 +36,9 @@
       "path": "registry/default/lib/utils.ts"
     }
   ],
+  "registryDependencies": [
+    "https://originui.com/r/command.json"
+  ],
   "meta": {
     "tags": [
       "dialog",
@@ -46,8 +49,7 @@
       "search",
       "radix",
       "autocomplete",
-      "radix",
-      null
+      "radix"
     ],
     "style": 1
   }

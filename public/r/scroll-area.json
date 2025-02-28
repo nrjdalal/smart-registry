@@ -1,12 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/nrjdalal/smart-registry/refs/heads/main/schemas/item.json",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "scroll-area",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-scroll-area",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "@radix-ui/react-scroll-area"
   ],
   "files": [
     {

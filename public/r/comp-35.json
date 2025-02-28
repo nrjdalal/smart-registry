@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/nrjdalal/smart-registry/refs/heads/main/schemas/item.json",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-35",
   "type": "registry:component",
   "dependencies": [
@@ -34,11 +34,21 @@
       "path": "registry/default/hooks/use-character-limit.ts"
     },
     {
+      "type": "registry:hook",
+      "target": "hooks/use-character-limit.ts",
+      "content": "\"use client\"\n\nimport { ChangeEvent, useState } from \"react\"\n\ntype UseCharacterLimitProps = {\n  maxLength: number\n  initialValue?: string\n}\n\nexport function useCharacterLimit({\n  maxLength,\n  initialValue = \"\",\n}: UseCharacterLimitProps) {\n  const [value, setValue] = useState(initialValue)\n  const [characterCount, setCharacterCount] = useState(initialValue.length)\n\n  const handleChange = (\n    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,\n  ) => {\n    const newValue = e.target.value\n    if (newValue.length <= maxLength) {\n      setValue(newValue)\n      setCharacterCount(newValue.length)\n    }\n  }\n\n  return {\n    value,\n    characterCount,\n    handleChange,\n    maxLength,\n  }\n}\n",
+      "path": "registry/default/hooks/use-character-limit.ts"
+    },
+    {
       "type": "registry:lib",
       "target": "lib/utils.ts",
       "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
+  ],
+  "registryDependencies": [
+    "https://originui.com/r/input.json",
+    "https://originui.com/r/label.json"
   ],
   "meta": {
     "tags": [

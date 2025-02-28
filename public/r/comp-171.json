@@ -1,13 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/nrjdalal/smart-registry/refs/heads/main/schemas/item.json",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-171",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-radio-group",
-    "@remixicon/react",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "@remixicon/react"
   ],
   "files": [
     {
@@ -28,6 +24,9 @@
       "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
+  ],
+  "registryDependencies": [
+    "https://originui.com/r/radio-group.json"
   ],
   "meta": {
     "tags": [

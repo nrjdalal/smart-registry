@@ -1,13 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/nrjdalal/smart-registry/refs/heads/main/schemas/item.json",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-50",
   "type": "registry:component",
   "dependencies": [
-    "clsx",
-    "lucide-react",
-    "react",
-    "react-payment-inputs",
-    "tailwind-merge"
+    "react-payment-inputs"
   ],
   "files": [
     {
@@ -28,6 +24,10 @@
       "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
+  ],
+  "registryDependencies": [
+    "https://originui.com/r/input.json",
+    "https://originui.com/r/label.json"
   ],
   "devDependencies": [
     "@types/react-payment-inputs"
