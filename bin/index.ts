@@ -135,8 +135,16 @@ const main = async () => {
             realPath
           if (!data.files.includes(realPath)) data.files.push(realPath)
         } else {
+          const ignoredDeps = ["fs", "path", "util"]
           const pkg = importAddress.split("/").slice(0, 2).join("/")
-          if (!data.dependencies.includes(pkg)) data.dependencies.push(pkg)
+          const isValidPackage = /^[a-zA-Z0-9@/]+$/.test(pkg)
+          if (
+            isValidPackage &&
+            !ignoredDeps.includes(pkg) &&
+            !data.dependencies.includes(pkg)
+          ) {
+            data.dependencies.push(pkg)
+          }
         }
       }
 
@@ -157,10 +165,13 @@ const main = async () => {
 
     // ~ Build registry-item for each file in the registry
     for (const filepath of registryFiles) {
-      console.log(`- ${filepath}`)
-
       const resolvedData = await resolveData(filepath)
-      console.log(resolvedData)
+      console.log(
+        `- ${filepath.padEnd(
+          Math.max(...registryFiles.map((f) => f.length)),
+          " ",
+        )} ${resolvedData.dependencies.length} deps ${resolvedData.files.length} files`,
+      )
     }
 
     process.exit(0)
