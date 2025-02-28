@@ -117,7 +117,7 @@ const main = async () => {
 
     // ~ Resolve all dependencies, files, and content for each file in the registry
     const resolveData = async (
-      filePath: string,
+      filePaths: string[],
       resolved = new Set<string>(),
     ) => {
       const data = {
@@ -126,63 +126,66 @@ const main = async () => {
         content: {} as Record<string, string>,
       }
 
-      if (resolved.has(filePath)) {
-        return data
-      } else {
-        resolved.add(filePath)
-      }
+      for (const filePath of filePaths) {
+        if (resolved.has(filePath)) {
+          continue
+        } else {
+          resolved.add(filePath)
+        }
 
-      data.files.push(filePath)
+        data.files.push(filePath)
 
-      data.content[filePath] =
-        data.content[filePath] || (await fs.promises.readFile(filePath, "utf8"))
+        data.content[filePath] =
+          data.content[filePath] ||
+          (await fs.promises.readFile(filePath, "utf8"))
 
-      const importStatements = data.content[filePath].match(
-        /import\s+.*\s+from\s+['"](.*)['"]|import\s+['"](.*)['"]|import\s*{[^}]*}\s*from\s*['"](.*)['"]/g,
-      )
-
-      if (!importStatements) return data
-
-      const imports = importStatements.map(
-        (statement) => statement.match(/['"](.*)['"]/)?.[1] as string,
-      )
-
-      for (const importAddress of imports) {
-        const isAliased = Object.keys(aliases).some((alias) =>
-          importAddress.startsWith(alias),
+        const importStatements = data.content[filePath].match(
+          /import\s+[\s\S]+?from\s+['"][^'"]+['"]|import\s+['"][^'"]+['"]|import\s+type\s+[\s\S]+?from\s+['"][^'"]+['"]/g,
         )
 
-        if (isAliased) {
-          let realPath = resolvePath(importAddress, aliases)
-          realPath =
-            files.find((f) => f.startsWith(realPath + ".")) ||
-            files.find((f) => f.startsWith(realPath + "/index")) ||
-            realPath
-          if (!data.files.includes(realPath)) data.files.push(realPath)
-        } else if (importAddress.startsWith(".")) {
-          let realPath = path.resolve(path.dirname(filePath), importAddress)
-          realPath =
-            files.find((f) => f.startsWith(realPath + ".")) ||
-            files.find((f) => f.startsWith(realPath + "/index")) ||
-            realPath
-          if (!data.files.includes(realPath)) data.files.push(realPath)
-        } else {
-          const ignoredDeps = ["fs", "path", "util"]
-          let pkg = importAddress.split("/").slice(0, 2).join("/")
-          pkg = pkg.startsWith("@") ? pkg : pkg.split("/")[0]
-          const isValidPackage = /^[a-zA-Z0-9@/-]+$/.test(pkg)
-          if (
-            isValidPackage &&
-            !ignoredDeps.includes(pkg) &&
-            !data.dependencies.includes(pkg)
-          ) {
-            data.dependencies.push(pkg)
+        if (!importStatements) continue
+
+        const imports = importStatements.map(
+          (statement) => statement.match(/['"](.*)['"]/)?.[1] as string,
+        )
+
+        for (const importAddress of imports) {
+          const isAliased = Object.keys(aliases).some((alias) =>
+            importAddress.startsWith(alias),
+          )
+
+          if (isAliased) {
+            let realPath = resolvePath(importAddress, aliases)
+            realPath =
+              files.find((f) => f.startsWith(realPath + ".")) ||
+              files.find((f) => f.startsWith(realPath + "/index")) ||
+              realPath
+            if (!data.files.includes(realPath)) data.files.push(realPath)
+          } else if (importAddress.startsWith(".")) {
+            let realPath = path.resolve(path.dirname(filePath), importAddress)
+            realPath =
+              files.find((f) => f.startsWith(realPath + ".")) ||
+              files.find((f) => f.startsWith(realPath + "/index")) ||
+              realPath
+            if (!data.files.includes(realPath)) data.files.push(realPath)
+          } else {
+            const ignoredDeps = ["fs", "path", "util"]
+            let pkg = importAddress.split("/").slice(0, 2).join("/")
+            pkg = pkg.startsWith("@") ? pkg : pkg.split("/")[0]
+            const isValidPackage = /^[a-zA-Z0-9@/-]+$/.test(pkg)
+            if (
+              isValidPackage &&
+              !ignoredDeps.includes(pkg) &&
+              !data.dependencies.includes(pkg)
+            ) {
+              data.dependencies.push(pkg)
+            }
           }
         }
       }
 
       for (const file of data.files) {
-        const newData = await resolveData(file, resolved)
+        const newData = await resolveData([file], resolved)
         newData.dependencies.forEach((dep) => {
           if (!data.dependencies.includes(dep)) data.dependencies.push(dep)
         })
@@ -196,7 +199,7 @@ const main = async () => {
       // ~ Replace import statements with transformed import paths
       for (const file of data.files) {
         data.content[file] = data.content[file].replace(
-          /import\s+.*\s+from\s+['"](.*)['"]|import\s+['"](.*)['"]|import\s*{[^}]*}\s*from\s*['"](.*)['"]/g,
+          /import\s+[\s\S]+?from\s+['"][^'"]+['"]|import\s+['"][^'"]+['"]|import\s+type\s+[\s\S]+?from\s+['"][^'"]+['"]/g,
           (statement) => {
             const importAddress = statement.match(/['"](.*)['"]/)?.[1] as string
             const isAliased = Object.keys(aliases).some((alias) =>
@@ -239,9 +242,24 @@ const main = async () => {
       return data
     }
 
+    // ~ Read registry.json file if it exists
+    const registryPath = path.resolve(process.cwd(), "registry.json")
+
+    let registry: Record<string, any> = {}
+
+    if (fs.existsSync(registryPath)) {
+      registry = JSON.parse(await fs.promises.readFile(registryPath, "utf8"))
+    }
+
     // ~ Build registry-item for each file in the registry
     for (const filePath of registryFiles) {
-      const resolvedData = await resolveData(filePath)
+      const resolvedData = await resolveData([
+        filePath,
+        // ~ If registry has keys items, find the item with the same name as the current file and if that item has files, add their file path to the resolved data
+        ...(registry.items
+          ?.find((item: any) => item.name === tranformer(filePath).name)
+          ?.files?.map((file: { path?: string }) => file.path) || []),
+      ])
 
       console.log(
         `- ${filePath.padEnd(50, " ")} ${
@@ -257,19 +275,28 @@ const main = async () => {
 
       const registryItem = {
         $schema: "https://ui.shadcn.com/schema/registry-item.json",
-        name: tranformer(filePath)?.name || filePath,
-        type: tranformer(filePath)?.type || "registry:file",
-        ...(resolvedData.dependencies.length && {
-          dependencies: resolvedData.dependencies,
-        }),
+        name: tranformer(filePath).name,
+        type: tranformer(filePath).type || "registry:file",
+        dependencies: resolvedData.dependencies,
         files: resolvedData.files.map((file) => {
           return {
-            type: tranformer(file)?.type || "registry:file",
-            target: tranformer(file)?.target || file,
+            type: tranformer(file).type || "registry:file",
+            target: tranformer(file).target || file,
             content: resolvedData.content[file],
             path: file,
           }
         }),
+        // ~ Add properties from the registry.json items, which don't exist in the resolved registry-item
+        ...Object.fromEntries(
+          Object.entries(
+            registry.items?.find(
+              (item: { name?: string }) =>
+                item.name === tranformer(filePath).name,
+            ) || {},
+          ).filter(
+            ([key]) => !["$schema", "name", "type", "files"].includes(key),
+          ),
+        ),
       }
 
       const registryItemPath = path.resolve(
