@@ -138,7 +138,7 @@ const main = async () => {
         data.content[filePath] || (await fs.promises.readFile(filePath, "utf8"))
 
       const importStatements = data.content[filePath].match(
-        /import\s+.*\s+from\s+['"](.*)['"]|import\s+['"](.*)['"]/g,
+        /import\s+.*\s+from\s+['"](.*)['"]|import\s+['"](.*)['"]|import\s*{[^}]*}\s*from\s*['"](.*)['"]/g,
       )
 
       if (!importStatements) return data
@@ -196,7 +196,7 @@ const main = async () => {
       // ~ Replace import statements with transformed import paths
       for (const file of data.files) {
         data.content[file] = data.content[file].replace(
-          /import\s+.*\s+from\s+['"](.*)['"]|import\s+['"](.*)['"]/g,
+          /import\s+.*\s+from\s+['"](.*)['"]|import\s+['"](.*)['"]|import\s*{[^}]*}\s*from\s*['"](.*)['"]/g,
           (statement) => {
             const importAddress = statement.match(/['"](.*)['"]/)?.[1] as string
             const isAliased = Object.keys(aliases).some((alias) =>
