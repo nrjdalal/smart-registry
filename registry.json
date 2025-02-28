@@ -37,132 +37,100 @@
       }
     },
     {
-      "name": "alert-dialog",
-      "type": "registry:ui"
+      "name": "alert-dialog"
     },
     {
-      "name": "avatar",
-      "type": "registry:ui"
+      "name": "avatar"
     },
     {
-      "name": "badge",
-      "type": "registry:ui"
+      "name": "badge"
     },
     {
-      "name": "breadcrumb",
-      "type": "registry:ui"
+      "name": "breadcrumb"
     },
     {
-      "name": "button",
-      "type": "registry:ui"
+      "name": "button"
     },
     {
-      "name": "calendar",
-      "type": "registry:ui"
+      "name": "calendar"
     },
     {
-      "name": "calendar-rac",
-      "type": "registry:ui"
+      "name": "calendar-rac"
     },
     {
-      "name": "checkbox",
-      "type": "registry:ui"
+      "name": "checkbox"
     },
     {
-      "name": "checkbox-tree",
-      "type": "registry:ui"
+      "name": "checkbox-tree"
     },
     {
-      "name": "collapsible",
-      "type": "registry:ui"
+      "name": "collapsible"
     },
     {
-      "name": "command",
-      "type": "registry:ui"
+      "name": "command"
     },
     {
-      "name": "datefield-rac",
-      "type": "registry:ui"
+      "name": "datefield-rac"
     },
     {
-      "name": "dialog",
-      "type": "registry:ui"
+      "name": "dialog"
     },
     {
-      "name": "dropdown-menu",
-      "type": "registry:ui"
+      "name": "dropdown-menu"
     },
     {
-      "name": "hover-card",
-      "type": "registry:ui"
+      "name": "hover-card"
     },
     {
-      "name": "input",
-      "type": "registry:ui"
+      "name": "input"
     },
     {
-      "name": "label",
-      "type": "registry:ui"
+      "name": "label"
     },
     {
-      "name": "multiselect",
-      "type": "registry:ui"
+      "name": "multiselect"
     },
     {
-      "name": "pagination",
-      "type": "registry:ui"
+      "name": "pagination"
     },
     {
-      "name": "popover",
-      "type": "registry:ui"
+      "name": "popover"
     },
     {
-      "name": "radio-group",
-      "type": "registry:ui"
+      "name": "radio-group"
     },
     {
-      "name": "scroll-area",
-      "type": "registry:ui"
+      "name": "scroll-area"
     },
     {
-      "name": "select-native",
-      "type": "registry:ui"
+      "name": "select-native"
     },
     {
-      "name": "select",
-      "type": "registry:ui"
+      "name": "select"
     },
     {
-      "name": "slider",
-      "type": "registry:ui"
+      "name": "slider"
     },
     {
-      "name": "sonner",
-      "type": "registry:ui"
+      "name": "sonner"
     },
     {
-      "name": "stepper",
-      "type": "registry:ui"
+      "name": "stepper"
     },
     {
-      "name": "switch",
-      "type": "registry:ui"
+      "name": "switch"
     },
     {
-      "name": "table",
-      "type": "registry:ui"
+      "name": "table"
     },
     {
-      "name": "tabs",
-      "type": "registry:ui"
+      "name": "tabs"
     },
     {
-      "name": "textarea",
-      "type": "registry:ui"
+      "name": "textarea"
     },
     {
       "name": "toast",
-      "type": "registry:ui",
       "files": [
         {
           "path": "registry/default/ui/toaster.tsx",
@@ -171,331 +139,280 @@
       ]
     },
     {
-      "name": "toggle",
-      "type": "registry:ui"
+      "name": "toggle"
     },
     {
-      "name": "toggle-group",
-      "type": "registry:ui"
+      "name": "toggle-group"
     },
     {
-      "name": "tooltip",
-      "type": "registry:ui"
+      "name": "tooltip"
     },
     {
-      "name": "use-character-limit",
-      "type": "registry:hook"
+      "name": "use-character-limit"
     },
     {
-      "name": "use-image-upload",
-      "type": "registry:hook"
+      "name": "use-image-upload"
     },
     {
-      "name": "use-pagination",
-      "type": "registry:hook"
+      "name": "use-pagination"
     },
     {
-      "name": "use-slider-with-input",
-      "type": "registry:hook"
+      "name": "use-slider-with-input"
     },
     {
-      "name": "use-toast",
-      "type": "registry:hook"
+      "name": "use-toast"
     },
     {
-      "name": "utils",
-      "type": "registry:lib"
+      "name": "utils"
     },
     {
       "name": "comp-01",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-02",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "required"]
       }
     },
     {
       "name": "comp-03",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "helper"]
       }
     },
     {
       "name": "comp-04",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "hint"]
       }
     },
     {
       "name": "comp-05",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-06",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "error"]
       }
     },
     {
       "name": "comp-07",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-08",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "disabled"]
       }
     },
     {
       "name": "comp-09",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-10",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-11",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-12",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-13",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-14",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-15",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-16",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-17",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "select", "native select"]
       }
     },
     {
       "name": "comp-18",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "select", "native select"]
       }
     },
     {
       "name": "comp-19",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "button"]
       }
     },
     {
       "name": "comp-20",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "button"]
       }
     },
     {
       "name": "comp-21",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "button"]
       }
     },
     {
       "name": "comp-22",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "button"]
       }
     },
     {
       "name": "comp-23",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "button", "password"]
       }
     },
     {
       "name": "comp-24",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "button"]
       }
     },
     {
       "name": "comp-25",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "search", "kbd"]
       }
     },
     {
       "name": "comp-26",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "button", "search"]
       }
     },
     {
       "name": "comp-27",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "button", "search"]
       }
     },
     {
       "name": "comp-28",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "button", "number", "react aria"]
       }
     },
     {
       "name": "comp-29",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "button", "number", "react aria"]
       }
     },
     {
       "name": "comp-30",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "file"]
       }
     },
     {
       "name": "comp-31",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-32",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-33",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-34",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-35",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label"]
       }
     },
     {
       "name": "comp-36",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "date", "react aria"]
       }
     },
     {
       "name": "comp-37",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "date", "react aria"]
       }
     },
     {
       "name": "comp-38",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "date", "react aria"]
       }
     },
     {
       "name": "comp-39",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "date", "react aria"]
       }
     },
     {
       "name": "comp-40",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "date", "react aria"]
       }
     },
     {
       "name": "comp-41",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "date", "calendar", "picker", "react aria"]
       }
     },
     {
       "name": "comp-42",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "input",
@@ -510,7 +427,6 @@
     },
     {
       "name": "comp-43",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "input",
@@ -525,28 +441,24 @@
     },
     {
       "name": "comp-44",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "otp"]
       }
     },
     {
       "name": "comp-45",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "otp"]
       }
     },
     {
       "name": "comp-46",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "phone"]
       }
     },
     {
       "name": "comp-47",
-      "type": "registry:component",
       "devDependencies": ["@types/react-payment-inputs"],
       "meta": {
         "tags": ["input", "label", "checkout", "payment", "credit card", "form"]
@@ -554,7 +466,6 @@
     },
     {
       "name": "comp-48",
-      "type": "registry:component",
       "devDependencies": ["@types/react-payment-inputs"],
       "meta": {
         "tags": ["input", "label", "checkout", "payment", "credit card", "form"]
@@ -562,7 +473,6 @@
     },
     {
       "name": "comp-49",
-      "type": "registry:component",
       "devDependencies": ["@types/react-payment-inputs"],
       "meta": {
         "tags": ["input", "label", "checkout", "payment", "credit card", "form"]
@@ -570,7 +480,6 @@
     },
     {
       "name": "comp-50",
-      "type": "registry:component",
       "devDependencies": ["@types/react-payment-inputs"],
       "meta": {
         "tags": ["input", "label", "checkout", "payment", "credit card", "form"]
@@ -578,196 +487,168 @@
     },
     {
       "name": "comp-51",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "password"]
       }
     },
     {
       "name": "comp-52",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "read-only"]
       }
     },
     {
       "name": "comp-53",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "copy"]
       }
     },
     {
       "name": "comp-54",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "mask"]
       }
     },
     {
       "name": "comp-55",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "mask", "time"]
       }
     },
     {
       "name": "comp-56",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "tag", "emblor"]
       }
     },
     {
       "name": "comp-57",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "tag", "emblor"]
       }
     },
     {
       "name": "comp-58",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "otp"]
       }
     },
     {
       "name": "comp-59",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea"]
       }
     },
     {
       "name": "comp-60",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea", "required"]
       }
     },
     {
       "name": "comp-61",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea", "helper"]
       }
     },
     {
       "name": "comp-62",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea", "hint"]
       }
     },
     {
       "name": "comp-63",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea"]
       }
     },
     {
       "name": "comp-64",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea", "error"]
       }
     },
     {
       "name": "comp-65",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea"]
       }
     },
     {
       "name": "comp-66",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea"]
       }
     },
     {
       "name": "comp-67",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea", "disabled"]
       }
     },
     {
       "name": "comp-68",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea", "button"]
       }
     },
     {
       "name": "comp-69",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea", "button"]
       }
     },
     {
       "name": "comp-70",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea", "button"]
       }
     },
     {
       "name": "comp-71",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea"]
       }
     },
     {
       "name": "comp-72",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea"]
       }
     },
     {
       "name": "comp-73",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea"]
       }
     },
     {
       "name": "comp-74",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea"]
       }
     },
     {
       "name": "comp-75",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea"]
       }
     },
     {
       "name": "comp-76",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea", "read-only"]
       }
     },
     {
       "name": "comp-77",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "textarea"]
       }
     },
     {
       "name": "comp-78",
-      "type": "registry:component",
       "meta": {
         "tags": ["button"],
         "style": 2
@@ -775,7 +656,6 @@
     },
     {
       "name": "comp-79",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "disabled"],
         "style": 2
@@ -783,7 +663,6 @@
     },
     {
       "name": "comp-80",
-      "type": "registry:component",
       "meta": {
         "tags": ["button"],
         "style": 2
@@ -791,7 +670,6 @@
     },
     {
       "name": "comp-81",
-      "type": "registry:component",
       "meta": {
         "tags": ["button"],
         "style": 2
@@ -799,7 +677,6 @@
     },
     {
       "name": "comp-82",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "delete"],
         "style": 2
@@ -807,7 +684,6 @@
     },
     {
       "name": "comp-83",
-      "type": "registry:component",
       "meta": {
         "tags": ["button"],
         "style": 2
@@ -815,7 +691,6 @@
     },
     {
       "name": "comp-84",
-      "type": "registry:component",
       "meta": {
         "tags": ["button"],
         "style": 2
@@ -823,7 +698,6 @@
     },
     {
       "name": "comp-85",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "back"],
         "style": 2
@@ -831,7 +705,6 @@
     },
     {
       "name": "comp-86",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "next"],
         "style": 2
@@ -839,7 +712,6 @@
     },
     {
       "name": "comp-87",
-      "type": "registry:component",
       "meta": {
         "tags": ["button"],
         "style": 2
@@ -847,7 +719,6 @@
     },
     {
       "name": "comp-88",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "dropdown"],
         "style": 2
@@ -855,7 +726,6 @@
     },
     {
       "name": "comp-89",
-      "type": "registry:component",
       "meta": {
         "tags": ["button"],
         "style": 2
@@ -863,7 +733,6 @@
     },
     {
       "name": "comp-90",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "loading"],
         "style": 2
@@ -871,7 +740,6 @@
     },
     {
       "name": "comp-91",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "loading"],
         "style": 2
@@ -879,7 +747,6 @@
     },
     {
       "name": "comp-92",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "counter"],
         "style": 2
@@ -887,7 +754,6 @@
     },
     {
       "name": "comp-93",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "kbd"],
         "style": 2
@@ -895,7 +761,6 @@
     },
     {
       "name": "comp-94",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "user", "avatar", "profile"],
         "style": 2
@@ -903,7 +768,6 @@
     },
     {
       "name": "comp-95",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "user", "avatar", "profile", "dropdown"],
         "style": 2
@@ -911,7 +775,6 @@
     },
     {
       "name": "comp-96",
-      "type": "registry:component",
       "meta": {
         "tags": ["button"],
         "style": 2
@@ -919,7 +782,6 @@
     },
     {
       "name": "comp-97",
-      "type": "registry:component",
       "meta": {
         "tags": ["button"],
         "style": 2
@@ -927,7 +789,6 @@
     },
     {
       "name": "comp-98",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "menu"],
         "style": 2
@@ -935,7 +796,6 @@
     },
     {
       "name": "comp-99",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "tooltip"],
         "style": 2
@@ -943,7 +803,6 @@
     },
     {
       "name": "comp-100",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "menu", "hamburger"],
         "style": 2
@@ -951,7 +810,6 @@
     },
     {
       "name": "comp-101",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "toggle"],
         "style": 2
@@ -959,7 +817,6 @@
     },
     {
       "name": "comp-102",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "vote", "counter"],
         "style": 2
@@ -967,7 +824,6 @@
     },
     {
       "name": "comp-103",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "vote", "counter"],
         "style": 2
@@ -975,7 +831,6 @@
     },
     {
       "name": "comp-104",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "volume", "controls"],
         "style": 2
@@ -983,7 +838,6 @@
     },
     {
       "name": "comp-105",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "copy"],
         "style": 2
@@ -991,7 +845,6 @@
     },
     {
       "name": "comp-106",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "toggle group"],
         "style": 2
@@ -999,7 +852,6 @@
     },
     {
       "name": "comp-107",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "toggle group"],
         "style": 2
@@ -1007,7 +859,6 @@
     },
     {
       "name": "comp-108",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "toggle group", "dropdown"],
         "style": 2
@@ -1015,7 +866,6 @@
     },
     {
       "name": "comp-109",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "toggle group"],
         "style": 2
@@ -1023,7 +873,6 @@
     },
     {
       "name": "comp-110",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "toggle group"],
         "style": 2
@@ -1031,7 +880,6 @@
     },
     {
       "name": "comp-111",
-      "type": "registry:component",
       "meta": {
         "tags": ["button"],
         "style": 2
@@ -1039,7 +887,6 @@
     },
     {
       "name": "comp-112",
-      "type": "registry:component",
       "meta": {
         "tags": ["button"],
         "style": 2
@@ -1047,7 +894,6 @@
     },
     {
       "name": "comp-113",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "dropdown"],
         "style": 2
@@ -1055,7 +901,6 @@
     },
     {
       "name": "comp-114",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "dropdown", "counter"],
         "style": 2
@@ -1063,7 +908,6 @@
     },
     {
       "name": "comp-115",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "previous"],
         "style": 2
@@ -1071,7 +915,6 @@
     },
     {
       "name": "comp-116",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "next"],
         "style": 2
@@ -1079,7 +922,6 @@
     },
     {
       "name": "comp-117",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "like", "counter"],
         "style": 2
@@ -1087,7 +929,6 @@
     },
     {
       "name": "comp-118",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "like", "counter"],
         "style": 2
@@ -1095,7 +936,6 @@
     },
     {
       "name": "comp-119",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "social", "login", "authentication"],
         "style": 2
@@ -1103,7 +943,6 @@
     },
     {
       "name": "comp-120",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "social", "login", "authentication"],
         "style": 2
@@ -1111,7 +950,6 @@
     },
     {
       "name": "comp-121",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "social", "login", "authentication"],
         "style": 2
@@ -1119,7 +957,6 @@
     },
     {
       "name": "comp-122",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "social", "login", "authentication"],
         "style": 2
@@ -1127,7 +964,6 @@
     },
     {
       "name": "comp-123",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "collapsible"],
         "style": 2
@@ -1135,7 +971,6 @@
     },
     {
       "name": "comp-124",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "back"],
         "style": 2
@@ -1143,7 +978,6 @@
     },
     {
       "name": "comp-125",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "upload", "user", "avatar", "profile", "image"],
         "style": 2
@@ -1151,7 +985,6 @@
     },
     {
       "name": "comp-126",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "upload", "user", "avatar", "profile", "image"],
         "style": 2
@@ -1159,7 +992,6 @@
     },
     {
       "name": "comp-127",
-      "type": "registry:component",
       "meta": {
         "tags": ["button"],
         "style": 2
@@ -1167,7 +999,6 @@
     },
     {
       "name": "comp-128",
-      "type": "registry:component",
       "meta": {
         "tags": ["button"],
         "style": 2
@@ -1175,7 +1006,6 @@
     },
     {
       "name": "comp-129",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "dropdown", "notification"],
         "style": 2
@@ -1183,7 +1013,6 @@
     },
     {
       "name": "comp-130",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "toggle", "darkmode"],
         "style": 2
@@ -1191,7 +1020,6 @@
     },
     {
       "name": "comp-131",
-      "type": "registry:component",
       "meta": {
         "tags": ["button", "dropdown"],
         "style": 2
@@ -1199,273 +1027,234 @@
     },
     {
       "name": "comp-132",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "radix"]
       }
     },
     {
       "name": "comp-133",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "radix"]
       }
     },
     {
       "name": "comp-134",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "radix"]
       }
     },
     {
       "name": "comp-135",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "disabled", "radix"]
       }
     },
     {
       "name": "comp-136",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "radix"]
       }
     },
     {
       "name": "comp-137",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "radix"]
       }
     },
     {
       "name": "comp-138",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "login", "authentication", "radix"]
       }
     },
     {
       "name": "comp-139",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "radix"]
       }
     },
     {
       "name": "comp-140",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "radix"]
       }
     },
     {
       "name": "comp-141",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "radix"]
       }
     },
     {
       "name": "comp-142",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "collapsible", "radix"]
       }
     },
     {
       "name": "comp-143",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "radix"]
       }
     },
     {
       "name": "comp-144",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "card", "radix"]
       }
     },
     {
       "name": "comp-145",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "card", "radix"]
       }
     },
     {
       "name": "comp-146",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "card", "radix"]
       }
     },
     {
       "name": "comp-147",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "card", "radix"]
       }
     },
     {
       "name": "comp-148",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "tree", "radix"]
       }
     },
     {
       "name": "comp-149",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "week", "calendar", "radix"]
       }
     },
     {
       "name": "comp-150",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "toggle", "darkmode", "radix"]
       }
     },
     {
       "name": "comp-151",
-      "type": "registry:component",
       "meta": {
         "tags": ["checkbox", "label", "radix"]
       }
     },
     {
       "name": "comp-152",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "radix"]
       }
     },
     {
       "name": "comp-153",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "radix"]
       }
     },
     {
       "name": "comp-154",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "radix"]
       }
     },
     {
       "name": "comp-155",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "radix"]
       }
     },
     {
       "name": "comp-156",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "collapsible", "radix"]
       }
     },
     {
       "name": "comp-157",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "rating", "radix"]
       }
     },
     {
       "name": "comp-158",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "color", "picker", "radix"]
       }
     },
     {
       "name": "comp-159",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "card", "radix"]
       }
     },
     {
       "name": "comp-160",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "card", "radix"]
       }
     },
     {
       "name": "comp-161",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "card", "radix"]
       }
     },
     {
       "name": "comp-162",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "card", "radix"]
       }
     },
     {
       "name": "comp-163",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "card", "checkout", "payment", "radix"]
       }
     },
     {
       "name": "comp-164",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "card", "pricing", "radix"]
       }
     },
     {
       "name": "comp-165",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "card", "radix"]
       }
     },
     {
       "name": "comp-166",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "pricing", "radix"]
       }
     },
     {
       "name": "comp-167",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "rating", "vote", "radix"]
       }
     },
     {
       "name": "comp-168",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "rating", "vote", "radix"]
       }
     },
     {
       "name": "comp-169",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "darkmode", "radix"]
       }
     },
     {
       "name": "comp-170",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "pricing", "switch", "radix"],
         "style": 1
@@ -1473,7 +1262,6 @@
     },
     {
       "name": "comp-171",
-      "type": "registry:component",
       "meta": {
         "tags": ["radio", "label", "rating", "vote", "radix"],
         "style": 1
@@ -1481,7 +1269,6 @@
     },
     {
       "name": "comp-172",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "radix"],
         "style": 1
@@ -1489,7 +1276,6 @@
     },
     {
       "name": "comp-173",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "radix"],
         "style": 1
@@ -1497,7 +1283,6 @@
     },
     {
       "name": "comp-174",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "radix"],
         "style": 1
@@ -1505,7 +1290,6 @@
     },
     {
       "name": "comp-175",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "radix"],
         "style": 1
@@ -1513,7 +1297,6 @@
     },
     {
       "name": "comp-176",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "radix"],
         "style": 1
@@ -1521,7 +1304,6 @@
     },
     {
       "name": "comp-177",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "radix"],
         "style": 1
@@ -1529,7 +1311,6 @@
     },
     {
       "name": "comp-178",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "radix"],
         "style": 1
@@ -1537,7 +1318,6 @@
     },
     {
       "name": "comp-179",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "label", "radix"],
         "style": 1
@@ -1545,7 +1325,6 @@
     },
     {
       "name": "comp-180",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "label", "radix"],
         "style": 1
@@ -1553,7 +1332,6 @@
     },
     {
       "name": "comp-181",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "label", "darkmode", "radix"],
         "style": 1
@@ -1561,7 +1339,6 @@
     },
     {
       "name": "comp-182",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "label", "darkmode", "radix"],
         "style": 1
@@ -1569,7 +1346,6 @@
     },
     {
       "name": "comp-183",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "label", "darkmode", "radix"],
         "style": 1
@@ -1577,7 +1353,6 @@
     },
     {
       "name": "comp-184",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "label", "darkmode", "radix"],
         "style": 1
@@ -1585,7 +1360,6 @@
     },
     {
       "name": "comp-185",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "label", "radix"],
         "style": 1
@@ -1593,7 +1367,6 @@
     },
     {
       "name": "comp-186",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "label", "card", "radix"],
         "style": 1
@@ -1601,7 +1374,6 @@
     },
     {
       "name": "comp-187",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "label", "card", "radix"],
         "style": 1
@@ -1609,7 +1381,6 @@
     },
     {
       "name": "comp-188",
-      "type": "registry:component",
       "meta": {
         "tags": ["switch", "label", "card", "radix"],
         "style": 1
@@ -1617,287 +1388,246 @@
     },
     {
       "name": "comp-189",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "native select"]
       }
     },
     {
       "name": "comp-190",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "native select"]
       }
     },
     {
       "name": "comp-191",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "native select", "time"]
       }
     },
     {
       "name": "comp-192",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "native select"]
       }
     },
     {
       "name": "comp-193",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "native select"]
       }
     },
     {
       "name": "comp-194",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "native select", "error"]
       }
     },
     {
       "name": "comp-195",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "native select"]
       }
     },
     {
       "name": "comp-196",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "native select", "disabled"]
       }
     },
     {
       "name": "comp-197",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "native select"]
       }
     },
     {
       "name": "comp-198",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "native select"]
       }
     },
     {
       "name": "comp-199",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "native select"]
       }
     },
     {
       "name": "comp-200",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "native select", "timezone", "time"]
       }
     },
     {
       "name": "comp-201",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "native select"]
       }
     },
     {
       "name": "comp-202",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "native select"]
       }
     },
     {
       "name": "comp-203",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-204",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-205",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-206",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "helper", "radix"]
       }
     },
     {
       "name": "comp-207",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-208",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-209",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-210",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "disabled", "radix"]
       }
     },
     {
       "name": "comp-211",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "required", "radix"]
       }
     },
     {
       "name": "comp-212",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-213",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-214",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-215",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "disabled", "radix"]
       }
     },
     {
       "name": "comp-216",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-217",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-218",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "timezone", "time", "radix"]
       }
     },
     {
       "name": "comp-219",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-220",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "status", "radix"]
       }
     },
     {
       "name": "comp-221",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-222",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-223",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-224",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "radix"]
       }
     },
     {
       "name": "comp-225",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "flag", "radix"]
       }
     },
     {
       "name": "comp-226",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "user", "avatar", "profile", "radix"]
       }
     },
     {
       "name": "comp-227",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "user", "avatar", "profile", "radix"]
       }
     },
     {
       "name": "comp-228",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "user", "avatar", "profile", "radix"]
       }
     },
     {
       "name": "comp-229",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "label",
@@ -1913,7 +1643,6 @@
     },
     {
       "name": "comp-230",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "label",
@@ -1929,7 +1658,6 @@
     },
     {
       "name": "comp-231",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "label",
@@ -1947,7 +1675,6 @@
     },
     {
       "name": "comp-232",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "label",
@@ -1964,7 +1691,6 @@
     },
     {
       "name": "comp-233",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "label",
@@ -1980,7 +1706,6 @@
     },
     {
       "name": "comp-234",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "label",
@@ -1996,7 +1721,6 @@
     },
     {
       "name": "comp-235",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "label",
@@ -2012,133 +1736,114 @@
     },
     {
       "name": "comp-236",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "multiselect", "native select"]
       }
     },
     {
       "name": "comp-237",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "multiselect", "react aria"]
       }
     },
     {
       "name": "comp-238",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "multiselect", "react aria"]
       }
     },
     {
       "name": "comp-239",
-      "type": "registry:component",
       "meta": {
         "tags": ["label", "select", "multiselect", "react aria"]
       }
     },
     {
       "name": "comp-240",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "radix"]
       }
     },
     {
       "name": "comp-241",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "disabled", "radix"]
       }
     },
     {
       "name": "comp-242",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "radix"]
       }
     },
     {
       "name": "comp-243",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "radix"]
       }
     },
     {
       "name": "comp-244",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "radix"]
       }
     },
     {
       "name": "comp-245",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "radix"]
       }
     },
     {
       "name": "comp-246",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "radix"]
       }
     },
     {
       "name": "comp-247",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "radix"]
       }
     },
     {
       "name": "comp-248",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "radix"]
       }
     },
     {
       "name": "comp-249",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "tooltip", "radix"]
       }
     },
     {
       "name": "comp-250",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "range slider", "label", "range", "radix"]
       }
     },
     {
       "name": "comp-251",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "range slider", "label", "range", "radix"]
       }
     },
     {
       "name": "comp-252",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "volume", "controls", "radix"]
       }
     },
     {
       "name": "comp-253",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "range slider", "label", "range", "radix"]
       }
     },
     {
       "name": "comp-254",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "slider",
@@ -2153,91 +1858,78 @@
     },
     {
       "name": "comp-255",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "input", "radix"]
       }
     },
     {
       "name": "comp-256",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "vote", "rating", "radix"]
       }
     },
     {
       "name": "comp-257",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "vote", "rating", "radix"]
       }
     },
     {
       "name": "comp-258",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "range slider", "label", "input", "range", "radix"]
       }
     },
     {
       "name": "comp-259",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "button", "pricing", "radix"]
       }
     },
     {
       "name": "comp-260",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "range slider", "label", "button", "radix"]
       }
     },
     {
       "name": "comp-261",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "vertical slider", "label", "radix"]
       }
     },
     {
       "name": "comp-262",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "vertical slider", "label", "input", "radix"]
       }
     },
     {
       "name": "comp-263",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "vertical slider", "range slider", "label", "radix"]
       }
     },
     {
       "name": "comp-264",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "input", "button", "reset", "radix"]
       }
     },
     {
       "name": "comp-265",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "input", "button", "radix"]
       }
     },
     {
       "name": "comp-266",
-      "type": "registry:component",
       "meta": {
         "tags": ["slider", "label", "equalizer", "radix"]
       }
     },
     {
       "name": "comp-267",
-      "type": "registry:component",
       "meta": {
         "tags": ["alert", "warning"],
         "colSpan": 2
@@ -2245,7 +1937,6 @@
     },
     {
       "name": "comp-268",
-      "type": "registry:component",
       "meta": {
         "tags": ["alert", "warning"],
         "colSpan": 2
@@ -2253,7 +1944,6 @@
     },
     {
       "name": "comp-269",
-      "type": "registry:component",
       "meta": {
         "tags": ["alert", "error"],
         "colSpan": 2
@@ -2261,7 +1951,6 @@
     },
     {
       "name": "comp-270",
-      "type": "registry:component",
       "meta": {
         "tags": ["alert", "error"],
         "colSpan": 2
@@ -2269,7 +1958,6 @@
     },
     {
       "name": "comp-271",
-      "type": "registry:component",
       "meta": {
         "tags": ["alert", "success"],
         "colSpan": 2
@@ -2277,7 +1965,6 @@
     },
     {
       "name": "comp-272",
-      "type": "registry:component",
       "meta": {
         "tags": ["alert", "success"],
         "colSpan": 2
@@ -2285,7 +1972,6 @@
     },
     {
       "name": "comp-273",
-      "type": "registry:component",
       "meta": {
         "tags": ["alert", "info"],
         "colSpan": 2
@@ -2293,7 +1979,6 @@
     },
     {
       "name": "comp-274",
-      "type": "registry:component",
       "meta": {
         "tags": ["alert", "info"],
         "colSpan": 2
@@ -2301,7 +1986,6 @@
     },
     {
       "name": "comp-275",
-      "type": "registry:component",
       "meta": {
         "tags": ["alert", "warning"],
         "colSpan": 2
@@ -2309,7 +1993,6 @@
     },
     {
       "name": "comp-276",
-      "type": "registry:component",
       "meta": {
         "tags": ["alert", "warning"],
         "colSpan": 2
@@ -2317,7 +2000,6 @@
     },
     {
       "name": "comp-277",
-      "type": "registry:component",
       "meta": {
         "tags": ["alert", "error", "signup", "authentication"],
         "colSpan": 2
@@ -2325,7 +2007,6 @@
     },
     {
       "name": "comp-278",
-      "type": "registry:component",
       "meta": {
         "tags": ["alert", "error", "signup", "authentication"],
         "colSpan": 2
@@ -2333,7 +2014,6 @@
     },
     {
       "name": "comp-279",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "warning"],
         "colSpan": 2,
@@ -2342,7 +2022,6 @@
     },
     {
       "name": "comp-280",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "error"],
         "colSpan": 2,
@@ -2351,7 +2030,6 @@
     },
     {
       "name": "comp-281",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "success"],
         "colSpan": 2,
@@ -2360,7 +2038,6 @@
     },
     {
       "name": "comp-282",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "info"],
         "colSpan": 2,
@@ -2369,7 +2046,6 @@
     },
     {
       "name": "comp-283",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "warning"],
         "colSpan": 2,
@@ -2378,7 +2054,6 @@
     },
     {
       "name": "comp-284",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "error"],
         "colSpan": 2,
@@ -2387,7 +2062,6 @@
     },
     {
       "name": "comp-285",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "success"],
         "colSpan": 2,
@@ -2396,7 +2070,6 @@
     },
     {
       "name": "comp-286",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "info"],
         "colSpan": 2,
@@ -2405,7 +2078,6 @@
     },
     {
       "name": "comp-287",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "button", "success"],
         "colSpan": 2,
@@ -2414,7 +2086,6 @@
     },
     {
       "name": "comp-288",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "success"],
         "colSpan": 2,
@@ -2423,7 +2094,6 @@
     },
     {
       "name": "comp-289",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "button", "warning"],
         "colSpan": 2,
@@ -2432,7 +2102,6 @@
     },
     {
       "name": "comp-290",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "button", "error"],
         "colSpan": 2,
@@ -2441,7 +2110,6 @@
     },
     {
       "name": "comp-291",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "button", "success"],
         "colSpan": 2,
@@ -2450,7 +2118,6 @@
     },
     {
       "name": "comp-292",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "button", "info"],
         "colSpan": 2,
@@ -2459,7 +2126,6 @@
     },
     {
       "name": "comp-293",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "button", "cookies", "gdpr", "privacy"],
         "colSpan": 2,
@@ -2468,7 +2134,6 @@
     },
     {
       "name": "comp-294",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "button", "info"],
         "colSpan": 2,
@@ -2477,7 +2142,6 @@
     },
     {
       "name": "comp-295",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "button"],
         "colSpan": 2,
@@ -2486,7 +2150,6 @@
     },
     {
       "name": "comp-296",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "button"],
         "colSpan": 2,
@@ -2495,7 +2158,6 @@
     },
     {
       "name": "comp-297",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "toast", "radix"],
         "colSpan": 2,
@@ -2504,7 +2166,6 @@
     },
     {
       "name": "comp-298",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "toast", "success", "radix"],
         "colSpan": 2,
@@ -2513,7 +2174,6 @@
     },
     {
       "name": "comp-299",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "toast", "radix"],
         "colSpan": 2,
@@ -2522,7 +2182,6 @@
     },
     {
       "name": "comp-300",
-      "type": "registry:component",
       "meta": {
         "tags": ["notification", "toast", "success", "radix"],
         "colSpan": 2,
@@ -2531,7 +2190,6 @@
     },
     {
       "name": "comp-301",
-      "type": "registry:component",
       "meta": {
         "tags": ["banner", "cookies", "gdpr", "privacy"],
         "colSpan": 3
@@ -2539,7 +2197,6 @@
     },
     {
       "name": "comp-302",
-      "type": "registry:component",
       "meta": {
         "tags": ["banner"],
         "colSpan": 3
@@ -2547,7 +2204,6 @@
     },
     {
       "name": "comp-303",
-      "type": "registry:component",
       "meta": {
         "tags": ["banner"],
         "colSpan": 3
@@ -2555,7 +2211,6 @@
     },
     {
       "name": "comp-304",
-      "type": "registry:component",
       "meta": {
         "tags": ["banner"],
         "colSpan": 3
@@ -2563,7 +2218,6 @@
     },
     {
       "name": "comp-305",
-      "type": "registry:component",
       "meta": {
         "tags": ["banner"],
         "colSpan": 3
@@ -2571,7 +2225,6 @@
     },
     {
       "name": "comp-306",
-      "type": "registry:component",
       "meta": {
         "tags": ["banner"],
         "colSpan": 3
@@ -2579,7 +2232,6 @@
     },
     {
       "name": "comp-307",
-      "type": "registry:component",
       "meta": {
         "tags": ["banner"],
         "colSpan": 3
@@ -2587,7 +2239,6 @@
     },
     {
       "name": "comp-308",
-      "type": "registry:component",
       "meta": {
         "tags": ["banner"],
         "colSpan": 3
@@ -2595,7 +2246,6 @@
     },
     {
       "name": "comp-309",
-      "type": "registry:component",
       "meta": {
         "tags": ["banner"],
         "colSpan": 3
@@ -2603,7 +2253,6 @@
     },
     {
       "name": "comp-310",
-      "type": "registry:component",
       "meta": {
         "tags": ["banner", "countdown", "sale"],
         "colSpan": 3
@@ -2611,7 +2260,6 @@
     },
     {
       "name": "comp-311",
-      "type": "registry:component",
       "meta": {
         "tags": ["banner", "newsletter", "subscribe"],
         "colSpan": 3
@@ -2619,7 +2267,6 @@
     },
     {
       "name": "comp-312",
-      "type": "registry:component",
       "meta": {
         "tags": ["banner"],
         "colSpan": 3
@@ -2627,7 +2274,6 @@
     },
     {
       "name": "comp-313",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "alert", "alert dialog", "radix"],
         "style": 1
@@ -2635,7 +2281,6 @@
     },
     {
       "name": "comp-314",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "alert", "alert dialog", "radix"],
         "style": 1
@@ -2643,7 +2288,6 @@
     },
     {
       "name": "comp-315",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "radix"],
         "style": 1
@@ -2651,7 +2295,6 @@
     },
     {
       "name": "comp-316",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "radix"],
         "style": 1
@@ -2659,7 +2302,6 @@
     },
     {
       "name": "comp-317",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "radix"],
         "style": 1
@@ -2667,7 +2309,6 @@
     },
     {
       "name": "comp-318",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "radix"],
         "style": 1
@@ -2675,7 +2316,6 @@
     },
     {
       "name": "comp-319",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "radix"],
         "style": 1
@@ -2683,7 +2323,6 @@
     },
     {
       "name": "comp-320",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "delete", "radix"],
         "style": 1
@@ -2691,7 +2330,6 @@
     },
     {
       "name": "comp-321",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "newsletter", "subscribe", "form", "radix"],
         "style": 1
@@ -2699,7 +2337,6 @@
     },
     {
       "name": "comp-322",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "feedback", "form", "radix"],
         "style": 1
@@ -2707,7 +2344,6 @@
     },
     {
       "name": "comp-323",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "rating", "feedback", "form", "radix"],
         "style": 1
@@ -2715,7 +2351,6 @@
     },
     {
       "name": "comp-324",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "otp", "radix"],
         "style": 1
@@ -2723,7 +2358,6 @@
     },
     {
       "name": "comp-325",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "dialog",
@@ -2738,7 +2372,6 @@
     },
     {
       "name": "comp-326",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "login", "authentication", "form", "radix"],
         "style": 1
@@ -2746,7 +2379,6 @@
     },
     {
       "name": "comp-327",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "form", "user", "team", "radix"],
         "style": 1
@@ -2754,7 +2386,6 @@
     },
     {
       "name": "comp-328",
-      "type": "registry:component",
       "devDependencies": ["@types/react-payment-inputs"],
       "meta": {
         "tags": [
@@ -2771,7 +2402,6 @@
     },
     {
       "name": "comp-329",
-      "type": "registry:component",
       "devDependencies": ["@types/react-payment-inputs"],
       "meta": {
         "tags": [
@@ -2788,7 +2418,6 @@
     },
     {
       "name": "comp-330",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "user", "radix"],
         "style": 1
@@ -2796,7 +2425,6 @@
     },
     {
       "name": "comp-331",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "dialog",
@@ -2813,7 +2441,6 @@
     },
     {
       "name": "comp-332",
-      "type": "registry:component",
       "meta": {
         "tags": ["dialog", "modal", "onboarding", "radix"],
         "style": 1
@@ -2821,7 +2448,6 @@
     },
     {
       "name": "comp-333",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "dialog",
@@ -2840,7 +2466,6 @@
     },
     {
       "name": "comp-334",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2848,7 +2473,6 @@
     },
     {
       "name": "comp-335",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2856,7 +2480,6 @@
     },
     {
       "name": "comp-336",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2864,7 +2487,6 @@
     },
     {
       "name": "comp-337",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2872,7 +2494,6 @@
     },
     {
       "name": "comp-338",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2880,7 +2501,6 @@
     },
     {
       "name": "comp-339",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2888,7 +2508,6 @@
     },
     {
       "name": "comp-340",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2896,7 +2515,6 @@
     },
     {
       "name": "comp-341",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2904,7 +2522,6 @@
     },
     {
       "name": "comp-342",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2912,7 +2529,6 @@
     },
     {
       "name": "comp-343",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2920,7 +2536,6 @@
     },
     {
       "name": "comp-344",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2928,7 +2543,6 @@
     },
     {
       "name": "comp-345",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2936,7 +2550,6 @@
     },
     {
       "name": "comp-346",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2944,7 +2557,6 @@
     },
     {
       "name": "comp-347",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2952,7 +2564,6 @@
     },
     {
       "name": "comp-348",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2960,7 +2571,6 @@
     },
     {
       "name": "comp-349",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2968,7 +2578,6 @@
     },
     {
       "name": "comp-350",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2976,7 +2585,6 @@
     },
     {
       "name": "comp-351",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "radix"],
         "colSpan": 2
@@ -2984,7 +2592,6 @@
     },
     {
       "name": "comp-352",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "collapsible", "radix"],
         "colSpan": 2
@@ -2992,7 +2599,6 @@
     },
     {
       "name": "comp-353",
-      "type": "registry:component",
       "meta": {
         "tags": ["accordion", "collapsible", "radix"],
         "colSpan": 2
@@ -3000,7 +2606,6 @@
     },
     {
       "name": "comp-354",
-      "type": "registry:component",
       "meta": {
         "tags": ["tooltip", "radix"],
         "style": 1
@@ -3008,7 +2613,6 @@
     },
     {
       "name": "comp-355",
-      "type": "registry:component",
       "meta": {
         "tags": ["tooltip", "radix"],
         "style": 1
@@ -3016,7 +2620,6 @@
     },
     {
       "name": "comp-356",
-      "type": "registry:component",
       "meta": {
         "tags": ["tooltip", "radix"],
         "style": 1
@@ -3024,7 +2627,6 @@
     },
     {
       "name": "comp-357",
-      "type": "registry:component",
       "meta": {
         "tags": ["tooltip", "radix"],
         "style": 1
@@ -3032,7 +2634,6 @@
     },
     {
       "name": "comp-358",
-      "type": "registry:component",
       "meta": {
         "tags": ["tooltip", "radix"],
         "style": 1
@@ -3040,7 +2641,6 @@
     },
     {
       "name": "comp-359",
-      "type": "registry:component",
       "meta": {
         "tags": ["tooltip", "image", "radix"],
         "style": 1
@@ -3048,7 +2648,6 @@
     },
     {
       "name": "comp-360",
-      "type": "registry:component",
       "meta": {
         "tags": ["tooltip", "button", "kbd", "radix"],
         "style": 1
@@ -3056,7 +2655,6 @@
     },
     {
       "name": "comp-361",
-      "type": "registry:component",
       "meta": {
         "tags": ["tooltip", "radix"],
         "style": 1
@@ -3064,7 +2662,6 @@
     },
     {
       "name": "comp-362",
-      "type": "registry:component",
       "meta": {
         "tags": ["tooltip", "chart", "radix"],
         "style": 1
@@ -3072,7 +2669,6 @@
     },
     {
       "name": "comp-363",
-      "type": "registry:component",
       "meta": {
         "tags": ["tooltip", "hover card", "user", "avatar", "profile", "radix"],
         "style": 1
@@ -3080,7 +2676,6 @@
     },
     {
       "name": "comp-364",
-      "type": "registry:component",
       "meta": {
         "tags": ["tooltip", "hover card", "user", "avatar", "profile", "radix"],
         "style": 1
@@ -3088,7 +2683,6 @@
     },
     {
       "name": "comp-365",
-      "type": "registry:component",
       "meta": {
         "tags": ["tooltip", "hover card", "image", "radix"],
         "style": 1
@@ -3096,7 +2690,6 @@
     },
     {
       "name": "comp-366",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "radix"],
         "style": 1
@@ -3104,7 +2697,6 @@
     },
     {
       "name": "comp-367",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "radix"],
         "style": 1
@@ -3112,7 +2704,6 @@
     },
     {
       "name": "comp-368",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "radix"],
         "style": 1
@@ -3120,7 +2711,6 @@
     },
     {
       "name": "comp-369",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "radix"],
         "style": 1
@@ -3128,7 +2718,6 @@
     },
     {
       "name": "comp-370",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "radix"],
         "style": 1
@@ -3136,7 +2725,6 @@
     },
     {
       "name": "comp-371",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "checkbox", "radix"],
         "style": 1
@@ -3144,7 +2732,6 @@
     },
     {
       "name": "comp-372",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "radio", "radix"],
         "style": 1
@@ -3152,7 +2739,6 @@
     },
     {
       "name": "comp-373",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "kbd", "delete", "radix"],
         "style": 1
@@ -3160,7 +2746,6 @@
     },
     {
       "name": "comp-374",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "checkbox", "radio", "delete", "radix"],
         "style": 1
@@ -3168,7 +2753,6 @@
     },
     {
       "name": "comp-375",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "user", "profile", "radix"],
         "style": 1
@@ -3176,7 +2760,6 @@
     },
     {
       "name": "comp-376",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "user", "profile", "avatar", "radix"],
         "style": 1
@@ -3184,7 +2767,6 @@
     },
     {
       "name": "comp-377",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "user", "avatar", "profile", "radix"],
         "style": 1
@@ -3192,7 +2774,6 @@
     },
     {
       "name": "comp-378",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "info", "radix"],
         "style": 1
@@ -3200,7 +2781,6 @@
     },
     {
       "name": "comp-379",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "text editor", "radix"],
         "style": 1
@@ -3208,7 +2788,6 @@
     },
     {
       "name": "comp-380",
-      "type": "registry:component",
       "meta": {
         "tags": ["dropdown", "darkmode", "radix"],
         "style": 1
@@ -3216,7 +2795,6 @@
     },
     {
       "name": "comp-381",
-      "type": "registry:component",
       "meta": {
         "tags": ["popover", "filter", "radix"],
         "style": 1
@@ -3224,7 +2802,6 @@
     },
     {
       "name": "comp-382",
-      "type": "registry:component",
       "meta": {
         "tags": ["popover", "notification", "radix"],
         "style": 1
@@ -3232,7 +2809,6 @@
     },
     {
       "name": "comp-383",
-      "type": "registry:component",
       "meta": {
         "tags": ["popover", "notification", "user", "radix"],
         "style": 1
@@ -3240,7 +2816,6 @@
     },
     {
       "name": "comp-384",
-      "type": "registry:component",
       "meta": {
         "tags": ["popover", "tooltip", "radix"],
         "style": 1
@@ -3248,7 +2823,6 @@
     },
     {
       "name": "comp-385",
-      "type": "registry:component",
       "meta": {
         "tags": ["popover", "tooltip", "radix"],
         "style": 1
@@ -3256,7 +2830,6 @@
     },
     {
       "name": "comp-386",
-      "type": "registry:component",
       "meta": {
         "tags": ["popover", "tooltip", "radix"],
         "style": 1
@@ -3264,7 +2837,6 @@
     },
     {
       "name": "comp-387",
-      "type": "registry:component",
       "meta": {
         "tags": ["popover", "share", "social", "copy", "radix"],
         "style": 1
@@ -3272,7 +2844,6 @@
     },
     {
       "name": "comp-388",
-      "type": "registry:component",
       "meta": {
         "tags": ["popover", "feedback", "form", "radix"],
         "style": 1
@@ -3280,7 +2851,6 @@
     },
     {
       "name": "comp-389",
-      "type": "registry:component",
       "meta": {
         "tags": ["popover", "tour", "radix"],
         "style": 1
@@ -3288,7 +2858,6 @@
     },
     {
       "name": "comp-390",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "user", "profile"],
         "style": 1
@@ -3296,7 +2865,6 @@
     },
     {
       "name": "comp-391",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "user", "profile"],
         "style": 1
@@ -3304,7 +2872,6 @@
     },
     {
       "name": "comp-392",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "user", "profile"],
         "style": 1
@@ -3312,7 +2879,6 @@
     },
     {
       "name": "comp-393",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "user", "profile"],
         "style": 1
@@ -3320,7 +2886,6 @@
     },
     {
       "name": "comp-394",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "user", "profile", "status"],
         "style": 1
@@ -3328,7 +2893,6 @@
     },
     {
       "name": "comp-395",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "user", "profile", "status"],
         "style": 1
@@ -3336,7 +2900,6 @@
     },
     {
       "name": "comp-396",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "user", "profile", "status"],
         "style": 1
@@ -3344,7 +2907,6 @@
     },
     {
       "name": "comp-397",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "user", "profile", "badge", "chip"],
         "style": 1
@@ -3352,7 +2914,6 @@
     },
     {
       "name": "comp-398",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "user", "profile", "badge", "chip"],
         "style": 1
@@ -3360,7 +2921,6 @@
     },
     {
       "name": "comp-399",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "user", "profile", "badge", "chip"],
         "style": 1
@@ -3368,7 +2928,6 @@
     },
     {
       "name": "comp-400",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "user", "profile"],
         "style": 1
@@ -3376,7 +2935,6 @@
     },
     {
       "name": "comp-401",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "avatar group"],
         "style": 1
@@ -3384,7 +2942,6 @@
     },
     {
       "name": "comp-402",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "avatar group"],
         "style": 1
@@ -3392,7 +2949,6 @@
     },
     {
       "name": "comp-403",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "avatar group"],
         "style": 1
@@ -3400,7 +2956,6 @@
     },
     {
       "name": "comp-404",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "avatar group"],
         "style": 1
@@ -3408,7 +2963,6 @@
     },
     {
       "name": "comp-405",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "avatar group"],
         "style": 1
@@ -3416,7 +2970,6 @@
     },
     {
       "name": "comp-406",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "avatar group"],
         "style": 1
@@ -3424,7 +2977,6 @@
     },
     {
       "name": "comp-407",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "avatar group"],
         "style": 1
@@ -3432,7 +2984,6 @@
     },
     {
       "name": "comp-408",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "avatar group"],
         "style": 1
@@ -3440,7 +2991,6 @@
     },
     {
       "name": "comp-409",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "avatar group"],
         "style": 1
@@ -3448,7 +2998,6 @@
     },
     {
       "name": "comp-410",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "avatar group"],
         "style": 1
@@ -3456,7 +3005,6 @@
     },
     {
       "name": "comp-411",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "avatar group"],
         "style": 1
@@ -3464,7 +3012,6 @@
     },
     {
       "name": "comp-412",
-      "type": "registry:component",
       "meta": {
         "tags": ["avatar", "avatar group"],
         "style": 1
@@ -3472,7 +3019,6 @@
     },
     {
       "name": "comp-413",
-      "type": "registry:component",
       "meta": {
         "tags": ["badge", "chip"],
         "style": 1
@@ -3480,7 +3026,6 @@
     },
     {
       "name": "comp-414",
-      "type": "registry:component",
       "meta": {
         "tags": ["badge", "chip"],
         "style": 1
@@ -3488,7 +3033,6 @@
     },
     {
       "name": "comp-415",
-      "type": "registry:component",
       "meta": {
         "tags": ["badge", "chip"],
         "style": 1
@@ -3496,7 +3040,6 @@
     },
     {
       "name": "comp-416",
-      "type": "registry:component",
       "meta": {
         "tags": ["badge", "chip", "counter"],
         "style": 1
@@ -3504,7 +3047,6 @@
     },
     {
       "name": "comp-417",
-      "type": "registry:component",
       "meta": {
         "tags": ["badge", "chip"],
         "style": 1
@@ -3512,7 +3054,6 @@
     },
     {
       "name": "comp-418",
-      "type": "registry:component",
       "meta": {
         "tags": ["badge", "chip", "counter"],
         "style": 1
@@ -3520,7 +3061,6 @@
     },
     {
       "name": "comp-419",
-      "type": "registry:component",
       "meta": {
         "tags": ["badge", "chip", "status"],
         "style": 1
@@ -3528,7 +3068,6 @@
     },
     {
       "name": "comp-420",
-      "type": "registry:component",
       "meta": {
         "tags": ["badge", "chip", "status"],
         "style": 1
@@ -3536,7 +3075,6 @@
     },
     {
       "name": "comp-421",
-      "type": "registry:component",
       "meta": {
         "tags": ["badge", "chip", "status"],
         "style": 1
@@ -3544,7 +3082,6 @@
     },
     {
       "name": "comp-422",
-      "type": "registry:component",
       "meta": {
         "tags": ["badge", "chip", "status"],
         "style": 1
@@ -3552,7 +3089,6 @@
     },
     {
       "name": "comp-423",
-      "type": "registry:component",
       "meta": {
         "tags": ["badge", "chip", "checkbox"],
         "style": 1
@@ -3560,7 +3096,6 @@
     },
     {
       "name": "comp-424",
-      "type": "registry:component",
       "meta": {
         "tags": ["badge", "chip"],
         "style": 1
@@ -3568,7 +3103,6 @@
     },
     {
       "name": "comp-425",
-      "type": "registry:component",
       "meta": {
         "tags": ["badge", "chip", "tag"],
         "style": 1
@@ -3576,7 +3110,6 @@
     },
     {
       "name": "comp-426",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3585,7 +3118,6 @@
     },
     {
       "name": "comp-427",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3594,7 +3126,6 @@
     },
     {
       "name": "comp-428",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3603,7 +3134,6 @@
     },
     {
       "name": "comp-429",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3612,7 +3142,6 @@
     },
     {
       "name": "comp-430",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3621,7 +3150,6 @@
     },
     {
       "name": "comp-431",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3630,7 +3158,6 @@
     },
     {
       "name": "comp-432",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3639,7 +3166,6 @@
     },
     {
       "name": "comp-433",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3648,7 +3174,6 @@
     },
     {
       "name": "comp-434",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3657,7 +3182,6 @@
     },
     {
       "name": "comp-435",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3666,7 +3190,6 @@
     },
     {
       "name": "comp-436",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3675,7 +3198,6 @@
     },
     {
       "name": "comp-437",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3684,7 +3206,6 @@
     },
     {
       "name": "comp-438",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3693,7 +3214,6 @@
     },
     {
       "name": "comp-439",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3702,7 +3222,6 @@
     },
     {
       "name": "comp-440",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3711,7 +3230,6 @@
     },
     {
       "name": "comp-441",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "radix"],
         "colSpan": 2,
@@ -3720,7 +3238,6 @@
     },
     {
       "name": "comp-442",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "vertical tabs", "radix"],
         "colSpan": 2,
@@ -3729,7 +3246,6 @@
     },
     {
       "name": "comp-443",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "vertical tabs", "radix"],
         "colSpan": 2,
@@ -3738,7 +3254,6 @@
     },
     {
       "name": "comp-444",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "vertical tabs", "radix"],
         "colSpan": 2,
@@ -3747,7 +3262,6 @@
     },
     {
       "name": "comp-445",
-      "type": "registry:component",
       "meta": {
         "tags": ["tabs", "vertical tabs", "radix"],
         "colSpan": 2,
@@ -3756,7 +3270,6 @@
     },
     {
       "name": "comp-446",
-      "type": "registry:component",
       "meta": {
         "tags": ["breadcrumb", "radix"],
         "colSpan": 2,
@@ -3765,7 +3278,6 @@
     },
     {
       "name": "comp-447",
-      "type": "registry:component",
       "meta": {
         "tags": ["breadcrumb", "dropdown", "radix"],
         "colSpan": 2,
@@ -3774,7 +3286,6 @@
     },
     {
       "name": "comp-448",
-      "type": "registry:component",
       "meta": {
         "tags": ["breadcrumb", "radix"],
         "colSpan": 2,
@@ -3783,7 +3294,6 @@
     },
     {
       "name": "comp-449",
-      "type": "registry:component",
       "meta": {
         "tags": ["breadcrumb", "radix"],
         "colSpan": 2,
@@ -3792,7 +3302,6 @@
     },
     {
       "name": "comp-450",
-      "type": "registry:component",
       "meta": {
         "tags": ["breadcrumb", "radix"],
         "colSpan": 2,
@@ -3801,7 +3310,6 @@
     },
     {
       "name": "comp-451",
-      "type": "registry:component",
       "meta": {
         "tags": ["breadcrumb", "radix"],
         "colSpan": 2,
@@ -3810,7 +3318,6 @@
     },
     {
       "name": "comp-452",
-      "type": "registry:component",
       "meta": {
         "tags": ["breadcrumb", "radix"],
         "colSpan": 2,
@@ -3819,7 +3326,6 @@
     },
     {
       "name": "comp-453",
-      "type": "registry:component",
       "meta": {
         "tags": ["breadcrumb", "select", "radix"],
         "colSpan": 2,
@@ -3828,7 +3334,6 @@
     },
     {
       "name": "comp-454",
-      "type": "registry:component",
       "meta": {
         "tags": ["pagination"],
         "colSpan": 2
@@ -3836,7 +3341,6 @@
     },
     {
       "name": "comp-455",
-      "type": "registry:component",
       "meta": {
         "tags": ["pagination"],
         "colSpan": 2
@@ -3844,7 +3348,6 @@
     },
     {
       "name": "comp-456",
-      "type": "registry:component",
       "meta": {
         "tags": ["pagination"],
         "colSpan": 2
@@ -3852,7 +3355,6 @@
     },
     {
       "name": "comp-457",
-      "type": "registry:component",
       "meta": {
         "tags": ["pagination"],
         "colSpan": 2
@@ -3860,7 +3362,6 @@
     },
     {
       "name": "comp-458",
-      "type": "registry:component",
       "meta": {
         "tags": ["pagination"],
         "colSpan": 2
@@ -3868,7 +3369,6 @@
     },
     {
       "name": "comp-459",
-      "type": "registry:component",
       "meta": {
         "tags": ["pagination"],
         "colSpan": 2
@@ -3876,7 +3376,6 @@
     },
     {
       "name": "comp-460",
-      "type": "registry:component",
       "meta": {
         "tags": ["pagination"],
         "colSpan": 2
@@ -3884,7 +3383,6 @@
     },
     {
       "name": "comp-461",
-      "type": "registry:component",
       "meta": {
         "tags": ["pagination"],
         "colSpan": 2
@@ -3892,7 +3390,6 @@
     },
     {
       "name": "comp-462",
-      "type": "registry:component",
       "meta": {
         "tags": ["pagination"],
         "colSpan": 2
@@ -3900,7 +3397,6 @@
     },
     {
       "name": "comp-463",
-      "type": "registry:component",
       "meta": {
         "tags": ["pagination", "select", "radix"],
         "colSpan": 2
@@ -3908,7 +3404,6 @@
     },
     {
       "name": "comp-464",
-      "type": "registry:component",
       "meta": {
         "tags": ["pagination", "select", "radix"],
         "colSpan": 2
@@ -3916,7 +3411,6 @@
     },
     {
       "name": "comp-465",
-      "type": "registry:component",
       "meta": {
         "tags": ["pagination", "input"],
         "colSpan": 2
@@ -3924,7 +3418,6 @@
     },
     {
       "name": "comp-466",
-      "type": "registry:component",
       "meta": {
         "tags": ["table"],
         "colSpan": 3
@@ -3932,7 +3425,6 @@
     },
     {
       "name": "comp-467",
-      "type": "registry:component",
       "meta": {
         "tags": ["table", "user", "avatar"],
         "colSpan": 3
@@ -3940,7 +3432,6 @@
     },
     {
       "name": "comp-468",
-      "type": "registry:component",
       "meta": {
         "tags": ["table"],
         "colSpan": 3
@@ -3948,7 +3439,6 @@
     },
     {
       "name": "comp-469",
-      "type": "registry:component",
       "meta": {
         "tags": ["table"],
         "colSpan": 3
@@ -3956,7 +3446,6 @@
     },
     {
       "name": "comp-470",
-      "type": "registry:component",
       "meta": {
         "tags": ["table"],
         "colSpan": 3
@@ -3964,7 +3453,6 @@
     },
     {
       "name": "comp-471",
-      "type": "registry:component",
       "meta": {
         "tags": ["table"],
         "colSpan": 3
@@ -3972,7 +3460,6 @@
     },
     {
       "name": "comp-472",
-      "type": "registry:component",
       "meta": {
         "tags": ["table", "checkbox"],
         "colSpan": 3
@@ -3980,7 +3467,6 @@
     },
     {
       "name": "comp-473",
-      "type": "registry:component",
       "meta": {
         "tags": ["table", "checkbox", "card"],
         "colSpan": 3
@@ -3988,7 +3474,6 @@
     },
     {
       "name": "comp-474",
-      "type": "registry:component",
       "meta": {
         "tags": ["table", "vertical table"],
         "colSpan": 3
@@ -3996,7 +3481,6 @@
     },
     {
       "name": "comp-475",
-      "type": "registry:component",
       "meta": {
         "tags": ["table", "sticky"],
         "colSpan": 3
@@ -4004,7 +3488,6 @@
     },
     {
       "name": "comp-476",
-      "type": "registry:component",
       "meta": {
         "tags": ["table"],
         "colSpan": 3
@@ -4012,7 +3495,6 @@
     },
     {
       "name": "comp-477",
-      "type": "registry:component",
       "meta": {
         "tags": ["table", "tanstack", "checkbox", "badge", "chip", "flag"],
         "colSpan": 3
@@ -4020,7 +3502,6 @@
     },
     {
       "name": "comp-478",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "table",
@@ -4038,7 +3519,6 @@
     },
     {
       "name": "comp-479",
-      "type": "registry:component",
       "meta": {
         "tags": ["table", "tanstack", "flag", "sort", "resize"],
         "colSpan": 3
@@ -4046,7 +3526,6 @@
     },
     {
       "name": "comp-480",
-      "type": "registry:component",
       "meta": {
         "tags": ["table", "tanstack", "flag", "sticky", "resize"],
         "colSpan": 3
@@ -4054,7 +3533,6 @@
     },
     {
       "name": "comp-481",
-      "type": "registry:component",
       "meta": {
         "tags": ["table", "tanstack", "flag", "sort", "drag and drop"],
         "colSpan": 3
@@ -4062,7 +3540,6 @@
     },
     {
       "name": "comp-482",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "table",
@@ -4078,7 +3555,6 @@
     },
     {
       "name": "comp-483",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "table",
@@ -4095,7 +3571,6 @@
     },
     {
       "name": "comp-484",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "table",
@@ -4112,7 +3587,6 @@
     },
     {
       "name": "comp-485",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "table",
@@ -4132,14 +3606,12 @@
     },
     {
       "name": "comp-486",
-      "type": "registry:component",
       "meta": {
         "tags": ["input", "label", "range"]
       }
     },
     {
       "name": "comp-487",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "react aria"],
         "style": 1
@@ -4147,7 +3619,6 @@
     },
     {
       "name": "comp-488",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "range calendar", "date", "react aria"],
         "style": 1
@@ -4155,7 +3626,6 @@
     },
     {
       "name": "comp-489",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "calendar",
@@ -4169,7 +3639,6 @@
     },
     {
       "name": "comp-490",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "react daypicker"],
         "style": 1
@@ -4177,7 +3646,6 @@
     },
     {
       "name": "comp-491",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "range calendar", "date", "react daypicker"],
         "style": 1
@@ -4185,7 +3653,6 @@
     },
     {
       "name": "comp-492",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "calendar",
@@ -4199,7 +3666,6 @@
     },
     {
       "name": "comp-493",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "react daypicker"],
         "style": 1
@@ -4207,7 +3673,6 @@
     },
     {
       "name": "comp-494",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "react daypicker"],
         "style": 1
@@ -4215,7 +3680,6 @@
     },
     {
       "name": "comp-495",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "range calendar", "date", "react daypicker"],
         "style": 1
@@ -4223,7 +3687,6 @@
     },
     {
       "name": "comp-496",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "react daypicker"],
         "style": 1
@@ -4231,7 +3694,6 @@
     },
     {
       "name": "comp-497",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "react daypicker"],
         "style": 1
@@ -4239,7 +3701,6 @@
     },
     {
       "name": "comp-498",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "react daypicker"],
         "style": 1
@@ -4247,7 +3708,6 @@
     },
     {
       "name": "comp-499",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "week", "react daypicker"],
         "style": 1
@@ -4255,7 +3715,6 @@
     },
     {
       "name": "comp-500",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "button", "react daypicker"],
         "style": 1
@@ -4263,7 +3722,6 @@
     },
     {
       "name": "comp-501",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "button", "react daypicker"],
         "style": 1
@@ -4271,7 +3729,6 @@
     },
     {
       "name": "comp-502",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "input", "react daypicker"],
         "style": 1
@@ -4279,7 +3736,6 @@
     },
     {
       "name": "comp-503",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "input", "time", "react daypicker"],
         "style": 1
@@ -4287,7 +3743,6 @@
     },
     {
       "name": "comp-504",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "collapsible", "react daypicker", "radix"],
         "style": 1
@@ -4295,7 +3750,6 @@
     },
     {
       "name": "comp-505",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "time", "button", "react daypicker"],
         "colSpan": 3,
@@ -4304,7 +3758,6 @@
     },
     {
       "name": "comp-506",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "button", "react daypicker"],
         "colSpan": 3,
@@ -4313,7 +3766,6 @@
     },
     {
       "name": "comp-507",
-      "type": "registry:component",
       "meta": {
         "tags": [
           "calendar",
@@ -4328,7 +3780,6 @@
     },
     {
       "name": "comp-508",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "range calendar", "date", "react daypicker"],
         "colSpan": 3,
@@ -4337,7 +3788,6 @@
     },
     {
       "name": "comp-509",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "range calendar", "date", "react daypicker"],
         "colSpan": 3,
@@ -4346,7 +3796,6 @@
     },
     {
       "name": "comp-510",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "react daypicker"],
         "colSpan": 3,
@@ -4355,21 +3804,18 @@
     },
     {
       "name": "comp-511",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "button", "picker", "react daypicker"]
       }
     },
     {
       "name": "comp-512",
-      "type": "registry:component",
       "meta": {
         "tags": ["calendar", "date", "button", "picker", "react daypicker"]
       }
     },
     {
       "name": "comp-513",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper"],
         "colSpan": 3
@@ -4377,7 +3823,6 @@
     },
     {
       "name": "comp-514",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper"],
         "colSpan": 3
@@ -4385,7 +3830,6 @@
     },
     {
       "name": "comp-515",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper"],
         "colSpan": 3
@@ -4393,7 +3837,6 @@
     },
     {
       "name": "comp-516",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper"],
         "colSpan": 3
@@ -4401,7 +3844,6 @@
     },
     {
       "name": "comp-517",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper"],
         "colSpan": 3
@@ -4409,7 +3851,6 @@
     },
     {
       "name": "comp-518",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper"],
         "colSpan": 3
@@ -4417,7 +3858,6 @@
     },
     {
       "name": "comp-519",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper"],
         "colSpan": 3
@@ -4425,7 +3865,6 @@
     },
     {
       "name": "comp-520",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper"],
         "colSpan": 3
@@ -4433,7 +3872,6 @@
     },
     {
       "name": "comp-521",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper"],
         "colSpan": 3
@@ -4441,7 +3879,6 @@
     },
     {
       "name": "comp-522",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper"],
         "colSpan": 3
@@ -4449,7 +3886,6 @@
     },
     {
       "name": "comp-523",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper"],
         "colSpan": 3
@@ -4457,7 +3893,6 @@
     },
     {
       "name": "comp-524",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper"],
         "colSpan": 3
@@ -4465,7 +3900,6 @@
     },
     {
       "name": "comp-525",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper"],
         "colSpan": 3
@@ -4473,7 +3907,6 @@
     },
     {
       "name": "comp-526",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper", "vertical stepper"],
         "colSpan": 2
@@ -4481,7 +3914,6 @@
     },
     {
       "name": "comp-527",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper", "vertical stepper"],
         "colSpan": 2
@@ -4489,7 +3921,6 @@
     },
     {
       "name": "comp-528",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper", "vertical stepper"],
         "colSpan": 2
@@ -4497,7 +3928,6 @@
     },
     {
       "name": "comp-529",
-      "type": "registry:component",
       "meta": {
         "tags": ["stepper", "vertical stepper"],
         "colSpan": 2
