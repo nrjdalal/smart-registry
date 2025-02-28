@@ -186,8 +186,8 @@ const main = async () => {
               .replace("hooks", "registry:hook")
               .replace("lib", "registry:lib") || "registry:file",
           name: transformedPath
-            .replace(/\.[^/.]+$/, "")
-            .replace(/^(blocks|components\/ui|components|hooks|lib)\//, ""),
+            .replace(/^(blocks|components\/ui|components|hooks|lib)\//, "")
+            .replace(/\.[^/.]+$/, ""),
           import: "@/" + transformedPath.replace(/\.[^/.]+$/, ""),
           target: transformedPath,
           path: filepath,
