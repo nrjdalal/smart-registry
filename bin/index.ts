@@ -83,6 +83,38 @@ const main = async () => {
       ),
     ]
 
+    // ~ Transform file path to registry-item
+    const tranformer = (filepath: string) => {
+      filepath = filepath.replace(aliases["@/"], "")
+      const transformedPath = filepath.startsWith("registry/")
+        ? filepath
+            .replace(/^registry\//, "")
+            .replace(/^([^\/]+)\/blocks\//, "blocks/$1/")
+            .replace(/^([^\/]+)\/components\/ui\//, "$1/ui/")
+            .replace(/^([^\/]+)\/components\//, "components/$1/")
+            .replace(/^([^\/]+)\/hooks\//, "hooks/$1/")
+            .replace(/^([^\/]+)\/lib\//, "lib/$1/")
+            .replace(/^([^\/]+)\/ui\//, "components/ui/$1/")
+            .replace(/\/default\//, "/")
+        : filepath.replace(/\/default\//, "/")
+      return {
+        type:
+          transformedPath
+            .match(/^(blocks|components\/ui|components|hooks|lib)/)?.[1]
+            .replace("blocks", "registry:block")
+            .replace("components/ui", "registry:ui")
+            .replace("components", "registry:component")
+            .replace("hooks", "registry:hook")
+            .replace("lib", "registry:lib") || "registry:file",
+        name: transformedPath
+          .replace(/^(blocks|components\/ui|components|hooks|lib)\//, "")
+          .replace(/\.[^\/.]+$/, ""),
+        import: "@/" + transformedPath.replace(/\.[^/.]+$/, ""),
+        target: transformedPath,
+        path: filepath,
+      }
+    }
+
     // ~ Resolve all dependencies, files, and content for each file in the registry
     const resolveData = async (
       filePath: string,
@@ -136,7 +168,8 @@ const main = async () => {
           if (!data.files.includes(realPath)) data.files.push(realPath)
         } else {
           const ignoredDeps = ["fs", "path", "util"]
-          const pkg = importAddress.split("/").slice(0, 2).join("/")
+          let pkg = importAddress.split("/").slice(0, 2).join("/")
+          pkg = pkg.startsWith("@") ? pkg : pkg.split("/")[0]
           const isValidPackage = /^[a-zA-Z0-9@/-]+$/.test(pkg)
           if (
             isValidPackage &&
@@ -160,38 +193,51 @@ const main = async () => {
           newData.content[file] || (await fs.promises.readFile(file, "utf8"))
       }
 
-      return data
-    }
-
-    // ~ Create config file
-    const createConfig = (filepath: string) => {
-      const cwd = process.cwd().split("/").pop()
-      filepath = filepath.replace(aliases["@/"], "")
-      const transformedPath = filepath
-        .replace(/^registry\//, "")
-        .replace(/^([^\/]+)\/blocks\//, "blocks/$1/")
-        .replace(/^([^\/]+)\/components\/ui\//, "$1/ui/")
-        .replace(/^([^\/]+)\/components\//, "components/$1/")
-        .replace(/^([^\/]+)\/hooks\//, "hooks/$1/")
-        .replace(/^([^\/]+)\/lib\//, "lib/$1/")
-        .replace(/^([^\/]+)\/ui\//, "components/ui/$1/")
-        .replace(/\/default\//, `/${cwd}/`)
-      return {
-        type:
-          transformedPath
-            .match(/^(blocks|components\/ui|components|hooks|lib)/)?.[1]
-            .replace("blocks", "registry:block")
-            .replace("components/ui", "registry:ui")
-            .replace("components", "registry:component")
-            .replace("hooks", "registry:hook")
-            .replace("lib", "registry:lib") || "registry:file",
-        name: transformedPath
-          .replace(/^(blocks|components\/ui|components|hooks|lib)\//, "")
-          .replace(/\.[^\/.]+$/, ""),
-        import: "@/" + transformedPath.replace(/\.[^/.]+$/, ""),
-        target: transformedPath,
-        path: filepath,
+      // ~ Replace import statements with transformed import paths
+      for (const file of data.files) {
+        data.content[file] = data.content[file].replace(
+          /import\s+.*\s+from\s+['"](.*)['"]|import\s+['"](.*)['"]/g,
+          (statement) => {
+            const importAddress = statement.match(/['"](.*)['"]/)?.[1] as string
+            const isAliased = Object.keys(aliases).some((alias) =>
+              importAddress.startsWith(alias),
+            )
+            if (isAliased) {
+              const realPath = resolvePath(importAddress, aliases)
+              const transformedPath = tranformer(realPath)?.import
+              return statement.replace(importAddress, transformedPath)
+            } else if (importAddress.startsWith(".")) {
+              const realPath = path.resolve(path.dirname(file), importAddress)
+              const transformedPath = tranformer(realPath)?.import
+              return statement.replace(importAddress, transformedPath)
+            } else {
+              return statement
+            }
+          },
+        )
       }
+
+      // ~ Sort dependencies and files
+
+      data.dependencies.sort()
+      data.files.sort((a, b) =>
+        tranformer(a).target.localeCompare(tranformer(b).target),
+      )
+      data.files.sort((a, b) => {
+        const typeOrder = [
+          "registry:file",
+          "registry:block",
+          "registry:component",
+          "registry:ui",
+          "registry:hook",
+          "registry:lib",
+        ]
+        const typeA = tranformer(a).type
+        const typeB = tranformer(b).type
+        return typeOrder.indexOf(typeA) - typeOrder.indexOf(typeB)
+      })
+
+      return data
     }
 
     // ~ Build registry-item for each file in the registry
@@ -212,15 +258,15 @@ const main = async () => {
 
       const registryItem = {
         $schema: "https://ui.shadcn.com/schema/registry-item.json",
-        name: createConfig(filePath)?.name || filePath,
-        type: createConfig(filePath)?.type || "registry:file",
+        name: tranformer(filePath)?.name || filePath,
+        type: tranformer(filePath)?.type || "registry:file",
         ...(resolvedData.dependencies.length && {
           dependencies: resolvedData.dependencies,
         }),
         files: resolvedData.files.map((file) => {
           return {
-            type: createConfig(file)?.type || "registry:file",
-            target: createConfig(file)?.target || file,
+            type: tranformer(file)?.type || "registry:file",
+            target: tranformer(file)?.target || file,
             content: resolvedData.content[file],
             path: file,
           }
@@ -237,7 +283,7 @@ const main = async () => {
       })
       await fs.promises.writeFile(
         registryItemPath,
-        JSON.stringify(registryItem, null, 2),
+        JSON.stringify(registryItem, null, 2) + "\n",
       )
     }
 
