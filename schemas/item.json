@@ -81,10 +81,10 @@
           }
         },
         "then": {
-          "required": ["path", "type", "target"]
+          "required": ["path", "target"]
         },
         "else": {
-          "required": ["path", "type"]
+          "required": ["path"]
         }
       }
     },

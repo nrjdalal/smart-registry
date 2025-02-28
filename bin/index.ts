@@ -279,7 +279,8 @@ const main = async () => {
       )
 
       const registryItem = {
-        $schema: "https://ui.shadcn.com/schema/registry-item.json",
+        $schema:
+          "https://raw.githubusercontent.com/nrjdalal/smart-registry/refs/heads/main/schemas/item.json",
         name: tranformer(filePath).name,
         type: tranformer(filePath).type || "registry:file",
         // dependencies: resolvedData.dependencies,
