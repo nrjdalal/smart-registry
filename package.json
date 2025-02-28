@@ -1,6 +1,6 @@
 {
   "name": "smart-registry",
-  "version": "0.0.22",
+  "version": "0.1.0",
   "description": "smart-registry",
   "keywords": [
     "smart-registry"
@@ -47,6 +47,7 @@
     "semi": false
   },
   "dependencies": {
+    "strip-json-comments": "^5.0.1",
     "tinyglobby": "^0.2.12"
   },
   "devDependencies": {
