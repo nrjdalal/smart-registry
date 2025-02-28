@@ -4,6 +4,7 @@
   "type": "registry:ui",
   "dependencies": [
     "clsx",
+    "react-aria-components",
     "tailwind-merge"
   ],
   "files": [
