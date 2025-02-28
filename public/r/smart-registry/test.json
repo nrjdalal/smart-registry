@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "smart-registry/test",
+  "type": "registry:ui",
+  "files": [
+    {
+      "type": "registry:ui",
+      "target": "components/ui/smart-registry/test.tsx",
+      "content": "",
+      "path": "registry/default/components/ui/test.tsx"
+    }
+  ]
+}

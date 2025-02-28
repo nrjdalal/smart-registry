@@ -165,6 +165,7 @@ const main = async () => {
 
     // ~ Create config file
     const createConfig = (filepath: string) => {
+      const cwd = process.cwd().split("/").pop()
       filepath = filepath.replace(aliases["@/"], "")
       if (filepath.startsWith("registry/")) {
         const transformedPath = filepath
@@ -175,7 +176,7 @@ const main = async () => {
           .replace(/^([^\/]+)\/hooks\//, "hooks/$1/")
           .replace(/^([^\/]+)\/lib\//, "lib/$1/")
           .replace(/^([^\/]+)\/ui\//, "components/ui/$1/")
-
+          .replace(/\/default\//, `/${cwd}/`)
         return {
           type:
             transformedPath
@@ -187,7 +188,7 @@ const main = async () => {
               .replace("lib", "registry:lib") || "registry:file",
           name: transformedPath
             .replace(/^(blocks|components\/ui|components|hooks|lib)\//, "")
-            .replace(/\.[^/.]+$/, ""),
+            .replace(/\.[^\/.]+$/, ""),
           import: "@/" + transformedPath.replace(/\.[^/.]+$/, ""),
           target: transformedPath,
           path: filepath,
@@ -199,23 +200,8 @@ const main = async () => {
     for (const filePath of registryFiles) {
       const resolvedData = await resolveData(filePath)
 
-      const cwd = process.cwd().split("/").pop()
-
-      console.log(createConfig(filePath))
-
-      const name = filePath
-        .replace(aliases["@/"], "")
-        .replace(/^registry\//, "")
-        .replace(/^([^\/]+)\/blocks\//, "blocks/$1/")
-        .replace(/^([^\/]+)\/ui\//, "components/ui/$1/")
-        .replace(/^([^\/]+)\/components\//, "components/$1/")
-        .replace(/^([^\/]+)\/hooks\//, "hooks/$1/")
-        .replace(/^([^\/]+)\/lib\//, "lib/$1/")
-        .replace(/\/default\//, `/${cwd}/`)
-        .replace(/\.[^/.]+$/, "")
-
       console.log(
-        `- ${name.padEnd(50, " ")} ${
+        `- ${filePath.padEnd(50, " ")} ${
           resolvedData.dependencies.length
             ? "📦" + String(resolvedData.dependencies.length).padEnd(2, " ")
             : "   "
@@ -228,45 +214,15 @@ const main = async () => {
 
       const registryItem = {
         $schema: "https://ui.shadcn.com/schema/registry-item.json",
-        name,
-        type:
-          name
-            .match(/^(blocks|components\/ui|components|hooks|lib)/)?.[1]
-            .replace("blocks", "registry:block")
-            .replace("components/ui", "registry:ui")
-            .replace("components", "registry:component")
-            .replace("hooks", "registry:hook")
-            .replace("lib", "registry:lib") || "registry:file",
+        name: createConfig(filePath)?.name || filePath,
+        type: createConfig(filePath)?.type || "registry:file",
         ...(resolvedData.dependencies.length && {
           dependencies: resolvedData.dependencies,
         }),
         files: resolvedData.files.map((file) => {
           return {
-            type:
-              file
-                .replace(aliases["@/"], "")
-                .replace(/^registry\//, "")
-                .replace(/^([^\/]+)\/blocks\//, "blocks/$1/")
-                .replace(/^([^\/]+)\/ui\//, "components/ui/$1/")
-                .replace(/^([^\/]+)\/components\//, "components/$1/")
-                .replace(/^([^\/]+)\/hooks\//, "hooks/$1/")
-                .replace(/^([^\/]+)\/lib\//, "lib/$1/")
-                .replace(/\/default\//, `/${cwd}/`)
-                .match(/^(blocks|components\/ui|components|hooks|lib)/)?.[1]
-                .replace("blocks", "registry:block")
-                .replace("components/ui", "registry:ui")
-                .replace("components", "registry:component")
-                .replace("hooks", "registry:hook")
-                .replace("lib", "registry:lib") || "registry:file",
-            target: file
-              .replace(aliases["@/"], "")
-              .replace(/^registry\//, "")
-              .replace(/^([^\/]+)\/blocks\//, "blocks/$1/")
-              .replace(/^([^\/]+)\/ui\//, "components/ui/$1/")
-              .replace(/^([^\/]+)\/components\//, "components/$1/")
-              .replace(/^([^\/]+)\/hooks\//, "hooks/$1/")
-              .replace(/^([^\/]+)\/lib\//, "lib/$1/")
-              .replace(/\/default\//, `/${cwd}/`),
+            type: createConfig(file)?.type || "registry:file",
+            target: createConfig(file)?.target || file,
             content: resolvedData.content[file],
             path: file,
           }
@@ -276,7 +232,7 @@ const main = async () => {
       const registryItemPath = path.resolve(
         process.cwd(),
         "public/r",
-        name.split("/").pop() + ".json",
+        registryItem.name + ".json",
       )
       await fs.promises.mkdir(path.dirname(registryItemPath), {
         recursive: true,
