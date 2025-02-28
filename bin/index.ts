@@ -137,7 +137,7 @@ const main = async () => {
         } else {
           const ignoredDeps = ["fs", "path", "util"]
           const pkg = importAddress.split("/").slice(0, 2).join("/")
-          const isValidPackage = /^[a-zA-Z0-9@/]+$/.test(pkg)
+          const isValidPackage = /^[a-zA-Z0-9@/-]+$/.test(pkg)
           if (
             isValidPackage &&
             !ignoredDeps.includes(pkg) &&
@@ -168,10 +168,19 @@ const main = async () => {
       const resolvedData = await resolveData(filepath)
       console.log(
         `- ${filepath.padEnd(
-          Math.max(...registryFiles.map((f) => f.length)),
+          Math.max(...registryFiles.map((f) => f.length)) + 1,
           " ",
-        )} ${resolvedData.dependencies.length} deps ${resolvedData.files.length} files`,
+        )} ${
+          resolvedData.dependencies.length
+            ? "📦" + String(resolvedData.dependencies.length).padEnd(1, " ")
+            : "   "
+        }  ${
+          resolvedData.files.length - 1
+            ? "📄" + String(resolvedData.files.length - 1).padEnd(1, " ")
+            : "   "
+        }`,
       )
+      console.log(resolvedData)
     }
 
     process.exit(0)
