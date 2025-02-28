@@ -5,7 +5,8 @@ export default defineConfig({
   entry: {
     "bin/index": "bin/index.ts",
   },
-  external: ["tinyglobby"],
   format: ["esm"],
+  minify: true,
   outDir: "dist",
+  external: ["tinyglobby"],
 })
