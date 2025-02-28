@@ -277,7 +277,10 @@ const main = async () => {
         $schema: "https://ui.shadcn.com/schema/registry-item.json",
         name: tranformer(filePath).name,
         type: tranformer(filePath).type || "registry:file",
-        dependencies: resolvedData.dependencies,
+        // dependencies: resolvedData.dependencies,
+        ...(resolvedData.dependencies.length && {
+          dependencies: resolvedData.dependencies,
+        }),
         files: resolvedData.files.map((file) => {
           return {
             type: tranformer(file).type || "registry:file",
