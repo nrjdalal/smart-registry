@@ -251,6 +251,11 @@ const main = async () => {
       registry = JSON.parse(await fs.promises.readFile(registryPath, "utf8"))
     }
 
+    let registryJson = {
+      ...registry,
+      items: [] as Record<string, any>[],
+    }
+
     // ~ Build registry-item for each file in the registry
     for (const filePath of registryFiles) {
       const resolvedData = await resolveData([
@@ -287,7 +292,7 @@ const main = async () => {
             target: tranformer(file).target || file,
             content: resolvedData.content[file],
             path: file,
-          }
+          } as Record<string, any>
         }),
         // ~ Add properties from the registry.json items, which don't exist in the resolved registry-item
         ...Object.fromEntries(
@@ -314,7 +319,17 @@ const main = async () => {
         registryItemPath,
         JSON.stringify(registryItem, null, 2) + "\n",
       )
+      registryItem.files.forEach((file) => delete file.content)
+      registryJson.items.push(registryItem)
     }
+
+    // ~ Write registry.json file to public directory
+    registryJson.items.sort((a, b) => a.name.localeCompare(b.name))
+
+    await fs.promises.writeFile(
+      path.resolve(process.cwd(), "public/registry.json"),
+      JSON.stringify(registryJson, null, 2) + "\n",
+    )
 
     process.exit(0)
   } catch (err: any) {
