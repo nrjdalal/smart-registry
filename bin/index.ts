@@ -32,6 +32,7 @@ const parse: typeof parseArgs = (config) => {
 
 const main = async () => {
   try {
+    // ~ Parse command line arguments
     const { positionals, values } = parse({
       allowPositionals: true,
       options: {
@@ -53,6 +54,7 @@ const main = async () => {
       }
     }
 
+    // ~ Initialize configuration object
     const config = {
       files: values.files || [],
       directories: values.directories || [],
@@ -61,10 +63,11 @@ const main = async () => {
       directories: string[]
     }
 
+    // ~ Get aliases and files from utility functions
     const aliases = await getAliases()
     const files = await getFiles()
 
-    // ~ If no files or directories are provided, use the registry or components directory
+    // ~ If no files or directories are provided, use registry or components directory
     if (!config.files.length && !config.directories.length) {
       const foundPath = ["registry", "components"]
         .map((dir) => aliases["@/"] + dir)
@@ -126,6 +129,7 @@ const main = async () => {
         content: {} as Record<string, string>,
       }
 
+      // ~ Resolve data for each file
       for (const filePath of filePaths) {
         if (resolved.has(filePath)) {
           continue
@@ -139,6 +143,7 @@ const main = async () => {
           data.content[filePath] ||
           (await fs.promises.readFile(filePath, "utf8"))
 
+        // ~ Extract import statements from the file content
         const importStatements = data.content[filePath].match(
           /import\s+[\s\S]+?from\s+['"][^'"]+['"]|import\s+['"][^'"]+['"]|import\s+type\s+[\s\S]+?from\s+['"][^'"]+['"]/g,
         )
@@ -149,6 +154,7 @@ const main = async () => {
           (statement) => statement.match(/['"](.*)['"]/)?.[1] as string,
         )
 
+        // ~ Resolve dependencies, files, and content for each import
         for (const importAddress of imports) {
           const isAliased = Object.keys(aliases).some((alias) =>
             importAddress.startsWith(alias),
@@ -184,6 +190,7 @@ const main = async () => {
         }
       }
 
+      // ~ Recursively resolve data for new files
       for (const file of data.files) {
         const newData = await resolveData([file], resolved)
         newData.dependencies.forEach((dep) => {
@@ -258,75 +265,84 @@ const main = async () => {
 
     // ~ Build registry-item for each file in the registry
     for (const filePath of registryFiles) {
-      const resolvedData = await resolveData([
-        filePath,
-        // ~ If registry has keys items, find the item with the same name as the current file and if that item has files, add their file path to the resolved data
-        ...(registry.items
-          ?.find((item: any) => item.name === tranformer(filePath).name)
-          ?.files?.map((file: { path?: string }) => file.path) || []),
-      ])
+      try {
+        const resolvedData = await resolveData([
+          filePath,
+          // ~ If registry has keys items, find the item with the same name as the current file and if that item has files, add their file path to the resolved data
+          ...(registry.items
+            ?.find((item: any) => item.name === tranformer(filePath).name)
+            ?.files?.map((file: { path?: string }) => file.path) || []),
+        ])
 
-      const registryItem = {
-        $schema: "https://ui.shadcn.com/schema/registry-item.json",
-        name: tranformer(filePath).name,
-        type: tranformer(filePath).type || "registry:file",
-        ...(resolvedData.dependencies.length && {
-          dependencies: resolvedData.dependencies,
-        }),
-        files: resolvedData.files.map((file) => {
-          return {
-            type: tranformer(file).type || "registry:file",
-            target: tranformer(file).target || file,
-            content: resolvedData.content[file],
-            path: file,
-          } as Record<string, any>
-        }),
-        // ~ Add properties from the registry.json items, which don't exist in the resolved registry-item
-        ...Object.fromEntries(
-          Object.entries(
-            registry.items?.find(
-              (item: { name?: string }) =>
-                item.name === tranformer(filePath).name,
-            ) || {},
-          ).filter(
-            ([key]) => !["$schema", "name", "type", "files"].includes(key),
+        const registryItem = {
+          $schema: "https://ui.shadcn.com/schema/registry-item.json",
+          name: tranformer(filePath).name,
+          type: tranformer(filePath).type || "registry:file",
+          ...(resolvedData.dependencies.length && {
+            dependencies: resolvedData.dependencies,
+          }),
+          files: resolvedData.files.map((file) => {
+            return {
+              type: tranformer(file).type || "registry:file",
+              target: tranformer(file).target || file,
+              content: resolvedData.content[file],
+              path: file,
+            } as Record<string, any>
+          }),
+          // ~ Add properties from the registry.json items, which don't exist in the resolved registry-item
+          ...Object.fromEntries(
+            Object.entries(
+              registry.items?.find(
+                (item: { name?: string }) =>
+                  item.name === tranformer(filePath).name,
+              ) || {},
+            ).filter(
+              ([key]) => !["$schema", "name", "type", "files"].includes(key),
+            ),
           ),
-        ),
+        }
+
+        const registryItemPath = path.resolve(
+          process.cwd(),
+          "public/r",
+          registryItem.name + ".json",
+        )
+
+        // ~ Log the status of each registry item being processed
+        console.log(
+          `- ${filePath.padEnd(
+            Math.max(...registryFiles.map((file) => file.length)) + 2,
+            " ",
+          )} ${
+            resolvedData.dependencies.length
+              ? "📦" + String(resolvedData.dependencies.length).padEnd(2, " ")
+              : "    "
+          }  ${
+            resolvedData.files.length - 1
+              ? "📄" + String(resolvedData.files.length).padEnd(2, " ")
+              : "    "
+          }   ${registryItemPath.replace(process.cwd() + "/", "")}`,
+        )
+
+        // ~ Create necessary directories and write registry item files
+        await fs.promises.mkdir(path.dirname(registryItemPath), {
+          recursive: true,
+        })
+        await fs.promises.writeFile(
+          registryItemPath,
+          JSON.stringify(registryItem, null, 2) + "\n",
+        )
+        registryItem.files.forEach((file) => delete file.content)
+        registryJson.items.push(registryItem)
+      } catch (err: any) {
+        console.error(
+          `\x1b[31m- Error processing ${filePath}: ${err.message}\x1b[0m`,
+        )
+        continue
       }
-
-      const registryItemPath = path.resolve(
-        process.cwd(),
-        "public/r",
-        registryItem.name + ".json",
-      )
-
-      console.log(
-        `- ${filePath.padEnd(
-          Math.max(...registryFiles.map((file) => file.length)) + 2,
-          " ",
-        )} ${
-          resolvedData.dependencies.length
-            ? "📦" + String(resolvedData.dependencies.length).padEnd(2, " ")
-            : "    "
-        }  ${
-          resolvedData.files.length - 1
-            ? "📄" + String(resolvedData.files.length).padEnd(2, " ")
-            : "    "
-        }   ${registryItemPath.replace(process.cwd() + "/", "")}`,
-      )
-
-      await fs.promises.mkdir(path.dirname(registryItemPath), {
-        recursive: true,
-      })
-      await fs.promises.writeFile(
-        registryItemPath,
-        JSON.stringify(registryItem, null, 2) + "\n",
-      )
-      registryItem.files.forEach((file) => delete file.content)
-      registryJson.items.push(registryItem)
     }
 
-    // ~ Write registry.json file to public directory
+    // ~ Write the final registry.json file to the public directory
     registryJson.items.sort((a, b) => a.name.localeCompare(b.name))
 
     await fs.promises.writeFile(
