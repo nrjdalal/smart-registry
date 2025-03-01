@@ -281,6 +281,8 @@ const main = async () => {
       items: [] as Record<string, any>[],
     }
 
+    const failed = [] as string[]
+
     // ~ Build registry-item for each file in the registry
     for (const filePath of registryFiles) {
       try {
@@ -353,9 +355,7 @@ const main = async () => {
         registryItem.files.forEach((file) => delete file.content)
         registryJson.items.push(registryItem)
       } catch (err: any) {
-        console.error(
-          `\x1b[31m- Error processing ${filePath}: ${err.message}\x1b[0m`,
-        )
+        failed.push(filePath + ": " + err.message)
         continue
       }
     }
@@ -367,6 +367,12 @@ const main = async () => {
       path.resolve(process.cwd(), "public/registry.json"),
       JSON.stringify(registryJson, null, 2) + "\n",
     )
+
+    // ~ Log failed files
+    if (failed.length) {
+      console.log()
+      failed.forEach((file) => console.error(`\x1b[31m- ${file}\x1b[0m`))
+    }
 
     process.exit(0)
   } catch (err: any) {
