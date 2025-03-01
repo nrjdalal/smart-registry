@@ -92,12 +92,30 @@ const main = async () => {
       const transformedPath = filepath.startsWith("registry/")
         ? filepath
             .replace(/^registry\//, "")
-            .replace(/^([^\/]+)\/blocks\//, "blocks/$1/")
-            .replace(/^([^\/]+)\/components\/ui\//, "$1/ui/")
-            .replace(/^([^\/]+)\/components\//, "components/$1/")
-            .replace(/^([^\/]+)\/hooks\//, "hooks/$1/")
-            .replace(/^([^\/]+)\/lib\//, "lib/$1/")
-            .replace(/^([^\/]+)\/ui\//, "components/ui/$1/")
+            .replace(
+              /^(?:([^\/]*)\/)?blocks\//,
+              (_, p1) => `blocks/${p1 ? p1 + "/" : ""}`,
+            )
+            .replace(
+              /^(?:([^\/]*)\/)?components\/ui\//,
+              (_, p1) => `${p1 ? p1 + "/" : ""}ui/`,
+            )
+            .replace(
+              /^(?:([^\/]*)\/)?components\//,
+              (_, p1) => `components/${p1 ? p1 + "/" : ""}`,
+            )
+            .replace(
+              /^(?:([^\/]*)\/)?hooks\//,
+              (_, p1) => `hooks/${p1 ? p1 + "/" : ""}`,
+            )
+            .replace(
+              /^(?:([^\/]*)\/)?lib\//,
+              (_, p1) => `lib/${p1 ? p1 + "/" : ""}`,
+            )
+            .replace(
+              /^(?:([^\/]*)\/)?ui\//,
+              (_, p1) => `components/ui/${p1 ? p1 + "/" : ""}`,
+            )
             .replace(/\/default\//, "/")
         : filepath.replace(/\/default\//, "/")
       return {
