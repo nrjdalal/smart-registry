@@ -144,8 +144,7 @@ registry/
     ├── lib/
     │   └── utils.ts
     └── ui/
-        ├── button.tsx
-        └── dialog.tsx (focus on this file)
+        └── dialog.tsx
 
 ```
 
@@ -160,11 +159,6 @@ registry/
   "type": "registry:ui",
   "dependencies": ["@radix-ui/react-dialog"],
   "files": [
-    {
-      "type": "registry:ui",
-      "target": "components/ui/button.tsx",
-      "path": "registry/default/ui/button.tsx"
-    },
     {
       "type": "registry:ui",
       "target": "components/ui/dialog.tsx",
@@ -206,11 +200,6 @@ registry/
   "type": "registry:ui",
   "dependencies": ["@radix-ui/react-dialog"],
   "files": [
-    {
-      "type": "registry:ui",
-      "target": "components/ui/button.tsx",
-      "path": "registry/default/ui/button.tsx"
-    },
     {
       "type": "registry:ui",
       "target": "components/ui/dialog.tsx",
