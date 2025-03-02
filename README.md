@@ -111,11 +111,12 @@ Let's take the following directory structure to understand how `Smart Registry` 
 ```plaintext
 registry/
 └── default/
-    ├── ui/
-    │   ├── button.tsx
-    │   └── dialog.tsx
-    └── lib/
-        └── utils.ts
+    ├── lib/
+    │   └── utils.ts
+    └── ui/
+        ├── button.tsx
+        └── dialog.tsx
+
 ```
 
 1. `Smart Registry` will scan the `registry` directory for files.
