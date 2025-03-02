@@ -149,7 +149,7 @@ registry/
         └── dialog.tsx
 ```
 
-### With zero-configuration.
+#### With zero-configuration.
 
 <details><summary>Generated public/r/dialog.json</summary><br/>
 
@@ -178,7 +178,7 @@ registry/
 
 </details>
 
-### Add custom properties.
+#### Add custom properties.
 
 ```diff
 {
@@ -224,7 +224,7 @@ registry/
 
 </details>
 
-### Specify dependency version.
+#### Specify dependency version.
 
 Note: Only add the dependency that you want to specify the version for. The rest of the dependencies will be automatically added.
 
@@ -268,7 +268,7 @@ Note: Only add the dependency that you want to specify the version for. The rest
 
 </details>
 
-### External registry dependencies.
+#### External registry dependencies.
 
 ```diff
 {
@@ -310,7 +310,7 @@ Note: Only add the dependency that you want to specify the version for. The rest
 
 </details>
 
-### Additional files to include.
+#### Additional files to include.
 
 ```diff
 {
