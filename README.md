@@ -135,7 +135,7 @@ public/
 
 You can add/extend the generated `registry.json` and `r/<registry-item>.json` files by creating a `registry.json` file in the root of your project. The properties in this file will be merged with the generated properties.
 
-We wull use the following directory structure and `r/dialog.json` file to demonstrate how to add/extend properties.
+We will use the following directory structure and `r/dialog.json` file to demonstrate how to add/extend properties.
 
 ```plaintext
 registry/
@@ -209,15 +209,15 @@ registry/
       "path": "registry/default/lib/utils.ts"
     }
   ],
-  "meta": {
-    "tags": ["dialog", "modal"]
-  }
++  "meta": {
++    "tags": ["dialog", "modal"]
++  }
 }
 ```
 
 </details>
 
-- Specific dependencie's version.
+- Specify dependency version.
 
 Note: Only add the dependency that you want to specify the version for. The rest of the dependencies will be automatically added.
 
@@ -227,7 +227,7 @@ Note: Only add the dependency that you want to specify the version for. The rest
     {
       "name": "dialog",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-dialog@1.0.0"]
++      "dependencies": ["@radix-ui/react-dialog@1.0.0"]
     }
   ]
 }
@@ -240,7 +240,47 @@ Note: Only add the dependency that you want to specify the version for. The rest
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "dialog",
   "type": "registry:ui",
-  "dependencies": ["@radix-ui/react-dialog@1.0.0"],
+-  "dependencies": ["@radix-ui/react-dialog"],
++  "dependencies": ["@radix-ui/react-dialog@1.0.0"],
+  "files": [
+    {
+      "type": "registry:ui",
+      "target": "components/ui/dialog.tsx",
+      "path": "registry/default/ui/dialog.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "path": "registry/default/lib/utils.ts"
+    }
+  ]
+}
+```
+
+</details>
+
+- External registry dependencies.
+
+```json
+{
+  "items": [
+    {
+      "name": "dialog",
+      "type": "registry:ui",
++      "registryDependencies": ["button"]
+    }
+  ]
+}
+```
+
+<details><summary>Generated public/r/dialog.json</summary><br/>
+
+```json
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dialog",
+  "type": "registry:ui",
+  "dependencies": ["@radix-ui/react-dialog"],
   "files": [
     {
       "type": "registry:ui",
@@ -253,48 +293,11 @@ Note: Only add the dependency that you want to specify the version for. The rest
       "path": "registry/default/lib/utils.ts"
     }
   ],
-  "meta": {
-    "tags": ["dialog", "modal"]
-  }
++  "registryDependencies": ["button"]
 }
 ```
 
-- External registry dependencies.
-
-```json
-{
-  "items": [
-    {
-      "name": "dialog",
-      "type": "registry:ui",
-      "registryDependencies": ["button"]
-    }
-  ]
-}
-```
-
-<details><summary>Generated public/r/dialog.json</summary><br/>
-
-```json
-{
-  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "dialog",
-  "type": "registry:ui",
-  "dependencies": ["@radix-ui/react-dialog"],
-  "files": [
-    {
-      "type": "registry:ui",
-      "target": "components/ui/dialog.tsx",
-      "path": "registry/default/ui/dialog.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "path": "registry/default/lib/utils.ts"
-    }
-  ]
-}
-```
+</details>
 
 - Additional files to include.
 
@@ -304,12 +307,12 @@ Note: Only add the dependency that you want to specify the version for. The rest
     {
       "name": "dialog",
       "type": "registry:ui",
-      "files": [
-        {
-          "type": "registry:ui",
-          "path": "registry/default/ui/button.tsx"
-        }
-      ]
++      "files": [
++        {
++          "type": "registry:ui",
++          "path": "registry/default/ui/button.tsx"
++        }
++      ]
     }
   ]
 }
@@ -324,11 +327,11 @@ Note: Only add the dependency that you want to specify the version for. The rest
   "type": "registry:ui",
   "dependencies": ["@radix-ui/react-dialog"],
   "files": [
-    {
-      "type": "registry:ui",
-      "target": "components/ui/button.tsx",
-      "path": "registry/default/ui/button.tsx"
-    },
++    {
++      "type": "registry:ui",
++      "target": "components/ui/button.tsx",
++      "path": "registry/default/ui/button.tsx"
++    },
     {
       "type": "registry:ui",
       "target": "components/ui/dialog.tsx",
@@ -342,3 +345,5 @@ Note: Only add the dependency that you want to specify the version for. The rest
   ]
 }
 ```
+
+</details>
