@@ -126,7 +126,7 @@ registry/
 
 You can extend the generated `registry.json` and `r/<registry-item>.json` files by creating a `registry.json` file in the root of your project. The properties in this file will be merged with the generated properties.
 
-#### 1. Let's start with running `npx smart-registry` to generate the registry.
+#### 1. Let's start with running `npx smart-registry` to generate the registry without having a `registry.json` file.
 
 <details><summary>Click here to see the generated registry.json</summary><br/>
 
@@ -162,20 +162,20 @@ You can extend the generated `registry.json` and `r/<registry-item>.json` files 
 
 </details>
 
-#### 2. Adding `meta` property to `registry-item`:
+#### 2. Adding meta tags to the dialog item in the `registry.json` file.
 
 ```diff
-{
-  "items": [
-    {
-      "name": "dialog",
-      "type": "registry:ui",
++{
++  "items": [
++    {
++      "name": "dialog",
++      "type": "registry:ui",
 +      "meta": {
 +        "tags": ["dialog", "modal"]
 +      }
-    }
-  ]
-}
++    }
++  ]
++}
 ```
 
 <details><summary>Click here to see the generated dialog.json</summary><br/>
