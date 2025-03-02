@@ -8,5 +8,4 @@ export default defineConfig({
   format: ["esm"],
   minify: true,
   outDir: "dist",
-  external: ["tinyglobby"],
 })

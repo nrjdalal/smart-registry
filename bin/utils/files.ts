@@ -1,6 +1,25 @@
 import fs from "node:fs"
-import { getAliases } from "@/bin/utils/get-aliases"
+import path from "node:path"
 import { glob } from "tinyglobby"
+
+export const findFile = (filepath: string) => {
+  const isFile = path.extname(filepath) !== ""
+  if (isFile) {
+    return filepath
+  } else {
+    const folderPath = filepath.split(/\/|\\/).slice(0, -1).join(path.sep)
+    if (!fs.existsSync(folderPath)) return ""
+    let files = fs.readdirSync(folderPath)
+    files = files.map((file) => folderPath + path.sep + file)
+    const file = files.find((file) => file.startsWith(filepath + "."))
+    return file || ""
+  }
+  // TODO: Implement INDEX file resolution
+  // realPath =
+  //   files.find((f) => f.startsWith(realPath + ".")) ||
+  //   files.find((f) => f.startsWith(realPath + "/index")) ||
+  //   realPath
+}
 
 export const getFiles = async ({
   patterns = ["**", ".**"],

@@ -1,5 +1,4 @@
 import fs from "node:fs"
-import { getFiles } from "@/bin/utils/get-files"
 import stripJsonComments from "strip-json-comments"
 
 export const getAliases = async () => {
