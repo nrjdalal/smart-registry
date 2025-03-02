@@ -36,7 +36,7 @@ You can simplify your `registry.json` by removing properties like `registry depe
 }
 ```
 
-<details><summary>Click here to see the generated dialog.json</summary><br/>
+<details><summary>Generated public/r/dialog.json</summary><br/>
 
 ```json
 {
@@ -110,12 +110,12 @@ Let's take an following directory structure to understand how `Smart Registry` w
 
 ```plaintext
 registry/
-  default/
-    ui/
-      button.tsx
-      dialog.tsx
-    lib/
-      utils.ts
+└── default/
+    ├── ui/
+    │   ├── button.tsx
+    │   └── dialog.tsx
+    └── lib/
+        └── utils.ts
 ```
 
 1. `Smart Registry` will scan the `registry` directory for files.
@@ -128,33 +128,29 @@ You can extend the generated `registry.json` and `r/<registry-item>.json` files 
 
 #### 1. Let's start with running `npx smart-registry` to generate the registry without having a `registry.json` file.
 
-<details><summary>Click here to see the generated registry.json</summary><br/>
+<details><summary>Generated public/r/dialog.json</summary><br/>
 
 ```json
 {
-  "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "items": [
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dialog",
+  "type": "registry:ui",
+  "dependencies": ["@radix-ui/react-dialog"],
+  "files": [
     {
-      "name": "dialog",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-dialog"],
-      "files": [
-        {
-          "type": "registry:ui",
-          "target": "components/ui/button.tsx",
-          "path": "registry/default/ui/button.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/dialog.tsx",
-          "path": "registry/default/ui/dialog.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        }
-      ]
+      "target": "components/ui/button.tsx",
+      "path": "registry/default/ui/button.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/dialog.tsx",
+      "path": "registry/default/ui/dialog.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "path": "registry/default/lib/utils.ts"
     }
   ]
 }
@@ -178,7 +174,7 @@ You can extend the generated `registry.json` and `r/<registry-item>.json` files 
 +}
 ```
 
-<details><summary>Click here to see the generated dialog.json</summary><br/>
+<details><summary>Generated public/r/dialog.json</summary><br/>
 
 ```json
 {
