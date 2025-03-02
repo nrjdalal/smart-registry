@@ -87,7 +87,7 @@ Manual maintenance of `registry.json` files can lead to errors due to missing de
   - [Additional files to include](#additional-files-to-include)
   - [External registry dependencies](#external-registry-dependencies)
   - [Specify dependency version](#specify-dependency-version)
-- [Directroy Structure](#directroy-structure)
+- [Directory Structure](#directory-structure)
 
 ## Usage
 
@@ -108,7 +108,7 @@ Add the following alias to your `tsconfig.json` file.
 
 ### Automatic Detection
 
-Based on the alias configuration, following directory structure is assumed. Read more about [directory structure](#directroy-structure).
+Based on the alias configuration, following directory structure is assumed. Read more about [directory structure](#directory-structure).
 
 | Alias | Path      | Directory (Required)       |
 | ----- | --------- | -------------------------- |
@@ -396,7 +396,7 @@ Note: Only add the dependency that you want to specify the version for. The rest
 
 </details>
 
-## Directroy Structure
+## Directory Structure
 
 ### For `registry` directory.
 
@@ -411,7 +411,7 @@ registry/
 ├── hooks/
 │   └── use-toast.ts
 └── lib/
-│   └── utils.ts
+    └── utils.ts
 └── ui/
     └── toast.tsx
 ```
@@ -457,13 +457,12 @@ registry/
     │   └── toasty.tsx
     ├── components/
     │   └── toaster.tsx
-    ├── hooks
+    ├── hooks/
     │   └── use-toast.ts
     ├── lib/
     │   └── utils.ts
     └── ui/
         └── toast.tsx
-
 ```
 
 Generates the following items in `public/r` directory.
@@ -475,7 +474,7 @@ public/
     ├── component.json  name: new-york/toaster    target: components/new-york/toaster.tsx
     ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
     ├── utils.json      name: new-york/utils      target: lib/new-york/utils.ts
-    └── toast.json      name: new-york/toast      target: components/ui/new-york//toast.tsx
+    └── toast.json      name: new-york/toast      target: components/ui/new-york/toast.tsx
 ```
 
 ### For `components` directory.
@@ -488,7 +487,7 @@ blocks/
 components/
 ├── ui/
 │   └── dialog.tsx
-├── toaster.tsx
+└── toaster.tsx
 hooks/
 └── use-toast.ts
 lib/
@@ -504,5 +503,39 @@ public/
     ├── component.json  name: toaster    target: components/toaster.tsx
     ├── use-toast.json  name: use-toast  target: hooks/use-toast.ts
     ├── utils.json      name: utils      target: lib/utils.ts
-    └── dialog.json     name: dialog     target: components/ui/dialog.tsx
+    └── toast.json      name: toast     target: components/ui/toast.tsx
+```
+
+### For `components` directory with multiple registries.
+
+- Use `<registry-name>` sub-directory for named registry.
+
+```plaintext
+blocks/
+└── new-york/
+    └── toasty.tsx
+components/
+├── new-york/
+│   └── toaster.tsx
+└── ui/
+    └── new-york/
+        └── toast.tsx
+hooks/
+└── new-york/
+    └── use-toast.ts
+lib/
+└── new-york/
+    └── utils.ts
+```
+
+Generates the following items in `public/r` directory.
+
+```plaintext
+public/
+└── r/
+    ├── toasty.json     name: new-york/toasty     target: blocks/new-york/toasty.tsx
+    ├── component.json  name: new-york/toaster    target: components/new-york/toaster.tsx
+    ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
+    ├── utils.json      name: new-york/utils      target: lib/new-york/utils.ts
+    └── toast.json      name: new-york/toast      target: components/ui/new-york/toast.tsx
 ```
