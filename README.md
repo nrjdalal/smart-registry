@@ -15,6 +15,32 @@ You can simplify your `registry.json` by removing properties like `registry depe
 
 Manual maintenance of `registry.json` files can lead to errors due to missing dependencies or files. `Smart Registry` reduces these risks by automating the detection and generation of the necessary `registry.json` and `r/<registry-item>.json` entries, making registry management more efficient.
 
+```diff
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "acme",
+  "homepage": "https://acme.com",
+  "items": [
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+-      "registryDependencies": [
+-        "button"
+-      ],
+-      "dependencies": [
+-        "@radix-ui/react-dialog"
+-      ],
+-      "files": [
+-        {
+-          "path": "registry/new-york-v4/ui/dialog.tsx",
+-          "type": "registry:ui"
+-        }
+-      ]
+-    },
+  ]
+}
+```
+
 ## Usage
 
 ### Automatic Detection
