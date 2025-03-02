@@ -6,7 +6,7 @@ import { resolvePath } from "@/bin/utils"
 import { getAliases } from "@/bin/utils/get-aliases"
 import { getFiles } from "@/bin/utils/get-files"
 import { resolver } from "@/bin/utils/resolver"
-import { tranformer } from "@/bin/utils/transformer"
+import { transformer } from "@/bin/utils/transformer"
 import { author, name, version } from "@/package.json"
 
 const helpMessage = `Version:
@@ -114,7 +114,7 @@ const main = async () => {
               ?.find(
                 (item: any) =>
                   item.name ===
-                  tranformer(filePath, {
+                  transformer(filePath, {
                     aliases,
                   }).name,
               )
@@ -125,11 +125,11 @@ const main = async () => {
 
         const registryItem = {
           $schema: "https://ui.shadcn.com/schema/registry-item.json",
-          name: tranformer(filePath, {
+          name: transformer(filePath, {
             aliases,
           }).name,
           type:
-            tranformer(filePath, {
+            transformer(filePath, {
               aliases,
             }).type || "registry:file",
           ...(resolvedData.dependencies.length && {
@@ -138,11 +138,11 @@ const main = async () => {
           files: resolvedData.files.map((file) => {
             return {
               type:
-                tranformer(file, {
+                transformer(file, {
                   aliases,
                 }).type || "registry:file",
               target:
-                tranformer(file, {
+                transformer(file, {
                   aliases,
                 }).target || file,
               content: resolvedData.content[file],
@@ -155,7 +155,7 @@ const main = async () => {
               registry.items?.find(
                 (item: { name?: string }) =>
                   item.name ===
-                  tranformer(filePath, {
+                  transformer(filePath, {
                     aliases,
                   }).name,
               ) || {},

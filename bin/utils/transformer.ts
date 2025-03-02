@@ -1,4 +1,4 @@
-export const tranformer = (
+export const transformer = (
   filepath: string,
   options: {
     aliases?: Record<string, string>

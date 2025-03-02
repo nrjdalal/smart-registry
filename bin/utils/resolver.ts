@@ -1,7 +1,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { findFile, resolvePath } from "@/bin/utils"
-import { tranformer } from "@/bin/utils/transformer"
+import { transformer } from "@/bin/utils/transformer"
 
 export const resolver = async (
   filePaths: string[],
@@ -101,13 +101,13 @@ export const resolver = async (
         )
         if (isAliased) {
           const realPath = resolvePath(importAddress, aliases)
-          const transformedPath = tranformer(realPath, {
+          const transformedPath = transformer(realPath, {
             aliases,
           })?.import
           return statement.replace(importAddress, transformedPath)
         } else if (importAddress.startsWith(".")) {
           const realPath = path.resolve(path.dirname(file), importAddress)
-          const transformedPath = tranformer(realPath, {
+          const transformedPath = transformer(realPath, {
             aliases,
           })?.import
           return statement.replace(importAddress, transformedPath)
@@ -121,10 +121,10 @@ export const resolver = async (
   // ~ Sort dependencies and files
   data.dependencies.sort()
   data.files.sort((a, b) =>
-    tranformer(a, {
+    transformer(a, {
       aliases,
     }).target.localeCompare(
-      tranformer(b, {
+      transformer(b, {
         aliases,
       }).target,
     ),
@@ -138,10 +138,10 @@ export const resolver = async (
       "registry:hook",
       "registry:lib",
     ]
-    const typeA = tranformer(a, {
+    const typeA = transformer(a, {
       aliases,
     }).type
-    const typeB = tranformer(b, {
+    const typeB = transformer(b, {
       aliases,
     }).type
     return typeOrder.indexOf(typeA) - typeOrder.indexOf(typeB)
