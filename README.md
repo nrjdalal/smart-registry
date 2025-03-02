@@ -124,11 +124,11 @@ registry/
 
 ```plaintext
 public/
-├── registry.json
-└── r/
-    ├── button.json
-    ├── dialog.json
-    └── utils.json
+├── r/
+│   ├── button.json
+│   ├── dialog.json
+│   └── utils.json
+└── registry.json
 ```
 
 ## Extending Properties
