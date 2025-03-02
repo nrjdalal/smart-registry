@@ -136,7 +136,18 @@ public/
 
 You can extend the generated `registry.json` and `r/<registry-item>.json` files by creating a `registry.json` file in the root of your project. The properties in this file will be merged with the generated properties.
 
-### Let's take an example:
+### Let's take an example, for the following directory structure:
+
+```plaintext
+registry/
+└── default/
+    ├── lib/
+    │   └── utils.ts
+    └── ui/
+        ├── button.tsx
+        └── dialog.tsx
+
+```
 
 1. Run `npx smart-registry` to generate the registry without having a `registry.json` file.
 
