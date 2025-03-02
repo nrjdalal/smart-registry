@@ -7,7 +7,7 @@
 
 A zero-configuration, [open in v0](https://ui.shadcn.com/docs/registry/open-in-v0) / [shadcn add](https://ui.shadcn.com/docs/cli#add) compatible registry builder.
 
-> The best configuration is no configuration. In a UI/UX project, the focus should be on developing building blocks, components, and pages, rather than spending time configuring the registry.
+> The best configuration is no configuration. Focus on developing building blocks, components, and pages, rather than spending time configuring the registry.
 
 ## What is Zero-Configuration?
 
@@ -116,7 +116,6 @@ registry/
     └── ui/
         ├── button.tsx
         └── dialog.tsx
-
 ```
 
 1. `Smart Registry` will scan the `registry` directory for files.
@@ -136,7 +135,9 @@ public/
 
 You can extend the generated `registry.json` and `r/<registry-item>.json` files by creating a `registry.json` file in the root of your project. The properties in this file will be merged with the generated properties.
 
-### Let's take an example, for the following directory structure:
+### Example
+
+For the following directory structure:
 
 ```plaintext
 registry/
@@ -145,7 +146,6 @@ registry/
     │   └── utils.ts
     └── ui/
         └── dialog.tsx
-
 ```
 
 1. Run `npx smart-registry` to generate the registry without having a `registry.json` file.
