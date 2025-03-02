@@ -154,9 +154,9 @@ public/
 
 ## Extending Properties
 
-You can add/extend the generated `registry.json` and `r/<registry-item>.json` files by creating a `registry.json` file in the root of your project. The properties in this file will be merged with the generated properties.
+You can add/extend the generated `public/registry.json` and `public/r/<registry-item>.json` files by creating a `registry.json` file in the root of your project. The properties in this file will be merged with the generated properties.
 
-We will use the following directory structure and `r/dialog.json` file to demonstrate how to add/extend properties.
+We will consider the dialog component with the following directory structure to demonstrate the extension of properties.
 
 ```plaintext
 registry/
@@ -242,9 +242,7 @@ registry/
 
 </details>
 
-#### Specify dependency version.
-
-Note: Only add the dependency that you want to specify the version for. The rest of the dependencies will be automatically added.
+#### Additional files to include.
 
 ```diff
 {
@@ -252,7 +250,12 @@ Note: Only add the dependency that you want to specify the version for. The rest
     {
       "name": "dialog",
       "type": "registry:ui",
-+      "dependencies": ["@radix-ui/react-dialog@1.0.0"]
++      "files": [
++        {
++          "type": "registry:ui",
++          "path": "registry/default/ui/button.tsx"
++        }
++      ]
     }
   ]
 }
@@ -265,9 +268,14 @@ Note: Only add the dependency that you want to specify the version for. The rest
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "dialog",
   "type": "registry:ui",
--  "dependencies": ["@radix-ui/react-dialog"],
-+  "dependencies": ["@radix-ui/react-dialog@1.0.0"],
+  "dependencies": ["@radix-ui/react-dialog"],
   "files": [
++    {
++      "type": "registry:ui",
++      "target": "components/ui/button.tsx",
++      "content": "...",
++      "path": "registry/default/ui/button.tsx"
++    },
     {
       "type": "registry:ui",
       "target": "components/ui/dialog.tsx",
@@ -328,7 +336,9 @@ Note: Only add the dependency that you want to specify the version for. The rest
 
 </details>
 
-#### Additional files to include.
+#### Specify dependency version.
+
+Note: Only add the dependency that you want to specify the version for. The rest of the dependencies will be automatically added.
 
 ```diff
 {
@@ -336,12 +346,7 @@ Note: Only add the dependency that you want to specify the version for. The rest
     {
       "name": "dialog",
       "type": "registry:ui",
-+      "files": [
-+        {
-+          "type": "registry:ui",
-+          "path": "registry/default/ui/button.tsx"
-+        }
-+      ]
++      "dependencies": ["@radix-ui/react-dialog@1.0.0"]
     }
   ]
 }
@@ -354,14 +359,9 @@ Note: Only add the dependency that you want to specify the version for. The rest
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "dialog",
   "type": "registry:ui",
-  "dependencies": ["@radix-ui/react-dialog"],
+-  "dependencies": ["@radix-ui/react-dialog"],
++  "dependencies": ["@radix-ui/react-dialog@1.0.0"],
   "files": [
-+    {
-+      "type": "registry:ui",
-+      "target": "components/ui/button.tsx",
-+      "content": "...",
-+      "path": "registry/default/ui/button.tsx"
-+    },
     {
       "type": "registry:ui",
       "target": "components/ui/dialog.tsx",
