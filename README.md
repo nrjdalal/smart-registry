@@ -48,16 +48,19 @@ Simplify your `registry.json` by removing properties like `registryDependencies`
     {
       "type": "registry:ui",
       "target": "components/ui/button.tsx",
+      "content": "...",
       "path": "registry/default/ui/button.tsx"
     },
     {
       "type": "registry:ui",
       "target": "components/ui/dialog.tsx",
+      "content": "...",
       "path": "registry/default/ui/dialog.tsx"
     },
     {
       "type": "registry:lib",
       "target": "lib/utils.ts",
+      "content": "...",
       "path": "registry/default/lib/utils.ts"
     }
   ]
@@ -146,7 +149,7 @@ registry/
         └── dialog.tsx
 ```
 
-- With zero-configuration.
+### With zero-configuration.
 
 <details><summary>Generated public/r/dialog.json</summary><br/>
 
@@ -160,11 +163,13 @@ registry/
     {
       "type": "registry:ui",
       "target": "components/ui/dialog.tsx",
+      "content": "...",
       "path": "registry/default/ui/dialog.tsx"
     },
     {
       "type": "registry:lib",
       "target": "lib/utils.ts",
+      "content": "...",
       "path": "registry/default/lib/utils.ts"
     }
   ]
@@ -173,20 +178,20 @@ registry/
 
 </details>
 
-- Add custom properties.
+### Add custom properties.
 
 ```diff
-+{
-+  "items": [
-+    {
-+      "name": "dialog",
-+      "type": "registry:ui",
+{
+  "items": [
+    {
+      "name": "dialog",
+      "type": "registry:ui",
 +      "meta": {
 +        "tags": ["dialog", "modal"]
 +      }
-+    }
-+  ]
-+}
+    }
+  ]
+}
 ```
 
 <details><summary>Generated public/r/dialog.json</summary><br/>
@@ -201,11 +206,13 @@ registry/
     {
       "type": "registry:ui",
       "target": "components/ui/dialog.tsx",
+      "content": "...",
       "path": "registry/default/ui/dialog.tsx"
     },
     {
       "type": "registry:lib",
       "target": "lib/utils.ts",
+      "content": "...",
       "path": "registry/default/lib/utils.ts"
     }
   ],
@@ -217,7 +224,7 @@ registry/
 
 </details>
 
-- Specify dependency version.
+### Specify dependency version.
 
 Note: Only add the dependency that you want to specify the version for. The rest of the dependencies will be automatically added.
 
@@ -246,11 +253,13 @@ Note: Only add the dependency that you want to specify the version for. The rest
     {
       "type": "registry:ui",
       "target": "components/ui/dialog.tsx",
+      "content": "...",
       "path": "registry/default/ui/dialog.tsx"
     },
     {
       "type": "registry:lib",
       "target": "lib/utils.ts",
+      "content": "...",
       "path": "registry/default/lib/utils.ts"
     }
   ]
@@ -259,7 +268,7 @@ Note: Only add the dependency that you want to specify the version for. The rest
 
 </details>
 
-- External registry dependencies.
+### External registry dependencies.
 
 ```json
 {
@@ -285,11 +294,13 @@ Note: Only add the dependency that you want to specify the version for. The rest
     {
       "type": "registry:ui",
       "target": "components/ui/dialog.tsx",
+      "content": "...",
       "path": "registry/default/ui/dialog.tsx"
     },
     {
       "type": "registry:lib",
       "target": "lib/utils.ts",
+      "content": "...",
       "path": "registry/default/lib/utils.ts"
     }
   ],
@@ -299,7 +310,7 @@ Note: Only add the dependency that you want to specify the version for. The rest
 
 </details>
 
-- Additional files to include.
+### Additional files to include.
 
 ```json
 {
@@ -330,16 +341,19 @@ Note: Only add the dependency that you want to specify the version for. The rest
 +    {
 +      "type": "registry:ui",
 +      "target": "components/ui/button.tsx",
++      "content": "...",
 +      "path": "registry/default/ui/button.tsx"
 +    },
     {
       "type": "registry:ui",
       "target": "components/ui/dialog.tsx",
+      "content": "...",
       "path": "registry/default/ui/dialog.tsx"
     },
     {
       "type": "registry:lib",
       "target": "lib/utils.ts",
+      "content": "...",
       "path": "registry/default/lib/utils.ts"
     }
   ]
