@@ -153,7 +153,7 @@ registry/
 
 <details><summary>Generated public/r/dialog.json</summary><br/>
 
-```json
+```diff
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "dialog",
@@ -196,7 +196,7 @@ registry/
 
 <details><summary>Generated public/r/dialog.json</summary><br/>
 
-```json
+```diff
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "dialog",
@@ -228,7 +228,7 @@ registry/
 
 Note: Only add the dependency that you want to specify the version for. The rest of the dependencies will be automatically added.
 
-```json
+```diff
 {
   "items": [
     {
@@ -242,7 +242,7 @@ Note: Only add the dependency that you want to specify the version for. The rest
 
 <details><summary>Generated public/r/dialog.json</summary><br/>
 
-```json
+```diff
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "dialog",
@@ -270,7 +270,7 @@ Note: Only add the dependency that you want to specify the version for. The rest
 
 ### External registry dependencies.
 
-```json
+```diff
 {
   "items": [
     {
@@ -284,7 +284,7 @@ Note: Only add the dependency that you want to specify the version for. The rest
 
 <details><summary>Generated public/r/dialog.json</summary><br/>
 
-```json
+```diff
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "dialog",
@@ -312,7 +312,7 @@ Note: Only add the dependency that you want to specify the version for. The rest
 
 ### Additional files to include.
 
-```json
+```diff
 {
   "items": [
     {
@@ -331,7 +331,7 @@ Note: Only add the dependency that you want to specify the version for. The rest
 
 <details><summary>Generated public/r/dialog.json</summary><br/>
 
-```json
+```diff
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "dialog",
