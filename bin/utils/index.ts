@@ -13,6 +13,7 @@ export const findFile = (filepath: string) => {
     const file = files.find((file) => file.startsWith(filepath + "."))
     return file || ""
   }
+  // TODO: Implement INDEX file resolution
   // realPath =
   //   files.find((f) => f.startsWith(realPath + ".")) ||
   //   files.find((f) => f.startsWith(realPath + "/index")) ||

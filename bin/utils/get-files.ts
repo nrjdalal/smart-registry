@@ -1,5 +1,4 @@
 import fs from "node:fs"
-import { getAliases } from "@/bin/utils/get-aliases"
 import { glob } from "tinyglobby"
 
 export const getFiles = async ({
