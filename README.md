@@ -9,7 +9,9 @@ A zero-configuration, [open in v0](https://ui.shadcn.com/docs/registry/open-in-v
 
 ## What does zero-configuration mean?
 
-Zero-configuration means you don't need to manually create a `registry.json` file. Simply run `smart-registry`, and it will automatically generate a `public/registry.json` file along with `public/r/<registry-item>.json` files for you.
+Zero-configuration means you don't need to manually create a `registry.json` file. Simply run `smart-registry`, and it will automatically detect and generate the necessary `registry.json` and `r/<registry-item>.json` entries for your project.
+
+### Example
 
 Let's take a complex component as an example. Normally, you would need to manually declare all the registry dependencies, dependencies, and files in the `registry.json` file.
 
@@ -19,7 +21,6 @@ Let's take a complex component as an example. Normally, you would need to manual
   "name": "acme",
   "homepage": "https://acme.com",
   "items": [
-    // ... other blocks/components/hooks/lib/ui items
     {
       "name": "comp-485",
       "type": "registry:component",
@@ -44,21 +45,24 @@ Let's take a complex component as an example. Normally, you would need to manual
         }
       ]
     }
-    // ... other blocks/components/hooks/lib/ui items
   ]
 }
 ```
 
-But with `smart-registry`, you don't need to manually declare all the dependencies, files, and registry items. It will automatically detect and generate the necessary `registry.json` entries for your components in the `public` directory.
+With `smart-registry`, you can skip the manual declaration of dependencies, files, and registry items. The tool will automatically detect and generate the required `registry.json` and `r/<registry-item>.json` entries for your project.
 
-````diff
-```json
+```bash
+rm -rf registry.json
+```
+
+Or, you can manually edit the `registry.json` file to remove the unnecessary declarations:
+
+```diff
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "acme",
   "homepage": "https://acme.com",
   "items": [
-    // ... other blocks/components/hooks/lib/ui items
     {
       "name": "comp-485",
       "type": "registry:component",
@@ -83,7 +87,6 @@ But with `smart-registry`, you don't need to manually declare all the dependenci
 -        }
       ]
     }
-    // ... other blocks/components/hooks/lib/ui items
   ]
 }
-````
+```
