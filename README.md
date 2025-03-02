@@ -73,6 +73,22 @@ Simplify your `registry.json` by removing properties like `registryDependencies`
 
 Manual maintenance of `registry.json` files can lead to errors due to missing dependencies or files, or wrongful addition of unnecessary ones. `Smart Registry` reduces these risks by automating the detection and generation of the necessary `registry.json` and `r/<registry-item>.json` entries, making registry management more efficient.
 
+## Table of Contents
+
+- [Usage](#usage)
+  - [Configure Alias](#configure-alias)
+  - [Automatic Detection](#automatic-detection)
+  - [From Specific Files](#from-specific-files)
+  - [From Specific Directories](#from-specific-directories)
+- [How it Works](#how-it-works)
+- [Extending Properties](#extending-properties)
+  - [With zero-configuration](#with-zero-configuration)
+  - [Add custom properties](#add-custom-properties)
+  - [Additional files to include](#additional-files-to-include)
+  - [External registry dependencies](#external-registry-dependencies)
+  - [Specify dependency version](#specify-dependency-version)
+- [Directroy Structure](#directroy-structure)
+
 ## Usage
 
 ### Configure Alias
@@ -92,7 +108,7 @@ Add the following alias to your `tsconfig.json` file.
 
 ### Automatic Detection
 
-Based on the alias configuration, following directory structure is assumed.
+Based on the alias configuration, following directory structure is assumed. Read more about [directory structure](#directroy-structure).
 
 | Alias | Path      | Directory (Required)       |
 | ----- | --------- | -------------------------- |
@@ -379,3 +395,114 @@ Note: Only add the dependency that you want to specify the version for. The rest
 ```
 
 </details>
+
+## Directroy Structure
+
+### For `registry` directory.
+
+- Use direct name for default registry.
+
+```plaintext
+registry/
+├── blocks/
+│   └── toasty.tsx
+├── components/
+│   └── toaster.tsx
+├── hooks/
+│   └── use-toast.ts
+└── lib/
+│   └── utils.ts
+└── ui/
+    └── toast.tsx
+```
+
+- Or use `default` sub-directory for default registry.
+
+```plaintext
+registry/
+└── default/
+    ├── blocks/
+    │   └── toasty.tsx
+    ├── components/
+    │   └── toaster.tsx
+    ├── hooks/
+    │   └── use-toast.ts
+    ├── lib/
+    │   └── utils.ts
+    └── ui/
+        └── toast.tsx
+```
+
+Both generate the following items in `public/r` directory.
+
+```plaintext
+public/
+└── r/
+    ├── toasty.json     name: toasty     target: blocks/toasty.tsx
+    ├── component.json  name: toaster    target: components/toaster.tsx
+    ├── use-toast.json  name: use-toast  target: hooks/use-toast.ts
+    ├── utils.json      name: utils      target: lib/utils.ts
+    └── toast.json      name: toast      target: components/ui/toast.tsx
+```
+
+### For `registry` directory with multiple registries.
+
+- Use `<registry-name>` sub-directory for named registry.
+
+```plaintext
+registry/
+├── default/
+└── new-york/
+    ├── blocks/
+    │   └── toasty.tsx
+    ├── components/
+    │   └── toaster.tsx
+    ├── hooks
+    │   └── use-toast.ts
+    ├── lib/
+    │   └── utils.ts
+    └── ui/
+        └── toast.tsx
+
+```
+
+Generates the following items in `public/r` directory.
+
+```plaintext
+public/
+└── r/
+    ├── toasty.json     name: new-york/toasty     target: blocks/new-york/toasty.tsx
+    ├── component.json  name: new-york/toaster    target: components/new-york/toaster.tsx
+    ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
+    ├── utils.json      name: new-york/utils      target: lib/new-york/utils.ts
+    └── toast.json      name: new-york/toast      target: components/ui/new-york//toast.tsx
+```
+
+### For `components` directory.
+
+- Use direct name for default registry.
+
+```plaintext
+blocks/
+└── toasty.tsx
+components/
+├── ui/
+│   └── dialog.tsx
+├── toaster.tsx
+hooks/
+└── use-toast.ts
+lib/
+└── utils.ts
+```
+
+Generates the following items in `public/r` directory.
+
+```plaintext
+public/
+└── r/
+    ├── toasty.json     name: toasty     target: blocks/toasty.tsx
+    ├── component.json  name: toaster    target: components/toaster.tsx
+    ├── use-toast.json  name: use-toast  target: hooks/use-toast.ts
+    ├── utils.json      name: utils      target: lib/utils.ts
+    └── dialog.json     name: dialog     target: components/ui/dialog.tsx
+```
