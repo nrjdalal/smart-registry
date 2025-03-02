@@ -108,7 +108,7 @@ Add the following alias to your `tsconfig.json` file.
 
 ### Automatic Detection
 
-Based on the alias configuration, following directory structure is assumed. Read more about [directory structure](#directory-structure).
+Based on the alias configuration, the following directory structure is assumed. Read more about [directory structure](#directory-structure).
 
 | Alias | Path      | Directory (Required)       |
 | ----- | --------- | -------------------------- |
@@ -410,8 +410,8 @@ registry/
 │   └── toaster.tsx
 ├── hooks/
 │   └── use-toast.ts
-└── lib/
-    └── utils.ts
+├── lib/
+│   └── utils.ts
 └── ui/
     └── toast.tsx
 ```
@@ -471,7 +471,7 @@ Generates the following items in `public/r` directory.
 public/
 └── r/
     ├── toasty.json     name: new-york/toasty     target: blocks/new-york/toasty.tsx
-    ├── component.json  name: new-york/toaster    target: components/new-york/toaster.tsx
+    ├── toaster.json  name: new-york/toaster    target: components/new-york/toaster.tsx
     ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
     ├── utils.json      name: new-york/utils      target: lib/new-york/utils.ts
     └── toast.json      name: new-york/toast      target: components/ui/new-york/toast.tsx
@@ -503,7 +503,7 @@ public/
     ├── component.json  name: toaster    target: components/toaster.tsx
     ├── use-toast.json  name: use-toast  target: hooks/use-toast.ts
     ├── utils.json      name: utils      target: lib/utils.ts
-    └── toast.json      name: toast     target: components/ui/toast.tsx
+    └── toast.json      name: toast      target: components/ui/toast.tsx
 ```
 
 ### For `components` directory with multiple registries.
