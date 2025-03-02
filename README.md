@@ -36,7 +36,7 @@ Manual maintenance of `registry.json` files can lead to errors due to missing de
 -          "type": "registry:ui"
 -        }
 -      ]
--    },
+-    }
   ]
 }
 ```
