@@ -470,11 +470,12 @@ Generates the following items in `public/r` directory.
 ```plaintext
 public/
 └── r/
-    ├── toasty.json     name: new-york/toasty     target: blocks/new-york/toasty.tsx
-    ├── toaster.json  name: new-york/toaster    target: components/new-york/toaster.tsx
-    ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
-    ├── utils.json      name: new-york/utils      target: lib/new-york/utils.ts
-    └── toast.json      name: new-york/toast      target: components/ui/new-york/toast.tsx
+  ├── new-york/
+      ├── toasty.json     name: new-york/toasty     target: blocks/new-york/toasty.tsx
+      ├── toaster.json    name: new-york/toaster    target: components/new-york/toaster.tsx
+      ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
+      ├── utils.json      name: new-york/utils      target: lib/new-york/utils.ts
+      └── toast.json      name: new-york/toast      target: components/ui/new-york/toast.tsx
 ```
 
 ### For `components` directory.
@@ -533,9 +534,10 @@ Generates the following items in `public/r` directory.
 ```plaintext
 public/
 └── r/
-    ├── toasty.json     name: new-york/toasty     target: blocks/new-york/toasty.tsx
-    ├── component.json  name: new-york/toaster    target: components/new-york/toaster.tsx
-    ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
-    ├── utils.json      name: new-york/utils      target: lib/new-york/utils.ts
-    └── toast.json      name: new-york/toast      target: components/ui/new-york/toast.tsx
+  ├── new-york/
+      ├── toasty.json     name: new-york/toasty     target: blocks/new-york/toasty.tsx
+      ├── toaster.json    name: new-york/toaster    target: components/new-york/toaster.tsx
+      ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
+      ├── utils.json      name: new-york/utils      target: lib/new-york/utils.ts
+      └── toast.json      name: new-york/toast      target: components/ui/new-york/toast.tsx
 ```
