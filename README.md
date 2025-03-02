@@ -133,11 +133,9 @@ public/
 
 ## Extending Properties
 
-You can extend the generated `registry.json` and `r/<registry-item>.json` files by creating a `registry.json` file in the root of your project. The properties in this file will be merged with the generated properties.
+You can add/extend the generated `registry.json` and `r/<registry-item>.json` files by creating a `registry.json` file in the root of your project. The properties in this file will be merged with the generated properties.
 
-### Example
-
-For the following directory structure:
+We wull use the following directory structure and `r/dialog.json` file to demonstrate how to add/extend properties.
 
 ```plaintext
 registry/
@@ -148,7 +146,7 @@ registry/
         └── dialog.tsx
 ```
 
-1. Run `npx smart-registry` to generate the registry without having a `registry.json` file.
+- With zero-configuration.
 
 <details><summary>Generated public/r/dialog.json</summary><br/>
 
@@ -175,7 +173,7 @@ registry/
 
 </details>
 
-2. Add meta tags to the dialog item in the `registry.json` file.
+- Add custom properties.
 
 ```diff
 +{
@@ -218,3 +216,129 @@ registry/
 ```
 
 </details>
+
+- Specific dependencie's version.
+
+Note: Only add the dependency that you want to specify the version for. The rest of the dependencies will be automatically added.
+
+```json
+{
+  "items": [
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "dependencies": ["@radix-ui/react-dialog@1.0.0"]
+    }
+  ]
+}
+```
+
+<details><summary>Generated public/r/dialog.json</summary><br/>
+
+```json
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dialog",
+  "type": "registry:ui",
+  "dependencies": ["@radix-ui/react-dialog@1.0.0"],
+  "files": [
+    {
+      "type": "registry:ui",
+      "target": "components/ui/dialog.tsx",
+      "path": "registry/default/ui/dialog.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "path": "registry/default/lib/utils.ts"
+    }
+  ],
+  "meta": {
+    "tags": ["dialog", "modal"]
+  }
+}
+```
+
+- External registry dependencies.
+
+```json
+{
+  "items": [
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "registryDependencies": ["button"]
+    }
+  ]
+}
+```
+
+<details><summary>Generated public/r/dialog.json</summary><br/>
+
+```json
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dialog",
+  "type": "registry:ui",
+  "dependencies": ["@radix-ui/react-dialog"],
+  "files": [
+    {
+      "type": "registry:ui",
+      "target": "components/ui/dialog.tsx",
+      "path": "registry/default/ui/dialog.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "path": "registry/default/lib/utils.ts"
+    }
+  ]
+}
+```
+
+- Additional files to include.
+
+```json
+{
+  "items": [
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "files": [
+        {
+          "type": "registry:ui",
+          "path": "registry/default/ui/button.tsx"
+        }
+      ]
+    }
+  ]
+}
+```
+
+<details><summary>Generated public/r/dialog.json</summary><br/>
+
+```json
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dialog",
+  "type": "registry:ui",
+  "dependencies": ["@radix-ui/react-dialog"],
+  "files": [
+    {
+      "type": "registry:ui",
+      "target": "components/ui/button.tsx",
+      "path": "registry/default/ui/button.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/dialog.tsx",
+      "path": "registry/default/ui/dialog.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "path": "registry/default/lib/utils.ts"
+    }
+  ]
+}
+```
