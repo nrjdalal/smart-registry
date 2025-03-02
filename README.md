@@ -37,15 +37,11 @@ npx smart-registry@latest
 npx smart-registry@latest -f <file1> -f <file2> -f <file3> ...
 ```
 
-Replace `<file1>`, `<file2>`, `<file3>`, etc. with the files you want to scan.
-
 ### From Specific Directories
 
 ```bash
 npx smart-registry@latest -d <directory1> -d <directory2> -d <directory3> ...
 ```
-
-Replace `<directory1>`, `<directory2>`, `<directory3>`, etc. with the directories you want to scan.
 
 ## Example
 
