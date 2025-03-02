@@ -2,7 +2,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { parseArgs } from "node:util"
-import { resolvePath } from "@/bin/utils"
+import { findFile, resolvePath } from "@/bin/utils"
 import { getAliases } from "@/bin/utils/get-aliases"
 import { getFiles } from "@/bin/utils/get-files"
 import { author, name, version } from "@/package.json"
@@ -117,7 +117,12 @@ const main = async () => {
               (_, p1) => `components/ui/${p1 ? p1 + "/" : ""}`,
             )
             .replace(/\/default\//, "/")
-        : filepath.replace(/\/default\//, "/")
+            .replace(/\.\.\//g, "")
+            .replace(/\.\//g, "")
+        : filepath
+            .replace(/\/default\//, "/")
+            .replace(/\.\.\//g, "")
+            .replace(/\.\//g, "")
       return {
         type:
           transformedPath
@@ -180,18 +185,14 @@ const main = async () => {
 
           if (isAliased) {
             let realPath = resolvePath(importAddress, aliases)
-            realPath =
-              files.find((f) => f.startsWith(realPath + ".")) ||
-              files.find((f) => f.startsWith(realPath + "/index")) ||
-              realPath
-            if (!data.files.includes(realPath)) data.files.push(realPath)
+            realPath = findFile(realPath)
+            if (realPath && !data.files.includes(realPath))
+              data.files.push(realPath)
           } else if (importAddress.startsWith(".")) {
             let realPath = path.resolve(path.dirname(filePath), importAddress)
-            realPath =
-              files.find((f) => f.startsWith(realPath + ".")) ||
-              files.find((f) => f.startsWith(realPath + "/index")) ||
-              realPath
-            if (!data.files.includes(realPath)) data.files.push(realPath)
+            realPath = findFile(realPath)
+            if (realPath && !data.files.includes(realPath))
+              data.files.push(realPath)
           } else {
             const ignoredDeps = ["fs", "path", "util"]
             let pkg = importAddress.split("/").slice(0, 2).join("/")
@@ -355,7 +356,7 @@ const main = async () => {
         registryItem.files.forEach((file) => delete file.content)
         registryJson.items.push(registryItem)
       } catch (err: any) {
-        failed.push(filePath + ": " + err.message)
+        failed.push(filePath + ":  " + err.message)
         continue
       }
     }

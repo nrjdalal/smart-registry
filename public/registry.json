@@ -24598,6 +24598,18 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "registry-tags",
+      "type": "registry:file",
+      "files": [
+        {
+          "type": "registry:file",
+          "target": "registry-tags.ts",
+          "path": "registry/registry-tags.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "resizable",
       "type": "registry:ui",
       "dependencies": [
