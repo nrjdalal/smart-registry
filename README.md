@@ -36,7 +36,9 @@ You can simplify your `registry.json` by removing properties like `registry depe
 }
 ```
 
-<details><summary>See the full example</summary>
+<details><summary>Generated `dialog.json`.</summary>
+
+<br/>
 
 ```json
 {
