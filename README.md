@@ -66,10 +66,10 @@ You can extend the generated `registry.json` and `r/<registry-item>.json` files 
   "homepage": "https://acme.com",
   "items": [
     {
-      "name": "some-component",
-      "type": "registry:component",
+      "name": "button",
+      "type": "registry:ui",
 +      "meta": {
-+        "tags": ["tag1", "tag2"]
++        "tags": ["button", "cta"]
 +      }
     }
   ]
