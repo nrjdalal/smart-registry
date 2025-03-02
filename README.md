@@ -69,6 +69,8 @@ Simplify your `registry.json` by removing properties like `registryDependencies`
 
 </details>
 
+<br/>
+
 Manual maintenance of `registry.json` files can lead to errors due to missing dependencies or files, or wrongful addition of unnecessary ones. `Smart Registry` reduces these risks by automating the detection and generation of the necessary `registry.json` and `r/<registry-item>.json` entries, making registry management more efficient.
 
 ## Usage
