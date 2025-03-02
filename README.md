@@ -11,7 +11,7 @@ A zero-configuration, [open in v0](https://ui.shadcn.com/docs/registry/open-in-v
 
 ## What is Zero-Configuration?
 
-You can simplify your `registry.json` by removing properties like `registry dependencies`, `dependencies`, and `files`. If you don't need to add custom properties or extend default ones, you can even delete the `registry.json` file entirely.
+Simplify your `registry.json` by removing properties like `registryDependencies`, `dependencies`, and `files`. If you don't need to add custom properties or extend default ones, you can even delete the `registry.json` file entirely.
 
 ```diff
 {
@@ -74,7 +74,7 @@ Manual maintenance of `registry.json` files can lead to errors due to missing de
 
 To use `Smart Registry` automatic detection, you need:
 
-1. A `tsconfig.json` file with atleast alias `@/*` with path.
+1. A `tsconfig.json` file with at least alias `@/*` with path.
 2. A `registry`, `components`, or `src/components` directory.
 
 | Alias | Path      | Directory (Required)       |
@@ -90,7 +90,7 @@ npx smart-registry
 
 ### From Specific Files
 
-Sometimes, you may want to generate the registry from specific pages or components. In such cases, you can use the `-f` flag to specify the files.
+If you want to generate the registry from specific files, you can use the `-f` flag to specify the files.
 
 ```bash
 npx smart-registry -f <file1> -f <file2> -f <file3> ...
@@ -98,7 +98,7 @@ npx smart-registry -f <file1> -f <file2> -f <file3> ...
 
 ### From Specific Directories
 
-If you want to generate the registry from specific directories, you can use the `-d` flag to specify the directories.
+To generate the registry from specific directories, use the `-d` flag to specify the directories.
 
 ```bash
 npx smart-registry -d <directory1> -d <directory2> -d <directory3> ...
@@ -106,7 +106,7 @@ npx smart-registry -d <directory1> -d <directory2> -d <directory3> ...
 
 ## How it Works
 
-Let's take an following directory structure to understand how `Smart Registry` works.
+Let's take the following directory structure to understand how `Smart Registry` works.
 
 ```plaintext
 registry/
@@ -122,11 +122,22 @@ registry/
 2. For each file, it will generate a `<registry-item>.json` file by reading the file's content and extracting the imports for registry dependencies, dependencies, and files recursively.
 3. It will then generate a `registry.json` file by combining all the `<registry-item>.json` files with all the properties required for `shadcn add` or `open in v0`.
 
+```plaintext
+public/
+├── registry.json
+└── r/
+    ├── button.json
+    ├── dialog.json
+    └── utils.json
+```
+
 ## Extending Properties
 
 You can extend the generated `registry.json` and `r/<registry-item>.json` files by creating a `registry.json` file in the root of your project. The properties in this file will be merged with the generated properties.
 
-#### 1. Let's start with running `npx smart-registry` to generate the registry without having a `registry.json` file.
+### Let's take an example:
+
+1. Run `npx smart-registry` to generate the registry without having a `registry.json` file.
 
 <details><summary>Generated public/r/dialog.json</summary><br/>
 
@@ -158,7 +169,7 @@ You can extend the generated `registry.json` and `r/<registry-item>.json` files 
 
 </details>
 
-#### 2. Adding meta tags to the dialog item in the `registry.json` file.
+2. Add meta tags to the dialog item in the `registry.json` file.
 
 ```diff
 +{
