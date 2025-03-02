@@ -158,4 +158,3 @@ You can extend the generated `registry.json` and `r/<registry-item>.json` files 
 ```
 
 </details>
-````
