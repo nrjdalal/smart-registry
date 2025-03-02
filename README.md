@@ -203,9 +203,9 @@ You can extend the generated `registry.json` and `r/<registry-item>.json` files 
       "path": "registry/default/lib/utils.ts"
     }
   ],
-+  "meta": {
-+    "tags": ["dialog", "modal"]
-+  }
+  "meta": {
+    "tags": ["dialog", "modal"]
+  }
 }
 ```
 
