@@ -15,12 +15,12 @@ Zero-configuration means you don't need to manually create a `registry.json` fil
 
 ### Automatic Detection
 
-To use `smart-registry`, ensure the following conditions are met:
+To use `smart-registry` automatic detection, you need:
 
 1. A `tsconfig.json` file with atleast alias `@/*` with path.
 2. A `registry`, `components`, or `src/components` directory.
 
-| Alias | Path      | Directory                  |
+| Alias | Path      | Directory (Required)       |
 | ----- | --------- | -------------------------- |
 | `@/*` | `./src/*` | `src/components`           |
 | `@/*` | `./*`     | `components` or `registry` |
