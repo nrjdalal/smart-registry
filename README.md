@@ -11,9 +11,9 @@ A zero-configuration, [open in v0](https://ui.shadcn.com/docs/registry/open-in-v
 
 ## What is Zero-Configuration?
 
-You can remove properties such as `registry dependencies`, `dependencies`, and `files` from your items in `registry.json`, or delete the entire `registry.json` file if not required.
+You can simplify your `registry.json` by removing properties like `registry dependencies`, `dependencies`, and `files`. If you don't need to add custom properties or extend default ones, you can even delete the `registry.json` file entirely.
 
-Manual maintenance of `registry.json` files can lead to errors due to missing dependencies or files. `Smart Registry` mitigates these risks by automating the detection and generation of the required `registry.json` and `r/<registry-item>.json` entries without these properties, making it easier to manage your registry.
+Manual maintenance of `registry.json` files can lead to errors due to missing dependencies or files. `Smart Registry` reduces these risks by automating the detection and generation of the necessary `registry.json` and `r/<registry-item>.json` entries, making registry management more efficient.
 
 ## Usage
 
@@ -49,4 +49,29 @@ If you want to generate the registry from specific directories, you can use the 
 
 ```bash
 npx smart-registry -d <directory1> -d <directory2> -d <directory3> ...
+```
+
+## Extending Properties
+
+You can extend the generated `registry.json` and `r/<registry-item>.json` files by creating a `registry.json` file in the root of your project. The properties in this file will be merged with the generated properties.
+
+### Examples
+
+1. Adding `meta` property to `registry-item`:
+
+```diff
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "acme",
+  "homepage": "https://acme.com",
+  "items": [
+    {
+      "name": "some-component",
+      "type": "registry:component",
++      "meta": {
++        "tags": ["tag1", "tag2"]
++      }
+    }
+  ]
+}
 ```
