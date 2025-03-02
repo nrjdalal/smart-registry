@@ -11,9 +11,45 @@ A zero-configuration, [open in v0](https://ui.shadcn.com/docs/registry/open-in-v
 
 Zero-configuration means you don't need to manually create a `registry.json` file. Simply run `smart-registry`, and it will automatically detect and generate the necessary `registry.json` and `r/<registry-item>.json` entries for your project.
 
-### Example
+## Usage
 
-Let's take a complex component as an example. Normally, you would need to manually declare all the registry dependencies, dependencies, and files in the `registry.json` file.
+### Automatic Detection
+
+To use `smart-registry`, ensure the following conditions are met:
+
+1. A `tsconfig.json` file with atleast alias `@/*` with path.
+2. A `registry`, `components`, or `src/components` directory.
+
+| Alias | Path      | Directory                  |
+| ----- | --------- | -------------------------- |
+| `@/*` | `./src/*` | `src/components`           |
+| `@/*` | `./*`     | `components` or `registry` |
+
+Then, run the following command:
+
+```bash
+npx smart-registry@latest
+```
+
+### From Specific Files
+
+```bash
+npx smart-registry@latest -f <file1> -f <file2> -f <file3> ...
+```
+
+Replace `<file1>`, `<file2>`, `<file3>`, etc. with the files you want to scan.
+
+### From Specific Directories
+
+```bash
+npx smart-registry@latest -d <directory1> -d <directory2> -d <directory3> ...
+```
+
+Replace `<directory1>`, `<directory2>`, `<directory3>`, etc. with the directories you want to scan.
+
+## Example
+
+Normally, you would need create a `registry.json` and manually declare all the registry dependencies, dependencies, and files in the `registry.json` file.
 
 ```json
 {
