@@ -183,6 +183,10 @@
       "dependencies": ["@radix-ui/react-dialog"],
       "files": [
         {
+          "path": "registry/default/ui/button.tsx",
+          "type": "registry:ui"
+        },
+        {
           "path": "registry/default/ui/dialog.tsx",
           "type": "registry:ui"
         }
