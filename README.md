@@ -13,13 +13,8 @@ A zero-configuration, [open in v0](https://ui.shadcn.com/docs/registry/open-in-v
 
 You can simplify your `registry.json` by removing properties like `registry dependencies`, `dependencies`, and `files`. If you don't need to add custom properties or extend default ones, you can even delete the `registry.json` file entirely.
 
-Manual maintenance of `registry.json` files can lead to errors due to missing dependencies or files. `Smart Registry` reduces these risks by automating the detection and generation of the necessary `registry.json` and `r/<registry-item>.json` entries, making registry management more efficient.
-
 ```diff
 {
-  "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "acme",
-  "homepage": "https://acme.com",
   "items": [
     {
       "name": "dialog",
@@ -40,6 +35,8 @@ Manual maintenance of `registry.json` files can lead to errors due to missing de
   ]
 }
 ```
+
+Manual maintenance of `registry.json` files can lead to errors due to missing dependencies or files, or wrongful addition of unnecessary ones. `Smart Registry` reduces these risks by automating the detection and generation of the necessary `registry.json` and `r/<registry-item>.json` entries, making registry management more efficient.
 
 ## Usage
 
@@ -85,11 +82,8 @@ You can extend the generated `registry.json` and `r/<registry-item>.json` files 
 
 1. Adding `meta` property to `registry-item`:
 
-```diff
+```diff registry.json
 {
-  "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "acme",
-  "homepage": "https://acme.com",
   "items": [
     {
       "name": "button",
