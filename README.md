@@ -7,15 +7,19 @@
 
 A zero-configuration, [open in v0](https://ui.shadcn.com/docs/registry/open-in-v0) / [shadcn add](https://ui.shadcn.com/docs/cli#add) compatible registry builder.
 
-## What does zero-configuration mean?
+> The best configuration is no configuration. In a UI/UX project, the focus should be on developing building blocks, components, and pages, rather than spending time configuring the registry.
 
-Zero-configuration means you don't need to manually create a `registry.json` file. Simply run `smart-registry`, and it will automatically detect and generate the necessary `registry.json` and `r/<registry-item>.json` entries for your project.
+## What is Zero-Configuration?
+
+You can remove properties such as `registry dependencies`, `dependencies`, and `files` from your items in `registry.json`, or delete the entire `registry.json` file if not required.
+
+Manual maintenance of `registry.json` files can lead to errors due to missing dependencies or files. `Smart Registry` mitigates these risks by automating the detection and generation of the required `registry.json` and `r/<registry-item>.json` entries without these properties, making it easier to manage your registry.
 
 ## Usage
 
 ### Automatic Detection
 
-To use `smart-registry` automatic detection, you need:
+To use `Smart Registry` automatic detection, you need:
 
 1. A `tsconfig.json` file with atleast alias `@/*` with path.
 2. A `registry`, `components`, or `src/components` directory.
@@ -28,97 +32,21 @@ To use `smart-registry` automatic detection, you need:
 Then, run the following command:
 
 ```bash
-npx smart-registry@latest
+npx smart-registry
 ```
 
 ### From Specific Files
 
+Sometimes, you may want to generate the registry from specific pages or components. In such cases, you can use the `-f` flag to specify the files.
+
 ```bash
-npx smart-registry@latest -f <file1> -f <file2> -f <file3> ...
+npx smart-registry -f <file1> -f <file2> -f <file3> ...
 ```
 
 ### From Specific Directories
 
-```bash
-npx smart-registry@latest -d <directory1> -d <directory2> -d <directory3> ...
-```
-
-## Example
-
-Normally, you would need create a `registry.json` and manually declare all the registry dependencies, dependencies, and files in the `registry.json` file.
-
-```json
-{
-  "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "acme",
-  "homepage": "https://acme.com",
-  "items": [
-    {
-      "name": "comp-485",
-      "type": "registry:component",
-      "registryDependencies": [
-        "https://originui.com/r/alert-dialog.json",
-        "https://originui.com/r/badge.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/pagination.json",
-        "https://originui.com/r/popover.json",
-        "https://originui.com/r/select.json",
-        "https://originui.com/r/table.json"
-      ],
-      "dependencies": ["@tanstack/react-table"],
-      "files": [
-        {
-          "path": "registry/default/components/comp-485.tsx",
-          "type": "registry:component"
-        }
-      ]
-    }
-  ]
-}
-```
-
-With `smart-registry`, you can skip the manual declaration of dependencies, files, and registry items. The tool will automatically detect and generate the required `registry.json` and `r/<registry-item>.json` entries for your project.
+If you want to generate the registry from specific directories, you can use the `-d` flag to specify the directories.
 
 ```bash
-rm -rf registry.json
-```
-
-Or, you can manually edit the `registry.json` file to remove the unnecessary declarations:
-
-```diff
-{
-  "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "acme",
-  "homepage": "https://acme.com",
-  "items": [
-    {
-      "name": "comp-485",
-      "type": "registry:component",
--      "registryDependencies": [
--        "https://originui.com/r/alert-dialog.json",
--        "https://originui.com/r/badge.json",
--        "https://originui.com/r/button.json",
--        "https://originui.com/r/checkbox.json",
--        "https://originui.com/r/dropdown-menu.json",
--        "https://originui.com/r/input.json",
--        "https://originui.com/r/label.json",
--        "https://originui.com/r/pagination.json",
--        "https://originui.com/r/popover.json",
--        "https://originui.com/r/select.json",
--        "https://originui.com/r/table.json"
--      ],
--      "dependencies": ["@tanstack/react-table"],
--      "files": [
--        {
--          "path": "registry/default/components/comp-485.tsx",
--          "type": "registry:component"
--        }
-      ]
-    }
-  ]
-}
+npx smart-registry -d <directory1> -d <directory2> -d <directory3> ...
 ```
