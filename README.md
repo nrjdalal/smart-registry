@@ -5,7 +5,7 @@
 [![npm](https://img.shields.io/npm/dt/smart-registry?color=red&logo=npm)](https://www.npmjs.com/package/smart-registry)
 [![GitHub](https://img.shields.io/github/stars/nrjdalal/smart-registry?color=blue)](https://github.com/nrjdalal/smart-registry)
 
-A zero-configuration, [open in v0](https://ui.shadcn.com/docs/registry/open-in-v0) / [shadcn add](https://ui.shadcn.com/docs/cli#add) compatible registry builder.
+A zero-configuration (no registry.json required), [shadcn add](https://ui.shadcn.com/docs/cli#add) / [open in v0](https://ui.shadcn.com/docs/registry/open-in-v0) compatible registry builder.
 
 > The best configuration is no configuration. Focus on developing building blocks, components, and pages, rather than spending time configuring the registry.
 
