@@ -79,13 +79,13 @@ Manual maintenance of `registry.json` files can lead to errors due to missing de
 
 Add the following alias to your `tsconfig.json` file.
 
-```json
+```diff
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["./*"] // or ["./src/*"]
-    }
++    "paths": {
++      "@/*": ["./src/*"] or ["./*"]
++    }
   }
 }
 ```
