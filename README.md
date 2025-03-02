@@ -36,6 +36,36 @@ You can simplify your `registry.json` by removing properties like `registry depe
 }
 ```
 
+<details><summary>See the full example</summary>
+
+```json
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dialog",
+  "type": "registry:ui",
+  "dependencies": ["@radix-ui/react-dialog"],
+  "files": [
+    {
+      "type": "registry:ui",
+      "target": "components/ui/button.tsx",
+      "path": "registry/default/ui/button.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/dialog.tsx",
+      "path": "registry/default/ui/dialog.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "path": "registry/default/lib/utils.ts"
+    }
+  ]
+}
+```
+
+</details>
+
 Manual maintenance of `registry.json` files can lead to errors due to missing dependencies or files, or wrongful addition of unnecessary ones. `Smart Registry` reduces these risks by automating the detection and generation of the necessary `registry.json` and `r/<registry-item>.json` entries, making registry management more efficient.
 
 ## Usage
@@ -82,7 +112,7 @@ You can extend the generated `registry.json` and `r/<registry-item>.json` files 
 
 1. Adding `meta` property to `registry-item`:
 
-```diff registry.json
+```diff
 {
   "items": [
     {

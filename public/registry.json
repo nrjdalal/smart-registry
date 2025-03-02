@@ -24393,6 +24393,11 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
           "target": "components/ui/dialog.tsx",
           "path": "registry/default/ui/dialog.tsx"
         },
