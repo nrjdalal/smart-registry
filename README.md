@@ -27,7 +27,7 @@ You can simplify your `registry.json` by removing properties like `registry depe
 -      ],
 -      "files": [
 -        {
--          "path": "registry/new-york-v4/ui/dialog.tsx",
+-          "path": "registry/default/ui/dialog.tsx",
 -          "type": "registry:ui"
 -        }
 -      ]
@@ -104,11 +104,63 @@ If you want to generate the registry from specific directories, you can use the 
 npx smart-registry -d <directory1> -d <directory2> -d <directory3> ...
 ```
 
+## How it Works
+
+Let's take an following directory structure to understand how `Smart Registry` works.
+
+```plaintext
+registry/
+  default/
+    ui/
+      button.tsx
+      dialog.tsx
+    lib/
+      utils.ts
+```
+
+1. `Smart Registry` will scan the `registry` directory for files.
+2. For each file, it will generate a `<registry-item>.json` file by reading the file's content and extracting the imports for registry dependencies, dependencies, and files recursively.
+3. It will then generate a `registry.json` file by combining all the `<registry-item>.json` files with all the properties required for `shadcn add` or `open in v0`.
+
 ## Extending Properties
 
 You can extend the generated `registry.json` and `r/<registry-item>.json` files by creating a `registry.json` file in the root of your project. The properties in this file will be merged with the generated properties.
 
-### Examples
+0. Let's start with running `npx smart-registry` to generate the registry.
+
+<details><summary>Click here to see the generated registry.json</summary><br/>
+
+```json
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "items": [
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "dependencies": ["@radix-ui/react-dialog"],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "registry/default/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    }
+  ]
+}
+```
+
+</details>
 
 1. Adding `meta` property to `registry-item`:
 
@@ -151,9 +203,9 @@ You can extend the generated `registry.json` and `r/<registry-item>.json` files 
       "path": "registry/default/lib/utils.ts"
     }
   ],
-  "meta": {
-    "tags": ["dialog", "modal"]
-  }
++  "meta": {
++    "tags": ["dialog", "modal"]
++  }
 }
 ```
 
