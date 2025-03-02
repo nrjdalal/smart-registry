@@ -36,7 +36,7 @@ You can simplify your `registry.json` by removing properties like `registry depe
 }
 ```
 
-<details><summary>Generated `dialog.json`</summary><br/>
+<details><summary>Click here to see the generated dialog.json</summary><br/>
 
 ```json
 {
@@ -116,12 +116,46 @@ You can extend the generated `registry.json` and `r/<registry-item>.json` files 
 {
   "items": [
     {
-      "name": "button",
+      "name": "dialog",
       "type": "registry:ui",
 +      "meta": {
-+        "tags": ["button", "cta"]
++        "tags": ["dialog", "modal"]
 +      }
     }
   ]
 }
 ```
+
+<details><summary>Click here to see the generated dialog.json</summary><br/>
+
+```json
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dialog",
+  "type": "registry:ui",
+  "dependencies": ["@radix-ui/react-dialog"],
+  "files": [
+    {
+      "type": "registry:ui",
+      "target": "components/ui/button.tsx",
+      "path": "registry/default/ui/button.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/dialog.tsx",
+      "path": "registry/default/ui/dialog.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "path": "registry/default/lib/utils.ts"
+    }
+  ],
+  "meta": {
+    "tags": ["dialog", "modal"]
+  }
+}
+```
+
+</details>
+````
