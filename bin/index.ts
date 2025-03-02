@@ -2,10 +2,9 @@
 import fs from "node:fs"
 import path from "node:path"
 import { parseArgs } from "node:util"
-import { resolvePath } from "@/bin/utils"
-import { getAliases } from "@/bin/utils/get-aliases"
-import { getFiles } from "@/bin/utils/get-files"
-import { resolver } from "@/bin/utils/resolver"
+import { getAliases } from "@/bin/utils/aliases"
+import { getFiles } from "@/bin/utils/files"
+import { pathResolver, resolver } from "@/bin/utils/resolvers"
 import { transformer } from "@/bin/utils/transformer"
 import { author, name, version } from "@/package.json"
 
@@ -80,10 +79,10 @@ const main = async () => {
 
     // ~ Get all files to build the registry from the provided files and directories
     const registryFiles = [
-      ...config.files.map((file) => resolvePath(file, aliases)),
+      ...config.files.map((file) => pathResolver(file, aliases)),
       ...config.directories.flatMap((dir) =>
         files.filter((file) =>
-          file.startsWith(resolvePath(dir, aliases) + "/"),
+          file.startsWith(pathResolver(dir, aliases) + "/"),
         ),
       ),
     ]

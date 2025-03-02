@@ -1,7 +1,20 @@
 import fs from "node:fs"
 import path from "node:path"
-import { findFile, resolvePath } from "@/bin/utils"
+import { findFile } from "@/bin/utils/files"
 import { transformer } from "@/bin/utils/transformer"
+
+export const pathResolver = (
+  filepath: string,
+  aliases: Record<string, string>,
+) => {
+  const sortedAliases = Object.entries(aliases).sort(
+    ([aliasA], [aliasB]) => aliasB.length - aliasA.length,
+  )
+  return sortedAliases.reduce(
+    (acc, [alias, realPath]) => acc.replace(alias, realPath),
+    filepath,
+  )
+}
 
 export const resolver = async (
   filePaths: string[],
@@ -49,7 +62,7 @@ export const resolver = async (
       )
 
       if (isAliased) {
-        let realPath = resolvePath(importAddress, aliases)
+        let realPath = pathResolver(importAddress, aliases)
         realPath = findFile(realPath)
         if (realPath && !data.files.includes(realPath))
           data.files.push(realPath)
@@ -100,7 +113,7 @@ export const resolver = async (
           importAddress.startsWith(alias),
         )
         if (isAliased) {
-          const realPath = resolvePath(importAddress, aliases)
+          const realPath = pathResolver(importAddress, aliases)
           const transformedPath = transformer(realPath, {
             aliases,
           })?.import
