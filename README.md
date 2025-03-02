@@ -145,7 +145,7 @@ registry/
     │   └── utils.ts
     └── ui/
         ├── button.tsx
-        └── dialog.tsx
+        └── dialog.tsx (focus on this file)
 
 ```
 
