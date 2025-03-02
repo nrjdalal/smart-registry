@@ -93,6 +93,8 @@ Then, run the following command:
 npx smart-registry
 ```
 
+![Demo Image](https://github-production-user-asset-6210df.s3.amazonaws.com/58145505/418180611-fd6070a5-6a89-4582-8ad0-df125c222883.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250302%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250302T212923Z&X-Amz-Expires=300&X-Amz-Signature=81a0324e67c77ab068c96e9f666e1b930cf32d497f8aa0a39c28caa0b902c7d3&X-Amz-SignedHeaders=host)
+
 ### From Specific Files
 
 If you want to generate the registry from specific files, you can use the `-f` flag to specify the files.
