@@ -2,9 +2,8 @@
 import fs from "node:fs"
 import path from "node:path"
 import { parseArgs } from "node:util"
-import { autoDetectPatterns } from "~/constants/orders"
 import { getAliases } from "~/utils/aliases"
-import { listFiles } from "~/utils/files"
+import { getInputRegistry, listRegistryFiles } from "~/utils/files"
 import { resolver } from "~/utils/resolvers"
 import { transformer } from "~/utils/transformer"
 import { author, name, version } from "../package.json"
@@ -59,47 +58,18 @@ const main = async () => {
       }
     }
 
-    let registryFiles = [] as string[]
     const cwd = path.resolve(values.cwd || process.cwd())
 
-    if (!positionals.length) {
-      for (const pattern of autoDetectPatterns) {
-        registryFiles = await listFiles({
-          patterns: pattern,
-          ignore: values.ignore,
-          cwd,
-        })
-        if (registryFiles.length) break
-      }
-    } else {
-      registryFiles = await listFiles({
-        patterns: positionals,
-        ignore: values.ignore,
-        cwd,
-      })
-    }
-
-    if (!registryFiles.length) {
-      throw new Error("No files/directories found to build the registry from!")
-    }
-
-    const aliases = await getAliases()
-
-    // ~ Read registry.json file if it exists
-    const registryPath = path.resolve(cwd, "registry.json")
-
-    let registry: Record<string, any> = {}
-
-    if (fs.existsSync(registryPath)) {
-      registry = JSON.parse(await fs.promises.readFile(registryPath, "utf8"))
-    }
-
-    let registryJson = {
-      ...registry,
-      items: [] as Record<string, any>[],
-    }
+    const aliases = await getAliases(cwd)
+    const inputRegistry = await getInputRegistry(cwd)
+    const registryFiles = await listRegistryFiles(cwd, positionals, values)
 
     const failed = [] as string[]
+
+    const outputRegistry = {
+      ...inputRegistry,
+      items: [] as Record<string, any>[],
+    }
 
     // ~ Build registry-item for each file in the registry
     for (const filePath of registryFiles) {
@@ -114,7 +84,7 @@ const main = async () => {
         const resolvedData = await resolver(
           [
             filePath,
-            ...(registry.items
+            ...(inputRegistry.items
               ?.find(
                 (item: any) =>
                   item.name ===
@@ -156,7 +126,7 @@ const main = async () => {
           // ~ Add properties from the registry.json items, which don't exist in the resolved registry-item
           ...Object.fromEntries(
             Object.entries(
-              registry.items?.find(
+              inputRegistry.items?.find(
                 (item: { name?: string }) =>
                   item.name ===
                   transformer(filePath, {
@@ -200,7 +170,7 @@ const main = async () => {
           JSON.stringify(registryItem, null, 2) + "\n",
         )
         registryItem.files.forEach((file) => delete file.content)
-        registryJson.items.push(registryItem)
+        outputRegistry.items.push(registryItem)
       } catch (err: any) {
         failed.push(filePath + ": " + err.message)
         continue
@@ -208,11 +178,11 @@ const main = async () => {
     }
 
     // ~ Write the final registry.json file to the public directory
-    registryJson.items.sort((a, b) => a.name.localeCompare(b.name))
+    outputRegistry.items.sort((a, b) => a.name.localeCompare(b.name))
 
     await fs.promises.writeFile(
       path.resolve(process.cwd(), "public/registry.json"),
-      JSON.stringify(registryJson, null, 2) + "\n",
+      JSON.stringify(outputRegistry, null, 2) + "\n",
     )
 
     // ~ Log failed files

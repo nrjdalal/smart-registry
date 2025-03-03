@@ -1,5 +1,6 @@
 import fs from "node:fs"
 import path from "node:path"
+import { autoDetectPatterns } from "~/constants/orders"
 import { glob } from "tinyglobby"
 
 export const findFile = (filepath: string) => {
@@ -18,6 +19,16 @@ export const findFile = (filepath: string) => {
   }
 }
 
+export const getInputRegistry = async (
+  cwd: string,
+): Promise<Record<string, any>> => {
+  const inputRegistry = path.resolve(cwd, "registry.json")
+  if (fs.existsSync(inputRegistry)) {
+    return JSON.parse(await fs.promises.readFile(inputRegistry, "utf8"))
+  }
+  return {}
+}
+
 export const listFiles = async ({
   patterns = ["**", ".**"] as string | string[],
   ignore = [] as string[],
@@ -33,4 +44,35 @@ export const listFiles = async ({
     ignore: ignore.filter((ig) => !patterns.includes(ig)),
   })
   return files
+}
+
+export const listRegistryFiles = async (
+  cwd: string,
+  positionals: string[],
+  values: any,
+): Promise<string[]> => {
+  let registryFiles = [] as string[]
+
+  if (!positionals.length) {
+    for (const pattern of autoDetectPatterns) {
+      registryFiles = await listFiles({
+        cwd,
+        patterns: pattern,
+        ignore: values.ignore,
+      })
+      if (registryFiles.length) break
+    }
+  } else {
+    registryFiles = await listFiles({
+      cwd,
+      patterns: positionals,
+      ignore: values.ignore,
+    })
+  }
+
+  if (!registryFiles.length) {
+    throw new Error("No files/directories found to build the registry from!")
+  }
+
+  return registryFiles
 }
