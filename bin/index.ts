@@ -2,17 +2,18 @@
 import fs from "node:fs"
 import path from "node:path"
 import { parseArgs } from "node:util"
-import { autoDetectPatterns } from "@/bin/constants/orders"
-import { getAliases } from "@/bin/utils/aliases"
-import { listFiles } from "@/bin/utils/files"
-import { resolver } from "@/bin/utils/resolvers"
-import { transformer } from "@/bin/utils/transformer"
-import { author, name, version } from "@/package.json"
+import { autoDetectPatterns } from "~/constants/orders"
+import { getAliases } from "~/utils/aliases"
+import { listFiles } from "~/utils/files"
+import { resolver } from "~/utils/resolvers"
+import { transformer } from "~/utils/transformer"
+import { author, name, version } from "../package.json"
 
 const helpMessage = `Version:
   ${name}@${version}
 
-Usage: ${name} [options] [files/directories] ...
+Usage:
+  $ ${name} [options] [files/directories] ...
 
 Arguments:
   files/directories    files or directories to build the registry from (optional)
