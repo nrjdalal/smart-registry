@@ -36,7 +36,6 @@ const parse: typeof parseArgs = (config) => {
 
 const main = async () => {
   try {
-    // ~ Parse command line arguments
     const { positionals, values } = parse({
       allowPositionals: true,
       options: {
