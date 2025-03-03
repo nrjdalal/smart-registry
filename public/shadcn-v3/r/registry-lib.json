@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "registry-lib",
+  "type": "registry:file",
+  "dependencies": [
+    "shadcn"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "registry-lib.ts",
+      "content": "import { type Registry } from \"shadcn/registry\"\n\nexport const lib: Registry[\"items\"] = [\n  {\n    name: \"utils\",\n    type: \"registry:lib\",\n    dependencies: [\"clsx\", \"tailwind-merge\"],\n    files: [\n      {\n        path: \"lib/utils.ts\",\n        type: \"registry:lib\",\n      },\n    ],\n  },\n]\n",
+      "path": "registry/registry-lib.ts"
+    }
+  ]
+}

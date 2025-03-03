@@ -3,6 +3,7 @@
 repos=(
   "https://github.com/origin-space/originui origin-ui ."
   "https://github.com/shadcn-ui/ui shadcn ./apps/v4"
+  "https://github.com/shadcn-ui/ui shadcn-v3 ./apps/www"
   "https://github.com/tremorlabs/tremor tremor ."
 )
 

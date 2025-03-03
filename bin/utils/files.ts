@@ -7,7 +7,8 @@ export const findFile = (filepath: string) => {
   if (isFile) {
     return filepath
   } else {
-    const folderPath = filepath.split(/\/|\\/).slice(0, -1).join(path.sep)
+    let folderPath = filepath.split(/\/|\\/).slice(0, -1).join(path.sep)
+    folderPath = folderPath.replace(/\/\//g, "/")
     if (!fs.existsSync(folderPath)) return ""
     let files = fs.readdirSync(folderPath)
     files = files.map((file) => folderPath + path.sep + file)
@@ -15,11 +16,6 @@ export const findFile = (filepath: string) => {
     file = file?.replace(process.cwd() + path.sep, "")
     return file || ""
   }
-  // TODO: Implement INDEX file resolution
-  // realPath =
-  //   files.find((f) => f.startsWith(realPath + ".")) ||
-  //   files.find((f) => f.startsWith(realPath + "/index")) ||
-  //   realPath
 }
 
 export const getFiles = async ({

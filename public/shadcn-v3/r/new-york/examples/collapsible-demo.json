@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "new-york/examples/collapsible-demo",
+  "type": "registry:file",
+  "dependencies": [
+    "@radix-ui/react-collapsible",
+    "@radix-ui/react-slot",
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "react",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "new-york/examples/collapsible-demo.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\nimport { ChevronsUpDown } from \"lucide-react\"\n\nimport { Button } from \"@/components/ui/new-york/button\"\nimport {\n  Collapsible,\n  CollapsibleContent,\n  CollapsibleTrigger,\n} from \"@/components/ui/new-york/collapsible\"\n\nexport default function CollapsibleDemo() {\n  const [isOpen, setIsOpen] = React.useState(false)\n\n  return (\n    <Collapsible\n      open={isOpen}\n      onOpenChange={setIsOpen}\n      className=\"w-[350px] space-y-2\"\n    >\n      <div className=\"flex items-center justify-between space-x-4 px-4\">\n        <h4 className=\"text-sm font-semibold\">\n          @peduarte starred 3 repositories\n        </h4>\n        <CollapsibleTrigger asChild>\n          <Button variant=\"ghost\" size=\"sm\">\n            <ChevronsUpDown className=\"h-4 w-4\" />\n            <span className=\"sr-only\">Toggle</span>\n          </Button>\n        </CollapsibleTrigger>\n      </div>\n      <div className=\"rounded-md border px-4 py-2 font-mono text-sm shadow-sm\">\n        @radix-ui/primitives\n      </div>\n      <CollapsibleContent className=\"space-y-2\">\n        <div className=\"rounded-md border px-4 py-2 font-mono text-sm shadow-sm\">\n          @radix-ui/colors\n        </div>\n        <div className=\"rounded-md border px-4 py-2 font-mono text-sm shadow-sm\">\n          @stitches/react\n        </div>\n      </CollapsibleContent>\n    </Collapsible>\n  )\n}\n",
+      "path": "registry/new-york/examples/collapsible-demo.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/new-york/button.tsx",
+      "content": "import * as React from \"react\"\nimport { Slot } from \"@radix-ui/react-slot\"\nimport { cva, type VariantProps } from \"class-variance-authority\"\n\nimport { cn } from \"@/lib/utils\"\n\nconst buttonVariants = cva(\n  \"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0\",\n  {\n    variants: {\n      variant: {\n        default:\n          \"bg-primary text-primary-foreground shadow hover:bg-primary/90\",\n        destructive:\n          \"bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90\",\n        outline:\n          \"border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground\",\n        secondary:\n          \"bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80\",\n        ghost: \"hover:bg-accent hover:text-accent-foreground\",\n        link: \"text-primary underline-offset-4 hover:underline\",\n      },\n      size: {\n        default: \"h-9 px-4 py-2\",\n        sm: \"h-8 rounded-md px-3 text-xs\",\n        lg: \"h-10 rounded-md px-8\",\n        icon: \"h-9 w-9\",\n      },\n    },\n    defaultVariants: {\n      variant: \"default\",\n      size: \"default\",\n    },\n  }\n)\n\nexport interface ButtonProps\n  extends React.ButtonHTMLAttributes<HTMLButtonElement>,\n    VariantProps<typeof buttonVariants> {\n  asChild?: boolean\n}\n\nconst Button = React.forwardRef<HTMLButtonElement, ButtonProps>(\n  ({ className, variant, size, asChild = false, ...props }, ref) => {\n    const Comp = asChild ? Slot : \"button\"\n    return (\n      <Comp\n        className={cn(buttonVariants({ variant, size, className }))}\n        ref={ref}\n        {...props}\n      />\n    )\n  }\n)\nButton.displayName = \"Button\"\n\nexport { Button, buttonVariants }\n",
+      "path": "registry/new-york/ui/button.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/new-york/collapsible.tsx",
+      "content": "\"use client\"\n\nimport * as CollapsiblePrimitive from \"@radix-ui/react-collapsible\"\n\nconst Collapsible = CollapsiblePrimitive.Root\n\nconst CollapsibleTrigger = CollapsiblePrimitive.CollapsibleTrigger\n\nconst CollapsibleContent = CollapsiblePrimitive.CollapsibleContent\n\nexport { Collapsible, CollapsibleTrigger, CollapsibleContent }\n",
+      "path": "registry/new-york/ui/collapsible.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
+      "path": "lib/utils.ts"
+    }
+  ]
+}
