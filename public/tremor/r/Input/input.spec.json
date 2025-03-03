@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Input/input.spec",
+  "type": "registry:component",
+  "dependencies": [
+    "@playwright/test"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/Input/input.spec.ts",
+      "content": "import { expect, test } from \"@playwright/test\"\n\ntest.describe(\"Expect Input default\", () => {\n  test(\"to be rendered\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-input--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"textbox\"),\n    ).toBeVisible()\n  })\n\n  test(\"to be editable\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-input--default\")\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByRole(\"textbox\")\n      .click()\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByRole(\"textbox\")\n      .fill(\"Add some text\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"textbox\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"textbox\"),\n    ).toHaveValue(\"Add some text\")\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByRole(\"textbox\")\n      .click()\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByRole(\"textbox\")\n      .fill(\"\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"textbox\"),\n    ).toBeEmpty()\n  })\n\n  test(\"to be disbaled\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-input--disabled\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"textbox\"),\n    ).toBeDisabled()\n  })\n\n  test(\"to have a placeholder\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/ui-input--with-placeholder\",\n    )\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByPlaceholder(\"With Placeholder\"),\n    ).toBeVisible()\n  })\n})\n\ntest.describe(\"Expect Input password\", () => {\n  test(\"to be a password\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/ui-input--type-password\",\n    )\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"textbox\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByPlaceholder(\"Enter password\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByPlaceholder(\"Enter password\"),\n    ).toBeEmpty()\n  })\n})\n",
+      "path": "src/components/Input/input.spec.ts"
+    }
+  ]
+}

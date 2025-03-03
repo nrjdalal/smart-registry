@@ -1,4 +1,5 @@
 npm run build
+# originui
 rm -rf public/originui
 mkdir -p public/originui
 cd public/originui
@@ -7,4 +8,16 @@ rm -rf public
 node ../../dist/bin/index.js
 find . -mindepth 1 ! -path './public*' -delete
 mv public/* .
+rm -rf public && cd ../../
+# tremor
+rm -rf public/tremor
+mkdir -p public/tremor
+cd public/tremor
+git clone https://github.com/tremorlabs/tremor .
 rm -rf public
+npx strip-json-comments tsconfig.json >tsconfig.tmp.json && mv tsconfig.tmp.json tsconfig.json
+npx json -I -f tsconfig.json -e 'this.compilerOptions.paths = this.compilerOptions.paths || {}; this.compilerOptions.paths["@/*"] = ["./src/*"]'
+node ../../dist/bin/index.js
+find . -mindepth 1 ! -path './public*' -delete
+mv public/* .
+rm -rf public && cd ../../

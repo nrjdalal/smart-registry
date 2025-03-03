@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "RadioGroup/RadioGroup",
+  "type": "registry:component",
+  "dependencies": [
+    "@radix-ui/react-radio-group",
+    "clsx",
+    "react",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
+      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
+      "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+    },
+    {
+      "type": "registry:file",
+      "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
+      "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
+      "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+    },
+    {
+      "type": "registry:component",
+      "target": "components/RadioGroup/RadioGroup.tsx",
+      "content": "// Tremor RadioGroup [v0.0.2]\n\nimport React from \"react\"\nimport * as RadioGroupPrimitives from \"@radix-ui/react-radio-group\"\n\nimport { cx } from \"@//Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx\"\nimport { focusRing } from \"@//Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing\"\n\nconst RadioGroup = React.forwardRef<\n  React.ElementRef<typeof RadioGroupPrimitives.Root>,\n  React.ComponentPropsWithoutRef<typeof RadioGroupPrimitives.Root>\n>(({ className, ...props }, forwardedRef) => {\n  return (\n    <RadioGroupPrimitives.Root\n      ref={forwardedRef}\n      className={cx(\"grid gap-2\", className)}\n      tremor-id=\"tremor-raw\"\n      {...props}\n    />\n  )\n})\n\nRadioGroup.displayName = \"RadioGroup\"\n\nconst RadioGroupIndicator = React.forwardRef<\n  React.ElementRef<typeof RadioGroupPrimitives.Indicator>,\n  React.ComponentPropsWithoutRef<typeof RadioGroupPrimitives.Indicator>\n>(({ className, ...props }, forwardedRef) => {\n  return (\n    <RadioGroupPrimitives.Indicator\n      ref={forwardedRef}\n      className={cx(\"flex items-center justify-center\", className)}\n      {...props}\n    >\n      <div\n        className={cx(\n          // base\n          \"size-1.5 shrink-0 rounded-full\",\n          // indicator\n          \"bg-white\",\n          // disabled\n          \"group-data-[disabled]:bg-gray-400 group-data-[disabled]:dark:bg-gray-500\",\n        )}\n      />\n    </RadioGroupPrimitives.Indicator>\n  )\n})\n\nRadioGroupIndicator.displayName = \"RadioGroupIndicator\"\n\nconst RadioGroupItem = React.forwardRef<\n  React.ElementRef<typeof RadioGroupPrimitives.Item>,\n  React.ComponentPropsWithoutRef<typeof RadioGroupPrimitives.Item>\n>(({ className, ...props }, forwardedRef) => {\n  return (\n    <RadioGroupPrimitives.Item\n      ref={forwardedRef}\n      className={cx(\n        \"group relative flex size-4 appearance-none items-center justify-center outline-none\",\n        className,\n      )}\n      {...props}\n    >\n      <div\n        className={cx(\n          // base\n          \"flex size-4 shrink-0 items-center justify-center rounded-full border shadow-sm\",\n          // border color\n          \"border-gray-300 dark:border-gray-800\",\n          // background color\n          \"bg-white dark:bg-gray-950\",\n          // checked\n          \"group-data-[state=checked]:border-0 group-data-[state=checked]:border-transparent group-data-[state=checked]:bg-blue-500\",\n          // disabled\n          \"group-data-[disabled]:border\",\n          \"group-data-[disabled]:border-gray-300 group-data-[disabled]:bg-gray-100 group-data-[disabled]:text-gray-400\",\n          \"group-data-[disabled]:dark:border-gray-700 group-data-[disabled]:dark:bg-gray-800\",\n          // focus\n          focusRing,\n        )}\n      >\n        <RadioGroupIndicator />\n      </div>\n    </RadioGroupPrimitives.Item>\n  )\n})\n\nRadioGroupItem.displayName = \"RadioGroupItem\"\n\nexport { RadioGroup, RadioGroupItem }\n",
+      "path": "src/components/RadioGroup/RadioGroup.tsx"
+    }
+  ]
+}
