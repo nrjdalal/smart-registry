@@ -3,6 +3,7 @@ import stripJsonComments from "strip-json-comments"
 
 export const getAliases = async () => {
   let aliases: Record<string, string> = {}
+  const aliasPaths = ["registry", "components", "src/components"]
 
   if (fs.existsSync("tsconfig.json")) {
     let tsconfig = await fs.promises.readFile("tsconfig.json", "utf8")
@@ -27,6 +28,12 @@ export const getAliases = async () => {
         {} as Record<string, string>,
       )
 
+      for (const path of aliasPaths) {
+        if (fs.existsSync(path)) {
+          aliases["@/"] = path === "src/components" ? "src/" : ""
+        }
+      }
+
       if (!Object.keys(aliases).includes("@/")) {
         throw new Error("No alias key '@/' found in compilerOptions.paths!")
       }
@@ -34,8 +41,6 @@ export const getAliases = async () => {
       return aliases
     }
   }
-
-  const aliasPaths = ["registry", "components", "src/components"]
 
   for (const path of aliasPaths) {
     if (fs.existsSync(path)) {

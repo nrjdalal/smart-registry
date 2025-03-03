@@ -18,12 +18,12 @@ process() {
   rm -rf "public/$target_dir"
   mkdir -p "public/$target_dir"
   cd "public/$target_dir"
-  git clone "$repo_url" .
+  npx gitpick $repo_url .
   cd "$depth"
   rm -rf public registry.json
   local depth_count=$(echo "$depth" | awk -F'/' '{print NF + 1}')
   local node_path=$(printf '../%.0s' $(seq 1 $depth_count))
-  node $node_path/dist/bin/index.js -i ".md, .spec.ts, .spec.tsx, .stories.tsx, demo.tsx"
+  node $node_path/dist/bin/index.js -i ".md, .snap, .spec.ts, .spec.tsx, .stories.tsx, .test.ts, .test.tsx, demo.tsx"
   local mv_depth=$(($depth_count - 2))
   local mv_path="."
   if [ $mv_depth -gt 0 ]; then
