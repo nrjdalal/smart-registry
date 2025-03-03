@@ -1,5 +1,7 @@
 #!/bin/bash
 
+npm run build
+
 process() {
   local repo_url=$1
   local target_dir=$2
@@ -24,6 +26,8 @@ process() {
   if [ -d "public" ]; then
     find . -mindepth 1 -maxdepth 1 ! -name 'public' -exec rm -rf {} +
   fi
+  mv public/* .
+  rm -rf public
   cd ../../
 }
 
