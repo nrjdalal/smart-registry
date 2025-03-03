@@ -19,3 +19,16 @@ node ../../dist/bin/index.js
 find . -mindepth 1 ! -path './public*' -delete
 mv public/* .
 rm -rf public && cd ../../
+# shadcn
+rm -rf public/shadcn
+mkdir -p public/shadcn
+cd public/shadcn
+git clone https://github.com/shadcn-ui/ui .
+cd apps/v4
+rm -rf public
+node ../../../../dist/bin/index.js
+mv public ../../
+cd ../../
+find . -mindepth 1 ! -path './public*' -delete
+mv public/* .
+rm -rf public && cd ../../
