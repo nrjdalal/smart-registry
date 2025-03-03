@@ -1,6 +1,7 @@
 #!/bin/bash
 
 repos=(
+  "https://github.com/ant-design/ant-design ant-design ."
   "https://github.com/origin-space/originui originui ."
   "https://github.com/shadcn-ui/ui shadcn ./apps/v4"
   "https://github.com/shadcn-ui/ui shadcn-v3 ./apps/www"
@@ -18,7 +19,7 @@ process() {
   rm -rf "public/$target_dir"
   mkdir -p "public/$target_dir"
   cd "public/$target_dir"
-  git clone "$repo_url" .
+  npx gitpick $repo_url .
   cd "$depth"
   rm -rf public registry.json
   local depth_count=$(echo "$depth" | awk -F'/' '{print NF + 1}')
