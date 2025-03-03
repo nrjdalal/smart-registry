@@ -40,7 +40,7 @@ const main = async () => {
       allowPositionals: true,
       options: {
         cwd: { type: "string", short: "c" },
-        ignore: { type: "string", short: "i" },
+        ignore: { type: "string", short: "i", default: "" },
         help: { type: "boolean", short: "h" },
         version: { type: "boolean", short: "v" },
       },
@@ -64,7 +64,7 @@ const main = async () => {
     const registryFiles = await listRegistryFiles({
       cwd,
       patterns: positionals,
-      ignore: values.ignore || [],
+      ignore: values.ignore,
     })
 
     const failed = [] as string[]
