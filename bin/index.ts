@@ -2,8 +2,9 @@
 import fs from "node:fs"
 import path from "node:path"
 import { parseArgs } from "node:util"
+import { autoDetectPatterns } from "@/bin/constants/orders"
 import { getAliases } from "@/bin/utils/aliases"
-import { getFiles } from "@/bin/utils/files"
+import { listFiles } from "@/bin/utils/files"
 import { resolver } from "@/bin/utils/resolvers"
 import { transformer } from "@/bin/utils/transformer"
 import { author, name, version } from "@/package.json"
@@ -11,16 +12,16 @@ import { author, name, version } from "@/package.json"
 const helpMessage = `Version:
   ${name}@${version}
 
-Usage:
-  $ ${name} [options]
+Usage: ${name} [options] [files/directories] ...
+
+Arguments:
+  files/directories    files or directories to build the registry from (optional)
 
 Options:
-  -f, --files        Files to build the registry from
-  -d, --directories  Directories to build the registry from
-  -i, --ignore       Endings/Extensions to ignore (comma separated)
-                     e.g. -i ".spec.ts, .test.ts, demo.tsx"
-  -v, --version      Display version
-  -h, --help         Display help
+  -o, --output <path>  destination directory for json files (default: "./public/r")
+  -c, --cwd <cwd>      the working directory (default: "./")
+  -v, --version        display version
+  -h, --help           display help
 
 Author:
   ${author.name} <${author.email}> (${author.url})`
@@ -61,35 +62,30 @@ const main = async () => {
     const cwd = path.resolve(values.cwd || process.cwd())
 
     if (!positionals.length) {
-      for (const pattern of [
-        "registry/**",
-        "components/**",
-        "src/components/**",
-      ]) {
-        registryFiles = await getFiles({
+      for (const pattern of autoDetectPatterns) {
+        registryFiles = await listFiles({
           patterns: pattern,
-          cwd,
           ignore: values.ignore,
+          cwd,
         })
         if (registryFiles.length) break
       }
-      if (!registryFiles.length) {
-        throw new Error(
-          "No files found in the registry, components, or src/components directories",
-        )
-      }
     } else {
-      registryFiles = await getFiles({
+      registryFiles = await listFiles({
         patterns: positionals,
-        cwd,
         ignore: values.ignore,
+        cwd,
       })
+    }
+
+    if (!registryFiles.length) {
+      throw new Error("No files/directories found to build the registry from!")
     }
 
     const aliases = await getAliases()
 
     // ~ Read registry.json file if it exists
-    const registryPath = path.resolve(process.cwd(), "registry.json")
+    const registryPath = path.resolve(cwd, "registry.json")
 
     let registry: Record<string, any> = {}
 
@@ -205,7 +201,7 @@ const main = async () => {
         registryItem.files.forEach((file) => delete file.content)
         registryJson.items.push(registryItem)
       } catch (err: any) {
-        failed.push(filePath + ":  " + err.message)
+        failed.push(filePath + ": " + err.message)
         continue
       }
     }

@@ -1,0 +1,21 @@
+export const autoDetectPatterns = [
+  "registry/**",
+  [
+    "blocks/**",
+    "components/**",
+    "helpers/**",
+    "hooks/**",
+    "lib/**",
+    "ui/**",
+    "utils/**",
+  ],
+  [
+    "src/blocks/**",
+    "src/components/**",
+    "src/helpers/**",
+    "src/hooks/**",
+    "src/lib/**",
+    "src/ui/**",
+    "src/utils/**",
+  ],
+]

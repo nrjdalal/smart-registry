@@ -18,19 +18,16 @@ export const findFile = (filepath: string) => {
   }
 }
 
-export const getFiles = async ({
+export const listFiles = async ({
   patterns = ["**", ".**"] as string | string[],
-  cwd = path.resolve(process.cwd()) as string,
   ignore = [] as string[],
+  cwd = path.resolve(process.cwd()) as string,
 } = {}) => {
   patterns = Array.isArray(patterns) ? patterns : [patterns]
-  ignore = Array.isArray(ignore) ? ignore : [ignore]
-  patterns = patterns.map((pattern) => {
-    if (!pattern.endsWith("*")) {
-      return pattern + "**"
-    }
-    return pattern
+  patterns = patterns.flatMap((pattern) => {
+    return !pattern.includes("*") ? [pattern + ".*", pattern + "/**"] : pattern
   })
+  ignore = Array.isArray(ignore) ? ignore : [ignore]
   const files = await glob(patterns, {
     cwd,
     ignore: ignore.filter((ig) => !patterns.includes(ig)),
