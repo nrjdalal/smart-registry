@@ -46,7 +46,6 @@ export const listFiles = async ({
     typeof ignore === "string"
       ? ignore.split(",").map((str) => str.trim())
       : ignore
-  ignore = Array.isArray(ignore) ? ignore : [ignore]
   const files = await glob(patterns, {
     cwd,
     ignore: ignore.filter((ig) => !patterns.includes(ig)),
