@@ -15,8 +15,6 @@ mkdir -p public/tremor
 cd public/tremor
 git clone https://github.com/tremorlabs/tremor .
 rm -rf public
-npx strip-json-comments tsconfig.json >tsconfig.tmp.json && mv tsconfig.tmp.json tsconfig.json
-npx json -I -f tsconfig.json -e 'this.compilerOptions.paths = this.compilerOptions.paths || {}; this.compilerOptions.paths["@/*"] = ["./src/*"]'
 node ../../dist/bin/index.js
 find . -mindepth 1 ! -path './public*' -delete
 mv public/* .

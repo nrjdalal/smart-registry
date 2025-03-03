@@ -91,33 +91,9 @@ Manual maintenance of `registry.json` files can lead to errors due to missing de
 
 ## Usage
 
-### Configure Alias
-
-Add the following alias to your `tsconfig.json` file.
-
-```diff
-{
-  "compilerOptions": {
-    "baseUrl": ".",
-+    "paths": {
-+      "@/*": ["./src/*"] or ["./*"]
-+    }
-  }
-}
-```
-
 ### Automatic Detection
 
-Based on the alias configuration, the following directory structure is assumed. Read more about [directory structure](#directory-structure).
-
-| Alias | Path      | Directory (Required)       |
-| ----- | --------- | -------------------------- |
-| `@/*` | `./src/*` | `src/components`           |
-| `@/*` | `./*`     | `components` or `registry` |
-
-<br/>
-
-Then, run the following command:
+If your project contains a `registry`, `components`, or `src/components` directory, `Smart Registry` will automatically detect and generate the necessary registry files. For more details, refer to the [directory structure](#directory-structure) section.
 
 ```bash
 npx smart-registry
