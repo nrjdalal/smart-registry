@@ -1,7 +1,6 @@
 #!/bin/bash
 
 repos=(
-  "https://github.com/ant-design/ant-design ant-design ."
   "https://github.com/origin-space/originui originui ."
   "https://github.com/shadcn-ui/ui shadcn ./apps/v4"
   "https://github.com/shadcn-ui/ui shadcn-v3 ./apps/www"
@@ -24,7 +23,7 @@ process() {
   rm -rf public registry.json
   local depth_count=$(echo "$depth" | awk -F'/' '{print NF + 1}')
   local node_path=$(printf '../%.0s' $(seq 1 $depth_count))
-  node $node_path/dist/bin/index.js -i ".md, .spec.ts, .spec.tsx, .stories.tsx, demo.tsx"
+  node $node_path/dist/bin/index.js -i ".md, .snap, .spec.ts, .spec.tsx, .stories.tsx, .test.ts, .test.tsx, demo.tsx"
   local mv_depth=$(($depth_count - 2))
   local mv_path="."
   if [ $mv_depth -gt 0 ]; then
