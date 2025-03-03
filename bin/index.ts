@@ -4,7 +4,7 @@ import path from "node:path"
 import { parseArgs } from "node:util"
 import { getAliases } from "@/bin/utils/aliases"
 import { getFiles } from "@/bin/utils/files"
-import { pathResolver, resolver } from "@/bin/utils/resolvers"
+import { resolver } from "@/bin/utils/resolvers"
 import { transformer } from "@/bin/utils/transformer"
 import { author, name, version } from "@/package.json"
 
@@ -57,8 +57,8 @@ const main = async () => {
       }
     }
 
-    const cwd = path.resolve(values.cwd || process.cwd())
     let registryFiles = [] as string[]
+    const cwd = path.resolve(values.cwd || process.cwd())
 
     if (!positionals.length) {
       for (const pattern of [
@@ -66,7 +66,7 @@ const main = async () => {
         "components/**",
         "src/components/**",
       ]) {
-        registryFiles = getFiles({
+        registryFiles = await getFiles({
           patterns: pattern,
           cwd,
           ignore: values.ignore,
@@ -79,7 +79,7 @@ const main = async () => {
         )
       }
     } else {
-      registryFiles = getFiles({
+      registryFiles = await getFiles({
         patterns: positionals,
         cwd,
         ignore: values.ignore,

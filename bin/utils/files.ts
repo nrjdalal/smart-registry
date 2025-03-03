@@ -1,6 +1,6 @@
 import fs from "node:fs"
 import path from "node:path"
-import { globSync } from "tinyglobby"
+import { glob } from "tinyglobby"
 
 export const findFile = (filepath: string) => {
   const isFile = path.extname(filepath) !== ""
@@ -18,7 +18,7 @@ export const findFile = (filepath: string) => {
   }
 }
 
-export const getFiles = ({
+export const getFiles = async ({
   patterns = ["**", ".**"] as string | string[],
   cwd = path.resolve(process.cwd()) as string,
   ignore = [] as string[],
@@ -31,7 +31,7 @@ export const getFiles = ({
     }
     return pattern
   })
-  const files = globSync(patterns, {
+  const files = await glob(patterns, {
     cwd,
     ignore: ignore.filter((ig) => !patterns.includes(ig)),
   })
