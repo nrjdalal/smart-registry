@@ -17,7 +17,8 @@ Usage:
 Options:
   -f, --files        Files to build the registry from
   -d, --directories  Directories to build the registry from
-  -i, --ignore       Extensions to ignore
+  -i, --ignore       Endings/Extensions to ignore (comma separated)
+                     e.g. -i ".spec.ts, .test.ts, demo.tsx"
   -v, --version      Display version
   -h, --help         Display help
 
