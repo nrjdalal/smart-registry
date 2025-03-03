@@ -50,27 +50,31 @@ export const listFiles = async ({
   return files
 }
 
-export const listRegistryFiles = async (
-  cwd: string,
-  positionals: string[],
-  values: any,
-): Promise<string[]> => {
+export const listRegistryFiles = async ({
+  cwd,
+  patterns,
+  ignore,
+}: {
+  cwd: string
+  patterns: string[]
+  ignore: string[]
+}): Promise<string[]> => {
   let registryFiles = [] as string[]
 
-  if (!positionals.length) {
+  if (!patterns.length) {
     for (const pattern of autoDetectPatterns) {
       registryFiles = await listFiles({
         cwd,
         patterns: pattern,
-        ignore: values.ignore,
+        ignore,
       })
       if (registryFiles.length) break
     }
   } else {
     registryFiles = await listFiles({
       cwd,
-      patterns: positionals,
-      ignore: values.ignore,
+      patterns,
+      ignore,
     })
   }
 

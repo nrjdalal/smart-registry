@@ -41,7 +41,7 @@ const main = async () => {
       allowPositionals: true,
       options: {
         cwd: { type: "string", short: "c" },
-        ignore: { type: "string", multiple: true, short: "i" },
+        ignore: { type: "string", short: "i" },
         help: { type: "boolean", short: "h" },
         version: { type: "boolean", short: "v" },
       },
@@ -62,7 +62,11 @@ const main = async () => {
 
     const aliases = await getAliases(cwd)
     const inputRegistry = await getInputRegistry(cwd)
-    const registryFiles = await listRegistryFiles(cwd, positionals, values)
+    const registryFiles = await listRegistryFiles({
+      cwd,
+      patterns: positionals,
+      ignore: values.ignore?.split(",") || [],
+    })
 
     const failed = [] as string[]
 
@@ -73,13 +77,6 @@ const main = async () => {
 
     // ~ Build registry-item for each file in the registry
     for (const filePath of registryFiles) {
-      if (
-        values.ignore
-          ?.flatMap((ext) => ext.split(",").map((e) => e.trim()))
-          .some((ext) => filePath.endsWith(ext))
-      )
-        continue
-
       try {
         const resolvedData = await resolver(
           [
