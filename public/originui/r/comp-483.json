@@ -3,7 +3,16 @@
   "name": "comp-483",
   "type": "registry:component",
   "dependencies": [
-    "@tanstack/react-table"
+    "@radix-ui/react-checkbox",
+    "@radix-ui/react-label",
+    "@radix-ui/react-select",
+    "@radix-ui/react-slot",
+    "@tanstack/react-table",
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "react",
+    "tailwind-merge"
   ],
   "files": [
     {
@@ -60,27 +69,5 @@
       "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
-  ],
-  "registryDependencies": [
-    "https://originui.com/r/badge.json",
-    "https://originui.com/r/button.json",
-    "https://originui.com/r/checkbox.json",
-    "https://originui.com/r/label.json",
-    "https://originui.com/r/pagination.json",
-    "https://originui.com/r/select.json",
-    "https://originui.com/r/table.json"
-  ],
-  "meta": {
-    "tags": [
-      "table",
-      "tanstack",
-      "checkbox",
-      "sort",
-      "flag",
-      "badge",
-      "chip",
-      "pagination"
-    ],
-    "colSpan": 3
-  }
+  ]
 }

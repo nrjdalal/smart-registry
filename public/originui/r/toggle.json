@@ -3,7 +3,11 @@
   "name": "toggle",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-toggle"
+    "@radix-ui/react-toggle",
+    "class-variance-authority",
+    "clsx",
+    "react",
+    "tailwind-merge"
   ],
   "files": [
     {

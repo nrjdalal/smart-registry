@@ -1,6 +1,4 @@
 {
-  "name": "shadcn/ui",
-  "homepage": "https://ui.shadcn.com",
   "items": [
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",

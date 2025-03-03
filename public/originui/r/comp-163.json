@@ -3,7 +3,11 @@
   "name": "comp-163",
   "type": "registry:component",
   "dependencies": [
-    "@remixicon/react"
+    "@radix-ui/react-radio-group",
+    "@remixicon/react",
+    "clsx",
+    "react",
+    "tailwind-merge"
   ],
   "files": [
     {
@@ -24,18 +28,5 @@
       "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
-  ],
-  "registryDependencies": [
-    "https://originui.com/r/radio-group.json"
-  ],
-  "meta": {
-    "tags": [
-      "radio",
-      "label",
-      "card",
-      "checkout",
-      "payment",
-      "radix"
-    ]
-  }
+  ]
 }

@@ -3,7 +3,11 @@
   "name": "comp-239",
   "type": "registry:component",
   "dependencies": [
-    "react-aria-components"
+    "@radix-ui/react-label",
+    "clsx",
+    "react",
+    "react-aria-components",
+    "tailwind-merge"
   ],
   "files": [
     {
@@ -24,16 +28,5 @@
       "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
-  ],
-  "registryDependencies": [
-    "https://originui.com/r/label.json"
-  ],
-  "meta": {
-    "tags": [
-      "label",
-      "select",
-      "multiselect",
-      "react aria"
-    ]
-  }
+  ]
 }

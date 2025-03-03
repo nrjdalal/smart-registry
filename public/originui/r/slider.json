@@ -3,7 +3,11 @@
   "name": "slider",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-slider"
+    "@radix-ui/react-slider",
+    "@radix-ui/react-tooltip",
+    "clsx",
+    "react",
+    "tailwind-merge"
   ],
   "files": [
     {
@@ -24,8 +28,5 @@
       "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
-  ],
-  "registryDependencies": [
-    "https://originui.com/r/tooltip.json"
   ]
 }

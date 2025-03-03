@@ -3,7 +3,10 @@
   "name": "switch",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-switch"
+    "@radix-ui/react-switch",
+    "clsx",
+    "react",
+    "tailwind-merge"
   ],
   "files": [
     {

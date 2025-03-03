@@ -3,7 +3,11 @@
   "name": "select",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-select"
+    "@radix-ui/react-select",
+    "clsx",
+    "lucide-react",
+    "react",
+    "tailwind-merge"
   ],
   "files": [
     {

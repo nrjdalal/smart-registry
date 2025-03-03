@@ -3,7 +3,11 @@
   "name": "comp-479",
   "type": "registry:component",
   "dependencies": [
-    "@tanstack/react-table"
+    "@tanstack/react-table",
+    "clsx",
+    "lucide-react",
+    "react",
+    "tailwind-merge"
   ],
   "files": [
     {
@@ -24,18 +28,5 @@
       "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
-  ],
-  "registryDependencies": [
-    "https://originui.com/r/table.json"
-  ],
-  "meta": {
-    "tags": [
-      "table",
-      "tanstack",
-      "flag",
-      "sort",
-      "resize"
-    ],
-    "colSpan": 3
-  }
+  ]
 }

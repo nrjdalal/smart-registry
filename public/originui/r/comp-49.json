@@ -3,7 +3,11 @@
   "name": "comp-49",
   "type": "registry:component",
   "dependencies": [
-    "react-payment-inputs"
+    "@radix-ui/react-label",
+    "clsx",
+    "react",
+    "react-payment-inputs",
+    "tailwind-merge"
   ],
   "files": [
     {
@@ -30,22 +34,5 @@
       "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
-  ],
-  "registryDependencies": [
-    "https://originui.com/r/input.json",
-    "https://originui.com/r/label.json"
-  ],
-  "devDependencies": [
-    "@types/react-payment-inputs"
-  ],
-  "meta": {
-    "tags": [
-      "input",
-      "label",
-      "checkout",
-      "payment",
-      "credit card",
-      "form"
-    ]
-  }
+  ]
 }

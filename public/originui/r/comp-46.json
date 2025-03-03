@@ -3,7 +3,12 @@
   "name": "comp-46",
   "type": "registry:component",
   "dependencies": [
-    "react-phone-number-input"
+    "@radix-ui/react-label",
+    "clsx",
+    "lucide-react",
+    "react",
+    "react-phone-number-input",
+    "tailwind-merge"
   ],
   "files": [
     {
@@ -30,16 +35,5 @@
       "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
-  ],
-  "registryDependencies": [
-    "https://originui.com/r/input.json",
-    "https://originui.com/r/label.json"
-  ],
-  "meta": {
-    "tags": [
-      "input",
-      "label",
-      "phone"
-    ]
-  }
+  ]
 }

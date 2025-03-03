@@ -3,7 +3,10 @@
   "name": "checkbox",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-checkbox"
+    "@radix-ui/react-checkbox",
+    "clsx",
+    "react",
+    "tailwind-merge"
   ],
   "files": [
     {

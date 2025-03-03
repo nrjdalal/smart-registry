@@ -3,8 +3,12 @@
   "name": "calendar-rac",
   "type": "registry:ui",
   "dependencies": [
+    "@internationalized/date",
+    "clsx",
+    "lucide-react",
+    "react",
     "react-aria-components",
-    "@internationalized/date"
+    "tailwind-merge"
   ],
   "files": [
     {

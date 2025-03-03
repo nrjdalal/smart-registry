@@ -3,7 +3,11 @@
   "name": "dropdown-menu",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-dropdown-menu"
+    "@radix-ui/react-dropdown-menu",
+    "clsx",
+    "lucide-react",
+    "react",
+    "tailwind-merge"
   ],
   "files": [
     {

@@ -26,16 +26,5 @@
       "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n",
       "path": "registry/default/lib/utils.ts"
     }
-  ],
-  "registryDependencies": [
-    "https://originui.com/r/table.json"
-  ],
-  "meta": {
-    "tags": [
-      "table",
-      "user",
-      "avatar"
-    ],
-    "colSpan": 3
-  }
+  ]
 }
