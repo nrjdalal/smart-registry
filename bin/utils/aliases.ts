@@ -31,7 +31,6 @@ export const getAliases = async () => {
         throw new Error("No alias key '@/' found in compilerOptions.paths!")
       }
 
-      console.log(aliases)
       return aliases
     }
   }

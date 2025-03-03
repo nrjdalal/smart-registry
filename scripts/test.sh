@@ -1,34 +1,32 @@
-npm run build
-# originui
-rm -rf public/originui
-mkdir -p public/originui
-cd public/originui
-git clone https://github.com/origin-space/originui .
-rm -rf public registry.json
-node ../../dist/bin/index.js
-find . -mindepth 1 ! -path './public*' -delete
-mv public/* .
-rm -rf public && cd ../../
-# tremor
-rm -rf public/tremor
-mkdir -p public/tremor
-cd public/tremor
-git clone https://github.com/tremorlabs/tremor .
-rm -rf public registry.json
-node ../../dist/bin/index.js
-find . -mindepth 1 ! -path './public*' -delete
-mv public/* .
-rm -rf public && cd ../../
-# shadcn
-rm -rf public/shadcn
-mkdir -p public/shadcn
-cd public/shadcn
-git clone https://github.com/shadcn-ui/ui .
-cd apps/v4
-rm -rf public registry.json
-node ../../../../dist/bin/index.js
-mv public ../../
-cd ../../
-find . -mindepth 1 ! -path './public*' -delete
-mv public/* .
-rm -rf public && cd ../../
+#!/bin/bash
+
+process() {
+  local repo_url=$1
+  local target_dir=$2
+  local depth=$3
+
+  rm -rf "public/$target_dir"
+  mkdir -p "public/$target_dir"
+  cd "public/$target_dir"
+  git clone "$repo_url" .
+  cd "$depth"
+  rm -rf public registry.json
+  local depth_count=$(echo "$depth" | awk -F'/' '{print NF + 1}')
+  local node_path=$(printf '../%.0s' $(seq 1 $depth_count))
+  node $node_path/dist/bin/index.js
+  local mv_depth=$(($depth_count - 2))
+  local mv_path="."
+  if [ $mv_depth -gt 0 ]; then
+    mv_path=$(printf '../%.0s' $(seq 1 $mv_depth))
+  fi
+  mv public $mv_path
+  cd $mv_path
+  if [ -d "public" ]; then
+    find . -mindepth 1 -maxdepth 1 ! -name 'public' -exec rm -rf {} +
+  fi
+  cd ../../
+}
+
+process "https://github.com/origin-space/originui" "originui" "."
+process "https://github.com/tremorlabs/tremor" "tremor" "."
+process "https://github.com/shadcn-ui/ui" "shadcn" "./apps/v4"
