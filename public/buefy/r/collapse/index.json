@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "collapse/index",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/collapse/Collapse.vue",
+      "content": "<script>\nexport default {\n    name: 'BCollapse',\n    // deprecated, to replace with default 'value' in the next breaking change\n    model: {\n        prop: 'open',\n        event: 'update:open'\n    },\n    props: {\n        open: {\n            type: Boolean,\n            default: true\n        },\n        animation: {\n            type: String,\n            default: 'fade'\n        },\n        ariaId: {\n            type: String,\n            default: ''\n        },\n        position: {\n            type: String,\n            default: 'is-top',\n            validator(value) {\n                return [\n                    'is-top',\n                    'is-bottom'\n                ].indexOf(value) > -1\n            }\n        }\n    },\n    data() {\n        return {\n            isOpen: this.open\n        }\n    },\n    watch: {\n        open(value) {\n            this.isOpen = value\n        }\n    },\n    methods: {\n        /**\n        * Toggle and emit events\n        */\n        toggle() {\n            this.isOpen = !this.isOpen\n            this.$emit('update:open', this.isOpen)\n            this.$emit(this.isOpen ? 'open' : 'close')\n        }\n    },\n    render(createElement) {\n        const trigger = createElement('div', {\n            staticClass: 'collapse-trigger', on: { click: this.toggle }\n        }, this.$scopedSlots.trigger\n            ? [this.$scopedSlots.trigger({ open: this.isOpen })]\n            : [this.$slots.trigger]\n        )\n        const content = createElement('transition', { props: { name: this.animation } }, [\n            createElement('div', {\n                staticClass: 'collapse-content',\n                attrs: { 'id': this.ariaId },\n                directives: [{\n                    name: 'show',\n                    value: this.isOpen\n                }]\n            }, this.$slots.default)\n        ])\n        return createElement('div', { staticClass: 'collapse' },\n            this.position === 'is-top' ? [trigger, content] : [content, trigger])\n    }\n}\n</script>\n",
+      "path": "src/components/collapse/Collapse.vue"
+    },
+    {
+      "type": "registry:component",
+      "target": "components/collapse/index.js",
+      "content": "import Collapse from '@/components/collapse/Collapse'\n\nimport { use, registerComponent } from '@/utils/plugins'\n\nconst Plugin = {\n    install(Vue) {\n        registerComponent(Vue, Collapse)\n    }\n}\n\nuse(Plugin)\n\nexport default Plugin\n\nexport {\n    Collapse as BCollapse\n}\n",
+      "path": "src/components/collapse/index.js"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/plugins.js",
+      "content": "\nexport const use = (plugin) => {\n    if (typeof window !== 'undefined' && window.Vue) {\n        window.Vue.use(plugin)\n    }\n}\n\nexport const registerComponent = (Vue, component) => {\n    Vue.component(component.name, component)\n}\n\nexport const registerComponentProgrammatic = (Vue, property, component) => {\n    if (!Vue.prototype.$buefy) Vue.prototype.$buefy = {}\n    Vue.prototype.$buefy[property] = component\n}\n",
+      "path": "src/utils/plugins.js"
+    }
+  ]
+}

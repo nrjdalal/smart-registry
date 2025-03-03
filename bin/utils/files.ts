@@ -5,7 +5,7 @@ import { glob } from "tinyglobby"
 export const findFile = (filepath: string) => {
   const isFile = path.extname(filepath) !== ""
   if (isFile) {
-    return filepath
+    return filepath.replace(process.cwd() + path.sep, "")
   } else {
     let folderPath = filepath.split(/\/|\\/).slice(0, -1).join(path.sep)
     folderPath = folderPath.replace(/\/\//g, "/")

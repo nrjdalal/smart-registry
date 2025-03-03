@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "slider/SliderTick",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/slider/SliderTick.vue",
+      "content": "<template>\n    <div\n        class=\"b-slider-tick\"\n        :class=\"{ 'is-tick-hidden': hidden }\"\n        :style=\"getTickStyle(position)\">\n        <span v-if=\"$slots.default\" class=\"b-slider-tick-label\">\n            <slot/>\n        </span>\n    </div>\n</template>\n\n<script>\nexport default {\n    name: 'BSliderTick',\n    props: {\n        value: {\n            type: Number,\n            default: 0\n        }\n    },\n    computed: {\n        position() {\n            const pos = (this.value - this.$parent.min) /\n                (this.$parent.max - this.$parent.min) * 100\n            return (pos >= 0 && pos <= 100) ? pos : 0\n        },\n        hidden() {\n            return this.value === this.$parent.min || this.value === this.$parent.max\n        }\n    },\n    methods: {\n        getTickStyle(position) {\n            return { 'left': position + '%' }\n        }\n    },\n    created() {\n        if (!this.$parent.$data._isSlider) {\n            this.$destroy()\n            throw new Error('You should wrap bSliderTick on a bSlider')\n        }\n    }\n}\n</script>\n",
+      "path": "src/components/slider/SliderTick.vue"
+    }
+  ]
+}

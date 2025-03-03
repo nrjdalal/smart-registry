@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "checkbox/Checkbox",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/checkbox/Checkbox.vue",
+      "content": "<template>\n    <label\n        class=\"b-checkbox checkbox\"\n        :class=\"[size, { 'is-disabled': disabled }]\"\n        ref=\"label\"\n        :disabled=\"disabled\"\n        @click=\"focus\"\n        @keydown.prevent.enter=\"$refs.label.click()\"\n        @keydown.prevent.space=\"$refs.label.click()\">\n        <!-- Checkbox needs to listen for a space event instead of a just a\n             click and enter event so that that using the keyboard spacebar will also\n             trigger the checkbox change in the b-table -->\n        <input\n            v-model=\"computedValue\"\n            :id=\"inputId\"\n            :indeterminate.prop=\"indeterminate\"\n            type=\"checkbox\"\n            ref=\"input\"\n            @click.stop\n            :autocomplete=\"autocomplete\"\n            :disabled=\"disabled\"\n            :required=\"required\"\n            :name=\"name\"\n            :value=\"nativeValue\"\n            :true-value=\"trueValue\"\n            :false-value=\"falseValue\"\n            :aria-labelledby=\"ariaLabelledby\">\n        <span class=\"check\" :class=\"type\" />\n        <span :id=\"ariaLabelledby\" class=\"control-label\"><slot/></span>\n    </label>\n</template>\n\n<script>\nimport CheckRadioMixin from '@/utils/CheckRadioMixin'\n\nexport default {\n    name: 'BCheckbox',\n    mixins: [CheckRadioMixin],\n    props: {\n        indeterminate: Boolean,\n        ariaLabelledby: String,\n        trueValue: {\n            type: [String, Number, Boolean, Function, Object, Array],\n            default: true\n        },\n        falseValue: {\n            type: [String, Number, Boolean, Function, Object, Array],\n            default: false\n        },\n        autocomplete: {\n            type: String,\n            default: 'on'\n        },\n        inputId: {\n            type: String,\n            default: ''\n        }\n    }\n}\n</script>\n",
+      "path": "src/components/checkbox/Checkbox.vue"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/CheckRadioMixin.js",
+      "content": "export default {\n    props: {\n        value: [String, Number, Boolean, Function, Object, Array],\n        nativeValue: [String, Number, Boolean, Function, Object, Array],\n        type: String,\n        disabled: Boolean,\n        required: Boolean,\n        name: String,\n        size: String\n    },\n    data() {\n        return {\n            newValue: this.value\n        }\n    },\n    computed: {\n        computedValue: {\n            get() {\n                return this.newValue\n            },\n            set(value) {\n                this.newValue = value\n                this.$emit('input', value)\n            }\n        }\n    },\n    watch: {\n        /**\n        * When v-model change, set internal value.\n        */\n        value(value) {\n            this.newValue = value\n        }\n    },\n    methods: {\n        focus() {\n            // MacOS FireFox and Safari do not focus when clicked\n            this.$refs.input.focus()\n        }\n    }\n}\n",
+      "path": "src/utils/CheckRadioMixin.js"
+    }
+  ]
+}

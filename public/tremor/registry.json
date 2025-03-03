@@ -1102,11 +1102,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Toast/Toast.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Toast/Toast.tsx"
-        },
-        {
           "type": "registry:component",
           "target": "components/Toast/Toast.tsx",
           "path": "src/components/Toast/Toast.tsx"

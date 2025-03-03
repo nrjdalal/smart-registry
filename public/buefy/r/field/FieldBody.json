@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "field/FieldBody",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/field/FieldBody.vue",
+      "content": "<script>\nexport default {\n    name: 'BFieldBody',\n    props: {\n        message: {\n            type: [String, Array]\n        },\n        type: {\n            type: [String, Object]\n        }\n    },\n    render(createElement) {\n        let first = true\n        return createElement('div', { attrs: { 'class': 'field-body' } }, this.$slots.default.map((element) => {\n            // skip returns and comments\n            if (!element.tag) {\n                return element\n            }\n            let message\n            if (first) {\n                message = this.message\n                first = false\n            }\n            return createElement('b-field', { attrs: { type: this.type, message } }, [element])\n        }))\n    }\n}\n</script>\n",
+      "path": "src/components/field/FieldBody.vue"
+    }
+  ]
+}

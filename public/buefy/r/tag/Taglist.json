@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tag/Taglist",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/tag/Taglist.vue",
+      "content": "<template>\n    <div class=\"tags\" :class=\"{ 'has-addons': attached }\">\n        <slot/>\n    </div>\n</template>\n\n<script>\nexport default {\n    name: 'BTaglist',\n    props: {\n        attached: Boolean\n    }\n}\n</script>\n",
+      "path": "src/components/tag/Taglist.vue"
+    }
+  ]
+}

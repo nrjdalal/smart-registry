@@ -32,7 +32,9 @@ export const resolver = async (
   }
 
   // ~ Resolve data for each file
-  for (const filePath of filePaths) {
+  for (let filePath of filePaths) {
+    filePath = filePath.replace(process.cwd() + path.sep, "")
+
     if (resolved.has(filePath)) {
       continue
     } else {

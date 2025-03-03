@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "radio/RadioButton",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/radio/RadioButton.vue",
+      "content": "<template>\n    <div class=\"control\" :class=\"{ 'is-expanded': expanded }\">\n        <label\n            class=\"b-radio radio button\"\n            ref=\"label\"\n            :class=\"labelClass\"\n            :disabled=\"disabled\"\n            @click=\"focus\"\n            @keydown.prevent.enter=\"$refs.label.click()\">\n            <slot/>\n            <input\n                v-model=\"computedValue\"\n                type=\"radio\"\n                ref=\"input\"\n                @click.stop\n                :disabled=\"disabled\"\n                :required=\"required\"\n                :name=\"name\"\n                :value=\"nativeValue\"\n                @focus=\"isFocused = true\"\n                @blur=\"isFocused = false\">\n        </label>\n    </div>\n</template>\n\n<script>\nimport CheckRadioMixin from '@/utils/CheckRadioMixin'\n\nexport default {\n    name: 'BRadioButton',\n    mixins: [CheckRadioMixin],\n    props: {\n        type: {\n            type: String,\n            default: 'is-primary'\n        },\n        expanded: Boolean\n    },\n    data() {\n        return {\n            isFocused: false\n        }\n    },\n    computed: {\n        isSelected() {\n            return this.newValue === this.nativeValue\n        },\n        labelClass() {\n            return [\n                this.isSelected ? this.type : null,\n                this.size,\n                {\n                    'is-selected': this.isSelected,\n                    'is-disabled': this.disabled,\n                    'is-focused': this.isFocused\n                }\n            ]\n        }\n    }\n}\n</script>\n",
+      "path": "src/components/radio/RadioButton.vue"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/CheckRadioMixin.js",
+      "content": "export default {\n    props: {\n        value: [String, Number, Boolean, Function, Object, Array],\n        nativeValue: [String, Number, Boolean, Function, Object, Array],\n        type: String,\n        disabled: Boolean,\n        required: Boolean,\n        name: String,\n        size: String\n    },\n    data() {\n        return {\n            newValue: this.value\n        }\n    },\n    computed: {\n        computedValue: {\n            get() {\n                return this.newValue\n            },\n            set(value) {\n                this.newValue = value\n                this.$emit('input', value)\n            }\n        }\n    },\n    watch: {\n        /**\n        * When v-model change, set internal value.\n        */\n        value(value) {\n            this.newValue = value\n        }\n    },\n    methods: {\n        focus() {\n            // MacOS FireFox and Safari do not focus when clicked\n            this.$refs.input.focus()\n        }\n    }\n}\n",
+      "path": "src/utils/CheckRadioMixin.js"
+    }
+  ]
+}

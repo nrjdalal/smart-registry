@@ -9,6 +9,7 @@ export const transformer = (
   filepath = options.aliases
     ? filepath.replace(options.aliases["@/"], "")
     : filepath
+  filepath = filepath.replace(process.cwd() + path.sep, "")
   const transformedPath = filepath.startsWith("registry/")
     ? filepath
         .replace(/^registry\//, "")

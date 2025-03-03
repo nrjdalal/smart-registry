@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "navbar/NavbarBurger",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/navbar/NavbarBurger.vue",
+      "content": "<template>\n    <a\n        role=\"button\"\n        class=\"navbar-burger burger\"\n        :class=\"{ 'is-active': isOpened }\"\n        aria-label=\"menu\"\n        :aria-expanded=\"isOpened\"\n        v-on=\"$listeners\"\n        tabindex=\"0\"\n    >\n        <span aria-hidden=\"true\"/>\n        <span aria-hidden=\"true\"/>\n        <span aria-hidden=\"true\"/>\n    </a>\n</template>\n\n<script>\nexport default {\n    name: 'NavbarBurger',\n    props: {\n        isOpened: {\n            type: Boolean,\n            default: false\n        }\n    }\n}\n</script>\n",
+      "path": "src/components/navbar/NavbarBurger.vue"
+    }
+  ]
+}
