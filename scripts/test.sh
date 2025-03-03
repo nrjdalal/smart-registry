@@ -1,8 +1,6 @@
 #!/bin/bash
 
 repos=(
-  "https://github.com/themesberg/flowbite flowbite ."
-  "https://github.com/buefy/buefy buefy ."
   "https://github.com/origin-space/originui originui ."
   "https://github.com/shadcn-ui/ui shadcn ./apps/v4"
   "https://github.com/shadcn-ui/ui shadcn-v3 ./apps/www"

@@ -13,8 +13,8 @@ export const findFile = (filepath: string) => {
     let files = fs.readdirSync(folderPath)
     files = files.map((file) => folderPath + path.sep + file)
     let file = files.find((file) => file.startsWith(filepath + "."))
-    file = file?.replace(process.cwd() + path.sep, "")
-    return file || ""
+    file = file || files.find((file) => file.startsWith(filepath + "/index."))
+    return file?.replace(process.cwd() + path.sep, "") || ""
   }
 }
 
