@@ -13,9 +13,9 @@ process() {
   local repo_url=$1
   local target_dir=$2
   local depth=$3
-  rm -rf "public/$target_dir"
-  mkdir -p "public/$target_dir"
-  cd "public/$target_dir"
+  rm -rf "test/$target_dir"
+  mkdir -p "test/$target_dir"
+  cd "test/$target_dir"
   npx gitpick $repo_url .
   cd "$depth"
   rm -rf public registry.json
