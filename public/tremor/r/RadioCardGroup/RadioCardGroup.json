@@ -11,21 +11,21 @@
   "files": [
     {
       "type": "registry:file",
-      "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
+      "target": "utils/cx.ts",
       "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
-      "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+      "path": "src/utils/cx.ts"
     },
     {
       "type": "registry:file",
-      "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
+      "target": "utils/focusInput.ts",
       "content": "// Tremor focusInput [v0.0.1]\n\nexport const focusInput = [\n  // base\n  \"focus:ring-2\",\n  // ring color\n  \"focus:ring-blue-200 focus:dark:ring-blue-700/30\",\n  // border color\n  \"focus:border-blue-500 focus:dark:border-blue-700\",\n]\n",
-      "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
+      "path": "src/utils/focusInput.ts"
     },
     {
       "type": "registry:file",
-      "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
+      "target": "utils/focusRing.ts",
       "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
-      "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+      "path": "src/utils/focusRing.ts"
     },
     {
       "type": "registry:component",

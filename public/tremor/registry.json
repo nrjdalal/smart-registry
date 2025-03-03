@@ -14,8 +14,8 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -56,33 +56,33 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Accordion/Accordion.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Accordion/Accordion.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Badge/Badge.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Badge/Badge.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
           "target": "components/Accordion/accordion.stories.tsx",
           "path": "src/components/Accordion/accordion.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Accordion/Accordion.tsx",
+          "path": "src/components/Accordion/Accordion.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Badge/Badge.tsx",
+          "path": "src/components/Badge/Badge.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         }
       ]
     },
@@ -112,33 +112,33 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/hooks/useOnWindowResize.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/hooks/useOnWindowResize.ts"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/getYAxisDomain.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasOnlyOneValueForKey.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasOnlyOneValueForKey.ts"
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
         },
         {
           "type": "registry:component",
           "target": "components/AreaChart/AreaChart.tsx",
           "path": "src/components/AreaChart/AreaChart.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -175,53 +175,53 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/AreaChart/AreaChart.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/AreaChart/AreaChart.tsx"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Label/Label.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Label/Label.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Switch/Switch.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Switch/Switch.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/hooks/useOnWindowResize.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/hooks/useOnWindowResize.ts"
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/getYAxisDomain.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasOnlyOneValueForKey.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasOnlyOneValueForKey.ts"
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
         },
         {
           "type": "registry:component",
           "target": "components/AreaChart/areachart.stories.tsx",
           "path": "src/components/AreaChart/areachart.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/AreaChart/AreaChart.tsx",
+          "path": "src/components/AreaChart/AreaChart.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -250,8 +250,8 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -289,18 +289,18 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Badge/Badge.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Badge/Badge.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
           "target": "components/Badge/badge.stories.tsx",
           "path": "src/components/Badge/badge.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Badge/Badge.tsx",
+          "path": "src/components/Badge/Badge.tsx"
         }
       ]
     },
@@ -330,28 +330,28 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/hooks/useOnWindowResize.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/hooks/useOnWindowResize.ts"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/getYAxisDomain.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/getYAxisDomain.ts"
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         },
         {
           "type": "registry:component",
           "target": "components/BarChart/BarChart.tsx",
           "path": "src/components/BarChart/BarChart.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -388,48 +388,48 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/BarChart/BarChart.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/BarChart/BarChart.tsx"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Label/Label.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Label/Label.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Switch/Switch.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Switch/Switch.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/hooks/useOnWindowResize.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/hooks/useOnWindowResize.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/getYAxisDomain.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/getYAxisDomain.ts"
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         },
         {
           "type": "registry:component",
           "target": "components/BarChart/barchart.stories.tsx",
           "path": "src/components/BarChart/barchart.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/BarChart/BarChart.tsx",
+          "path": "src/components/BarChart/BarChart.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -457,13 +457,13 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
@@ -500,23 +500,23 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/BarList/BarList.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/BarList/BarList.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
           "target": "components/BarList/barlist.stories.tsx",
           "path": "src/components/BarList/barlist.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/BarList/BarList.tsx",
+          "path": "src/components/BarList/BarList.tsx"
         }
       ]
     },
@@ -547,13 +547,13 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
@@ -593,23 +593,23 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
           "target": "components/Button/button.stories.tsx",
           "path": "src/components/Button/button.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         }
       ]
     },
@@ -640,13 +640,13 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
@@ -686,23 +686,23 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Calendar/Calendar.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Calendar/Calendar.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
           "target": "components/Calendar/calendar.stories.tsx",
           "path": "src/components/Calendar/calendar.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Calendar/Calendar.tsx",
+          "path": "src/components/Calendar/Calendar.tsx"
         }
       ]
     },
@@ -731,8 +731,8 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -771,18 +771,18 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Callout/Callout.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Callout/Callout.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
           "target": "components/Callout/callout.stories.tsx",
           "path": "src/components/Callout/callout.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Callout/Callout.tsx",
+          "path": "src/components/Callout/Callout.tsx"
         }
       ]
     },
@@ -811,8 +811,8 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -859,93 +859,93 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Card/Card.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Card/Card.tsx"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Checkbox/Checkbox.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Checkbox/Checkbox.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Divider/Divider.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Divider/Divider.tsx"
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Input/Input.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Input/Input.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Label/Label.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Label/Label.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/RadioGroup/RadioGroup.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/RadioGroup/RadioGroup.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Select/Select.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Select/Select.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/SelectNative/SelectNative.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/SelectNative/SelectNative.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Switch/Switch.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Switch/Switch.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Tabs/Tabs.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Tabs/Tabs.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Textarea/Textarea.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Textarea/Textarea.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Tooltip/Tooltip.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Tooltip/Tooltip.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasErrorInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasErrorInput.ts"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Card/card.stories.tsx",
           "path": "src/components/Card/card.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Card/Card.tsx",
+          "path": "src/components/Card/Card.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Checkbox/Checkbox.tsx",
+          "path": "src/components/Checkbox/Checkbox.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Divider/Divider.tsx",
+          "path": "src/components/Divider/Divider.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Input/Input.tsx",
+          "path": "src/components/Input/Input.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/RadioGroup/RadioGroup.tsx",
+          "path": "src/components/RadioGroup/RadioGroup.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Select/Select.tsx",
+          "path": "src/components/Select/Select.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/SelectNative/SelectNative.tsx",
+          "path": "src/components/SelectNative/SelectNative.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Tabs/Tabs.tsx",
+          "path": "src/components/Tabs/Tabs.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Textarea/Textarea.tsx",
+          "path": "src/components/Textarea/Textarea.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Tooltip/Tooltip.tsx",
+          "path": "src/components/Tooltip/Tooltip.tsx"
         }
       ]
     },
@@ -974,23 +974,23 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Tooltip/Tooltip.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Tooltip/Tooltip.tsx"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
           "target": "components/CategoryBar/CategoryBar.tsx",
           "path": "src/components/CategoryBar/CategoryBar.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Tooltip/Tooltip.tsx",
+          "path": "src/components/Tooltip/Tooltip.tsx"
         }
       ]
     },
@@ -1023,28 +1023,28 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/CategoryBar/CategoryBar.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/CategoryBar/CategoryBar.tsx"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Tooltip/Tooltip.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Tooltip/Tooltip.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
           "target": "components/CategoryBar/categorybar.stories.tsx",
           "path": "src/components/CategoryBar/categorybar.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/CategoryBar/CategoryBar.tsx",
+          "path": "src/components/CategoryBar/CategoryBar.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Tooltip/Tooltip.tsx",
+          "path": "src/components/Tooltip/Tooltip.tsx"
         }
       ]
     },
@@ -1085,13 +1085,13 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
@@ -1133,33 +1133,33 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Checkbox/Checkbox.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Checkbox/Checkbox.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Label/Label.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Label/Label.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Checkbox/checkbox.stories.tsx",
           "path": "src/components/Checkbox/checkbox.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Checkbox/Checkbox.tsx",
+          "path": "src/components/Checkbox/Checkbox.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
         }
       ]
     },
@@ -1189,33 +1189,33 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/hooks/useOnWindowResize.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/hooks/useOnWindowResize.ts"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/getYAxisDomain.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasOnlyOneValueForKey.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasOnlyOneValueForKey.ts"
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
         },
         {
           "type": "registry:component",
           "target": "components/ComboChart/ComboChart.tsx",
           "path": "src/components/ComboChart/ComboChart.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -1252,53 +1252,53 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/ComboChart/ComboChart.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/ComboChart/ComboChart.tsx"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Label/Label.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Label/Label.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Switch/Switch.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Switch/Switch.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/hooks/useOnWindowResize.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/hooks/useOnWindowResize.ts"
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/getYAxisDomain.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasOnlyOneValueForKey.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasOnlyOneValueForKey.ts"
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
         },
         {
           "type": "registry:component",
           "target": "components/ComboChart/combochart.stories.tsx",
           "path": "src/components/ComboChart/combochart.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/ComboChart/ComboChart.tsx",
+          "path": "src/components/ComboChart/ComboChart.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -1335,33 +1335,33 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Calendar/Calendar.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Calendar/Calendar.tsx"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasErrorInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasErrorInput.ts"
+          "type": "registry:component",
+          "target": "components/Calendar/Calendar.tsx",
+          "path": "src/components/Calendar/Calendar.tsx"
         },
         {
           "type": "registry:component",
@@ -1407,53 +1407,53 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Calendar/Calendar.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Calendar/Calendar.tsx"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/DatePicker/DatePicker.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/DatePicker/DatePicker.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Divider/Divider.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Divider/Divider.tsx"
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Popover/Popover.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Popover/Popover.tsx"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasErrorInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasErrorInput.ts"
+          "type": "registry:component",
+          "target": "components/Calendar/Calendar.tsx",
+          "path": "src/components/Calendar/Calendar.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/DatePicker/datepicker.stories.tsx",
           "path": "src/components/DatePicker/datepicker.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/DatePicker/DatePicker.tsx",
+          "path": "src/components/DatePicker/DatePicker.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Divider/Divider.tsx",
+          "path": "src/components/Divider/Divider.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Popover/Popover.tsx",
+          "path": "src/components/Popover/Popover.tsx"
         }
       ]
     },
@@ -1479,38 +1479,38 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Calendar/Calendar.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Calendar/Calendar.tsx"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/DatePicker/DatePicker.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/DatePicker/DatePicker.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "type": "registry:component",
+          "target": "components/Calendar/Calendar.tsx",
+          "path": "src/components/Calendar/Calendar.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasErrorInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasErrorInput.ts"
+          "type": "registry:component",
+          "target": "components/DatePicker/DatePicker.tsx",
+          "path": "src/components/DatePicker/DatePicker.tsx"
         },
         {
           "type": "registry:component",
@@ -1544,13 +1544,13 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
@@ -1591,28 +1591,28 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Dialog/Dialog.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Dialog/Dialog.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Dialog/dialog.stories.tsx",
           "path": "src/components/Dialog/dialog.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Dialog/Dialog.tsx",
+          "path": "src/components/Dialog/Dialog.tsx"
         }
       ]
     },
@@ -1640,8 +1640,8 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -1681,28 +1681,28 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Divider/Divider.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Divider/Divider.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Divider/divider.stories.tsx",
           "path": "src/components/Divider/divider.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Divider/Divider.tsx",
+          "path": "src/components/Divider/Divider.tsx"
         }
       ]
     },
@@ -1731,13 +1731,13 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -1778,38 +1778,38 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/DonutChart/DonutChart.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/DonutChart/DonutChart.tsx"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Label/Label.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Label/Label.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Switch/Switch.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Switch/Switch.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
           "target": "components/DonutChart/donutchart.stories.tsx",
           "path": "src/components/DonutChart/donutchart.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/DonutChart/DonutChart.tsx",
+          "path": "src/components/DonutChart/DonutChart.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
         }
       ]
     },
@@ -1841,18 +1841,18 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
           "type": "registry:component",
@@ -1893,28 +1893,28 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Drawer/Drawer.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Drawer/Drawer.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Drawer/drawer.stories.tsx",
           "path": "src/components/Drawer/drawer.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Drawer/Drawer.tsx",
+          "path": "src/components/Drawer/Drawer.tsx"
         }
       ]
     },
@@ -1944,8 +1944,8 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -1986,28 +1986,28 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/DropdownMenu/DropdownMenu.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/DropdownMenu/DropdownMenu.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/DropdownMenu/dropdownmenu.stories.tsx",
           "path": "src/components/DropdownMenu/dropdownmenu.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/DropdownMenu/DropdownMenu.tsx",
+          "path": "src/components/DropdownMenu/DropdownMenu.tsx"
         }
       ]
     },
@@ -2037,23 +2037,23 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasErrorInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasErrorInput.ts"
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         },
         {
           "type": "registry:component",
@@ -2094,43 +2094,43 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Input/Input.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Input/Input.tsx"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Label/Label.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Label/Label.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasErrorInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasErrorInput.ts"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Input/input.stories.tsx",
           "path": "src/components/Input/input.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Input/Input.tsx",
+          "path": "src/components/Input/Input.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
         }
       ]
     },
@@ -2159,8 +2159,8 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -2201,43 +2201,43 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Checkbox/Checkbox.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Checkbox/Checkbox.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Input/Input.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Input/Input.tsx"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Label/Label.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Label/Label.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
+          "type": "registry:component",
+          "target": "components/Checkbox/Checkbox.tsx",
+          "path": "src/components/Checkbox/Checkbox.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasErrorInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasErrorInput.ts"
+          "type": "registry:component",
+          "target": "components/Input/Input.tsx",
+          "path": "src/components/Input/Input.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Label/label.stories.tsx",
           "path": "src/components/Label/label.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
         }
       ]
     },
@@ -2267,33 +2267,33 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/hooks/useOnWindowResize.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/hooks/useOnWindowResize.ts"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/getYAxisDomain.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasOnlyOneValueForKey.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasOnlyOneValueForKey.ts"
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
         },
         {
           "type": "registry:component",
           "target": "components/LineChart/LineChart.tsx",
           "path": "src/components/LineChart/LineChart.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -2330,53 +2330,53 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Label/Label.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Label/Label.tsx"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/LineChart/LineChart.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/LineChart/LineChart.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Switch/Switch.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Switch/Switch.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/hooks/useOnWindowResize.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/hooks/useOnWindowResize.ts"
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/getYAxisDomain.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasOnlyOneValueForKey.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasOnlyOneValueForKey.ts"
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/LineChart/linechart.stories.tsx",
           "path": "src/components/LineChart/linechart.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/LineChart/LineChart.tsx",
+          "path": "src/components/LineChart/LineChart.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -2405,8 +2405,8 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -2449,53 +2449,53 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Dialog/Dialog.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Dialog/Dialog.tsx"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Divider/Divider.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Divider/Divider.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Input/Input.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Input/Input.tsx"
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Popover/Popover.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Popover/Popover.tsx"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "type": "registry:component",
+          "target": "components/Dialog/Dialog.tsx",
+          "path": "src/components/Dialog/Dialog.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
+          "type": "registry:component",
+          "target": "components/Divider/Divider.tsx",
+          "path": "src/components/Divider/Divider.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasErrorInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasErrorInput.ts"
+          "type": "registry:component",
+          "target": "components/Input/Input.tsx",
+          "path": "src/components/Input/Input.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Popover/popover.stories.tsx",
           "path": "src/components/Popover/popover.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Popover/Popover.tsx",
+          "path": "src/components/Popover/Popover.tsx"
         }
       ]
     },
@@ -2524,8 +2524,8 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -2564,23 +2564,23 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Card/Card.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Card/Card.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/ProgressBar/ProgressBar.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/ProgressBar/ProgressBar.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "type": "registry:component",
+          "target": "components/Card/Card.tsx",
+          "path": "src/components/Card/Card.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/ProgressBar/progressbar.stories.tsx",
           "path": "src/components/ProgressBar/progressbar.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/ProgressBar/ProgressBar.tsx",
+          "path": "src/components/ProgressBar/ProgressBar.tsx"
         }
       ]
     },
@@ -2609,8 +2609,8 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -2649,23 +2649,23 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Card/Card.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Card/Card.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/ProgressCircle/ProgressCircle.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/ProgressCircle/ProgressCircle.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "type": "registry:component",
+          "target": "components/Card/Card.tsx",
+          "path": "src/components/Card/Card.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/ProgressCircle/progresscircle.stories.tsx",
           "path": "src/components/ProgressCircle/progresscircle.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/ProgressCircle/ProgressCircle.tsx",
+          "path": "src/components/ProgressCircle/ProgressCircle.tsx"
         }
       ]
     },
@@ -2694,18 +2694,18 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
@@ -2746,33 +2746,33 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/RadioCardGroup/RadioCardGroup.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/RadioCardGroup/RadioCardGroup.tsx"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/RadioCardGroup/radiocardgroup.stories.tsx",
           "path": "src/components/RadioCardGroup/radiocardgroup.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/RadioCardGroup/RadioCardGroup.tsx",
+          "path": "src/components/RadioCardGroup/RadioCardGroup.tsx"
         }
       ]
     },
@@ -2801,13 +2801,13 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
@@ -2849,33 +2849,33 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Label/Label.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Label/Label.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/RadioGroup/RadioGroup.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/RadioGroup/RadioGroup.tsx"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/RadioGroup/radiogroup.stories.tsx",
           "path": "src/components/RadioGroup/radiogroup.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/RadioGroup/RadioGroup.tsx",
+          "path": "src/components/RadioGroup/RadioGroup.tsx"
         }
       ]
     },
@@ -2905,18 +2905,18 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasErrorInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasErrorInput.ts"
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         },
         {
           "type": "registry:component",
@@ -2958,43 +2958,43 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Dialog/Dialog.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Dialog/Dialog.tsx"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Select/Select.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Select/Select.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasErrorInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasErrorInput.ts"
+          "type": "registry:component",
+          "target": "components/Dialog/Dialog.tsx",
+          "path": "src/components/Dialog/Dialog.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Select/select.stories.tsx",
           "path": "src/components/Select/select.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Select/Select.tsx",
+          "path": "src/components/Select/Select.tsx"
         }
       ]
     },
@@ -3023,18 +3023,18 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasErrorInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasErrorInput.ts"
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         },
         {
           "type": "registry:component",
@@ -3073,33 +3073,33 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Label/Label.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Label/Label.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/SelectNative/SelectNative.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/SelectNative/SelectNative.tsx"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasErrorInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasErrorInput.ts"
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/SelectNative/selectnative.stories.tsx",
           "path": "src/components/SelectNative/selectnative.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/SelectNative/SelectNative.tsx",
+          "path": "src/components/SelectNative/SelectNative.tsx"
         }
       ]
     },
@@ -3128,13 +3128,13 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
@@ -3175,38 +3175,38 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Card/Card.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Card/Card.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Divider/Divider.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Divider/Divider.tsx"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Slider/Slider.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Slider/Slider.tsx"
+          "type": "registry:component",
+          "target": "components/Card/Card.tsx",
+          "path": "src/components/Card/Card.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "type": "registry:component",
+          "target": "components/Divider/Divider.tsx",
+          "path": "src/components/Divider/Divider.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Slider/slider.stories.tsx",
           "path": "src/components/Slider/slider.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Slider/Slider.tsx",
+          "path": "src/components/Slider/Slider.tsx"
         }
       ]
     },
@@ -3236,28 +3236,28 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/SparkChart/SparkChart.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/SparkChart/SparkChart.tsx"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/getYAxisDomain.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/getYAxisDomain.ts"
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         },
         {
           "type": "registry:component",
           "target": "components/SparkChart/sparkareachart.stories.tsx",
           "path": "src/components/SparkChart/sparkareachart.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/SparkChart/SparkChart.tsx",
+          "path": "src/components/SparkChart/SparkChart.tsx"
         }
       ]
     },
@@ -3275,28 +3275,28 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/SparkChart/SparkChart.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/SparkChart/SparkChart.tsx"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/getYAxisDomain.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/getYAxisDomain.ts"
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         },
         {
           "type": "registry:component",
           "target": "components/SparkChart/sparkbarchart.stories.tsx",
           "path": "src/components/SparkChart/sparkbarchart.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/SparkChart/SparkChart.tsx",
+          "path": "src/components/SparkChart/SparkChart.tsx"
         }
       ]
     },
@@ -3313,18 +3313,18 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/getYAxisDomain.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/getYAxisDomain.ts"
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         },
         {
           "type": "registry:component",
@@ -3362,23 +3362,23 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/SparkChart/SparkChart.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/SparkChart/SparkChart.tsx"
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/chartColors.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/chartColors.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/getYAxisDomain.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/getYAxisDomain.ts"
+          "type": "registry:component",
+          "target": "components/SparkChart/SparkChart.tsx",
+          "path": "src/components/SparkChart/SparkChart.tsx"
         },
         {
           "type": "registry:component",
@@ -3413,13 +3413,13 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
@@ -3461,43 +3461,43 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Card/Card.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Card/Card.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Divider/Divider.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Divider/Divider.tsx"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Label/Label.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Label/Label.tsx"
+          "type": "registry:component",
+          "target": "components/Card/Card.tsx",
+          "path": "src/components/Card/Card.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Switch/Switch.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Switch/Switch.tsx"
+          "type": "registry:component",
+          "target": "components/Divider/Divider.tsx",
+          "path": "src/components/Divider/Divider.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Switch/switch.stories.tsx",
           "path": "src/components/Switch/switch.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
         }
       ]
     },
@@ -3525,8 +3525,8 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -3565,23 +3565,23 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Badge/Badge.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Badge/Badge.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Table/Table.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Table/Table.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "type": "registry:component",
+          "target": "components/Badge/Badge.tsx",
+          "path": "src/components/Badge/Badge.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Table/table.stories.tsx",
           "path": "src/components/Table/table.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Table/Table.tsx",
+          "path": "src/components/Table/Table.tsx"
         }
       ]
     },
@@ -3610,13 +3610,13 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
@@ -3655,23 +3655,23 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/TabNavigation/TabNavigation.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/TabNavigation/TabNavigation.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
           "target": "components/TabNavigation/tabnavigation.stories.tsx",
           "path": "src/components/TabNavigation/tabnavigation.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/TabNavigation/TabNavigation.tsx",
+          "path": "src/components/TabNavigation/TabNavigation.tsx"
         }
       ]
     },
@@ -3700,13 +3700,13 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
@@ -3745,23 +3745,23 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Tabs/Tabs.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Tabs/Tabs.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
           "target": "components/Tabs/tabs.stories.tsx",
           "path": "src/components/Tabs/tabs.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Tabs/Tabs.tsx",
+          "path": "src/components/Tabs/Tabs.tsx"
         }
       ]
     },
@@ -3789,18 +3789,18 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasErrorInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasErrorInput.ts"
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         },
         {
           "type": "registry:component",
@@ -3838,33 +3838,33 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Card/Card.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Card/Card.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Textarea/Textarea.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Textarea/Textarea.tsx"
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/hasErrorInput.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/hasErrorInput.ts"
+          "type": "registry:component",
+          "target": "components/Card/Card.tsx",
+          "path": "src/components/Card/Card.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Textarea/textarea.stories.tsx",
           "path": "src/components/Textarea/textarea.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Textarea/Textarea.tsx",
+          "path": "src/components/Textarea/Textarea.tsx"
         }
       ]
     },
@@ -3894,8 +3894,8 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -3921,38 +3921,43 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
-        },
-        {
-          "type": "registry:file",
           "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Toast/Toast.tsx",
           "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Toast/Toast.tsx"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Toast/Toaster.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Toast/Toaster.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/hooks/useToast.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/hooks/useToast.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Toast/toast.stories.tsx",
           "path": "src/components/Toast/toast.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Toast/Toast.tsx",
+          "path": "src/components/Toast/Toast.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Toast/Toaster.tsx",
+          "path": "src/components/Toast/Toaster.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useToast.ts",
+          "path": "src/hooks/useToast.ts"
         }
       ]
     },
@@ -3975,18 +3980,23 @@
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/hooks/useToast.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/hooks/useToast.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "type": "registry:component",
+          "target": "components/Toast/Toast.tsx",
+          "path": "src/components/Toast/Toast.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Toast/Toaster.tsx",
           "path": "src/components/Toast/Toaster.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useToast.ts",
+          "path": "src/hooks/useToast.ts"
         }
       ]
     },
@@ -4016,13 +4026,13 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
@@ -4062,23 +4072,23 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Toggle/Toggle.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Toggle/Toggle.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
           "target": "components/Toggle/toggle.stories.tsx",
           "path": "src/components/Toggle/toggle.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Toggle/Toggle.tsx",
+          "path": "src/components/Toggle/Toggle.tsx"
         }
       ]
     },
@@ -4107,8 +4117,8 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -4149,28 +4159,28 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Button/Button.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Button/Button.tsx"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Tooltip/Tooltip.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Tooltip/Tooltip.tsx"
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         },
         {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/focusRing.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/focusRing.ts"
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
         },
         {
           "type": "registry:component",
           "target": "components/Tooltip/tooltip.stories.tsx",
           "path": "src/components/Tooltip/tooltip.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Tooltip/Tooltip.tsx",
+          "path": "src/components/Tooltip/Tooltip.tsx"
         }
       ]
     },
@@ -4199,8 +4209,8 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
@@ -4238,18 +4248,18 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Tracker/Tracker.tsx",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Tracker/Tracker.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/utils/cx.ts",
-          "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/utils/cx.ts"
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         },
         {
           "type": "registry:component",
           "target": "components/Tracker/tracker.stories.tsx",
           "path": "src/components/Tracker/tracker.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Tracker/Tracker.tsx",
+          "path": "src/components/Tracker/Tracker.tsx"
         }
       ]
     }

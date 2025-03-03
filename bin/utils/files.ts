@@ -11,7 +11,8 @@ export const findFile = (filepath: string) => {
     if (!fs.existsSync(folderPath)) return ""
     let files = fs.readdirSync(folderPath)
     files = files.map((file) => folderPath + path.sep + file)
-    const file = files.find((file) => file.startsWith(filepath + "."))
+    let file = files.find((file) => file.startsWith(filepath + "."))
+    file = file?.replace(process.cwd() + path.sep, "")
     return file || ""
   }
   // TODO: Implement INDEX file resolution
