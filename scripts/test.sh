@@ -1,6 +1,15 @@
 #!/bin/bash
 
+repos=(
+  "https://github.com/origin-space/originui origin-ui ."
+  "https://github.com/shadcn-ui/ui shadcn ./apps/v4"
+  "https://github.com/tremorlabs/tremor tremor ."
+  "https://github.com/cahyawibawa/ui-topia ui-topia ./apps/web"
+)
+
 npm run build
+
+rm -rf public
 
 process() {
   local repo_url=$1
@@ -30,6 +39,6 @@ process() {
   cd ../../
 }
 
-process "https://github.com/origin-space/originui" "originui" "."
-process "https://github.com/tremorlabs/tremor" "tremor" "."
-process "https://github.com/shadcn-ui/ui" "shadcn" "./apps/v4"
+for repo in "${repos[@]}"; do
+  process $repo
+done
