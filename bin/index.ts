@@ -64,7 +64,7 @@ const main = async () => {
     const registryFiles = await listRegistryFiles({
       cwd,
       patterns: positionals,
-      ignore: values.ignore?.split(",") || [],
+      ignore: values.ignore || [],
     })
 
     const failed = [] as string[]

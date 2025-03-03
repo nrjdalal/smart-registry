@@ -30,18 +30,22 @@ export const getInputRegistry = async (
 }
 
 export const listFiles = async ({
+  cwd,
   patterns = ["**", ".**"],
   ignore = [],
-  cwd,
 }: {
+  cwd: string
   patterns?: string | string[]
   ignore?: string | string[]
-  cwd: string
 }) => {
   patterns = Array.isArray(patterns) ? patterns : [patterns]
   patterns = patterns.flatMap((pattern) => {
     return !pattern.includes("*") ? [pattern + ".*", pattern + "/**"] : pattern
   })
+  ignore =
+    typeof ignore === "string"
+      ? ignore.split(",").map((str) => str.trim())
+      : ignore
   ignore = Array.isArray(ignore) ? ignore : [ignore]
   const files = await glob(patterns, {
     cwd,
@@ -57,7 +61,7 @@ export const listRegistryFiles = async ({
 }: {
   cwd: string
   patterns: string[]
-  ignore: string[]
+  ignore: string | string[]
 }): Promise<string[]> => {
   let registryFiles = [] as string[]
 
