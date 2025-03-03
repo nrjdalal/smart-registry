@@ -1,1 +1,2 @@
+- add types to input registry
 - rewrite ignore using patterns

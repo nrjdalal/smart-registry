@@ -17,11 +17,11 @@ export const pathResolver = (
 }
 
 export const resolver = async (
-  filePaths: string[],
+  filepaths: string[],
   options: {
-    aliases?: Record<string, string>
+    aliases: Record<string, string>
     resolved?: Set<string>
-  } = {},
+  },
 ) => {
   const { aliases = {}, resolved = new Set<string>() } = options
 
@@ -32,7 +32,7 @@ export const resolver = async (
   }
 
   // ~ Resolve data for each file
-  for (let filePath of filePaths) {
+  for (let filePath of filepaths) {
     filePath = filePath.replace(process.cwd() + path.sep, "")
 
     if (resolved.has(filePath)) {
