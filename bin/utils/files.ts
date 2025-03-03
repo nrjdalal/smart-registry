@@ -30,10 +30,14 @@ export const getInputRegistry = async (
 }
 
 export const listFiles = async ({
-  patterns = ["**", ".**"] as string | string[],
-  ignore = [] as string[],
-  cwd = path.resolve(process.cwd()) as string,
-} = {}) => {
+  patterns = ["**", ".**"],
+  ignore = [],
+  cwd,
+}: {
+  patterns?: string | string[]
+  ignore?: string | string[]
+  cwd: string
+}) => {
   patterns = Array.isArray(patterns) ? patterns : [patterns]
   patterns = patterns.flatMap((pattern) => {
     return !pattern.includes("*") ? [pattern + ".*", pattern + "/**"] : pattern
