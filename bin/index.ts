@@ -17,6 +17,7 @@ Usage:
 Options:
   -f, --files        Files to build the registry from
   -d, --directories  Directories to build the registry from
+  -i, --ignore       Extensions to ignore
   -v, --version      Display version
   -h, --help         Display help
 
@@ -39,6 +40,7 @@ const main = async () => {
       options: {
         files: { type: "string", multiple: true, short: "f" },
         directories: { type: "string", multiple: true, short: "d" },
+        ignore: { type: "string", multiple: true, short: "i" },
         help: { type: "boolean", short: "h" },
         version: { type: "boolean", short: "v" },
       },
@@ -105,6 +107,13 @@ const main = async () => {
 
     // ~ Build registry-item for each file in the registry
     for (const filePath of registryFiles) {
+      if (
+        values.ignore
+          ?.flatMap((ext) => ext.split(",").map((e) => e.trim()))
+          .some((ext) => filePath.endsWith(ext))
+      )
+        continue
+
       try {
         const resolvedData = await resolver(
           [
