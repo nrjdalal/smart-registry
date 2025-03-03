@@ -1,3 +1,5 @@
+import path from "node:path"
+
 export const transformer = (
   filepath: string,
   options: {
@@ -45,16 +47,21 @@ export const transformer = (
     type: transformedPath.endsWith("page.tsx")
       ? "registry:page"
       : transformedPath
-          .match(/^(blocks|components\/ui|components|hooks|lib)/)?.[1]
+          .match(/^(blocks|components\/ui|components|hooks|lib|utils)/)?.[1]
           .replace("blocks", "registry:block")
           .replace("components/ui", "registry:ui")
           .replace("components", "registry:component")
           .replace("hooks", "registry:hook")
-          .replace("lib", "registry:lib") || "registry:file",
+          .replace("lib", "registry:lib")
+          .replace("utils", "registry:lib") || "registry:file",
     name: transformedPath
-      .replace(/^(blocks|components\/ui|components|hooks|lib)\//, "")
+      .replace(/^(blocks|components\/ui|components|hooks|lib|utils)\//, "")
       .replace(/\.[^\/.]+$/, ""),
-    import: "@/" + transformedPath.replace(/\.[^/.]+$/, ""),
+    import:
+      "@/" +
+      transformedPath
+        .replace(process.cwd() + path.sep, "")
+        .replace(/\.[^/.]+$/, ""),
     target: transformedPath,
     path: filepath,
   }

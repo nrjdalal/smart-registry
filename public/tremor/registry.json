@@ -13,14 +13,14 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Accordion/Accordion.tsx",
           "path": "src/components/Accordion/Accordion.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -55,16 +55,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Accordion/accordion.stories.tsx",
           "path": "src/components/Accordion/accordion.stories.tsx"
@@ -83,6 +73,16 @@
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -111,26 +111,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasOnlyOneValueForKey.ts",
-          "path": "src/utils/hasOnlyOneValueForKey.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/AreaChart/AreaChart.tsx",
           "path": "src/components/AreaChart/AreaChart.tsx"
@@ -139,6 +119,26 @@
           "type": "registry:hook",
           "target": "hooks/useOnWindowResize.ts",
           "path": "src/hooks/useOnWindowResize.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
         }
       ]
     },
@@ -174,31 +174,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasOnlyOneValueForKey.ts",
-          "path": "src/utils/hasOnlyOneValueForKey.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/AreaChart/areachart.stories.tsx",
           "path": "src/components/AreaChart/areachart.stories.tsx"
@@ -222,6 +197,31 @@
           "type": "registry:hook",
           "target": "hooks/useOnWindowResize.ts",
           "path": "src/hooks/useOnWindowResize.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
         }
       ]
     },
@@ -249,14 +249,14 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Badge/Badge.tsx",
           "path": "src/components/Badge/Badge.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -288,11 +288,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Badge/badge.stories.tsx",
           "path": "src/components/Badge/badge.stories.tsx"
@@ -301,6 +296,11 @@
           "type": "registry:component",
           "target": "components/Badge/Badge.tsx",
           "path": "src/components/Badge/Badge.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -329,21 +329,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/BarChart/BarChart.tsx",
           "path": "src/components/BarChart/BarChart.tsx"
@@ -352,6 +337,21 @@
           "type": "registry:hook",
           "target": "hooks/useOnWindowResize.ts",
           "path": "src/hooks/useOnWindowResize.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         }
       ]
     },
@@ -387,26 +387,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/BarChart/barchart.stories.tsx",
           "path": "src/components/BarChart/barchart.stories.tsx"
@@ -430,6 +410,26 @@
           "type": "registry:hook",
           "target": "hooks/useOnWindowResize.ts",
           "path": "src/hooks/useOnWindowResize.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         }
       ]
     },
@@ -456,19 +456,19 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/BarList/BarList.tsx",
+          "path": "src/components/BarList/BarList.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/BarList/BarList.tsx",
-          "path": "src/components/BarList/BarList.tsx"
         }
       ]
     },
@@ -499,16 +499,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/BarList/barlist.stories.tsx",
           "path": "src/components/BarList/barlist.stories.tsx"
@@ -517,6 +507,16 @@
           "type": "registry:component",
           "target": "components/BarList/BarList.tsx",
           "path": "src/components/BarList/BarList.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -546,19 +546,19 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/Button/Button.tsx",
-          "path": "src/components/Button/Button.tsx"
         }
       ]
     },
@@ -592,16 +592,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/button.stories.tsx",
           "path": "src/components/Button/button.stories.tsx"
@@ -610,6 +600,16 @@
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -639,19 +639,19 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/Calendar/Calendar.tsx",
+          "path": "src/components/Calendar/Calendar.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/Calendar/Calendar.tsx",
-          "path": "src/components/Calendar/Calendar.tsx"
         }
       ]
     },
@@ -685,16 +685,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Calendar/calendar.stories.tsx",
           "path": "src/components/Calendar/calendar.stories.tsx"
@@ -703,6 +693,16 @@
           "type": "registry:component",
           "target": "components/Calendar/Calendar.tsx",
           "path": "src/components/Calendar/Calendar.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -730,14 +730,14 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Callout/Callout.tsx",
           "path": "src/components/Callout/Callout.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -770,11 +770,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Callout/callout.stories.tsx",
           "path": "src/components/Callout/callout.stories.tsx"
@@ -783,6 +778,11 @@
           "type": "registry:component",
           "target": "components/Callout/Callout.tsx",
           "path": "src/components/Callout/Callout.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -810,14 +810,14 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Card/Card.tsx",
           "path": "src/components/Card/Card.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -857,26 +857,6 @@
         "tailwind-variants"
       ],
       "files": [
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusInput.ts",
-          "path": "src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasErrorInput.ts",
-          "path": "src/utils/hasErrorInput.ts"
-        },
         {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
@@ -946,6 +926,26 @@
           "type": "registry:component",
           "target": "components/Tooltip/Tooltip.tsx",
           "path": "src/components/Tooltip/Tooltip.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         }
       ]
     },
@@ -973,16 +973,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/CategoryBar/CategoryBar.tsx",
           "path": "src/components/CategoryBar/CategoryBar.tsx"
@@ -991,6 +981,16 @@
           "type": "registry:component",
           "target": "components/Tooltip/Tooltip.tsx",
           "path": "src/components/Tooltip/Tooltip.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -1022,16 +1022,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/CategoryBar/categorybar.stories.tsx",
           "path": "src/components/CategoryBar/categorybar.stories.tsx"
@@ -1045,6 +1035,16 @@
           "type": "registry:component",
           "target": "components/Tooltip/Tooltip.tsx",
           "path": "src/components/Tooltip/Tooltip.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -1084,19 +1084,19 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/Checkbox/Checkbox.tsx",
+          "path": "src/components/Checkbox/Checkbox.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/Checkbox/Checkbox.tsx",
-          "path": "src/components/Checkbox/Checkbox.tsx"
         }
       ]
     },
@@ -1132,16 +1132,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -1160,6 +1150,16 @@
           "type": "registry:component",
           "target": "components/Label/Label.tsx",
           "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -1188,26 +1188,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasOnlyOneValueForKey.ts",
-          "path": "src/utils/hasOnlyOneValueForKey.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/ComboChart/ComboChart.tsx",
           "path": "src/components/ComboChart/ComboChart.tsx"
@@ -1216,6 +1196,26 @@
           "type": "registry:hook",
           "target": "hooks/useOnWindowResize.ts",
           "path": "src/hooks/useOnWindowResize.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
         }
       ]
     },
@@ -1251,31 +1251,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasOnlyOneValueForKey.ts",
-          "path": "src/utils/hasOnlyOneValueForKey.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/ComboChart/combochart.stories.tsx",
           "path": "src/components/ComboChart/combochart.stories.tsx"
@@ -1299,6 +1274,31 @@
           "type": "registry:hook",
           "target": "hooks/useOnWindowResize.ts",
           "path": "src/hooks/useOnWindowResize.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
         }
       ]
     },
@@ -1334,26 +1334,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusInput.ts",
-          "path": "src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasErrorInput.ts",
-          "path": "src/utils/hasErrorInput.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -1367,6 +1347,26 @@
           "type": "registry:component",
           "target": "components/DatePicker/DatePicker.tsx",
           "path": "src/components/DatePicker/DatePicker.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         }
       ]
     },
@@ -1406,26 +1406,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusInput.ts",
-          "path": "src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasErrorInput.ts",
-          "path": "src/utils/hasErrorInput.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -1454,6 +1434,26 @@
           "type": "registry:component",
           "target": "components/Popover/Popover.tsx",
           "path": "src/components/Popover/Popover.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         }
       ]
     },
@@ -1478,26 +1478,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusInput.ts",
-          "path": "src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasErrorInput.ts",
-          "path": "src/utils/hasErrorInput.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -1516,6 +1496,26 @@
           "type": "registry:component",
           "target": "components/DatePicker/daterangepicker.stories.tsx",
           "path": "src/components/DatePicker/daterangepicker.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         }
       ]
     },
@@ -1543,19 +1543,19 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/Dialog/Dialog.tsx",
+          "path": "src/components/Dialog/Dialog.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/Dialog/Dialog.tsx",
-          "path": "src/components/Dialog/Dialog.tsx"
         }
       ]
     },
@@ -1590,16 +1590,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -1613,6 +1603,16 @@
           "type": "registry:component",
           "target": "components/Dialog/Dialog.tsx",
           "path": "src/components/Dialog/Dialog.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -1639,14 +1639,14 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Divider/Divider.tsx",
           "path": "src/components/Divider/Divider.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -1680,16 +1680,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -1703,6 +1693,16 @@
           "type": "registry:component",
           "target": "components/Divider/Divider.tsx",
           "path": "src/components/Divider/Divider.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -1730,19 +1730,19 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/DonutChart/DonutChart.tsx",
+          "path": "src/components/DonutChart/DonutChart.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/chartColors.ts",
           "path": "src/utils/chartColors.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/DonutChart/DonutChart.tsx",
-          "path": "src/components/DonutChart/DonutChart.tsx"
         }
       ]
     },
@@ -1777,21 +1777,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/DonutChart/donutchart.stories.tsx",
           "path": "src/components/DonutChart/donutchart.stories.tsx"
@@ -1810,6 +1795,21 @@
           "type": "registry:component",
           "target": "components/Switch/Switch.tsx",
           "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -1840,16 +1840,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -1858,6 +1848,16 @@
           "type": "registry:component",
           "target": "components/Drawer/Drawer.tsx",
           "path": "src/components/Drawer/Drawer.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -1892,16 +1892,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -1915,6 +1905,16 @@
           "type": "registry:component",
           "target": "components/Drawer/Drawer.tsx",
           "path": "src/components/Drawer/Drawer.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -1943,14 +1943,14 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/DropdownMenu/DropdownMenu.tsx",
           "path": "src/components/DropdownMenu/DropdownMenu.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -1985,16 +1985,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -2008,6 +1998,16 @@
           "type": "registry:component",
           "target": "components/DropdownMenu/DropdownMenu.tsx",
           "path": "src/components/DropdownMenu/DropdownMenu.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -2036,29 +2036,29 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/Input/Input.tsx",
+          "path": "src/components/Input/Input.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusInput.ts",
           "path": "src/utils/focusInput.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/hasErrorInput.ts",
           "path": "src/utils/hasErrorInput.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/Input/Input.tsx",
-          "path": "src/components/Input/Input.tsx"
         }
       ]
     },
@@ -2093,26 +2093,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusInput.ts",
-          "path": "src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasErrorInput.ts",
-          "path": "src/utils/hasErrorInput.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -2131,6 +2111,26 @@
           "type": "registry:component",
           "target": "components/Label/Label.tsx",
           "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         }
       ]
     },
@@ -2158,14 +2158,14 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Label/Label.tsx",
           "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -2200,26 +2200,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusInput.ts",
-          "path": "src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasErrorInput.ts",
-          "path": "src/utils/hasErrorInput.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Checkbox/Checkbox.tsx",
           "path": "src/components/Checkbox/Checkbox.tsx"
@@ -2238,6 +2218,26 @@
           "type": "registry:component",
           "target": "components/Label/Label.tsx",
           "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         }
       ]
     },
@@ -2266,26 +2266,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasOnlyOneValueForKey.ts",
-          "path": "src/utils/hasOnlyOneValueForKey.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/LineChart/LineChart.tsx",
           "path": "src/components/LineChart/LineChart.tsx"
@@ -2294,6 +2274,26 @@
           "type": "registry:hook",
           "target": "hooks/useOnWindowResize.ts",
           "path": "src/hooks/useOnWindowResize.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
         }
       ]
     },
@@ -2329,31 +2329,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasOnlyOneValueForKey.ts",
-          "path": "src/utils/hasOnlyOneValueForKey.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Label/Label.tsx",
           "path": "src/components/Label/Label.tsx"
@@ -2377,6 +2352,31 @@
           "type": "registry:hook",
           "target": "hooks/useOnWindowResize.ts",
           "path": "src/hooks/useOnWindowResize.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
         }
       ]
     },
@@ -2404,14 +2404,14 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Popover/Popover.tsx",
           "path": "src/components/Popover/Popover.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -2448,26 +2448,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusInput.ts",
-          "path": "src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasErrorInput.ts",
-          "path": "src/utils/hasErrorInput.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -2496,6 +2476,26 @@
           "type": "registry:component",
           "target": "components/Popover/Popover.tsx",
           "path": "src/components/Popover/Popover.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         }
       ]
     },
@@ -2523,14 +2523,14 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/ProgressBar/ProgressBar.tsx",
           "path": "src/components/ProgressBar/ProgressBar.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -2563,11 +2563,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Card/Card.tsx",
           "path": "src/components/Card/Card.tsx"
@@ -2581,6 +2576,11 @@
           "type": "registry:component",
           "target": "components/ProgressBar/ProgressBar.tsx",
           "path": "src/components/ProgressBar/ProgressBar.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -2608,14 +2608,14 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/ProgressCircle/ProgressCircle.tsx",
           "path": "src/components/ProgressCircle/ProgressCircle.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -2648,11 +2648,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Card/Card.tsx",
           "path": "src/components/Card/Card.tsx"
@@ -2666,6 +2661,11 @@
           "type": "registry:component",
           "target": "components/ProgressCircle/ProgressCircle.tsx",
           "path": "src/components/ProgressCircle/ProgressCircle.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -2693,24 +2693,24 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/RadioCardGroup/RadioCardGroup.tsx",
+          "path": "src/components/RadioCardGroup/RadioCardGroup.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusInput.ts",
           "path": "src/utils/focusInput.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/RadioCardGroup/RadioCardGroup.tsx",
-          "path": "src/components/RadioCardGroup/RadioCardGroup.tsx"
         }
       ]
     },
@@ -2745,21 +2745,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusInput.ts",
-          "path": "src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -2773,6 +2758,21 @@
           "type": "registry:component",
           "target": "components/RadioCardGroup/RadioCardGroup.tsx",
           "path": "src/components/RadioCardGroup/RadioCardGroup.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -2800,19 +2800,19 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/RadioGroup/RadioGroup.tsx",
+          "path": "src/components/RadioGroup/RadioGroup.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/RadioGroup/RadioGroup.tsx",
-          "path": "src/components/RadioGroup/RadioGroup.tsx"
         }
       ]
     },
@@ -2848,16 +2848,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -2876,6 +2866,16 @@
           "type": "registry:component",
           "target": "components/RadioGroup/RadioGroup.tsx",
           "path": "src/components/RadioGroup/RadioGroup.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -2904,24 +2904,24 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/Select/Select.tsx",
+          "path": "src/components/Select/Select.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusInput.ts",
           "path": "src/utils/focusInput.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/hasErrorInput.ts",
           "path": "src/utils/hasErrorInput.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/Select/Select.tsx",
-          "path": "src/components/Select/Select.tsx"
         }
       ]
     },
@@ -2957,26 +2957,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusInput.ts",
-          "path": "src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasErrorInput.ts",
-          "path": "src/utils/hasErrorInput.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -2995,6 +2975,26 @@
           "type": "registry:component",
           "target": "components/Select/Select.tsx",
           "path": "src/components/Select/Select.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         }
       ]
     },
@@ -3022,24 +3022,24 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/SelectNative/SelectNative.tsx",
+          "path": "src/components/SelectNative/SelectNative.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusInput.ts",
           "path": "src/utils/focusInput.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/hasErrorInput.ts",
           "path": "src/utils/hasErrorInput.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/SelectNative/SelectNative.tsx",
-          "path": "src/components/SelectNative/SelectNative.tsx"
         }
       ]
     },
@@ -3072,21 +3072,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusInput.ts",
-          "path": "src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasErrorInput.ts",
-          "path": "src/utils/hasErrorInput.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Label/Label.tsx",
           "path": "src/components/Label/Label.tsx"
@@ -3100,6 +3085,21 @@
           "type": "registry:component",
           "target": "components/SelectNative/SelectNative.tsx",
           "path": "src/components/SelectNative/SelectNative.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         }
       ]
     },
@@ -3127,19 +3127,19 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/Slider/Slider.tsx",
+          "path": "src/components/Slider/Slider.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/Slider/Slider.tsx",
-          "path": "src/components/Slider/Slider.tsx"
         }
       ]
     },
@@ -3174,16 +3174,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -3207,6 +3197,16 @@
           "type": "registry:component",
           "target": "components/Slider/Slider.tsx",
           "path": "src/components/Slider/Slider.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -3235,21 +3235,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/SparkChart/sparkareachart.stories.tsx",
           "path": "src/components/SparkChart/sparkareachart.stories.tsx"
@@ -3258,6 +3243,21 @@
           "type": "registry:component",
           "target": "components/SparkChart/SparkChart.tsx",
           "path": "src/components/SparkChart/SparkChart.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         }
       ]
     },
@@ -3274,21 +3274,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/SparkChart/sparkbarchart.stories.tsx",
           "path": "src/components/SparkChart/sparkbarchart.stories.tsx"
@@ -3297,6 +3282,21 @@
           "type": "registry:component",
           "target": "components/SparkChart/SparkChart.tsx",
           "path": "src/components/SparkChart/SparkChart.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         }
       ]
     },
@@ -3312,24 +3312,24 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/SparkChart/SparkChart.tsx",
+          "path": "src/components/SparkChart/SparkChart.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/chartColors.ts",
           "path": "src/utils/chartColors.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/getYAxisDomain.ts",
           "path": "src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/SparkChart/SparkChart.tsx",
-          "path": "src/components/SparkChart/SparkChart.tsx"
         }
       ]
     },
@@ -3361,21 +3361,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/SparkChart/SparkChart.tsx",
           "path": "src/components/SparkChart/SparkChart.tsx"
@@ -3384,6 +3369,21 @@
           "type": "registry:component",
           "target": "components/SparkChart/sparklinechart.stories.tsx",
           "path": "src/components/SparkChart/sparklinechart.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         }
       ]
     },
@@ -3412,19 +3412,19 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/Switch/Switch.tsx",
-          "path": "src/components/Switch/Switch.tsx"
         }
       ]
     },
@@ -3460,16 +3460,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -3498,6 +3488,16 @@
           "type": "registry:component",
           "target": "components/Switch/Switch.tsx",
           "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -3524,14 +3524,14 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Table/Table.tsx",
           "path": "src/components/Table/Table.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -3564,11 +3564,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Badge/Badge.tsx",
           "path": "src/components/Badge/Badge.tsx"
@@ -3582,6 +3577,11 @@
           "type": "registry:component",
           "target": "components/Table/Table.tsx",
           "path": "src/components/Table/Table.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -3609,19 +3609,19 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/TabNavigation/TabNavigation.tsx",
+          "path": "src/components/TabNavigation/TabNavigation.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/TabNavigation/TabNavigation.tsx",
-          "path": "src/components/TabNavigation/TabNavigation.tsx"
         }
       ]
     },
@@ -3654,16 +3654,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/TabNavigation/tabnavigation.stories.tsx",
           "path": "src/components/TabNavigation/tabnavigation.stories.tsx"
@@ -3672,6 +3662,16 @@
           "type": "registry:component",
           "target": "components/TabNavigation/TabNavigation.tsx",
           "path": "src/components/TabNavigation/TabNavigation.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -3699,19 +3699,19 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/Tabs/Tabs.tsx",
+          "path": "src/components/Tabs/Tabs.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/Tabs/Tabs.tsx",
-          "path": "src/components/Tabs/Tabs.tsx"
         }
       ]
     },
@@ -3744,16 +3744,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Tabs/tabs.stories.tsx",
           "path": "src/components/Tabs/tabs.stories.tsx"
@@ -3762,6 +3752,16 @@
           "type": "registry:component",
           "target": "components/Tabs/Tabs.tsx",
           "path": "src/components/Tabs/Tabs.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -3788,24 +3788,24 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/Textarea/Textarea.tsx",
+          "path": "src/components/Textarea/Textarea.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusInput.ts",
           "path": "src/utils/focusInput.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/hasErrorInput.ts",
           "path": "src/utils/hasErrorInput.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/Textarea/Textarea.tsx",
-          "path": "src/components/Textarea/Textarea.tsx"
         }
       ]
     },
@@ -3837,21 +3837,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusInput.ts",
-          "path": "src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/hasErrorInput.ts",
-          "path": "src/utils/hasErrorInput.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Card/Card.tsx",
           "path": "src/components/Card/Card.tsx"
@@ -3865,6 +3850,21 @@
           "type": "registry:component",
           "target": "components/Textarea/Textarea.tsx",
           "path": "src/components/Textarea/Textarea.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
         }
       ]
     },
@@ -3893,14 +3893,14 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Toast/Toast.tsx",
           "path": "src/components/Toast/Toast.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -3923,16 +3923,6 @@
           "type": "registry:file",
           "target": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/components/Toast/Toast.tsx",
           "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Toast/Toast.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
         },
         {
           "type": "registry:component",
@@ -3958,6 +3948,16 @@
           "type": "registry:hook",
           "target": "hooks/useToast.ts",
           "path": "src/hooks/useToast.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -3979,11 +3979,6 @@
           "path": "/Users/nrjdalal/Desktop/smart-registry/public/tremor/src/components/Toast/Toast.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Toast/Toast.tsx",
           "path": "src/components/Toast/Toast.tsx"
@@ -3997,6 +3992,11 @@
           "type": "registry:hook",
           "target": "hooks/useToast.ts",
           "path": "src/hooks/useToast.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -4025,19 +4025,19 @@
       ],
       "files": [
         {
-          "type": "registry:file",
+          "type": "registry:component",
+          "target": "components/Toggle/Toggle.tsx",
+          "path": "src/components/Toggle/Toggle.tsx"
+        },
+        {
+          "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
         },
         {
-          "type": "registry:file",
+          "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/Toggle/Toggle.tsx",
-          "path": "src/components/Toggle/Toggle.tsx"
         }
       ]
     },
@@ -4071,16 +4071,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Toggle/toggle.stories.tsx",
           "path": "src/components/Toggle/toggle.stories.tsx"
@@ -4089,6 +4079,16 @@
           "type": "registry:component",
           "target": "components/Toggle/Toggle.tsx",
           "path": "src/components/Toggle/Toggle.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -4116,14 +4116,14 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Tooltip/Tooltip.tsx",
           "path": "src/components/Tooltip/Tooltip.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -4158,16 +4158,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Button/Button.tsx",
           "path": "src/components/Button/Button.tsx"
@@ -4181,6 +4171,16 @@
           "type": "registry:component",
           "target": "components/Tooltip/Tooltip.tsx",
           "path": "src/components/Tooltip/Tooltip.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
         }
       ]
     },
@@ -4208,14 +4208,14 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Tracker/Tracker.tsx",
           "path": "src/components/Tracker/Tracker.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -4247,11 +4247,6 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
           "type": "registry:component",
           "target": "components/Tracker/tracker.stories.tsx",
           "path": "src/components/Tracker/tracker.stories.tsx"
@@ -4260,6 +4255,11 @@
           "type": "registry:component",
           "target": "components/Tracker/Tracker.tsx",
           "path": "src/components/Tracker/Tracker.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
         }
       ]
     }
