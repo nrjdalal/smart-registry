@@ -39,8 +39,7 @@ const main = async () => {
     const { positionals, values } = parse({
       allowPositionals: true,
       options: {
-        files: { type: "string", multiple: true, short: "f" },
-        directories: { type: "string", multiple: true, short: "d" },
+        cwd: { type: "string", short: "c" },
         ignore: { type: "string", multiple: true, short: "i" },
         help: { type: "boolean", short: "h" },
         version: { type: "boolean", short: "v" },
@@ -58,37 +57,36 @@ const main = async () => {
       }
     }
 
-    // ~ Initialize configuration object
-    const config = {
-      files: values.files || [],
-      directories: values.directories || [],
-    } as {
-      files: string[]
-      directories: string[]
+    const cwd = path.resolve(values.cwd || process.cwd())
+    let registryFiles = [] as string[]
+
+    if (!positionals.length) {
+      for (const pattern of [
+        "registry/**",
+        "components/**",
+        "src/components/**",
+      ]) {
+        registryFiles = getFiles({
+          patterns: pattern,
+          cwd,
+          ignore: values.ignore,
+        })
+        if (registryFiles.length) break
+      }
+      if (!registryFiles.length) {
+        throw new Error(
+          "No files found in the registry, components, or src/components directories",
+        )
+      }
+    } else {
+      registryFiles = getFiles({
+        patterns: positionals,
+        cwd,
+        ignore: values.ignore,
+      })
     }
 
-    // ~ Get aliases and files from utility functions
     const aliases = await getAliases()
-    const files = await getFiles()
-
-    // ~ If no files or directories are provided, use registry or components directory
-    if (!config.files.length && !config.directories.length) {
-      const foundPath = ["registry", "components"]
-        .map((dir) => aliases["@/"] + dir)
-        .find((path) => files.some((file) => file.startsWith(path + "/")))
-      if (foundPath) config.directories.push(foundPath)
-      else throw new Error("Neither registry nor components directory found")
-    }
-
-    // ~ Get all files to build the registry from the provided files and directories
-    const registryFiles = [
-      ...config.files.map((file) => pathResolver(file, aliases)),
-      ...config.directories.flatMap((dir) =>
-        files.filter((file) =>
-          file.startsWith(pathResolver(dir, aliases) + "/"),
-        ),
-      ),
-    ]
 
     // ~ Read registry.json file if it exists
     const registryPath = path.resolve(process.cwd(), "registry.json")

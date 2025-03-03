@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build": "tsup",
-    "cli": "bun run build && node dist/bin/index.js",
+    "cli": "bash scripts/cli.sh",
     "dev": "tsup --watch",
     "prepare": "if [ \"$NODE_ENV\" != \"production\" ]; then npx simple-git-hooks; fi",
     "publish:latest": "NODE_ENV=production changeset publish",

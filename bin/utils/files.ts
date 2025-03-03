@@ -1,6 +1,6 @@
 import fs from "node:fs"
 import path from "node:path"
-import { glob } from "tinyglobby"
+import { globSync } from "tinyglobby"
 
 export const findFile = (filepath: string) => {
   const isFile = path.extname(filepath) !== ""
@@ -18,25 +18,22 @@ export const findFile = (filepath: string) => {
   }
 }
 
-export const getFiles = async ({
-  patterns = ["**", ".**"],
+export const getFiles = ({
+  patterns = ["**", ".**"] as string | string[],
+  cwd = path.resolve(process.cwd()) as string,
   ignore = [] as string[],
 } = {}) => {
   patterns = Array.isArray(patterns) ? patterns : [patterns]
   ignore = Array.isArray(ignore) ? ignore : [ignore]
-
-  if (fs.existsSync(".gitignore")) {
-    const gitignorePatterns: string[] = (
-      await fs.promises.readFile(".gitignore", "utf8")
-    )
-      .split("\n")
-      .map((line) => line.trim())
-      .filter((line) => line && !line.startsWith("#"))
-      .map((line) => line.replace(/^\//, ""))
-    ignore = ignore.concat(gitignorePatterns)
-  }
-
-  return await glob(patterns, {
+  patterns = patterns.map((pattern) => {
+    if (!pattern.endsWith("*")) {
+      return pattern + "**"
+    }
+    return pattern
+  })
+  const files = globSync(patterns, {
+    cwd,
     ignore: ignore.filter((ig) => !patterns.includes(ig)),
   })
+  return files
 }
