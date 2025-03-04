@@ -1,6 +1,6 @@
 import path from "node:path"
 import { regex } from "@/constants/regex"
-import { listFiles } from "../files"
+import { listFiles } from "@/utils/files"
 
 const resolveAliasedImport = async ({
   cwd,
