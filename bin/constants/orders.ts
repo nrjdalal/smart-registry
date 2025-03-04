@@ -41,7 +41,7 @@ export const registry = {
       "docs",
       "categories",
     ],
-    types: {
+    type: {
       default: [
         "registry:block",
         "registry:component",
@@ -54,8 +54,8 @@ export const registry = {
       ],
     },
     files: {
-      default: ["name", "type", "target", "path"],
-      types: {
+      default: ["type", "target", "content", "path"],
+      type: {
         default: [
           "registry:block",
           "registry:component",
