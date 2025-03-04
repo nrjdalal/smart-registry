@@ -4,7 +4,7 @@ import path from "node:path"
 import { parseArgs } from "node:util"
 import { getAliases } from "@/utils/aliases"
 import { getInputRegistry, listRegistryFiles } from "@/utils/files"
-import { resolver } from "@/utils/resolvers"
+import { dataResolver } from "@/utils/resolvers"
 import { transformer } from "@/utils/transformer"
 import { author, name, version } from "../package.json"
 
@@ -76,6 +76,12 @@ const main = async () => {
 
     // ~ Build registry-item for each file in the registry
     for (const filePath of registryFiles) {
+      return await dataResolver({
+        cwd,
+        aliases,
+        filepaths: [filePath],
+      })
+
       try {
         const resolvedData = await resolver(
           [

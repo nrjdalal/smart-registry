@@ -39,5 +39,15 @@ export const getAliases = async (cwd: string) => {
     aliases["@/"] = fs.existsSync(path.resolve(cwd, "src")) ? "src/" : ""
   }
 
+  aliases = Object.entries(aliases)
+    .sort(([a], [b]) => b.length - a.length)
+    .reduce(
+      (acc, [alias, path]) => {
+        acc[alias] = path
+        return acc
+      },
+      {} as Record<string, string>,
+    )
+
   return aliases
 }
