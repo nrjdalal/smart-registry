@@ -20,27 +20,48 @@ export const dataResolver = async ({
     content: {} as Record<string, string>,
   }
 
-  for (let filepath of filepaths) {
+  for (const filepath of filepaths) {
     if (resolved.has(filepath)) {
       continue
     } else {
       resolved.add(filepath)
     }
 
+    data.files.push(filepath)
     data.content[filepath] =
       data.content[filepath] || (await fs.promises.readFile(filepath, "utf8"))
 
-    data.files.push(filepath)
-
-    const imports = await typeResolver({
+    const { dependencies, files } = await typeResolver({
       cwd,
       aliases,
       filepath,
       content: data.content[filepath],
     })
+    data.dependencies.push(
+      ...dependencies.filter(
+        (dependency) => !data.dependencies.includes(dependency),
+      ),
+    )
+    data.files.push(...files.filter((file) => !data.files.includes(file)))
+  }
 
-    data.dependencies.push(...imports.dependencies)
-    data.files.push(...imports.files)
+  for (const file of data.files) {
+    if (!resolved.has(file)) {
+      const { dependencies, files } = await dataResolver({
+        cwd,
+        aliases,
+        filepaths: [file],
+        resolved,
+      })
+      data.dependencies.push(
+        ...dependencies.filter(
+          (dependency) => !data.dependencies.includes(dependency),
+        ),
+      )
+      data.files.push(...files.filter((file) => !data.files.includes(file)))
+      data.content[file] =
+        data.content[file] || (await fs.promises.readFile(file, "utf8"))
+    }
   }
 
   return data
