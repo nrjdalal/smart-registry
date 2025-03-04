@@ -39,7 +39,8 @@ export const dataResolver = async ({
       content: data.content[filepath],
     })
 
-    console.log(imports)
+    data.dependencies.push(...imports.dependencies)
+    data.files.push(...imports.files)
   }
 
   return data
