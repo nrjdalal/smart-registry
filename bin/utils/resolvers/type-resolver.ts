@@ -72,13 +72,9 @@ export const typeResolver = async ({
       data.files.push(current)
     } else {
       if (current.startsWith("@")) {
-        data.dependencies.push(
-          current.replace(/['"]+/g, "").split("/").slice(0, 2).join("/"),
-        )
+        data.dependencies.push(current.split("/").slice(0, 2).join("/"))
       } else {
-        data.dependencies.push(
-          current.replace(/['"]+/g, "").replace(/\/.*/, ""),
-        )
+        data.dependencies.push(current.replace(/\/.*/, ""))
       }
     }
   }
