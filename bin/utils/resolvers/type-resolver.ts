@@ -1,6 +1,7 @@
 import { regex } from "@/constants/regex"
+import { listFiles } from "../files"
 
-export const typeResolver = ({
+export const typeResolver = async ({
   cwd,
   aliases,
   content,
@@ -39,7 +40,19 @@ export const typeResolver = ({
         ],
       )
 
+      const files = await listFiles({
+        cwd,
+        patterns: current,
+      })
+
+      current =
+        files.find((file) => file.includes(current + ".")) ||
+        files.find((file) => file.includes(current + "/index")) ||
+        current
+
       data.files.push(current)
+    } else {
+      data.dependencies.push(current)
     }
   }
 

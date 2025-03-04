@@ -32,7 +32,7 @@ export const dataResolver = async ({
 
     data.files.push(filepath)
 
-    const imports = typeResolver({
+    const imports = await typeResolver({
       cwd,
       aliases,
       content: data.content[filepath],
