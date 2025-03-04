@@ -2,6 +2,49 @@ import path from "node:path"
 import { regex } from "@/constants/regex"
 import { listFiles } from "../files"
 
+const resolveAliasedImport = async ({
+  cwd,
+  current,
+  aliases,
+}: {
+  cwd: string
+  aliases: Record<string, string>
+  current: string
+}) => {
+  current = current.replace(
+    new RegExp(
+      `^${Object.keys(aliases).find((alias) => current.startsWith(alias))}`,
+    ),
+    aliases[
+      Object.keys(aliases).find((alias) => current.startsWith(alias)) as string
+    ],
+  )
+  const files = await listFiles({ cwd, patterns: current })
+  return (
+    files.find((file) => file.includes(current + ".")) ||
+    files.find((file) => file.includes(current + "/index")) ||
+    current
+  )
+}
+
+const resolveRelativeImport = async ({
+  cwd,
+  filepath,
+  current,
+}: {
+  cwd: string
+  filepath: string
+  current: string
+}) => {
+  current = path.resolve(cwd, path.dirname(filepath as string), current)
+  const files = await listFiles({ cwd, patterns: current })
+  current =
+    files.find((file) => file.includes(current + ".")) ||
+    files.find((file) => file.includes(current + "/index")) ||
+    current
+  return current.replace(cwd + "/", "")
+}
+
 export const typeResolver = async ({
   cwd,
   aliases,
@@ -13,13 +56,8 @@ export const typeResolver = async ({
   filepath: string
   content: string
 }) => {
-  const data = {
-    dependencies: [] as string[],
-    files: [] as string[],
-  }
-
+  const data = { dependencies: [] as string[], files: [] as string[] }
   let imports: string[] = content.match(regex.imports) || []
-
   if (!imports.length) return data
 
   imports = imports.map(
@@ -32,43 +70,10 @@ export const typeResolver = async ({
     )
 
     if (isAliased) {
-      current = current.replace(
-        new RegExp(
-          `^${Object.keys(aliases).find((alias) => current.startsWith(alias))}`,
-        ),
-        aliases[
-          Object.keys(aliases).find((alias) =>
-            current.startsWith(alias),
-          ) as string
-        ],
-      )
-
-      const files = await listFiles({
-        cwd,
-        patterns: current,
-      })
-
-      current =
-        files.find((file) => file.includes(current + ".")) ||
-        files.find((file) => file.includes(current + "/index")) ||
-        current
-
+      current = await resolveAliasedImport({ cwd, aliases, current })
       data.files.push(current)
     } else if (current.startsWith(".")) {
-      current = path.resolve(cwd, path.dirname(filepath), current)
-
-      const files = await listFiles({
-        cwd,
-        patterns: current,
-      })
-
-      current =
-        files.find((file) => file.includes(current + ".")) ||
-        files.find((file) => file.includes(current + "/index")) ||
-        current
-
-      current = current.replace(cwd + "/", "")
-
+      current = await resolveRelativeImport({ cwd, filepath, current })
       data.files.push(current)
     } else {
       if (current.startsWith("@")) {
