@@ -1,2 +1,5 @@
 - add types to input registry
+- dev dep if in devDeps in package.json
 - rewrite ignore using patterns
+- transform paths in content
+- versioned dependencies

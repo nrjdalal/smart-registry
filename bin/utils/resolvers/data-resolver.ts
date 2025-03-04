@@ -1,4 +1,5 @@
 import fs from "node:fs"
+import { registry } from "@/constants/orders"
 import { typeResolver } from "@/utils/resolvers"
 
 export const dataResolver = async ({
@@ -63,6 +64,9 @@ export const dataResolver = async ({
         data.content[file] || (await fs.promises.readFile(file, "utf8"))
     }
   }
+
+  data.dependencies = data.dependencies.sort()
+  data.files = data.files.sort()
 
   return data
 }

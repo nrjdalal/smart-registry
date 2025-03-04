@@ -19,3 +19,54 @@ export const autoDetectPatterns = [
     "src/utils/**",
   ],
 ]
+
+// ref: https://ui.shadcn.com/schema/registry-item.json
+export const registry = {
+  default: ["$schema", "name", "homepage", "items"],
+  items: {
+    default: [
+      "$schema",
+      "name",
+      "type",
+      "description",
+      "title",
+      "author",
+      "dependencies",
+      "devDependencies",
+      "registryDependencies",
+      "files",
+      "tailwind",
+      "cssVars",
+      "meta",
+      "docs",
+      "categories",
+    ],
+    types: {
+      default: [
+        "registry:block",
+        "registry:component",
+        "registry:file",
+        "registry:hook",
+        "registry:lib",
+        "registry:page",
+        "registry:theme",
+        "registry:ui",
+      ],
+    },
+    files: {
+      default: ["name", "type", "target", "path"],
+      types: {
+        default: [
+          "registry:block",
+          "registry:component",
+          "registry:file",
+          "registry:hook",
+          "registry:lib",
+          "registry:page",
+          "registry:theme",
+          "registry:ui",
+        ],
+      },
+    },
+  },
+}

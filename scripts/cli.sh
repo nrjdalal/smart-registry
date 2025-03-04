@@ -23,6 +23,7 @@ if [ -z "$(ls -A .)" ]; then
     end
   )' registry.json >tmp.json && mv tmp.json registry.json
   npx gitpick@latest https://github.com/nrjdalal/originui/blob/smart-registry/components/component-loader-client.tsx components -o
+else
+  rm -rf public/r tsconfig.json
+  node ../../dist/bin/index.js "$@"
 fi
-rm -rf public/r tsconfig.json
-node ../../dist/bin/index.js "$@"
