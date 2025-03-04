@@ -35,6 +35,7 @@ export const dataResolver = async ({
     const imports = await typeResolver({
       cwd,
       aliases,
+      filepath,
       content: data.content[filepath],
     })
 
