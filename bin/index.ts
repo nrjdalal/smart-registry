@@ -74,8 +74,6 @@ const main = async () => {
       items: [] as Record<string, any>[],
     }
 
-    console.log(registryFiles)
-
     // ~ Build registry-item for each file in the registry
     for (const filepath of registryFiles) {
       try {

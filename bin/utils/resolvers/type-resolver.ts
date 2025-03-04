@@ -20,11 +20,11 @@ const resolveAliasedImport = async ({
     ],
   )
   const files = await listFiles({ cwd, patterns: current })
-  return (
-    files.find((file) => file.includes(current + ".")) ||
-    files.find((file) => file.includes(current + "/index")) ||
+  current =
+    files.find((file) => file.startsWith(current + ".")) ||
+    files.find((file) => file.startsWith(current + "/index")) ||
     current
-  )
+  return current.replace(cwd + "/", "")
 }
 
 const resolveRelativeImport = async ({
@@ -39,8 +39,8 @@ const resolveRelativeImport = async ({
   current = path.resolve(cwd, path.dirname(filepath as string), current)
   const files = await listFiles({ cwd, patterns: current })
   current =
-    files.find((file) => file.includes(current + ".")) ||
-    files.find((file) => file.includes(current + "/index")) ||
+    files.find((file) => file.startsWith(current + ".")) ||
+    files.find((file) => file.startsWith(current + "/index")) ||
     current
   return current.replace(cwd + "/", "")
 }
