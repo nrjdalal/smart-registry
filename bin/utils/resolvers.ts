@@ -1,7 +1,7 @@
 import fs from "node:fs"
 import path from "node:path"
-import { findFile } from "~/utils/files"
-import { transformer } from "~/utils/transformer"
+import { findFile } from "@/utils/files"
+import { transformer } from "@/utils/transformer"
 
 export const pathResolver = (
   filepath: string,

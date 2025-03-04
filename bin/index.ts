@@ -2,10 +2,10 @@
 import fs from "node:fs"
 import path from "node:path"
 import { parseArgs } from "node:util"
-import { getAliases } from "~/utils/aliases"
-import { getInputRegistry, listRegistryFiles } from "~/utils/files"
-import { resolver } from "~/utils/resolvers"
-import { transformer } from "~/utils/transformer"
+import { getAliases } from "@/utils/aliases"
+import { getInputRegistry, listRegistryFiles } from "@/utils/files"
+import { resolver } from "@/utils/resolvers"
+import { transformer } from "@/utils/transformer"
 import { author, name, version } from "../package.json"
 
 const helpMessage = `Version:
