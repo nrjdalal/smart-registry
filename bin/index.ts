@@ -78,109 +78,102 @@ const main = async () => {
 
     // ~ Build registry-item for each file in the registry
     for (const filepath of registryFiles) {
-      console.log(
-        await dataResolver({
+      try {
+        const resolvedData = await dataResolver({
           cwd,
           aliases,
-          filepaths: [filepath],
-        }),
-      )
+          filepaths: [
+            filepath,
+            ...(inputRegistry.items
+              ?.find(
+                (item: any) =>
+                  item.name ===
+                  transformer(filepath, {
+                    aliases,
+                  }).name,
+              )
+              ?.files?.map((file: { path?: string }) => file.path) || []),
+          ],
+        })
 
-      // try {
-      //   const resolvedData = await resolver(
-      //     [
-      //       filepath,
-      //       ...(inputRegistry.items
-      //         ?.find(
-      //           (item: any) =>
-      //             item.name ===
-      //             transformer(filepath, {
-      //               aliases,
-      //             }).name,
-      //         )
-      //         ?.files?.map((file: { path?: string }) => file.path) || []),
-      //     ],
-      //     { aliases },
-      //   )
+        const registryItem = {
+          $schema: "https://ui.shadcn.com/schema/registry-item.json",
+          name: transformer(filepath, {
+            aliases,
+          }).name,
+          type:
+            transformer(filepath, {
+              aliases,
+            }).type || "registry:file",
+          ...(resolvedData.dependencies.length && {
+            dependencies: resolvedData.dependencies,
+          }),
+          files: resolvedData.files.map((file) => {
+            return {
+              type:
+                transformer(file, {
+                  aliases,
+                }).type || "registry:file",
+              target:
+                transformer(file, {
+                  aliases,
+                }).target || file,
+              content: resolvedData.content[file],
+              path: file,
+            } as Record<string, any>
+          }),
+          // ~ Add properties from the registry.json items, which don't exist in the resolved registry-item
+          ...Object.fromEntries(
+            Object.entries(
+              inputRegistry.items?.find(
+                (item: { name?: string }) =>
+                  item.name ===
+                  transformer(filepath, {
+                    aliases,
+                  }).name,
+              ) || {},
+            ).filter(
+              ([key]) => !["$schema", "name", "type", "files"].includes(key),
+            ),
+          ),
+        }
 
-      //   const registryItem = {
-      //     $schema: "https://ui.shadcn.com/schema/registry-item.json",
-      //     name: transformer(filepath, {
-      //       aliases,
-      //     }).name,
-      //     type:
-      //       transformer(filepath, {
-      //         aliases,
-      //       }).type || "registry:file",
-      //     ...(resolvedData.dependencies.length && {
-      //       dependencies: resolvedData.dependencies,
-      //     }),
-      //     files: resolvedData.files.map((file) => {
-      //       return {
-      //         type:
-      //           transformer(file, {
-      //             aliases,
-      //           }).type || "registry:file",
-      //         target:
-      //           transformer(file, {
-      //             aliases,
-      //           }).target || file,
-      //         content: resolvedData.content[file],
-      //         path: file,
-      //       } as Record<string, any>
-      //     }),
-      //     // ~ Add properties from the registry.json items, which don't exist in the resolved registry-item
-      //     ...Object.fromEntries(
-      //       Object.entries(
-      //         inputRegistry.items?.find(
-      //           (item: { name?: string }) =>
-      //             item.name ===
-      //             transformer(filepath, {
-      //               aliases,
-      //             }).name,
-      //         ) || {},
-      //       ).filter(
-      //         ([key]) => !["$schema", "name", "type", "files"].includes(key),
-      //       ),
-      //     ),
-      //   }
+        const registryItemPath = path.resolve(
+          process.cwd(),
+          "public/r",
+          registryItem.name + ".json",
+        )
 
-      //   const registryItemPath = path.resolve(
-      //     process.cwd(),
-      //     "public/r",
-      //     registryItem.name + ".json",
-      //   )
+        // ~ Log the status of each registry item being processed
+        console.log(
+          `- ${filepath.padEnd(
+            Math.max(...registryFiles.map((file) => file.length)) + 2,
+            " ",
+          )} ${
+            resolvedData.dependencies.length
+              ? "📦" + String(resolvedData.dependencies.length).padEnd(2, " ")
+              : "    "
+          }  ${
+            resolvedData.files.length - 1
+              ? "📄" + String(resolvedData.files.length).padEnd(2, " ")
+              : "    "
+          }   ${registryItemPath.replace(process.cwd() + "/", "")}`,
+        )
 
-      //   // ~ Log the status of each registry item being processed
-      //   console.log(
-      //     `- ${filepath.padEnd(
-      //       Math.max(...registryFiles.map((file) => file.length)) + 2,
-      //       " ",
-      //     )} ${
-      //       resolvedData.dependencies.length
-      //         ? "📦" + String(resolvedData.dependencies.length).padEnd(2, " ")
-      //         : "    "
-      //     }  ${
-      //       resolvedData.files.length - 1
-      //         ? "📄" + String(resolvedData.files.length).padEnd(2, " ")
-      //         : "    "
-      //     }   ${registryItemPath.replace(process.cwd() + "/", "")}`,
-      //   )
-
-      //   // ~ Create necessary directories and write registry item files
-      //   await fs.promises.mkdir(path.dirname(registryItemPath), {
-      //     recursive: true,
-      //   })
-      //   await fs.promises.writeFile(
-      //     registryItemPath,
-      //     JSON.stringify(registryItem, null, 2) + "\n",
-      //   )
-      //   registryItem.files.forEach((file) => delete file.content)
-      //   outputRegistry.items.push(registryItem)
-      // } catch (err: any) {
-      //   failed.push(filepath + ": " + err.message)
-      //   continue
-      // }
+        // ~ Create necessary directories and write registry item files
+        await fs.promises.mkdir(path.dirname(registryItemPath), {
+          recursive: true,
+        })
+        await fs.promises.writeFile(
+          registryItemPath,
+          JSON.stringify(registryItem, null, 2) + "\n",
+        )
+        registryItem.files.forEach((file) => delete file.content)
+        outputRegistry.items.push(registryItem)
+      } catch (err: any) {
+        failed.push(filepath + ": " + err.message)
+        continue
+      }
     }
 
     // ~ Write the final registry.json file to the public directory
