@@ -30,6 +30,10 @@
     }
   ],
   "meta": {
-    "tags": ["input", "label", "otp"]
+    "tags": [
+      "input",
+      "label",
+      "otp"
+    ]
   }
 }

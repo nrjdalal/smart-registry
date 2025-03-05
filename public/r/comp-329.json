@@ -64,7 +64,9 @@
       "path": "registry/default/ui/radio-group.tsx"
     }
   ],
-  "devDependencies": ["@types/react-payment-inputs"],
+  "devDependencies": [
+    "@types/react-payment-inputs"
+  ],
   "meta": {
     "tags": [
       "dialog",

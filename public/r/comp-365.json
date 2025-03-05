@@ -28,7 +28,12 @@
     }
   ],
   "meta": {
-    "tags": ["tooltip", "hover card", "image", "radix"],
+    "tags": [
+      "tooltip",
+      "hover card",
+      "image",
+      "radix"
+    ],
     "style": 1
   }
 }

@@ -35,6 +35,11 @@
     }
   ],
   "meta": {
-    "tags": ["input", "label", "button", "search"]
+    "tags": [
+      "input",
+      "label",
+      "button",
+      "search"
+    ]
   }
 }

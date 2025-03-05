@@ -35,6 +35,10 @@
     }
   ],
   "meta": {
-    "tags": ["input", "label", "mask"]
+    "tags": [
+      "input",
+      "label",
+      "mask"
+    ]
   }
 }

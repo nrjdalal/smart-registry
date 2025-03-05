@@ -29,7 +29,10 @@
     }
   ],
   "meta": {
-    "tags": ["button", "counter"],
+    "tags": [
+      "button",
+      "counter"
+    ],
     "style": 2
   }
 }

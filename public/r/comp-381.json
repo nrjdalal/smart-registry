@@ -51,7 +51,11 @@
     }
   ],
   "meta": {
-    "tags": ["popover", "filter", "radix"],
+    "tags": [
+      "popover",
+      "filter",
+      "radix"
+    ],
     "style": 1
   }
 }

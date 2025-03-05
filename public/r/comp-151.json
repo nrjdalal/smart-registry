@@ -35,6 +35,10 @@
     }
   ],
   "meta": {
-    "tags": ["checkbox", "label", "radix"]
+    "tags": [
+      "checkbox",
+      "label",
+      "radix"
+    ]
   }
 }

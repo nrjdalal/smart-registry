@@ -37,7 +37,10 @@
     }
   ],
   "meta": {
-    "tags": ["dropdown", "radix"],
+    "tags": [
+      "dropdown",
+      "radix"
+    ],
     "style": 1
   }
 }

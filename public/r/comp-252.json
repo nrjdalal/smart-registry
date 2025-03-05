@@ -42,6 +42,12 @@
     }
   ],
   "meta": {
-    "tags": ["slider", "label", "volume", "controls", "radix"]
+    "tags": [
+      "slider",
+      "label",
+      "volume",
+      "controls",
+      "radix"
+    ]
   }
 }

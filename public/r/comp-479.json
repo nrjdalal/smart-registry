@@ -30,7 +30,13 @@
     }
   ],
   "meta": {
-    "tags": ["table", "tanstack", "flag", "sort", "resize"],
+    "tags": [
+      "table",
+      "tanstack",
+      "flag",
+      "sort",
+      "resize"
+    ],
     "colSpan": 3
   }
 }

@@ -30,7 +30,10 @@
     }
   ],
   "meta": {
-    "tags": ["button", "kbd"],
+    "tags": [
+      "button",
+      "kbd"
+    ],
     "style": 2
   }
 }

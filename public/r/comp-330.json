@@ -51,7 +51,12 @@
     }
   ],
   "meta": {
-    "tags": ["dialog", "modal", "user", "radix"],
+    "tags": [
+      "dialog",
+      "modal",
+      "user",
+      "radix"
+    ],
     "style": 1
   }
 }

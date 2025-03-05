@@ -53,6 +53,12 @@
     }
   ],
   "meta": {
-    "tags": ["slider", "vertical slider", "label", "input", "radix"]
+    "tags": [
+      "slider",
+      "vertical slider",
+      "label",
+      "input",
+      "radix"
+    ]
   }
 }

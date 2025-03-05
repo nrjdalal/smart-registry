@@ -30,7 +30,10 @@
     }
   ],
   "meta": {
-    "tags": ["button", "delete"],
+    "tags": [
+      "button",
+      "delete"
+    ],
     "style": 2
   }
 }

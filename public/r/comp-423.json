@@ -37,7 +37,11 @@
     }
   ],
   "meta": {
-    "tags": ["badge", "chip", "checkbox"],
+    "tags": [
+      "badge",
+      "chip",
+      "checkbox"
+    ],
     "style": 1
   }
 }

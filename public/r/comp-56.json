@@ -29,6 +29,11 @@
     }
   ],
   "meta": {
-    "tags": ["input", "label", "tag", "emblor"]
+    "tags": [
+      "input",
+      "label",
+      "tag",
+      "emblor"
+    ]
   }
 }

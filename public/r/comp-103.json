@@ -30,7 +30,11 @@
     }
   ],
   "meta": {
-    "tags": ["button", "vote", "counter"],
+    "tags": [
+      "button",
+      "vote",
+      "counter"
+    ],
     "style": 2
   }
 }

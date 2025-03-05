@@ -30,7 +30,10 @@
     }
   ],
   "meta": {
-    "tags": ["button", "next"],
+    "tags": [
+      "button",
+      "next"
+    ],
     "style": 2
   }
 }

@@ -29,7 +29,11 @@
     }
   ],
   "meta": {
-    "tags": ["badge", "chip", "status"],
+    "tags": [
+      "badge",
+      "chip",
+      "status"
+    ],
     "style": 1
   }
 }

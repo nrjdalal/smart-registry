@@ -30,7 +30,10 @@
     }
   ],
   "meta": {
-    "tags": ["button", "toggle group"],
+    "tags": [
+      "button",
+      "toggle group"
+    ],
     "style": 2
   }
 }
