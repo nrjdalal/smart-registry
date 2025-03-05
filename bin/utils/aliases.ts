@@ -24,10 +24,10 @@ export const getAliases = async (cwd: string) => {
         compilerOptions.paths as Record<string, [string]>,
       ).reduce(
         (acc, [key, [value]]) => {
-          // remove leading './' from the value and remove trailing '*' from the key/value
-          acc[key.replace(/\*$/, "")] = value
-            .replace(/^\.\//, "")
-            .replace(/\*$/, "")
+          if (key.endsWith("*") && value.endsWith("*")) {
+            // remove trailing '*' from the key/value
+            acc[key.replace(/\*$/, "")] = value.replace(/\*$/, "")
+          }
           return acc
         },
         {} as Record<string, string>,
@@ -36,7 +36,7 @@ export const getAliases = async (cwd: string) => {
   }
 
   if (!aliases["@/"]) {
-    aliases["@/"] = fs.existsSync(path.resolve(cwd, "src")) ? "src/" : ""
+    aliases["@/"] = fs.existsSync(path.resolve(cwd, "src")) ? "./src/" : "./"
   }
 
   aliases = Object.entries(aliases)

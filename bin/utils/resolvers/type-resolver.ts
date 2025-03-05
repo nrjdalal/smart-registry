@@ -13,12 +13,15 @@ const resolveAliasedImport = async ({
 }) => {
   current = current.replace(
     new RegExp(
-      `^${Object.keys(aliases).find((alias) => current.startsWith(alias))}`,
+      `^${Object.keys(aliases).find((alias) => current.startsWith(alias.replace(/\.\//g, "").replace(/\.\.\//g, "")))}`,
     ),
     aliases[
-      Object.keys(aliases).find((alias) => current.startsWith(alias)) as string
+      Object.keys(aliases).find((alias) =>
+        current.startsWith(alias.replace(/\.\//g, "").replace(/\.\.\//g, "")),
+      ) as string
     ],
   )
+  current = current.replace(/\.\//g, "").replace(/\.\.\//g, "")
   const files = await listFiles({ cwd, patterns: current })
   current =
     files.find((file) => file.startsWith(current + ".")) ||
@@ -36,7 +39,10 @@ const resolveRelativeImport = async ({
   filepath: string
   current: string
 }) => {
-  current = path.resolve(cwd, path.dirname(filepath as string), current)
+  current = path.relative(
+    cwd,
+    path.resolve(cwd, path.dirname(filepath as string), current),
+  )
   const files = await listFiles({ cwd, patterns: current })
   current =
     files.find((file) => file.startsWith(current + ".")) ||
@@ -61,12 +67,13 @@ export const typeResolver = async ({
   if (!imports.length) return data
 
   imports = imports.map(
-    (statement) => statement.match(/['"](.*)['"]/)?.[1] as string,
+    (statement) =>
+      statement.match(/['"](.*)['"]/)?.[1].replace(/\/\//g, "/") as string,
   )
 
   for (let current of imports) {
     const isAliased = Object.keys(aliases).some((alias) =>
-      current.startsWith(alias),
+      current.startsWith(alias.replace(/\.\//g, "").replace(/\.\.\//g, "")),
     )
 
     if (isAliased) {

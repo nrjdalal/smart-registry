@@ -58,7 +58,7 @@ const main = async () => {
       }
     }
 
-    const cwd = path.resolve(values.cwd || process.cwd())
+    const cwd = path.resolve(values.cwd ?? process.cwd())
 
     const aliases = await getAliases(cwd)
     const inputRegistry = await getInputRegistry(cwd)
@@ -145,10 +145,18 @@ const main = async () => {
 
         // ~ Log the status of each registry item being processed
         console.log(
-          `- ${filepath.padEnd(
-            Math.max(...registryFiles.map((file) => file.length)) + 2,
-            " ",
-          )} ${
+          `- ${path
+            .relative(process.cwd(), path.resolve(cwd, filepath))
+            .padEnd(
+              Math.max(
+                ...registryFiles.map(
+                  (file) =>
+                    path.relative(process.cwd(), path.resolve(cwd, file))
+                      .length,
+                ),
+              ) + 2,
+              " ",
+            )} ${
             resolvedData.dependencies.length
               ? "📦" + String(resolvedData.dependencies.length).padEnd(2, " ")
               : "    "
@@ -156,8 +164,10 @@ const main = async () => {
             resolvedData.files.length - 1
               ? "📄" + String(resolvedData.files.length).padEnd(2, " ")
               : "    "
-          }   ${registryItemPath.replace(cwd + "/", "")}`,
+          }   ${path.relative(process.cwd(), registryItemPath)}`,
         )
+
+        // ${path.relative(cwd, registryItemPath)}
 
         // ~ Create necessary directories and write registry item files
         await fs.promises.mkdir(path.dirname(registryItemPath), {
