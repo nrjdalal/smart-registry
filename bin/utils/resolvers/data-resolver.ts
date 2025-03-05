@@ -1,5 +1,5 @@
 import fs from "node:fs"
-import { registry } from "@/constants/orders"
+import path from "node:path"
 import { typeResolver } from "@/utils/resolvers"
 
 export const dataResolver = async ({
@@ -30,7 +30,8 @@ export const dataResolver = async ({
 
     data.files.push(filepath)
     data.content[filepath] =
-      data.content[filepath] || (await fs.promises.readFile(filepath, "utf8"))
+      data.content[filepath] ||
+      (await fs.promises.readFile(path.resolve(cwd, filepath), "utf8"))
 
     const { dependencies, files } = await typeResolver({
       cwd,
@@ -61,7 +62,8 @@ export const dataResolver = async ({
       )
       data.files.push(...files.filter((file) => !data.files.includes(file)))
       data.content[file] =
-        data.content[file] || (await fs.promises.readFile(file, "utf8"))
+        data.content[file] ||
+        (await fs.promises.readFile(path.resolve(cwd, file), "utf8"))
     }
   }
 

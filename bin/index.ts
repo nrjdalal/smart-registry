@@ -41,6 +41,7 @@ const main = async () => {
       options: {
         cwd: { type: "string", short: "c" },
         ignore: { type: "string", short: "i", default: "" },
+        output: { type: "string", short: "o", default: "public/r" },
         help: { type: "boolean", short: "h" },
         version: { type: "boolean", short: "v" },
       },
@@ -137,8 +138,8 @@ const main = async () => {
         }
 
         const registryItemPath = path.resolve(
-          process.cwd(),
-          "public/r",
+          cwd,
+          values.output,
           registryItem.name + ".json",
         )
 
@@ -155,7 +156,7 @@ const main = async () => {
             resolvedData.files.length - 1
               ? "📄" + String(resolvedData.files.length).padEnd(2, " ")
               : "    "
-          }   ${registryItemPath.replace(process.cwd() + "/", "")}`,
+          }   ${registryItemPath.replace(cwd + "/", "")}`,
         )
 
         // ~ Create necessary directories and write registry item files
@@ -178,7 +179,7 @@ const main = async () => {
     outputRegistry.items.sort((a, b) => a.name.localeCompare(b.name))
 
     await fs.promises.writeFile(
-      path.resolve(process.cwd(), "public/registry.json"),
+      path.resolve(cwd, values.output, "registry.json"),
       JSON.stringify(outputRegistry, null, 2) + "\n",
     )
 
