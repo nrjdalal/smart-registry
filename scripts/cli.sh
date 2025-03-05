@@ -2,7 +2,7 @@ npm run build
 mkdir -p "test/cli"
 cd "test/cli"
 if [ -z "$(ls -A .)" ]; then
-  npx gitpick https://github.com/origin-space/originui .
+  npx gitpick@latest https://github.com/origin-space/originui .
   jq '.scripts["registry:build"] = "npx smart-registry@latest"' package.json >tmp.json && mv tmp.json package.json
   jq 'with_entries(
     if .key == "items" then 
