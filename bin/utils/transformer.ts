@@ -26,6 +26,10 @@ export const transformer = ({
           (_, p1) => `blocks/${p1 ? p1 + "/" : ""}`,
         )
         .replace(
+          /^(?:([^\/]*)\/)?charts\//,
+          (_, p1) => `charts/${p1 ? p1 + "/" : ""}`,
+        )
+        .replace(
           /^(?:([^\/]*)\/)?components\/ui\//,
           (_, p1) => `${p1 ? p1 + "/" : ""}ui/`,
         )
@@ -48,6 +52,7 @@ export const transformer = ({
         .replace(/\/default\//, "/")
         .replace(/\.\.\//g, "")
         .replace(/\.\//g, "")
+        .replace(/^charts\//, "components/charts/")
     : filepath
         .replace(/\/default\//, "/")
         .replace(/\.\.\//g, "")
@@ -56,11 +61,11 @@ export const transformer = ({
   let name = transformedPath
     .toLowerCase()
     .replace(
-      /^(blocks|components\/ui|components|hooks|lib|utils|helpers)\//,
+      /^(blocks|components\/charts|components\/ui|components|hooks|lib|utils|helpers)\//,
       "",
     )
     .replace(
-      /\/(blocks|components\/ui|components|hooks|lib|utils|helpers)\//,
+      /\/(blocks|components\/charts|components\/ui|components|hooks|lib|utils|helpers)\//,
       "/",
     )
     .replace(/\.[^\/.]+$/, "")
@@ -76,9 +81,10 @@ export const transformer = ({
       ? "registry:page"
       : transformedPath
           .match(
-            /^(blocks|components\/ui|components|hooks|lib|utils|helpers)/,
+            /^(blocks|components\/charts|components\/ui|components|hooks|lib|utils|helpers)/,
           )?.[1]
           .replace("blocks", "registry:block")
+          .replace("components/charts", "registry:component")
           .replace("components/ui", "registry:ui")
           .replace("components", "registry:component")
           .replace("hooks", "registry:hook")

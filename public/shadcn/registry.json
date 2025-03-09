@@ -3261,8 +3261,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-area-axes",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-area-axes",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3272,8 +3272,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-area-axes.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-area-axes.tsx",
           "path": "registry/new-york-v4/charts/chart-area-axes.tsx"
         },
         {
@@ -3295,8 +3295,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-area-default",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-area-default",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3306,8 +3306,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-area-default.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-area-default.tsx",
           "path": "registry/new-york-v4/charts/chart-area-default.tsx"
         },
         {
@@ -3329,8 +3329,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-area-gradient",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-area-gradient",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3340,8 +3340,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-area-gradient.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-area-gradient.tsx",
           "path": "registry/new-york-v4/charts/chart-area-gradient.tsx"
         },
         {
@@ -3363,8 +3363,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-area-icons",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-area-icons",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3374,8 +3374,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-area-icons.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-area-icons.tsx",
           "path": "registry/new-york-v4/charts/chart-area-icons.tsx"
         },
         {
@@ -3397,8 +3397,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-area-interactive",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-area-interactive",
+      "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-select",
         "clsx",
@@ -3409,8 +3409,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-area-interactive.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-area-interactive.tsx",
           "path": "registry/new-york-v4/charts/chart-area-interactive.tsx"
         },
         {
@@ -3437,8 +3437,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-area-legend",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-area-legend",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3448,8 +3448,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-area-legend.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-area-legend.tsx",
           "path": "registry/new-york-v4/charts/chart-area-legend.tsx"
         },
         {
@@ -3471,8 +3471,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-area-linear",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-area-linear",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3482,8 +3482,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-area-linear.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-area-linear.tsx",
           "path": "registry/new-york-v4/charts/chart-area-linear.tsx"
         },
         {
@@ -3505,8 +3505,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-area-stacked",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-area-stacked",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3516,8 +3516,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-area-stacked.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-area-stacked.tsx",
           "path": "registry/new-york-v4/charts/chart-area-stacked.tsx"
         },
         {
@@ -3539,8 +3539,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-area-stacked-expand",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-area-stacked-expand",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3550,8 +3550,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-area-stacked-expand.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-area-stacked-expand.tsx",
           "path": "registry/new-york-v4/charts/chart-area-stacked-expand.tsx"
         },
         {
@@ -3573,8 +3573,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-area-step",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-area-step",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3584,8 +3584,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-area-step.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-area-step.tsx",
           "path": "registry/new-york-v4/charts/chart-area-step.tsx"
         },
         {
@@ -3607,8 +3607,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-bar-active",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-bar-active",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3618,8 +3618,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-bar-active.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-bar-active.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-active.tsx"
         },
         {
@@ -3641,8 +3641,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-bar-default",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-bar-default",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3652,8 +3652,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-bar-default.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-bar-default.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-default.tsx"
         },
         {
@@ -3675,8 +3675,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-bar-horizontal",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-bar-horizontal",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3686,8 +3686,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-bar-horizontal.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-bar-horizontal.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-horizontal.tsx"
         },
         {
@@ -3709,8 +3709,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-bar-interactive",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-bar-interactive",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "react",
@@ -3719,8 +3719,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-bar-interactive.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-bar-interactive.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-interactive.tsx"
         },
         {
@@ -3742,8 +3742,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-bar-label",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-bar-label",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3753,8 +3753,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-bar-label.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-bar-label.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-label.tsx"
         },
         {
@@ -3776,8 +3776,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-bar-label-custom",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-bar-label-custom",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3787,8 +3787,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-bar-label-custom.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-bar-label-custom.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-label-custom.tsx"
         },
         {
@@ -3810,8 +3810,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-bar-mixed",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-bar-mixed",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3821,8 +3821,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-bar-mixed.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-bar-mixed.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-mixed.tsx"
         },
         {
@@ -3844,8 +3844,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-bar-multiple",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-bar-multiple",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3855,8 +3855,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-bar-multiple.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-bar-multiple.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-multiple.tsx"
         },
         {
@@ -3878,8 +3878,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-bar-negative",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-bar-negative",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3889,8 +3889,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-bar-negative.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-bar-negative.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-negative.tsx"
         },
         {
@@ -3912,8 +3912,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-bar-stacked",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-bar-stacked",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3923,8 +3923,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-bar-stacked.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-bar-stacked.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-stacked.tsx"
         },
         {
@@ -3946,8 +3946,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-line-default",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-line-default",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3957,8 +3957,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-line-default.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-line-default.tsx",
           "path": "registry/new-york-v4/charts/chart-line-default.tsx"
         },
         {
@@ -3980,8 +3980,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-line-dots",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-line-dots",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3991,8 +3991,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-line-dots.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-line-dots.tsx",
           "path": "registry/new-york-v4/charts/chart-line-dots.tsx"
         },
         {
@@ -4014,8 +4014,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-line-dots-colors",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-line-dots-colors",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4025,8 +4025,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-line-dots-colors.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-line-dots-colors.tsx",
           "path": "registry/new-york-v4/charts/chart-line-dots-colors.tsx"
         },
         {
@@ -4048,8 +4048,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-line-dots-custom",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-line-dots-custom",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4059,8 +4059,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-line-dots-custom.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-line-dots-custom.tsx",
           "path": "registry/new-york-v4/charts/chart-line-dots-custom.tsx"
         },
         {
@@ -4082,8 +4082,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-line-interactive",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-line-interactive",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "react",
@@ -4092,8 +4092,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-line-interactive.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-line-interactive.tsx",
           "path": "registry/new-york-v4/charts/chart-line-interactive.tsx"
         },
         {
@@ -4115,8 +4115,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-line-label",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-line-label",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4126,8 +4126,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-line-label.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-line-label.tsx",
           "path": "registry/new-york-v4/charts/chart-line-label.tsx"
         },
         {
@@ -4149,8 +4149,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-line-label-custom",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-line-label-custom",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4160,8 +4160,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-line-label-custom.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-line-label-custom.tsx",
           "path": "registry/new-york-v4/charts/chart-line-label-custom.tsx"
         },
         {
@@ -4183,8 +4183,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-line-linear",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-line-linear",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4194,8 +4194,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-line-linear.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-line-linear.tsx",
           "path": "registry/new-york-v4/charts/chart-line-linear.tsx"
         },
         {
@@ -4217,8 +4217,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-line-multiple",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-line-multiple",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4228,8 +4228,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-line-multiple.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-line-multiple.tsx",
           "path": "registry/new-york-v4/charts/chart-line-multiple.tsx"
         },
         {
@@ -4251,8 +4251,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-line-step",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-line-step",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4262,8 +4262,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-line-step.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-line-step.tsx",
           "path": "registry/new-york-v4/charts/chart-line-step.tsx"
         },
         {
@@ -4285,8 +4285,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-pie-donut",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-pie-donut",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4296,8 +4296,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-pie-donut.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-pie-donut.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-donut.tsx"
         },
         {
@@ -4319,8 +4319,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-pie-donut-active",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-pie-donut-active",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4330,8 +4330,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-pie-donut-active.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-pie-donut-active.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-donut-active.tsx"
         },
         {
@@ -4353,8 +4353,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-pie-donut-text",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-pie-donut-text",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4364,8 +4364,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-pie-donut-text.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-pie-donut-text.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-donut-text.tsx"
         },
         {
@@ -4387,8 +4387,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-pie-interactive",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-pie-interactive",
+      "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-select",
         "clsx",
@@ -4399,8 +4399,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-pie-interactive.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-pie-interactive.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-interactive.tsx"
         },
         {
@@ -4427,8 +4427,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-pie-label",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-pie-label",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4438,8 +4438,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-pie-label.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-pie-label.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-label.tsx"
         },
         {
@@ -4461,8 +4461,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-pie-label-custom",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-pie-label-custom",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4472,8 +4472,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-pie-label-custom.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-pie-label-custom.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-label-custom.tsx"
         },
         {
@@ -4495,8 +4495,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-pie-label-list",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-pie-label-list",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4506,8 +4506,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-pie-label-list.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-pie-label-list.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-label-list.tsx"
         },
         {
@@ -4529,8 +4529,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-pie-legend",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-pie-legend",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "react",
@@ -4539,8 +4539,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-pie-legend.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-pie-legend.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-legend.tsx"
         },
         {
@@ -4562,8 +4562,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-pie-separator-none",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-pie-separator-none",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4573,8 +4573,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-pie-separator-none.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-pie-separator-none.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-separator-none.tsx"
         },
         {
@@ -4596,8 +4596,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-pie-simple",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-pie-simple",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4607,8 +4607,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-pie-simple.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-pie-simple.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-simple.tsx"
         },
         {
@@ -4630,8 +4630,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-pie-stacked",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-pie-stacked",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4641,8 +4641,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-pie-stacked.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-pie-stacked.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-stacked.tsx"
         },
         {
@@ -4664,8 +4664,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radar-default",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radar-default",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4675,8 +4675,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radar-default.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radar-default.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-default.tsx"
         },
         {
@@ -4698,8 +4698,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radar-dots",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radar-dots",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4709,8 +4709,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radar-dots.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radar-dots.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-dots.tsx"
         },
         {
@@ -4732,8 +4732,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radar-grid-circle",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radar-grid-circle",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4743,8 +4743,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radar-grid-circle.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radar-grid-circle.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-grid-circle.tsx"
         },
         {
@@ -4766,8 +4766,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radar-grid-circle-fill",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radar-grid-circle-fill",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4777,8 +4777,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radar-grid-circle-fill.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radar-grid-circle-fill.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-grid-circle-fill.tsx"
         },
         {
@@ -4800,8 +4800,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radar-grid-circle-no-lines",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radar-grid-circle-no-lines",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4811,8 +4811,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radar-grid-circle-no-lines.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radar-grid-circle-no-lines.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-grid-circle-no-lines.tsx"
         },
         {
@@ -4834,8 +4834,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radar-grid-custom",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radar-grid-custom",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4845,8 +4845,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radar-grid-custom.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radar-grid-custom.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-grid-custom.tsx"
         },
         {
@@ -4868,8 +4868,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radar-grid-fill",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radar-grid-fill",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4879,8 +4879,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radar-grid-fill.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radar-grid-fill.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-grid-fill.tsx"
         },
         {
@@ -4902,8 +4902,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radar-grid-none",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radar-grid-none",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4913,8 +4913,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radar-grid-none.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radar-grid-none.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-grid-none.tsx"
         },
         {
@@ -4936,8 +4936,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radar-icons",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radar-icons",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4947,8 +4947,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radar-icons.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radar-icons.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-icons.tsx"
         },
         {
@@ -4970,8 +4970,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radar-label-custom",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radar-label-custom",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4981,8 +4981,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radar-label-custom.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radar-label-custom.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-label-custom.tsx"
         },
         {
@@ -5004,8 +5004,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radar-legend",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radar-legend",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5015,8 +5015,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radar-legend.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radar-legend.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-legend.tsx"
         },
         {
@@ -5038,8 +5038,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radar-lines-only",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radar-lines-only",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5049,8 +5049,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radar-lines-only.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radar-lines-only.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-lines-only.tsx"
         },
         {
@@ -5072,8 +5072,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radar-multiple",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radar-multiple",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5083,8 +5083,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radar-multiple.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radar-multiple.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-multiple.tsx"
         },
         {
@@ -5106,8 +5106,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radar-radius",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radar-radius",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5117,8 +5117,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radar-radius.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radar-radius.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-radius.tsx"
         },
         {
@@ -5140,8 +5140,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radial-grid",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radial-grid",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5151,8 +5151,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radial-grid.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radial-grid.tsx",
           "path": "registry/new-york-v4/charts/chart-radial-grid.tsx"
         },
         {
@@ -5174,8 +5174,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radial-label",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radial-label",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5185,8 +5185,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radial-label.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radial-label.tsx",
           "path": "registry/new-york-v4/charts/chart-radial-label.tsx"
         },
         {
@@ -5208,8 +5208,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radial-shape",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radial-shape",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5219,8 +5219,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radial-shape.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radial-shape.tsx",
           "path": "registry/new-york-v4/charts/chart-radial-shape.tsx"
         },
         {
@@ -5242,8 +5242,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radial-simple",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radial-simple",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5253,8 +5253,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radial-simple.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radial-simple.tsx",
           "path": "registry/new-york-v4/charts/chart-radial-simple.tsx"
         },
         {
@@ -5276,8 +5276,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radial-stacked",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radial-stacked",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5287,8 +5287,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radial-stacked.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radial-stacked.tsx",
           "path": "registry/new-york-v4/charts/chart-radial-stacked.tsx"
         },
         {
@@ -5310,8 +5310,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-radial-text",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-radial-text",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5321,8 +5321,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-radial-text.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-radial-text.tsx",
           "path": "registry/new-york-v4/charts/chart-radial-text.tsx"
         },
         {
@@ -5344,8 +5344,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-tooltip-advanced",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-tooltip-advanced",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "react",
@@ -5354,8 +5354,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-tooltip-advanced.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-tooltip-advanced.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-advanced.tsx"
         },
         {
@@ -5377,8 +5377,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-tooltip-default",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-tooltip-default",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "react",
@@ -5387,8 +5387,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-tooltip-default.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-tooltip-default.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-default.tsx"
         },
         {
@@ -5410,8 +5410,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-tooltip-formatter",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-tooltip-formatter",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "react",
@@ -5420,8 +5420,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-tooltip-formatter.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-tooltip-formatter.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-formatter.tsx"
         },
         {
@@ -5443,8 +5443,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-tooltip-icons",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-tooltip-icons",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5454,8 +5454,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-tooltip-icons.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-tooltip-icons.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-icons.tsx"
         },
         {
@@ -5477,8 +5477,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-tooltip-indicator-line",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-tooltip-indicator-line",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "react",
@@ -5487,8 +5487,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-tooltip-indicator-line.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-tooltip-indicator-line.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-indicator-line.tsx"
         },
         {
@@ -5510,8 +5510,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-tooltip-indicator-none",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-tooltip-indicator-none",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "react",
@@ -5520,8 +5520,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-tooltip-indicator-none.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-tooltip-indicator-none.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-indicator-none.tsx"
         },
         {
@@ -5543,8 +5543,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-tooltip-label-custom",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-tooltip-label-custom",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "react",
@@ -5553,8 +5553,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-tooltip-label-custom.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-tooltip-label-custom.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-label-custom.tsx"
         },
         {
@@ -5576,8 +5576,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-tooltip-label-formatter",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-tooltip-label-formatter",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "react",
@@ -5586,8 +5586,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-tooltip-label-formatter.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-tooltip-label-formatter.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-label-formatter.tsx"
         },
         {
@@ -5609,8 +5609,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "new-york-v4-charts-chart-tooltip-label-none",
-      "type": "registry:file",
+      "name": "new-york-v4-chart-tooltip-label-none",
+      "type": "registry:component",
       "dependencies": [
         "clsx",
         "react",
@@ -5619,8 +5619,8 @@
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "new-york-v4/charts/chart-tooltip-label-none.tsx",
+          "type": "registry:component",
+          "target": "components/charts/new-york-v4/chart-tooltip-label-none.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-label-none.tsx"
         },
         {
