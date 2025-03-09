@@ -1,6 +1,6 @@
 {
   "name": "smart-registry",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "description": "A zero-configuration (no registry.json required), shadcn add / open in v0 compatible registry builder.",
   "keywords": [
     "components",
@@ -10,7 +10,9 @@
     "shadcn",
     "react",
     "nextjs",
-    "v0"
+    "v0",
+    "registry",
+    "smart"
   ],
   "homepage": "https://github.com/nrjdalal/smart-registry#readme",
   "bugs": "https://github.com/nrjdalal/smart-registry/issues",
