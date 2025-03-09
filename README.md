@@ -125,11 +125,13 @@ Author:
   ${author.name} <${author.email}> (${author.url})
 ```
 
-e.g. To generate the registry in the `public/r` directory.
+e.g. To generate the registry in the `json` directory from some file and directory at the working directory (`apps/www`).
 
 ```bash
-npx smart-registry path/to/file.ext path/to/directory ... --output public/r --cwd .
+npx smart-registry path/to/file.ext path/to/directory ... --output json --cwd apps/www
 ```
+
+- cwd is useful when working with monorepos or multiple projects.
 
 ## How it Works
 
@@ -161,7 +163,7 @@ public/
 
 ## Extending Properties
 
-You can add/extend the generated `public/registry.json` and `public/r/<registry-item>.json` files by creating a `registry.json` file in the root of your project. The properties in this file will be merged with the generated properties.
+You can add/extend the generated `public/r/registry.json` and `public/r/<registry-item>.json` files by creating a `registry.json` file in the root of your project. The properties in this file will be merged with the generated properties.
 
 We will consider the dialog component with the following directory structure to demonstrate the extension of properties.
 

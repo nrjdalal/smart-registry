@@ -13,7 +13,7 @@ const helpMessage = `Version:
   ${name}@${version}
 
 Usage:
-  $ ${name} [options] [files/directories] ...
+  $ ${name} [files/directories] ... [options]
 
 Arguments:
   files/directories    files or directories to build the registry from (optional)
@@ -40,9 +40,9 @@ const main = async () => {
     const { positionals, values } = parse({
       allowPositionals: true,
       options: {
+        output: { type: "string", short: "o", default: "public/r" },
         cwd: { type: "string", short: "c" },
         ignore: { type: "string", short: "i", default: "" },
-        output: { type: "string", short: "o", default: "public/r" },
         help: { type: "boolean", short: "h" },
         version: { type: "boolean", short: "v" },
       },
