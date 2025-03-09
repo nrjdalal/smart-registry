@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "cx",
+  "type": "registry:lib",
   "dependencies": [
     "clsx",
     "tailwind-merge"
@@ -12,6 +13,5 @@
       "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
       "path": "src/utils/cx.ts"
     }
-  ],
-  "type": "registry:lib"
+  ]
 }

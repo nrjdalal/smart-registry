@@ -159,7 +159,7 @@ const main = async () => {
             })
             .sort((a, b) => {
               const order = registryOrder.items.files.type.default
-              return order.indexOf(a.type) - order.indexOf(b.type)
+              return order.indexOf(b.type) - order.indexOf(a.type)
             }),
           // ~ Add properties from the registry.json items, which don't exist in the resolved registry-item
           ...Object.fromEntries(
@@ -180,7 +180,7 @@ const main = async () => {
 
         registryItem = Object.keys(registryItem)
           .sort((a, b) => {
-            const order = registryOrder.items.files.default
+            const order = registryOrder.items.default
             return order.indexOf(a) - order.indexOf(b)
           })
           .reduce(

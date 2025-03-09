@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Slider/slider.stories",
+  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-slider",
     "@radix-ui/react-slot",
@@ -12,6 +13,18 @@
     "tailwind-variants"
   ],
   "files": [
+    {
+      "type": "registry:lib",
+      "target": "utils/cx.ts",
+      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
+      "path": "src/utils/cx.ts"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/focusRing.ts",
+      "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
+      "path": "src/utils/focusRing.ts"
+    },
     {
       "type": "registry:component",
       "target": "components/Button/Button.tsx",
@@ -41,19 +54,6 @@
       "target": "components/Slider/slider.stories.tsx",
       "content": "import React from \"react\"\nimport type { Meta, StoryObj } from \"@storybook/react\"\n\nimport { Button } from \"@/components/Button/Button\"\nimport { Card } from \"@/components/Card/Card\"\nimport { Divider } from \"@/components/Divider/Divider\"\nimport { Slider } from \"@/components/Slider/Slider\"\n\nconst meta: Meta<typeof Slider> = {\n  title: \"ui/Slider\",\n  component: Slider,\n}\n\nexport default meta\ntype Story = StoryObj<typeof Slider>\n\n// eslint-disable-next-line @typescript-eslint/no-explicit-any\nconst ControlledSlider = (args: any) => {\n  const [value, setValue] = React.useState([55, 75])\n\n  return (\n    <Card className=\"w-96\">\n      <form\n        onSubmit={(event) => {\n          // eslint-disable-next-line @typescript-eslint/no-unused-expressions\n          event.preventDefault(),\n            alert(\"Submitted: \" + `${value[0]}, ${value[1]}`)\n        }}\n        onReset={() => setValue([55, 75])}\n      >\n        <Slider id=\"a\" value={value} onValueChange={setValue} {...args} />\n        <Divider />\n        <div className=\"flex gap-4\">\n          <Button type=\"submit\" className=\"mt-2 w-fit\">\n            Submit\n          </Button>\n\n          <Button type=\"reset\" variant=\"secondary\" className=\"mt-2 w-fit\">\n            Reset Input\n          </Button>\n        </div>\n      </form>\n      <Divider />\n      <p className=\"mt-2 text-sm text-gray-500\">\n        Slider value:\n        <span className=\"ml-1 font-semibold text-gray-900 dark:text-gray-50\">\n          {value[0]}, {value[1]}\n        </span>\n      </p>\n    </Card>\n  )\n}\n\nexport const Default: Story = {\n  render: () => <Slider defaultValue={[55]} />,\n}\n\nexport const Range: Story = {\n  render: () => <Slider defaultValue={[55, 75]} />,\n}\n\nexport const Disabled: Story = {\n  render: () => <Slider defaultValue={[55]} disabled />,\n}\n\nexport const Inverted: Story = {\n  render: () => <Slider defaultValue={[55]} inverted />,\n}\n\nexport const Vertical: Story = {\n  render: () => (\n    <div className=\"h-20\">\n      <Slider defaultValue={[55]} orientation=\"vertical\" />\n    </div>\n  ),\n}\n\nexport const StepSize: Story = {\n  render: () => <Slider defaultValue={[55]} step={10} />,\n}\n\nexport const ControlledForm: Story = {\n  render: ControlledSlider,\n}\n",
       "path": "src/components/Slider/slider.stories.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "utils/cx.ts",
-      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
-      "path": "src/utils/cx.ts"
-    },
-    {
-      "type": "registry:lib",
-      "target": "utils/focusRing.ts",
-      "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
-      "path": "src/utils/focusRing.ts"
     }
-  ],
-  "type": "registry:component"
+  ]
 }

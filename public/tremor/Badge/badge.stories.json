@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Badge/badge.stories",
+  "type": "registry:component",
   "dependencies": [
     "@storybook/react",
     "clsx",
@@ -9,6 +10,12 @@
     "tailwind-variants"
   ],
   "files": [
+    {
+      "type": "registry:lib",
+      "target": "utils/cx.ts",
+      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
+      "path": "src/utils/cx.ts"
+    },
     {
       "type": "registry:component",
       "target": "components/Badge/Badge.tsx",
@@ -20,13 +27,6 @@
       "target": "components/Badge/badge.stories.tsx",
       "content": "import type { Meta, StoryObj } from \"@storybook/react\"\n\nimport { cx } from \"@/utils/cx\"\nimport { Badge, badgeVariants } from \"@/components/Badge/Badge\"\n\nconst meta: Meta<typeof Badge> = {\n  title: \"ui/Badge\",\n  component: Badge,\n  args: {\n    children: \"Badge\",\n  },\n  argTypes: {\n    variant: {\n      control: \"radio\",\n      options: [...Object.keys(badgeVariants.variants.variant)],\n    },\n  },\n}\n\nexport default meta\ntype Story = StoryObj<typeof Badge>\n\nexport const Default: Story = {}\n\nexport const Variants: Story = {\n  render: () => (\n    <div className=\"flex flex-wrap gap-4\">\n      <Badge variant=\"neutral\">Neutral</Badge>\n      <Badge>Default</Badge>\n      <Badge variant=\"success\">Success</Badge>\n      <Badge variant=\"error\">Error</Badge>\n      <Badge variant=\"warning\">Warning</Badge>\n    </div>\n  ),\n}\n\nexport const AnchorWithBadgeVariantsStyle: Story = {\n  render: () => (\n    <div className=\"flex flex-wrap gap-4\">\n      <a\n        className={cx(badgeVariants({ variant: \"success\" }), \"cursor-pointer\")}\n      >\n        Anchor element\n      </a>\n    </div>\n  ),\n}\n\nexport const CustomisedBadge: Story = {\n  render: () => (\n    <div className=\"flex items-center justify-between gap-8 rounded-md bg-blue-50 py-2.5 pl-2.5 pr-4 text-sm dark:bg-blue-900/50\">\n      <div className=\"flex items-center gap-2 truncate\">\n        <Badge className=\"ring-none dark:ring-none rounded-full bg-blue-800 text-white dark:bg-blue-500 dark:text-white\">\n          Export Request\n        </Badge>\n        <span className=\"truncate text-blue-800 dark:text-blue-400\">\n          Your export is ready for download:{\" \"}\n          <span className=\"font-semibold\">263 transactions</span>\n        </span>\n      </div>\n      <button className=\"font-semibold text-blue-800 dark:text-blue-400\">\n        Download\n      </button>\n    </div>\n  ),\n}\n",
       "path": "src/components/Badge/badge.stories.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "utils/cx.ts",
-      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
-      "path": "src/utils/cx.ts"
     }
-  ],
-  "type": "registry:component"
+  ]
 }

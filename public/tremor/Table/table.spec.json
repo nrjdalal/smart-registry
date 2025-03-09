@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Table/table.spec",
+  "type": "registry:component",
   "dependencies": [
     "@playwright/test"
   ],
@@ -11,6 +12,5 @@
       "content": "import { expect, test } from \"@playwright/test\"\n\ntest.describe(\"Expect Table\", () => {\n  test(\"to render TableRoot\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-table--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByTestId(\"table-root\"),\n    ).toBeVisible()\n  })\n\n  test(\"to render Table\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-table--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByTestId(\"table\"),\n    ).toBeVisible()\n  })\n\n  test(\"to render TableCaption\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-table--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByTestId(\"table-caption\"),\n    ).toBeVisible()\n  })\n\n  test(\"to render TableHead\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-table--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByTestId(\"table-head\"),\n    ).toBeVisible()\n  })\n\n  test(\"to render TableRow\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-table--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByTestId(\"table-row\"),\n    ).toBeVisible()\n  })\n  test(\"to render TableHeaderCell\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-table--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByTestId(\"table-header-cell\"),\n    ).toBeVisible()\n  })\n  test(\"to render TableBody\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-table--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByTestId(\"table-body\"),\n    ).toBeVisible()\n  })\n  test(\"to render TableCell\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-table--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByTestId(\"table-cell\"),\n    ).toHaveCount(13)\n  })\n\n  test(\"to render TableFoot\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-table--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByTestId(\"table-foot\"),\n    ).toBeVisible()\n  })\n})\n",
       "path": "src/components/Table/table.spec.ts"
     }
-  ],
-  "type": "registry:component"
+  ]
 }

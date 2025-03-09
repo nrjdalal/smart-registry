@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "focusInput",
+  "type": "registry:lib",
   "files": [
     {
       "type": "registry:lib",
@@ -8,6 +9,5 @@
       "content": "// Tremor focusInput [v0.0.1]\n\nexport const focusInput = [\n  // base\n  \"focus:ring-2\",\n  // ring color\n  \"focus:ring-blue-200 focus:dark:ring-blue-700/30\",\n  // border color\n  \"focus:border-blue-500 focus:dark:border-blue-700\",\n]\n",
       "path": "src/utils/focusInput.ts"
     }
-  ],
-  "type": "registry:lib"
+  ]
 }

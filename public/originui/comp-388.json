@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-388",
+  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-popover",
     "@radix-ui/react-slot",
@@ -15,18 +16,6 @@
     "https://originui.com/r/textarea.json"
   ],
   "files": [
-    {
-      "type": "registry:component",
-      "target": "components/comp-388.tsx",
-      "content": "import { Button } from \"@/components/ui/button\";\nimport { Popover, PopoverContent, PopoverTrigger } from \"@/components/ui/popover\";\nimport { Textarea } from \"@/components/ui/textarea\";\n\nexport default function Component() {\n  return (\n    <div className=\"flex flex-col gap-4\">\n      <Popover>\n        <PopoverTrigger asChild>\n          <Button variant=\"outline\">Feedback</Button>\n        </PopoverTrigger>\n        <PopoverContent className=\"w-72\">\n          <h2 className=\"mb-2 text-sm font-semibold\">SendIcon us feedback</h2>\n          <form className=\"space-y-3\">\n            <Textarea\n              id=\"feedback\"\n              placeholder=\"How can we improve Origin UI?\"\n              aria-label=\"SendIcon feedback\"\n            />\n            <div className=\"flex flex-col sm:flex-row sm:justify-end\">\n              <Button size=\"sm\">SendIcon feedback</Button>\n            </div>\n          </form>\n        </PopoverContent>\n      </Popover>\n    </div>\n  );\n}\n",
-      "path": "registry/default/components/comp-388.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n",
-      "path": "registry/default/lib/utils.ts"
-    },
     {
       "type": "registry:ui",
       "target": "components/ui/button.tsx",
@@ -44,6 +33,18 @@
       "target": "components/ui/textarea.tsx",
       "content": "import * as React from \"react\";\n\nimport { cn } from \"@/lib/utils\";\n\nfunction Textarea({ className, ...props }: React.ComponentProps<\"textarea\">) {\n  return (\n    <textarea\n      data-slot=\"textarea\"\n      className={cn(\n        \"border-input placeholder:text-muted-foreground/70 focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive flex min-h-19.5 w-full rounded-md border bg-transparent px-3 py-2 text-sm shadow-xs transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50\",\n        className,\n      )}\n      {...props}\n    />\n  );\n}\nTextarea.displayName = \"Textarea\";\n\nexport { Textarea };\n",
       "path": "registry/default/ui/textarea.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n",
+      "path": "registry/default/lib/utils.ts"
+    },
+    {
+      "type": "registry:component",
+      "target": "components/comp-388.tsx",
+      "content": "import { Button } from \"@/components/ui/button\";\nimport { Popover, PopoverContent, PopoverTrigger } from \"@/components/ui/popover\";\nimport { Textarea } from \"@/components/ui/textarea\";\n\nexport default function Component() {\n  return (\n    <div className=\"flex flex-col gap-4\">\n      <Popover>\n        <PopoverTrigger asChild>\n          <Button variant=\"outline\">Feedback</Button>\n        </PopoverTrigger>\n        <PopoverContent className=\"w-72\">\n          <h2 className=\"mb-2 text-sm font-semibold\">SendIcon us feedback</h2>\n          <form className=\"space-y-3\">\n            <Textarea\n              id=\"feedback\"\n              placeholder=\"How can we improve Origin UI?\"\n              aria-label=\"SendIcon feedback\"\n            />\n            <div className=\"flex flex-col sm:flex-row sm:justify-end\">\n              <Button size=\"sm\">SendIcon feedback</Button>\n            </div>\n          </form>\n        </PopoverContent>\n      </Popover>\n    </div>\n  );\n}\n",
+      "path": "registry/default/components/comp-388.tsx"
     }
   ],
   "meta": {
@@ -54,6 +55,5 @@
       "radix"
     ],
     "style": 1
-  },
-  "type": "registry:component"
+  }
 }

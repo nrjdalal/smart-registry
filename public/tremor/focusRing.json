@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "focusRing",
+  "type": "registry:lib",
   "files": [
     {
       "type": "registry:lib",
@@ -8,6 +9,5 @@
       "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
       "path": "src/utils/focusRing.ts"
     }
-  ],
-  "type": "registry:lib"
+  ]
 }

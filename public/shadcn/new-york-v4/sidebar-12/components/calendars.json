@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york-v4/sidebar-12/components/calendars",
+  "type": "registry:block",
   "dependencies": [
     "@radix-ui/react-collapsible",
     "@radix-ui/react-dialog",
@@ -14,30 +15,6 @@
     "tailwind-merge"
   ],
   "files": [
-    {
-      "type": "registry:block",
-      "target": "blocks/new-york-v4/sidebar-12/components/calendars.tsx",
-      "content": "import * as React from \"react\"\nimport { Check, ChevronRight } from \"lucide-react\"\n\nimport {\n  Collapsible,\n  CollapsibleContent,\n  CollapsibleTrigger,\n} from \"@/components/ui/new-york-v4/collapsible\"\nimport {\n  SidebarGroup,\n  SidebarGroupContent,\n  SidebarGroupLabel,\n  SidebarMenu,\n  SidebarMenuButton,\n  SidebarMenuItem,\n  SidebarSeparator,\n} from \"@/components/ui/new-york-v4/sidebar\"\n\nexport function Calendars({\n  calendars,\n}: {\n  calendars: {\n    name: string\n    items: string[]\n  }[]\n}) {\n  return (\n    <>\n      {calendars.map((calendar, index) => (\n        <React.Fragment key={calendar.name}>\n          <SidebarGroup key={calendar.name} className=\"py-0\">\n            <Collapsible\n              defaultOpen={index === 0}\n              className=\"group/collapsible\"\n            >\n              <SidebarGroupLabel\n                asChild\n                className=\"group/label text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground w-full text-sm\"\n              >\n                <CollapsibleTrigger>\n                  {calendar.name}{\" \"}\n                  <ChevronRight className=\"ml-auto transition-transform group-data-[state=open]/collapsible:rotate-90\" />\n                </CollapsibleTrigger>\n              </SidebarGroupLabel>\n              <CollapsibleContent>\n                <SidebarGroupContent>\n                  <SidebarMenu>\n                    {calendar.items.map((item, index) => (\n                      <SidebarMenuItem key={item}>\n                        <SidebarMenuButton>\n                          <div\n                            data-active={index < 2}\n                            className=\"group/calendar-item border-sidebar-border text-sidebar-primary-foreground data-[active=true]:border-sidebar-primary data-[active=true]:bg-sidebar-primary flex aspect-square size-4 shrink-0 items-center justify-center rounded-sm border\"\n                          >\n                            <Check className=\"hidden size-3 group-data-[active=true]/calendar-item:block\" />\n                          </div>\n                          {item}\n                        </SidebarMenuButton>\n                      </SidebarMenuItem>\n                    ))}\n                  </SidebarMenu>\n                </SidebarGroupContent>\n              </CollapsibleContent>\n            </Collapsible>\n          </SidebarGroup>\n          <SidebarSeparator className=\"mx-0\" />\n        </React.Fragment>\n      ))}\n    </>\n  )\n}\n",
-      "path": "registry/new-york-v4/blocks/sidebar-12/components/calendars.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/new-york-v4/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
-      "path": "registry/new-york-v4/lib/utils.ts"
-    },
-    {
-      "type": "registry:hook",
-      "target": "hooks/new-york-v4/use-mobile.ts",
-      "content": "import * as React from \"react\"\n\nconst MOBILE_BREAKPOINT = 768\n\nexport function useIsMobile() {\n  const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined)\n\n  React.useEffect(() => {\n    const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`)\n    const onChange = () => {\n      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    }\n    mql.addEventListener(\"change\", onChange)\n    setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    return () => mql.removeEventListener(\"change\", onChange)\n  }, [])\n\n  return !!isMobile\n}\n",
-      "path": "registry/new-york-v4/hooks/use-mobile.ts"
-    },
     {
       "type": "registry:ui",
       "target": "components/ui/new-york-v4/button.tsx",
@@ -85,7 +62,30 @@
       "target": "components/ui/new-york-v4/tooltip.tsx",
       "content": "\"use client\"\n\nimport * as React from \"react\"\nimport * as TooltipPrimitive from \"@radix-ui/react-tooltip\"\n\nimport { cn } from \"@/lib/utils\"\n\nfunction TooltipProvider({\n  delayDuration = 0,\n  ...props\n}: React.ComponentProps<typeof TooltipPrimitive.Provider>) {\n  return (\n    <TooltipPrimitive.Provider\n      data-slot=\"tooltip-provider\"\n      delayDuration={delayDuration}\n      {...props}\n    />\n  )\n}\n\nfunction Tooltip({\n  ...props\n}: React.ComponentProps<typeof TooltipPrimitive.Root>) {\n  return (\n    <TooltipProvider>\n      <TooltipPrimitive.Root data-slot=\"tooltip\" {...props} />\n    </TooltipProvider>\n  )\n}\n\nfunction TooltipTrigger({\n  ...props\n}: React.ComponentProps<typeof TooltipPrimitive.Trigger>) {\n  return <TooltipPrimitive.Trigger data-slot=\"tooltip-trigger\" {...props} />\n}\n\nfunction TooltipContent({\n  className,\n  sideOffset = 0,\n  children,\n  ...props\n}: React.ComponentProps<typeof TooltipPrimitive.Content>) {\n  return (\n    <TooltipPrimitive.Portal>\n      <TooltipPrimitive.Content\n        data-slot=\"tooltip-content\"\n        sideOffset={sideOffset}\n        className={cn(\n          \"bg-primary text-primary-foreground animate-in fade-in-0 zoom-in-95 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 z-50 w-fit rounded-md px-3 py-1.5 text-xs text-balance\",\n          className\n        )}\n        {...props}\n      >\n        {children}\n        <TooltipPrimitive.Arrow className=\"bg-primary fill-primary z-50 size-2.5 translate-y-[calc(-50%_-_2px)] rotate-45 rounded-[2px]\" />\n      </TooltipPrimitive.Content>\n    </TooltipPrimitive.Portal>\n  )\n}\n\nexport { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider }\n",
       "path": "registry/new-york-v4/ui/tooltip.tsx"
+    },
+    {
+      "type": "registry:hook",
+      "target": "hooks/new-york-v4/use-mobile.ts",
+      "content": "import * as React from \"react\"\n\nconst MOBILE_BREAKPOINT = 768\n\nexport function useIsMobile() {\n  const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined)\n\n  React.useEffect(() => {\n    const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`)\n    const onChange = () => {\n      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    }\n    mql.addEventListener(\"change\", onChange)\n    setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    return () => mql.removeEventListener(\"change\", onChange)\n  }, [])\n\n  return !!isMobile\n}\n",
+      "path": "registry/new-york-v4/hooks/use-mobile.ts"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
+      "path": "lib/utils.ts"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/new-york-v4/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
+      "path": "registry/new-york-v4/lib/utils.ts"
+    },
+    {
+      "type": "registry:block",
+      "target": "blocks/new-york-v4/sidebar-12/components/calendars.tsx",
+      "content": "import * as React from \"react\"\nimport { Check, ChevronRight } from \"lucide-react\"\n\nimport {\n  Collapsible,\n  CollapsibleContent,\n  CollapsibleTrigger,\n} from \"@/components/ui/new-york-v4/collapsible\"\nimport {\n  SidebarGroup,\n  SidebarGroupContent,\n  SidebarGroupLabel,\n  SidebarMenu,\n  SidebarMenuButton,\n  SidebarMenuItem,\n  SidebarSeparator,\n} from \"@/components/ui/new-york-v4/sidebar\"\n\nexport function Calendars({\n  calendars,\n}: {\n  calendars: {\n    name: string\n    items: string[]\n  }[]\n}) {\n  return (\n    <>\n      {calendars.map((calendar, index) => (\n        <React.Fragment key={calendar.name}>\n          <SidebarGroup key={calendar.name} className=\"py-0\">\n            <Collapsible\n              defaultOpen={index === 0}\n              className=\"group/collapsible\"\n            >\n              <SidebarGroupLabel\n                asChild\n                className=\"group/label text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground w-full text-sm\"\n              >\n                <CollapsibleTrigger>\n                  {calendar.name}{\" \"}\n                  <ChevronRight className=\"ml-auto transition-transform group-data-[state=open]/collapsible:rotate-90\" />\n                </CollapsibleTrigger>\n              </SidebarGroupLabel>\n              <CollapsibleContent>\n                <SidebarGroupContent>\n                  <SidebarMenu>\n                    {calendar.items.map((item, index) => (\n                      <SidebarMenuItem key={item}>\n                        <SidebarMenuButton>\n                          <div\n                            data-active={index < 2}\n                            className=\"group/calendar-item border-sidebar-border text-sidebar-primary-foreground data-[active=true]:border-sidebar-primary data-[active=true]:bg-sidebar-primary flex aspect-square size-4 shrink-0 items-center justify-center rounded-sm border\"\n                          >\n                            <Check className=\"hidden size-3 group-data-[active=true]/calendar-item:block\" />\n                          </div>\n                          {item}\n                        </SidebarMenuButton>\n                      </SidebarMenuItem>\n                    ))}\n                  </SidebarMenu>\n                </SidebarGroupContent>\n              </CollapsibleContent>\n            </Collapsible>\n          </SidebarGroup>\n          <SidebarSeparator className=\"mx-0\" />\n        </React.Fragment>\n      ))}\n    </>\n  )\n}\n",
+      "path": "registry/new-york-v4/blocks/sidebar-12/components/calendars.tsx"
     }
-  ],
-  "type": "registry:block"
+  ]
 }

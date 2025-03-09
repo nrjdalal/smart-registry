@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Toggle/toggle.spec",
+  "type": "registry:component",
   "dependencies": [
     "@playwright/test"
   ],
@@ -11,6 +12,5 @@
       "content": "import { expect, test } from \"@playwright/test\"\n\ntest.describe(\"Expect Toggle\", () => {\n  test(\"to render TableRoot\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-toggle--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]').getByLabel('Toggle star')\n    ).toBeVisible()\n  })\n\n})\n",
       "path": "src/components/Toggle/toggle.spec.ts"
     }
-  ],
-  "type": "registry:component"
+  ]
 }

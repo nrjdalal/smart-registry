@@ -1,16 +1,17 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "default/internal/sink/components/skeleton-demo",
+  "type": "registry:file",
   "dependencies": [
     "clsx",
     "tailwind-merge"
   ],
   "files": [
     {
-      "type": "registry:file",
-      "target": "default/internal/sink/components/skeleton-demo.tsx",
-      "content": "import { Skeleton } from \"@/components/ui/skeleton\"\n\nexport function SkeletonDemo() {\n  return (\n    <div className=\"flex items-center space-x-4\">\n      <Skeleton className=\"h-12 w-12 rounded-full\" />\n      <div className=\"space-y-2\">\n        <Skeleton className=\"h-4 w-[250px]\" />\n        <Skeleton className=\"h-4 w-[200px]\" />\n      </div>\n    </div>\n  )\n}\n",
-      "path": "registry/default/internal/sink/components/skeleton-demo.tsx"
+      "type": "registry:ui",
+      "target": "components/ui/skeleton.tsx",
+      "content": "import { cn } from \"@/lib/utils\"\n\nfunction Skeleton({\n  className,\n  ...props\n}: React.HTMLAttributes<HTMLDivElement>) {\n  return (\n    <div\n      className={cn(\"animate-pulse rounded-md bg-muted\", className)}\n      {...props}\n    />\n  )\n}\n\nexport { Skeleton }\n",
+      "path": "registry/default/ui/skeleton.tsx"
     },
     {
       "type": "registry:lib",
@@ -19,11 +20,10 @@
       "path": "lib/utils.ts"
     },
     {
-      "type": "registry:ui",
-      "target": "components/ui/skeleton.tsx",
-      "content": "import { cn } from \"@/lib/utils\"\n\nfunction Skeleton({\n  className,\n  ...props\n}: React.HTMLAttributes<HTMLDivElement>) {\n  return (\n    <div\n      className={cn(\"animate-pulse rounded-md bg-muted\", className)}\n      {...props}\n    />\n  )\n}\n\nexport { Skeleton }\n",
-      "path": "registry/default/ui/skeleton.tsx"
+      "type": "registry:file",
+      "target": "default/internal/sink/components/skeleton-demo.tsx",
+      "content": "import { Skeleton } from \"@/components/ui/skeleton\"\n\nexport function SkeletonDemo() {\n  return (\n    <div className=\"flex items-center space-x-4\">\n      <Skeleton className=\"h-12 w-12 rounded-full\" />\n      <div className=\"space-y-2\">\n        <Skeleton className=\"h-4 w-[250px]\" />\n        <Skeleton className=\"h-4 w-[200px]\" />\n      </div>\n    </div>\n  )\n}\n",
+      "path": "registry/default/internal/sink/components/skeleton-demo.tsx"
     }
-  ],
-  "type": "registry:file"
+  ]
 }

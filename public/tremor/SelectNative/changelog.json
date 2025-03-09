@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "SelectNative/changelog",
+  "type": "registry:component",
   "files": [
     {
       "type": "registry:component",
@@ -8,6 +9,5 @@
       "content": "# Tremor SelectNative Changelog\n\n## 0.0.1\n\n### Changes\n\n- Chore: Add `tremor-id`\n",
       "path": "src/components/SelectNative/changelog.md"
     }
-  ],
-  "type": "registry:component"
+  ]
 }

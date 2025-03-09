@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Tracker/tracker.spec",
+  "type": "registry:component",
   "dependencies": [
     "@playwright/test"
   ],
@@ -11,6 +12,5 @@
       "content": "import { expect, test } from \"@playwright/test\"\n\ntest.describe(\"Expect tracker default\", () => {\n  test(\"to be rendered\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/visualization-tracker--default\",\n    )\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByTestId(\"tracker\"),\n    ).toBeVisible()\n  })\n  test(\"to have a bar\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/visualization-tracker--default\",\n    )\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByTestId(\"tracker\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .locator(\".size-full > .size-full\")\n        .first(),\n    ).toBeVisible()\n  })\n  test(\"to have a tooltip\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/visualization-tracker--default\",\n    )\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByTestId(\"tracker\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .locator(\".size-full > .size-full\")\n        .first(),\n    ).toBeVisible()\n    page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .locator(\".size-full > .size-full\")\n      .first()\n      .hover()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Tracker Info\"),\n    ).toBeVisible()\n  })\n})\n",
       "path": "src/components/Tracker/tracker.spec.ts"
     }
-  ],
-  "type": "registry:component"
+  ]
 }

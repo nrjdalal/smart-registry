@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "hasOnlyOneValueForKey",
+  "type": "registry:lib",
   "files": [
     {
       "type": "registry:lib",
@@ -8,6 +9,5 @@
       "content": "/* eslint-disable @typescript-eslint/no-explicit-any */\n// Tremor hasOnlyOneValueForKey [v0.1.0]\n\nexport function hasOnlyOneValueForKey(\n  array: any[],\n  keyToCheck: string,\n): boolean {\n  const val: any[] = []\n\n  for (const obj of array) {\n    if (Object.prototype.hasOwnProperty.call(obj, keyToCheck)) {\n      val.push(obj[keyToCheck])\n      if (val.length > 1) {\n        return false\n      }\n    }\n  }\n\n  return true\n}\n",
       "path": "src/utils/hasOnlyOneValueForKey.ts"
     }
-  ],
-  "type": "registry:lib"
+  ]
 }

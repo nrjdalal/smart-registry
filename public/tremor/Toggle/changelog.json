@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Toggle/changelog",
+  "type": "registry:component",
   "files": [
     {
       "type": "registry:component",
@@ -8,6 +9,5 @@
       "content": "# Tremor Toggle Changelog\n",
       "path": "src/components/Toggle/changelog.md"
     }
-  ],
-  "type": "registry:component"
+  ]
 }

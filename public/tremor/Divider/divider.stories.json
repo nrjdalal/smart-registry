@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Divider/divider.stories",
+  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-slot",
     "@remixicon/react",
@@ -11,6 +12,18 @@
     "tailwind-variants"
   ],
   "files": [
+    {
+      "type": "registry:lib",
+      "target": "utils/cx.ts",
+      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
+      "path": "src/utils/cx.ts"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/focusRing.ts",
+      "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
+      "path": "src/utils/focusRing.ts"
+    },
     {
       "type": "registry:component",
       "target": "components/Button/Button.tsx",
@@ -28,19 +41,6 @@
       "target": "components/Divider/divider.stories.tsx",
       "content": "import { RiCalendar2Line } from \"@remixicon/react\"\nimport type { Meta, StoryObj } from \"@storybook/react\"\n\nimport { Button } from \"@/components/Button/Button\"\nimport { Divider } from \"@/components/Divider/Divider\"\n\nconst meta: Meta<typeof Divider> = {\n  title: \"ui/Divider\",\n  component: Divider,\n}\n\nexport default meta\ntype Story = StoryObj<typeof Divider>\n\nexport const Default: Story = {\n  render: () => <Divider />,\n}\n\nexport const WithChildren: Story = {\n  render: () => (\n    <div className=\"w-96\">\n      <Divider />\n      <Divider>\n        <RiCalendar2Line className=\"h-5 w-5\" />\n      </Divider>\n      <Divider>Standard</Divider>\n      <Divider>\n        <span className=\"px-4\">With little bit more space</span>\n      </Divider>\n    </div>\n  ),\n}\n\nexport const MoreText: Story = {\n  render: () => (\n    <>\n      <p className=\"text-sm text-gray-500 dark:text-gray-500\">Tickets Sold</p>\n      <p className=\"text-3xl font-semibold text-gray-900 dark:text-gray-50\">\n        1,587\n      </p>\n      <Divider>Details</Divider>\n      <p className=\"mt-2 text-sm leading-7 text-gray-500 dark:text-gray-500\">\n        Ticket sales peaked in March, largely due to the \"March Mountain\n        Madness\" event on March 12th, drawing significant tourist interest.\n        Operational efficiencies and local hotel partnerships further boosted\n        sales. Additionally, targeted social media promotions ahead of the event\n        significantly increased online bookings.\n      </p>\n    </>\n  ),\n}\n\nexport const ButtonChild: Story = {\n  render: () => (\n    <Divider>\n      <Button variant=\"secondary\" className=\"rounded-full\">\n        Show more\n      </Button>\n    </Divider>\n  ),\n}\n",
       "path": "src/components/Divider/divider.stories.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "utils/cx.ts",
-      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
-      "path": "src/utils/cx.ts"
-    },
-    {
-      "type": "registry:lib",
-      "target": "utils/focusRing.ts",
-      "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
-      "path": "src/utils/focusRing.ts"
     }
-  ],
-  "type": "registry:component"
+  ]
 }

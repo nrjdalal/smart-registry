@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "ComboChart/changelog",
+  "type": "registry:component",
   "files": [
     {
       "type": "registry:component",
@@ -8,6 +9,5 @@
       "content": "# Tremor ComboChart Changelog\n\n## 0.0.0\n\n### Changes\n",
       "path": "src/components/ComboChart/changelog.md"
     }
-  ],
-  "type": "registry:component"
+  ]
 }

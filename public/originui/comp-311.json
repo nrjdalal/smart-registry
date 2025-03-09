@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-311",
+  "type": "registry:component",
   "files": [
     {
       "type": "registry:component",
@@ -16,6 +17,5 @@
       "subscribe"
     ],
     "colSpan": 3
-  },
-  "type": "registry:component"
+  }
 }

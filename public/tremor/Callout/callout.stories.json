@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Callout/callout.stories",
+  "type": "registry:component",
   "dependencies": [
     "@remixicon/react",
     "@storybook/react",
@@ -10,6 +11,12 @@
     "tailwind-variants"
   ],
   "files": [
+    {
+      "type": "registry:lib",
+      "target": "utils/cx.ts",
+      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
+      "path": "src/utils/cx.ts"
+    },
     {
       "type": "registry:component",
       "target": "components/Callout/Callout.tsx",
@@ -21,13 +28,6 @@
       "target": "components/Callout/callout.stories.tsx",
       "content": "import { RiErrorWarningFill, RiInformation2Fill } from \"@remixicon/react\"\nimport type { Meta, StoryObj } from \"@storybook/react\"\n\nimport { Callout, calloutVariants } from \"@/components/Callout/Callout\"\n\nconst meta: Meta<typeof Callout> = {\n  title: \"ui/Callout\",\n  component: Callout,\n  args: {\n    title: \"Sales Performance\",\n    children:\n      \"System Update: Enhanced Salesforce and Dynamics 365 integration now delivers key sales performance metrics directly to your dashboard for improved target achievement.\",\n  },\n  argTypes: {\n    variant: {\n      control: \"radio\",\n      options: [...Object.keys(calloutVariants.variants.variant)],\n    },\n  },\n}\n\nexport default meta\ntype Story = StoryObj<typeof Callout>\n\nexport const Default: Story = {}\n\nexport const Success: Story = {\n  args: {\n    variant: \"success\",\n  },\n}\n\nexport const Error: Story = {\n  args: {\n    variant: \"error\",\n  },\n}\n\nexport const Warning: Story = {\n  args: {\n    variant: \"warning\",\n  },\n}\n\nexport const Neutral: Story = {\n  args: {\n    variant: \"neutral\",\n  },\n}\n\nexport const WithIcon: Story = {\n  args: {\n    icon: RiErrorWarningFill,\n    title: \"AWS Credit Alert\",\n    children:\n      \"Warning: Your AWS credits are nearly depleted. Please review your usage and consider adding more credits to avoid service interruptions. Visit your account dashboard for details.\",\n  },\n}\n\nexport const WithIconElement: Story = {\n  args: {\n    icon: <RiInformation2Fill className=\"mr-1.5 h-5 w-5 shrink-0\" />,\n    title: \"Information\",\n    children: \"Visit your account dashboard for details.\",\n  },\n}\n",
       "path": "src/components/Callout/callout.stories.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "utils/cx.ts",
-      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
-      "path": "src/utils/cx.ts"
     }
-  ],
-  "type": "registry:component"
+  ]
 }

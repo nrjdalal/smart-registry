@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Popover/popover.spec",
+  "type": "registry:component",
   "dependencies": [
     "@playwright/test"
   ],
@@ -11,6 +12,5 @@
       "content": "import { expect, test } from \"@playwright/test\"\n\ntest.describe(\"Expect popover default\", () => {\n  test(\"to be rendered\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-popover--default\")\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByText(\"Open\")\n      .click()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Place content for the popover\"),\n    ).toBeVisible()\n  })\n\n  test(\"to be rendered and closeable\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-popover--default\")\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByText(\"Open\")\n      .click()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Place content for the popover\"),\n    ).toBeVisible()\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByText(\"Open\")\n      .click()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Place content for the popover\"),\n    ).toHaveCount(0)\n  })\n})\n",
       "path": "src/components/Popover/popover.spec.ts"
     }
-  ],
-  "type": "registry:component"
+  ]
 }

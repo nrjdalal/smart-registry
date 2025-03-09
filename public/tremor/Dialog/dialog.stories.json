@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Dialog/dialog.stories",
+  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-dialog",
     "@radix-ui/react-slot",
@@ -12,6 +13,18 @@
     "tailwind-variants"
   ],
   "files": [
+    {
+      "type": "registry:lib",
+      "target": "utils/cx.ts",
+      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
+      "path": "src/utils/cx.ts"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/focusRing.ts",
+      "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
+      "path": "src/utils/focusRing.ts"
+    },
     {
       "type": "registry:component",
       "target": "components/Button/Button.tsx",
@@ -29,19 +42,6 @@
       "target": "components/Dialog/dialog.stories.tsx",
       "content": "import React from \"react\"\nimport type { Meta, StoryObj } from \"@storybook/react\"\n\nimport { Button } from \"@/components/Button/Button\"\nimport {\n  Dialog,\n  DialogClose,\n  DialogContent,\n  DialogDescription,\n  DialogFooter,\n  DialogHeader,\n  DialogTitle,\n  DialogTrigger,\n} from \"@/components/Dialog/Dialog\"\n\nconst meta: Meta<typeof Dialog> = {\n  title: \"ui/Dialog\",\n  component: Dialog,\n  parameters: {\n    layout: \"centered\",\n  },\n}\n\nexport default meta\ntype Story = StoryObj<typeof Dialog>\n\nexport const Default: Story = {\n  render: () => {\n    return (\n      <>\n        <Dialog>\n          <DialogTrigger asChild>\n            <Button variant=\"secondary\">Open Dialog</Button>\n          </DialogTrigger>\n          <DialogContent className=\"sm:max-w-lg\">\n            <DialogHeader>\n              <DialogTitle>Account Created Successfully</DialogTitle>\n              <DialogDescription className=\"mt-1 text-sm/7\">\n                Your account has been created successfully. You can now login to\n                your account. For more information, please contact us.\n              </DialogDescription>\n            </DialogHeader>\n            <DialogFooter className=\"mt-6\">\n              <DialogClose asChild>\n                <Button\n                  className=\"mt-2 w-full sm:mt-0 sm:w-fit\"\n                  variant=\"secondary\"\n                >\n                  Go back\n                </Button>\n              </DialogClose>\n              <DialogClose asChild>\n                <Button className=\"w-full sm:w-fit\">Ok, got it!</Button>\n              </DialogClose>\n            </DialogFooter>\n          </DialogContent>\n        </Dialog>\n      </>\n    )\n  },\n}\n\nexport const Controlled: Story = {\n  render: () => {\n    const [open, setOpen] = React.useState(false)\n    return (\n      <>\n        <Dialog open={open} onOpenChange={setOpen}>\n          <DialogTrigger asChild>\n            <Button variant=\"secondary\">Open Dialog</Button>\n          </DialogTrigger>\n          <DialogContent className=\"sm:max-w-lg\">\n            <DialogHeader>\n              <DialogTitle>Account Created Successfully</DialogTitle>\n              <DialogDescription className=\"mt-1 text-sm/7\">\n                Your account has been created successfully. You can now login to\n                your account. For more information, please contact us.\n              </DialogDescription>\n            </DialogHeader>\n            <DialogFooter className=\"mt-6\">\n              <DialogClose asChild>\n                <Button\n                  className=\"mt-2 w-full sm:mt-0 sm:w-fit\"\n                  variant=\"secondary\"\n                >\n                  Go back\n                </Button>\n              </DialogClose>\n              <DialogClose asChild>\n                <Button className=\"w-full sm:w-fit\">Ok, got it!</Button>\n              </DialogClose>\n            </DialogFooter>\n          </DialogContent>\n        </Dialog>\n      </>\n    )\n  },\n}\n",
       "path": "src/components/Dialog/dialog.stories.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "utils/cx.ts",
-      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
-      "path": "src/utils/cx.ts"
-    },
-    {
-      "type": "registry:lib",
-      "target": "utils/focusRing.ts",
-      "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
-      "path": "src/utils/focusRing.ts"
     }
-  ],
-  "type": "registry:component"
+  ]
 }

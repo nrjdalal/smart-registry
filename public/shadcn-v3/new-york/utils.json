@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york/utils",
+  "type": "registry:lib",
   "dependencies": [
     "clsx",
     "tailwind-merge"
@@ -12,6 +13,5 @@
       "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
       "path": "registry/new-york/lib/utils.ts"
     }
-  ],
-  "type": "registry:lib"
+  ]
 }

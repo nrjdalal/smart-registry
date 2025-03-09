@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Tooltip/tooltip.stories",
+  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-slot",
     "@radix-ui/react-tooltip",
@@ -12,6 +13,18 @@
     "tailwind-variants"
   ],
   "files": [
+    {
+      "type": "registry:lib",
+      "target": "utils/cx.ts",
+      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
+      "path": "src/utils/cx.ts"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/focusRing.ts",
+      "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
+      "path": "src/utils/focusRing.ts"
+    },
     {
       "type": "registry:component",
       "target": "components/Button/Button.tsx",
@@ -29,19 +42,6 @@
       "target": "components/Tooltip/tooltip.stories.tsx",
       "content": "import { RiInformation2Fill } from \"@remixicon/react\"\nimport type { Meta, StoryObj } from \"@storybook/react\"\n\nimport { Button } from \"@/components/Button/Button\"\nimport { Tooltip } from \"@/components/Tooltip/Tooltip\"\n\nconst meta: Meta<typeof Tooltip> = {\n  title: \"ui/Tooltip\",\n  component: Tooltip,\n  argTypes: {\n    side: {\n      options: [\"top\", \"bottom\", \"left\", \"right\"],\n      control: { type: \"radio\" },\n    },\n  },\n}\n\nexport default meta\n\ntype Story = StoryObj<typeof Tooltip>\n\nexport const Default: Story = {\n  render: () => (\n    <Tooltip content=\"Which KPIs are the most visited in your project\">\n      <p className=\"text-gray-700 dark:text-gray-700\">Show tooltip</p>\n    </Tooltip>\n  ),\n}\n\nexport const TooltipSides: Story = {\n  parameters: {\n    layout: \"centered\",\n  },\n  render: () => (\n    <div className=\"flex flex-wrap justify-center gap-6\">\n      <Tooltip side=\"top\" content=\"Tooltip\">\n        <span className=\"rounded-md bg-gray-100 p-2 font-medium text-gray-700 dark:border dark:border-gray-800 dark:bg-gray-950 dark:text-gray-300\">\n          Top\n        </span>\n      </Tooltip>\n      <Tooltip side=\"right\" content=\"Tooltip\">\n        <span className=\"rounded-md bg-gray-100 p-2 font-medium text-gray-700 dark:border dark:border-gray-800 dark:bg-gray-950 dark:text-gray-300\">\n          Right\n        </span>\n      </Tooltip>\n      <Tooltip side=\"bottom\" content=\"Tooltip\">\n        <span className=\"rounded-md bg-gray-100 p-2 font-medium text-gray-700 dark:border dark:border-gray-800 dark:bg-gray-950 dark:text-gray-300\">\n          Bottom\n        </span>\n      </Tooltip>\n      <Tooltip side=\"left\" content=\"Tooltip\">\n        <span className=\"rounded-md bg-gray-100 p-2 font-medium text-gray-700 dark:border dark:border-gray-800 dark:bg-gray-950 dark:text-gray-300\">\n          Left\n        </span>\n      </Tooltip>\n    </div>\n  ),\n}\n\nexport const WithoutArrow: Story = {\n  render: () => (\n    <Tooltip\n      content=\"Which KPIs are the most visited in your project\"\n      showArrow={false}\n    >\n      <p className=\"text-gray-700 dark:text-gray-700\">Show tooltip</p>\n    </Tooltip>\n  ),\n}\n\nexport const Icon: Story = {\n  render: () => (\n    <Tooltip side=\"top\" content=\"The quick brown fox jumps over the lazy dog.\">\n      <RiInformation2Fill className=\"h-5 w-5 text-gray-700 dark:text-gray-700\" />\n    </Tooltip>\n  ),\n}\n\nexport const DefaultOpen: Story = {\n  render: () => (\n    <Tooltip\n      side=\"left\"\n      defaultOpen\n      content=\"The quick brown fox jumps over the lazy dog.\"\n    >\n      <RiInformation2Fill className=\"h-5 w-5 text-gray-700\" />\n    </Tooltip>\n  ),\n}\n\nexport const WrappedAroundButton: Story = {\n  render: () => (\n    <>\n      <Tooltip content=\"Once you submitted this request, there is no way back.\">\n        <Button variant=\"secondary\">Submit request</Button>\n      </Tooltip>\n      <p className=\"mt-4 max-w-sm leading-6 text-gray-700 dark:text-gray-700\">\n        You can hover over the button to see a tooltip, while it still functions\n        as a button.\n      </p>\n    </>\n  ),\n}\n",
       "path": "src/components/Tooltip/tooltip.stories.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "utils/cx.ts",
-      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
-      "path": "src/utils/cx.ts"
-    },
-    {
-      "type": "registry:lib",
-      "target": "utils/focusRing.ts",
-      "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
-      "path": "src/utils/focusRing.ts"
     }
-  ],
-  "type": "registry:component"
+  ]
 }
