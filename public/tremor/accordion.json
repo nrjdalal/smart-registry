@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "accordion",
+  "type": "registry:component",
+  "dependencies": [
+    "@radix-ui/react-accordion",
+    "@remixicon/react",
+    "clsx",
+    "react",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/Accordion/Accordion.tsx",
+      "content": "// Tremor Accordion [v0.0.1]\n\nimport React from \"react\"\nimport * as AccordionPrimitives from \"@radix-ui/react-accordion\"\nimport { RiAddLine } from \"@remixicon/react\"\n\nimport { cx } from \"@/utils/cx\"\n\nconst Accordion = AccordionPrimitives.Root\n\nAccordion.displayName = \"AccordionItem\"\n\nconst AccordionTrigger = React.forwardRef<\n  React.ElementRef<typeof AccordionPrimitives.Trigger>,\n  React.ComponentPropsWithoutRef<typeof AccordionPrimitives.Trigger>\n>(({ className, children, ...props }, forwardedRef) => (\n  <AccordionPrimitives.Header className=\"flex\">\n    <AccordionPrimitives.Trigger\n      className={cx(\n        // base\n        \"group flex flex-1 cursor-pointer items-center justify-between py-3 text-left text-sm font-medium leading-none\",\n        // text color\n        \"text-gray-900 dark:text-gray-50\",\n        // disabled\n        \"data-[disabled]:cursor-default data-[disabled]:text-gray-400 dark:data-[disabled]:text-gray-600\",\n        //focus\n        \"focus-visible:z-10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-blue-500\",\n        className,\n      )}\n      {...props}\n      ref={forwardedRef}\n    >\n      {children}\n      <RiAddLine\n        className={cx(\n          // base\n          \"size-5 shrink-0 transition-transform duration-150 ease-[cubic-bezier(0.87,_0,_0.13,_1)] group-data-[state=open]:-rotate-45\",\n          // text color\n          \"text-gray-400 dark:text-gray-600\",\n          // disabled\n          \"group-data-[disabled]:text-gray-300 group-data-[disabled]:dark:text-gray-700\",\n        )}\n        aria-hidden=\"true\"\n        focusable=\"false\"\n      />\n    </AccordionPrimitives.Trigger>\n  </AccordionPrimitives.Header>\n))\n\nAccordionTrigger.displayName = \"AccordionTrigger\"\n\nconst AccordionContent = React.forwardRef<\n  React.ElementRef<typeof AccordionPrimitives.Content>,\n  React.ComponentPropsWithoutRef<typeof AccordionPrimitives.Content>\n>(({ className, children, ...props }, forwardedRef) => (\n  <AccordionPrimitives.Content\n    ref={forwardedRef}\n    className={cx(\n      \"transform-gpu data-[state=closed]:animate-accordionClose data-[state=open]:animate-accordionOpen\",\n    )}\n    {...props}\n  >\n    <div\n      className={cx(\n        // base\n        \"overflow-hidden pb-4 text-sm\",\n        // text color\n        \"text-gray-700 dark:text-gray-200\",\n        className,\n      )}\n    >\n      {children}\n    </div>\n  </AccordionPrimitives.Content>\n))\n\nAccordionContent.displayName = \"AccordionContent\"\n\nconst AccordionItem = React.forwardRef<\n  React.ElementRef<typeof AccordionPrimitives.Item>,\n  React.ComponentPropsWithoutRef<typeof AccordionPrimitives.Item>\n>(({ className, ...props }, forwardedRef) => (\n  <AccordionPrimitives.Item\n    ref={forwardedRef}\n    className={cx(\n      // base\n      \"overflow-hidden border-b first:mt-0\",\n      // border color\n      \"border-gray-200 dark:border-gray-800\",\n      className,\n    )}\n    tremor-id=\"tremor-raw\"\n    {...props}\n  />\n))\n\nAccordionItem.displayName = \"AccordionItem\"\n\nexport { Accordion, AccordionContent, AccordionItem, AccordionTrigger }\n",
+      "path": "src/components/Accordion/Accordion.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/cx.ts",
+      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
+      "path": "src/utils/cx.ts"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "accordion.spec",
+  "type": "registry:component",
+  "dependencies": [
+    "@playwright/test"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/Accordion/accordion.spec.ts",
+      "content": "import { expect, test } from \"@playwright/test\"\n\ntest.beforeEach(async ({ page }) => {\n  await page.goto(\"http://localhost:6006/?path=/story/ui-accordion--default\")\n})\n\ntest.describe(\"Expect default accordion\", () => {\n  test(\"to be rendered\", async ({ page }) => {\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"button\", { name: \"In the app\" }),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"button\", { name: \"Via browser extension\" }),\n    ).toBeVisible()\n  })\n\n  test(\"to be open and closeable\", async ({ page }) => {\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByRole(\"button\", { name: \"In the app\" })\n      .click()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Step 1:\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Step 2:\"),\n    ).toBeVisible()\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByRole(\"button\", { name: \"In the app\" })\n      .click()\n  })\n\n  test(\"have a disabled item\", async ({ page }) => {\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"button\", { name: \"Via email forwarding\" }),\n    ).toBeDisabled()\n  })\n})\n\ntest.describe(\"Expect accordion multiple to\", () => {\n  test(\"have all elements opened\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/ui-accordion--type-multiple\",\n    )\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByRole(\"button\", { name: \"Does NASA provide public\" })\n      .click()\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByRole(\"button\", { name: \"Are NASA's educational\" })\n      .click()\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByRole(\"button\", { name: \"Can the public participate in\" })\n      .click()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Absolutely. NASA offers open\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Yes. NASA provides a wide\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Yes! Through various citizen\"),\n    ).toBeVisible()\n  })\n})\n",
+      "path": "src/components/Accordion/accordion.spec.ts"
+    }
+  ]
+}

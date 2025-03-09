@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tracker",
+  "type": "registry:component",
+  "dependencies": [
+    "@radix-ui/react-hover-card",
+    "clsx",
+    "react",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/Tracker/Tracker.tsx",
+      "content": "// Tremor Tracker [v0.1.3]\n\nimport React from \"react\"\nimport * as HoverCardPrimitives from \"@radix-ui/react-hover-card\"\n\nimport { cx } from \"@/utils/cx\"\n\ninterface TrackerBlockProps {\n  key?: string | number\n  color?: string\n  tooltip?: string\n  hoverEffect?: boolean\n  defaultBackgroundColor?: string\n}\n\nconst Block = ({\n  color,\n  tooltip,\n  defaultBackgroundColor,\n  hoverEffect,\n}: TrackerBlockProps) => {\n  const [open, setOpen] = React.useState(false)\n  return (\n    <HoverCardPrimitives.Root\n      open={open}\n      onOpenChange={setOpen}\n      openDelay={0}\n      closeDelay={0}\n      tremor-id=\"tremor-raw\"\n    >\n      <HoverCardPrimitives.Trigger onClick={() => setOpen(true)} asChild>\n        <div className=\"size-full overflow-hidden px-[0.5px] transition first:rounded-l-[4px] first:pl-0 last:rounded-r-[4px] last:pr-0 sm:px-px\">\n          <div\n            className={cx(\n              \"size-full rounded-[1px]\",\n              color || defaultBackgroundColor,\n              hoverEffect ? \"hover:opacity-50\" : \"\",\n            )}\n          />\n        </div>\n      </HoverCardPrimitives.Trigger>\n      <HoverCardPrimitives.Portal>\n        <HoverCardPrimitives.Content\n          sideOffset={10}\n          side=\"top\"\n          align=\"center\"\n          avoidCollisions\n          className={cx(\n            // base\n            \"w-auto rounded-md px-2 py-1 text-sm shadow-md\",\n            // text color\n            \"text-white dark:text-gray-900\",\n            // background color\n            \"bg-gray-900 dark:bg-gray-50\",\n          )}\n        >\n          {tooltip}\n        </HoverCardPrimitives.Content>\n      </HoverCardPrimitives.Portal>\n    </HoverCardPrimitives.Root>\n  )\n}\n\nBlock.displayName = \"Block\"\n\ninterface TrackerProps extends React.HTMLAttributes<HTMLDivElement> {\n  data: TrackerBlockProps[]\n  defaultBackgroundColor?: string\n  hoverEffect?: boolean\n}\n\nconst Tracker = React.forwardRef<HTMLDivElement, TrackerProps>(\n  (\n    {\n      data = [],\n      defaultBackgroundColor = \"bg-gray-400 dark:bg-gray-400\",\n      className,\n      hoverEffect,\n      ...props\n    },\n    forwardedRef,\n  ) => {\n    return (\n      <div\n        ref={forwardedRef}\n        className={cx(\"group flex h-8 w-full items-center\", className)}\n        {...props}\n      >\n        {data.map((props, index) => (\n          <Block\n            key={props.key ?? index}\n            defaultBackgroundColor={defaultBackgroundColor}\n            hoverEffect={hoverEffect}\n            {...props}\n          />\n        ))}\n      </div>\n    )\n  },\n)\n\nTracker.displayName = \"Tracker\"\n\nexport { Tracker, type TrackerBlockProps }\n",
+      "path": "src/components/Tracker/Tracker.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/cx.ts",
+      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
+      "path": "src/utils/cx.ts"
+    }
+  ]
+}

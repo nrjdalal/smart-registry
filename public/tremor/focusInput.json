@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "focusInput",
+  "name": "focusinput",
   "type": "registry:lib",
   "files": [
     {

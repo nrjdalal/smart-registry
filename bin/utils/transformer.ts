@@ -53,6 +53,24 @@ export const transformer = ({
         .replace(/\.\.\//g, "")
         .replace(/\.\//g, "")
 
+  let name = transformedPath
+    .toLowerCase()
+    .replace(
+      /^(blocks|components\/ui|components|hooks|lib|utils|helpers)\//,
+      "",
+    )
+    .replace(
+      /\/(blocks|components\/ui|components|hooks|lib|utils|helpers)\//,
+      "/",
+    )
+    .replace(/\.[^\/.]+$/, "")
+    .replace(/\/index$/, "")
+    .replace(/\/page$/, "")
+    .replace(/\/route$/, "")
+    .replace(/\/\[.*\]$/, "")
+    .replace(/(\b\w+)\b\/\1\b/g, "$1")
+    .replace(/\//g, "-")
+
   return {
     type: transformedPath.endsWith("page.tsx")
       ? "registry:page"
@@ -67,15 +85,7 @@ export const transformer = ({
           .replace("lib", "registry:lib")
           .replace("utils", "registry:lib")
           .replace("helpers", "registry:lib") || "registry:file",
-    name: transformedPath
-      .replace(
-        /^(blocks|components\/ui|components|hooks|lib|utils|helpers)\//,
-        "",
-      )
-      .replace(/\.[^\/.]+$/, "")
-      .replace(/\/index$/, "")
-      .replace(/\/route$/, "")
-      .replace(/\/\[.*\]$/, ""),
+    name,
     import:
       "@/" +
       transformedPath

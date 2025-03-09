@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tabnavigation.spec",
+  "type": "registry:component",
+  "dependencies": [
+    "@playwright/test"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/TabNavigation/tabnavigation.spec.tsx",
+      "content": "import { expect, test } from \"@playwright/test\"\n\ntest.describe(\"Expect tabnavigation\", () => {\n  test(\"to render tabs\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/ui-tabnavigation--default\",\n    )\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Home\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Balances\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Transactions\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Customers\"),\n    ).toBeVisible()\n  })\n})\n\ntest.describe(\"Expect tabnavigation disabled\", () => {\n  test(\"to render a disabled tab\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/ui-tabnavigation--default\",\n    )\n    const tab = page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .locator(\"li\")\n      .filter({ hasText: \"Customers\" })\n\n    const isAriaDisabled = await tab.getAttribute(\"aria-disabled\")\n    expect(isAriaDisabled).toBe(\"true\")\n  })\n})\n",
+      "path": "src/components/TabNavigation/tabnavigation.spec.tsx"
+    }
+  ]
+}

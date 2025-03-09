@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "categorybar.spec",
+  "type": "registry:component",
+  "dependencies": [
+    "@playwright/test"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/CategoryBar/categorybar.spec.ts",
+      "content": "import { expect, test } from \"@playwright/test\"\n\ntest.describe(\"CategoryBar Component\", () => {\n  const STORY_URL =\n    \"http://localhost:6006/?path=/story/visualization-categorybar--default\"\n\n  test(\"renders the category bar component\", async ({ page }) => {\n    await page.goto(STORY_URL)\n    const storyFrame = page.frameLocator(\n      'iframe[title=\"storybook-preview-iframe\"]',\n    )\n\n    await expect(storyFrame.getByTestId(\"category-bar\")).toBeVisible()\n  })\n\n  test(\"displays correct label values\", async ({ page }) => {\n    await page.goto(STORY_URL)\n    const storyFrame = page.frameLocator(\n      'iframe[title=\"storybook-preview-iframe\"]',\n    )\n    await expect(storyFrame.getByText(\"0\").first()).toBeVisible()\n    await expect(storyFrame.getByText(\"70\")).toBeVisible()\n    await expect(storyFrame.getByText(\"88\")).toBeVisible()\n    await expect(storyFrame.getByText(\"100\")).toBeVisible()\n  })\n\n  test(\"renders all category segments\", async ({ page }) => {\n    await page.goto(STORY_URL)\n    const storyFrame = page.frameLocator(\n      'iframe[title=\"storybook-preview-iframe\"]',\n    )\n    const categoryBar = storyFrame.getByTestId(\"category-bar\")\n    const segments = categoryBar.locator(\"div.h-full[style*='width']\")\n\n    await expect(segments).toHaveCount(3)\n  })\n\n  test(\"renders with marker when provided\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/visualization-categorybar--with-marker\",\n    )\n    const storyFrame = page.frameLocator(\n      'iframe[title=\"storybook-preview-iframe\"]',\n    )\n\n    const marker = storyFrame.locator(\".absolute.w-2.-translate-x-1\\\\/2\")\n    await expect(marker).toBeVisible()\n  })\n\n  test(\"handles marker tooltip interaction\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/visualization-categorybar--with-marker\",\n    )\n    const storyFrame = page.frameLocator(\n      'iframe[title=\"storybook-preview-iframe\"]',\n    )\n\n    const marker = storyFrame.locator(\".absolute.w-2.-translate-x-1\\\\/2\")\n    await marker.hover()\n  })\n\n  test(\"maintains accessibility attributes\", async ({ page }) => {\n    await page.goto(STORY_URL)\n    const storyFrame = page.frameLocator(\n      'iframe[title=\"storybook-preview-iframe\"]',\n    )\n    const categoryBar = storyFrame.getByTestId(\"category-bar\")\n\n    await expect(categoryBar).toHaveAttribute(\"aria-label\", \"Category bar\")\n    await expect(categoryBar).toHaveAttribute(\"tremor-id\", \"tremor-raw\")\n  })\n})\n",
+      "path": "src/components/CategoryBar/categorybar.spec.ts"
+    }
+  ]
+}

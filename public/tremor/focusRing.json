@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "focusRing",
+  "name": "focusring",
   "type": "registry:lib",
   "files": [
     {

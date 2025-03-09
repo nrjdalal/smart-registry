@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "hasOnlyOneValueForKey",
+  "name": "hasonlyonevalueforkey",
   "type": "registry:lib",
   "files": [
     {

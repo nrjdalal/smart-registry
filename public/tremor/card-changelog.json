@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "card-changelog",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/Card/changelog.md",
+      "content": "# Tremor Card Changelog\n\n## 0.0.2\n\n### Changes\n\n- Chore: Add `tremor-id`\n\n## 0.0.1\n\n### Changes\n\n- Fix: Roundness\n",
+      "path": "src/components/Card/changelog.md"
+    }
+  ]
+}

@@ -17,7 +17,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "useOnWindowResize",
+      "name": "useonwindowresize",
       "type": "registry:hook",
       "dependencies": [
         "react"
@@ -32,7 +32,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "useToast",
+      "name": "usetoast",
       "type": "registry:hook",
       "dependencies": [
         "@radix-ui/react-toast",
@@ -73,7 +73,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "chartColors",
+      "name": "chartcolors",
       "type": "registry:lib",
       "files": [
         {
@@ -101,7 +101,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "focusInput",
+      "name": "focusinput",
       "type": "registry:lib",
       "files": [
         {
@@ -113,7 +113,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "focusRing",
+      "name": "focusring",
       "type": "registry:lib",
       "files": [
         {
@@ -125,7 +125,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "getYAxisDomain",
+      "name": "getyaxisdomain",
       "type": "registry:lib",
       "files": [
         {
@@ -137,7 +137,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "hasErrorInput",
+      "name": "haserrorinput",
       "type": "registry:lib",
       "files": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "hasOnlyOneValueForKey",
+      "name": "hasonlyonevalueforkey",
       "type": "registry:lib",
       "files": [
         {
@@ -191,7 +191,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Accordion/Accordion",
+      "name": "accordion",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
@@ -215,7 +215,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Accordion/accordion.spec",
+      "name": "accordion-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Accordion/changelog.md",
+          "path": "src/components/Accordion/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "accordion.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -230,7 +242,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Accordion/accordion.stories",
+      "name": "accordion.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
@@ -277,19 +289,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Accordion/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Accordion/changelog.md",
-          "path": "src/components/Accordion/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "AreaChart/AreaChart",
+      "name": "areachart",
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
@@ -333,7 +333,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "AreaChart/areachart.spec",
+      "name": "areachart-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/AreaChart/changelog.md",
+          "path": "src/components/AreaChart/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "areachart.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -348,7 +360,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "AreaChart/areachart.stories",
+      "name": "areachart.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
@@ -416,19 +428,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "AreaChart/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/AreaChart/changelog.md",
-          "path": "src/components/AreaChart/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Badge/Badge",
+      "name": "badge",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -451,7 +451,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Badge/badge.spec",
+      "name": "badge-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Badge/changelog.md",
+          "path": "src/components/Badge/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "badge.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -466,7 +478,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Badge/badge.stories",
+      "name": "badge.stories",
       "type": "registry:component",
       "dependencies": [
         "@storybook/react",
@@ -495,19 +507,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Badge/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Badge/changelog.md",
-          "path": "src/components/Badge/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "BarChart/BarChart",
+      "name": "barchart",
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
@@ -546,7 +546,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "BarChart/barchart.spec",
+      "name": "barchart-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/BarChart/changelog.md",
+          "path": "src/components/BarChart/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "barchart.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -561,7 +573,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "BarChart/barchart.stories",
+      "name": "barchart.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
@@ -624,19 +636,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "BarChart/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/BarChart/changelog.md",
-          "path": "src/components/BarChart/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "BarList/BarList",
+      "name": "barlist",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -663,7 +663,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "BarList/barlist.spec",
+      "name": "barlist-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/BarList/changelog.md",
+          "path": "src/components/BarList/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "barlist.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -678,7 +690,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "BarList/barlist.stories",
+      "name": "barlist.stories",
       "type": "registry:component",
       "dependencies": [
         "@storybook/react",
@@ -711,19 +723,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "BarList/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/BarList/changelog.md",
-          "path": "src/components/BarList/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Button/Button",
+      "name": "button",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -753,7 +753,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Button/button.spec",
+      "name": "button-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/changelog.md",
+          "path": "src/components/Button/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "button.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -768,7 +780,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Button/button.stories",
+      "name": "button.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -804,19 +816,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Button/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Button/changelog.md",
-          "path": "src/components/Button/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Calendar/Calendar",
+      "name": "calendar",
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
@@ -846,7 +846,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Calendar/calendar.spec",
+      "name": "calendar-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Calendar/changelog.md",
+          "path": "src/components/Calendar/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "calendar.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -861,7 +873,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Calendar/calendar.stories",
+      "name": "calendar.stories",
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
@@ -897,19 +909,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Calendar/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Calendar/changelog.md",
-          "path": "src/components/Calendar/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Callout/Callout",
+      "name": "callout",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -932,7 +932,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Callout/callout.spec",
+      "name": "callout-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Callout/changelog.md",
+          "path": "src/components/Callout/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "callout.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -947,7 +959,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Callout/callout.stories",
+      "name": "callout.stories",
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
@@ -977,19 +989,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Callout/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Callout/changelog.md",
-          "path": "src/components/Callout/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Card/Card",
+      "name": "card",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1012,7 +1012,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Card/card.spec",
+      "name": "card-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Card/changelog.md",
+          "path": "src/components/Card/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "card.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -1027,7 +1039,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Card/card.stories",
+      "name": "card.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
@@ -1140,19 +1152,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Card/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Card/changelog.md",
-          "path": "src/components/Card/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "CategoryBar/CategoryBar",
+      "name": "categorybar",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tooltip",
@@ -1185,7 +1185,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "CategoryBar/categorybar.spec",
+      "name": "categorybar-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/CategoryBar/changelog.md",
+          "path": "src/components/CategoryBar/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "categorybar.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -1200,7 +1212,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "CategoryBar/categorybar.stories",
+      "name": "categorybar.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tooltip",
@@ -1239,31 +1251,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "CategoryBar/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/CategoryBar/changelog.md",
-          "path": "src/components/CategoryBar/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Checkbox/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Checkbox/changelog.md",
-          "path": "src/components/Checkbox/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Checkbox/Checkbox",
+      "name": "checkbox",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
@@ -1291,7 +1279,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Checkbox/checkbox.spec",
+      "name": "checkbox-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Checkbox/changelog.md",
+          "path": "src/components/Checkbox/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "checkbox.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -1306,7 +1306,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Checkbox/checkbox.stories",
+      "name": "checkbox.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
@@ -1354,19 +1354,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "ComboChart/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/ComboChart/changelog.md",
-          "path": "src/components/ComboChart/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "ComboChart/ComboChart",
+      "name": "combochart",
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
@@ -1410,7 +1398,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "ComboChart/combochart.spec",
+      "name": "combochart-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/ComboChart/changelog.md",
+          "path": "src/components/ComboChart/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "combochart.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -1425,7 +1425,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "ComboChart/combochart.stories",
+      "name": "combochart.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
@@ -1493,19 +1493,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "DatePicker/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/DatePicker/changelog.md",
-          "path": "src/components/DatePicker/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "DatePicker/DatePicker",
+      "name": "datepicker",
       "type": "registry:component",
       "dependencies": [
         "@internationalized/date",
@@ -1561,7 +1549,81 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "DatePicker/datepicker.spec",
+      "name": "datepicker-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/DatePicker/changelog.md",
+          "path": "src/components/DatePicker/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "datepicker-daterangepicker.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@internationalized/date",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "@react-aria/datepicker",
+        "@react-stately/datepicker",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "date-fns",
+        "react",
+        "react-day-picker",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Calendar/Calendar.tsx",
+          "path": "src/components/Calendar/Calendar.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/DatePicker/DatePicker.tsx",
+          "path": "src/components/DatePicker/DatePicker.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/DatePicker/daterangepicker.stories.tsx",
+          "path": "src/components/DatePicker/daterangepicker.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "datepicker.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -1576,7 +1638,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "DatePicker/datepicker.stories",
+      "name": "datepicker.stories",
       "type": "registry:component",
       "dependencies": [
         "@internationalized/date",
@@ -1648,81 +1710,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "DatePicker/daterangepicker.stories",
-      "type": "registry:component",
-      "dependencies": [
-        "@internationalized/date",
-        "@radix-ui/react-popover",
-        "@radix-ui/react-slot",
-        "@react-aria/datepicker",
-        "@react-stately/datepicker",
-        "@remixicon/react",
-        "@storybook/react",
-        "clsx",
-        "date-fns",
-        "react",
-        "react-day-picker",
-        "tailwind-merge",
-        "tailwind-variants"
-      ],
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Button/Button.tsx",
-          "path": "src/components/Button/Button.tsx"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/Calendar/Calendar.tsx",
-          "path": "src/components/Calendar/Calendar.tsx"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/DatePicker/DatePicker.tsx",
-          "path": "src/components/DatePicker/DatePicker.tsx"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/DatePicker/daterangepicker.stories.tsx",
-          "path": "src/components/DatePicker/daterangepicker.stories.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/focusInput.ts",
-          "path": "src/utils/focusInput.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/hasErrorInput.ts",
-          "path": "src/utils/hasErrorInput.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Dialog/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Dialog/changelog.md",
-          "path": "src/components/Dialog/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Dialog/Dialog",
+      "name": "dialog",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dialog",
@@ -1750,7 +1738,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Dialog/dialog.spec",
+      "name": "dialog-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Dialog/changelog.md",
+          "path": "src/components/Dialog/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dialog.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -1765,7 +1765,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Dialog/dialog.stories",
+      "name": "dialog.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dialog",
@@ -1807,19 +1807,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Divider/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Divider/changelog.md",
-          "path": "src/components/Divider/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Divider/Divider",
+      "name": "divider",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -1841,7 +1829,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Divider/divider.spec",
+      "name": "divider-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Divider/changelog.md",
+          "path": "src/components/Divider/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "divider.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -1856,7 +1856,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Divider/divider.stories",
+      "name": "divider.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1897,19 +1897,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "DonutChart/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/DonutChart/changelog.md",
-          "path": "src/components/DonutChart/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "DonutChart/DonutChart",
+      "name": "donutchart",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -1937,7 +1925,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "DonutChart/donutchart.spec",
+      "name": "donutchart-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/DonutChart/changelog.md",
+          "path": "src/components/DonutChart/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "donutchart.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -1952,7 +1952,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "DonutChart/donutchart.stories",
+      "name": "donutchart.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
@@ -2004,19 +2004,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Drawer/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Drawer/changelog.md",
-          "path": "src/components/Drawer/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Drawer/Drawer",
+      "name": "drawer",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dialog",
@@ -2052,7 +2040,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Drawer/drawer.spec",
+      "name": "drawer-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Drawer/changelog.md",
+          "path": "src/components/Drawer/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "drawer.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -2067,7 +2067,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Drawer/drawer.stories",
+      "name": "drawer.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dialog",
@@ -2109,19 +2109,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "DropdownMenu/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/DropdownMenu/changelog.md",
-          "path": "src/components/DropdownMenu/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "DropdownMenu/DropdownMenu",
+      "name": "dropdownmenu",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dropdown-menu",
@@ -2145,7 +2133,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "DropdownMenu/dropdownmenu.spec",
+      "name": "dropdownmenu-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/DropdownMenu/changelog.md",
+          "path": "src/components/DropdownMenu/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dropdownmenu.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -2160,7 +2160,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "DropdownMenu/dropdownmenu.stories",
+      "name": "dropdownmenu.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dropdown-menu",
@@ -2202,19 +2202,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Input/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Input/changelog.md",
-          "path": "src/components/Input/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Input/Input",
+      "name": "input",
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
@@ -2253,7 +2241,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Input/input.spec",
+      "name": "input-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Input/changelog.md",
+          "path": "src/components/Input/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "input.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -2268,7 +2268,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Input/input.stories",
+      "name": "input.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
@@ -2325,19 +2325,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Label/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Label/changelog.md",
-          "path": "src/components/Label/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Label/Label",
+      "name": "label",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
@@ -2360,7 +2348,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Label/label.spec",
+      "name": "label-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Label/changelog.md",
+          "path": "src/components/Label/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "label.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -2375,7 +2375,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Label/label.stories",
+      "name": "label.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
@@ -2432,19 +2432,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "LineChart/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/LineChart/changelog.md",
-          "path": "src/components/LineChart/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "LineChart/LineChart",
+      "name": "linechart",
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
@@ -2488,7 +2476,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "LineChart/linechart.spec",
+      "name": "linechart-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/LineChart/changelog.md",
+          "path": "src/components/LineChart/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "linechart.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -2503,7 +2503,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "LineChart/linechart.stories",
+      "name": "linechart.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
@@ -2571,19 +2571,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Popover/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Popover/changelog.md",
-          "path": "src/components/Popover/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Popover/Popover",
+      "name": "popover",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-popover",
@@ -2606,7 +2594,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Popover/popover.spec",
+      "name": "popover-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Popover/changelog.md",
+          "path": "src/components/Popover/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "popover.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -2621,7 +2621,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Popover/popover.stories",
+      "name": "popover.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dialog",
@@ -2690,19 +2690,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "ProgressBar/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/ProgressBar/changelog.md",
-          "path": "src/components/ProgressBar/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "ProgressBar/ProgressBar",
+      "name": "progressbar",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -2725,7 +2713,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "ProgressBar/progressbar.spec",
+      "name": "progressbar-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/ProgressBar/changelog.md",
+          "path": "src/components/ProgressBar/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "progressbar.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -2740,7 +2740,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "ProgressBar/progressbar.stories",
+      "name": "progressbar.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -2775,19 +2775,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "ProgressCircle/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/ProgressCircle/changelog.md",
-          "path": "src/components/ProgressCircle/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "ProgressCircle/ProgressCircle",
+      "name": "progresscircle",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -2810,7 +2798,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "ProgressCircle/progresscircle.spec",
+      "name": "progresscircle-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/ProgressCircle/changelog.md",
+          "path": "src/components/ProgressCircle/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "progresscircle.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -2825,7 +2825,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "ProgressCircle/progresscircle.stories",
+      "name": "progresscircle.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -2860,19 +2860,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "RadioCardGroup/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/RadioCardGroup/changelog.md",
-          "path": "src/components/RadioCardGroup/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "RadioCardGroup/RadioCardGroup",
+      "name": "radiocardgroup",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-radio-group",
@@ -2905,7 +2893,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "RadioCardGroup/radiocardgroup.spec",
+      "name": "radiocardgroup-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/RadioCardGroup/changelog.md",
+          "path": "src/components/RadioCardGroup/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "radiocardgroup.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -2920,7 +2920,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "RadioCardGroup/radiocardgroup.stories",
+      "name": "radiocardgroup.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-radio-group",
@@ -2967,19 +2967,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "RadioGroup/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/RadioGroup/changelog.md",
-          "path": "src/components/RadioGroup/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "RadioGroup/RadioGroup",
+      "name": "radiogroup",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-radio-group",
@@ -3007,7 +2995,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "RadioGroup/radiogroup.spec",
+      "name": "radiogroup-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/RadioGroup/changelog.md",
+          "path": "src/components/RadioGroup/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "radiogroup.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -3022,7 +3022,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "RadioGroup/radiogroup.stories",
+      "name": "radiogroup.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
@@ -3070,19 +3070,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Select/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Select/changelog.md",
-          "path": "src/components/Select/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Select/Select",
+      "name": "select",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-select",
@@ -3116,7 +3104,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Select/select.spec",
+      "name": "select-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Select/changelog.md",
+          "path": "src/components/Select/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "select.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -3131,7 +3131,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Select/select.stories",
+      "name": "select.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dialog",
@@ -3189,19 +3189,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "SelectNative/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/SelectNative/changelog.md",
-          "path": "src/components/SelectNative/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "SelectNative/SelectNative",
+      "name": "selectnative",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3234,7 +3222,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "SelectNative/selectnative.spec",
+      "name": "selectnative-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/SelectNative/changelog.md",
+          "path": "src/components/SelectNative/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "selectnative.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -3249,7 +3249,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "SelectNative/selectnative.stories",
+      "name": "selectnative.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
@@ -3294,19 +3294,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Slider/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Slider/changelog.md",
-          "path": "src/components/Slider/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Slider/Slider",
+      "name": "slider",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slider",
@@ -3334,7 +3322,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Slider/slider.spec",
+      "name": "slider-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Slider/changelog.md",
+          "path": "src/components/Slider/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "slider.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -3349,7 +3349,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Slider/slider.stories",
+      "name": "slider.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slider",
@@ -3401,7 +3401,40 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "SparkChart/changelog",
+      "name": "sparkchart",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "react",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/SparkChart/SparkChart.tsx",
+          "path": "src/components/SparkChart/SparkChart.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "sparkchart-changelog",
       "type": "registry:component",
       "files": [
         {
@@ -3413,7 +3446,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "SparkChart/sparkareachart.stories",
+      "name": "sparkchart-sparkareachart.stories",
       "type": "registry:component",
       "dependencies": [
         "@storybook/react",
@@ -3452,7 +3485,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "SparkChart/sparkbarchart.stories",
+      "name": "sparkchart-sparkbarchart.stories",
       "type": "registry:component",
       "dependencies": [
         "@storybook/react",
@@ -3491,55 +3524,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "SparkChart/SparkChart",
-      "type": "registry:component",
-      "dependencies": [
-        "clsx",
-        "react",
-        "recharts",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/SparkChart/SparkChart.tsx",
-          "path": "src/components/SparkChart/SparkChart.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "SparkChart/sparkchart.spec",
-      "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/SparkChart/sparkchart.spec.ts",
-          "path": "src/components/SparkChart/sparkchart.spec.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "SparkChart/sparklinechart.stories",
+      "name": "sparkchart-sparklinechart.stories",
       "type": "registry:component",
       "dependencies": [
         "@storybook/react",
@@ -3578,19 +3563,22 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Switch/changelog",
+      "name": "sparkchart.spec",
       "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
-          "target": "components/Switch/changelog.md",
-          "path": "src/components/Switch/changelog.md"
+          "target": "components/SparkChart/sparkchart.spec.ts",
+          "path": "src/components/SparkChart/sparkchart.spec.ts"
         }
       ]
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Switch/Switch",
+      "name": "switch",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-switch",
@@ -3619,7 +3607,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Switch/switch.spec",
+      "name": "switch-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Switch/changelog.md",
+          "path": "src/components/Switch/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "switch.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -3634,7 +3634,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Switch/switch.stories",
+      "name": "switch.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
@@ -3692,19 +3692,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Table/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Table/changelog.md",
-          "path": "src/components/Table/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Table/Table",
+      "name": "table",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3726,7 +3714,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Table/table.spec",
+      "name": "table-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Table/changelog.md",
+          "path": "src/components/Table/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "table.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -3741,7 +3741,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Table/table.stories",
+      "name": "table.stories",
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
@@ -3776,19 +3776,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "TabNavigation/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/TabNavigation/changelog.md",
-          "path": "src/components/TabNavigation/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "TabNavigation/TabNavigation",
+      "name": "tabnavigation",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-navigation-menu",
@@ -3816,7 +3804,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "TabNavigation/tabnavigation.spec",
+      "name": "tabnavigation-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/TabNavigation/changelog.md",
+          "path": "src/components/TabNavigation/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "tabnavigation.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -3831,7 +3831,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "TabNavigation/tabnavigation.stories",
+      "name": "tabnavigation.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-navigation-menu",
@@ -3866,19 +3866,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Tabs/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Tabs/changelog.md",
-          "path": "src/components/Tabs/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Tabs/Tabs",
+      "name": "tabs",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
@@ -3906,7 +3894,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Tabs/tabs.spec",
+      "name": "tabs-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Tabs/changelog.md",
+          "path": "src/components/Tabs/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "tabs.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -3921,7 +3921,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Tabs/tabs.stories",
+      "name": "tabs.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
@@ -3956,19 +3956,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Textarea/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Textarea/changelog.md",
-          "path": "src/components/Textarea/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Textarea/Textarea",
+      "name": "textarea",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -4000,7 +3988,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Textarea/textarea.spec",
+      "name": "textarea-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Textarea/changelog.md",
+          "path": "src/components/Textarea/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "textarea.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -4015,7 +4015,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Textarea/textarea.stories",
+      "name": "textarea.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -4059,19 +4059,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Toast/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Toast/changelog.md",
-          "path": "src/components/Toast/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Toast/Toast",
+      "name": "toast",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-toast",
@@ -4095,7 +4083,53 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Toast/toast.stories",
+      "name": "toast-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Toast/changelog.md",
+          "path": "src/components/Toast/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "toast-toaster",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-toast",
+        "@remixicon/react",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Toast/Toast.tsx",
+          "path": "src/components/Toast/Toast.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Toast/Toaster.tsx",
+          "path": "src/components/Toast/Toaster.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useToast.ts",
+          "path": "src/hooks/useToast.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "toast.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -4147,53 +4181,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Toast/Toaster",
-      "type": "registry:component",
-      "dependencies": [
-        "@radix-ui/react-toast",
-        "@remixicon/react",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Toast/Toast.tsx",
-          "path": "src/components/Toast/Toast.tsx"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/Toast/Toaster.tsx",
-          "path": "src/components/Toast/Toaster.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        },
-        {
-          "type": "registry:hook",
-          "target": "hooks/useToast.ts",
-          "path": "src/hooks/useToast.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Toggle/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Toggle/changelog.md",
-          "path": "src/components/Toggle/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Toggle/Toggle",
+      "name": "toggle",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-toggle",
@@ -4222,7 +4210,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Toggle/toggle.spec",
+      "name": "toggle-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Toggle/changelog.md",
+          "path": "src/components/Toggle/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "toggle.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -4237,7 +4237,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Toggle/toggle.stories",
+      "name": "toggle.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-toggle",
@@ -4273,19 +4273,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Tooltip/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Tooltip/changelog.md",
-          "path": "src/components/Tooltip/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Tooltip/Tooltip",
+      "name": "tooltip",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tooltip",
@@ -4308,7 +4296,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Tooltip/tooltip.spec",
+      "name": "tooltip-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Tooltip/changelog.md",
+          "path": "src/components/Tooltip/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "tooltip.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -4323,7 +4323,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Tooltip/tooltip.stories",
+      "name": "tooltip.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -4365,19 +4365,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Tracker/changelog",
-      "type": "registry:component",
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Tracker/changelog.md",
-          "path": "src/components/Tracker/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Tracker/Tracker",
+      "name": "tracker",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-hover-card",
@@ -4400,7 +4388,19 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Tracker/tracker.spec",
+      "name": "tracker-changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Tracker/changelog.md",
+          "path": "src/components/Tracker/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "tracker.spec",
       "type": "registry:component",
       "dependencies": [
         "@playwright/test"
@@ -4415,7 +4415,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "Tracker/tracker.stories",
+      "name": "tracker.stories",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-hover-card",
