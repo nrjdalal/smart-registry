@@ -99,7 +99,25 @@ If your project contains a `registry`, `components`, or `src/components` directo
 npx smart-registry
 ```
 
-![Demo Image](https://github-production-user-asset-6210df.s3.amazonaws.com/58145505/418180611-fd6070a5-6a89-4582-8ad0-df125c222883.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250302%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250302T212923Z&X-Amz-Expires=300&X-Amz-Signature=81a0324e67c77ab068c96e9f666e1b930cf32d497f8aa0a39c28caa0b902c7d3&X-Amz-SignedHeaders=host)
+```plaintext
+Version:
+  ${name}@${version}
+
+Usage:
+  $ ${name} [options] [files/directories] ...
+
+Arguments:
+  files/directories    files or directories to build the registry from (optional)
+
+Options:
+  -o, --output <path>  destination directory for json files (default: "./public/r")
+  -c, --cwd <cwd>      the working directory (default: "./")
+  -v, --version        display version
+  -h, --help           display help
+
+Author:
+  ${author.name} <${author.email}> (${author.url})
+```
 
 ### From Specific Files or Directories
 
@@ -123,9 +141,9 @@ registry/
         └── dialog.tsx
 ```
 
-1. `Smart Registry` will scan the `registry` directory and its sub-directories to find all the files. If no `registry` directory is found, it will scan the `components` or `src/components` directory.
+1. `Smart Registry` will scan the `registry` directory and its sub-directories to find all the files (if no `registry` directory is found, it will scan the `components` or `src/components` directory).
 2. For each file, it will generate a `<registry-item>.json` file by reading the file's content and extracting the imports for registry dependencies, dependencies, and files recursively.
-3. It will then generate a `registry.json` file by combining all the `<registry-item>.json` files with all the properties required for `shadcn add` or `open in v0`.
+3. It will then generate a `registry.json` file by combining all the `<registry-item>.json` files and `<registry-item>.json` files with all the properties required for `shadcn add` or `open in v0`.
 
 ```plaintext
 public/
@@ -439,12 +457,13 @@ Generates the following items in `public/r` directory.
 ```plaintext
 public/
 └── r/
-  ├── new-york/
-      ├── toasty.json     name: new-york/toasty     target: blocks/new-york/toasty.tsx
-      ├── toaster.json    name: new-york/toaster    target: components/new-york/toaster.tsx
-      ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
-      ├── utils.json      name: new-york/utils      target: lib/new-york/utils.ts
-      └── toast.json      name: new-york/toast      target: components/ui/new-york/toast.tsx
+    ├── registry.json
+    └── new-york/
+        ├── toasty.json     name: new-york/toasty     target: blocks/new-york/toasty.tsx
+        ├── toaster.json    name: new-york/toaster    target: components/new-york/toaster.tsx
+        ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
+        ├── utils.json      name: new-york/utils      target: lib/new-york/utils.ts
+        └── toast.json      name: new-york/toast      target: components/ui/new-york/toast.tsx
 ```
 
 ### For `components` directory.
@@ -469,6 +488,7 @@ Generates the following items in `public/r` directory.
 ```plaintext
 public/
 └── r/
+    ├── registry.json
     ├── toasty.json     name: toasty     target: blocks/toasty.tsx
     ├── component.json  name: toaster    target: components/toaster.tsx
     ├── use-toast.json  name: use-toast  target: hooks/use-toast.ts
@@ -503,10 +523,11 @@ Generates the following items in `public/r` directory.
 ```plaintext
 public/
 └── r/
-  └── new-york/
-      ├── toasty.json     name: new-york/toasty     target: blocks/new-york/toasty.tsx
-      ├── toaster.json    name: new-york/toaster    target: components/new-york/toaster.tsx
-      ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
-      ├── utils.json      name: new-york/utils      target: lib/new-york/utils.ts
-      └── toast.json      name: new-york/toast      target: components/ui/new-york/toast.tsx
+    ├── registry.json
+    └── new-york/
+        ├── toasty.json     name: new-york/toasty     target: blocks/new-york/toasty.tsx
+        ├── toaster.json    name: new-york/toaster    target: components/new-york/toaster.tsx
+        ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
+        ├── utils.json      name: new-york/utils      target: lib/new-york/utils.ts
+        └── toast.json      name: new-york/toast      target: components/ui/new-york/toast.tsx
 ```
