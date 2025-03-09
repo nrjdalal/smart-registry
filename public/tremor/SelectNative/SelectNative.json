@@ -10,6 +10,12 @@
   ],
   "files": [
     {
+      "type": "registry:component",
+      "target": "components/SelectNative/SelectNative.tsx",
+      "content": "// Tremor SelectNative [v0.0.1]\n\nimport React from \"react\"\nimport { tv, type VariantProps } from \"tailwind-variants\"\n\nimport { cx } from \"@/utils/cx\"\nimport { focusInput } from \"@/utils/focusInput\"\nimport { hasErrorInput } from \"@/utils/hasErrorInput\"\n\nconst selectNativeStyles = tv({\n  base: [\n    // base\n    \"peer w-full cursor-pointer appearance-none truncate rounded-md border py-2 pl-3 pr-7 shadow-sm outline-none transition-all sm:text-sm\",\n    // background color\n    \"bg-white dark:bg-gray-950\",\n    // border color\n    \"border-gray-300 dark:border-gray-800\",\n    // text color\n    \"text-gray-900 dark:text-gray-50\",\n    // placeholder color\n    \"placeholder-gray-400 dark:placeholder-gray-500\",\n    // hover\n    \"hover:bg-gray-50 hover:dark:bg-gray-950/50\",\n    // disabled\n    \"disabled:pointer-events-none\",\n    \"disabled:bg-gray-100 disabled:text-gray-400\",\n    \"disabled:dark:border-gray-700 disabled:dark:bg-gray-800 disabled:dark:text-gray-500\",\n    // focus\n    focusInput,\n    // invalid (optional)\n    // \"aria-[invalid=true]:dark:ring-red-400/20 aria-[invalid=true]:ring-2 aria-[invalid=true]:ring-red-200 aria-[invalid=true]:border-red-500 invalid:ring-2 invalid:ring-red-200 invalid:border-red-500\"\n  ],\n  variants: {\n    hasError: {\n      true: hasErrorInput,\n    },\n  },\n})\n\ninterface SelectNativeProps\n  extends React.InputHTMLAttributes<HTMLSelectElement>,\n    VariantProps<typeof selectNativeStyles> {}\n\nconst SelectNative = React.forwardRef<HTMLSelectElement, SelectNativeProps>(\n  ({ className, hasError, ...props }: SelectNativeProps, forwardedRef) => {\n    return (\n      <select\n        ref={forwardedRef}\n        className={cx(selectNativeStyles({ hasError }), className)}\n        tremor-id=\"tremor-raw\"\n        {...props}\n      />\n    )\n  },\n)\n\nSelectNative.displayName = \"SelectNative\"\n\nexport { SelectNative, selectNativeStyles, type SelectNativeProps }\n",
+      "path": "src/components/SelectNative/SelectNative.tsx"
+    },
+    {
       "type": "registry:lib",
       "target": "utils/cx.ts",
       "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
@@ -26,12 +32,6 @@
       "target": "utils/hasErrorInput.ts",
       "content": "// Tremor hasErrorInput [v0.0.1]\n\nexport const hasErrorInput = [\n  // base\n  \"ring-2\",\n  // border color\n  \"border-red-500 dark:border-red-700\",\n  // ring color\n  \"ring-red-200 dark:ring-red-700/30\",\n]\n",
       "path": "src/utils/hasErrorInput.ts"
-    },
-    {
-      "type": "registry:component",
-      "target": "components/SelectNative/SelectNative.tsx",
-      "content": "// Tremor SelectNative [v0.0.1]\n\nimport React from \"react\"\nimport { tv, type VariantProps } from \"tailwind-variants\"\n\nimport { cx } from \"@/utils/cx\"\nimport { focusInput } from \"@/utils/focusInput\"\nimport { hasErrorInput } from \"@/utils/hasErrorInput\"\n\nconst selectNativeStyles = tv({\n  base: [\n    // base\n    \"peer w-full cursor-pointer appearance-none truncate rounded-md border py-2 pl-3 pr-7 shadow-sm outline-none transition-all sm:text-sm\",\n    // background color\n    \"bg-white dark:bg-gray-950\",\n    // border color\n    \"border-gray-300 dark:border-gray-800\",\n    // text color\n    \"text-gray-900 dark:text-gray-50\",\n    // placeholder color\n    \"placeholder-gray-400 dark:placeholder-gray-500\",\n    // hover\n    \"hover:bg-gray-50 hover:dark:bg-gray-950/50\",\n    // disabled\n    \"disabled:pointer-events-none\",\n    \"disabled:bg-gray-100 disabled:text-gray-400\",\n    \"disabled:dark:border-gray-700 disabled:dark:bg-gray-800 disabled:dark:text-gray-500\",\n    // focus\n    focusInput,\n    // invalid (optional)\n    // \"aria-[invalid=true]:dark:ring-red-400/20 aria-[invalid=true]:ring-2 aria-[invalid=true]:ring-red-200 aria-[invalid=true]:border-red-500 invalid:ring-2 invalid:ring-red-200 invalid:border-red-500\"\n  ],\n  variants: {\n    hasError: {\n      true: hasErrorInput,\n    },\n  },\n})\n\ninterface SelectNativeProps\n  extends React.InputHTMLAttributes<HTMLSelectElement>,\n    VariantProps<typeof selectNativeStyles> {}\n\nconst SelectNative = React.forwardRef<HTMLSelectElement, SelectNativeProps>(\n  ({ className, hasError, ...props }: SelectNativeProps, forwardedRef) => {\n    return (\n      <select\n        ref={forwardedRef}\n        className={cx(selectNativeStyles({ hasError }), className)}\n        tremor-id=\"tremor-raw\"\n        {...props}\n      />\n    )\n  },\n)\n\nSelectNative.displayName = \"SelectNative\"\n\nexport { SelectNative, selectNativeStyles, type SelectNativeProps }\n",
-      "path": "src/components/SelectNative/SelectNative.tsx"
     }
   ]
 }

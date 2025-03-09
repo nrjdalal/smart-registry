@@ -12,6 +12,30 @@
   ],
   "files": [
     {
+      "type": "registry:block",
+      "target": "blocks/new-york/login-01/components/login-form.tsx",
+      "content": "import { cn } from \"@/lib/new-york/utils\"\nimport { Button } from \"@/components/ui/new-york/button\"\nimport {\n  Card,\n  CardContent,\n  CardDescription,\n  CardHeader,\n  CardTitle,\n} from \"@/components/ui/new-york/card\"\nimport { Input } from \"@/components/ui/new-york/input\"\nimport { Label } from \"@/components/ui/new-york/label\"\n\nexport function LoginForm({\n  className,\n  ...props\n}: React.ComponentPropsWithoutRef<\"div\">) {\n  return (\n    <div className={cn(\"flex flex-col gap-6\", className)} {...props}>\n      <Card>\n        <CardHeader>\n          <CardTitle className=\"text-2xl\">Login</CardTitle>\n          <CardDescription>\n            Enter your email below to login to your account\n          </CardDescription>\n        </CardHeader>\n        <CardContent>\n          <form>\n            <div className=\"flex flex-col gap-6\">\n              <div className=\"grid gap-2\">\n                <Label htmlFor=\"email\">Email</Label>\n                <Input\n                  id=\"email\"\n                  type=\"email\"\n                  placeholder=\"m@example.com\"\n                  required\n                />\n              </div>\n              <div className=\"grid gap-2\">\n                <div className=\"flex items-center\">\n                  <Label htmlFor=\"password\">Password</Label>\n                  <a\n                    href=\"#\"\n                    className=\"ml-auto inline-block text-sm underline-offset-4 hover:underline\"\n                  >\n                    Forgot your password?\n                  </a>\n                </div>\n                <Input id=\"password\" type=\"password\" required />\n              </div>\n              <Button type=\"submit\" className=\"w-full\">\n                Login\n              </Button>\n              <Button variant=\"outline\" className=\"w-full\">\n                Login with Google\n              </Button>\n            </div>\n            <div className=\"mt-4 text-center text-sm\">\n              Don&apos;t have an account?{\" \"}\n              <a href=\"#\" className=\"underline underline-offset-4\">\n                Sign up\n              </a>\n            </div>\n          </form>\n        </CardContent>\n      </Card>\n    </div>\n  )\n}\n",
+      "path": "registry/new-york/blocks/login-01/components/login-form.tsx"
+    },
+    {
+      "type": "registry:page",
+      "target": "blocks/new-york/login-01/page.tsx",
+      "content": "import { LoginForm } from \"@/blocks/new-york/login-01/components/login-form\"\n\nexport default function Page() {\n  return (\n    <div className=\"flex min-h-svh w-full items-center justify-center p-6 md:p-10\">\n      <div className=\"w-full max-w-sm\">\n        <LoginForm />\n      </div>\n    </div>\n  )\n}\n",
+      "path": "registry/new-york/blocks/login-01/page.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
+      "path": "lib/utils.ts"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/new-york/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
+      "path": "registry/new-york/lib/utils.ts"
+    },
+    {
       "type": "registry:ui",
       "target": "components/ui/new-york/button.tsx",
       "content": "import * as React from \"react\"\nimport { Slot } from \"@radix-ui/react-slot\"\nimport { cva, type VariantProps } from \"class-variance-authority\"\n\nimport { cn } from \"@/lib/utils\"\n\nconst buttonVariants = cva(\n  \"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0\",\n  {\n    variants: {\n      variant: {\n        default:\n          \"bg-primary text-primary-foreground shadow hover:bg-primary/90\",\n        destructive:\n          \"bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90\",\n        outline:\n          \"border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground\",\n        secondary:\n          \"bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80\",\n        ghost: \"hover:bg-accent hover:text-accent-foreground\",\n        link: \"text-primary underline-offset-4 hover:underline\",\n      },\n      size: {\n        default: \"h-9 px-4 py-2\",\n        sm: \"h-8 rounded-md px-3 text-xs\",\n        lg: \"h-10 rounded-md px-8\",\n        icon: \"h-9 w-9\",\n      },\n    },\n    defaultVariants: {\n      variant: \"default\",\n      size: \"default\",\n    },\n  }\n)\n\nexport interface ButtonProps\n  extends React.ButtonHTMLAttributes<HTMLButtonElement>,\n    VariantProps<typeof buttonVariants> {\n  asChild?: boolean\n}\n\nconst Button = React.forwardRef<HTMLButtonElement, ButtonProps>(\n  ({ className, variant, size, asChild = false, ...props }, ref) => {\n    const Comp = asChild ? Slot : \"button\"\n    return (\n      <Comp\n        className={cn(buttonVariants({ variant, size, className }))}\n        ref={ref}\n        {...props}\n      />\n    )\n  }\n)\nButton.displayName = \"Button\"\n\nexport { Button, buttonVariants }\n",
@@ -34,30 +58,6 @@
       "target": "components/ui/new-york/label.tsx",
       "content": "\"use client\"\n\nimport * as React from \"react\"\nimport * as LabelPrimitive from \"@radix-ui/react-label\"\nimport { cva, type VariantProps } from \"class-variance-authority\"\n\nimport { cn } from \"@/lib/utils\"\n\nconst labelVariants = cva(\n  \"text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70\"\n)\n\nconst Label = React.forwardRef<\n  React.ElementRef<typeof LabelPrimitive.Root>,\n  React.ComponentPropsWithoutRef<typeof LabelPrimitive.Root> &\n    VariantProps<typeof labelVariants>\n>(({ className, ...props }, ref) => (\n  <LabelPrimitive.Root\n    ref={ref}\n    className={cn(labelVariants(), className)}\n    {...props}\n  />\n))\nLabel.displayName = LabelPrimitive.Root.displayName\n\nexport { Label }\n",
       "path": "registry/new-york/ui/label.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/new-york/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
-      "path": "registry/new-york/lib/utils.ts"
-    },
-    {
-      "type": "registry:page",
-      "target": "blocks/new-york/login-01/page.tsx",
-      "content": "import { LoginForm } from \"@/blocks/new-york/login-01/components/login-form\"\n\nexport default function Page() {\n  return (\n    <div className=\"flex min-h-svh w-full items-center justify-center p-6 md:p-10\">\n      <div className=\"w-full max-w-sm\">\n        <LoginForm />\n      </div>\n    </div>\n  )\n}\n",
-      "path": "registry/new-york/blocks/login-01/page.tsx"
-    },
-    {
-      "type": "registry:block",
-      "target": "blocks/new-york/login-01/components/login-form.tsx",
-      "content": "import { cn } from \"@/lib/new-york/utils\"\nimport { Button } from \"@/components/ui/new-york/button\"\nimport {\n  Card,\n  CardContent,\n  CardDescription,\n  CardHeader,\n  CardTitle,\n} from \"@/components/ui/new-york/card\"\nimport { Input } from \"@/components/ui/new-york/input\"\nimport { Label } from \"@/components/ui/new-york/label\"\n\nexport function LoginForm({\n  className,\n  ...props\n}: React.ComponentPropsWithoutRef<\"div\">) {\n  return (\n    <div className={cn(\"flex flex-col gap-6\", className)} {...props}>\n      <Card>\n        <CardHeader>\n          <CardTitle className=\"text-2xl\">Login</CardTitle>\n          <CardDescription>\n            Enter your email below to login to your account\n          </CardDescription>\n        </CardHeader>\n        <CardContent>\n          <form>\n            <div className=\"flex flex-col gap-6\">\n              <div className=\"grid gap-2\">\n                <Label htmlFor=\"email\">Email</Label>\n                <Input\n                  id=\"email\"\n                  type=\"email\"\n                  placeholder=\"m@example.com\"\n                  required\n                />\n              </div>\n              <div className=\"grid gap-2\">\n                <div className=\"flex items-center\">\n                  <Label htmlFor=\"password\">Password</Label>\n                  <a\n                    href=\"#\"\n                    className=\"ml-auto inline-block text-sm underline-offset-4 hover:underline\"\n                  >\n                    Forgot your password?\n                  </a>\n                </div>\n                <Input id=\"password\" type=\"password\" required />\n              </div>\n              <Button type=\"submit\" className=\"w-full\">\n                Login\n              </Button>\n              <Button variant=\"outline\" className=\"w-full\">\n                Login with Google\n              </Button>\n            </div>\n            <div className=\"mt-4 text-center text-sm\">\n              Don&apos;t have an account?{\" \"}\n              <a href=\"#\" className=\"underline underline-offset-4\">\n                Sign up\n              </a>\n            </div>\n          </form>\n        </CardContent>\n      </Card>\n    </div>\n  )\n}\n",
-      "path": "registry/new-york/blocks/login-01/components/login-form.tsx"
     }
   ]
 }

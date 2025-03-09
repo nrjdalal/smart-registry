@@ -16,6 +16,30 @@
   ],
   "files": [
     {
+      "type": "registry:file",
+      "target": "default/internal/sidebar-group-collapsible.tsx",
+      "content": "\"use client\"\n\nimport { ChevronDown, LifeBuoy, Send } from \"lucide-react\"\n\nimport {\n  Collapsible,\n  CollapsibleContent,\n  CollapsibleTrigger,\n} from \"@/components/ui/collapsible\"\nimport {\n  Sidebar,\n  SidebarContent,\n  SidebarGroup,\n  SidebarGroupContent,\n  SidebarGroupLabel,\n  SidebarMenu,\n  SidebarMenuButton,\n  SidebarMenuItem,\n  SidebarProvider,\n} from \"@/components/ui/sidebar\"\n\nexport default function AppSidebar() {\n  return (\n    <SidebarProvider>\n      <Sidebar>\n        <SidebarContent>\n          <Collapsible defaultOpen className=\"group/collapsible\">\n            <SidebarGroup>\n              <SidebarGroupLabel\n                asChild\n                className=\"text-sm hover:bg-sidebar-accent hover:text-sidebar-accent-foreground\"\n              >\n                <CollapsibleTrigger>\n                  Help\n                  <ChevronDown className=\"ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180\" />\n                </CollapsibleTrigger>\n              </SidebarGroupLabel>\n              <CollapsibleContent>\n                <SidebarGroupContent>\n                  <SidebarMenu>\n                    <SidebarMenuItem>\n                      <SidebarMenuButton>\n                        <LifeBuoy />\n                        Support\n                      </SidebarMenuButton>\n                    </SidebarMenuItem>\n                    <SidebarMenuItem>\n                      <SidebarMenuButton>\n                        <Send />\n                        Feedback\n                      </SidebarMenuButton>\n                    </SidebarMenuItem>\n                  </SidebarMenu>\n                </SidebarGroupContent>\n              </CollapsibleContent>\n            </SidebarGroup>\n          </Collapsible>\n        </SidebarContent>\n      </Sidebar>\n    </SidebarProvider>\n  )\n}\n",
+      "path": "registry/default/internal/sidebar-group-collapsible.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
+      "path": "lib/utils.ts"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
+      "path": "registry/default/lib/utils.ts"
+    },
+    {
+      "type": "registry:hook",
+      "target": "hooks/use-mobile.tsx",
+      "content": "import * as React from \"react\"\n\nconst MOBILE_BREAKPOINT = 768\n\nexport function useIsMobile() {\n  const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined)\n\n  React.useEffect(() => {\n    const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`)\n    const onChange = () => {\n      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    }\n    mql.addEventListener(\"change\", onChange)\n    setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    return () => mql.removeEventListener(\"change\", onChange)\n  }, [])\n\n  return !!isMobile\n}\n",
+      "path": "registry/default/hooks/use-mobile.tsx"
+    },
+    {
       "type": "registry:ui",
       "target": "components/ui/button.tsx",
       "content": "import * as React from \"react\"\nimport { Slot } from \"@radix-ui/react-slot\"\nimport { cva, type VariantProps } from \"class-variance-authority\"\n\nimport { cn } from \"@/lib/utils\"\n\nconst buttonVariants = cva(\n  \"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0\",\n  {\n    variants: {\n      variant: {\n        default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n        destructive:\n          \"bg-destructive text-destructive-foreground hover:bg-destructive/90\",\n        outline:\n          \"border border-input bg-background hover:bg-accent hover:text-accent-foreground\",\n        secondary:\n          \"bg-secondary text-secondary-foreground hover:bg-secondary/80\",\n        ghost: \"hover:bg-accent hover:text-accent-foreground\",\n        link: \"text-primary underline-offset-4 hover:underline\",\n      },\n      size: {\n        default: \"h-10 px-4 py-2\",\n        sm: \"h-9 rounded-md px-3\",\n        lg: \"h-11 rounded-md px-8\",\n        icon: \"h-10 w-10\",\n      },\n    },\n    defaultVariants: {\n      variant: \"default\",\n      size: \"default\",\n    },\n  }\n)\n\nexport interface ButtonProps\n  extends React.ButtonHTMLAttributes<HTMLButtonElement>,\n    VariantProps<typeof buttonVariants> {\n  asChild?: boolean\n}\n\nconst Button = React.forwardRef<HTMLButtonElement, ButtonProps>(\n  ({ className, variant, size, asChild = false, ...props }, ref) => {\n    const Comp = asChild ? Slot : \"button\"\n    return (\n      <Comp\n        className={cn(buttonVariants({ variant, size, className }))}\n        ref={ref}\n        {...props}\n      />\n    )\n  }\n)\nButton.displayName = \"Button\"\n\nexport { Button, buttonVariants }\n",
@@ -62,30 +86,6 @@
       "target": "components/ui/tooltip.tsx",
       "content": "\"use client\"\n\nimport * as React from \"react\"\nimport * as TooltipPrimitive from \"@radix-ui/react-tooltip\"\n\nimport { cn } from \"@/lib/utils\"\n\nconst TooltipProvider = TooltipPrimitive.Provider\n\nconst Tooltip = TooltipPrimitive.Root\n\nconst TooltipTrigger = TooltipPrimitive.Trigger\n\nconst TooltipContent = React.forwardRef<\n  React.ElementRef<typeof TooltipPrimitive.Content>,\n  React.ComponentPropsWithoutRef<typeof TooltipPrimitive.Content>\n>(({ className, sideOffset = 4, ...props }, ref) => (\n  <TooltipPrimitive.Content\n    ref={ref}\n    sideOffset={sideOffset}\n    className={cn(\n      \"z-50 overflow-hidden rounded-md border bg-popover px-3 py-1.5 text-sm text-popover-foreground shadow-md animate-in fade-in-0 zoom-in-95 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2\",\n      className\n    )}\n    {...props}\n  />\n))\nTooltipContent.displayName = TooltipPrimitive.Content.displayName\n\nexport { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider }\n",
       "path": "registry/default/ui/tooltip.tsx"
-    },
-    {
-      "type": "registry:hook",
-      "target": "hooks/use-mobile.tsx",
-      "content": "import * as React from \"react\"\n\nconst MOBILE_BREAKPOINT = 768\n\nexport function useIsMobile() {\n  const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined)\n\n  React.useEffect(() => {\n    const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`)\n    const onChange = () => {\n      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    }\n    mql.addEventListener(\"change\", onChange)\n    setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    return () => mql.removeEventListener(\"change\", onChange)\n  }, [])\n\n  return !!isMobile\n}\n",
-      "path": "registry/default/hooks/use-mobile.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
-      "path": "registry/default/lib/utils.ts"
-    },
-    {
-      "type": "registry:file",
-      "target": "default/internal/sidebar-group-collapsible.tsx",
-      "content": "\"use client\"\n\nimport { ChevronDown, LifeBuoy, Send } from \"lucide-react\"\n\nimport {\n  Collapsible,\n  CollapsibleContent,\n  CollapsibleTrigger,\n} from \"@/components/ui/collapsible\"\nimport {\n  Sidebar,\n  SidebarContent,\n  SidebarGroup,\n  SidebarGroupContent,\n  SidebarGroupLabel,\n  SidebarMenu,\n  SidebarMenuButton,\n  SidebarMenuItem,\n  SidebarProvider,\n} from \"@/components/ui/sidebar\"\n\nexport default function AppSidebar() {\n  return (\n    <SidebarProvider>\n      <Sidebar>\n        <SidebarContent>\n          <Collapsible defaultOpen className=\"group/collapsible\">\n            <SidebarGroup>\n              <SidebarGroupLabel\n                asChild\n                className=\"text-sm hover:bg-sidebar-accent hover:text-sidebar-accent-foreground\"\n              >\n                <CollapsibleTrigger>\n                  Help\n                  <ChevronDown className=\"ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180\" />\n                </CollapsibleTrigger>\n              </SidebarGroupLabel>\n              <CollapsibleContent>\n                <SidebarGroupContent>\n                  <SidebarMenu>\n                    <SidebarMenuItem>\n                      <SidebarMenuButton>\n                        <LifeBuoy />\n                        Support\n                      </SidebarMenuButton>\n                    </SidebarMenuItem>\n                    <SidebarMenuItem>\n                      <SidebarMenuButton>\n                        <Send />\n                        Feedback\n                      </SidebarMenuButton>\n                    </SidebarMenuItem>\n                  </SidebarMenu>\n                </SidebarGroupContent>\n              </CollapsibleContent>\n            </SidebarGroup>\n          </Collapsible>\n        </SidebarContent>\n      </Sidebar>\n    </SidebarProvider>\n  )\n}\n",
-      "path": "registry/default/internal/sidebar-group-collapsible.tsx"
     }
   ]
 }

@@ -12,12 +12,6 @@
   ],
   "files": [
     {
-      "type": "registry:lib",
-      "target": "utils/cx.ts",
-      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
-      "path": "src/utils/cx.ts"
-    },
-    {
       "type": "registry:component",
       "target": "components/Card/Card.tsx",
       "content": "// Tremor Card [v0.0.2]\n\nimport React from \"react\"\nimport { Slot } from \"@radix-ui/react-slot\"\n\nimport { cx } from \"@/utils/cx\"\n\ninterface CardProps extends React.ComponentPropsWithoutRef<\"div\"> {\n  asChild?: boolean\n}\n\nconst Card = React.forwardRef<HTMLDivElement, CardProps>(\n  ({ className, asChild, ...props }, forwardedRef) => {\n    const Component = asChild ? Slot : \"div\"\n    return (\n      <Component\n        ref={forwardedRef}\n        className={cx(\n          // base\n          \"relative w-full rounded-lg border p-6 text-left shadow-sm\",\n          // background color\n          \"bg-white dark:bg-[#090E1A]\",\n          // border color\n          \"border-gray-200 dark:border-gray-900\",\n          className,\n        )}\n        tremor-id=\"tremor-raw\"\n        {...props}\n      />\n    )\n  },\n)\n\nCard.displayName = \"Card\"\n\nexport { Card, type CardProps }\n",
@@ -34,6 +28,12 @@
       "target": "components/ProgressBar/progressbar.stories.tsx",
       "content": "import type { Meta, StoryObj } from \"@storybook/react\"\n\nimport { Card } from \"@/components/Card/Card\"\nimport { ProgressBar } from \"@/components/ProgressBar/ProgressBar\"\n\nconst meta: Meta<typeof ProgressBar> = {\n  title: \"visualization/ProgressBar\",\n  render: (args) => (\n    <ProgressBar {...args} className=\"w-96\" data-testid=\"progressbar\" />\n  ),\n  component: ProgressBar,\n}\n\nexport default meta\ntype Story = StoryObj<typeof ProgressBar>\n\nexport const Default: Story = {\n  args: {\n    value: 62,\n    label: \"62%\",\n  },\n}\n\nexport const Value0: Story = {\n  args: {\n    value: 0,\n  },\n}\n\nexport const Value120: Story = {\n  args: {\n    value: 120,\n  },\n}\n\nexport const Max: Story = {\n  args: {\n    value: 40,\n    max: 50,\n  },\n}\n\nexport const VariantsComposition: Story = {\n  render: () => (\n    <div className=\"w-96 space-y-4\">\n      <div className=\"flex items-center justify-between space-x-3\">\n        <ProgressBar variant=\"default\" value={50} className=\"w-60\" />\n        <span className=\"text-sm font-semibold text-gray-900 dark:text-gray-50\">\n          Default\n        </span>\n      </div>\n      <div className=\"flex items-center justify-between space-x-3\">\n        <ProgressBar variant=\"neutral\" value={40} className=\"w-60\" />\n        <span className=\"text-sm font-semibold text-gray-900 dark:text-gray-50\">\n          Neutral\n        </span>\n      </div>\n      <div className=\"flex items-center justify-between space-x-3\">\n        <ProgressBar variant=\"success\" value={50} className=\"w-60\" />\n        <span className=\"text-sm font-semibold text-gray-900 dark:text-gray-50\">\n          Success\n        </span>\n      </div>\n      <div className=\"flex items-center justify-between space-x-3\">\n        <ProgressBar variant=\"warning\" value={20} className=\"w-60\" />\n        <span className=\"text-sm font-semibold text-gray-900 dark:text-gray-50\">\n          Warning\n        </span>\n      </div>\n      <div className=\"flex items-center justify-between space-x-3\">\n        <ProgressBar variant=\"error\" value={10} className=\"w-60\" />\n        <span className=\"text-sm font-semibold text-gray-900 dark:text-gray-50\">\n          Error\n        </span>\n      </div>\n    </div>\n  ),\n}\n\nexport const WithKPICard: Story = {\n  render: () => (\n    <Card className=\"w-96\">\n      <p className=\"text-sm font-medium text-gray-900 dark:text-gray-50\">\n        Sales Progress\n      </p>\n      <div className=\"mt-2 flex items-center space-x-2\">\n        <span className=\"whitespace-nowrap text-sm text-gray-500\">\n          Goal 2023\n        </span>\n        <ProgressBar value={54} max={100} label=\"54%\" />\n      </div>\n    </Card>\n  ),\n}\n",
       "path": "src/components/ProgressBar/progressbar.stories.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/cx.ts",
+      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
+      "path": "src/utils/cx.ts"
     }
   ]
 }

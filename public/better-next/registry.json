@@ -16,24 +16,9 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/auth/client.ts",
-          "path": "src/lib/auth/client.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/auth/index.ts",
-          "path": "src/lib/auth/index.ts"
-        },
-        {
-          "type": "registry:page",
-          "target": "app/(auth)/access/page.tsx",
-          "path": "src/app/(auth)/access/page.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "app/(auth)/x/page.tsx",
-          "path": "src/app/(auth)/x/page.tsx"
+          "type": "registry:component",
+          "target": "components/auth.tsx",
+          "path": "src/components/auth.tsx"
         },
         {
           "type": "registry:file",
@@ -71,9 +56,24 @@
           "path": "src/middleware.ts"
         },
         {
-          "type": "registry:component",
-          "target": "components/auth.tsx",
-          "path": "src/components/auth.tsx"
+          "type": "registry:page",
+          "target": "app/(auth)/access/page.tsx",
+          "path": "src/app/(auth)/access/page.tsx"
+        },
+        {
+          "type": "registry:page",
+          "target": "app/(auth)/x/page.tsx",
+          "path": "src/app/(auth)/x/page.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/auth/client.ts",
+          "path": "src/lib/auth/client.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/auth/index.ts",
+          "path": "src/lib/auth/index.ts"
         }
       ]
     }
