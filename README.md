@@ -5,9 +5,11 @@
 [![npm](https://img.shields.io/npm/dt/smart-registry?color=red&logo=npm)](https://www.npmjs.com/package/smart-registry)
 [![GitHub](https://img.shields.io/github/stars/nrjdalal/smart-registry?color=blue)](https://github.com/nrjdalal/smart-registry)
 
-A zero-configuration (no registry.json required), [shadcn add](https://ui.shadcn.com/docs/cli#add) / [open in v0](https://ui.shadcn.com/docs/registry/open-in-v0) compatible registry builder.
+A `zero-configuration` (no registry.json required), [shadcn add](https://ui.shadcn.com/docs/cli#add) / [open in v0](https://ui.shadcn.com/docs/registry/open-in-v0) compatible registry builder. With amazing visual feedback like how many dependencies, files are being added to a component and much more.
 
-> The best configuration is no configuration. Focus on developing building blocks, components, and pages, rather than spending time configuring the registry.
+> The best configuration is no configuration. Focus on developing building blocks, components, pages and much more rather than spending time configuring the registry.
+
+![Demo Originui](https://github.com/user-attachments/assets/4f288629-5fc5-402c-a168-d4250d34ae92)
 
 ## What is Zero-Configuration?
 
@@ -34,6 +36,12 @@ Simplify your `registry.json` by removing properties like `registryDependencies`
 -    }
   ]
 }
+```
+
+Or delete the `registry.json` file entirely. No changes will be made to the generated `public/r/dialog.json` file. Smart right?
+
+```bash
+rm registry.json
 ```
 
 <details><summary>Generated public/r/dialog.json</summary><br/>
@@ -101,7 +109,7 @@ If your project contains a `registry`, `components`, or `src/components` directo
 npx smart-registry
 ```
 
-![Demo Originui](https://github.com/user-attachments/assets/4f288629-5fc5-402c-a168-d4250d34ae92)
+Yeah, that's it! You don't need to do anything else. `Smart Registry` has the word `smart` in it for a reason.
 
 ### Advanced Usage
 
