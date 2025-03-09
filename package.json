@@ -38,7 +38,7 @@
     ]
   },
   "lint-staged": {
-    "*": "prettier --write --ignore-unknown",
+    "*": "prettier --write --ignore-unknown !public/**/*",
     "public/**/*": "prettier --ignore",
     "package.json": "sort-package-json"
   },

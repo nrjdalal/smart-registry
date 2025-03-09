@@ -13,14 +13,17 @@ npm run build
 process() {
   local link=$1
   local name=$2
-  local wdir=$3
-  local tdir=$(mktemp -d)
-  npx gitpick@latest $link $tdir/$name
-  rm -rf $tdir/$name${wdir:+/$wdir}/public $tdir/$name${wdir:+/$wdir}/registry.json
-  node dist/bin/index.js -c $tdir/$name${wdir:+/$wdir}
+  local workdir=$3
+  local junkdir
+
+  junkdir=$([ "$USER" = "nrjdalal" ] && echo "$HOME/.junk" || mktemp -d /tmp/smart-registry.XXXXXXX)
+
+  [ ! -d "$junkdir/$name" ] && npx gitpick@latest $link $junkdir/$name
+
+  rm -rf $junkdir/$name${workdir:+/$workdir}/public $junkdir/$name${workdir:+/$workdir}/registry.json
+  node dist/bin/index.js -c $junkdir/$name${workdir:+/$workdir}
   mkdir -p test/$name
-  rsync -a --delete $tdir/$name${wdir:+/$wdir}/public/r/ test/$name
-  rm -rf $tdir
+  rsync -a --delete $junkdir/$name${workdir:+/$workdir}/public/r/ test/$name
 }
 
 for repo in "${repos[@]}"; do
