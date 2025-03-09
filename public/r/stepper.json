@@ -7,7 +7,6 @@
     "clsx",
     "lucide-react",
     "react",
-    "react",
     "tailwind-merge"
   ],
   "files": [

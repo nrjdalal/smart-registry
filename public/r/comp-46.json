@@ -8,7 +8,6 @@
     "lucide-react",
     "react",
     "react-phone-number-input",
-    "react-phone-number-input",
     "tailwind-merge"
   ],
   "files": [
@@ -38,10 +37,6 @@
     }
   ],
   "meta": {
-    "tags": [
-      "input",
-      "label",
-      "phone"
-    ]
+    "tags": ["input", "label", "phone"]
   }
 }

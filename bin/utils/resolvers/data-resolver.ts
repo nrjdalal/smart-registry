@@ -39,6 +39,7 @@ export const dataResolver = async ({
       filepath,
       content: data.content[filepath],
     })
+
     data.dependencies.push(
       ...dependencies.filter(
         (dependency) => !data.dependencies.includes(dependency),
@@ -47,28 +48,27 @@ export const dataResolver = async ({
     data.files.push(...files.filter((file) => !data.files.includes(file)))
   }
 
-  for (const file of data.files) {
-    if (!resolved.has(file)) {
-      const { dependencies, files } = await dataResolver({
-        cwd,
-        aliases,
-        filepaths: [file],
-        resolved,
-      })
-      data.dependencies.push(
-        ...dependencies.filter(
-          (dependency) => !data.dependencies.includes(dependency),
-        ),
-      )
-      data.files.push(...files.filter((file) => !data.files.includes(file)))
-      data.content[file] =
-        data.content[file] ||
-        (await fs.promises.readFile(path.resolve(cwd, file), "utf8"))
-    }
+  for (const filepath of data.files) {
+    const { dependencies, files } = await dataResolver({
+      cwd,
+      aliases,
+      filepaths: [filepath],
+      resolved,
+    })
+
+    data.dependencies.push(
+      ...dependencies.filter(
+        (dependency) => !data.dependencies.includes(dependency),
+      ),
+    )
+    data.files.push(...files.filter((file) => !data.files.includes(file)))
+    data.content[filepath] =
+      data.content[filepath] ||
+      (await fs.promises.readFile(path.resolve(cwd, filepath), "utf8"))
   }
 
-  data.dependencies = data.dependencies.sort()
-  data.files = data.files.sort()
+  data.dependencies = [...new Set(data.dependencies)].sort()
+  data.files = [...new Set(data.files)].sort()
 
   return data
 }

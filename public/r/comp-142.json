@@ -19,6 +19,7 @@
     {
       "type": "registry:lib",
       "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n",
       "path": "registry/default/lib/utils.ts"
     },
     {
@@ -41,11 +42,6 @@
     }
   ],
   "meta": {
-    "tags": [
-      "checkbox",
-      "label",
-      "collapsible",
-      "radix"
-    ]
+    "tags": ["checkbox", "label", "collapsible", "radix"]
   }
 }

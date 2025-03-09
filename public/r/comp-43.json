@@ -9,7 +9,6 @@
     "react",
     "react-aria",
     "react-aria-components",
-    "react-aria-components",
     "tailwind-merge"
   ],
   "files": [
