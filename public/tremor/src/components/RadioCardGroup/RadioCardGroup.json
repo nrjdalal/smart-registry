@@ -1,0 +1,37 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "src/components/RadioCardGroup/RadioCardGroup",
+  "type": "registry:file",
+  "dependencies": [
+    "@radix-ui/react-radio-group",
+    "clsx",
+    "react",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "src/components/RadioCardGroup/RadioCardGroup.tsx",
+      "content": "// Tremor Radio Card [v0.0.3]\n\nimport React from \"react\"\nimport * as RadioGroupPrimitives from \"@radix-ui/react-radio-group\"\n\nimport { cx } from \"../../utils/cx\"\nimport { focusInput } from \"../../utils/focusInput\"\nimport { focusRing } from \"../../utils/focusRing\"\n\nconst RadioCardGroup = React.forwardRef<\n  React.ElementRef<typeof RadioGroupPrimitives.Root>,\n  React.ComponentPropsWithoutRef<typeof RadioGroupPrimitives.Root>\n>(({ className, ...props }, forwardedRef) => {\n  return (\n    <RadioGroupPrimitives.Root\n      ref={forwardedRef}\n      className={cx(\"grid gap-2\", className)}\n      tremor-id=\"tremor-raw\"\n      {...props}\n    />\n  )\n})\n\nRadioCardGroup.displayName = \"RadioCardGroup\"\n\nconst RadioCardItem = React.forwardRef<\n  React.ElementRef<typeof RadioGroupPrimitives.Item>,\n  React.ComponentPropsWithoutRef<typeof RadioGroupPrimitives.Item>\n>(({ className, children, ...props }, forwardedRef) => {\n  return (\n    <RadioGroupPrimitives.Item\n      ref={forwardedRef}\n      className={cx(\n        // base\n        \"group relative w-full rounded-md border p-4 text-left shadow-sm transition focus:outline-none\",\n        // background color\n        \"bg-white dark:bg-gray-950\",\n        // border color\n        \"border-gray-300 dark:border-gray-800\",\n        \"data-[state=checked]:border-blue-500\",\n        \"data-[state=checked]:dark:border-blue-500\",\n        // disabled\n        \"data-[disabled]:border-gray-100 data-[disabled]:dark:border-gray-800\",\n        \"data-[disabled]:bg-gray-50 data-[disabled]:shadow-none data-[disabled]:dark:bg-gray-900\",\n        focusInput,\n        className,\n      )}\n      {...props}\n    >\n      {children}\n    </RadioGroupPrimitives.Item>\n  )\n})\n\nRadioCardItem.displayName = \"RadioCardItem\"\n\nconst RadioCardIndicator = React.forwardRef<\n  React.ElementRef<typeof RadioGroupPrimitives.Indicator>,\n  React.ComponentPropsWithoutRef<typeof RadioGroupPrimitives.Indicator>\n>(({ className, ...props }, forwardedRef) => {\n  return (\n    <div\n      className={cx(\n        // base\n        \"relative flex size-4 shrink-0 appearance-none items-center justify-center rounded-full border shadow-sm outline-none\",\n        // border color\n        \"border-gray-300 dark:border-gray-800\",\n        // background color\n        \"bg-white dark:bg-gray-950\",\n        // checked\n        \"group-data-[state=checked]:border-0 group-data-[state=checked]:border-transparent group-data-[state=checked]:bg-blue-500\",\n        // disabled\n        \"group-data-[disabled]:border-gray-300 group-data-[disabled]:bg-gray-100 group-data-[disabled]:text-gray-400\",\n        \"group-data-[disabled]:dark:border-gray-700 group-data-[disabled]:dark:bg-gray-800\",\n        // focus\n        focusRing,\n        className,\n      )}\n    >\n      <RadioGroupPrimitives.Indicator\n        ref={forwardedRef}\n        className={cx(\"flex items-center justify-center\")}\n        {...props}\n      >\n        <div\n          className={cx(\n            // base\n            \"size size-1.5 shrink-0 rounded-full\",\n            // indicator\n            \"bg-white\",\n            // disabled\n            \"group-data-[disabled]:bg-gray-400 group-data-[disabled]:dark:bg-gray-500\",\n          )}\n        />\n      </RadioGroupPrimitives.Indicator>\n    </div>\n  )\n})\n\nRadioCardIndicator.displayName = \"RadioCardIndicator\"\n\nexport { RadioCardGroup, RadioCardIndicator, RadioCardItem }\n",
+      "path": "src/components/RadioCardGroup/RadioCardGroup.tsx"
+    },
+    {
+      "type": "registry:file",
+      "target": "src/utils/cx.ts",
+      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
+      "path": "src/utils/cx.ts"
+    },
+    {
+      "type": "registry:file",
+      "target": "src/utils/focusInput.ts",
+      "content": "// Tremor focusInput [v0.0.1]\n\nexport const focusInput = [\n  // base\n  \"focus:ring-2\",\n  // ring color\n  \"focus:ring-blue-200 focus:dark:ring-blue-700/30\",\n  // border color\n  \"focus:border-blue-500 focus:dark:border-blue-700\",\n]\n",
+      "path": "src/utils/focusInput.ts"
+    },
+    {
+      "type": "registry:file",
+      "target": "src/utils/focusRing.ts",
+      "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
+      "path": "src/utils/focusRing.ts"
+    }
+  ]
+}

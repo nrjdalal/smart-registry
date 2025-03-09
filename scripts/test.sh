@@ -22,8 +22,8 @@ process() {
 
   rm -rf $junkdir/$name${workdir:+/$workdir}/public $junkdir/$name${workdir:+/$workdir}/registry.json
   node dist/bin/index.js -c $junkdir/$name${workdir:+/$workdir}
-  mkdir -p test/$name
-  rsync -a --delete $junkdir/$name${workdir:+/$workdir}/public/r/ test/$name
+  mkdir -p public/$name
+  rsync -a --delete $junkdir/$name${workdir:+/$workdir}/public/r/ public/$name
 }
 
 for repo in "${repos[@]}"; do

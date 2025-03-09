@@ -1,0 +1,75 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "shadcn",
+  "homepage": "https://ui.shadcn.com",
+  "items": [
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "src/components/auth",
+      "type": "registry:file",
+      "dependencies": [
+        "better-auth",
+        "next"
+      ],
+      "files": [
+        {
+          "type": "registry:file",
+          "target": "src/components/auth.tsx",
+          "path": "src/components/auth.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "src/lib/auth/client.ts",
+          "path": "src/lib/auth/client.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "src/lib/auth/client",
+      "type": "registry:file",
+      "dependencies": [
+        "better-auth"
+      ],
+      "files": [
+        {
+          "type": "registry:file",
+          "target": "src/lib/auth/client.ts",
+          "path": "src/lib/auth/client.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "src/lib/auth/index",
+      "type": "registry:file",
+      "dependencies": [
+        "better-auth",
+        "drizzle-orm",
+        "postgres"
+      ],
+      "files": [
+        {
+          "type": "registry:file",
+          "target": "src/db/index.ts",
+          "path": "src/db/index.ts"
+        },
+        {
+          "type": "registry:file",
+          "target": "src/db/schema/auth.ts",
+          "path": "src/db/schema/auth.ts"
+        },
+        {
+          "type": "registry:file",
+          "target": "src/db/schema/index.ts",
+          "path": "src/db/schema/index.ts"
+        },
+        {
+          "type": "registry:file",
+          "target": "src/lib/auth/index.ts",
+          "path": "src/lib/auth/index.ts"
+        }
+      ]
+    }
+  ]
+}

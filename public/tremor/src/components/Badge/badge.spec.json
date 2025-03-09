@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "src/components/Badge/badge.spec",
+  "type": "registry:file",
+  "dependencies": [
+    "@playwright/test"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "src/components/Badge/badge.spec.ts",
+      "content": "import { expect, test } from \"@playwright/test\"\n\ntest.describe(\"Expect default badge\", () => {\n  test(\"to be rendered\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-badge--default\")\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByText(\"Badge\")\n      .click()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Badge\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .locator(\"#storybook-root\"),\n    ).toContainText(\"Badge\")\n  })\n})\n\ntest.describe(\"Expect accordion variants\", () => {\n  test(\"to inlcude all variants\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-badge--variants\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Neutral\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .locator(\"#storybook-root\")\n        .getByText(\"Default\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Success\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Error\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Warning\"),\n    ).toBeVisible()\n  })\n})\n\ntest.describe(\"Expect badge as link\", () => {\n  test(\"to be a link\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/ui-badge--anchor-with-badge-variants-style\",\n    )\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"link\"),\n    ).toBeDefined()\n  })\n})\n",
+      "path": "src/components/Badge/badge.spec.ts"
+    }
+  ]
+}

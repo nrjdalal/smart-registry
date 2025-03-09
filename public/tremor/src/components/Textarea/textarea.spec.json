@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "src/components/Textarea/textarea.spec",
+  "type": "registry:file",
+  "dependencies": [
+    "@playwright/test"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "src/components/Textarea/textarea.spec.ts",
+      "content": "import { expect, test } from \"@playwright/test\"\n\ntest.describe(\"Expect textarea default\", () => {\n  test(\"to render\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-textarea--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"textbox\"),\n    ).toBeVisible()\n  })\n\n  test(\"to be editable\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-textarea--default\")\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByRole(\"textbox\")\n      .click()\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByRole(\"textbox\")\n      .fill(\"Some text\\n\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"textbox\"),\n    ).toHaveValue(\"Some text\\n\")\n  })\n\n  test(\"to have a placeholder\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/ui-textarea--placeholder\",\n    )\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByPlaceholder(\"Write something...\"),\n    ).toBeVisible()\n  })\n})\n",
+      "path": "src/components/Textarea/textarea.spec.ts"
+    }
+  ]
+}

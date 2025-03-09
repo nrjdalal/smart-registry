@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "src/hooks/changelog",
+  "type": "registry:file",
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "src/hooks/changelog.md",
+      "content": "# Tremor hooks Changelog\n\n## 0.0.1\n\n### Changes\n\n- Fix: Maximum update depth exceeded error on useOnWindowResize\n\n## 0.0.0\n\n### Changes\n\n- New: useOnWindowResize hook for charts\n",
+      "path": "src/hooks/changelog.md"
+    }
+  ]
+}

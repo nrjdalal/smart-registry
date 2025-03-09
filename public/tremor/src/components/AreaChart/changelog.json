@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "src/components/AreaChart/changelog",
+  "type": "registry:file",
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "src/components/AreaChart/changelog.md",
+      "content": "# Tremor AreaChart Changelog\n\n## 0.3.1\n\n### Changes\n\n- Feat: - Chore: Add `tremor-id`\n\n## 0.3.0\n\n### Changes\n\n- Feat: customTooltip\n\n## 0.2.3\n\n### Changes\n\n- Chore: Gradient fill values\n- Chore: Padding if no y-axis and startEndOnly\n\n## 0.2.2\n\n### Changes\n\n- Fix: Legend scroll distance\n\n## 0.2.1\n\n### Changes\n\n- Fix: Gradient category id\n\n## 0.2.0\n\n### Changes\n\n- Feat: Add tooltipCallback prop\n- Feat: Add fill prop\n\n## 0.1.0\n\n### Changes\n\n- Feat: Add legendPosition prop\n",
+      "path": "src/components/AreaChart/changelog.md"
+    }
+  ]
+}

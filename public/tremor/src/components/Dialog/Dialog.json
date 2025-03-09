@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "src/components/Dialog/Dialog",
+  "type": "registry:file",
+  "dependencies": [
+    "@radix-ui/react-dialog",
+    "clsx",
+    "react",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "src/components/Dialog/Dialog.tsx",
+      "content": "// Tremor Dialog [v0.0.1]\n\nimport React from \"react\"\nimport * as DialogPrimitives from \"@radix-ui/react-dialog\"\n\nimport { cx } from \"../../utils/cx\"\nimport { focusRing } from \"../../utils/focusRing\"\n\nconst Dialog = (\n  props: React.ComponentPropsWithoutRef<typeof DialogPrimitives.Root>,\n) => {\n  return <DialogPrimitives.Root {...props} />\n}\nDialog.displayName = \"Dialog\"\n\nconst DialogTrigger = DialogPrimitives.Trigger\n\nDialogTrigger.displayName = \"DialogTrigger\"\n\nconst DialogClose = DialogPrimitives.Close\n\nDialogClose.displayName = \"DialogClose\"\n\nconst DialogPortal = DialogPrimitives.Portal\n\nDialogPortal.displayName = \"DialogPortal\"\n\nconst DialogOverlay = React.forwardRef<\n  React.ElementRef<typeof DialogPrimitives.Overlay>,\n  React.ComponentPropsWithoutRef<typeof DialogPrimitives.Overlay>\n>(({ className, ...props }, forwardedRef) => {\n  return (\n    <DialogPrimitives.Overlay\n      ref={forwardedRef}\n      className={cx(\n        // base\n        \"fixed inset-0 z-50 overflow-y-auto\",\n        // background color\n        \"bg-black/70\",\n        // transition\n        \"data-[state=open]:animate-dialogOverlayShow\",\n        className,\n      )}\n      {...props}\n    />\n  )\n})\n\nDialogOverlay.displayName = \"DialogOverlay\"\n\nconst DialogContent = React.forwardRef<\n  React.ElementRef<typeof DialogPrimitives.Content>,\n  React.ComponentPropsWithoutRef<typeof DialogPrimitives.Content>\n>(({ className, ...props }, forwardedRef) => {\n  return (\n    <DialogPortal>\n      <DialogOverlay>\n        <DialogPrimitives.Content\n          ref={forwardedRef}\n          className={cx(\n            // base\n            \"fixed left-1/2 top-1/2 z-50 w-[95vw] max-w-lg -translate-x-1/2 -translate-y-1/2 overflow-y-auto rounded-md border p-6 shadow-lg\",\n            // border color\n            \"border-gray-200 dark:border-gray-900\",\n            // background color\n            \"bg-white dark:bg-[#090E1A]\",\n            // transition\n            \"data-[state=open]:animate-dialogContentShow\",\n            focusRing,\n            className,\n          )}\n          tremor-id=\"tremor-raw\"\n          {...props}\n        />\n      </DialogOverlay>\n    </DialogPortal>\n  )\n})\n\nDialogContent.displayName = \"DialogContent\"\n\nconst DialogHeader = ({\n  className,\n  ...props\n}: React.HTMLAttributes<HTMLDivElement>) => {\n  return <div className={cx(\"flex flex-col gap-y-1\", className)} {...props} />\n}\n\nDialogHeader.displayName = \"DialogHeader\"\n\nconst DialogTitle = React.forwardRef<\n  React.ElementRef<typeof DialogPrimitives.Title>,\n  React.ComponentPropsWithoutRef<typeof DialogPrimitives.Title>\n>(({ className, ...props }, forwardedRef) => (\n  <DialogPrimitives.Title\n    ref={forwardedRef}\n    className={cx(\n      // base\n      \"text-lg font-semibold\",\n      // text color\n      \"text-gray-900 dark:text-gray-50\",\n      className,\n    )}\n    {...props}\n  />\n))\n\nDialogTitle.displayName = \"DialogTitle\"\n\nconst DialogDescription = React.forwardRef<\n  React.ElementRef<typeof DialogPrimitives.Description>,\n  React.ComponentPropsWithoutRef<typeof DialogPrimitives.Description>\n>(({ className, ...props }, forwardedRef) => {\n  return (\n    <DialogPrimitives.Description\n      ref={forwardedRef}\n      className={cx(\"text-gray-500 dark:text-gray-500\", className)}\n      {...props}\n    />\n  )\n})\n\nDialogDescription.displayName = \"DialogDescription\"\n\nconst DialogFooter = ({\n  className,\n  ...props\n}: React.HTMLAttributes<HTMLDivElement>) => {\n  return (\n    <div\n      className={cx(\n        \"flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-2\",\n        className,\n      )}\n      {...props}\n    />\n  )\n}\n\nDialogFooter.displayName = \"DialogFooter\"\n\nexport {\n  Dialog,\n  DialogClose,\n  DialogContent,\n  DialogDescription,\n  DialogFooter,\n  DialogHeader,\n  DialogTitle,\n  DialogTrigger,\n}\n",
+      "path": "src/components/Dialog/Dialog.tsx"
+    },
+    {
+      "type": "registry:file",
+      "target": "src/utils/cx.ts",
+      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
+      "path": "src/utils/cx.ts"
+    },
+    {
+      "type": "registry:file",
+      "target": "src/utils/focusRing.ts",
+      "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
+      "path": "src/utils/focusRing.ts"
+    }
+  ]
+}

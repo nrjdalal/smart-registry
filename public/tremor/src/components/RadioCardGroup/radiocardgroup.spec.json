@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "src/components/RadioCardGroup/radiocardgroup.spec",
+  "type": "registry:file",
+  "dependencies": [
+    "@playwright/test"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "src/components/RadioCardGroup/radiocardgroup.spec.ts",
+      "content": "import { expect, test } from \"@playwright/test\"\n\ntest.describe(\"Expect radiocardgroup default\", () => {\n  test(\"to be rendered\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/ui-radiocardgroup--default\",\n    )\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"radiogroup\"),\n    ).toBeVisible()\n  })\n  test(\"to render radiogroupitems\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/ui-radiocardgroup--default\",\n    )\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"radiogroup\"),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"radio\", { name: \"Software Engineer\" }),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"radio\", { name: \"Platform Engineer\" }),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"radio\", { name: \"Hardware Engineer\" }),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"radio\"),\n    ).toHaveCount(3)\n  })\n\n  test(\"to be checkable\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/ui-radiocardgroup--default\",\n    )\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByRole(\"radio\", { name: \"Platform Engineer\" })\n      .click()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"radio\", { name: \"Platform Engineer\" }),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"radio\", { name: \"Platform Engineer\" }),\n    ).toBeChecked()\n  })\n})\n\ntest.describe(\"Expect radiogroup disabled\", () => {\n  test(\"to be disabled\", async ({ page }) => {\n    await page.goto(\n      \"http://localhost:6006/?path=/story/ui-radiocardgroup--disabled\",\n    )\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"radio\", { name: \"Hardware Engineer\" }),\n    ).toBeDisabled()\n  })\n})\n",
+      "path": "src/components/RadioCardGroup/radiocardgroup.spec.ts"
+    }
+  ]
+}

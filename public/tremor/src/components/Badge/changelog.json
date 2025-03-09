@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "src/components/Badge/changelog",
+  "type": "registry:file",
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "src/components/Badge/changelog.md",
+      "content": "# Tremor Badge Changelog\n\n## 0.0.1\n\n### Changes\n\n- Chore: Add `tremor-id`\n",
+      "path": "src/components/Badge/changelog.md"
+    }
+  ]
+}
