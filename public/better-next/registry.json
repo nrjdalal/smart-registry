@@ -1,0 +1,81 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "nrjdalal",
+  "homepage": "https://nrjdalal.com",
+  "items": [
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "app/api/auth",
+      "type": "registry:file",
+      "dependencies": [
+        "better-auth",
+        "drizzle-kit",
+        "drizzle-orm",
+        "next",
+        "postgres"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/auth.tsx",
+          "path": "src/components/auth.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "~/.env.example-auth",
+          "path": ".env.example-auth"
+        },
+        {
+          "type": "registry:file",
+          "target": "~/drizzle.config.ts",
+          "path": "drizzle.config.ts"
+        },
+        {
+          "type": "registry:file",
+          "target": "app/api/auth/[...all]/route.ts",
+          "path": "src/app/api/auth/[...all]/route.ts"
+        },
+        {
+          "type": "registry:file",
+          "target": "db/index.ts",
+          "path": "src/db/index.ts"
+        },
+        {
+          "type": "registry:file",
+          "target": "db/schema/auth.ts",
+          "path": "src/db/schema/auth.ts"
+        },
+        {
+          "type": "registry:file",
+          "target": "db/schema/index.ts",
+          "path": "src/db/schema/index.ts"
+        },
+        {
+          "type": "registry:file",
+          "target": "middleware.ts",
+          "path": "src/middleware.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "app/(auth)/access/page.tsx",
+          "path": "src/app/(auth)/access/page.tsx"
+        },
+        {
+          "type": "registry:page",
+          "target": "app/(auth)/x/page.tsx",
+          "path": "src/app/(auth)/x/page.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/auth/client.ts",
+          "path": "src/lib/auth/client.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/auth/index.ts",
+          "path": "src/lib/auth/index.ts"
+        }
+      ]
+    }
+  ]
+}

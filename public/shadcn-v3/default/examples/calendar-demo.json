@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "default/examples/calendar-demo",
+  "type": "registry:file",
+  "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "react",
+    "react-day-picker",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "default/examples/calendar-demo.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\n\nimport { Calendar } from \"@/components/ui/calendar\"\n\nexport default function CalendarDemo() {\n  const [date, setDate] = React.useState<Date | undefined>(new Date())\n\n  return (\n    <Calendar\n      mode=\"single\"\n      selected={date}\n      onSelect={setDate}\n      className=\"rounded-md border\"\n    />\n  )\n}\n",
+      "path": "registry/default/examples/calendar-demo.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
+      "path": "lib/utils.ts"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/button.tsx",
+      "content": "import * as React from \"react\"\nimport { Slot } from \"@radix-ui/react-slot\"\nimport { cva, type VariantProps } from \"class-variance-authority\"\n\nimport { cn } from \"@/lib/utils\"\n\nconst buttonVariants = cva(\n  \"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0\",\n  {\n    variants: {\n      variant: {\n        default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n        destructive:\n          \"bg-destructive text-destructive-foreground hover:bg-destructive/90\",\n        outline:\n          \"border border-input bg-background hover:bg-accent hover:text-accent-foreground\",\n        secondary:\n          \"bg-secondary text-secondary-foreground hover:bg-secondary/80\",\n        ghost: \"hover:bg-accent hover:text-accent-foreground\",\n        link: \"text-primary underline-offset-4 hover:underline\",\n      },\n      size: {\n        default: \"h-10 px-4 py-2\",\n        sm: \"h-9 rounded-md px-3\",\n        lg: \"h-11 rounded-md px-8\",\n        icon: \"h-10 w-10\",\n      },\n    },\n    defaultVariants: {\n      variant: \"default\",\n      size: \"default\",\n    },\n  }\n)\n\nexport interface ButtonProps\n  extends React.ButtonHTMLAttributes<HTMLButtonElement>,\n    VariantProps<typeof buttonVariants> {\n  asChild?: boolean\n}\n\nconst Button = React.forwardRef<HTMLButtonElement, ButtonProps>(\n  ({ className, variant, size, asChild = false, ...props }, ref) => {\n    const Comp = asChild ? Slot : \"button\"\n    return (\n      <Comp\n        className={cn(buttonVariants({ variant, size, className }))}\n        ref={ref}\n        {...props}\n      />\n    )\n  }\n)\nButton.displayName = \"Button\"\n\nexport { Button, buttonVariants }\n",
+      "path": "registry/default/ui/button.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/calendar.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\nimport { ChevronLeft, ChevronRight } from \"lucide-react\"\nimport { DayPicker } from \"react-day-picker\"\n\nimport { cn } from \"@/lib/utils\"\nimport { buttonVariants } from \"@/components/ui/button\"\n\nexport type CalendarProps = React.ComponentProps<typeof DayPicker>\n\nfunction Calendar({\n  className,\n  classNames,\n  showOutsideDays = true,\n  ...props\n}: CalendarProps) {\n  return (\n    <DayPicker\n      showOutsideDays={showOutsideDays}\n      className={cn(\"p-3\", className)}\n      classNames={{\n        months: \"flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0\",\n        month: \"space-y-4\",\n        caption: \"flex justify-center pt-1 relative items-center\",\n        caption_label: \"text-sm font-medium\",\n        nav: \"space-x-1 flex items-center\",\n        nav_button: cn(\n          buttonVariants({ variant: \"outline\" }),\n          \"h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100\"\n        ),\n        nav_button_previous: \"absolute left-1\",\n        nav_button_next: \"absolute right-1\",\n        table: \"w-full border-collapse space-y-1\",\n        head_row: \"flex\",\n        head_cell:\n          \"text-muted-foreground rounded-md w-9 font-normal text-[0.8rem]\",\n        row: \"flex w-full mt-2\",\n        cell: \"h-9 w-9 text-center text-sm p-0 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-accent/50 [&:has([aria-selected])]:bg-accent first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20\",\n        day: cn(\n          buttonVariants({ variant: \"ghost\" }),\n          \"h-9 w-9 p-0 font-normal aria-selected:opacity-100\"\n        ),\n        day_range_end: \"day-range-end\",\n        day_selected:\n          \"bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground\",\n        day_today: \"bg-accent text-accent-foreground\",\n        day_outside:\n          \"day-outside text-muted-foreground aria-selected:bg-accent/50 aria-selected:text-muted-foreground\",\n        day_disabled: \"text-muted-foreground opacity-50\",\n        day_range_middle:\n          \"aria-selected:bg-accent aria-selected:text-accent-foreground\",\n        day_hidden: \"invisible\",\n        ...classNames,\n      }}\n      components={{\n        IconLeft: ({ className, ...props }) => (\n          <ChevronLeft className={cn(\"h-4 w-4\", className)} {...props} />\n        ),\n        IconRight: ({ className, ...props }) => (\n          <ChevronRight className={cn(\"h-4 w-4\", className)} {...props} />\n        ),\n      }}\n      {...props}\n    />\n  )\n}\nCalendar.displayName = \"Calendar\"\n\nexport { Calendar }\n",
+      "path": "registry/default/ui/calendar.tsx"
+    }
+  ]
+}

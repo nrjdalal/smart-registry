@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Toggle/toggle.stories",
+  "type": "registry:component",
+  "dependencies": [
+    "@radix-ui/react-toggle",
+    "@radix-ui/react-toggle-group",
+    "@remixicon/react",
+    "@storybook/react",
+    "clsx",
+    "react",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/Toggle/Toggle.tsx",
+      "content": "// Tremor Toggle [v0.0.0]\n\"use client\"\n\nimport React from \"react\"\nimport * as TogglePrimitive from \"@radix-ui/react-toggle\"\nimport * as ToggleGroupPrimitive from \"@radix-ui/react-toggle-group\"\n\nimport { cx } from \"@/utils/cx\"\nimport { focusRing } from \"@/utils/focusRing\"\n\nconst toggleStyles = [\n  // base\n  \"group inline-flex h-9 min-w-9 items-center justify-center gap-2 rounded-md border px-2 text-sm font-medium shadow-sm transition-all duration-100 ease-in-out\",\n  \"border-gray-300 dark:border-gray-800\",\n  // text color\n  \"text-gray-700 dark:text-gray-300\",\n  // background color\n  \"bg-white dark:bg-gray-950\",\n  //hover color\n  \"hover:bg-gray-50 dark:hover:bg-gray-900/60\",\n  // disabled\n  \"disabled:pointer-events-none disabled:text-gray-400 disabled:dark:text-gray-600\",\n  \"data-[state=on]:bg-gray-100 data-[state=on]:text-gray-900 dark:data-[state=on]:bg-gray-800 dark:data-[state=on]:text-gray-50\",\n  focusRing,\n]\n\nconst Toggle = React.forwardRef<\n  React.ElementRef<typeof TogglePrimitive.Root>,\n  React.ComponentPropsWithoutRef<typeof TogglePrimitive.Root>\n>(({ className, ...props }, ref) => (\n  <TogglePrimitive.Root\n    ref={ref}\n    className={cx(toggleStyles, className)}\n    {...props}\n  />\n))\n\nToggle.displayName = TogglePrimitive.Root.displayName\n\nexport { Toggle }\n\nconst ToggleGroup = React.forwardRef<\n  React.ElementRef<typeof ToggleGroupPrimitive.Root>,\n  React.ComponentPropsWithoutRef<typeof ToggleGroupPrimitive.Root>\n>(({ className, children, ...props }, ref) => (\n  <ToggleGroupPrimitive.Root\n    ref={ref}\n    className={cx(\"flex items-center justify-center gap-1 flex-nowrap\", className)}\n    {...props}\n  >\n    {children}\n  </ToggleGroupPrimitive.Root>\n))\n\nToggleGroup.displayName = ToggleGroupPrimitive.Root.displayName\n\nconst ToggleGroupItem = React.forwardRef<\n  React.ElementRef<typeof ToggleGroupPrimitive.Item>,\n  React.ComponentPropsWithoutRef<typeof ToggleGroupPrimitive.Item>\n>(({ className, children, ...props }, ref) => (\n  <ToggleGroupPrimitive.Item\n    ref={ref}\n    className={cx(toggleStyles, className)}\n    {...props}\n  >\n    {children}\n  </ToggleGroupPrimitive.Item>\n))\n\nToggleGroupItem.displayName = ToggleGroupPrimitive.Item.displayName\n\nexport { ToggleGroup, ToggleGroupItem }\n",
+      "path": "src/components/Toggle/Toggle.tsx"
+    },
+    {
+      "type": "registry:component",
+      "target": "components/Toggle/toggle.stories.tsx",
+      "content": "import { RiBold, RiItalic, RiStarFill, RiUnderline } from \"@remixicon/react\"\nimport type { Meta, StoryObj } from \"@storybook/react\"\n\nimport { Toggle, ToggleGroup, ToggleGroupItem } from \"@/components/Toggle/Toggle\"\n\nconst meta: Meta<typeof Toggle> = {\n  title: \"ui/Toggle\",\n  component: Toggle,\n}\n\nexport default meta\ntype Story = StoryObj<typeof Toggle>\n\nexport const Default: Story = {\n  render: () => (\n    <>\n      <Toggle aria-label=\"Toggle star\">\n        <RiStarFill className=\"pointer-events-none size-4 shrink-0\" />\n      </Toggle>\n    </>\n  ),\n}\nexport const WithParentState: Story = {\n  render: () => (\n    <>\n      <Toggle aria-label=\"Toggle star\">\n        <RiStarFill className=\"pointer-events-none size-4 shrink-0 group-data-[state=on]:text-yellow-400\" />\n      </Toggle>\n    </>\n  ),\n}\nexport const DefaultToggleGroup: Story = {\n  render: () => (\n    <>\n      <ToggleGroup type=\"multiple\">\n        <ToggleGroupItem value=\"bold\" aria-label=\"Toggle bold\">\n          <RiBold className=\"size-4 shrink-0\" />\n        </ToggleGroupItem>\n        <ToggleGroupItem value=\"italic\" aria-label=\"Toggle italic\">\n          <RiItalic className=\"size-4 shrink-0\" />\n        </ToggleGroupItem>\n        <ToggleGroupItem\n          value=\"strikethrough\"\n          aria-label=\"Toggle strikethrough\"\n        >\n          <RiUnderline className=\"size-4 shrink-0\" />\n        </ToggleGroupItem>\n      </ToggleGroup>\n    </>\n  ),\n}\n",
+      "path": "src/components/Toggle/toggle.stories.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/cx.ts",
+      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
+      "path": "src/utils/cx.ts"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/focusRing.ts",
+      "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
+      "path": "src/utils/focusRing.ts"
+    }
+  ]
+}

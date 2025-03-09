@@ -1,6 +1,6 @@
 {
   "name": "smart-registry",
-  "version": "0.5.9",
+  "version": "0.6.3",
   "description": "A zero-configuration (no registry.json required), shadcn add / open in v0 compatible registry builder.",
   "keywords": [
     "smart-registry"
@@ -22,7 +22,6 @@
   ],
   "scripts": {
     "build": "tsup",
-    "cli": "bun run build && node dist/bin/index.js",
     "dev": "tsup --watch",
     "prepare": "if [ \"$NODE_ENV\" != \"production\" ]; then npx simple-git-hooks; fi",
     "publish:latest": "NODE_ENV=production changeset publish",

@@ -1,5 +1,194 @@
 {
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "nrjdalal",
+  "homepage": "https://nrjdalal.com",
   "items": [
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "changelog",
+      "type": "registry:hook",
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/changelog.md",
+          "path": "src/hooks/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "useOnWindowResize",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "useToast",
+      "type": "registry:hook",
+      "dependencies": [
+        "@radix-ui/react-toast",
+        "@remixicon/react",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Toast/Toast.tsx",
+          "path": "src/components/Toast/Toast.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useToast.ts",
+          "path": "src/hooks/useToast.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "changelog",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/changelog.md",
+          "path": "src/utils/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "chartColors",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "cx",
+      "type": "registry:lib",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "focusInput",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "focusRing",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "getYAxisDomain",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "hasErrorInput",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "hasOnlyOneValueForKey",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "utils.spec",
+      "type": "registry:lib",
+      "dependencies": [
+        "vitest"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/utils.spec.ts",
+          "path": "src/utils/utils.spec.ts"
+        }
+      ]
+    },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Accordion/Accordion",
@@ -26,6 +215,80 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Accordion/accordion.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Accordion/accordion.spec.ts",
+          "path": "src/components/Accordion/accordion.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Accordion/accordion.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-accordion",
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Accordion/Accordion.tsx",
+          "path": "src/components/Accordion/Accordion.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Accordion/accordion.stories.tsx",
+          "path": "src/components/Accordion/accordion.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Badge/Badge.tsx",
+          "path": "src/components/Badge/Badge.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Accordion/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Accordion/changelog.md",
+          "path": "src/components/Accordion/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "AreaChart/AreaChart",
       "type": "registry:component",
       "dependencies": [
@@ -40,11 +303,6 @@
           "type": "registry:component",
           "target": "components/AreaChart/AreaChart.tsx",
           "path": "src/components/AreaChart/AreaChart.tsx"
-        },
-        {
-          "type": "registry:hook",
-          "target": "hooks/useOnWindowResize.ts",
-          "path": "src/hooks/useOnWindowResize.ts"
         },
         {
           "type": "registry:lib",
@@ -65,6 +323,106 @@
           "type": "registry:lib",
           "target": "utils/hasOnlyOneValueForKey.ts",
           "path": "src/utils/hasOnlyOneValueForKey.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "AreaChart/areachart.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/AreaChart/areachart.spec.ts",
+          "path": "src/components/AreaChart/areachart.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "AreaChart/areachart.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-switch",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "recharts",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/AreaChart/AreaChart.tsx",
+          "path": "src/components/AreaChart/AreaChart.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/AreaChart/areachart.stories.tsx",
+          "path": "src/components/AreaChart/areachart.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "AreaChart/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/AreaChart/changelog.md",
+          "path": "src/components/AreaChart/changelog.md"
         }
       ]
     },
@@ -93,6 +451,62 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Badge/badge.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Badge/badge.spec.ts",
+          "path": "src/components/Badge/badge.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Badge/badge.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Badge/Badge.tsx",
+          "path": "src/components/Badge/Badge.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Badge/badge.stories.tsx",
+          "path": "src/components/Badge/badge.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Badge/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Badge/changelog.md",
+          "path": "src/components/Badge/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "BarChart/BarChart",
       "type": "registry:component",
       "dependencies": [
@@ -109,11 +523,6 @@
           "path": "src/components/BarChart/BarChart.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/useOnWindowResize.ts",
-          "path": "src/hooks/useOnWindowResize.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "utils/chartColors.ts",
           "path": "src/utils/chartColors.ts"
@@ -127,6 +536,101 @@
           "type": "registry:lib",
           "target": "utils/getYAxisDomain.ts",
           "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "BarChart/barchart.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/BarChart/barchart.spec.ts",
+          "path": "src/components/BarChart/barchart.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "BarChart/barchart.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-switch",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "recharts",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/BarChart/BarChart.tsx",
+          "path": "src/components/BarChart/BarChart.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/BarChart/barchart.stories.tsx",
+          "path": "src/components/BarChart/barchart.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "BarChart/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/BarChart/changelog.md",
+          "path": "src/components/BarChart/changelog.md"
         }
       ]
     },
@@ -154,6 +658,66 @@
           "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "BarList/barlist.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/BarList/barlist.spec.ts",
+          "path": "src/components/BarList/barlist.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "BarList/barlist.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/BarList/BarList.tsx",
+          "path": "src/components/BarList/BarList.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/BarList/barlist.stories.tsx",
+          "path": "src/components/BarList/barlist.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "BarList/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/BarList/changelog.md",
+          "path": "src/components/BarList/changelog.md"
         }
       ]
     },
@@ -189,6 +753,69 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Button/button.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/button.spec.ts",
+          "path": "src/components/Button/button.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Button/button.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Button/button.stories.tsx",
+          "path": "src/components/Button/button.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Button/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/changelog.md",
+          "path": "src/components/Button/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Calendar/Calendar",
       "type": "registry:component",
       "dependencies": [
@@ -219,6 +846,69 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Calendar/calendar.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Calendar/calendar.spec.ts",
+          "path": "src/components/Calendar/calendar.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Calendar/calendar.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "date-fns",
+        "react",
+        "react-day-picker",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Calendar/Calendar.tsx",
+          "path": "src/components/Calendar/Calendar.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Calendar/calendar.stories.tsx",
+          "path": "src/components/Calendar/calendar.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Calendar/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Calendar/changelog.md",
+          "path": "src/components/Calendar/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Callout/Callout",
       "type": "registry:component",
       "dependencies": [
@@ -242,6 +932,63 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Callout/callout.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Callout/callout.spec.ts",
+          "path": "src/components/Callout/callout.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Callout/callout.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Callout/Callout.tsx",
+          "path": "src/components/Callout/Callout.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Callout/callout.stories.tsx",
+          "path": "src/components/Callout/callout.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Callout/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Callout/changelog.md",
+          "path": "src/components/Callout/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Card/Card",
       "type": "registry:component",
       "dependencies": [
@@ -260,6 +1007,146 @@
           "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Card/card.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Card/card.spec.ts",
+          "path": "src/components/Card/card.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Card/card.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-label",
+        "@radix-ui/react-radio-group",
+        "@radix-ui/react-select",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-switch",
+        "@radix-ui/react-tabs",
+        "@radix-ui/react-tooltip",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Card/Card.tsx",
+          "path": "src/components/Card/Card.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Card/card.stories.tsx",
+          "path": "src/components/Card/card.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Checkbox/Checkbox.tsx",
+          "path": "src/components/Checkbox/Checkbox.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Divider/Divider.tsx",
+          "path": "src/components/Divider/Divider.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Input/Input.tsx",
+          "path": "src/components/Input/Input.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/RadioGroup/RadioGroup.tsx",
+          "path": "src/components/RadioGroup/RadioGroup.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Select/Select.tsx",
+          "path": "src/components/Select/Select.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/SelectNative/SelectNative.tsx",
+          "path": "src/components/SelectNative/SelectNative.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Tabs/Tabs.tsx",
+          "path": "src/components/Tabs/Tabs.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Textarea/Textarea.tsx",
+          "path": "src/components/Textarea/Textarea.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Tooltip/Tooltip.tsx",
+          "path": "src/components/Tooltip/Tooltip.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Card/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Card/changelog.md",
+          "path": "src/components/Card/changelog.md"
         }
       ]
     },
@@ -298,6 +1185,84 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "CategoryBar/categorybar.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/CategoryBar/categorybar.spec.ts",
+          "path": "src/components/CategoryBar/categorybar.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "CategoryBar/categorybar.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-tooltip",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/CategoryBar/CategoryBar.tsx",
+          "path": "src/components/CategoryBar/CategoryBar.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/CategoryBar/categorybar.stories.tsx",
+          "path": "src/components/CategoryBar/categorybar.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Tooltip/Tooltip.tsx",
+          "path": "src/components/Tooltip/Tooltip.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "CategoryBar/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/CategoryBar/changelog.md",
+          "path": "src/components/CategoryBar/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Checkbox/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Checkbox/changelog.md",
+          "path": "src/components/Checkbox/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Checkbox/Checkbox",
       "type": "registry:component",
       "dependencies": [
@@ -326,6 +1291,81 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Checkbox/checkbox.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Checkbox/checkbox.spec.ts",
+          "path": "src/components/Checkbox/checkbox.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Checkbox/checkbox.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-label",
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Checkbox/Checkbox.tsx",
+          "path": "src/components/Checkbox/Checkbox.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Checkbox/checkbox.stories.tsx",
+          "path": "src/components/Checkbox/checkbox.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ComboChart/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/ComboChart/changelog.md",
+          "path": "src/components/ComboChart/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "ComboChart/ComboChart",
       "type": "registry:component",
       "dependencies": [
@@ -340,11 +1380,6 @@
           "type": "registry:component",
           "target": "components/ComboChart/ComboChart.tsx",
           "path": "src/components/ComboChart/ComboChart.tsx"
-        },
-        {
-          "type": "registry:hook",
-          "target": "hooks/useOnWindowResize.ts",
-          "path": "src/hooks/useOnWindowResize.ts"
         },
         {
           "type": "registry:lib",
@@ -365,6 +1400,106 @@
           "type": "registry:lib",
           "target": "utils/hasOnlyOneValueForKey.ts",
           "path": "src/utils/hasOnlyOneValueForKey.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ComboChart/combochart.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/ComboChart/combochart.spec.ts",
+          "path": "src/components/ComboChart/combochart.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ComboChart/combochart.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-switch",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "recharts",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/ComboChart/ComboChart.tsx",
+          "path": "src/components/ComboChart/ComboChart.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/ComboChart/combochart.stories.tsx",
+          "path": "src/components/ComboChart/combochart.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "DatePicker/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/DatePicker/changelog.md",
+          "path": "src/components/DatePicker/changelog.md"
         }
       ]
     },
@@ -426,6 +1561,167 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "DatePicker/datepicker.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/DatePicker/datepicker.spec.ts",
+          "path": "src/components/DatePicker/datepicker.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "DatePicker/datepicker.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@internationalized/date",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "@react-aria/datepicker",
+        "@react-stately/datepicker",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "date-fns",
+        "react",
+        "react-day-picker",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Calendar/Calendar.tsx",
+          "path": "src/components/Calendar/Calendar.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/DatePicker/DatePicker.tsx",
+          "path": "src/components/DatePicker/DatePicker.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/DatePicker/datepicker.stories.tsx",
+          "path": "src/components/DatePicker/datepicker.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Divider/Divider.tsx",
+          "path": "src/components/Divider/Divider.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Popover/Popover.tsx",
+          "path": "src/components/Popover/Popover.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "DatePicker/daterangepicker.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@internationalized/date",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "@react-aria/datepicker",
+        "@react-stately/datepicker",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "date-fns",
+        "react",
+        "react-day-picker",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Calendar/Calendar.tsx",
+          "path": "src/components/Calendar/Calendar.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/DatePicker/DatePicker.tsx",
+          "path": "src/components/DatePicker/DatePicker.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/DatePicker/daterangepicker.stories.tsx",
+          "path": "src/components/DatePicker/daterangepicker.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Dialog/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Dialog/changelog.md",
+          "path": "src/components/Dialog/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Dialog/Dialog",
       "type": "registry:component",
       "dependencies": [
@@ -454,6 +1750,75 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Dialog/dialog.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Dialog/dialog.spec.ts",
+          "path": "src/components/Dialog/dialog.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Dialog/dialog.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Dialog/Dialog.tsx",
+          "path": "src/components/Dialog/Dialog.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Dialog/dialog.stories.tsx",
+          "path": "src/components/Dialog/dialog.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Divider/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Divider/changelog.md",
+          "path": "src/components/Divider/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Divider/Divider",
       "type": "registry:component",
       "dependencies": [
@@ -471,6 +1836,74 @@
           "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Divider/divider.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Divider/divider.spec.ts",
+          "path": "src/components/Divider/divider.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Divider/divider.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Divider/Divider.tsx",
+          "path": "src/components/Divider/Divider.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Divider/divider.stories.tsx",
+          "path": "src/components/Divider/divider.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "DonutChart/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/DonutChart/changelog.md",
+          "path": "src/components/DonutChart/changelog.md"
         }
       ]
     },
@@ -499,6 +1932,85 @@
           "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "DonutChart/donutchart.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/DonutChart/donutchart.spec.ts",
+          "path": "src/components/DonutChart/donutchart.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "DonutChart/donutchart.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-switch",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "recharts",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/DonutChart/DonutChart.tsx",
+          "path": "src/components/DonutChart/DonutChart.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/DonutChart/donutchart.stories.tsx",
+          "path": "src/components/DonutChart/donutchart.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Drawer/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Drawer/changelog.md",
+          "path": "src/components/Drawer/changelog.md"
         }
       ]
     },
@@ -540,6 +2052,75 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Drawer/drawer.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Drawer/drawer.spec.ts",
+          "path": "src/components/Drawer/drawer.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Drawer/drawer.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Drawer/Drawer.tsx",
+          "path": "src/components/Drawer/Drawer.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Drawer/drawer.stories.tsx",
+          "path": "src/components/Drawer/drawer.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "DropdownMenu/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/DropdownMenu/changelog.md",
+          "path": "src/components/DropdownMenu/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "DropdownMenu/DropdownMenu",
       "type": "registry:component",
       "dependencies": [
@@ -559,6 +2140,75 @@
           "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "DropdownMenu/dropdownmenu.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/DropdownMenu/dropdownmenu.spec.ts",
+          "path": "src/components/DropdownMenu/dropdownmenu.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "DropdownMenu/dropdownmenu.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/DropdownMenu/DropdownMenu.tsx",
+          "path": "src/components/DropdownMenu/DropdownMenu.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/DropdownMenu/dropdownmenu.stories.tsx",
+          "path": "src/components/DropdownMenu/dropdownmenu.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Input/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Input/changelog.md",
+          "path": "src/components/Input/changelog.md"
         }
       ]
     },
@@ -603,6 +2253,90 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Input/input.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Input/input.spec.ts",
+          "path": "src/components/Input/input.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Input/input.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Input/Input.tsx",
+          "path": "src/components/Input/Input.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Input/input.stories.tsx",
+          "path": "src/components/Input/input.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Label/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Label/changelog.md",
+          "path": "src/components/Label/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Label/Label",
       "type": "registry:component",
       "dependencies": [
@@ -626,6 +2360,90 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Label/label.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Label/label.spec.ts",
+          "path": "src/components/Label/label.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Label/label.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-label",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Checkbox/Checkbox.tsx",
+          "path": "src/components/Checkbox/Checkbox.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Input/Input.tsx",
+          "path": "src/components/Input/Input.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/label.stories.tsx",
+          "path": "src/components/Label/label.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "LineChart/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/LineChart/changelog.md",
+          "path": "src/components/LineChart/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "LineChart/LineChart",
       "type": "registry:component",
       "dependencies": [
@@ -640,11 +2458,6 @@
           "type": "registry:component",
           "target": "components/LineChart/LineChart.tsx",
           "path": "src/components/LineChart/LineChart.tsx"
-        },
-        {
-          "type": "registry:hook",
-          "target": "hooks/useOnWindowResize.ts",
-          "path": "src/hooks/useOnWindowResize.ts"
         },
         {
           "type": "registry:lib",
@@ -665,6 +2478,106 @@
           "type": "registry:lib",
           "target": "utils/hasOnlyOneValueForKey.ts",
           "path": "src/utils/hasOnlyOneValueForKey.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "LineChart/linechart.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/LineChart/linechart.spec.ts",
+          "path": "src/components/LineChart/linechart.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "LineChart/linechart.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-switch",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "recharts",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/LineChart/LineChart.tsx",
+          "path": "src/components/LineChart/LineChart.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/LineChart/linechart.stories.tsx",
+          "path": "src/components/LineChart/linechart.stories.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Popover/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Popover/changelog.md",
+          "path": "src/components/Popover/changelog.md"
         }
       ]
     },
@@ -693,6 +2606,102 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Popover/popover.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Popover/popover.spec.ts",
+          "path": "src/components/Popover/popover.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Popover/popover.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Dialog/Dialog.tsx",
+          "path": "src/components/Dialog/Dialog.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Divider/Divider.tsx",
+          "path": "src/components/Divider/Divider.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Input/Input.tsx",
+          "path": "src/components/Input/Input.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Popover/Popover.tsx",
+          "path": "src/components/Popover/Popover.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Popover/popover.stories.tsx",
+          "path": "src/components/Popover/popover.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ProgressBar/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/ProgressBar/changelog.md",
+          "path": "src/components/ProgressBar/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "ProgressBar/ProgressBar",
       "type": "registry:component",
       "dependencies": [
@@ -716,6 +2725,68 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ProgressBar/progressbar.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/ProgressBar/progressbar.spec.ts",
+          "path": "src/components/ProgressBar/progressbar.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ProgressBar/progressbar.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Card/Card.tsx",
+          "path": "src/components/Card/Card.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/ProgressBar/ProgressBar.tsx",
+          "path": "src/components/ProgressBar/ProgressBar.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/ProgressBar/progressbar.stories.tsx",
+          "path": "src/components/ProgressBar/progressbar.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ProgressCircle/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/ProgressCircle/changelog.md",
+          "path": "src/components/ProgressCircle/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "ProgressCircle/ProgressCircle",
       "type": "registry:component",
       "dependencies": [
@@ -734,6 +2805,68 @@
           "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ProgressCircle/progresscircle.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/ProgressCircle/progresscircle.spec.ts",
+          "path": "src/components/ProgressCircle/progresscircle.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ProgressCircle/progresscircle.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Card/Card.tsx",
+          "path": "src/components/Card/Card.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/ProgressCircle/ProgressCircle.tsx",
+          "path": "src/components/ProgressCircle/ProgressCircle.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/ProgressCircle/progresscircle.stories.tsx",
+          "path": "src/components/ProgressCircle/progresscircle.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "RadioCardGroup/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/RadioCardGroup/changelog.md",
+          "path": "src/components/RadioCardGroup/changelog.md"
         }
       ]
     },
@@ -772,6 +2905,80 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "RadioCardGroup/radiocardgroup.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/RadioCardGroup/radiocardgroup.spec.ts",
+          "path": "src/components/RadioCardGroup/radiocardgroup.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "RadioCardGroup/radiocardgroup.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-radio-group",
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/RadioCardGroup/RadioCardGroup.tsx",
+          "path": "src/components/RadioCardGroup/RadioCardGroup.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/RadioCardGroup/radiocardgroup.stories.tsx",
+          "path": "src/components/RadioCardGroup/radiocardgroup.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "RadioGroup/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/RadioGroup/changelog.md",
+          "path": "src/components/RadioGroup/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "RadioGroup/RadioGroup",
       "type": "registry:component",
       "dependencies": [
@@ -795,6 +3002,81 @@
           "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "RadioGroup/radiogroup.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/RadioGroup/radiogroup.spec.ts",
+          "path": "src/components/RadioGroup/radiogroup.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "RadioGroup/radiogroup.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-radio-group",
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/RadioGroup/RadioGroup.tsx",
+          "path": "src/components/RadioGroup/RadioGroup.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/RadioGroup/radiogroup.stories.tsx",
+          "path": "src/components/RadioGroup/radiogroup.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Select/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Select/changelog.md",
+          "path": "src/components/Select/changelog.md"
         }
       ]
     },
@@ -834,6 +3116,91 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Select/select.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Select/select.spec.ts",
+          "path": "src/components/Select/select.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Select/select.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-select",
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Dialog/Dialog.tsx",
+          "path": "src/components/Dialog/Dialog.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Select/Select.tsx",
+          "path": "src/components/Select/Select.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Select/select.stories.tsx",
+          "path": "src/components/Select/select.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "SelectNative/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/SelectNative/changelog.md",
+          "path": "src/components/SelectNative/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "SelectNative/SelectNative",
       "type": "registry:component",
       "dependencies": [
@@ -867,6 +3234,78 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "SelectNative/selectnative.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/SelectNative/selectnative.spec.ts",
+          "path": "src/components/SelectNative/selectnative.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "SelectNative/selectnative.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/SelectNative/SelectNative.tsx",
+          "path": "src/components/SelectNative/SelectNative.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/SelectNative/selectnative.stories.tsx",
+          "path": "src/components/SelectNative/selectnative.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Slider/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Slider/changelog.md",
+          "path": "src/components/Slider/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Slider/Slider",
       "type": "registry:component",
       "dependencies": [
@@ -890,6 +3329,163 @@
           "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Slider/slider.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Slider/slider.spec.ts",
+          "path": "src/components/Slider/slider.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Slider/slider.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slider",
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Card/Card.tsx",
+          "path": "src/components/Card/Card.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Divider/Divider.tsx",
+          "path": "src/components/Divider/Divider.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Slider/Slider.tsx",
+          "path": "src/components/Slider/Slider.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Slider/slider.stories.tsx",
+          "path": "src/components/Slider/slider.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "SparkChart/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/SparkChart/changelog.md",
+          "path": "src/components/SparkChart/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "SparkChart/sparkareachart.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@storybook/react",
+        "clsx",
+        "react",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/SparkChart/SparkChart.tsx",
+          "path": "src/components/SparkChart/SparkChart.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/SparkChart/sparkareachart.stories.tsx",
+          "path": "src/components/SparkChart/sparkareachart.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "SparkChart/sparkbarchart.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@storybook/react",
+        "clsx",
+        "react",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/SparkChart/SparkChart.tsx",
+          "path": "src/components/SparkChart/SparkChart.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/SparkChart/sparkbarchart.stories.tsx",
+          "path": "src/components/SparkChart/sparkbarchart.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
         }
       ]
     },
@@ -928,6 +3524,72 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "SparkChart/sparkchart.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/SparkChart/sparkchart.spec.ts",
+          "path": "src/components/SparkChart/sparkchart.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "SparkChart/sparklinechart.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@storybook/react",
+        "clsx",
+        "react",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/SparkChart/SparkChart.tsx",
+          "path": "src/components/SparkChart/SparkChart.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/SparkChart/sparklinechart.stories.tsx",
+          "path": "src/components/SparkChart/sparklinechart.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Switch/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Switch/changelog.md",
+          "path": "src/components/Switch/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Switch/Switch",
       "type": "registry:component",
       "dependencies": [
@@ -957,6 +3619,91 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Switch/switch.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Switch/switch.spec.ts",
+          "path": "src/components/Switch/switch.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Switch/switch.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-switch",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Card/Card.tsx",
+          "path": "src/components/Card/Card.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Divider/Divider.tsx",
+          "path": "src/components/Divider/Divider.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Label/Label.tsx",
+          "path": "src/components/Label/Label.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/Switch.tsx",
+          "path": "src/components/Switch/Switch.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Switch/switch.stories.tsx",
+          "path": "src/components/Switch/switch.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Table/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Table/changelog.md",
+          "path": "src/components/Table/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Table/Table",
       "type": "registry:component",
       "dependencies": [
@@ -974,6 +3721,68 @@
           "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Table/table.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Table/table.spec.ts",
+          "path": "src/components/Table/table.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Table/table.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Badge/Badge.tsx",
+          "path": "src/components/Badge/Badge.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Table/Table.tsx",
+          "path": "src/components/Table/Table.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Table/table.stories.tsx",
+          "path": "src/components/Table/table.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "TabNavigation/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/TabNavigation/changelog.md",
+          "path": "src/components/TabNavigation/changelog.md"
         }
       ]
     },
@@ -1007,6 +3816,68 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "TabNavigation/tabnavigation.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/TabNavigation/tabnavigation.spec.tsx",
+          "path": "src/components/TabNavigation/tabnavigation.spec.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "TabNavigation/tabnavigation.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-navigation-menu",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/TabNavigation/TabNavigation.tsx",
+          "path": "src/components/TabNavigation/TabNavigation.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/TabNavigation/tabnavigation.stories.tsx",
+          "path": "src/components/TabNavigation/tabnavigation.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Tabs/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Tabs/changelog.md",
+          "path": "src/components/Tabs/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Tabs/Tabs",
       "type": "registry:component",
       "dependencies": [
@@ -1030,6 +3901,68 @@
           "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Tabs/tabs.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Tabs/tabs.spec.tsx",
+          "path": "src/components/Tabs/tabs.spec.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Tabs/tabs.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-tabs",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Tabs/Tabs.tsx",
+          "path": "src/components/Tabs/Tabs.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Tabs/tabs.stories.tsx",
+          "path": "src/components/Tabs/tabs.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Textarea/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Textarea/changelog.md",
+          "path": "src/components/Textarea/changelog.md"
         }
       ]
     },
@@ -1067,6 +4000,77 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Textarea/textarea.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Textarea/textarea.spec.ts",
+          "path": "src/components/Textarea/textarea.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Textarea/textarea.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Card/Card.tsx",
+          "path": "src/components/Card/Card.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Textarea/Textarea.tsx",
+          "path": "src/components/Textarea/Textarea.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Textarea/textarea.stories.tsx",
+          "path": "src/components/Textarea/textarea.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Toast/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Toast/changelog.md",
+          "path": "src/components/Toast/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Toast/Toast",
       "type": "registry:component",
       "dependencies": [
@@ -1086,6 +4090,58 @@
           "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Toast/toast.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "@radix-ui/react-toast",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Toast/Toast.tsx",
+          "path": "src/components/Toast/Toast.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Toast/Toaster.tsx",
+          "path": "src/components/Toast/Toaster.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Toast/toast.stories.tsx",
+          "path": "src/components/Toast/toast.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useToast.ts",
+          "path": "src/hooks/useToast.ts"
         }
       ]
     },
@@ -1112,14 +4168,26 @@
           "path": "src/components/Toast/Toaster.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/useToast.ts",
-          "path": "src/hooks/useToast.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useToast.ts",
+          "path": "src/hooks/useToast.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Toggle/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Toggle/changelog.md",
+          "path": "src/components/Toggle/changelog.md"
         }
       ]
     },
@@ -1154,6 +4222,69 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Toggle/toggle.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Toggle/toggle.spec.ts",
+          "path": "src/components/Toggle/toggle.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Toggle/toggle.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-toggle",
+        "@radix-ui/react-toggle-group",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Toggle/Toggle.tsx",
+          "path": "src/components/Toggle/Toggle.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Toggle/toggle.stories.tsx",
+          "path": "src/components/Toggle/toggle.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Tooltip/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Tooltip/changelog.md",
+          "path": "src/components/Tooltip/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Tooltip/Tooltip",
       "type": "registry:component",
       "dependencies": [
@@ -1177,6 +4308,75 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Tooltip/tooltip.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Tooltip/tooltip.spec.ts",
+          "path": "src/components/Tooltip/tooltip.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Tooltip/tooltip.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "@remixicon/react",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge",
+        "tailwind-variants"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Button/Button.tsx",
+          "path": "src/components/Button/Button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Tooltip/Tooltip.tsx",
+          "path": "src/components/Tooltip/Tooltip.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Tooltip/tooltip.stories.tsx",
+          "path": "src/components/Tooltip/tooltip.stories.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Tracker/changelog",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Tracker/changelog.md",
+          "path": "src/components/Tracker/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Tracker/Tracker",
       "type": "registry:component",
       "dependencies": [
@@ -1190,6 +4390,50 @@
           "type": "registry:component",
           "target": "components/Tracker/Tracker.tsx",
           "path": "src/components/Tracker/Tracker.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Tracker/tracker.spec",
+      "type": "registry:component",
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Tracker/tracker.spec.ts",
+          "path": "src/components/Tracker/tracker.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "Tracker/tracker.stories",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-hover-card",
+        "@storybook/react",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Tracker/Tracker.tsx",
+          "path": "src/components/Tracker/Tracker.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/Tracker/tracker.stories.tsx",
+          "path": "src/components/Tracker/tracker.stories.tsx"
         },
         {
           "type": "registry:lib",

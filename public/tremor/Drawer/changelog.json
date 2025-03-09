@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Drawer/changelog",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/Drawer/changelog.md",
+      "content": "# Tremor Drawer Changelog\n\n## 0.0.1\n\n### Changes\n\n- Fix: `z-index` content\n\n## 0.0.1\n\n### Changes\n\n- Chore: Add `tremor-id`\n",
+      "path": "src/components/Drawer/changelog.md"
+    }
+  ]
+}

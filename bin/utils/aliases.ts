@@ -1,17 +1,22 @@
 import fs from "node:fs"
+import path from "node:path"
 import stripJsonComments from "strip-json-comments"
 
-export const getAliases = async () => {
+export const getAliases = async (cwd: string) => {
   let aliases: Record<string, string> = {}
-  const aliasPaths = ["registry", "components", "src/components"]
 
-  if (fs.existsSync("tsconfig.json")) {
-    let tsconfig = await fs.promises.readFile("tsconfig.json", "utf8")
+  const configFile = ["tsconfig.json", "jsconfig.json"].find((file) =>
+    fs.existsSync(path.resolve(cwd, file)),
+  )
+
+  if (configFile) {
+    let config = await fs.promises.readFile(
+      path.resolve(cwd, configFile),
+      "utf8",
+    )
 
     const { compilerOptions } = JSON.parse(
-      stripJsonComments(tsconfig, {
-        trailingCommas: true,
-      }),
+      stripJsonComments(config, { trailingCommas: true }),
     )
 
     if (compilerOptions.paths) {
@@ -19,35 +24,30 @@ export const getAliases = async () => {
         compilerOptions.paths as Record<string, [string]>,
       ).reduce(
         (acc, [key, [value]]) => {
-          // remove leading './' from the value and remove trailing '*' from the key/value
-          acc[key.replace(/\*$/, "")] = value
-            .replace(/^\.\//, "")
-            .replace(/\*$/, "")
+          if (key.endsWith("*") && value.endsWith("*")) {
+            // remove trailing '*' from the key/value
+            acc[key.replace(/\*$/, "")] = value.replace(/\*$/, "")
+          }
           return acc
         },
         {} as Record<string, string>,
       )
-
-      for (const path of aliasPaths) {
-        if (fs.existsSync(path)) {
-          aliases["@/"] = path === "src/components" ? "src/" : ""
-        }
-      }
-
-      if (!Object.keys(aliases).includes("@/")) {
-        throw new Error("No alias key '@/' found in compilerOptions.paths!")
-      }
-
-      return aliases
     }
   }
 
-  for (const path of aliasPaths) {
-    if (fs.existsSync(path)) {
-      aliases["@/"] = path === "src/components" ? "src/" : ""
-      return aliases
-    }
+  if (!aliases["@/"]) {
+    aliases["@/"] = fs.existsSync(path.resolve(cwd, "src")) ? "./src/" : "./"
   }
 
-  throw new Error("Could not resolve aliases!")
+  aliases = Object.entries(aliases)
+    .sort(([a], [b]) => b.length - a.length)
+    .reduce(
+      (acc, [alias, path]) => {
+        acc[alias] = path
+        return acc
+      },
+      {} as Record<string, string>,
+    )
+
+  return aliases
 }

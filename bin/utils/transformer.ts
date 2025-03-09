@@ -1,15 +1,23 @@
 import path from "node:path"
 
-export const transformer = (
-  filepath: string,
-  options: {
-    aliases?: Record<string, string>
-  } = {},
-) => {
-  filepath = options.aliases
-    ? filepath.replace(options.aliases["@/"], "")
-    : filepath
-  filepath = filepath.replace(process.cwd() + path.sep, "")
+export const transformer = ({
+  cwd,
+  aliases,
+  filepath,
+}: {
+  cwd: string
+  aliases: Record<string, string>
+  filepath: string
+}) => {
+  const originalFilepath = filepath
+
+  for (const alias in aliases) {
+    filepath = filepath.replace(
+      aliases[alias].replaceAll("./", "").replaceAll("../", ""),
+      "",
+    )
+  }
+
   const transformedPath = filepath.startsWith("registry/")
     ? filepath
         .replace(/^registry\//, "")
@@ -44,6 +52,7 @@ export const transformer = (
         .replace(/\/default\//, "/")
         .replace(/\.\.\//g, "")
         .replace(/\.\//g, "")
+
   return {
     type: transformedPath.endsWith("page.tsx")
       ? "registry:page"
@@ -63,13 +72,20 @@ export const transformer = (
         /^(blocks|components\/ui|components|hooks|lib|utils|helpers)\//,
         "",
       )
-      .replace(/\.[^\/.]+$/, ""),
+      .replace(/\.[^\/.]+$/, "")
+      .replace(/\/index$/, "")
+      .replace(/\/route$/, "")
+      .replace(/\/\[.*\]$/, ""),
     import:
       "@/" +
       transformedPath
-        .replace(process.cwd() + path.sep, "")
-        .replace(/\.[^/.]+$/, ""),
-    target: transformedPath,
+        .replace(cwd + path.sep, "")
+        .replace(/\.[^/.]+$/, "")
+        .replace(/\/index$/, ""),
+    target:
+      originalFilepath.split("/").length > 1
+        ? transformedPath
+        : `~/${transformedPath}`,
     path: filepath,
   }
 }

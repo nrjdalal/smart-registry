@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "default/internal/sink/components/accordion-demo",
+  "type": "registry:file",
+  "dependencies": [
+    "@radix-ui/react-accordion",
+    "clsx",
+    "lucide-react",
+    "react",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "default/internal/sink/components/accordion-demo.tsx",
+      "content": "import {\n  Accordion,\n  AccordionContent,\n  AccordionItem,\n  AccordionTrigger,\n} from \"@/components/ui/accordion\"\n\nexport function AccordionDemo() {\n  return (\n    <Accordion type=\"single\" collapsible className=\"w-full\">\n      <AccordionItem value=\"item-1\">\n        <AccordionTrigger>Is it accessible?</AccordionTrigger>\n        <AccordionContent>\n          Yes. It adheres to the WAI-ARIA design pattern.\n        </AccordionContent>\n      </AccordionItem>\n      <AccordionItem value=\"item-2\">\n        <AccordionTrigger>Is it styled?</AccordionTrigger>\n        <AccordionContent>\n          Yes. It comes with default styles that matches the other\n          components&apos; aesthetic.\n        </AccordionContent>\n      </AccordionItem>\n      <AccordionItem value=\"item-3\">\n        <AccordionTrigger>Is it animated?</AccordionTrigger>\n        <AccordionContent>\n          Yes. It's animated by default, but you can disable it if you prefer.\n        </AccordionContent>\n      </AccordionItem>\n    </Accordion>\n  )\n}\n",
+      "path": "registry/default/internal/sink/components/accordion-demo.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
+      "path": "lib/utils.ts"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/accordion.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\nimport * as AccordionPrimitive from \"@radix-ui/react-accordion\"\nimport { ChevronDown } from \"lucide-react\"\n\nimport { cn } from \"@/lib/utils\"\n\nconst Accordion = AccordionPrimitive.Root\n\nconst AccordionItem = React.forwardRef<\n  React.ElementRef<typeof AccordionPrimitive.Item>,\n  React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Item>\n>(({ className, ...props }, ref) => (\n  <AccordionPrimitive.Item\n    ref={ref}\n    className={cn(\"border-b\", className)}\n    {...props}\n  />\n))\nAccordionItem.displayName = \"AccordionItem\"\n\nconst AccordionTrigger = React.forwardRef<\n  React.ElementRef<typeof AccordionPrimitive.Trigger>,\n  React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Trigger>\n>(({ className, children, ...props }, ref) => (\n  <AccordionPrimitive.Header className=\"flex\">\n    <AccordionPrimitive.Trigger\n      ref={ref}\n      className={cn(\n        \"flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180\",\n        className\n      )}\n      {...props}\n    >\n      {children}\n      <ChevronDown className=\"h-4 w-4 shrink-0 transition-transform duration-200\" />\n    </AccordionPrimitive.Trigger>\n  </AccordionPrimitive.Header>\n))\nAccordionTrigger.displayName = AccordionPrimitive.Trigger.displayName\n\nconst AccordionContent = React.forwardRef<\n  React.ElementRef<typeof AccordionPrimitive.Content>,\n  React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Content>\n>(({ className, children, ...props }, ref) => (\n  <AccordionPrimitive.Content\n    ref={ref}\n    className=\"overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down\"\n    {...props}\n  >\n    <div className={cn(\"pb-4 pt-0\", className)}>{children}</div>\n  </AccordionPrimitive.Content>\n))\n\nAccordionContent.displayName = AccordionPrimitive.Content.displayName\n\nexport { Accordion, AccordionItem, AccordionTrigger, AccordionContent }\n",
+      "path": "registry/default/ui/accordion.tsx"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "SparkChart/changelog",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/SparkChart/changelog.md",
+      "content": "# Tremor SparkChart Changelog\n\n## 0.1.2\n\n### Changes\n\n- Chore: Add `tremor-id`\n\n## 0.1.1\n\n### Changes\n\n- Fix: Gradient category id\n\n## 0.1.0\n\n### Changes\n\n- Feat: Add legendPosition prop\n",
+      "path": "src/components/SparkChart/changelog.md"
+    }
+  ]
+}

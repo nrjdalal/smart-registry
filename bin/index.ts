@@ -2,25 +2,27 @@
 import fs from "node:fs"
 import path from "node:path"
 import { parseArgs } from "node:util"
-import { getAliases } from "@/bin/utils/aliases"
-import { getFiles } from "@/bin/utils/files"
-import { pathResolver, resolver } from "@/bin/utils/resolvers"
-import { transformer } from "@/bin/utils/transformer"
-import { author, name, version } from "@/package.json"
+import { registryOrder } from "@/constants/orders"
+import { getAliases } from "@/utils/aliases"
+import { getInputRegistry, listRegistryFiles } from "@/utils/files"
+import { dataResolver } from "@/utils/resolvers"
+import { transformer } from "@/utils/transformer"
+import { author, name, version } from "../package.json"
 
 const helpMessage = `Version:
   ${name}@${version}
 
 Usage:
-  $ ${name} [options]
+  $ ${name} [options] [files/directories] ...
+
+Arguments:
+  files/directories    files or directories to build the registry from (optional)
 
 Options:
-  -f, --files        Files to build the registry from
-  -d, --directories  Directories to build the registry from
-  -i, --ignore       Endings/Extensions to ignore (comma separated)
-                     e.g. -i ".spec.ts, .test.ts, demo.tsx"
-  -v, --version      Display version
-  -h, --help         Display help
+  -o, --output <path>  destination directory for json files (default: "./public/r")
+  -c, --cwd <cwd>      the working directory (default: "./")
+  -v, --version        display version
+  -h, --help           display help
 
 Author:
   ${author.name} <${author.email}> (${author.url})`
@@ -35,13 +37,12 @@ const parse: typeof parseArgs = (config) => {
 
 const main = async () => {
   try {
-    // ~ Parse command line arguments
     const { positionals, values } = parse({
       allowPositionals: true,
       options: {
-        files: { type: "string", multiple: true, short: "f" },
-        directories: { type: "string", multiple: true, short: "d" },
-        ignore: { type: "string", multiple: true, short: "i" },
+        cwd: { type: "string", short: "c" },
+        ignore: { type: "string", short: "i", default: "" },
+        output: { type: "string", short: "o", default: "public/r" },
         help: { type: "boolean", short: "h" },
         version: { type: "boolean", short: "v" },
       },
@@ -58,134 +59,158 @@ const main = async () => {
       }
     }
 
-    // ~ Initialize configuration object
-    const config = {
-      files: values.files || [],
-      directories: values.directories || [],
-    } as {
-      files: string[]
-      directories: string[]
-    }
+    const cwd = path.resolve(values.cwd ?? process.cwd())
 
-    // ~ Get aliases and files from utility functions
-    const aliases = await getAliases()
-    const files = await getFiles()
-
-    // ~ If no files or directories are provided, use registry or components directory
-    if (!config.files.length && !config.directories.length) {
-      const foundPath = ["registry", "components"]
-        .map((dir) => aliases["@/"] + dir)
-        .find((path) => files.some((file) => file.startsWith(path + "/")))
-      if (foundPath) config.directories.push(foundPath)
-      else throw new Error("Neither registry nor components directory found")
-    }
-
-    // ~ Get all files to build the registry from the provided files and directories
-    const registryFiles = [
-      ...config.files.map((file) => pathResolver(file, aliases)),
-      ...config.directories.flatMap((dir) =>
-        files.filter((file) =>
-          file.startsWith(pathResolver(dir, aliases) + "/"),
-        ),
-      ),
-    ]
-
-    // ~ Read registry.json file if it exists
-    const registryPath = path.resolve(process.cwd(), "registry.json")
-
-    let registry: Record<string, any> = {}
-
-    if (fs.existsSync(registryPath)) {
-      registry = JSON.parse(await fs.promises.readFile(registryPath, "utf8"))
-    }
-
-    let registryJson = {
-      ...registry,
-      items: [] as Record<string, any>[],
-    }
+    const aliases = await getAliases(cwd)
+    const inputRegistry = await getInputRegistry(cwd)
+    const registryFiles = await listRegistryFiles({
+      cwd,
+      patterns: positionals,
+      ignore: values.ignore,
+    })
 
     const failed = [] as string[]
 
+    const outputRegistry = {
+      ...inputRegistry,
+      items: [] as Record<string, any>[],
+    }
+
     // ~ Build registry-item for each file in the registry
-    for (const filePath of registryFiles) {
-      if (
-        values.ignore
-          ?.flatMap((ext) => ext.split(",").map((e) => e.trim()))
-          .some((ext) => filePath.endsWith(ext))
-      )
-        continue
-
+    for (const filepath of registryFiles) {
       try {
-        const resolvedData = await resolver(
-          [
-            filePath,
-            ...(registry.items
-              ?.find(
-                (item: any) =>
-                  item.name ===
-                  transformer(filePath, {
-                    aliases,
-                  }).name,
-              )
-              ?.files?.map((file: { path?: string }) => file.path) || []),
-          ],
-          { aliases },
-        )
+        const existingConfig =
+          inputRegistry.items?.find(
+            (item: { name?: string }) =>
+              item.name ===
+              transformer({
+                cwd,
+                aliases,
+                filepath,
+              }).name,
+          ) || {}
 
-        const registryItem = {
+        const resolvedData = await dataResolver({
+          cwd,
+          aliases,
+          filepaths: [
+            filepath,
+            ...(existingConfig?.files?.map(
+              (file: { path: string }) => file.path,
+            ) || []),
+          ],
+        })
+
+        const extend = {
+          dependencies: [
+            ...new Set([
+              ...resolvedData.dependencies,
+              ...(existingConfig?.dependencies || []),
+            ]),
+          ].sort(),
+          devDependencies: [
+            ...new Set([...(existingConfig?.devDependencies || [])]),
+          ].sort(),
+          registryDependencies: [
+            ...new Set([...(existingConfig?.registryDependencies || [])]),
+          ].sort(),
+        }
+
+        let registryItem: Record<string, any> = {
           $schema: "https://ui.shadcn.com/schema/registry-item.json",
-          name: transformer(filePath, {
+          name: transformer({
+            cwd,
             aliases,
+            filepath,
           }).name,
           type:
-            transformer(filePath, {
+            transformer({
+              cwd,
               aliases,
+              filepath,
             }).type || "registry:file",
-          ...(resolvedData.dependencies.length && {
-            dependencies: resolvedData.dependencies,
+          ...(extend.dependencies.length && {
+            dependencies: extend.dependencies,
           }),
-          files: resolvedData.files.map((file) => {
-            return {
-              type:
-                transformer(file, {
-                  aliases,
-                }).type || "registry:file",
-              target:
-                transformer(file, {
-                  aliases,
-                }).target || file,
-              content: resolvedData.content[file],
-              path: file,
-            } as Record<string, any>
+          ...(extend.devDependencies.length && {
+            devDependencies: extend.devDependencies,
           }),
+          ...(extend.registryDependencies.length && {
+            registryDependencies: extend.registryDependencies,
+          }),
+          files: resolvedData.files
+            .map((file) => {
+              return {
+                type:
+                  transformer({
+                    cwd,
+                    aliases,
+                    filepath: file,
+                  }).type || "registry:file",
+                target:
+                  transformer({
+                    cwd,
+                    aliases,
+                    filepath: file,
+                  }).target || file,
+                content: resolvedData.content[file],
+                path: file,
+              } as Record<string, any>
+            })
+            .sort((a, b) => {
+              const order = registryOrder.items.files.type.default
+              return order.indexOf(a.type) - order.indexOf(b.type)
+            }),
           // ~ Add properties from the registry.json items, which don't exist in the resolved registry-item
           ...Object.fromEntries(
-            Object.entries(
-              registry.items?.find(
-                (item: { name?: string }) =>
-                  item.name ===
-                  transformer(filePath, {
-                    aliases,
-                  }).name,
-              ) || {},
-            ).filter(
-              ([key]) => !["$schema", "name", "type", "files"].includes(key),
+            Object.entries(existingConfig).filter(
+              ([key]) =>
+                ![
+                  "$schema",
+                  "name",
+                  "type",
+                  "dependencies",
+                  "devDependencies",
+                  "registryDependencies",
+                  "files",
+                ].includes(key),
             ),
           ),
         }
 
+        registryItem = Object.keys(registryItem)
+          .sort((a, b) => {
+            const order = registryOrder.items.default
+            return order.indexOf(a) - order.indexOf(b)
+          })
+          .reduce(
+            (obj, key) => {
+              obj[key] = registryItem[key]
+              return obj
+            },
+            {} as Record<string, any>,
+          )
+
         const registryItemPath = path.resolve(
-          process.cwd(),
-          "public/r",
+          cwd,
+          values.output,
           registryItem.name + ".json",
         )
 
         // ~ Log the status of each registry item being processed
         console.log(
-          `- ${filePath.padEnd(
-            Math.max(...registryFiles.map((file) => file.length)) + 2,
-            " ",
-          )} ${
+          `- ${path
+            .relative(process.cwd(), path.resolve(cwd, filepath))
+            .padEnd(
+              Math.max(
+                ...registryFiles.map(
+                  (file) =>
+                    path.relative(process.cwd(), path.resolve(cwd, file))
+                      .length,
+                ),
+              ) + 2,
+              " ",
+            )} ${
             resolvedData.dependencies.length
               ? "📦" + String(resolvedData.dependencies.length).padEnd(2, " ")
               : "    "
@@ -193,8 +218,10 @@ const main = async () => {
             resolvedData.files.length - 1
               ? "📄" + String(resolvedData.files.length).padEnd(2, " ")
               : "    "
-          }   ${registryItemPath.replace(process.cwd() + "/", "")}`,
+          }   ${path.relative(process.cwd(), registryItemPath)}`,
         )
+
+        // ${path.relative(cwd, registryItemPath)}
 
         // ~ Create necessary directories and write registry item files
         await fs.promises.mkdir(path.dirname(registryItemPath), {
@@ -204,20 +231,29 @@ const main = async () => {
           registryItemPath,
           JSON.stringify(registryItem, null, 2) + "\n",
         )
-        registryItem.files.forEach((file) => delete file.content)
-        registryJson.items.push(registryItem)
+        registryItem.files.forEach(
+          (file: { content: any }) => delete file.content,
+        )
+        outputRegistry.items.push(registryItem)
       } catch (err: any) {
-        failed.push(filePath + ":  " + err.message)
+        failed.push(filepath + ": " + err.message)
         continue
       }
     }
 
     // ~ Write the final registry.json file to the public directory
-    registryJson.items.sort((a, b) => a.name.localeCompare(b.name))
+    outputRegistry.items
+      .sort((a, b) => {
+        return a.name.localeCompare(b.name)
+      })
+      .sort((a, b) => {
+        const typeOrder = registryOrder.items.type.default
+        return typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type)
+      })
 
     await fs.promises.writeFile(
-      path.resolve(process.cwd(), "public/registry.json"),
-      JSON.stringify(registryJson, null, 2) + "\n",
+      path.resolve(cwd, values.output, "registry.json"),
+      JSON.stringify(outputRegistry, null, 2) + "\n",
     )
 
     // ~ Log failed files
