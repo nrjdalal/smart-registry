@@ -16,6 +16,11 @@
       ],
       "files": [
         {
+          "type": "registry:component",
+          "target": "components/auth.tsx",
+          "path": "src/components/auth.tsx"
+        },
+        {
           "type": "registry:file",
           "target": "~/.env.example-auth",
           "path": ".env.example-auth"
@@ -26,24 +31,9 @@
           "path": "drizzle.config.ts"
         },
         {
-          "type": "registry:page",
-          "target": "app/(auth)/access/page.tsx",
-          "path": "src/app/(auth)/access/page.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "app/(auth)/x/page.tsx",
-          "path": "src/app/(auth)/x/page.tsx"
-        },
-        {
           "type": "registry:file",
           "target": "app/api/auth/[...all]/route.ts",
           "path": "src/app/api/auth/[...all]/route.ts"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/auth.tsx",
-          "path": "src/components/auth.tsx"
         },
         {
           "type": "registry:file",
@@ -61,6 +51,11 @@
           "path": "src/db/schema/index.ts"
         },
         {
+          "type": "registry:file",
+          "target": "middleware.ts",
+          "path": "src/middleware.ts"
+        },
+        {
           "type": "registry:lib",
           "target": "lib/auth/client.ts",
           "path": "src/lib/auth/client.ts"
@@ -71,9 +66,14 @@
           "path": "src/lib/auth/index.ts"
         },
         {
-          "type": "registry:file",
-          "target": "middleware.ts",
-          "path": "src/middleware.ts"
+          "type": "registry:page",
+          "target": "app/(auth)/access/page.tsx",
+          "path": "src/app/(auth)/access/page.tsx"
+        },
+        {
+          "type": "registry:page",
+          "target": "app/(auth)/x/page.tsx",
+          "path": "src/app/(auth)/x/page.tsx"
         }
       ]
     }

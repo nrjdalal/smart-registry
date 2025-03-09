@@ -16,12 +16,6 @@
   ],
   "files": [
     {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
-    },
-    {
       "type": "registry:block",
       "target": "blocks/new-york/sidebar-07/components/nav-projects.tsx",
       "content": "\"use client\"\n\nimport {\n  Folder,\n  Forward,\n  MoreHorizontal,\n  Trash2,\n  type LucideIcon,\n} from \"lucide-react\"\n\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuItem,\n  DropdownMenuSeparator,\n  DropdownMenuTrigger,\n} from \"@/components/ui/new-york/dropdown-menu\"\nimport {\n  SidebarGroup,\n  SidebarGroupLabel,\n  SidebarMenu,\n  SidebarMenuAction,\n  SidebarMenuButton,\n  SidebarMenuItem,\n  useSidebar,\n} from \"@/components/ui/new-york/sidebar\"\n\nexport function NavProjects({\n  projects,\n}: {\n  projects: {\n    name: string\n    url: string\n    icon: LucideIcon\n  }[]\n}) {\n  const { isMobile } = useSidebar()\n\n  return (\n    <SidebarGroup className=\"group-data-[collapsible=icon]:hidden\">\n      <SidebarGroupLabel>Projects</SidebarGroupLabel>\n      <SidebarMenu>\n        {projects.map((item) => (\n          <SidebarMenuItem key={item.name}>\n            <SidebarMenuButton asChild>\n              <a href={item.url}>\n                <item.icon />\n                <span>{item.name}</span>\n              </a>\n            </SidebarMenuButton>\n            <DropdownMenu>\n              <DropdownMenuTrigger asChild>\n                <SidebarMenuAction showOnHover>\n                  <MoreHorizontal />\n                  <span className=\"sr-only\">More</span>\n                </SidebarMenuAction>\n              </DropdownMenuTrigger>\n              <DropdownMenuContent\n                className=\"w-48 rounded-lg\"\n                side={isMobile ? \"bottom\" : \"right\"}\n                align={isMobile ? \"end\" : \"start\"}\n              >\n                <DropdownMenuItem>\n                  <Folder className=\"text-muted-foreground\" />\n                  <span>View Project</span>\n                </DropdownMenuItem>\n                <DropdownMenuItem>\n                  <Forward className=\"text-muted-foreground\" />\n                  <span>Share Project</span>\n                </DropdownMenuItem>\n                <DropdownMenuSeparator />\n                <DropdownMenuItem>\n                  <Trash2 className=\"text-muted-foreground\" />\n                  <span>Delete Project</span>\n                </DropdownMenuItem>\n              </DropdownMenuContent>\n            </DropdownMenu>\n          </SidebarMenuItem>\n        ))}\n        <SidebarMenuItem>\n          <SidebarMenuButton className=\"text-sidebar-foreground/70\">\n            <MoreHorizontal className=\"text-sidebar-foreground/70\" />\n            <span>More</span>\n          </SidebarMenuButton>\n        </SidebarMenuItem>\n      </SidebarMenu>\n    </SidebarGroup>\n  )\n}\n",
@@ -32,6 +26,12 @@
       "target": "hooks/new-york/use-mobile.tsx",
       "content": "import * as React from \"react\"\n\nconst MOBILE_BREAKPOINT = 768\n\nexport function useIsMobile() {\n  const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined)\n\n  React.useEffect(() => {\n    const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`)\n    const onChange = () => {\n      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    }\n    mql.addEventListener(\"change\", onChange)\n    setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    return () => mql.removeEventListener(\"change\", onChange)\n  }, [])\n\n  return !!isMobile\n}\n",
       "path": "registry/new-york/hooks/use-mobile.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
+      "path": "lib/utils.ts"
     },
     {
       "type": "registry:lib",

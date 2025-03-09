@@ -309,14 +309,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-area-axes.tsx",
           "path": "registry/new-york-v4/charts/chart-area-axes.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -343,14 +343,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-area-default.tsx",
           "path": "registry/new-york-v4/charts/chart-area-default.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -377,14 +377,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-area-gradient.tsx",
           "path": "registry/new-york-v4/charts/chart-area-gradient.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -411,14 +411,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-area-icons.tsx",
           "path": "registry/new-york-v4/charts/chart-area-icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -446,14 +446,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-area-interactive.tsx",
           "path": "registry/new-york-v4/charts/chart-area-interactive.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -485,14 +485,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-area-legend.tsx",
           "path": "registry/new-york-v4/charts/chart-area-legend.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -519,14 +519,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-area-linear.tsx",
           "path": "registry/new-york-v4/charts/chart-area-linear.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -553,14 +553,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-area-stacked.tsx",
           "path": "registry/new-york-v4/charts/chart-area-stacked.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -587,14 +587,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-area-stacked-expand.tsx",
           "path": "registry/new-york-v4/charts/chart-area-stacked-expand.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -621,14 +621,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-area-step.tsx",
           "path": "registry/new-york-v4/charts/chart-area-step.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -655,14 +655,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-bar-active.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-active.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -689,14 +689,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-bar-default.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-default.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -723,14 +723,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-bar-horizontal.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-horizontal.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -756,14 +756,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-bar-interactive.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-interactive.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -790,14 +790,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-bar-label.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-label.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -824,14 +824,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-bar-label-custom.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-label-custom.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -858,14 +858,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-bar-mixed.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-mixed.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -892,14 +892,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-bar-multiple.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-multiple.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -926,14 +926,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-bar-negative.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-negative.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -960,14 +960,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-bar-stacked.tsx",
           "path": "registry/new-york-v4/charts/chart-bar-stacked.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -994,14 +994,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-line-default.tsx",
           "path": "registry/new-york-v4/charts/chart-line-default.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1028,14 +1028,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-line-dots.tsx",
           "path": "registry/new-york-v4/charts/chart-line-dots.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1062,14 +1062,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-line-dots-colors.tsx",
           "path": "registry/new-york-v4/charts/chart-line-dots-colors.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1096,14 +1096,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-line-dots-custom.tsx",
           "path": "registry/new-york-v4/charts/chart-line-dots-custom.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1129,14 +1129,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-line-interactive.tsx",
           "path": "registry/new-york-v4/charts/chart-line-interactive.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1163,14 +1163,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-line-label.tsx",
           "path": "registry/new-york-v4/charts/chart-line-label.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1197,14 +1197,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-line-label-custom.tsx",
           "path": "registry/new-york-v4/charts/chart-line-label-custom.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1231,14 +1231,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-line-linear.tsx",
           "path": "registry/new-york-v4/charts/chart-line-linear.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1265,14 +1265,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-line-multiple.tsx",
           "path": "registry/new-york-v4/charts/chart-line-multiple.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1299,14 +1299,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-line-step.tsx",
           "path": "registry/new-york-v4/charts/chart-line-step.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1333,14 +1333,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-pie-donut.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-donut.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1367,14 +1367,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-pie-donut-active.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-donut-active.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1401,14 +1401,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-pie-donut-text.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-donut-text.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1436,14 +1436,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-pie-interactive.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-interactive.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1475,14 +1475,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-pie-label.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-label.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1509,14 +1509,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-pie-label-custom.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-label-custom.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1543,14 +1543,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-pie-label-list.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-label-list.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1576,14 +1576,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-pie-legend.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-legend.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1610,14 +1610,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-pie-separator-none.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-separator-none.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1644,14 +1644,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-pie-simple.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-simple.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1678,14 +1678,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-pie-stacked.tsx",
           "path": "registry/new-york-v4/charts/chart-pie-stacked.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1712,14 +1712,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radar-default.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-default.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1746,14 +1746,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radar-dots.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-dots.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1780,14 +1780,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radar-grid-circle.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-grid-circle.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1814,14 +1814,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radar-grid-circle-fill.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-grid-circle-fill.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1848,14 +1848,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radar-grid-circle-no-lines.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-grid-circle-no-lines.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1882,14 +1882,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radar-grid-custom.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-grid-custom.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1916,14 +1916,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radar-grid-fill.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-grid-fill.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1950,14 +1950,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radar-grid-none.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-grid-none.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1984,14 +1984,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radar-icons.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2018,14 +2018,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radar-label-custom.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-label-custom.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2052,14 +2052,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radar-legend.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-legend.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2086,14 +2086,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radar-lines-only.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-lines-only.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2120,14 +2120,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radar-multiple.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-multiple.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2154,14 +2154,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radar-radius.tsx",
           "path": "registry/new-york-v4/charts/chart-radar-radius.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2188,14 +2188,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radial-grid.tsx",
           "path": "registry/new-york-v4/charts/chart-radial-grid.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2222,14 +2222,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radial-label.tsx",
           "path": "registry/new-york-v4/charts/chart-radial-label.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2256,14 +2256,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radial-shape.tsx",
           "path": "registry/new-york-v4/charts/chart-radial-shape.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2290,14 +2290,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radial-simple.tsx",
           "path": "registry/new-york-v4/charts/chart-radial-simple.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2324,14 +2324,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radial-stacked.tsx",
           "path": "registry/new-york-v4/charts/chart-radial-stacked.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2358,14 +2358,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-radial-text.tsx",
           "path": "registry/new-york-v4/charts/chart-radial-text.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2391,14 +2391,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-tooltip-advanced.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-advanced.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2424,14 +2424,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-tooltip-default.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-default.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2457,14 +2457,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-tooltip-formatter.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-formatter.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2491,14 +2491,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-tooltip-icons.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2524,14 +2524,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-tooltip-indicator-line.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-indicator-line.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2557,14 +2557,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-tooltip-indicator-none.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-indicator-none.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2590,14 +2590,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-tooltip-label-custom.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-label-custom.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2623,14 +2623,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-tooltip-label-formatter.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-label-formatter.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2656,14 +2656,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:file",
           "target": "new-york-v4/charts/chart-tooltip-label-none.tsx",
           "path": "registry/new-york-v4/charts/chart-tooltip-label-none.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2977,14 +2977,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/login-01/components/login-form.tsx",
           "path": "registry/new-york-v4/blocks/login-01/components/login-form.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -3027,24 +3027,24 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/login-01/components/login-form.tsx",
           "path": "registry/new-york-v4/blocks/login-01/components/login-form.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/login-01/page.tsx",
-          "path": "registry/new-york-v4/blocks/login-01/page.tsx"
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/login-01/page.tsx",
+          "path": "registry/new-york-v4/blocks/login-01/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -3082,14 +3082,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/login-02/components/login-form.tsx",
           "path": "registry/new-york-v4/blocks/login-02/components/login-form.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -3128,24 +3128,24 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/login-02/components/login-form.tsx",
           "path": "registry/new-york-v4/blocks/login-02/components/login-form.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/login-02/page.tsx",
-          "path": "registry/new-york-v4/blocks/login-02/page.tsx"
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/login-02/page.tsx",
+          "path": "registry/new-york-v4/blocks/login-02/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -3178,14 +3178,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/login-03/components/login-form.tsx",
           "path": "registry/new-york-v4/blocks/login-03/components/login-form.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -3229,24 +3229,24 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/login-03/components/login-form.tsx",
           "path": "registry/new-york-v4/blocks/login-03/components/login-form.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/login-03/page.tsx",
-          "path": "registry/new-york-v4/blocks/login-03/page.tsx"
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/login-03/page.tsx",
+          "path": "registry/new-york-v4/blocks/login-03/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -3284,14 +3284,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/login-04/components/login-form.tsx",
           "path": "registry/new-york-v4/blocks/login-04/components/login-form.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -3334,24 +3334,24 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/login-04/components/login-form.tsx",
           "path": "registry/new-york-v4/blocks/login-04/components/login-form.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/login-04/page.tsx",
-          "path": "registry/new-york-v4/blocks/login-04/page.tsx"
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/login-04/page.tsx",
+          "path": "registry/new-york-v4/blocks/login-04/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -3390,14 +3390,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/login-05/components/login-form.tsx",
           "path": "registry/new-york-v4/blocks/login-05/components/login-form.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -3436,24 +3436,24 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/login-05/components/login-form.tsx",
           "path": "registry/new-york-v4/blocks/login-05/components/login-form.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/login-05/page.tsx",
-          "path": "registry/new-york-v4/blocks/login-05/page.tsx"
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/login-05/page.tsx",
+          "path": "registry/new-york-v4/blocks/login-05/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -3592,14 +3592,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/products-01/components/products-table.tsx",
           "path": "registry/new-york-v4/blocks/products-01/components/products-table.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3661,14 +3661,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/products-01/components/products-table.tsx",
           "path": "registry/new-york-v4/blocks/products-01/components/products-table.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:page",
@@ -3899,14 +3899,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -3969,11 +3969,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-01/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-01/components/app-sidebar.tsx"
@@ -3992,6 +3987,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -4063,11 +4063,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-01/components/search-form.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-01/components/search-form.tsx"
@@ -4076,6 +4071,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -4142,11 +4142,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-01/components/version-switcher.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-01/components/version-switcher.tsx"
@@ -4155,6 +4150,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -4222,11 +4222,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-01/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-01/components/app-sidebar.tsx"
@@ -4242,19 +4237,24 @@
           "path": "registry/new-york-v4/blocks/sidebar-01/components/version-switcher.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-01/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-01/page.tsx"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-01/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-01/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -4328,11 +4328,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-02/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-02/components/app-sidebar.tsx"
@@ -4351,6 +4346,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -4427,11 +4427,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-02/components/search-form.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-02/components/search-form.tsx"
@@ -4440,6 +4435,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -4506,11 +4506,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-02/components/version-switcher.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-02/components/version-switcher.tsx"
@@ -4519,6 +4514,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -4587,11 +4587,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-02/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-02/components/app-sidebar.tsx"
@@ -4607,19 +4602,24 @@
           "path": "registry/new-york-v4/blocks/sidebar-02/components/version-switcher.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-02/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-02/page.tsx"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-02/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-02/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -4695,11 +4695,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-03/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-03/components/app-sidebar.tsx"
@@ -4708,6 +4703,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -4768,19 +4768,9 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-03/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-03/components/app-sidebar.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-03/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-03/page.tsx"
         },
         {
           "type": "registry:hook",
@@ -4789,8 +4779,18 @@
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-03/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-03/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -4851,11 +4851,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-04/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-04/components/app-sidebar.tsx"
@@ -4864,6 +4859,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -4924,19 +4924,9 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-04/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-04/components/app-sidebar.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-04/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-04/page.tsx"
         },
         {
           "type": "registry:hook",
@@ -4945,8 +4935,18 @@
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-04/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-04/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -5009,11 +5009,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-05/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-05/components/app-sidebar.tsx"
@@ -5027,6 +5022,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -5098,11 +5098,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-05/components/search-form.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-05/components/search-form.tsx"
@@ -5111,6 +5106,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -5178,11 +5178,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-05/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-05/components/app-sidebar.tsx"
@@ -5193,19 +5188,24 @@
           "path": "registry/new-york-v4/blocks/sidebar-05/components/search-form.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-05/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-05/page.tsx"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-05/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-05/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -5277,11 +5277,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-06/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-06/components/app-sidebar.tsx"
@@ -5300,6 +5295,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -5371,11 +5371,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-06/components/nav-main.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-06/components/nav-main.tsx"
@@ -5384,6 +5379,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -5449,11 +5449,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-06/components/sidebar-opt-in-form.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-06/components/sidebar-opt-in-form.tsx"
@@ -5462,6 +5457,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -5528,11 +5528,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-06/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-06/components/app-sidebar.tsx"
@@ -5548,19 +5543,24 @@
           "path": "registry/new-york-v4/blocks/sidebar-06/components/sidebar-opt-in-form.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-06/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-06/page.tsx"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-06/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-06/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -5634,11 +5634,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-07/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-07/components/app-sidebar.tsx"
@@ -5667,6 +5662,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -5743,11 +5743,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-07/components/nav-main.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-07/components/nav-main.tsx"
@@ -5756,6 +5751,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -5822,11 +5822,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-07/components/nav-projects.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-07/components/nav-projects.tsx"
@@ -5835,6 +5830,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -5902,11 +5902,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-07/components/nav-user.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-07/components/nav-user.tsx"
@@ -5915,6 +5910,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -5986,11 +5986,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-07/components/team-switcher.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-07/components/team-switcher.tsx"
@@ -5999,6 +5994,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -6067,11 +6067,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-07/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-07/components/app-sidebar.tsx"
@@ -6097,19 +6092,24 @@
           "path": "registry/new-york-v4/blocks/sidebar-07/components/team-switcher.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-07/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-07/page.tsx"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-07/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-07/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -6188,11 +6188,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-08/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-08/components/app-sidebar.tsx"
@@ -6221,6 +6216,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -6297,11 +6297,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-08/components/nav-main.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-08/components/nav-main.tsx"
@@ -6310,6 +6305,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -6376,11 +6376,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-08/components/nav-projects.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-08/components/nav-projects.tsx"
@@ -6389,6 +6384,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -6454,11 +6454,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-08/components/nav-secondary.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-08/components/nav-secondary.tsx"
@@ -6467,6 +6462,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -6529,11 +6529,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-08/components/nav-user.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-08/components/nav-user.tsx"
@@ -6542,6 +6537,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -6615,11 +6615,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-08/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-08/components/app-sidebar.tsx"
@@ -6645,19 +6640,24 @@
           "path": "registry/new-york-v4/blocks/sidebar-08/components/nav-user.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-08/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-08/page.tsx"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-08/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-08/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -6737,11 +6737,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-09/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-09/components/app-sidebar.tsx"
@@ -6755,6 +6750,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -6837,11 +6837,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-09/components/nav-user.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-09/components/nav-user.tsx"
@@ -6850,6 +6845,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -6924,11 +6924,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-09/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-09/components/app-sidebar.tsx"
@@ -6939,19 +6934,24 @@
           "path": "registry/new-york-v4/blocks/sidebar-09/components/nav-user.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-09/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-09/page.tsx"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-09/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-09/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -7034,11 +7034,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-10/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-10/components/app-sidebar.tsx"
@@ -7072,6 +7067,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -7143,11 +7143,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-10/components/nav-actions.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-10/components/nav-actions.tsx"
@@ -7156,6 +7151,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -7222,11 +7222,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-10/components/nav-favorites.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-10/components/nav-favorites.tsx"
@@ -7235,6 +7230,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -7300,11 +7300,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-10/components/nav-main.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-10/components/nav-main.tsx"
@@ -7313,6 +7308,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -7373,11 +7373,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-10/components/nav-secondary.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-10/components/nav-secondary.tsx"
@@ -7386,6 +7381,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -7447,11 +7447,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-10/components/nav-workspaces.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-10/components/nav-workspaces.tsx"
@@ -7460,6 +7455,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -7526,11 +7526,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-10/components/team-switcher.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-10/components/team-switcher.tsx"
@@ -7539,6 +7534,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -7607,11 +7607,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-10/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-10/components/app-sidebar.tsx"
@@ -7647,19 +7642,24 @@
           "path": "registry/new-york-v4/blocks/sidebar-10/components/team-switcher.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-10/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-10/page.tsx"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-10/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-10/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -7736,11 +7736,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-11/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-11/components/app-sidebar.tsx"
@@ -7749,6 +7744,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -7815,19 +7815,9 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-11/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-11/components/app-sidebar.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-11/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-11/page.tsx"
         },
         {
           "type": "registry:hook",
@@ -7836,8 +7826,18 @@
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-11/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-11/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -7907,11 +7907,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-12/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-12/components/app-sidebar.tsx"
@@ -7935,6 +7930,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -8016,11 +8016,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-12/components/calendars.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-12/components/calendars.tsx"
@@ -8029,6 +8024,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -8095,11 +8095,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-12/components/date-picker.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-12/components/date-picker.tsx"
@@ -8108,6 +8103,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -8175,11 +8175,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-12/components/nav-user.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-12/components/nav-user.tsx"
@@ -8188,6 +8183,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -8262,11 +8262,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-12/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-12/components/app-sidebar.tsx"
@@ -8287,19 +8282,24 @@
           "path": "registry/new-york-v4/blocks/sidebar-12/components/nav-user.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-12/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-12/page.tsx"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-12/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-12/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -8380,11 +8380,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-13/components/settings-dialog.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-13/components/settings-dialog.tsx"
@@ -8393,6 +8388,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -8463,19 +8463,9 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-13/components/settings-dialog.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-13/components/settings-dialog.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-13/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-13/page.tsx"
         },
         {
           "type": "registry:hook",
@@ -8484,8 +8474,18 @@
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-13/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-13/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -8551,11 +8551,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-14/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-14/components/app-sidebar.tsx"
@@ -8564,6 +8559,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -8624,19 +8624,9 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-14/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-14/components/app-sidebar.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-14/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-14/page.tsx"
         },
         {
           "type": "registry:hook",
@@ -8645,8 +8635,18 @@
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-14/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-14/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -8708,11 +8708,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-15/components/calendars.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-15/components/calendars.tsx"
@@ -8721,6 +8716,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -8787,11 +8787,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-15/components/date-picker.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-15/components/date-picker.tsx"
@@ -8800,6 +8795,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -8866,11 +8866,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-15/components/nav-favorites.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-15/components/nav-favorites.tsx"
@@ -8879,6 +8874,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -8944,11 +8944,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-15/components/nav-main.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-15/components/nav-main.tsx"
@@ -8957,6 +8952,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -9017,11 +9017,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-15/components/nav-secondary.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-15/components/nav-secondary.tsx"
@@ -9030,6 +9025,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -9092,11 +9092,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-15/components/nav-user.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-15/components/nav-user.tsx"
@@ -9105,6 +9100,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -9176,11 +9176,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-15/components/nav-workspaces.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-15/components/nav-workspaces.tsx"
@@ -9189,6 +9184,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -9256,11 +9256,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-15/components/nav-favorites.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-15/components/nav-favorites.tsx"
@@ -9294,6 +9289,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -9368,11 +9368,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-15/components/calendars.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-15/components/calendars.tsx"
@@ -9396,6 +9391,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -9477,11 +9477,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-15/components/team-switcher.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-15/components/team-switcher.tsx"
@@ -9490,6 +9485,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -9559,11 +9559,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-15/components/calendars.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-15/components/calendars.tsx"
@@ -9614,19 +9609,24 @@
           "path": "registry/new-york-v4/blocks/sidebar-15/components/team-switcher.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-15/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-15/page.tsx"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-15/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-15/page.tsx"
         },
         {
           "type": "registry:ui",
@@ -9710,11 +9710,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-16/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-16/components/app-sidebar.tsx"
@@ -9743,6 +9738,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -9819,11 +9819,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-16/components/nav-main.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-16/components/nav-main.tsx"
@@ -9832,6 +9827,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -9898,11 +9898,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-16/components/nav-projects.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-16/components/nav-projects.tsx"
@@ -9911,6 +9906,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -9976,11 +9976,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-16/components/nav-secondary.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-16/components/nav-secondary.tsx"
@@ -9989,6 +9984,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -10051,11 +10051,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-16/components/nav-user.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-16/components/nav-user.tsx"
@@ -10064,6 +10059,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -10135,11 +10135,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-16/components/search-form.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-16/components/search-form.tsx"
@@ -10148,6 +10143,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -10214,11 +10214,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-16/components/search-form.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-16/components/search-form.tsx"
@@ -10232,6 +10227,11 @@
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
@@ -10306,11 +10306,6 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:block",
           "target": "blocks/new-york-v4/sidebar-16/components/app-sidebar.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-16/components/app-sidebar.tsx"
@@ -10346,19 +10341,24 @@
           "path": "registry/new-york-v4/blocks/sidebar-16/components/site-header.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-16/page.tsx",
-          "path": "registry/new-york-v4/blocks/sidebar-16/page.tsx"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york-v4/sidebar-16/page.tsx",
+          "path": "registry/new-york-v4/blocks/sidebar-16/page.tsx"
         },
         {
           "type": "registry:ui",

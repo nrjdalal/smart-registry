@@ -21,7 +21,7 @@ export const autoDetectPatterns = [
 ]
 
 // ref: https://ui.shadcn.com/schema/registry-item.json
-export const registry = {
+export const registryOrder = {
   default: ["$schema", "name", "homepage", "items"],
   items: {
     default: [

@@ -15,12 +15,6 @@
   ],
   "files": [
     {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
-    },
-    {
       "type": "registry:block",
       "target": "blocks/sidebar-15/components/nav-main.tsx",
       "content": "\"use client\"\n\nimport { type LucideIcon } from \"lucide-react\"\n\nimport {\n  SidebarMenu,\n  SidebarMenuButton,\n  SidebarMenuItem,\n} from \"@/components/ui/sidebar\"\n\nexport function NavMain({\n  items,\n}: {\n  items: {\n    title: string\n    url: string\n    icon: LucideIcon\n    isActive?: boolean\n  }[]\n}) {\n  return (\n    <SidebarMenu>\n      {items.map((item) => (\n        <SidebarMenuItem key={item.title}>\n          <SidebarMenuButton asChild isActive={item.isActive}>\n            <a href={item.url}>\n              <item.icon />\n              <span>{item.title}</span>\n            </a>\n          </SidebarMenuButton>\n        </SidebarMenuItem>\n      ))}\n    </SidebarMenu>\n  )\n}\n",
@@ -31,6 +25,12 @@
       "target": "hooks/use-mobile.tsx",
       "content": "import * as React from \"react\"\n\nconst MOBILE_BREAKPOINT = 768\n\nexport function useIsMobile() {\n  const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined)\n\n  React.useEffect(() => {\n    const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`)\n    const onChange = () => {\n      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    }\n    mql.addEventListener(\"change\", onChange)\n    setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    return () => mql.removeEventListener(\"change\", onChange)\n  }, [])\n\n  return !!isMobile\n}\n",
       "path": "registry/default/hooks/use-mobile.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
+      "path": "lib/utils.ts"
     },
     {
       "type": "registry:lib",

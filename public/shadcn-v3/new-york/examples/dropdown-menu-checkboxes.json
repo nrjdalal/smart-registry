@@ -13,16 +13,16 @@
   ],
   "files": [
     {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
-    },
-    {
       "type": "registry:file",
       "target": "new-york/examples/dropdown-menu-checkboxes.tsx",
       "content": "\"use client\"\n\nimport * as React from \"react\"\nimport { DropdownMenuCheckboxItemProps } from \"@radix-ui/react-dropdown-menu\"\n\nimport { Button } from \"@/components/ui/new-york/button\"\nimport {\n  DropdownMenu,\n  DropdownMenuCheckboxItem,\n  DropdownMenuContent,\n  DropdownMenuLabel,\n  DropdownMenuSeparator,\n  DropdownMenuTrigger,\n} from \"@/components/ui/new-york/dropdown-menu\"\n\ntype Checked = DropdownMenuCheckboxItemProps[\"checked\"]\n\nexport default function DropdownMenuCheckboxes() {\n  const [showStatusBar, setShowStatusBar] = React.useState<Checked>(true)\n  const [showActivityBar, setShowActivityBar] = React.useState<Checked>(false)\n  const [showPanel, setShowPanel] = React.useState<Checked>(false)\n\n  return (\n    <DropdownMenu>\n      <DropdownMenuTrigger asChild>\n        <Button variant=\"outline\">Open</Button>\n      </DropdownMenuTrigger>\n      <DropdownMenuContent className=\"w-56\">\n        <DropdownMenuLabel>Appearance</DropdownMenuLabel>\n        <DropdownMenuSeparator />\n        <DropdownMenuCheckboxItem\n          checked={showStatusBar}\n          onCheckedChange={setShowStatusBar}\n        >\n          Status Bar\n        </DropdownMenuCheckboxItem>\n        <DropdownMenuCheckboxItem\n          checked={showActivityBar}\n          onCheckedChange={setShowActivityBar}\n          disabled\n        >\n          Activity Bar\n        </DropdownMenuCheckboxItem>\n        <DropdownMenuCheckboxItem\n          checked={showPanel}\n          onCheckedChange={setShowPanel}\n        >\n          Panel\n        </DropdownMenuCheckboxItem>\n      </DropdownMenuContent>\n    </DropdownMenu>\n  )\n}\n",
       "path": "registry/new-york/examples/dropdown-menu-checkboxes.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
+      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

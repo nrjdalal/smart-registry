@@ -2,6 +2,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { parseArgs } from "node:util"
+import { registryOrder } from "@/constants/orders"
 import { getAliases } from "@/utils/aliases"
 import { getInputRegistry, listRegistryFiles } from "@/utils/files"
 import { dataResolver } from "@/utils/resolvers"
@@ -115,7 +116,7 @@ const main = async () => {
           ].sort(),
         }
 
-        const registryItem = {
+        let registryItem: Record<string, any> = {
           $schema: "https://ui.shadcn.com/schema/registry-item.json",
           name: transformer({
             cwd,
@@ -137,24 +138,29 @@ const main = async () => {
           ...(extend.registryDependencies.length && {
             registryDependencies: extend.registryDependencies,
           }),
-          files: resolvedData.files.map((file) => {
-            return {
-              type:
-                transformer({
-                  cwd,
-                  aliases,
-                  filepath: file,
-                }).type || "registry:file",
-              target:
-                transformer({
-                  cwd,
-                  aliases,
-                  filepath: file,
-                }).target || file,
-              content: resolvedData.content[file],
-              path: file,
-            } as Record<string, any>
-          }),
+          files: resolvedData.files
+            .map((file) => {
+              return {
+                type:
+                  transformer({
+                    cwd,
+                    aliases,
+                    filepath: file,
+                  }).type || "registry:file",
+                target:
+                  transformer({
+                    cwd,
+                    aliases,
+                    filepath: file,
+                  }).target || file,
+                content: resolvedData.content[file],
+                path: file,
+              } as Record<string, any>
+            })
+            .sort((a, b) => {
+              const order = registryOrder.items.files.type.default
+              return order.indexOf(a.type) - order.indexOf(b.type)
+            }),
           // ~ Add properties from the registry.json items, which don't exist in the resolved registry-item
           ...Object.fromEntries(
             Object.entries(existingConfig).filter(
@@ -171,6 +177,19 @@ const main = async () => {
             ),
           ),
         }
+
+        registryItem = Object.keys(registryItem)
+          .sort((a, b) => {
+            const order = registryOrder.items.default
+            return order.indexOf(a) - order.indexOf(b)
+          })
+          .reduce(
+            (obj, key) => {
+              obj[key] = registryItem[key]
+              return obj
+            },
+            {} as Record<string, any>,
+          )
 
         const registryItemPath = path.resolve(
           cwd,
@@ -212,7 +231,9 @@ const main = async () => {
           registryItemPath,
           JSON.stringify(registryItem, null, 2) + "\n",
         )
-        registryItem.files.forEach((file) => delete file.content)
+        registryItem.files.forEach(
+          (file: { content: any }) => delete file.content,
+        )
         outputRegistry.items.push(registryItem)
       } catch (err: any) {
         failed.push(filepath + ": " + err.message)
