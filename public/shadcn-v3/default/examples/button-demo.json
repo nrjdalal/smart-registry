@@ -19,7 +19,7 @@
     {
       "type": "registry:file",
       "target": "default/examples/button-demo.tsx",
-      "content": "import { Button } from \"@/registry/default/ui/button\"\n\nexport default function ButtonDemo() {\n  return <Button>Button</Button>\n}\n",
+      "content": "import { Button } from \"@/components/ui/button\"\n\nexport default function ButtonDemo() {\n  return <Button>Button</Button>\n}\n",
       "path": "registry/default/examples/button-demo.tsx"
     },
     {

@@ -20,7 +20,7 @@
     {
       "type": "registry:file",
       "target": "default/examples/toggle-outline.tsx",
-      "content": "import { Italic } from \"lucide-react\"\n\nimport { Toggle } from \"@/registry/default/ui/toggle\"\n\nexport default function ToggleOutline() {\n  return (\n    <Toggle variant=\"outline\" aria-label=\"Toggle italic\">\n      <Italic className=\"h-4 w-4\" />\n    </Toggle>\n  )\n}\n",
+      "content": "import { Italic } from \"lucide-react\"\n\nimport { Toggle } from \"@/components/ui/toggle\"\n\nexport default function ToggleOutline() {\n  return (\n    <Toggle variant=\"outline\" aria-label=\"Toggle italic\">\n      <Italic className=\"h-4 w-4\" />\n    </Toggle>\n  )\n}\n",
       "path": "registry/default/examples/toggle-outline.tsx"
     },
     {

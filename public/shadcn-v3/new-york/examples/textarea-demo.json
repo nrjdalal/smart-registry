@@ -17,7 +17,7 @@
     {
       "type": "registry:file",
       "target": "new-york/examples/textarea-demo.tsx",
-      "content": "import { Textarea } from \"@/registry/new-york/ui/textarea\"\n\nexport default function TextareaDemo() {\n  return <Textarea placeholder=\"Type your message here.\" />\n}\n",
+      "content": "import { Textarea } from \"@/components/ui/new-york/textarea\"\n\nexport default function TextareaDemo() {\n  return <Textarea placeholder=\"Type your message here.\" />\n}\n",
       "path": "registry/new-york/examples/textarea-demo.tsx"
     },
     {

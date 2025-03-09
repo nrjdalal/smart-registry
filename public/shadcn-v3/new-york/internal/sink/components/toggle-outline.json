@@ -20,7 +20,7 @@
     {
       "type": "registry:file",
       "target": "new-york/internal/sink/components/toggle-outline.tsx",
-      "content": "import { Italic } from \"lucide-react\"\n\nimport { Toggle } from \"@/registry/new-york/ui/toggle\"\n\nexport function ToggleOutline() {\n  return (\n    <Toggle variant=\"outline\" aria-label=\"Toggle italic\">\n      <Italic />\n    </Toggle>\n  )\n}\n",
+      "content": "import { Italic } from \"lucide-react\"\n\nimport { Toggle } from \"@/components/ui/new-york/toggle\"\n\nexport function ToggleOutline() {\n  return (\n    <Toggle variant=\"outline\" aria-label=\"Toggle italic\">\n      <Italic />\n    </Toggle>\n  )\n}\n",
       "path": "registry/new-york/internal/sink/components/toggle-outline.tsx"
     },
     {

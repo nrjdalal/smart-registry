@@ -10,7 +10,7 @@
     {
       "type": "registry:file",
       "target": "default/internal/sink/components/component-wrapper.tsx",
-      "content": "import { cn } from \"@/registry/default/lib/utils\"\n\nexport function ComponentWrapper({\n  className,\n  name,\n  children,\n  ...props\n}: React.ComponentPropsWithoutRef<\"div\"> & { name: string }) {\n  return (\n    <div\n      className={cn(\"flex w-full flex-col rounded-lg border\", className)}\n      {...props}\n    >\n      <div className=\"border-b px-4 py-3\">\n        <div className=\"text-sm font-medium\">{name}</div>\n      </div>\n      <div className=\"flex flex-1 flex-col items-center justify-center gap-2 p-4 [&>div]:max-w-full\">\n        {children}\n      </div>\n    </div>\n  )\n}\n",
+      "content": "import { cn } from \"@/lib/utils\"\n\nexport function ComponentWrapper({\n  className,\n  name,\n  children,\n  ...props\n}: React.ComponentPropsWithoutRef<\"div\"> & { name: string }) {\n  return (\n    <div\n      className={cn(\"flex w-full flex-col rounded-lg border\", className)}\n      {...props}\n    >\n      <div className=\"border-b px-4 py-3\">\n        <div className=\"text-sm font-medium\">{name}</div>\n      </div>\n      <div className=\"flex flex-1 flex-col items-center justify-center gap-2 p-4 [&>div]:max-w-full\">\n        {children}\n      </div>\n    </div>\n  )\n}\n",
       "path": "registry/default/internal/sink/components/component-wrapper.tsx"
     },
     {

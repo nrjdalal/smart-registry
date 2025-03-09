@@ -1,5 +1,6 @@
 import fs from "node:fs"
 import path from "node:path"
+import { regex } from "@/constants/regex"
 import { typeResolver } from "@/utils/resolvers"
 
 export const dataResolver = async ({
@@ -35,12 +36,23 @@ export const dataResolver = async ({
       )
     }
 
-    const { dependencies, files } = await typeResolver({
+    const { dependencies, files, transformations } = await typeResolver({
       cwd,
       aliases,
       filepath,
       content: data.content[filepath],
     })
+
+    data.content[filepath] = data.content[filepath].replace(
+      regex.imports,
+      (current) => {
+        const match = current.match(/['"](.*)['"]/)
+        if (match && transformations[match[1]]) {
+          return current.replace(match[1], transformations[match[1]].import)
+        }
+        return current
+      },
+    )
 
     files.forEach((file) => data.files.push(file))
     dependencies.forEach((dependency) => data.dependencies.push(dependency))

@@ -5,7 +5,7 @@
   "items": [
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "src/app/api/auth/[...all]/route",
+      "name": "app/api/auth/[...all]/route",
       "type": "registry:file",
       "dependencies": [
         "better-auth",
@@ -15,27 +15,27 @@
       "files": [
         {
           "type": "registry:file",
-          "target": "src/app/api/auth/[...all]/route.ts",
+          "target": "app/api/auth/[...all]/route.ts",
           "path": "src/app/api/auth/[...all]/route.ts"
         },
         {
           "type": "registry:file",
-          "target": "src/db/index.ts",
+          "target": "db/index.ts",
           "path": "src/db/index.ts"
         },
         {
           "type": "registry:file",
-          "target": "src/db/schema/auth.ts",
+          "target": "db/schema/auth.ts",
           "path": "src/db/schema/auth.ts"
         },
         {
           "type": "registry:file",
-          "target": "src/db/schema/index.ts",
+          "target": "db/schema/index.ts",
           "path": "src/db/schema/index.ts"
         },
         {
-          "type": "registry:file",
-          "target": "src/lib/auth/index.ts",
+          "type": "registry:lib",
+          "target": "lib/auth/index.ts",
           "path": "src/lib/auth/index.ts"
         }
       ]

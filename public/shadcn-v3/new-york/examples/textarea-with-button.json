@@ -19,7 +19,7 @@
     {
       "type": "registry:file",
       "target": "new-york/examples/textarea-with-button.tsx",
-      "content": "import { Button } from \"@/registry/new-york/ui/button\"\nimport { Textarea } from \"@/registry/new-york/ui/textarea\"\n\nexport default function TextareaWithButton() {\n  return (\n    <div className=\"grid w-full gap-2\">\n      <Textarea placeholder=\"Type your message here.\" />\n      <Button>Send message</Button>\n    </div>\n  )\n}\n",
+      "content": "import { Button } from \"@/components/ui/new-york/button\"\nimport { Textarea } from \"@/components/ui/new-york/textarea\"\n\nexport default function TextareaWithButton() {\n  return (\n    <div className=\"grid w-full gap-2\">\n      <Textarea placeholder=\"Type your message here.\" />\n      <Button>Send message</Button>\n    </div>\n  )\n}\n",
       "path": "registry/new-york/examples/textarea-with-button.tsx"
     },
     {

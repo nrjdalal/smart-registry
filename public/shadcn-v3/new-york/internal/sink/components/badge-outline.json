@@ -18,7 +18,7 @@
     {
       "type": "registry:file",
       "target": "new-york/internal/sink/components/badge-outline.tsx",
-      "content": "import { Badge } from \"@/registry/new-york/ui/badge\"\n\nexport function BadgeOutline() {\n  return <Badge variant=\"outline\">Outline</Badge>\n}\n",
+      "content": "import { Badge } from \"@/components/ui/new-york/badge\"\n\nexport function BadgeOutline() {\n  return <Badge variant=\"outline\">Outline</Badge>\n}\n",
       "path": "registry/new-york/internal/sink/components/badge-outline.tsx"
     },
     {

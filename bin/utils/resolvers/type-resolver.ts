@@ -1,8 +1,9 @@
 import path from "node:path"
 import { regex } from "@/constants/regex"
 import { listFiles } from "@/utils/files"
+import { transformer } from "@/utils/transformer"
 
-const resolveAliasedImport = async ({
+export const resolveAliasedImport = async ({
   cwd,
   current,
   aliases,
@@ -30,7 +31,7 @@ const resolveAliasedImport = async ({
   return current.replace(cwd + "/", "")
 }
 
-const resolveRelativeImport = async ({
+export const resolveRelativeImport = async ({
   cwd,
   filepath,
   current,
@@ -62,7 +63,12 @@ export const typeResolver = async ({
   filepath: string
   content: string
 }) => {
-  const data = { dependencies: [] as string[], files: [] as string[] }
+  const data = {
+    dependencies: [] as string[],
+    files: [] as string[],
+    transformations: {} as Record<string, any>,
+  }
+
   let imports: string[] = content.match(regex.imports) || []
   if (!imports.length) return data
 
@@ -72,15 +78,27 @@ export const typeResolver = async ({
   )
 
   for (let current of imports) {
+    let orignal = current
+
     const isAliased = Object.keys(aliases).some((alias) =>
       current.startsWith(alias.replace(/\.\//g, "").replace(/\.\.\//g, "")),
     )
 
     if (isAliased) {
       current = await resolveAliasedImport({ cwd, aliases, current })
+      data.transformations[orignal] = transformer({
+        cwd,
+        aliases,
+        filepath: current,
+      })
       data.files.push(current)
     } else if (current.startsWith(".")) {
       current = await resolveRelativeImport({ cwd, filepath, current })
+      data.transformations[orignal] = transformer({
+        cwd,
+        aliases,
+        filepath: current,
+      })
       data.files.push(current)
     } else {
       if (current.startsWith("@")) {

@@ -17,7 +17,7 @@
     {
       "type": "registry:file",
       "target": "new-york/internal/sink/components/input-demo.tsx",
-      "content": "import { Input } from \"@/registry/new-york/ui/input\"\n\nexport function InputDemo() {\n  return <Input type=\"email\" placeholder=\"Email\" />\n}\n",
+      "content": "import { Input } from \"@/components/ui/new-york/input\"\n\nexport function InputDemo() {\n  return <Input type=\"email\" placeholder=\"Email\" />\n}\n",
       "path": "registry/new-york/internal/sink/components/input-demo.tsx"
     },
     {

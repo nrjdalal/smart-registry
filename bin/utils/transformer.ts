@@ -9,7 +9,13 @@ export const transformer = ({
   aliases: Record<string, string>
   filepath: string
 }) => {
-  filepath = filepath.replace(cwd + path.sep, "")
+  for (const alias in aliases) {
+    filepath = filepath.replace(
+      aliases[alias].replaceAll("./", "").replaceAll("../", ""),
+      "",
+    )
+  }
+
   const transformedPath = filepath.startsWith("registry/")
     ? filepath
         .replace(/^registry\//, "")
@@ -44,6 +50,7 @@ export const transformer = ({
         .replace(/\/default\//, "/")
         .replace(/\.\.\//g, "")
         .replace(/\.\//g, "")
+
   return {
     type: transformedPath.endsWith("page.tsx")
       ? "registry:page"
@@ -63,10 +70,14 @@ export const transformer = ({
         /^(blocks|components\/ui|components|hooks|lib|utils|helpers)\//,
         "",
       )
-      .replace(/\.[^\/.]+$/, ""),
+      .replace(/\.[^\/.]+$/, "")
+      .replace(/\/index$/, ""),
     import:
       "@/" +
-      transformedPath.replace(cwd + path.sep, "").replace(/\.[^/.]+$/, ""),
+      transformedPath
+        .replace(cwd + path.sep, "")
+        .replace(/\.[^/.]+$/, "")
+        .replace(/\/index$/, ""),
     target: transformedPath,
     path: filepath,
   }

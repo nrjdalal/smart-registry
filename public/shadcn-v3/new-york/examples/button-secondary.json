@@ -19,7 +19,7 @@
     {
       "type": "registry:file",
       "target": "new-york/examples/button-secondary.tsx",
-      "content": "import { Button } from \"@/registry/new-york/ui/button\"\n\nexport default function ButtonSecondary() {\n  return <Button variant=\"secondary\">Secondary</Button>\n}\n",
+      "content": "import { Button } from \"@/components/ui/new-york/button\"\n\nexport default function ButtonSecondary() {\n  return <Button variant=\"secondary\">Secondary</Button>\n}\n",
       "path": "registry/new-york/examples/button-secondary.tsx"
     },
     {

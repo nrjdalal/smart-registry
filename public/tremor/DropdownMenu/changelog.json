@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "DropdownMenu/changelog",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/DropdownMenu/changelog.md",
+      "content": "# Tremor Dropdown Menu Changelog\n\n## 0.0.2\n\n### Changes\n\n- Fix: Omit `asChild` in items\n\n## 0.0.1\n\n### Changes\n\n- Chore: Add `tremor-id`\n",
+      "path": "src/components/DropdownMenu/changelog.md"
+    }
+  ]
+}

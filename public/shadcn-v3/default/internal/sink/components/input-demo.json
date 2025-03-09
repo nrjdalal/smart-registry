@@ -17,7 +17,7 @@
     {
       "type": "registry:file",
       "target": "default/internal/sink/components/input-demo.tsx",
-      "content": "import { Input } from \"@/registry/default/ui/input\"\n\nexport function InputDemo() {\n  return <Input type=\"email\" placeholder=\"Email\" />\n}\n",
+      "content": "import { Input } from \"@/components/ui/input\"\n\nexport function InputDemo() {\n  return <Input type=\"email\" placeholder=\"Email\" />\n}\n",
       "path": "registry/default/internal/sink/components/input-demo.tsx"
     },
     {

@@ -17,7 +17,7 @@
     {
       "type": "registry:file",
       "target": "default/examples/input-disabled.tsx",
-      "content": "import { Input } from \"@/registry/default/ui/input\"\n\nexport default function InputDisabled() {\n  return <Input disabled type=\"email\" placeholder=\"Email\" />\n}\n",
+      "content": "import { Input } from \"@/components/ui/input\"\n\nexport default function InputDisabled() {\n  return <Input disabled type=\"email\" placeholder=\"Email\" />\n}\n",
       "path": "registry/default/examples/input-disabled.tsx"
     },
     {

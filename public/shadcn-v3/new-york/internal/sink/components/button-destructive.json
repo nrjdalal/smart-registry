@@ -19,7 +19,7 @@
     {
       "type": "registry:file",
       "target": "new-york/internal/sink/components/button-destructive.tsx",
-      "content": "import { Button } from \"@/registry/new-york/ui/button\"\n\nexport function ButtonDestructive() {\n  return <Button variant=\"destructive\">Destructive</Button>\n}\n",
+      "content": "import { Button } from \"@/components/ui/new-york/button\"\n\nexport function ButtonDestructive() {\n  return <Button variant=\"destructive\">Destructive</Button>\n}\n",
       "path": "registry/new-york/internal/sink/components/button-destructive.tsx"
     },
     {

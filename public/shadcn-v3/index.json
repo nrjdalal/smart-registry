@@ -10,7 +10,7 @@
     {
       "type": "registry:file",
       "target": "index.ts",
-      "content": "import { type Registry } from \"shadcn/registry\"\nimport { z } from \"zod\"\n\nimport { blocks } from \"@/registry/registry-blocks\"\nimport { charts } from \"@/registry/registry-charts\"\nimport { examples } from \"@/registry/registry-examples\"\nimport { hooks } from \"@/registry/registry-hooks\"\nimport { internal } from \"@/registry/registry-internal\"\nimport { lib } from \"@/registry/registry-lib\"\nimport { themes } from \"@/registry/registry-themes\"\nimport { ui } from \"@/registry/registry-ui\"\n\nexport const registry = {\n  name: \"shadcn/ui\",\n  homepage: \"https://ui.shadcn.com\",\n  items: [\n    ...ui,\n    ...blocks,\n    ...charts,\n    ...lib,\n    ...hooks,\n    ...themes,\n\n    // Internal use only.\n    ...internal,\n    ...examples,\n  ],\n} satisfies Registry\n",
+      "content": "import { type Registry } from \"shadcn/registry\"\nimport { z } from \"zod\"\n\nimport { blocks } from \"@/registry-blocks\"\nimport { charts } from \"@/registry-charts\"\nimport { examples } from \"@/registry-examples\"\nimport { hooks } from \"@/registry-hooks\"\nimport { internal } from \"@/registry-internal\"\nimport { lib } from \"@/registry-lib\"\nimport { themes } from \"@/registry-themes\"\nimport { ui } from \"@/registry-ui\"\n\nexport const registry = {\n  name: \"shadcn/ui\",\n  homepage: \"https://ui.shadcn.com\",\n  items: [\n    ...ui,\n    ...blocks,\n    ...charts,\n    ...lib,\n    ...hooks,\n    ...themes,\n\n    // Internal use only.\n    ...internal,\n    ...examples,\n  ],\n} satisfies Registry\n",
       "path": "registry/index.ts"
     },
     {

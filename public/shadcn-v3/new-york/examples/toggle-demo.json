@@ -20,7 +20,7 @@
     {
       "type": "registry:file",
       "target": "new-york/examples/toggle-demo.tsx",
-      "content": "import { Bold } from \"lucide-react\"\n\nimport { Toggle } from \"@/registry/new-york/ui/toggle\"\n\nexport default function ToggleDemo() {\n  return (\n    <Toggle aria-label=\"Toggle italic\">\n      <Bold className=\"h-4 w-4\" />\n    </Toggle>\n  )\n}\n",
+      "content": "import { Bold } from \"lucide-react\"\n\nimport { Toggle } from \"@/components/ui/new-york/toggle\"\n\nexport default function ToggleDemo() {\n  return (\n    <Toggle aria-label=\"Toggle italic\">\n      <Bold className=\"h-4 w-4\" />\n    </Toggle>\n  )\n}\n",
       "path": "registry/new-york/examples/toggle-demo.tsx"
     },
     {

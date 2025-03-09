@@ -19,7 +19,7 @@
     {
       "type": "registry:file",
       "target": "new-york/internal/sink/components/button-ghost.tsx",
-      "content": "import { Button } from \"@/registry/new-york/ui/button\"\n\nexport function ButtonGhost() {\n  return <Button variant=\"ghost\">Ghost</Button>\n}\n",
+      "content": "import { Button } from \"@/components/ui/new-york/button\"\n\nexport function ButtonGhost() {\n  return <Button variant=\"ghost\">Ghost</Button>\n}\n",
       "path": "registry/new-york/internal/sink/components/button-ghost.tsx"
     },
     {

@@ -19,7 +19,7 @@
     {
       "type": "registry:file",
       "target": "default/internal/sink/components/button-link.tsx",
-      "content": "import { Button } from \"@/registry/default/ui/button\"\n\nexport function ButtonLink() {\n  return <Button variant=\"link\">Link</Button>\n}\n",
+      "content": "import { Button } from \"@/components/ui/button\"\n\nexport function ButtonLink() {\n  return <Button variant=\"link\">Link</Button>\n}\n",
       "path": "registry/default/internal/sink/components/button-link.tsx"
     },
     {

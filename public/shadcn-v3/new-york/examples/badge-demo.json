@@ -18,7 +18,7 @@
     {
       "type": "registry:file",
       "target": "new-york/examples/badge-demo.tsx",
-      "content": "import { Badge } from \"@/registry/new-york/ui/badge\"\n\nexport default function BadgeDemo() {\n  return <Badge>Badge</Badge>\n}\n",
+      "content": "import { Badge } from \"@/components/ui/new-york/badge\"\n\nexport default function BadgeDemo() {\n  return <Badge>Badge</Badge>\n}\n",
       "path": "registry/new-york/examples/badge-demo.tsx"
     },
     {

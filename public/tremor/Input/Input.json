@@ -1,0 +1,44 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Input/Input",
+  "type": "registry:component",
+  "dependencies": [
+    "@remixicon/react",
+    "clsx",
+    "react",
+    "tailwind-merge",
+    "tailwind-variants"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/Input/Input.tsx",
+      "content": "// Tremor Input [v1.0.5]\n\nimport React from \"react\"\nimport { RiEyeFill, RiEyeOffFill, RiSearchLine } from \"@remixicon/react\"\nimport { tv, type VariantProps } from \"tailwind-variants\"\n\nimport { cx } from \"@/utils/cx\"\nimport { focusInput } from \"@/utils/focusInput\"\nimport { focusRing } from \"@/utils/focusRing\"\nimport { hasErrorInput } from \"@/utils/hasErrorInput\"\n\nconst inputStyles = tv({\n  base: [\n    // base\n    \"relative block w-full appearance-none rounded-md border px-2.5 py-2 shadow-sm outline-none transition sm:text-sm\",\n    // border color\n    \"border-gray-300 dark:border-gray-800\",\n    // text color\n    \"text-gray-900 dark:text-gray-50\",\n    // placeholder color\n    \"placeholder-gray-400 dark:placeholder-gray-500\",\n    // background color\n    \"bg-white dark:bg-gray-950\",\n    // disabled\n    \"disabled:border-gray-300 disabled:bg-gray-100 disabled:text-gray-400\",\n    \"disabled:dark:border-gray-700 disabled:dark:bg-gray-800 disabled:dark:text-gray-500\",\n    // file\n    [\n      \"file:-my-2 file:-ml-2.5 file:cursor-pointer file:rounded-l-[5px] file:rounded-r-none file:border-0 file:px-3 file:py-2 file:outline-none focus:outline-none disabled:pointer-events-none file:disabled:pointer-events-none\",\n      \"file:border-solid file:border-gray-300 file:bg-gray-50 file:text-gray-500 file:hover:bg-gray-100 file:dark:border-gray-800 file:dark:bg-gray-950 file:hover:dark:bg-gray-900/20 file:disabled:dark:border-gray-700\",\n      \"file:[border-inline-end-width:1px] file:[margin-inline-end:0.75rem]\",\n      \"file:disabled:bg-gray-100 file:disabled:text-gray-500 file:disabled:dark:bg-gray-800\",\n    ],\n    // focus\n    focusInput,\n    // invalid (optional)\n    // \"aria-[invalid=true]:dark:ring-red-400/20 aria-[invalid=true]:ring-2 aria-[invalid=true]:ring-red-200 aria-[invalid=true]:border-red-500 invalid:ring-2 invalid:ring-red-200 invalid:border-red-500\"\n    // remove search cancel button (optional)\n    \"[&::-webkit-search-cancel-button]:hidden [&::-webkit-search-decoration]:hidden\",\n  ],\n  variants: {\n    hasError: {\n      true: hasErrorInput,\n    },\n    // number input\n    enableStepper: {\n      false:\n        \"[appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none\",\n    },\n  },\n})\n\ninterface InputProps\n  extends React.InputHTMLAttributes<HTMLInputElement>,\n    VariantProps<typeof inputStyles> {\n  inputClassName?: string\n}\n\nconst Input = React.forwardRef<HTMLInputElement, InputProps>(\n  (\n    {\n      className,\n      inputClassName,\n      hasError,\n      enableStepper = true,\n      type,\n      ...props\n    }: InputProps,\n    forwardedRef,\n  ) => {\n    const [typeState, setTypeState] = React.useState(type)\n\n    const isPassword = type === \"password\"\n    const isSearch = type === \"search\"\n\n    return (\n      <div className={cx(\"relative w-full\", className)} tremor-id=\"tremor-raw\">\n        <input\n          ref={forwardedRef}\n          type={isPassword ? typeState : type}\n          className={cx(\n            inputStyles({ hasError, enableStepper }),\n            {\n              \"pl-8\": isSearch,\n              \"pr-10\": isPassword,\n            },\n            inputClassName,\n          )}\n          {...props}\n        />\n        {isSearch && (\n          <div\n            className={cx(\n              // base\n              \"pointer-events-none absolute bottom-0 left-2 flex h-full items-center justify-center\",\n              // text color\n              \"text-gray-400 dark:text-gray-600\",\n            )}\n          >\n            <RiSearchLine\n              className=\"size-[1.125rem] shrink-0\"\n              aria-hidden=\"true\"\n            />\n          </div>\n        )}\n        {isPassword && (\n          <div\n            className={cx(\n              \"absolute bottom-0 right-0 flex h-full items-center justify-center px-3\",\n            )}\n          >\n            <button\n              aria-label=\"Change password visibility\"\n              className={cx(\n                // base\n                \"h-fit w-fit rounded-sm outline-none transition-all\",\n                // text\n                \"text-gray-400 dark:text-gray-600\",\n                // hover\n                \"hover:text-gray-500 hover:dark:text-gray-500\",\n                focusRing,\n              )}\n              type=\"button\"\n              onClick={() => {\n                setTypeState(typeState === \"password\" ? \"text\" : \"password\")\n              }}\n            >\n              <span className=\"sr-only\">\n                {typeState === \"password\" ? \"Show password\" : \"Hide password\"}\n              </span>\n              {typeState === \"password\" ? (\n                <RiEyeFill aria-hidden=\"true\" className=\"size-5 shrink-0\" />\n              ) : (\n                <RiEyeOffFill aria-hidden=\"true\" className=\"size-5 shrink-0\" />\n              )}\n            </button>\n          </div>\n        )}\n      </div>\n    )\n  },\n)\n\nInput.displayName = \"Input\"\n\nexport { Input, inputStyles, type InputProps }\n",
+      "path": "src/components/Input/Input.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/cx.ts",
+      "content": "// Tremor cx [v0.0.0]\n\nimport clsx, { type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cx(...args: ClassValue[]) {\n  return twMerge(clsx(...args))\n}\n",
+      "path": "src/utils/cx.ts"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/focusInput.ts",
+      "content": "// Tremor focusInput [v0.0.1]\n\nexport const focusInput = [\n  // base\n  \"focus:ring-2\",\n  // ring color\n  \"focus:ring-blue-200 focus:dark:ring-blue-700/30\",\n  // border color\n  \"focus:border-blue-500 focus:dark:border-blue-700\",\n]\n",
+      "path": "src/utils/focusInput.ts"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/focusRing.ts",
+      "content": "// Tremor focusRing [v0.0.1]\n\nexport const focusRing = [\n  // base\n  \"outline outline-offset-2 outline-0 focus-visible:outline-2\",\n  // outline color\n  \"outline-blue-500 dark:outline-blue-500\",\n]\n",
+      "path": "src/utils/focusRing.ts"
+    },
+    {
+      "type": "registry:lib",
+      "target": "utils/hasErrorInput.ts",
+      "content": "// Tremor hasErrorInput [v0.0.1]\n\nexport const hasErrorInput = [\n  // base\n  \"ring-2\",\n  // border color\n  \"border-red-500 dark:border-red-700\",\n  // ring color\n  \"ring-red-200 dark:ring-red-700/30\",\n]\n",
+      "path": "src/utils/hasErrorInput.ts"
+    }
+  ]
+}
