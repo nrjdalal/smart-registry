@@ -71,7 +71,7 @@ Simplify your `registry.json` by removing properties like `registryDependencies`
 
 <br/>
 
-Manual maintenance of `registry.json` files can lead to errors due to missing dependencies or files, or wrongful addition of unnecessary ones. `Smart Registry` reduces these risks by automating the detection and generation of the necessary `registry.json` and `r/<registry-item>.json` entries, making registry management more efficient.
+Manual maintenance of `registry.json` files can lead to errors due to missing dependencies or files, or wrongful addition of unnecessary ones. `Smart Registry` reduces these risks by automating the detection and generation of the all-in-one `r/registry.json` and `r/<registry-item>.json` entries, making registry management more efficient.
 
 ## Table of Contents
 
@@ -101,20 +101,12 @@ npx smart-registry
 
 ![Demo Image](https://github-production-user-asset-6210df.s3.amazonaws.com/58145505/418180611-fd6070a5-6a89-4582-8ad0-df125c222883.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250302%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250302T212923Z&X-Amz-Expires=300&X-Amz-Signature=81a0324e67c77ab068c96e9f666e1b930cf32d497f8aa0a39c28caa0b902c7d3&X-Amz-SignedHeaders=host)
 
-### From Specific Files
+### From Specific Files or Directories
 
-If you want to generate the registry from specific files, you can use the `-f` flag to specify the files.
-
-```bash
-npx smart-registry -f <file1> -f <file2> -f <file3> ...
-```
-
-### From Specific Directories
-
-To generate the registry from specific directories, use the `-d` flag to specify the directories.
+If you want to generate the registry from specific files or directories, you can pass them as arguments.
 
 ```bash
-npx smart-registry -d <directory1> -d <directory2> -d <directory3> ...
+npx smart-registry path/to/file.ts path/to/directory ...
 ```
 
 ## How it Works
@@ -131,17 +123,18 @@ registry/
         └── dialog.tsx
 ```
 
-1. `Smart Registry` will scan the `registry` directory for files.
+1. `Smart Registry` will scan the `registry` directory and its sub-directories to find all the files. If no `registry` directory is found, it will scan the `components` or `src/components` directory.
 2. For each file, it will generate a `<registry-item>.json` file by reading the file's content and extracting the imports for registry dependencies, dependencies, and files recursively.
 3. It will then generate a `registry.json` file by combining all the `<registry-item>.json` files with all the properties required for `shadcn add` or `open in v0`.
 
 ```plaintext
 public/
-├── r/
-│   ├── button.json
-│   ├── dialog.json
-│   └── utils.json
-└── registry.json
+└── r/
+    ├── button.json
+    ├── dialog.json
+    ├── registry.json
+    └── utils.json
+
 ```
 
 ## Extending Properties
@@ -510,7 +503,7 @@ Generates the following items in `public/r` directory.
 ```plaintext
 public/
 └── r/
-  ├── new-york/
+  └── new-york/
       ├── toasty.json     name: new-york/toasty     target: blocks/new-york/toasty.tsx
       ├── toaster.json    name: new-york/toaster    target: components/new-york/toaster.tsx
       ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
