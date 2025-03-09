@@ -22,11 +22,9 @@ export const dataResolver = async ({
   }
 
   for (const filepath of filepaths) {
-    if (resolved.has(filepath)) {
-      continue
-    } else {
-      resolved.add(filepath)
-    }
+    if (resolved.has(filepath)) continue
+
+    resolved.add(filepath)
 
     data.files.push(filepath)
 
@@ -49,19 +47,18 @@ export const dataResolver = async ({
   }
 
   for (const filepath of data.files) {
-    if (!data.content[filepath]) {
-      data.content[filepath] = await fs.promises.readFile(
-        path.resolve(cwd, filepath),
-        "utf8",
-      )
-    }
-
-    const { dependencies, files } = await dataResolver({
+    const { dependencies, files, content } = await dataResolver({
       cwd,
       aliases,
       filepaths: [filepath],
       resolved,
     })
+
+    if (!data.content[filepath]) {
+      data.content[filepath] =
+        content[filepath] ||
+        (await fs.promises.readFile(path.resolve(cwd, filepath), "utf8"))
+    }
 
     files.forEach((file) => data.files.push(file))
     dependencies.forEach((dependency) => data.dependencies.push(dependency))
