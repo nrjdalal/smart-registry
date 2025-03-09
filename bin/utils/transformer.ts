@@ -71,7 +71,9 @@ export const transformer = ({
         "",
       )
       .replace(/\.[^\/.]+$/, "")
-      .replace(/\/index$/, ""),
+      .replace(/\/index$/, "")
+      .replace(/\/route$/, "")
+      .replace(/\/\[.*\]$/, ""),
     import:
       "@/" +
       transformedPath

@@ -1,11 +1,11 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "shadcn",
-  "homepage": "https://ui.shadcn.com",
+  "name": "nrjdalal",
+  "homepage": "https://nrjdalal.com",
   "items": [
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "app/api/auth/[...all]/route",
+      "name": "app/api/auth",
       "type": "registry:file",
       "dependencies": [
         "better-auth",

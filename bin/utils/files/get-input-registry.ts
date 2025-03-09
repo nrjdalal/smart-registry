@@ -7,8 +7,8 @@ export const getInputRegistry = async (
   const inputRegistry = path.resolve(cwd, "registry.json")
   let registry = {
     $schema: "https://ui.shadcn.com/schema/registry.json",
-    name: "shadcn",
-    homepage: "https://ui.shadcn.com",
+    name: "nrjdalal",
+    homepage: "https://nrjdalal.com",
     items: [],
   }
   if (fs.existsSync(inputRegistry)) {
