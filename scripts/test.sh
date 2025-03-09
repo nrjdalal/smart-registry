@@ -9,6 +9,10 @@ repos=(
   "https://github.com/cahyawibawa/ui-topia ui-topia apps/web"
 )
 
+if [ "$1" == "clear" ]; then
+  rm -rf ~/.junk
+fi
+
 npm run build
 
 process() {
