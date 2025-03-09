@@ -29,6 +29,12 @@
     }
   ],
   "meta": {
-    "tags": ["radio", "label", "card", "pricing", "radix"]
+    "tags": [
+      "radio",
+      "label",
+      "card",
+      "pricing",
+      "radix"
+    ]
   }
 }

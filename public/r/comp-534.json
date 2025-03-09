@@ -30,7 +30,10 @@
     }
   ],
   "meta": {
-    "tags": ["timeline", "vertical timeline"],
+    "tags": [
+      "timeline",
+      "vertical timeline"
+    ],
     "colSpan": 2
   }
 }

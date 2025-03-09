@@ -29,6 +29,12 @@
     }
   ],
   "meta": {
-    "tags": ["radio", "label", "color", "picker", "radix"]
+    "tags": [
+      "radio",
+      "label",
+      "color",
+      "picker",
+      "radix"
+    ]
   }
 }

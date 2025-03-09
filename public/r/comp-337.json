@@ -30,7 +30,10 @@
     }
   ],
   "meta": {
-    "tags": ["accordion", "radix"],
+    "tags": [
+      "accordion",
+      "radix"
+    ],
     "colSpan": 2
   }
 }

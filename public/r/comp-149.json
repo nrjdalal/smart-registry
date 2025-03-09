@@ -29,6 +29,12 @@
     }
   ],
   "meta": {
-    "tags": ["checkbox", "label", "week", "calendar", "radix"]
+    "tags": [
+      "checkbox",
+      "label",
+      "week",
+      "calendar",
+      "radix"
+    ]
   }
 }

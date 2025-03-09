@@ -29,6 +29,11 @@
     }
   ],
   "meta": {
-    "tags": ["input", "label", "date", "react aria"]
+    "tags": [
+      "input",
+      "label",
+      "date",
+      "react aria"
+    ]
   }
 }

@@ -30,7 +30,12 @@
     }
   ],
   "meta": {
-    "tags": ["switch", "label", "darkmode", "radix"],
+    "tags": [
+      "switch",
+      "label",
+      "darkmode",
+      "radix"
+    ],
     "style": 1
   }
 }

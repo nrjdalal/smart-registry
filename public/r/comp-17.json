@@ -42,6 +42,11 @@
     }
   ],
   "meta": {
-    "tags": ["input", "label", "select", "native select"]
+    "tags": [
+      "input",
+      "label",
+      "select",
+      "native select"
+    ]
   }
 }

@@ -58,7 +58,9 @@
       "path": "registry/default/ui/label.tsx"
     }
   ],
-  "devDependencies": ["@types/react-payment-inputs"],
+  "devDependencies": [
+    "@types/react-payment-inputs"
+  ],
   "meta": {
     "tags": [
       "dialog",
