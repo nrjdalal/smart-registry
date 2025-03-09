@@ -29,9 +29,13 @@ export const dataResolver = async ({
     }
 
     data.files.push(filepath)
-    data.content[filepath] =
-      data.content[filepath] ||
-      (await fs.promises.readFile(path.resolve(cwd, filepath), "utf8"))
+
+    if (!data.content[filepath]) {
+      data.content[filepath] = await fs.promises.readFile(
+        path.resolve(cwd, filepath),
+        "utf8",
+      )
+    }
 
     const { dependencies, files } = await typeResolver({
       cwd,
@@ -40,15 +44,18 @@ export const dataResolver = async ({
       content: data.content[filepath],
     })
 
-    data.dependencies.push(
-      ...dependencies.filter(
-        (dependency) => !data.dependencies.includes(dependency),
-      ),
-    )
-    data.files.push(...files.filter((file) => !data.files.includes(file)))
+    files.forEach((file) => data.files.push(file))
+    dependencies.forEach((dependency) => data.dependencies.push(dependency))
   }
 
   for (const filepath of data.files) {
+    if (!data.content[filepath]) {
+      data.content[filepath] = await fs.promises.readFile(
+        path.resolve(cwd, filepath),
+        "utf8",
+      )
+    }
+
     const { dependencies, files } = await dataResolver({
       cwd,
       aliases,
@@ -56,15 +63,8 @@ export const dataResolver = async ({
       resolved,
     })
 
-    data.dependencies.push(
-      ...dependencies.filter(
-        (dependency) => !data.dependencies.includes(dependency),
-      ),
-    )
-    data.files.push(...files.filter((file) => !data.files.includes(file)))
-    data.content[filepath] =
-      data.content[filepath] ||
-      (await fs.promises.readFile(path.resolve(cwd, filepath), "utf8"))
+    files.forEach((file) => data.files.push(file))
+    dependencies.forEach((dependency) => data.dependencies.push(dependency))
   }
 
   data.dependencies = [...new Set(data.dependencies)].sort()
