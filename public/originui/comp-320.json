@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-320",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-dialog",
     "@radix-ui/react-label",
@@ -64,5 +63,6 @@
       "radix"
     ],
     "style": 1
-  }
+  },
+  "type": "registry:component"
 }

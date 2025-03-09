@@ -180,7 +180,7 @@ const main = async () => {
 
         registryItem = Object.keys(registryItem)
           .sort((a, b) => {
-            const order = registryOrder.items.default
+            const order = registryOrder.items.files.default
             return order.indexOf(a) - order.indexOf(b)
           })
           .reduce(

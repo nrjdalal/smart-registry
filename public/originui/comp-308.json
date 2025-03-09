@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-308",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-slot",
     "class-variance-authority",
@@ -38,5 +37,6 @@
       "banner"
     ],
     "colSpan": 3
-  }
+  },
+  "type": "registry:component"
 }

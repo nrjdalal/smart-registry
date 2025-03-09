@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-107",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-toggle",
     "@radix-ui/react-toggle-group",
@@ -46,5 +45,6 @@
       "toggle group"
     ],
     "style": 2
-  }
+  },
+  "type": "registry:component"
 }

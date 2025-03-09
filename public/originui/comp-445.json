@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-445",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-tabs",
     "clsx",
@@ -39,5 +38,6 @@
     ],
     "colSpan": 2,
     "style": 2
-  }
+  },
+  "type": "registry:component"
 }

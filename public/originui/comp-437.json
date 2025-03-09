@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-437",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-scroll-area",
     "@radix-ui/react-slot",
@@ -56,5 +55,6 @@
     ],
     "colSpan": 2,
     "style": 2
-  }
+  },
+  "type": "registry:component"
 }

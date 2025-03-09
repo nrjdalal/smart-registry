@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-303",
-  "type": "registry:component",
   "dependencies": [
     "lucide-react"
   ],
@@ -18,5 +17,6 @@
       "banner"
     ],
     "colSpan": 3
-  }
+  },
+  "type": "registry:component"
 }

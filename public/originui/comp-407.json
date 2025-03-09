@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-407",
-  "type": "registry:component",
   "files": [
     {
       "type": "registry:component",
@@ -16,5 +15,6 @@
       "avatar group"
     ],
     "style": 1
-  }
+  },
+  "type": "registry:component"
 }

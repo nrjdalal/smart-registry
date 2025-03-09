@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Input/Input",
-  "type": "registry:component",
   "dependencies": [
     "@remixicon/react",
     "clsx",
@@ -40,5 +39,6 @@
       "content": "// Tremor hasErrorInput [v0.0.1]\n\nexport const hasErrorInput = [\n  // base\n  \"ring-2\",\n  // border color\n  \"border-red-500 dark:border-red-700\",\n  // ring color\n  \"ring-red-200 dark:ring-red-700/30\",\n]\n",
       "path": "src/utils/hasErrorInput.ts"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

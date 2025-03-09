@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-39",
-  "type": "registry:component",
   "dependencies": [
     "clsx",
     "lucide-react",
@@ -38,5 +37,6 @@
       "date",
       "react aria"
     ]
-  }
+  },
+  "type": "registry:component"
 }

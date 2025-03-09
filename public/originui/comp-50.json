@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-50",
-  "type": "registry:component",
   "dependencies": [
     "clsx",
     "lucide-react",
@@ -45,5 +44,6 @@
       "credit card",
       "form"
     ]
-  }
+  },
+  "type": "registry:component"
 }

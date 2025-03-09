@@ -6,7 +6,6 @@
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "app/api/auth",
-      "type": "registry:file",
       "dependencies": [
         "better-auth",
         "drizzle-kit",
@@ -75,7 +74,8 @@
           "target": "lib/auth/index.ts",
           "path": "src/lib/auth/index.ts"
         }
-      ]
+      ],
+      "type": "registry:file"
     }
   ]
 }

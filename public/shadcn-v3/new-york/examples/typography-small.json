@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york/examples/typography-small",
-  "type": "registry:file",
   "files": [
     {
       "type": "registry:file",
@@ -9,5 +8,6 @@
       "content": "export default function TypographySmall() {\n  return (\n    <small className=\"text-sm font-medium leading-none\">Email address</small>\n  )\n}\n",
       "path": "registry/new-york/examples/typography-small.tsx"
     }
-  ]
+  ],
+  "type": "registry:file"
 }

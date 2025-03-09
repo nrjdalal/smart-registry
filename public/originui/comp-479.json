@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-479",
-  "type": "registry:component",
   "dependencies": [
     "@tanstack/react-table",
     "clsx",
@@ -41,5 +40,6 @@
       "resize"
     ],
     "colSpan": 3
-  }
+  },
+  "type": "registry:component"
 }

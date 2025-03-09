@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-230",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-dialog",
     "@radix-ui/react-label",
@@ -75,5 +74,6 @@
       "autocomplete",
       "radix"
     ]
-  }
+  },
+  "type": "registry:component"
 }

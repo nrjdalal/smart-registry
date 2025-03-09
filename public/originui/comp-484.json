@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-484",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-checkbox",
     "@radix-ui/react-select",
@@ -89,5 +88,6 @@
       "pagination"
     ],
     "colSpan": 3
-  }
+  },
+  "type": "registry:component"
 }

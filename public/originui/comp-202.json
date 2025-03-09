@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-202",
-  "type": "registry:component",
   "dependencies": [
     "clsx",
     "lucide-react",
@@ -37,5 +36,6 @@
       "select",
       "native select"
     ]
-  }
+  },
+  "type": "registry:component"
 }

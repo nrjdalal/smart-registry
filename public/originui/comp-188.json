@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-188",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
     "@radix-ui/react-switch",
@@ -47,5 +46,6 @@
       "radix"
     ],
     "style": 1
-  }
+  },
+  "type": "registry:component"
 }

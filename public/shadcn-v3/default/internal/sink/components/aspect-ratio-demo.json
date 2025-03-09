@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "default/internal/sink/components/aspect-ratio-demo",
-  "type": "registry:file",
   "dependencies": [
     "@radix-ui/react-aspect-ratio",
     "next"
@@ -19,5 +18,6 @@
       "content": "\"use client\"\n\nimport * as AspectRatioPrimitive from \"@radix-ui/react-aspect-ratio\"\n\nconst AspectRatio = AspectRatioPrimitive.Root\n\nexport { AspectRatio }\n",
       "path": "registry/default/ui/aspect-ratio.tsx"
     }
-  ]
+  ],
+  "type": "registry:file"
 }

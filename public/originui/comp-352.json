@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-352",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-accordion",
     "@radix-ui/react-collapsible",
@@ -47,5 +46,6 @@
       "radix"
     ],
     "colSpan": 2
-  }
+  },
+  "type": "registry:component"
 }

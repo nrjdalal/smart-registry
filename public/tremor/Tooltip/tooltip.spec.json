@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Tooltip/tooltip.spec",
-  "type": "registry:component",
   "dependencies": [
     "@playwright/test"
   ],
@@ -12,5 +11,6 @@
       "content": "import { expect, test } from \"@playwright/test\"\n\ntest.describe(\"Expect tooltip\", () => {\n  test(\"to render tooltip trigger\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-tooltip--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"button\", { name: \"Show tooltip\" }),\n    ).toBeVisible()\n  })\n\n  test(\"to be rendered on trigger hover\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-tooltip--default\")\n    page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByRole(\"button\", { name: \"Show tooltip\" })\n      .hover()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\n          \"Which KPIs are the most visited in your projectWhich KPIs are the most visited\",\n        ),\n    ).toBeVisible()\n  })\n})\n",
       "path": "src/components/Tooltip/tooltip.spec.ts"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

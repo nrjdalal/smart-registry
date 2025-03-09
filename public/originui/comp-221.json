@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-221",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
     "@radix-ui/react-select",
@@ -46,5 +45,6 @@
       "select",
       "radix"
     ]
-  }
+  },
+  "type": "registry:component"
 }

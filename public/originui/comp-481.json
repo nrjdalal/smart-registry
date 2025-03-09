@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-481",
-  "type": "registry:component",
   "dependencies": [
     "@dnd-kit/core",
     "@dnd-kit/modifiers",
@@ -55,5 +54,6 @@
       "drag and drop"
     ],
     "colSpan": 3
-  }
+  },
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-271",
-  "type": "registry:component",
   "dependencies": [
     "lucide-react"
   ],
@@ -19,5 +18,6 @@
       "success"
     ],
     "colSpan": 2
-  }
+  },
+  "type": "registry:component"
 }

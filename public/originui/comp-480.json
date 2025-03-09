@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-480",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-dropdown-menu",
     "@radix-ui/react-slot",
@@ -58,5 +57,6 @@
       "resize"
     ],
     "colSpan": 3
-  }
+  },
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Card/card.spec",
-  "type": "registry:component",
   "dependencies": [
     "@playwright/test"
   ],
@@ -12,5 +11,6 @@
       "content": "import { expect, test } from \"@playwright/test\"\n\ntest.describe(\"Expect card\", () => {\n  test(\"to be rendered\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-card--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .locator(\"#storybook-root div\"),\n    ).toBeVisible()\n  })\n})\n\ntest.describe(\"Expect card\", () => {\n  test(\"to inlcude text\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-card--with-text\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"heading\", { name: \"Perseverance Rover's Latest\" }),\n    ).toBeVisible()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"NASA's Perseverance Rover has\"),\n    ).toBeVisible()\n  })\n})\n\ntest.describe(\"Expect card as list item\", () => {\n  test(\"to be defined\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-card--as-child-list\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"listitem\", {\n          name: \"This card will be turned into a <li> element\",\n        }),\n    ).toBeDefined()\n  })\n})\n",
       "path": "src/components/Card/card.spec.ts"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

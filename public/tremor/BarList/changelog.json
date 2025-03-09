@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "BarList/changelog",
-  "type": "registry:component",
   "files": [
     {
       "type": "registry:component",
@@ -9,5 +8,6 @@
       "content": "# Tremor BarList Changelog\n\n## 0.1.1\n\n### Changes\n\n- Chore: Add `tremor-id`\n\n## 0.1.0\n\n### Changes\n\n- Added sortOrder: `none` option\n\n## 0.0.1\n\n### Changes\n\n- Improve spacing when bar is a button.\n- Improve padding for long labels.\n",
       "path": "src/components/BarList/changelog.md"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

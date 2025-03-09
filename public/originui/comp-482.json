@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-482",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-checkbox",
     "@radix-ui/react-slot",
@@ -67,5 +66,6 @@
       "chip"
     ],
     "colSpan": 3
-  }
+  },
+  "type": "registry:component"
 }

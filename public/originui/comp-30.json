@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-30",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
     "clsx",
@@ -44,5 +43,6 @@
       "label",
       "file"
     ]
-  }
+  },
+  "type": "registry:component"
 }

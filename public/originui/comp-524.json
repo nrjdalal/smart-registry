@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-524",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-slot",
     "clsx",
@@ -37,5 +36,6 @@
       "stepper"
     ],
     "colSpan": 3
-  }
+  },
+  "type": "registry:component"
 }

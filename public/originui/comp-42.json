@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-42",
-  "type": "registry:component",
   "dependencies": [
     "@internationalized/date",
     "clsx",
@@ -50,5 +49,6 @@
       "picker",
       "react aria"
     ]
-  }
+  },
+  "type": "registry:component"
 }

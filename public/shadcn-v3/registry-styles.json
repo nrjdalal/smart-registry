@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "registry-styles",
-  "type": "registry:file",
   "files": [
     {
       "type": "registry:file",
@@ -9,5 +8,6 @@
       "content": "export const styles = [\n  {\n    name: \"new-york\",\n    label: \"New York\",\n  },\n  {\n    name: \"default\",\n    label: \"Default\",\n  },\n] as const\n\nexport type Style = (typeof styles)[number]\n",
       "path": "registry/registry-styles.ts"
     }
-  ]
+  ],
+  "type": "registry:file"
 }

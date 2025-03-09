@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york/internal/sink/components/skeleton-demo",
-  "type": "registry:file",
   "dependencies": [
     "clsx",
     "tailwind-merge"
@@ -25,5 +24,6 @@
       "content": "import { cn } from \"@/lib/utils\"\n\nfunction Skeleton({\n  className,\n  ...props\n}: React.HTMLAttributes<HTMLDivElement>) {\n  return (\n    <div\n      className={cn(\"animate-pulse rounded-md bg-primary/10\", className)}\n      {...props}\n    />\n  )\n}\n\nexport { Skeleton }\n",
       "path": "registry/new-york/ui/skeleton.tsx"
     }
-  ]
+  ],
+  "type": "registry:file"
 }

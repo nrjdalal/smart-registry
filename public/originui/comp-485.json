@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-485",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-alert-dialog",
     "@radix-ui/react-checkbox",
@@ -124,5 +123,6 @@
       "select"
     ],
     "colSpan": 3
-  }
+  },
+  "type": "registry:component"
 }

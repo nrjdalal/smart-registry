@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-462",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-select",
     "@radix-ui/react-slot",
@@ -58,5 +57,6 @@
       "pagination"
     ],
     "colSpan": 2
-  }
+  },
+  "type": "registry:component"
 }

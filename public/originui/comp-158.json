@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-158",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-radio-group",
     "clsx",
@@ -39,5 +38,6 @@
       "picker",
       "radix"
     ]
-  }
+  },
+  "type": "registry:component"
 }

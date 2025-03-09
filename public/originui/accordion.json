@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "accordion",
-  "type": "registry:ui",
   "dependencies": [
     "@radix-ui/react-accordion",
     "clsx",
@@ -52,5 +51,6 @@
         }
       }
     }
-  }
+  },
+  "type": "registry:ui"
 }

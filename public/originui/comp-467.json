@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-467",
-  "type": "registry:component",
   "dependencies": [
     "clsx",
     "react",
@@ -37,5 +36,6 @@
       "avatar"
     ],
     "colSpan": 3
-  }
+  },
+  "type": "registry:component"
 }

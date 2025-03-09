@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-142",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-checkbox",
     "@radix-ui/react-label",
@@ -53,5 +52,6 @@
       "collapsible",
       "radix"
     ]
-  }
+  },
+  "type": "registry:component"
 }

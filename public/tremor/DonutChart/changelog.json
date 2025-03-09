@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "DonutChart/changelog",
-  "type": "registry:component",
   "files": [
     {
       "type": "registry:component",
@@ -9,5 +8,6 @@
       "content": "# Tremor DonutChart Changelog\n\n## 0.0.1\n\n### Changes\n\n- Chore: Add `tremor-id`\n",
       "path": "src/components/DonutChart/changelog.md"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-47",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
     "clsx",
@@ -52,5 +51,6 @@
       "credit card",
       "form"
     ]
-  }
+  },
+  "type": "registry:component"
 }

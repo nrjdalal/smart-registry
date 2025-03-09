@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-135",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-checkbox",
     "@radix-ui/react-label",
@@ -46,5 +45,6 @@
       "disabled",
       "radix"
     ]
-  }
+  },
+  "type": "registry:component"
 }

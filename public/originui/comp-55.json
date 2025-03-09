@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-55",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
     "clsx",
@@ -46,5 +45,6 @@
       "mask",
       "time"
     ]
-  }
+  },
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "registry-hooks",
-  "type": "registry:file",
   "dependencies": [
     "shadcn"
   ],
@@ -12,5 +11,6 @@
       "content": "import { type Registry } from \"shadcn/registry\"\n\nexport const hooks: Registry[\"items\"] = [\n  {\n    name: \"use-mobile\",\n    type: \"registry:hook\",\n    files: [\n      {\n        path: \"hooks/use-mobile.tsx\",\n        type: \"registry:hook\",\n      },\n    ],\n  },\n  {\n    name: \"use-toast\",\n    type: \"registry:hook\",\n    files: [\n      {\n        path: \"hooks/use-toast.ts\",\n        type: \"registry:hook\",\n      },\n    ],\n  },\n]\n",
       "path": "registry/registry-hooks.ts"
     }
-  ]
+  ],
+  "type": "registry:file"
 }

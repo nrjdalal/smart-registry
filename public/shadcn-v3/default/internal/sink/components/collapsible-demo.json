@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "default/internal/sink/components/collapsible-demo",
-  "type": "registry:file",
   "dependencies": [
     "@radix-ui/react-collapsible",
     "@radix-ui/react-slot",
@@ -36,5 +35,6 @@
       "content": "\"use client\"\n\nimport * as CollapsiblePrimitive from \"@radix-ui/react-collapsible\"\n\nconst Collapsible = CollapsiblePrimitive.Root\n\nconst CollapsibleTrigger = CollapsiblePrimitive.CollapsibleTrigger\n\nconst CollapsibleContent = CollapsiblePrimitive.CollapsibleContent\n\nexport { Collapsible, CollapsibleTrigger, CollapsibleContent }\n",
       "path": "registry/default/ui/collapsible.tsx"
     }
-  ]
+  ],
+  "type": "registry:file"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Switch/switch.spec",
-  "type": "registry:component",
   "dependencies": [
     "@playwright/test"
   ],
@@ -12,5 +11,6 @@
       "content": "import { expect, test } from \"@playwright/test\"\n\ntest.describe(\"Expect switch default\", () => {\n  test(\"to be rendered\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-switch--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"switch\"),\n    ).toBeVisible()\n  })\n})\n\ntest.describe(\"Expect switch default\", () => {\n  test(\"to be checkable\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-switch--default\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"switch\"),\n    ).toBeVisible()\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByRole(\"switch\")\n      .click()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"switch\"),\n    ).toBeChecked()\n  })\n})\n\ntest.describe(\"Expect switch disabled\", () => {\n  test(\"to be disabled\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-switch--disabled\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByRole(\"switch\"),\n    ).toBeDisabled()\n  })\n})\n\ntest.describe(\"Expect switch with label\", () => {\n  test(\"to be checkable\", async ({ page }) => {\n    await page.goto(\"http://localhost:6006/?path=/story/ui-switch--with-label\")\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Click this Label check the\"),\n    ).toBeVisible()\n    await page\n      .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n      .getByText(\"Click this Label check the\")\n      .click()\n    await expect(\n      page\n        .frameLocator('iframe[title=\"storybook-preview-iframe\"]')\n        .getByText(\"Click this Label check the\"),\n    ).toBeChecked()\n  })\n})\n",
       "path": "src/components/Switch/switch.spec.ts"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

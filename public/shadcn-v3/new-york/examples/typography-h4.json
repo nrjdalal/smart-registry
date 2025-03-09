@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york/examples/typography-h4",
-  "type": "registry:file",
   "files": [
     {
       "type": "registry:file",
@@ -9,5 +8,6 @@
       "content": "export default function TypographyH4() {\n  return (\n    <h4 className=\"scroll-m-20 text-xl font-semibold tracking-tight\">\n      People stopped telling jokes\n    </h4>\n  )\n}\n",
       "path": "registry/new-york/examples/typography-h4.tsx"
     }
-  ]
+  ],
+  "type": "registry:file"
 }

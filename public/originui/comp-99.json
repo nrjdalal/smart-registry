@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-99",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-slot",
     "@radix-ui/react-tooltip",
@@ -47,5 +46,6 @@
       "tooltip"
     ],
     "style": 2
-  }
+  },
+  "type": "registry:component"
 }

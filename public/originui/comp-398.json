@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-398",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-avatar",
     "@radix-ui/react-slot",
@@ -49,5 +48,6 @@
       "chip"
     ],
     "style": 1
-  }
+  },
+  "type": "registry:component"
 }

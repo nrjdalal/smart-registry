@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "getYAxisDomain",
-  "type": "registry:lib",
   "files": [
     {
       "type": "registry:lib",
@@ -9,5 +8,6 @@
       "content": "// Tremor getYAxisDomain [v0.0.0]\n\nexport const getYAxisDomain = (\n  autoMinValue: boolean,\n  minValue: number | undefined,\n  maxValue: number | undefined,\n) => {\n  const minDomain = autoMinValue ? \"auto\" : (minValue ?? 0)\n  const maxDomain = maxValue ?? \"auto\"\n  return [minDomain, maxDomain]\n}\n",
       "path": "src/utils/getYAxisDomain.ts"
     }
-  ]
+  ],
+  "type": "registry:lib"
 }

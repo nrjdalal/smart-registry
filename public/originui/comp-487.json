@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-487",
-  "type": "registry:component",
   "dependencies": [
     "@internationalized/date",
     "clsx",
@@ -40,5 +39,6 @@
       "react aria"
     ],
     "style": 1
-  }
+  },
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-376",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-dropdown-menu",
     "@radix-ui/react-slot",
@@ -50,5 +49,6 @@
       "radix"
     ],
     "style": 1
-  }
+  },
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york/examples/typography-inline-code",
-  "type": "registry:file",
   "files": [
     {
       "type": "registry:file",
@@ -9,5 +8,6 @@
       "content": "export default function TypographyInlineCode() {\n  return (\n    <code className=\"relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold\">\n      @radix-ui/react-alert-dialog\n    </code>\n  )\n}\n",
       "path": "registry/new-york/examples/typography-inline-code.tsx"
     }
-  ]
+  ],
+  "type": "registry:file"
 }

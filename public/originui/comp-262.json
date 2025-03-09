@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-262",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
     "@radix-ui/react-slider",
@@ -67,5 +66,6 @@
       "input",
       "radix"
     ]
-  }
+  },
+  "type": "registry:component"
 }

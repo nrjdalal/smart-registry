@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "BarChart/BarChart",
-  "type": "registry:component",
   "dependencies": [
     "@remixicon/react",
     "clsx",
@@ -40,5 +39,6 @@
       "content": "// Tremor useOnWindowResize [v0.0.0]\n\nimport * as React from \"react\"\n\nexport const useOnWindowResize = (handler: { (): void }) => {\n  React.useEffect(() => {\n    const handleResize = () => {\n      handler()\n    }\n    handleResize()\n    window.addEventListener(\"resize\", handleResize)\n\n    return () => window.removeEventListener(\"resize\", handleResize)\n  }, [handler])\n}\n",
       "path": "src/hooks/useOnWindowResize.ts"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

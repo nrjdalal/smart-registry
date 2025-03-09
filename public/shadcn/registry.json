@@ -5,7 +5,6 @@
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/accordion",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-accordion",
         "clsx",
@@ -24,12 +23,12 @@
           "target": "components/ui/new-york-v4/accordion.tsx",
           "path": "registry/new-york-v4/ui/accordion.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/alert",
-      "type": "registry:ui",
       "dependencies": [
         "class-variance-authority",
         "clsx",
@@ -47,12 +46,12 @@
           "target": "components/ui/new-york-v4/alert.tsx",
           "path": "registry/new-york-v4/ui/alert.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/alert-dialog",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-alert-dialog",
         "@radix-ui/react-slot",
@@ -77,12 +76,12 @@
           "target": "components/ui/new-york-v4/button.tsx",
           "path": "registry/new-york-v4/ui/button.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/aspect-ratio",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-aspect-ratio"
       ],
@@ -92,12 +91,12 @@
           "target": "components/ui/new-york-v4/aspect-ratio.tsx",
           "path": "registry/new-york-v4/ui/aspect-ratio.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/avatar",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-avatar",
         "clsx",
@@ -115,12 +114,12 @@
           "target": "components/ui/new-york-v4/avatar.tsx",
           "path": "registry/new-york-v4/ui/avatar.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/badge",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
@@ -139,12 +138,12 @@
           "target": "components/ui/new-york-v4/badge.tsx",
           "path": "registry/new-york-v4/ui/badge.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/breadcrumb",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
         "clsx",
@@ -163,12 +162,12 @@
           "target": "components/ui/new-york-v4/breadcrumb.tsx",
           "path": "registry/new-york-v4/ui/breadcrumb.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/button",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
@@ -187,12 +186,12 @@
           "target": "components/ui/new-york-v4/button.tsx",
           "path": "registry/new-york-v4/ui/button.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/calendar",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
@@ -218,12 +217,12 @@
           "target": "components/ui/new-york-v4/calendar.tsx",
           "path": "registry/new-york-v4/ui/calendar.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/card",
-      "type": "registry:ui",
       "dependencies": [
         "clsx",
         "react",
@@ -240,12 +239,12 @@
           "target": "components/ui/new-york-v4/card.tsx",
           "path": "registry/new-york-v4/ui/card.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/carousel",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
@@ -271,12 +270,12 @@
           "target": "components/ui/new-york-v4/carousel.tsx",
           "path": "registry/new-york-v4/ui/carousel.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/chart",
-      "type": "registry:ui",
       "dependencies": [
         "clsx",
         "react",
@@ -294,12 +293,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/checkbox",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-checkbox",
         "clsx",
@@ -318,12 +317,12 @@
           "target": "components/ui/new-york-v4/checkbox.tsx",
           "path": "registry/new-york-v4/ui/checkbox.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/collapsible",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-collapsible"
       ],
@@ -333,12 +332,12 @@
           "target": "components/ui/new-york-v4/collapsible.tsx",
           "path": "registry/new-york-v4/ui/collapsible.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/command",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-dialog",
         "clsx",
@@ -363,12 +362,12 @@
           "target": "components/ui/new-york-v4/dialog.tsx",
           "path": "registry/new-york-v4/ui/dialog.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/context-menu",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-context-menu",
         "clsx",
@@ -387,12 +386,12 @@
           "target": "components/ui/new-york-v4/context-menu.tsx",
           "path": "registry/new-york-v4/ui/context-menu.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/dialog",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-dialog",
         "clsx",
@@ -411,12 +410,12 @@
           "target": "components/ui/new-york-v4/dialog.tsx",
           "path": "registry/new-york-v4/ui/dialog.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/drawer",
-      "type": "registry:ui",
       "dependencies": [
         "clsx",
         "react",
@@ -434,12 +433,12 @@
           "target": "components/ui/new-york-v4/drawer.tsx",
           "path": "registry/new-york-v4/ui/drawer.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/dropdown-menu",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-dropdown-menu",
         "clsx",
@@ -458,12 +457,12 @@
           "target": "components/ui/new-york-v4/dropdown-menu.tsx",
           "path": "registry/new-york-v4/ui/dropdown-menu.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/form",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
@@ -488,12 +487,12 @@
           "target": "components/ui/new-york-v4/label.tsx",
           "path": "registry/new-york-v4/ui/label.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/hover-card",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-hover-card",
         "clsx",
@@ -511,12 +510,12 @@
           "target": "components/ui/new-york-v4/hover-card.tsx",
           "path": "registry/new-york-v4/ui/hover-card.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/input",
-      "type": "registry:ui",
       "dependencies": [
         "clsx",
         "react",
@@ -533,12 +532,12 @@
           "target": "components/ui/new-york-v4/input.tsx",
           "path": "registry/new-york-v4/ui/input.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/input-otp",
-      "type": "registry:ui",
       "dependencies": [
         "clsx",
         "input-otp",
@@ -557,12 +556,12 @@
           "target": "components/ui/new-york-v4/input-otp.tsx",
           "path": "registry/new-york-v4/ui/input-otp.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/label",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-label",
         "clsx",
@@ -580,12 +579,12 @@
           "target": "components/ui/new-york-v4/label.tsx",
           "path": "registry/new-york-v4/ui/label.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/menubar",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-menubar",
         "clsx",
@@ -604,12 +603,12 @@
           "target": "components/ui/new-york-v4/menubar.tsx",
           "path": "registry/new-york-v4/ui/menubar.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/navigation-menu",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-navigation-menu",
         "class-variance-authority",
@@ -629,12 +628,12 @@
           "target": "components/ui/new-york-v4/navigation-menu.tsx",
           "path": "registry/new-york-v4/ui/navigation-menu.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/pagination",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
@@ -659,12 +658,12 @@
           "target": "components/ui/new-york-v4/pagination.tsx",
           "path": "registry/new-york-v4/ui/pagination.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/popover",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-popover",
         "clsx",
@@ -682,12 +681,12 @@
           "target": "components/ui/new-york-v4/popover.tsx",
           "path": "registry/new-york-v4/ui/popover.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/progress",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-progress",
         "clsx",
@@ -705,12 +704,12 @@
           "target": "components/ui/new-york-v4/progress.tsx",
           "path": "registry/new-york-v4/ui/progress.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/radio-group",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-radio-group",
         "clsx",
@@ -729,12 +728,12 @@
           "target": "components/ui/new-york-v4/radio-group.tsx",
           "path": "registry/new-york-v4/ui/radio-group.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/resizable",
-      "type": "registry:ui",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -753,12 +752,12 @@
           "target": "components/ui/new-york-v4/resizable.tsx",
           "path": "registry/new-york-v4/ui/resizable.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/scroll-area",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-scroll-area",
         "clsx",
@@ -776,12 +775,12 @@
           "target": "components/ui/new-york-v4/scroll-area.tsx",
           "path": "registry/new-york-v4/ui/scroll-area.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/select",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-select",
         "clsx",
@@ -800,12 +799,12 @@
           "target": "components/ui/new-york-v4/select.tsx",
           "path": "registry/new-york-v4/ui/select.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/separator",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-separator",
         "clsx",
@@ -823,12 +822,12 @@
           "target": "components/ui/new-york-v4/separator.tsx",
           "path": "registry/new-york-v4/ui/separator.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sheet",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-dialog",
         "clsx",
@@ -847,12 +846,12 @@
           "target": "components/ui/new-york-v4/sheet.tsx",
           "path": "registry/new-york-v4/ui/sheet.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -915,12 +914,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/skeleton",
-      "type": "registry:ui",
       "dependencies": [
         "clsx",
         "tailwind-merge"
@@ -936,12 +935,12 @@
           "target": "components/ui/new-york-v4/skeleton.tsx",
           "path": "registry/new-york-v4/ui/skeleton.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/slider",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slider",
         "clsx",
@@ -959,12 +958,12 @@
           "target": "components/ui/new-york-v4/slider.tsx",
           "path": "registry/new-york-v4/ui/slider.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sonner",
-      "type": "registry:ui",
       "dependencies": [
         "next-themes",
         "sonner"
@@ -975,12 +974,12 @@
           "target": "components/ui/new-york-v4/sonner.tsx",
           "path": "registry/new-york-v4/ui/sonner.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/switch",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-switch",
         "clsx",
@@ -998,12 +997,12 @@
           "target": "components/ui/new-york-v4/switch.tsx",
           "path": "registry/new-york-v4/ui/switch.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/table",
-      "type": "registry:ui",
       "dependencies": [
         "clsx",
         "react",
@@ -1020,12 +1019,12 @@
           "target": "components/ui/new-york-v4/table.tsx",
           "path": "registry/new-york-v4/ui/table.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/tabs",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-tabs",
         "clsx",
@@ -1043,12 +1042,12 @@
           "target": "components/ui/new-york-v4/tabs.tsx",
           "path": "registry/new-york-v4/ui/tabs.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/textarea",
-      "type": "registry:ui",
       "dependencies": [
         "clsx",
         "react",
@@ -1065,12 +1064,12 @@
           "target": "components/ui/new-york-v4/textarea.tsx",
           "path": "registry/new-york-v4/ui/textarea.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/toggle",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-toggle",
         "class-variance-authority",
@@ -1089,12 +1088,12 @@
           "target": "components/ui/new-york-v4/toggle.tsx",
           "path": "registry/new-york-v4/ui/toggle.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/toggle-group",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-toggle",
         "@radix-ui/react-toggle-group",
@@ -1119,12 +1118,12 @@
           "target": "components/ui/new-york-v4/toggle.tsx",
           "path": "registry/new-york-v4/ui/toggle.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/tooltip",
-      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-tooltip",
         "clsx",
@@ -1142,12 +1141,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/use-mobile",
-      "type": "registry:hook",
       "dependencies": [
         "react"
       ],
@@ -1157,12 +1156,12 @@
           "target": "hooks/new-york-v4/use-mobile.ts",
           "path": "registry/new-york-v4/hooks/use-mobile.ts"
         }
-      ]
+      ],
+      "type": "registry:hook"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/utils",
-      "type": "registry:lib",
       "dependencies": [
         "clsx",
         "tailwind-merge"
@@ -1173,12 +1172,12 @@
           "target": "lib/new-york-v4/utils.ts",
           "path": "registry/new-york-v4/lib/utils.ts"
         }
-      ]
+      ],
+      "type": "registry:lib"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/login-01/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
@@ -1228,12 +1227,12 @@
           "target": "components/ui/new-york-v4/label.tsx",
           "path": "registry/new-york-v4/ui/label.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/login-02/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
@@ -1279,12 +1278,12 @@
           "target": "components/ui/new-york-v4/label.tsx",
           "path": "registry/new-york-v4/ui/label.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/login-03/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
@@ -1335,12 +1334,12 @@
           "target": "components/ui/new-york-v4/label.tsx",
           "path": "registry/new-york-v4/ui/label.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/login-04/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
@@ -1390,12 +1389,12 @@
           "target": "components/ui/new-york-v4/label.tsx",
           "path": "registry/new-york-v4/ui/label.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/login-05/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
@@ -1441,12 +1440,12 @@
           "target": "components/ui/new-york-v4/label.tsx",
           "path": "registry/new-york-v4/ui/label.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/products-01/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-dropdown-menu",
@@ -1515,12 +1514,12 @@
           "target": "components/ui/new-york-v4/tabs.tsx",
           "path": "registry/new-york-v4/ui/tabs.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-01/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -1620,12 +1619,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-02/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -1731,12 +1730,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-03/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -1814,12 +1813,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-04/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -1897,12 +1896,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-05/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -1997,12 +1996,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-06/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -2101,12 +2100,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-07/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-collapsible",
@@ -2222,12 +2221,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-08/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-collapsible",
@@ -2343,12 +2342,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-09/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-dialog",
@@ -2455,12 +2454,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-10/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -2586,12 +2585,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-11/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -2675,12 +2674,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-12/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-collapsible",
@@ -2797,12 +2796,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-13/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -2885,12 +2884,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-14/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -2968,12 +2967,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-15/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-collapsible",
@@ -3120,12 +3119,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-16/page",
-      "type": "registry:page",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-collapsible",
@@ -3257,12 +3256,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:page"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-area-axes",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3291,12 +3290,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-area-default",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3325,12 +3324,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-area-gradient",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3359,12 +3358,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-area-icons",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3393,12 +3392,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-area-interactive",
-      "type": "registry:file",
       "dependencies": [
         "@radix-ui/react-select",
         "clsx",
@@ -3433,12 +3432,12 @@
           "target": "components/ui/new-york-v4/select.tsx",
           "path": "registry/new-york-v4/ui/select.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-area-legend",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3467,12 +3466,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-area-linear",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3501,12 +3500,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-area-stacked",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3535,12 +3534,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-area-stacked-expand",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3569,12 +3568,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-area-step",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3603,12 +3602,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-bar-active",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3637,12 +3636,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-bar-default",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3671,12 +3670,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-bar-horizontal",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3705,12 +3704,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-bar-interactive",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "react",
@@ -3738,12 +3737,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-bar-label",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3772,12 +3771,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-bar-label-custom",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3806,12 +3805,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-bar-mixed",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3840,12 +3839,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-bar-multiple",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3874,12 +3873,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-bar-negative",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3908,12 +3907,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-bar-stacked",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3942,12 +3941,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-line-default",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -3976,12 +3975,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-line-dots",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4010,12 +4009,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-line-dots-colors",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4044,12 +4043,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-line-dots-custom",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4078,12 +4077,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-line-interactive",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "react",
@@ -4111,12 +4110,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-line-label",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4145,12 +4144,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-line-label-custom",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4179,12 +4178,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-line-linear",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4213,12 +4212,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-line-multiple",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4247,12 +4246,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-line-step",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4281,12 +4280,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-pie-donut",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4315,12 +4314,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-pie-donut-active",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4349,12 +4348,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-pie-donut-text",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4383,12 +4382,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-pie-interactive",
-      "type": "registry:file",
       "dependencies": [
         "@radix-ui/react-select",
         "clsx",
@@ -4423,12 +4422,12 @@
           "target": "components/ui/new-york-v4/select.tsx",
           "path": "registry/new-york-v4/ui/select.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-pie-label",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4457,12 +4456,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-pie-label-custom",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4491,12 +4490,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-pie-label-list",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4525,12 +4524,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-pie-legend",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "react",
@@ -4558,12 +4557,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-pie-separator-none",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4592,12 +4591,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-pie-simple",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4626,12 +4625,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-pie-stacked",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4660,12 +4659,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radar-default",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4694,12 +4693,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radar-dots",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4728,12 +4727,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radar-grid-circle",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4762,12 +4761,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radar-grid-circle-fill",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4796,12 +4795,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radar-grid-circle-no-lines",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4830,12 +4829,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radar-grid-custom",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4864,12 +4863,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radar-grid-fill",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4898,12 +4897,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radar-grid-none",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4932,12 +4931,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radar-icons",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -4966,12 +4965,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radar-label-custom",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5000,12 +4999,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radar-legend",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5034,12 +5033,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radar-lines-only",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5068,12 +5067,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radar-multiple",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5102,12 +5101,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radar-radius",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5136,12 +5135,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radial-grid",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5170,12 +5169,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radial-label",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5204,12 +5203,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radial-shape",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5238,12 +5237,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radial-simple",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5272,12 +5271,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radial-stacked",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5306,12 +5305,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-radial-text",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5340,12 +5339,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-tooltip-advanced",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "react",
@@ -5373,12 +5372,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-tooltip-default",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "react",
@@ -5406,12 +5405,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-tooltip-formatter",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "react",
@@ -5439,12 +5438,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-tooltip-icons",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -5473,12 +5472,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-tooltip-indicator-line",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "react",
@@ -5506,12 +5505,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-tooltip-indicator-none",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "react",
@@ -5539,12 +5538,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-tooltip-label-custom",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "react",
@@ -5572,12 +5571,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-tooltip-label-formatter",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "react",
@@ -5605,12 +5604,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/charts/chart-tooltip-label-none",
-      "type": "registry:file",
       "dependencies": [
         "clsx",
         "react",
@@ -5638,12 +5637,12 @@
           "target": "components/ui/new-york-v4/chart.tsx",
           "path": "registry/new-york-v4/ui/chart.tsx"
         }
-      ]
+      ],
+      "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/login-01/components/login-form",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
@@ -5688,12 +5687,12 @@
           "target": "components/ui/new-york-v4/label.tsx",
           "path": "registry/new-york-v4/ui/label.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/login-02/components/login-form",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
@@ -5733,12 +5732,12 @@
           "target": "components/ui/new-york-v4/label.tsx",
           "path": "registry/new-york-v4/ui/label.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/login-03/components/login-form",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
@@ -5783,12 +5782,12 @@
           "target": "components/ui/new-york-v4/label.tsx",
           "path": "registry/new-york-v4/ui/label.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/login-04/components/login-form",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
@@ -5833,12 +5832,12 @@
           "target": "components/ui/new-york-v4/label.tsx",
           "path": "registry/new-york-v4/ui/label.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/login-05/components/login-form",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
@@ -5879,12 +5878,12 @@
           "target": "components/ui/new-york-v4/label.tsx",
           "path": "registry/new-york-v4/ui/label.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/products-01/components/products-table",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-dropdown-menu",
@@ -5948,12 +5947,12 @@
           "target": "components/ui/new-york-v4/tabs.tsx",
           "path": "registry/new-york-v4/ui/tabs.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-01/components/app-sidebar",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -6043,12 +6042,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-01/components/search-form",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-label",
@@ -6122,12 +6121,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-01/components/version-switcher",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -6201,12 +6200,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-02/components/app-sidebar",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -6302,12 +6301,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-02/components/search-form",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-label",
@@ -6381,12 +6380,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-02/components/version-switcher",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -6460,12 +6459,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-03/components/app-sidebar",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -6533,12 +6532,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-04/components/app-sidebar",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -6606,12 +6605,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-05/components/app-sidebar",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -6696,12 +6695,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-05/components/search-form",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-label",
@@ -6775,12 +6774,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-06/components/app-sidebar",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -6869,12 +6868,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-06/components/nav-main",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -6948,12 +6947,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-06/components/sidebar-opt-in-form",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -7026,12 +7025,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-07/components/app-sidebar",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-collapsible",
@@ -7137,12 +7136,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-07/components/nav-main",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -7216,12 +7215,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-07/components/nav-projects",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -7295,12 +7294,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-07/components/nav-user",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-dialog",
@@ -7380,12 +7379,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-07/components/team-switcher",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -7459,12 +7458,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-08/components/app-sidebar",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-collapsible",
@@ -7570,12 +7569,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-08/components/nav-main",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -7649,12 +7648,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-08/components/nav-projects",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -7728,12 +7727,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-08/components/nav-secondary",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -7801,12 +7800,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-08/components/nav-user",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-dialog",
@@ -7886,12 +7885,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-09/components/app-sidebar",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-dialog",
@@ -7988,12 +7987,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-09/components/nav-user",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-dialog",
@@ -8073,12 +8072,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-10/components/app-sidebar",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -8183,12 +8182,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-10/components/nav-actions",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-popover",
@@ -8262,12 +8261,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-10/components/nav-favorites",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -8341,12 +8340,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-10/components/nav-main",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -8414,12 +8413,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-10/components/nav-secondary",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -8487,12 +8486,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-10/components/nav-workspaces",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -8566,12 +8565,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-10/components/team-switcher",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -8645,12 +8644,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-11/components/app-sidebar",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -8724,12 +8723,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-12/components/app-sidebar",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-collapsible",
@@ -8836,12 +8835,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-12/components/calendars",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -8915,12 +8914,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-12/components/date-picker",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -8994,12 +8993,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-12/components/nav-user",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-dialog",
@@ -9079,12 +9078,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-13/components/settings-dialog",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -9162,12 +9161,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-14/components/app-sidebar",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -9235,12 +9234,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-15/components/calendars",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -9314,12 +9313,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-15/components/date-picker",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -9393,12 +9392,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-15/components/nav-favorites",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -9472,12 +9471,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-15/components/nav-main",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -9545,12 +9544,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-15/components/nav-secondary",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -9618,12 +9617,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-15/components/nav-user",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-dialog",
@@ -9703,12 +9702,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-15/components/nav-workspaces",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -9782,12 +9781,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-15/components/sidebar-left",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -9892,12 +9891,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-15/components/sidebar-right",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-collapsible",
@@ -10004,12 +10003,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-15/components/team-switcher",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -10083,12 +10082,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-16/components/app-sidebar",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-collapsible",
@@ -10194,12 +10193,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-16/components/nav-main",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-collapsible",
         "@radix-ui/react-dialog",
@@ -10273,12 +10272,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-16/components/nav-projects",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-dropdown-menu",
@@ -10352,12 +10351,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-16/components/nav-secondary",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-separator",
@@ -10425,12 +10424,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-16/components/nav-user",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-dialog",
@@ -10510,12 +10509,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-16/components/search-form",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-label",
@@ -10589,12 +10588,12 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4/sidebar-16/components/site-header",
-      "type": "registry:block",
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-label",
@@ -10678,7 +10677,8 @@
           "target": "components/ui/new-york-v4/tooltip.tsx",
           "path": "registry/new-york-v4/ui/tooltip.tsx"
         }
-      ]
+      ],
+      "type": "registry:block"
     }
   ]
 }

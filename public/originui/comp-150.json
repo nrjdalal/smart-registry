@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-150",
-  "type": "registry:component",
   "dependencies": [
     "lucide-react",
     "react"
@@ -22,5 +21,6 @@
       "darkmode",
       "radix"
     ]
-  }
+  },
+  "type": "registry:component"
 }

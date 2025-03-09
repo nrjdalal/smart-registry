@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-163",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-radio-group",
     "@remixicon/react",
@@ -41,5 +40,6 @@
       "payment",
       "radix"
     ]
-  }
+  },
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-73",
-  "type": "registry:component",
   "dependencies": [
     "react"
   ],
@@ -18,5 +17,6 @@
       "label",
       "textarea"
     ]
-  }
+  },
+  "type": "registry:component"
 }

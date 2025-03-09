@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-326",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-checkbox",
     "@radix-ui/react-dialog",
@@ -74,5 +73,6 @@
       "radix"
     ],
     "style": 1
-  }
+  },
+  "type": "registry:component"
 }

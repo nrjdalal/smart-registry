@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-504",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-collapsible",
     "@radix-ui/react-scroll-area",
@@ -67,5 +66,6 @@
       "radix"
     ],
     "style": 1
-  }
+  },
+  "type": "registry:component"
 }

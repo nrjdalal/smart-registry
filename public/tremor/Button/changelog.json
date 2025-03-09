@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "Button/changelog",
-  "type": "registry:component",
   "files": [
     {
       "type": "registry:component",
@@ -9,5 +8,6 @@
       "content": "# Tremor Button Changelog\n\n## 0.2.0\n\n### Changes\n\n- Feat: Update base color\n\n## 0.1.2\n\n### Changes\n\n- Chore: Add `tremor-id`\n\n## 0.1.1\n\n### Changes\n\n- Fix: Default height\n- Fix: Display name\n\n## 0.1.0\n\n### Changes\n\n- Feat: Ghost variant\n",
       "path": "src/components/Button/changelog.md"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

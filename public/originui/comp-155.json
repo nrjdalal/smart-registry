@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comp-155",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
     "@radix-ui/react-radio-group",
@@ -45,5 +44,6 @@
       "label",
       "radix"
     ]
-  }
+  },
+  "type": "registry:component"
 }

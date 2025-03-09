@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "LineChart/linechart.stories",
-  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
     "@radix-ui/react-switch",
@@ -74,5 +73,6 @@
       "content": "// Tremor useOnWindowResize [v0.0.0]\n\nimport * as React from \"react\"\n\nexport const useOnWindowResize = (handler: { (): void }) => {\n  React.useEffect(() => {\n    const handleResize = () => {\n      handler()\n    }\n    handleResize()\n    window.addEventListener(\"resize\", handleResize)\n\n    return () => window.removeEventListener(\"resize\", handleResize)\n  }, [handler])\n}\n",
       "path": "src/hooks/useOnWindowResize.ts"
     }
-  ]
+  ],
+  "type": "registry:component"
 }
