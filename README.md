@@ -101,6 +101,8 @@ If your project contains a `registry`, `components`, or `src/components` directo
 npx smart-registry
 ```
 
+![Demo Originui](https://github.com/user-attachments/assets/4f288629-5fc5-402c-a168-d4250d34ae92)
+
 ### Advanced Usage
 
 You can customize the output directory, working directory, and provide files or directories to build the registry from.
