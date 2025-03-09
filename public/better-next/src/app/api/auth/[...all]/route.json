@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "src/lib/auth/index",
+  "name": "src/app/api/auth/[...all]/route",
   "type": "registry:file",
   "dependencies": [
     "better-auth",
@@ -8,6 +8,12 @@
     "postgres"
   ],
   "files": [
+    {
+      "type": "registry:file",
+      "target": "src/app/api/auth/[...all]/route.ts",
+      "content": "import { auth } from \"@/lib/auth\"\nimport { toNextJsHandler } from \"better-auth/next-js\"\n\nexport const { GET, POST } = toNextJsHandler(auth.handler)\n",
+      "path": "src/app/api/auth/[...all]/route.ts"
+    },
     {
       "type": "registry:file",
       "target": "src/db/index.ts",

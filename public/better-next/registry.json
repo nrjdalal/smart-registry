@@ -5,43 +5,7 @@
   "items": [
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "src/components/auth",
-      "type": "registry:file",
-      "dependencies": [
-        "better-auth",
-        "next"
-      ],
-      "files": [
-        {
-          "type": "registry:file",
-          "target": "src/components/auth.tsx",
-          "path": "src/components/auth.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "src/lib/auth/client.ts",
-          "path": "src/lib/auth/client.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "src/lib/auth/client",
-      "type": "registry:file",
-      "dependencies": [
-        "better-auth"
-      ],
-      "files": [
-        {
-          "type": "registry:file",
-          "target": "src/lib/auth/client.ts",
-          "path": "src/lib/auth/client.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "src/lib/auth/index",
+      "name": "src/app/api/auth/[...all]/route",
       "type": "registry:file",
       "dependencies": [
         "better-auth",
@@ -49,6 +13,11 @@
         "postgres"
       ],
       "files": [
+        {
+          "type": "registry:file",
+          "target": "src/app/api/auth/[...all]/route.ts",
+          "path": "src/app/api/auth/[...all]/route.ts"
+        },
         {
           "type": "registry:file",
           "target": "src/db/index.ts",
