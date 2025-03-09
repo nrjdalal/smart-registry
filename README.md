@@ -5,9 +5,9 @@
 [![npm](https://img.shields.io/npm/dt/smart-registry?color=red&logo=npm)](https://www.npmjs.com/package/smart-registry)
 [![GitHub](https://img.shields.io/github/stars/nrjdalal/smart-registry?color=blue)](https://github.com/nrjdalal/smart-registry)
 
-A `zero-configuration` (no registry.json required), [shadcn add](https://ui.shadcn.com/docs/cli#add) / [open in v0](https://ui.shadcn.com/docs/registry/open-in-v0) compatible registry builder. With amazing visual feedback like how many dependencies, files are being added to a component and much more.
+A `zero-configuration` (no registry.json required), [shadcn add](https://ui.shadcn.com/docs/cli#add) / [open in v0](https://ui.shadcn.com/docs/registry/open-in-v0) compatible registry builder. With amazing visual feedback like how many dependencies and files are being added to a file/component and much more.
 
-> The best configuration is no configuration. Focus on developing building blocks, components, pages and much more rather than spending time configuring the registry.
+> The best configuration is no configuration. Focus on developing building blocks, components, pages, etc rather than spending time configuring the registry.
 
 ![Demo Originui](https://github.com/user-attachments/assets/4f288629-5fc5-402c-a168-d4250d34ae92)
 
@@ -38,7 +38,7 @@ Simplify your `registry.json` by removing properties like `registryDependencies`
 }
 ```
 
-Or delete the `registry.json` file entirely. No changes will be made to the generated `public/r/dialog.json` file. Smart right?
+Or delete the `registry.json` file entirely. No changes will be made to the generated `public/r/dialog.json` file. Smart, right?
 
 ```bash
 rm registry.json
@@ -88,16 +88,16 @@ Manual maintenance of `registry.json` files can lead to errors due to missing de
   - [Advanced Usage](#advanced-usage)
 - [How it Works](#how-it-works)
 - [Extending Properties](#extending-properties)
-  - [With zero-configuration](#with-zero-configuration)
-  - [Add custom properties](#add-custom-properties)
-  - [Additional files to include](#additional-files-to-include)
-  - [External registry dependencies](#external-registry-dependencies)
-  - [Specify dependency version](#specify-dependency-version)
+  - [With Zero-Configuration](#with-zero-configuration)
+  - [Add Custom Properties](#add-custom-properties)
+  - [Additional Files to Include](#additional-files-to-include)
+  - [External Registry Dependencies](#external-registry-dependencies)
+  - [Specify Dependency Version](#specify-dependency-version)
 - [Directory Structure](#directory-structure)
-  - [For `registry` directory](#for-registry-directory)
-  - [For `registry` directory with multiple registries](#for-registry-directory-with-multiple-registries)
-  - [For `components` directory](#for-components-directory)
-  - [For `components` directory with multiple registries](#for-components-directory-with-multiple-registries)
+  - [For `registry` Directory](#for-registry-directory)
+  - [For `registry` Directory with Multiple Registries](#for-registry-directory-with-multiple-registries)
+  - [For `components` Directory](#for-components-directory)
+  - [For `components` Directory with Multiple Registries](#for-components-directory-with-multiple-registries)
 
 ## Usage
 
@@ -113,7 +113,7 @@ Yeah, that's it! You don't need to do anything else. `Smart Registry` has the wo
 
 ### Advanced Usage
 
-You can customize the output directory, working directory, and provide files or directories to build the registry from.
+If you want, you can customize the output directory, working directory, and provide files or directories to build the registry from.
 
 ```plaintext
 Version:
@@ -135,13 +135,13 @@ Author:
   ${author.name} <${author.email}> (${author.url})
 ```
 
-e.g. To generate the registry in the `json` directory from some file and directory at the working directory (`apps/www`).
+e.g. to generate the registry in the `json` directory from some file and directory at the working directory (`apps/www`).
 
 ```bash
 npx smart-registry path/to/file.ext path/to/directory ... --output json --cwd apps/www
 ```
 
-- cwd is useful when working with monorepos or multiple projects.
+- `cwd` is useful when working with monorepos or multiple projects.
 
 ## How it Works
 
@@ -159,7 +159,7 @@ registry/
 
 1. `Smart Registry` will scan the `registry` directory and its sub-directories to find all the files (if no `registry` directory is found, it will scan the `components` or `src/components` directory).
 2. For each file, it will generate a `<registry-item>.json` file by reading the file's content and extracting the imports for registry dependencies, dependencies, and files recursively.
-3. It will then generate a `registry.json` file by combining all the `<registry-item>.json` files and `<registry-item>.json` files with all the properties required for `shadcn add` or `open in v0`.
+3. It will then generate a `registry.json` file by combining all the `<registry-item>.json` files with all the properties required for `shadcn add` or `open in v0`.
 
 ```plaintext
 public/
@@ -168,7 +168,6 @@ public/
     ├── dialog.json
     ├── registry.json
     └── utils.json
-
 ```
 
 ## Extending Properties
@@ -186,7 +185,7 @@ registry/
         └── dialog.tsx
 ```
 
-#### With zero-configuration.
+### With Zero-Configuration
 
 <details><summary>Generated public/r/dialog.json</summary><br/>
 
@@ -215,7 +214,7 @@ registry/
 
 </details>
 
-#### Add custom properties.
+### Add Custom Properties
 
 ```diff
 {
@@ -261,7 +260,7 @@ registry/
 
 </details>
 
-#### Additional files to include.
+### Additional Files to Include
 
 ```diff
 {
@@ -313,7 +312,7 @@ registry/
 
 </details>
 
-#### External registry dependencies.
+### External Registry Dependencies
 
 ```diff
 {
@@ -355,7 +354,7 @@ registry/
 
 </details>
 
-#### Specify dependency version.
+### Specify Dependency Version
 
 Note: Only add the dependency that you want to specify the version for. The rest of the dependencies will be automatically added.
 
@@ -401,7 +400,7 @@ Note: Only add the dependency that you want to specify the version for. The rest
 
 ## Directory Structure
 
-### For `registry` directory.
+### For `registry` Directory
 
 - Use direct name for default registry.
 
@@ -448,7 +447,7 @@ public/
     └── toast.json      name: toast      target: components/ui/toast.tsx
 ```
 
-### For `registry` directory with multiple registries.
+### For `registry` Directory with Multiple Registries
 
 - Use `<registry-name>` sub-directory for named registry.
 
@@ -482,7 +481,7 @@ public/
         └── toast.json      name: new-york/toast      target: components/ui/new-york/toast.tsx
 ```
 
-### For `components` directory.
+### For `components` Directory
 
 - Use direct name for default registry.
 
@@ -512,7 +511,7 @@ public/
     └── toast.json      name: toast      target: components/ui/toast.tsx
 ```
 
-### For `components` directory with multiple registries.
+### For `components` Directory with Multiple Registries
 
 - Use `<registry-name>` sub-directory for named registry.
 
