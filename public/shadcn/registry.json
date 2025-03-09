@@ -1,7 +1,6 @@
 {
-  "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "nrjdalal",
-  "homepage": "https://nrjdalal.com",
+  "name": "shadcn/ui",
+  "homepage": "https://ui.shadcn.com",
   "items": [
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",

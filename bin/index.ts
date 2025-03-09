@@ -111,7 +111,20 @@ const main = async () => {
               filepath,
             }).type || "registry:file",
           ...(resolvedData.dependencies.length && {
-            dependencies: resolvedData.dependencies,
+            dependencies: [
+              ...new Set([
+                ...resolvedData.dependencies,
+                ...(inputRegistry.items?.find(
+                  (item: any) =>
+                    item.name ===
+                    transformer({
+                      cwd,
+                      aliases,
+                      filepath,
+                    }).name,
+                )?.dependencies || []),
+              ]),
+            ].sort(),
           }),
           files: resolvedData.files.map((file) => {
             return {
@@ -144,7 +157,10 @@ const main = async () => {
                   }).name,
               ) || {},
             ).filter(
-              ([key]) => !["$schema", "name", "type", "files"].includes(key),
+              ([key]) =>
+                !["$schema", "name", "type", "dependencies", "files"].includes(
+                  key,
+                ),
             ),
           ),
         }

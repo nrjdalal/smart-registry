@@ -9,6 +9,8 @@ export const transformer = ({
   aliases: Record<string, string>
   filepath: string
 }) => {
+  const originalFilepath = filepath
+
   for (const alias in aliases) {
     filepath = filepath.replace(
       aliases[alias].replaceAll("./", "").replaceAll("../", ""),
@@ -80,7 +82,10 @@ export const transformer = ({
         .replace(cwd + path.sep, "")
         .replace(/\.[^/.]+$/, "")
         .replace(/\/index$/, ""),
-    target: transformedPath,
+    target:
+      originalFilepath.split("/").length > 1
+        ? transformedPath
+        : `~/${transformedPath}`,
     path: filepath,
   }
 }
