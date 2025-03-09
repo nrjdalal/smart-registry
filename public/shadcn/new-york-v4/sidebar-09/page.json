@@ -31,10 +31,10 @@
       "path": "registry/new-york-v4/blocks/sidebar-09/components/nav-user.tsx"
     },
     {
-      "type": "registry:hook",
-      "target": "hooks/new-york-v4/use-mobile.ts",
-      "content": "import * as React from \"react\"\n\nconst MOBILE_BREAKPOINT = 768\n\nexport function useIsMobile() {\n  const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined)\n\n  React.useEffect(() => {\n    const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`)\n    const onChange = () => {\n      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    }\n    mql.addEventListener(\"change\", onChange)\n    setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    return () => mql.removeEventListener(\"change\", onChange)\n  }, [])\n\n  return !!isMobile\n}\n",
-      "path": "registry/new-york-v4/hooks/use-mobile.ts"
+      "type": "registry:page",
+      "target": "blocks/new-york-v4/sidebar-09/page.tsx",
+      "content": "import { AppSidebar } from \"@/blocks/new-york-v4/sidebar-09/components/app-sidebar\"\nimport {\n  Breadcrumb,\n  BreadcrumbItem,\n  BreadcrumbLink,\n  BreadcrumbList,\n  BreadcrumbPage,\n  BreadcrumbSeparator,\n} from \"@/components/ui/new-york-v4/breadcrumb\"\nimport { Separator } from \"@/components/ui/new-york-v4/separator\"\nimport {\n  SidebarInset,\n  SidebarProvider,\n  SidebarTrigger,\n} from \"@/components/ui/new-york-v4/sidebar\"\n\nexport default function Page() {\n  return (\n    <SidebarProvider\n      style={\n        {\n          \"--sidebar-width\": \"350px\",\n        } as React.CSSProperties\n      }\n    >\n      <AppSidebar />\n      <SidebarInset>\n        <header className=\"bg-background sticky top-0 flex shrink-0 items-center gap-2 border-b p-4\">\n          <SidebarTrigger className=\"-ml-1\" />\n          <Separator\n            orientation=\"vertical\"\n            className=\"mr-2 data-[orientation=vertical]:h-4\"\n          />\n          <Breadcrumb>\n            <BreadcrumbList>\n              <BreadcrumbItem className=\"hidden md:block\">\n                <BreadcrumbLink href=\"#\">All Inboxes</BreadcrumbLink>\n              </BreadcrumbItem>\n              <BreadcrumbSeparator className=\"hidden md:block\" />\n              <BreadcrumbItem>\n                <BreadcrumbPage>Inbox</BreadcrumbPage>\n              </BreadcrumbItem>\n            </BreadcrumbList>\n          </Breadcrumb>\n        </header>\n        <div className=\"flex flex-1 flex-col gap-4 p-4\">\n          {Array.from({ length: 24 }).map((_, index) => (\n            <div\n              key={index}\n              className=\"bg-muted/50 aspect-video h-12 w-full rounded-lg\"\n            />\n          ))}\n        </div>\n      </SidebarInset>\n    </SidebarProvider>\n  )\n}\n",
+      "path": "registry/new-york-v4/blocks/sidebar-09/page.tsx"
     },
     {
       "type": "registry:lib",
@@ -49,10 +49,10 @@
       "path": "registry/new-york-v4/lib/utils.ts"
     },
     {
-      "type": "registry:page",
-      "target": "blocks/new-york-v4/sidebar-09/page.tsx",
-      "content": "import { AppSidebar } from \"@/blocks/new-york-v4/sidebar-09/components/app-sidebar\"\nimport {\n  Breadcrumb,\n  BreadcrumbItem,\n  BreadcrumbLink,\n  BreadcrumbList,\n  BreadcrumbPage,\n  BreadcrumbSeparator,\n} from \"@/components/ui/new-york-v4/breadcrumb\"\nimport { Separator } from \"@/components/ui/new-york-v4/separator\"\nimport {\n  SidebarInset,\n  SidebarProvider,\n  SidebarTrigger,\n} from \"@/components/ui/new-york-v4/sidebar\"\n\nexport default function Page() {\n  return (\n    <SidebarProvider\n      style={\n        {\n          \"--sidebar-width\": \"350px\",\n        } as React.CSSProperties\n      }\n    >\n      <AppSidebar />\n      <SidebarInset>\n        <header className=\"bg-background sticky top-0 flex shrink-0 items-center gap-2 border-b p-4\">\n          <SidebarTrigger className=\"-ml-1\" />\n          <Separator\n            orientation=\"vertical\"\n            className=\"mr-2 data-[orientation=vertical]:h-4\"\n          />\n          <Breadcrumb>\n            <BreadcrumbList>\n              <BreadcrumbItem className=\"hidden md:block\">\n                <BreadcrumbLink href=\"#\">All Inboxes</BreadcrumbLink>\n              </BreadcrumbItem>\n              <BreadcrumbSeparator className=\"hidden md:block\" />\n              <BreadcrumbItem>\n                <BreadcrumbPage>Inbox</BreadcrumbPage>\n              </BreadcrumbItem>\n            </BreadcrumbList>\n          </Breadcrumb>\n        </header>\n        <div className=\"flex flex-1 flex-col gap-4 p-4\">\n          {Array.from({ length: 24 }).map((_, index) => (\n            <div\n              key={index}\n              className=\"bg-muted/50 aspect-video h-12 w-full rounded-lg\"\n            />\n          ))}\n        </div>\n      </SidebarInset>\n    </SidebarProvider>\n  )\n}\n",
-      "path": "registry/new-york-v4/blocks/sidebar-09/page.tsx"
+      "type": "registry:hook",
+      "target": "hooks/new-york-v4/use-mobile.ts",
+      "content": "import * as React from \"react\"\n\nconst MOBILE_BREAKPOINT = 768\n\nexport function useIsMobile() {\n  const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined)\n\n  React.useEffect(() => {\n    const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`)\n    const onChange = () => {\n      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    }\n    mql.addEventListener(\"change\", onChange)\n    setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    return () => mql.removeEventListener(\"change\", onChange)\n  }, [])\n\n  return !!isMobile\n}\n",
+      "path": "registry/new-york-v4/hooks/use-mobile.ts"
     },
     {
       "type": "registry:ui",

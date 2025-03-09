@@ -22,16 +22,16 @@
       "path": "registry/new-york/examples/combobox-responsive.tsx"
     },
     {
-      "type": "registry:hook",
-      "target": "hooks/use-media-query.tsx",
-      "content": "import * as React from \"react\"\n\nexport function useMediaQuery(query: string) {\n  const [value, setValue] = React.useState(false)\n\n  React.useEffect(() => {\n    function onChange(event: MediaQueryListEvent) {\n      setValue(event.matches)\n    }\n\n    const result = matchMedia(query)\n    result.addEventListener(\"change\", onChange)\n    setValue(result.matches)\n\n    return () => result.removeEventListener(\"change\", onChange)\n  }, [query])\n\n  return value\n}\n",
-      "path": "hooks/use-media-query.tsx"
-    },
-    {
       "type": "registry:lib",
       "target": "lib/utils.ts",
       "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
       "path": "lib/utils.ts"
+    },
+    {
+      "type": "registry:hook",
+      "target": "hooks/use-media-query.tsx",
+      "content": "import * as React from \"react\"\n\nexport function useMediaQuery(query: string) {\n  const [value, setValue] = React.useState(false)\n\n  React.useEffect(() => {\n    function onChange(event: MediaQueryListEvent) {\n      setValue(event.matches)\n    }\n\n    const result = matchMedia(query)\n    result.addEventListener(\"change\", onChange)\n    setValue(result.matches)\n\n    return () => result.removeEventListener(\"change\", onChange)\n  }, [query])\n\n  return value\n}\n",
+      "path": "hooks/use-media-query.tsx"
     },
     {
       "type": "registry:ui",

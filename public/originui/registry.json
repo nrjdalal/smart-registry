@@ -879,14 +879,14 @@
       ],
       "files": [
         {
-          "type": "registry:hook",
-          "target": "hooks/use-toast.ts",
-          "path": "registry/default/hooks/use-toast.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-toast.ts",
+          "path": "registry/default/hooks/use-toast.ts"
         },
         {
           "type": "registry:ui",
@@ -914,14 +914,14 @@
       ],
       "files": [
         {
-          "type": "registry:hook",
-          "target": "hooks/use-toast.ts",
-          "path": "registry/default/hooks/use-toast.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-toast.ts",
+          "path": "registry/default/hooks/use-toast.ts"
         },
         {
           "type": "registry:ui",
@@ -1086,14 +1086,14 @@
       ],
       "files": [
         {
-          "type": "registry:hook",
-          "target": "hooks/use-toast.ts",
-          "path": "registry/default/hooks/use-toast.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-toast.ts",
+          "path": "registry/default/hooks/use-toast.ts"
         },
         {
           "type": "registry:ui",
@@ -1115,6 +1115,18 @@
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "registry-tags",
+      "type": "registry:file",
+      "files": [
+        {
+          "type": "registry:file",
+          "target": "registry-tags.ts",
+          "path": "registry/registry-tags.ts"
         }
       ]
     },
@@ -2706,14 +2718,14 @@
           "path": "registry/default/components/comp-125.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-image-upload.ts",
-          "path": "registry/default/hooks/use-image-upload.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-image-upload.ts",
+          "path": "registry/default/hooks/use-image-upload.ts"
         },
         {
           "type": "registry:ui",
@@ -2755,14 +2767,14 @@
           "path": "registry/default/components/comp-126.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-image-upload.ts",
-          "path": "registry/default/hooks/use-image-upload.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-image-upload.ts",
+          "path": "registry/default/hooks/use-image-upload.ts"
         },
         {
           "type": "registry:ui",
@@ -9379,14 +9391,14 @@
           "path": "registry/default/components/comp-254.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-slider-with-input.ts",
-          "path": "registry/default/hooks/use-slider-with-input.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-slider-with-input.ts",
+          "path": "registry/default/hooks/use-slider-with-input.ts"
         },
         {
           "type": "registry:ui",
@@ -9450,14 +9462,14 @@
           "path": "registry/default/components/comp-255.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-slider-with-input.ts",
-          "path": "registry/default/hooks/use-slider-with-input.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-slider-with-input.ts",
+          "path": "registry/default/hooks/use-slider-with-input.ts"
         },
         {
           "type": "registry:ui",
@@ -9619,14 +9631,14 @@
           "path": "registry/default/components/comp-258.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-slider-with-input.ts",
-          "path": "registry/default/hooks/use-slider-with-input.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-slider-with-input.ts",
+          "path": "registry/default/hooks/use-slider-with-input.ts"
         },
         {
           "type": "registry:ui",
@@ -9905,14 +9917,14 @@
           "path": "registry/default/components/comp-262.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-slider-with-input.ts",
-          "path": "registry/default/hooks/use-slider-with-input.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-slider-with-input.ts",
+          "path": "registry/default/hooks/use-slider-with-input.ts"
         },
         {
           "type": "registry:ui",
@@ -10026,14 +10038,14 @@
           "path": "registry/default/components/comp-264.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-slider-with-input.ts",
-          "path": "registry/default/hooks/use-slider-with-input.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-slider-with-input.ts",
+          "path": "registry/default/hooks/use-slider-with-input.ts"
         },
         {
           "type": "registry:ui",
@@ -10099,14 +10111,14 @@
           "path": "registry/default/components/comp-265.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-slider-with-input.ts",
-          "path": "registry/default/hooks/use-slider-with-input.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-slider-with-input.ts",
+          "path": "registry/default/hooks/use-slider-with-input.ts"
         },
         {
           "type": "registry:ui",
@@ -11331,14 +11343,14 @@
           "path": "registry/default/components/comp-297.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-toast.ts",
-          "path": "registry/default/hooks/use-toast.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-toast.ts",
+          "path": "registry/default/hooks/use-toast.ts"
         },
         {
           "type": "registry:ui",
@@ -13130,6 +13142,11 @@
           "path": "registry/default/components/comp-331.tsx"
         },
         {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
           "type": "registry:hook",
           "target": "hooks/use-character-limit.ts",
           "path": "registry/default/hooks/use-character-limit.ts"
@@ -13138,11 +13155,6 @@
           "type": "registry:hook",
           "target": "hooks/use-image-upload.ts",
           "path": "registry/default/hooks/use-image-upload.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -13540,14 +13552,14 @@
           "path": "registry/default/components/comp-34.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-character-limit.ts",
-          "path": "registry/default/hooks/use-character-limit.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-character-limit.ts",
+          "path": "registry/default/hooks/use-character-limit.ts"
         },
         {
           "type": "registry:ui",
@@ -13978,14 +13990,14 @@
           "path": "registry/default/components/comp-35.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-character-limit.ts",
-          "path": "registry/default/hooks/use-character-limit.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-character-limit.ts",
+          "path": "registry/default/hooks/use-character-limit.ts"
         },
         {
           "type": "registry:ui",
@@ -19072,14 +19084,14 @@
           "path": "registry/default/components/comp-459.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-pagination.ts",
-          "path": "registry/default/hooks/use-pagination.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-pagination.ts",
+          "path": "registry/default/hooks/use-pagination.ts"
         },
         {
           "type": "registry:ui",
@@ -19167,14 +19179,14 @@
           "path": "registry/default/components/comp-460.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-pagination.ts",
-          "path": "registry/default/hooks/use-pagination.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-pagination.ts",
+          "path": "registry/default/hooks/use-pagination.ts"
         },
         {
           "type": "registry:ui",
@@ -19217,14 +19229,14 @@
           "path": "registry/default/components/comp-461.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-pagination.ts",
-          "path": "registry/default/hooks/use-pagination.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-pagination.ts",
+          "path": "registry/default/hooks/use-pagination.ts"
         },
         {
           "type": "registry:ui",
@@ -19268,14 +19280,14 @@
           "path": "registry/default/components/comp-462.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-pagination.ts",
-          "path": "registry/default/hooks/use-pagination.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-pagination.ts",
+          "path": "registry/default/hooks/use-pagination.ts"
         },
         {
           "type": "registry:ui",
@@ -19326,14 +19338,14 @@
           "path": "registry/default/components/comp-463.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-pagination.ts",
-          "path": "registry/default/hooks/use-pagination.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-pagination.ts",
+          "path": "registry/default/hooks/use-pagination.ts"
         },
         {
           "type": "registry:ui",
@@ -19389,14 +19401,14 @@
           "path": "registry/default/components/comp-464.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-pagination.ts",
-          "path": "registry/default/hooks/use-pagination.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-pagination.ts",
+          "path": "registry/default/hooks/use-pagination.ts"
         },
         {
           "type": "registry:ui",
@@ -19448,14 +19460,14 @@
           "path": "registry/default/components/comp-465.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-pagination.ts",
-          "path": "registry/default/hooks/use-pagination.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-pagination.ts",
+          "path": "registry/default/hooks/use-pagination.ts"
         },
         {
           "type": "registry:ui",
@@ -20472,14 +20484,14 @@
           "path": "registry/default/components/comp-484.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-pagination.ts",
-          "path": "registry/default/hooks/use-pagination.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-pagination.ts",
+          "path": "registry/default/hooks/use-pagination.ts"
         },
         {
           "type": "registry:ui",
@@ -24292,14 +24304,14 @@
           "path": "registry/default/components/comp-74.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/use-character-limit.ts",
-          "path": "registry/default/hooks/use-character-limit.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-character-limit.ts",
+          "path": "registry/default/hooks/use-character-limit.ts"
         },
         {
           "type": "registry:ui",
@@ -25331,18 +25343,6 @@
         ],
         "style": 2
       }
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "registry-tags",
-      "type": "registry:file",
-      "files": [
-        {
-          "type": "registry:file",
-          "target": "registry-tags.ts",
-          "path": "registry/registry-tags.ts"
-        }
-      ]
     }
   ]
 }

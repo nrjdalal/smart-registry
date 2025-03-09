@@ -48,14 +48,14 @@
           "path": "src/components/Toast/Toast.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/useToast.ts",
-          "path": "src/hooks/useToast.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useToast.ts",
+          "path": "src/hooks/useToast.ts"
         }
       ]
     },
@@ -305,11 +305,6 @@
           "path": "src/components/AreaChart/AreaChart.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/useOnWindowResize.ts",
-          "path": "src/hooks/useOnWindowResize.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "utils/chartColors.ts",
           "path": "src/utils/chartColors.ts"
@@ -328,6 +323,11 @@
           "type": "registry:lib",
           "target": "utils/hasOnlyOneValueForKey.ts",
           "path": "src/utils/hasOnlyOneValueForKey.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -383,11 +383,6 @@
           "path": "src/components/Switch/Switch.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/useOnWindowResize.ts",
-          "path": "src/hooks/useOnWindowResize.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "utils/chartColors.ts",
           "path": "src/utils/chartColors.ts"
@@ -411,6 +406,11 @@
           "type": "registry:lib",
           "target": "utils/hasOnlyOneValueForKey.ts",
           "path": "src/utils/hasOnlyOneValueForKey.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -523,11 +523,6 @@
           "path": "src/components/BarChart/BarChart.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/useOnWindowResize.ts",
-          "path": "src/hooks/useOnWindowResize.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "utils/chartColors.ts",
           "path": "src/utils/chartColors.ts"
@@ -541,6 +536,11 @@
           "type": "registry:lib",
           "target": "utils/getYAxisDomain.ts",
           "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -596,11 +596,6 @@
           "path": "src/components/Switch/Switch.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/useOnWindowResize.ts",
-          "path": "src/hooks/useOnWindowResize.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "utils/chartColors.ts",
           "path": "src/utils/chartColors.ts"
@@ -619,6 +614,11 @@
           "type": "registry:lib",
           "target": "utils/getYAxisDomain.ts",
           "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -1382,11 +1382,6 @@
           "path": "src/components/ComboChart/ComboChart.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/useOnWindowResize.ts",
-          "path": "src/hooks/useOnWindowResize.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "utils/chartColors.ts",
           "path": "src/utils/chartColors.ts"
@@ -1405,6 +1400,11 @@
           "type": "registry:lib",
           "target": "utils/hasOnlyOneValueForKey.ts",
           "path": "src/utils/hasOnlyOneValueForKey.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -1460,11 +1460,6 @@
           "path": "src/components/Switch/Switch.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/useOnWindowResize.ts",
-          "path": "src/hooks/useOnWindowResize.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "utils/chartColors.ts",
           "path": "src/utils/chartColors.ts"
@@ -1488,6 +1483,11 @@
           "type": "registry:lib",
           "target": "utils/hasOnlyOneValueForKey.ts",
           "path": "src/utils/hasOnlyOneValueForKey.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -2460,11 +2460,6 @@
           "path": "src/components/LineChart/LineChart.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/useOnWindowResize.ts",
-          "path": "src/hooks/useOnWindowResize.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "utils/chartColors.ts",
           "path": "src/utils/chartColors.ts"
@@ -2483,6 +2478,11 @@
           "type": "registry:lib",
           "target": "utils/hasOnlyOneValueForKey.ts",
           "path": "src/utils/hasOnlyOneValueForKey.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -2538,11 +2538,6 @@
           "path": "src/components/Switch/Switch.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/useOnWindowResize.ts",
-          "path": "src/hooks/useOnWindowResize.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "utils/chartColors.ts",
           "path": "src/utils/chartColors.ts"
@@ -2566,6 +2561,11 @@
           "type": "registry:lib",
           "target": "utils/hasOnlyOneValueForKey.ts",
           "path": "src/utils/hasOnlyOneValueForKey.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
         }
       ]
     },
@@ -4129,11 +4129,6 @@
           "path": "src/components/Toast/toast.stories.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/useToast.ts",
-          "path": "src/hooks/useToast.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
@@ -4142,6 +4137,11 @@
           "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useToast.ts",
+          "path": "src/hooks/useToast.ts"
         }
       ]
     },
@@ -4168,14 +4168,14 @@
           "path": "src/components/Toast/Toaster.tsx"
         },
         {
-          "type": "registry:hook",
-          "target": "hooks/useToast.ts",
-          "path": "src/hooks/useToast.ts"
-        },
-        {
           "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useToast.ts",
+          "path": "src/hooks/useToast.ts"
         }
       ]
     },

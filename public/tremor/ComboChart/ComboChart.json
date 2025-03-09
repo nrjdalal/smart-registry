@@ -17,12 +17,6 @@
       "path": "src/components/ComboChart/ComboChart.tsx"
     },
     {
-      "type": "registry:hook",
-      "target": "hooks/useOnWindowResize.ts",
-      "content": "// Tremor useOnWindowResize [v0.0.0]\n\nimport * as React from \"react\"\n\nexport const useOnWindowResize = (handler: { (): void }) => {\n  React.useEffect(() => {\n    const handleResize = () => {\n      handler()\n    }\n    handleResize()\n    window.addEventListener(\"resize\", handleResize)\n\n    return () => window.removeEventListener(\"resize\", handleResize)\n  }, [handler])\n}\n",
-      "path": "src/hooks/useOnWindowResize.ts"
-    },
-    {
       "type": "registry:lib",
       "target": "utils/chartColors.ts",
       "content": "// Tremor chartColors [v0.1.0]\n\nexport type ColorUtility = \"bg\" | \"stroke\" | \"fill\" | \"text\"\n\nexport const chartColors = {\n  blue: {\n    bg: \"bg-blue-500\",\n    stroke: \"stroke-blue-500\",\n    fill: \"fill-blue-500\",\n    text: \"text-blue-500\",\n  },\n  emerald: {\n    bg: \"bg-emerald-500\",\n    stroke: \"stroke-emerald-500\",\n    fill: \"fill-emerald-500\",\n    text: \"text-emerald-500\",\n  },\n  violet: {\n    bg: \"bg-violet-500\",\n    stroke: \"stroke-violet-500\",\n    fill: \"fill-violet-500\",\n    text: \"text-violet-500\",\n  },\n  amber: {\n    bg: \"bg-amber-500\",\n    stroke: \"stroke-amber-500\",\n    fill: \"fill-amber-500\",\n    text: \"text-amber-500\",\n  },\n  gray: {\n    bg: \"bg-gray-500\",\n    stroke: \"stroke-gray-500\",\n    fill: \"fill-gray-500\",\n    text: \"text-gray-500\",\n  },\n  cyan: {\n    bg: \"bg-cyan-500\",\n    stroke: \"stroke-cyan-500\",\n    fill: \"fill-cyan-500\",\n    text: \"text-cyan-500\",\n  },\n  pink: {\n    bg: \"bg-pink-500\",\n    stroke: \"stroke-pink-500\",\n    fill: \"fill-pink-500\",\n    text: \"text-pink-500\",\n  },\n  lime: {\n    bg: \"bg-lime-500\",\n    stroke: \"stroke-lime-500\",\n    fill: \"fill-lime-500\",\n    text: \"text-lime-500\",\n  },\n  fuchsia: {\n    bg: \"bg-fuchsia-500\",\n    stroke: \"stroke-fuchsia-500\",\n    fill: \"fill-fuchsia-500\",\n    text: \"text-fuchsia-500\",\n  },\n} as const satisfies {\n  [color: string]: {\n    [key in ColorUtility]: string\n  }\n}\n\nexport type AvailableChartColorsKeys = keyof typeof chartColors\n\nexport const AvailableChartColors: AvailableChartColorsKeys[] = Object.keys(\n  chartColors,\n) as Array<AvailableChartColorsKeys>\n\nexport const constructCategoryColors = (\n  categories: string[],\n  colors: AvailableChartColorsKeys[],\n): Map<string, AvailableChartColorsKeys> => {\n  const categoryColors = new Map<string, AvailableChartColorsKeys>()\n  categories.forEach((category, index) => {\n    categoryColors.set(category, colors[index % colors.length])\n  })\n  return categoryColors\n}\n\nexport const getColorClassName = (\n  color: AvailableChartColorsKeys,\n  type: ColorUtility,\n): string => {\n  const fallbackColor = {\n    bg: \"bg-gray-500\",\n    stroke: \"stroke-gray-500\",\n    fill: \"fill-gray-500\",\n    text: \"text-gray-500\",\n  }\n  return chartColors[color]?.[type] ?? fallbackColor[type]\n}\n",
@@ -45,6 +39,12 @@
       "target": "utils/hasOnlyOneValueForKey.ts",
       "content": "/* eslint-disable @typescript-eslint/no-explicit-any */\n// Tremor hasOnlyOneValueForKey [v0.1.0]\n\nexport function hasOnlyOneValueForKey(\n  array: any[],\n  keyToCheck: string,\n): boolean {\n  const val: any[] = []\n\n  for (const obj of array) {\n    if (Object.prototype.hasOwnProperty.call(obj, keyToCheck)) {\n      val.push(obj[keyToCheck])\n      if (val.length > 1) {\n        return false\n      }\n    }\n  }\n\n  return true\n}\n",
       "path": "src/utils/hasOnlyOneValueForKey.ts"
+    },
+    {
+      "type": "registry:hook",
+      "target": "hooks/useOnWindowResize.ts",
+      "content": "// Tremor useOnWindowResize [v0.0.0]\n\nimport * as React from \"react\"\n\nexport const useOnWindowResize = (handler: { (): void }) => {\n  React.useEffect(() => {\n    const handleResize = () => {\n      handler()\n    }\n    handleResize()\n    window.addEventListener(\"resize\", handleResize)\n\n    return () => window.removeEventListener(\"resize\", handleResize)\n  }, [handler])\n}\n",
+      "path": "src/hooks/useOnWindowResize.ts"
     }
   ]
 }

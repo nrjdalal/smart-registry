@@ -21,10 +21,10 @@
       "path": "registry/new-york-v4/blocks/sidebar-13/components/settings-dialog.tsx"
     },
     {
-      "type": "registry:hook",
-      "target": "hooks/new-york-v4/use-mobile.ts",
-      "content": "import * as React from \"react\"\n\nconst MOBILE_BREAKPOINT = 768\n\nexport function useIsMobile() {\n  const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined)\n\n  React.useEffect(() => {\n    const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`)\n    const onChange = () => {\n      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    }\n    mql.addEventListener(\"change\", onChange)\n    setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    return () => mql.removeEventListener(\"change\", onChange)\n  }, [])\n\n  return !!isMobile\n}\n",
-      "path": "registry/new-york-v4/hooks/use-mobile.ts"
+      "type": "registry:page",
+      "target": "blocks/new-york-v4/sidebar-13/page.tsx",
+      "content": "import { SettingsDialog } from \"@/blocks/new-york-v4/sidebar-13/components/settings-dialog\"\n\nexport default function Page() {\n  return (\n    <div className=\"flex h-svh items-center justify-center\">\n      <SettingsDialog />\n    </div>\n  )\n}\n",
+      "path": "registry/new-york-v4/blocks/sidebar-13/page.tsx"
     },
     {
       "type": "registry:lib",
@@ -39,10 +39,10 @@
       "path": "registry/new-york-v4/lib/utils.ts"
     },
     {
-      "type": "registry:page",
-      "target": "blocks/new-york-v4/sidebar-13/page.tsx",
-      "content": "import { SettingsDialog } from \"@/blocks/new-york-v4/sidebar-13/components/settings-dialog\"\n\nexport default function Page() {\n  return (\n    <div className=\"flex h-svh items-center justify-center\">\n      <SettingsDialog />\n    </div>\n  )\n}\n",
-      "path": "registry/new-york-v4/blocks/sidebar-13/page.tsx"
+      "type": "registry:hook",
+      "target": "hooks/new-york-v4/use-mobile.ts",
+      "content": "import * as React from \"react\"\n\nconst MOBILE_BREAKPOINT = 768\n\nexport function useIsMobile() {\n  const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined)\n\n  React.useEffect(() => {\n    const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`)\n    const onChange = () => {\n      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    }\n    mql.addEventListener(\"change\", onChange)\n    setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)\n    return () => mql.removeEventListener(\"change\", onChange)\n  }, [])\n\n  return !!isMobile\n}\n",
+      "path": "registry/new-york-v4/hooks/use-mobile.ts"
     },
     {
       "type": "registry:ui",

@@ -19,6 +19,12 @@
       "path": "registry/new-york-v4/blocks/login-03/components/login-form.tsx"
     },
     {
+      "type": "registry:page",
+      "target": "blocks/new-york-v4/login-03/page.tsx",
+      "content": "import { GalleryVerticalEnd } from \"lucide-react\"\n\nimport { LoginForm } from \"@/blocks/new-york-v4/login-03/components/login-form\"\n\nexport default function LoginPage() {\n  return (\n    <div className=\"bg-muted flex min-h-svh flex-col items-center justify-center gap-6 p-6 md:p-10\">\n      <div className=\"flex w-full max-w-sm flex-col gap-6\">\n        <a href=\"#\" className=\"flex items-center gap-2 self-center font-medium\">\n          <div className=\"bg-primary text-primary-foreground flex size-6 items-center justify-center rounded-md\">\n            <GalleryVerticalEnd className=\"size-4\" />\n          </div>\n          Acme Inc.\n        </a>\n        <LoginForm />\n      </div>\n    </div>\n  )\n}\n",
+      "path": "registry/new-york-v4/blocks/login-03/page.tsx"
+    },
+    {
       "type": "registry:lib",
       "target": "lib/utils.ts",
       "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
@@ -29,12 +35,6 @@
       "target": "lib/new-york-v4/utils.ts",
       "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
       "path": "registry/new-york-v4/lib/utils.ts"
-    },
-    {
-      "type": "registry:page",
-      "target": "blocks/new-york-v4/login-03/page.tsx",
-      "content": "import { GalleryVerticalEnd } from \"lucide-react\"\n\nimport { LoginForm } from \"@/blocks/new-york-v4/login-03/components/login-form\"\n\nexport default function LoginPage() {\n  return (\n    <div className=\"bg-muted flex min-h-svh flex-col items-center justify-center gap-6 p-6 md:p-10\">\n      <div className=\"flex w-full max-w-sm flex-col gap-6\">\n        <a href=\"#\" className=\"flex items-center gap-2 self-center font-medium\">\n          <div className=\"bg-primary text-primary-foreground flex size-6 items-center justify-center rounded-md\">\n            <GalleryVerticalEnd className=\"size-4\" />\n          </div>\n          Acme Inc.\n        </a>\n        <LoginForm />\n      </div>\n    </div>\n  )\n}\n",
-      "path": "registry/new-york-v4/blocks/login-03/page.tsx"
     },
     {
       "type": "registry:ui",
