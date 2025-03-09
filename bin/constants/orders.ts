@@ -43,14 +43,14 @@ export const registryOrder = {
     ],
     type: {
       default: [
-        "registry:block",
-        "registry:component",
-        "registry:file",
+        "registry:ui",
         "registry:hook",
         "registry:lib",
+        "registry:component",
+        "registry:block",
+        "registry:file",
         "registry:page",
         "registry:theme",
-        "registry:ui",
       ],
     },
     files: {

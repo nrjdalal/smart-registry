@@ -5,6 +5,192 @@
   "items": [
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "changelog",
+      "type": "registry:hook",
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/changelog.md",
+          "path": "src/hooks/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "useOnWindowResize",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/useOnWindowResize.ts",
+          "path": "src/hooks/useOnWindowResize.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "useToast",
+      "type": "registry:hook",
+      "dependencies": [
+        "@radix-ui/react-toast",
+        "@remixicon/react",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/Toast/Toast.tsx",
+          "path": "src/components/Toast/Toast.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/useToast.ts",
+          "path": "src/hooks/useToast.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "changelog",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/changelog.md",
+          "path": "src/utils/changelog.md"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "chartColors",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "cx",
+      "type": "registry:lib",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/cx.ts",
+          "path": "src/utils/cx.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "focusInput",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/focusInput.ts",
+          "path": "src/utils/focusInput.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "focusRing",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/focusRing.ts",
+          "path": "src/utils/focusRing.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "getYAxisDomain",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "hasErrorInput",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/hasErrorInput.ts",
+          "path": "src/utils/hasErrorInput.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "hasOnlyOneValueForKey",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "utils.spec",
+      "type": "registry:lib",
+      "dependencies": [
+        "vitest"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "utils/chartColors.ts",
+          "path": "src/utils/chartColors.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/getYAxisDomain.ts",
+          "path": "src/utils/getYAxisDomain.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/hasOnlyOneValueForKey.ts",
+          "path": "src/utils/hasOnlyOneValueForKey.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "utils/utils.spec.ts",
+          "path": "src/utils/utils.spec.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Accordion/Accordion",
       "type": "registry:component",
       "dependencies": [
@@ -1065,42 +1251,6 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "changelog",
-      "type": "registry:hook",
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/changelog.md",
-          "path": "src/hooks/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "changelog",
-      "type": "registry:lib",
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "utils/changelog.md",
-          "path": "src/utils/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "chartColors",
-      "type": "registry:lib",
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "Checkbox/changelog",
       "type": "registry:component",
       "files": [
@@ -1338,22 +1488,6 @@
           "type": "registry:lib",
           "target": "utils/hasOnlyOneValueForKey.ts",
           "path": "src/utils/hasOnlyOneValueForKey.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "cx",
-      "type": "registry:lib",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
         }
       ]
     },
@@ -2063,66 +2197,6 @@
           "type": "registry:lib",
           "target": "utils/focusRing.ts",
           "path": "src/utils/focusRing.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "focusInput",
-      "type": "registry:lib",
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "utils/focusInput.ts",
-          "path": "src/utils/focusInput.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "focusRing",
-      "type": "registry:lib",
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "utils/focusRing.ts",
-          "path": "src/utils/focusRing.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "getYAxisDomain",
-      "type": "registry:lib",
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "hasErrorInput",
-      "type": "registry:lib",
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "utils/hasErrorInput.ts",
-          "path": "src/utils/hasErrorInput.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "hasOnlyOneValueForKey",
-      "type": "registry:lib",
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "utils/hasOnlyOneValueForKey.ts",
-          "path": "src/utils/hasOnlyOneValueForKey.ts"
         }
       ]
     },
@@ -4365,80 +4439,6 @@
           "type": "registry:lib",
           "target": "utils/cx.ts",
           "path": "src/utils/cx.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "useOnWindowResize",
-      "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/useOnWindowResize.ts",
-          "path": "src/hooks/useOnWindowResize.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "useToast",
-      "type": "registry:hook",
-      "dependencies": [
-        "@radix-ui/react-toast",
-        "@remixicon/react",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/Toast/Toast.tsx",
-          "path": "src/components/Toast/Toast.tsx"
-        },
-        {
-          "type": "registry:hook",
-          "target": "hooks/useToast.ts",
-          "path": "src/hooks/useToast.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/cx.ts",
-          "path": "src/utils/cx.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "utils.spec",
-      "type": "registry:lib",
-      "dependencies": [
-        "vitest"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/hasOnlyOneValueForKey.ts",
-          "path": "src/utils/hasOnlyOneValueForKey.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/utils.spec.ts",
-          "path": "src/utils/utils.spec.ts"
         }
       ]
     }

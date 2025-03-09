@@ -334,6 +334,792 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "datefield-rac",
+      "type": "registry:ui",
+      "dependencies": [
+        "clsx",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/datefield-rac.tsx",
+          "path": "registry/default/ui/datefield-rac.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dialog",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "registry/default/ui/dialog.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-dropdown-menu",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "registry/default/ui/dropdown-menu.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "hover-card",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-hover-card",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/hover-card.tsx",
+          "path": "registry/default/ui/hover-card.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "input",
+      "type": "registry:ui",
+      "dependencies": [
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "label",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "multiselect",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "clsx",
+        "cmdk",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/command.json"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/command.tsx",
+          "path": "registry/default/ui/command.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "registry/default/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/multiselect.tsx",
+          "path": "registry/default/ui/multiselect.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "pagination",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/pagination.tsx",
+          "path": "registry/default/ui/pagination.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "popover",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-popover",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "radio-group",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-radio-group",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/radio-group.tsx",
+          "path": "registry/default/ui/radio-group.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "resizable",
+      "type": "registry:ui",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "react-resizable-panels",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/resizable.tsx",
+          "path": "registry/default/ui/resizable.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "scroll-area",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-scroll-area",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/scroll-area.tsx",
+          "path": "registry/default/ui/scroll-area.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "select",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-select",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "registry/default/ui/select.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "select-native",
+      "type": "registry:ui",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select-native.tsx",
+          "path": "registry/default/ui/select-native.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "slider",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-slider",
+        "@radix-ui/react-tooltip",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/slider.tsx",
+          "path": "registry/default/ui/slider.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "registry/default/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "sonner",
+      "type": "registry:ui",
+      "dependencies": [
+        "next-themes",
+        "sonner"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sonner.tsx",
+          "path": "registry/default/ui/sonner.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "stepper",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/stepper.tsx",
+          "path": "registry/default/ui/stepper.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "switch",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-switch",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/switch.tsx",
+          "path": "registry/default/ui/switch.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "table",
+      "type": "registry:ui",
+      "dependencies": [
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/table.tsx",
+          "path": "registry/default/ui/table.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "tabs",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-tabs",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tabs.tsx",
+          "path": "registry/default/ui/tabs.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "textarea",
+      "type": "registry:ui",
+      "dependencies": [
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/textarea.tsx",
+          "path": "registry/default/ui/textarea.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "timeline",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "toast",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-toast",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-toast.ts",
+          "path": "registry/default/hooks/use-toast.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toast.tsx",
+          "path": "registry/default/ui/toast.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toaster.tsx",
+          "path": "registry/default/ui/toaster.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "toaster",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-toast",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-toast.ts",
+          "path": "registry/default/hooks/use-toast.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toast.tsx",
+          "path": "registry/default/ui/toast.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toaster.tsx",
+          "path": "registry/default/ui/toaster.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "toggle",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-toggle",
+        "class-variance-authority",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle.tsx",
+          "path": "registry/default/ui/toggle.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "toggle-group",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-toggle",
+        "@radix-ui/react-toggle-group",
+        "class-variance-authority",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "toggle"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle-group.tsx",
+          "path": "registry/default/ui/toggle-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle.tsx",
+          "path": "registry/default/ui/toggle.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "tooltip",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-tooltip",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "registry/default/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "use-character-limit",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-character-limit.ts",
+          "path": "registry/default/hooks/use-character-limit.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "use-image-upload",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-image-upload.ts",
+          "path": "registry/default/hooks/use-image-upload.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "use-pagination",
+      "type": "registry:hook",
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-pagination.ts",
+          "path": "registry/default/hooks/use-pagination.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "use-slider-with-input",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-slider-with-input.ts",
+          "path": "registry/default/hooks/use-slider-with-input.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "use-toast",
+      "type": "registry:hook",
+      "dependencies": [
+        "@radix-ui/react-toast",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-toast.ts",
+          "path": "registry/default/hooks/use-toast.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toast.tsx",
+          "path": "registry/default/ui/toast.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "utils",
+      "type": "registry:lib",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "comp-01",
       "type": "registry:component",
       "dependencies": [
@@ -24548,261 +25334,6 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "datefield-rac",
-      "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "react-aria-components",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/datefield-rac.tsx",
-          "path": "registry/default/ui/datefield-rac.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "dialog",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-dialog",
-        "clsx",
-        "lucide-react",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/dialog.tsx",
-          "path": "registry/default/ui/dialog.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "dropdown-menu",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-dropdown-menu",
-        "clsx",
-        "lucide-react",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/dropdown-menu.tsx",
-          "path": "registry/default/ui/dropdown-menu.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "hover-card",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-hover-card",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/hover-card.tsx",
-          "path": "registry/default/ui/hover-card.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "input",
-      "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/input.tsx",
-          "path": "registry/default/ui/input.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "label",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/label.tsx",
-          "path": "registry/default/ui/label.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "multiselect",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-dialog",
-        "clsx",
-        "cmdk",
-        "lucide-react",
-        "react",
-        "tailwind-merge"
-      ],
-      "registryDependencies": [
-        "https://originui.com/r/command.json"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/command.tsx",
-          "path": "registry/default/ui/command.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/dialog.tsx",
-          "path": "registry/default/ui/dialog.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/multiselect.tsx",
-          "path": "registry/default/ui/multiselect.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "pagination",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-slot",
-        "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "react",
-        "tailwind-merge"
-      ],
-      "registryDependencies": [
-        "button"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/button.tsx",
-          "path": "registry/default/ui/button.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/pagination.tsx",
-          "path": "registry/default/ui/pagination.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "popover",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-popover",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/popover.tsx",
-          "path": "registry/default/ui/popover.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "radio-group",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/radio-group.tsx",
-          "path": "registry/default/ui/radio-group.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "registry-tags",
       "type": "registry:file",
       "files": [
@@ -24810,537 +25341,6 @@
           "type": "registry:file",
           "target": "registry-tags.ts",
           "path": "registry/registry-tags.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "resizable",
-      "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "lucide-react",
-        "react-resizable-panels",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/resizable.tsx",
-          "path": "registry/default/ui/resizable.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "scroll-area",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-scroll-area",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/scroll-area.tsx",
-          "path": "registry/default/ui/scroll-area.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "select",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-select",
-        "clsx",
-        "lucide-react",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/select.tsx",
-          "path": "registry/default/ui/select.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "select-native",
-      "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "lucide-react",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/select-native.tsx",
-          "path": "registry/default/ui/select-native.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "slider",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "registryDependencies": [
-        "https://originui.com/r/tooltip.json"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/slider.tsx",
-          "path": "registry/default/ui/slider.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/tooltip.tsx",
-          "path": "registry/default/ui/tooltip.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "sonner",
-      "type": "registry:ui",
-      "dependencies": [
-        "next-themes",
-        "sonner"
-      ],
-      "files": [
-        {
-          "type": "registry:ui",
-          "target": "components/ui/sonner.tsx",
-          "path": "registry/default/ui/sonner.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "stepper",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-slot",
-        "clsx",
-        "lucide-react",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/stepper.tsx",
-          "path": "registry/default/ui/stepper.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "switch",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/switch.tsx",
-          "path": "registry/default/ui/switch.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "table",
-      "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/table.tsx",
-          "path": "registry/default/ui/table.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "tabs",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-tabs",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/tabs.tsx",
-          "path": "registry/default/ui/tabs.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "textarea",
-      "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/textarea.tsx",
-          "path": "registry/default/ui/textarea.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "timeline",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-slot",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/timeline.tsx",
-          "path": "registry/default/ui/timeline.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "toast",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-toast",
-        "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-toast.ts",
-          "path": "registry/default/hooks/use-toast.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/toast.tsx",
-          "path": "registry/default/ui/toast.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/toaster.tsx",
-          "path": "registry/default/ui/toaster.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "toaster",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-toast",
-        "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-toast.ts",
-          "path": "registry/default/hooks/use-toast.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/toast.tsx",
-          "path": "registry/default/ui/toast.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/toaster.tsx",
-          "path": "registry/default/ui/toaster.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "toggle",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-toggle",
-        "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/toggle.tsx",
-          "path": "registry/default/ui/toggle.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "toggle-group",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-toggle",
-        "@radix-ui/react-toggle-group",
-        "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "registryDependencies": [
-        "toggle"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/toggle-group.tsx",
-          "path": "registry/default/ui/toggle-group.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/toggle.tsx",
-          "path": "registry/default/ui/toggle.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "tooltip",
-      "type": "registry:ui",
-      "dependencies": [
-        "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/tooltip.tsx",
-          "path": "registry/default/ui/tooltip.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "use-character-limit",
-      "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-character-limit.ts",
-          "path": "registry/default/hooks/use-character-limit.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "use-image-upload",
-      "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-image-upload.ts",
-          "path": "registry/default/hooks/use-image-upload.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "use-pagination",
-      "type": "registry:hook",
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-pagination.ts",
-          "path": "registry/default/hooks/use-pagination.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "use-slider-with-input",
-      "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-slider-with-input.ts",
-          "path": "registry/default/hooks/use-slider-with-input.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "use-toast",
-      "type": "registry:hook",
-      "dependencies": [
-        "@radix-ui/react-toast",
-        "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-toast.ts",
-          "path": "registry/default/hooks/use-toast.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/toast.tsx",
-          "path": "registry/default/ui/toast.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "utils",
-      "type": "registry:lib",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
         }
       ]
     }

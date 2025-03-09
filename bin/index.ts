@@ -242,13 +242,14 @@ const main = async () => {
     }
 
     // ~ Write the final registry.json file to the public directory
-    outputRegistry.items.sort((a, b) => {
-      const typeOrder = registryOrder.items.type.default
-      const typeComparison =
-        typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type)
-      if (typeComparison !== 0) return typeComparison
-      return a.name.localeCompare(b.name)
-    })
+    outputRegistry.items
+      .sort((a, b) => {
+        return a.name.localeCompare(b.name)
+      })
+      .sort((a, b) => {
+        const typeOrder = registryOrder.items.type.default
+        return typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type)
+      })
 
     await fs.promises.writeFile(
       path.resolve(cwd, values.output, "registry.json"),
