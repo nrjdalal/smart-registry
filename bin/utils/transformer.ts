@@ -50,11 +50,13 @@ export const transformer = ({
           (_, p1) => `components/ui/${p1 ? p1 + "/" : ""}`,
         )
         .replace(/\/default\//, "/")
+        .replace(/^default\//, "")
         .replace(/\.\.\//g, "")
         .replace(/\.\//g, "")
         .replace(/^charts\//, "components/charts/")
     : filepath
         .replace(/\/default\//, "/")
+        .replace(/^default\//, "")
         .replace(/\.\.\//g, "")
         .replace(/\.\//g, "")
 
