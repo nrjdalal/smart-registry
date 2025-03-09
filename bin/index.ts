@@ -78,24 +78,42 @@ const main = async () => {
     // ~ Build registry-item for each file in the registry
     for (const filepath of registryFiles) {
       try {
+        const existingConfig =
+          inputRegistry.items?.find(
+            (item: { name?: string }) =>
+              item.name ===
+              transformer({
+                cwd,
+                aliases,
+                filepath,
+              }).name,
+          ) || {}
+
         const resolvedData = await dataResolver({
           cwd,
           aliases,
           filepaths: [
             filepath,
-            ...(inputRegistry.items
-              ?.find(
-                (item: any) =>
-                  item.name ===
-                  transformer({
-                    cwd,
-                    aliases,
-                    filepath,
-                  }).name,
-              )
-              ?.files?.map((file: { path?: string }) => file.path) || []),
+            ...(existingConfig?.files?.map(
+              (file: { path: string }) => file.path,
+            ) || []),
           ],
         })
+
+        const extend = {
+          dependencies: [
+            ...new Set([
+              ...resolvedData.dependencies,
+              ...(existingConfig?.dependencies || []),
+            ]),
+          ].sort(),
+          devDependencies: [
+            ...new Set([...(existingConfig?.devDependencies || [])]),
+          ].sort(),
+          registryDependencies: [
+            ...new Set([...(existingConfig?.registryDependencies || [])]),
+          ].sort(),
+        }
 
         const registryItem = {
           $schema: "https://ui.shadcn.com/schema/registry-item.json",
@@ -110,21 +128,14 @@ const main = async () => {
               aliases,
               filepath,
             }).type || "registry:file",
-          ...(resolvedData.dependencies.length && {
-            dependencies: [
-              ...new Set([
-                ...resolvedData.dependencies,
-                ...(inputRegistry.items?.find(
-                  (item: any) =>
-                    item.name ===
-                    transformer({
-                      cwd,
-                      aliases,
-                      filepath,
-                    }).name,
-                )?.dependencies || []),
-              ]),
-            ].sort(),
+          ...(extend.dependencies.length && {
+            dependencies: extend.dependencies,
+          }),
+          ...(extend.devDependencies.length && {
+            devDependencies: extend.devDependencies,
+          }),
+          ...(extend.registryDependencies.length && {
+            registryDependencies: extend.registryDependencies,
           }),
           files: resolvedData.files.map((file) => {
             return {
@@ -146,21 +157,17 @@ const main = async () => {
           }),
           // ~ Add properties from the registry.json items, which don't exist in the resolved registry-item
           ...Object.fromEntries(
-            Object.entries(
-              inputRegistry.items?.find(
-                (item: { name?: string }) =>
-                  item.name ===
-                  transformer({
-                    cwd,
-                    aliases,
-                    filepath,
-                  }).name,
-              ) || {},
-            ).filter(
+            Object.entries(existingConfig).filter(
               ([key]) =>
-                !["$schema", "name", "type", "dependencies", "files"].includes(
-                  key,
-                ),
+                ![
+                  "$schema",
+                  "name",
+                  "type",
+                  "dependencies",
+                  "devDependencies",
+                  "registryDependencies",
+                  "files",
+                ].includes(key),
             ),
           ),
         }

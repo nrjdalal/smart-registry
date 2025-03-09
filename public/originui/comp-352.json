@@ -10,6 +10,10 @@
     "react",
     "tailwind-merge"
   ],
+  "registryDependencies": [
+    "https://originui.com/r/accordion.json",
+    "https://originui.com/r/collapsible.json"
+  ],
   "files": [
     {
       "type": "registry:component",
@@ -35,10 +39,6 @@
       "content": "\"use client\";\n\nimport * as CollapsiblePrimitive from \"@radix-ui/react-collapsible\";\n\nfunction Collapsible({ ...props }: React.ComponentProps<typeof CollapsiblePrimitive.Root>) {\n  return <CollapsiblePrimitive.Root data-slot=\"collapsible\" {...props} />;\n}\n\nfunction CollapsibleTrigger({\n  ...props\n}: React.ComponentProps<typeof CollapsiblePrimitive.CollapsibleTrigger>) {\n  return <CollapsiblePrimitive.CollapsibleTrigger data-slot=\"collapsible-trigger\" {...props} />;\n}\n\nfunction CollapsibleContent({\n  ...props\n}: React.ComponentProps<typeof CollapsiblePrimitive.CollapsibleContent>) {\n  return <CollapsiblePrimitive.CollapsibleContent data-slot=\"collapsible-content\" {...props} />;\n}\n\nexport { Collapsible, CollapsibleContent, CollapsibleTrigger };\n",
       "path": "registry/default/ui/collapsible.tsx"
     }
-  ],
-  "registryDependencies": [
-    "https://originui.com/r/accordion.json",
-    "https://originui.com/r/collapsible.json"
   ],
   "meta": {
     "tags": [
