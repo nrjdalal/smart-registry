@@ -87,8 +87,10 @@ const main = async () => {
               ?.find(
                 (item: any) =>
                   item.name ===
-                  transformer(filepath, {
+                  transformer({
+                    cwd,
                     aliases,
+                    filepath,
                   }).name,
               )
               ?.files?.map((file: { path?: string }) => file.path) || []),
@@ -97,12 +99,16 @@ const main = async () => {
 
         const registryItem = {
           $schema: "https://ui.shadcn.com/schema/registry-item.json",
-          name: transformer(filepath, {
+          name: transformer({
+            cwd,
             aliases,
+            filepath,
           }).name,
           type:
-            transformer(filepath, {
+            transformer({
+              cwd,
               aliases,
+              filepath,
             }).type || "registry:file",
           ...(resolvedData.dependencies.length && {
             dependencies: resolvedData.dependencies,
@@ -110,12 +116,16 @@ const main = async () => {
           files: resolvedData.files.map((file) => {
             return {
               type:
-                transformer(file, {
+                transformer({
+                  cwd,
                   aliases,
+                  filepath: file,
                 }).type || "registry:file",
               target:
-                transformer(file, {
+                transformer({
+                  cwd,
                   aliases,
+                  filepath: file,
                 }).target || file,
               content: resolvedData.content[file],
               path: file,
@@ -127,8 +137,10 @@ const main = async () => {
               inputRegistry.items?.find(
                 (item: { name?: string }) =>
                   item.name ===
-                  transformer(filepath, {
+                  transformer({
+                    cwd,
                     aliases,
+                    filepath,
                   }).name,
               ) || {},
             ).filter(

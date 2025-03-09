@@ -1,15 +1,15 @@
 import path from "node:path"
 
-export const transformer = (
-  filepath: string,
-  options: {
-    aliases?: Record<string, string>
-  } = {},
-) => {
-  filepath = options.aliases
-    ? filepath.replace(options.aliases["@/"], "")
-    : filepath
-  filepath = filepath.replace(process.cwd() + path.sep, "")
+export const transformer = ({
+  cwd,
+  aliases,
+  filepath,
+}: {
+  cwd: string
+  aliases: Record<string, string>
+  filepath: string
+}) => {
+  filepath = filepath.replace(cwd + path.sep, "")
   const transformedPath = filepath.startsWith("registry/")
     ? filepath
         .replace(/^registry\//, "")
@@ -66,9 +66,7 @@ export const transformer = (
       .replace(/\.[^\/.]+$/, ""),
     import:
       "@/" +
-      transformedPath
-        .replace(process.cwd() + path.sep, "")
-        .replace(/\.[^/.]+$/, ""),
+      transformedPath.replace(cwd + path.sep, "").replace(/\.[^/.]+$/, ""),
     target: transformedPath,
     path: filepath,
   }
