@@ -76,10 +76,8 @@ Manual maintenance of `registry.json` files can lead to errors due to missing de
 ## Table of Contents
 
 - [Usage](#usage)
-  - [Configure Alias](#configure-alias)
   - [Automatic Detection](#automatic-detection)
-  - [From Specific Files](#from-specific-files)
-  - [From Specific Directories](#from-specific-directories)
+  - [Advanced Usage](#advanced-usage)
 - [How it Works](#how-it-works)
 - [Extending Properties](#extending-properties)
   - [With zero-configuration](#with-zero-configuration)
@@ -88,6 +86,10 @@ Manual maintenance of `registry.json` files can lead to errors due to missing de
   - [External registry dependencies](#external-registry-dependencies)
   - [Specify dependency version](#specify-dependency-version)
 - [Directory Structure](#directory-structure)
+  - [For `registry` directory](#for-registry-directory)
+  - [For `registry` directory with multiple registries](#for-registry-directory-with-multiple-registries)
+  - [For `components` directory](#for-components-directory)
+  - [For `components` directory with multiple registries](#for-components-directory-with-multiple-registries)
 
 ## Usage
 
@@ -99,12 +101,16 @@ If your project contains a `registry`, `components`, or `src/components` directo
 npx smart-registry
 ```
 
+### Advanced Usage
+
+You can customize the output directory, working directory, and provide files or directories to build the registry from.
+
 ```plaintext
 Version:
-  ${name}@${version}
+  smart-registry@x.y.z
 
 Usage:
-  $ ${name} [options] [files/directories] ...
+  $ smart-registry [files/directories] ... [options]
 
 Arguments:
   files/directories    files or directories to build the registry from (optional)
@@ -119,12 +125,10 @@ Author:
   ${author.name} <${author.email}> (${author.url})
 ```
 
-### From Specific Files or Directories
-
-If you want to generate the registry from specific files or directories, you can pass them as arguments.
+e.g. To generate the registry in the `public/r` directory.
 
 ```bash
-npx smart-registry path/to/file.ts path/to/directory ...
+npx smart-registry path/to/file.ext path/to/directory ... --output public/r --cwd .
 ```
 
 ## How it Works
