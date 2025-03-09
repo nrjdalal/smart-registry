@@ -474,11 +474,11 @@ public/
 └── r/
     ├── registry.json
     └── new-york/
-        ├── toasty.json     name: new-york/toasty     target: blocks/new-york/toasty.tsx
-        ├── toaster.json    name: new-york/toaster    target: components/new-york/toaster.tsx
-        ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
-        ├── utils.json      name: new-york/utils      target: lib/new-york/utils.ts
-        └── toast.json      name: new-york/toast      target: components/ui/new-york/toast.tsx
+        ├── toasty.json     name: new-york-toasty     target: blocks/new-york/toasty.tsx
+        ├── toaster.json    name: new-york-toaster    target: components/new-york/toaster.tsx
+        ├── use-toast.json  name: new-york-use-toast  target: hooks/new-york/use-toast.ts
+        ├── utils.json      name: new-york-utils      target: lib/new-york/utils.ts
+        └── toast.json      name: new-york-toast      target: components/ui/new-york/toast.tsx
 ```
 
 ### For `components` Directory
@@ -540,9 +540,9 @@ public/
 └── r/
     ├── registry.json
     └── new-york/
-        ├── toasty.json     name: new-york/toasty     target: blocks/new-york/toasty.tsx
-        ├── toaster.json    name: new-york/toaster    target: components/new-york/toaster.tsx
-        ├── use-toast.json  name: new-york/use-toast  target: hooks/new-york/use-toast.ts
-        ├── utils.json      name: new-york/utils      target: lib/new-york/utils.ts
-        └── toast.json      name: new-york/toast      target: components/ui/new-york/toast.tsx
+        ├── toasty.json     name: new-york-toasty     target: blocks/new-york/toasty.tsx
+        ├── toaster.json    name: new-york-toaster    target: components/new-york/toaster.tsx
+        ├── use-toast.json  name: new-york-use-toast  target: hooks/new-york/use-toast.ts
+        ├── utils.json      name: new-york-utils      target: lib/new-york/utils.ts
+        └── toast.json      name: new-york-toast      target: components/ui/new-york/toast.tsx
 ```
