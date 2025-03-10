@@ -4,10 +4,30 @@
   "type": "registry:file",
   "dependencies": [
     "better-auth",
+    "drizzle-kit",
     "drizzle-orm",
+    "next",
     "postgres"
   ],
   "files": [
+    {
+      "type": "registry:component",
+      "target": "components/auth.tsx",
+      "content": "\"use client\"\n\nimport { authClient } from \"@/lib/auth/client\"\nimport { useRouter } from \"next/navigation\"\n\nexport const SignIn = () => {\n  const router = useRouter()\n\n  return (\n    <button\n      onClick={async () => {\n        await authClient.signIn.email({\n          email: \"johndoe@acme.com\",\n          password: \"JohnDoeAcmeCom\",\n        })\n        router.refresh()\n      }}\n    >\n      Sign in\n    </button>\n  )\n}\n\nexport const SignUp = () => {\n  const router = useRouter()\n\n  return (\n    <button\n      onClick={async () => {\n        await authClient.signUp.email({\n          name: \"John Doe\",\n          email: \"johndoe@acme.com\",\n          password: \"JohnDoeAcmeCom\",\n        })\n        router.refresh()\n      }}\n    >\n      Sign up\n    </button>\n  )\n}\n\nexport const SignOut = () => {\n  const router = useRouter()\n\n  return (\n    <button\n      onClick={async () => {\n        await authClient.signOut()\n        router.refresh()\n      }}\n    >\n      Sign out\n    </button>\n  )\n}\n",
+      "path": "src/components/auth.tsx"
+    },
+    {
+      "type": "registry:file",
+      "target": "~/.env.example-auth",
+      "content": "BETTER_AUTH_URL=http://localhost:3000\nBETTER_AUTH_SECRET=\nPOSTGRES_URL=\n",
+      "path": ".env.example-auth"
+    },
+    {
+      "type": "registry:file",
+      "target": "~/drizzle.config.ts",
+      "content": "import { defineConfig } from \"drizzle-kit\"\n\nexport default defineConfig({\n  dialect: \"postgresql\",\n  dbCredentials: {\n    url: process.env.POSTGRES_URL!,\n  },\n  schema: \"./src/db/schema\",\n  out: \"./src/db/migrations\",\n})\n",
+      "path": "drizzle.config.ts"
+    },
     {
       "type": "registry:file",
       "target": "app/api/auth/[...all]/route.ts",
@@ -33,10 +53,35 @@
       "path": "src/db/schema/index.ts"
     },
     {
+      "type": "registry:file",
+      "target": "middleware.ts",
+      "content": "import { getSessionCookie } from \"better-auth/cookies\"\nimport { NextRequest, NextResponse } from \"next/server\"\n\nexport async function middleware(request: NextRequest) {\n  const sessionCookie = getSessionCookie(request)\n  if (!sessionCookie) return NextResponse.redirect(new URL(\"/\", request.url))\n  return NextResponse.next()\n}\n\nexport const config = {\n  matcher: [\"/x\"],\n}\n",
+      "path": "src/middleware.ts"
+    },
+    {
+      "type": "registry:page",
+      "target": "app/(auth)/access/page.tsx",
+      "content": "import { SignIn, SignUp } from \"@/components/auth\"\nimport { auth } from \"@/lib/auth\"\nimport { headers } from \"next/headers\"\nimport { redirect } from \"next/navigation\"\n\nexport default async function ServerComponent() {\n  const session = await auth.api.getSession({\n    headers: await headers(),\n  })\n\n  if (session) redirect(\"/x\")\n\n  return (\n    <div>\n      <SignIn />\n      <SignUp />\n    </div>\n  )\n}\n",
+      "path": "src/app/(auth)/access/page.tsx"
+    },
+    {
+      "type": "registry:page",
+      "target": "app/(auth)/x/page.tsx",
+      "content": "import { SignOut } from \"@/components/auth\"\nimport { auth } from \"@/lib/auth\"\nimport { headers } from \"next/headers\"\nimport { redirect } from \"next/navigation\"\n\nexport default async function ServerComponent() {\n  const session = await auth.api.getSession({\n    headers: await headers(),\n  })\n\n  if (!session) redirect(\"/access\")\n\n  return (\n    <div>\n      <h1>Welcome {session.user.name}</h1>\n      <SignOut />\n    </div>\n  )\n}\n",
+      "path": "src/app/(auth)/x/page.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/auth/client.ts",
+      "content": "import { createAuthClient } from \"better-auth/react\"\n\nexport const authClient = createAuthClient({\n  baseURL: process.env.NEXT_PUBLIC_APP_URL!,\n})\n",
+      "path": "src/lib/auth/client.ts"
+    },
+    {
       "type": "registry:lib",
       "target": "lib/auth/index.ts",
       "content": "import { authSchema, db } from \"@/db\"\nimport { betterAuth } from \"better-auth\"\nimport { drizzleAdapter } from \"better-auth/adapters/drizzle\"\nimport { nextCookies } from \"better-auth/next-js\"\n\nexport const auth = betterAuth({\n  database: drizzleAdapter(db, {\n    provider: \"pg\",\n    schema: authSchema,\n  }),\n  emailAndPassword: {\n    enabled: true,\n  },\n  plugins: [nextCookies()],\n})\n",
       "path": "src/lib/auth/index.ts"
     }
-  ]
+  ],
+  "docs": "  --- What's next? ---\n\n  1. Rename `.env.example-auth` to `.env` and update the necessary environment variables.\n  2. Execute `npx --env-file=.env drizzle-kit push` to create PostgreSQL tables.\n  3. Start the development server with `npm run dev`.\n  4. Access http://localhost:3000/auth/access/page to test the sign-in/sign-up functionality.\n  5. Navigate to http://localhost:3000/auth/x/page to verify the protected route."
 }
