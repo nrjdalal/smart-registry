@@ -16,14 +16,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -39,14 +39,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/drawer.tsx",
           "path": "registry/ui/drawer.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -61,14 +61,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/input.tsx",
           "path": "registry/ui/input.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -82,14 +82,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/stack.tsx",
           "path": "registry/ui/stack.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -105,14 +105,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/text-effect.tsx",
           "path": "registry/ui/text-effect.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -130,14 +130,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/text-loop.tsx",
           "path": "registry/ui/text-loop.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ],
       "categories": [
@@ -157,14 +157,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/text-morph.tsx",
           "path": "registry/ui/text-morph.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -182,14 +182,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/text-type.tsx",
           "path": "registry/ui/text-type.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ],
       "categories": [

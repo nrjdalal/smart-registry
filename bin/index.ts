@@ -158,6 +158,8 @@ const main = async () => {
               } as Record<string, any>
             })
             .sort((a, b) => {
+              if (a.path === filepath) return -1
+              if (b.path === filepath) return 1
               const order = registryOrder.items.files.type.default
               return order.indexOf(a.type) - order.indexOf(b.type)
             }),

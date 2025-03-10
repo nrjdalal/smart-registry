@@ -16,14 +16,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/accordion.tsx",
           "path": "registry/default/ui/accordion.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -39,14 +39,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/alert.tsx",
           "path": "registry/default/ui/alert.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -64,14 +64,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/alert-dialog.tsx",
           "path": "registry/default/ui/alert-dialog.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -107,14 +107,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/avatar.tsx",
           "path": "registry/default/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -130,14 +130,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/badge.tsx",
           "path": "registry/default/ui/badge.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -154,14 +154,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/breadcrumb.tsx",
           "path": "registry/default/ui/breadcrumb.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -178,14 +178,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -204,6 +204,11 @@
       ],
       "files": [
         {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "lib/utils.ts"
@@ -212,11 +217,6 @@
           "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "registry/default/ui/button.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/calendar.tsx",
-          "path": "registry/default/ui/calendar.tsx"
         }
       ]
     },
@@ -231,14 +231,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/card.tsx",
           "path": "registry/default/ui/card.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -257,6 +257,11 @@
       ],
       "files": [
         {
+          "type": "registry:ui",
+          "target": "components/ui/carousel.tsx",
+          "path": "registry/default/ui/carousel.tsx"
+        },
+        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "lib/utils.ts"
@@ -265,11 +270,6 @@
           "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "registry/default/ui/button.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/carousel.tsx",
-          "path": "registry/default/ui/carousel.tsx"
         }
       ]
     },
@@ -285,14 +285,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/chart.tsx",
           "path": "registry/default/ui/chart.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -309,14 +309,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/checkbox.tsx",
           "path": "registry/default/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -349,14 +349,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/command.tsx",
           "path": "registry/default/ui/command.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -378,14 +378,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/context-menu.tsx",
           "path": "registry/default/ui/context-menu.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -402,14 +402,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/dialog.tsx",
           "path": "registry/default/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -425,14 +425,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/drawer.tsx",
           "path": "registry/default/ui/drawer.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -449,14 +449,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/dropdown-menu.tsx",
           "path": "registry/default/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -475,14 +475,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/form.tsx",
           "path": "registry/default/ui/form.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -503,14 +503,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/hover-card.tsx",
           "path": "registry/default/ui/hover-card.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -525,14 +525,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/input.tsx",
           "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -549,14 +549,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/input-otp.tsx",
           "path": "registry/default/ui/input-otp.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -573,14 +573,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/label.tsx",
           "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -597,14 +597,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/menubar.tsx",
           "path": "registry/default/ui/menubar.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -622,14 +622,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/navigation-menu.tsx",
           "path": "registry/default/ui/navigation-menu.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -646,14 +646,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/accordion.tsx",
           "path": "registry/new-york/ui/accordion.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -669,14 +669,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/alert.tsx",
           "path": "registry/new-york/ui/alert.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -694,14 +694,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/alert-dialog.tsx",
           "path": "registry/new-york/ui/alert-dialog.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -737,14 +737,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/avatar.tsx",
           "path": "registry/new-york/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -760,14 +760,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/badge.tsx",
           "path": "registry/new-york/ui/badge.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -784,14 +784,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/breadcrumb.tsx",
           "path": "registry/new-york/ui/breadcrumb.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -808,14 +808,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/button.tsx",
           "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -834,6 +834,11 @@
       ],
       "files": [
         {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "lib/utils.ts"
@@ -842,11 +847,6 @@
           "type": "registry:ui",
           "target": "components/ui/new-york/button.tsx",
           "path": "registry/new-york/ui/button.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/new-york/calendar.tsx",
-          "path": "registry/new-york/ui/calendar.tsx"
         }
       ]
     },
@@ -861,14 +861,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/card.tsx",
           "path": "registry/new-york/ui/card.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -887,6 +887,11 @@
       ],
       "files": [
         {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/carousel.tsx",
+          "path": "registry/new-york/ui/carousel.tsx"
+        },
+        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "lib/utils.ts"
@@ -895,11 +900,6 @@
           "type": "registry:ui",
           "target": "components/ui/new-york/button.tsx",
           "path": "registry/new-york/ui/button.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/new-york/carousel.tsx",
-          "path": "registry/new-york/ui/carousel.tsx"
         }
       ]
     },
@@ -915,14 +915,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/chart.tsx",
           "path": "registry/new-york/ui/chart.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -939,14 +939,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/checkbox.tsx",
           "path": "registry/new-york/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -979,14 +979,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/command.tsx",
           "path": "registry/new-york/ui/command.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1008,14 +1008,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/context-menu.tsx",
           "path": "registry/new-york/ui/context-menu.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1032,14 +1032,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/dialog.tsx",
           "path": "registry/new-york/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1055,14 +1055,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/drawer.tsx",
           "path": "registry/new-york/ui/drawer.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1079,14 +1079,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/dropdown-menu.tsx",
           "path": "registry/new-york/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1105,14 +1105,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/form.tsx",
           "path": "registry/new-york/ui/form.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1133,14 +1133,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/hover-card.tsx",
           "path": "registry/new-york/ui/hover-card.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1155,14 +1155,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/input.tsx",
           "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1179,14 +1179,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/input-otp.tsx",
           "path": "registry/new-york/ui/input-otp.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1203,14 +1203,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/label.tsx",
           "path": "registry/new-york/ui/label.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1227,14 +1227,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/menubar.tsx",
           "path": "registry/new-york/ui/menubar.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1252,14 +1252,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/navigation-menu.tsx",
           "path": "registry/new-york/ui/navigation-menu.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1277,6 +1277,11 @@
       ],
       "files": [
         {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/pagination.tsx",
+          "path": "registry/new-york/ui/pagination.tsx"
+        },
+        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "lib/utils.ts"
@@ -1285,11 +1290,6 @@
           "type": "registry:ui",
           "target": "components/ui/new-york/button.tsx",
           "path": "registry/new-york/ui/button.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/new-york/pagination.tsx",
-          "path": "registry/new-york/ui/pagination.tsx"
         }
       ]
     },
@@ -1305,14 +1305,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/popover.tsx",
           "path": "registry/new-york/ui/popover.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1328,14 +1328,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/progress.tsx",
           "path": "registry/new-york/ui/progress.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1352,14 +1352,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/radio-group.tsx",
           "path": "registry/new-york/ui/radio-group.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1375,14 +1375,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/resizable.tsx",
           "path": "registry/new-york/ui/resizable.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1398,14 +1398,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/scroll-area.tsx",
           "path": "registry/new-york/ui/scroll-area.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1422,14 +1422,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/select.tsx",
           "path": "registry/new-york/ui/select.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1445,14 +1445,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/separator.tsx",
           "path": "registry/new-york/ui/separator.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1470,14 +1470,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/sheet.tsx",
           "path": "registry/new-york/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1497,6 +1497,11 @@
         "tailwind-merge"
       ],
       "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sidebar.tsx",
+          "path": "registry/new-york/ui/sidebar.tsx"
+        },
         {
           "type": "registry:lib",
           "target": "lib/utils.ts",
@@ -1534,11 +1539,6 @@
         },
         {
           "type": "registry:ui",
-          "target": "components/ui/new-york/sidebar.tsx",
-          "path": "registry/new-york/ui/sidebar.tsx"
-        },
-        {
-          "type": "registry:ui",
           "target": "components/ui/new-york/skeleton.tsx",
           "path": "registry/new-york/ui/skeleton.tsx"
         },
@@ -1559,14 +1559,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/skeleton.tsx",
           "path": "registry/new-york/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1582,14 +1582,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/slider.tsx",
           "path": "registry/new-york/ui/slider.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1621,14 +1621,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/switch.tsx",
           "path": "registry/new-york/ui/switch.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1643,14 +1643,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/table.tsx",
           "path": "registry/new-york/ui/table.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1666,14 +1666,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/tabs.tsx",
           "path": "registry/new-york/ui/tabs.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1688,14 +1688,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/textarea.tsx",
           "path": "registry/new-york/ui/textarea.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1713,14 +1713,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/toast.tsx",
           "path": "registry/new-york/ui/toast.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1738,6 +1738,11 @@
       ],
       "files": [
         {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/toaster.tsx",
+          "path": "registry/new-york/ui/toaster.tsx"
+        },
+        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "lib/utils.ts"
@@ -1751,11 +1756,6 @@
           "type": "registry:ui",
           "target": "components/ui/new-york/toast.tsx",
           "path": "registry/new-york/ui/toast.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/new-york/toaster.tsx",
-          "path": "registry/new-york/ui/toaster.tsx"
         }
       ]
     },
@@ -1772,14 +1772,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/toggle.tsx",
           "path": "registry/new-york/ui/toggle.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1797,14 +1797,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/toggle-group.tsx",
           "path": "registry/new-york/ui/toggle-group.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1825,14 +1825,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/new-york/tooltip.tsx",
           "path": "registry/new-york/ui/tooltip.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1850,6 +1850,11 @@
       ],
       "files": [
         {
+          "type": "registry:ui",
+          "target": "components/ui/pagination.tsx",
+          "path": "registry/default/ui/pagination.tsx"
+        },
+        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "lib/utils.ts"
@@ -1858,11 +1863,6 @@
           "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "registry/default/ui/button.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/pagination.tsx",
-          "path": "registry/default/ui/pagination.tsx"
         }
       ]
     },
@@ -1878,14 +1878,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/popover.tsx",
           "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1901,14 +1901,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/progress.tsx",
           "path": "registry/default/ui/progress.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1925,14 +1925,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/radio-group.tsx",
           "path": "registry/default/ui/radio-group.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1948,14 +1948,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/resizable.tsx",
           "path": "registry/default/ui/resizable.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1971,14 +1971,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/scroll-area.tsx",
           "path": "registry/default/ui/scroll-area.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1995,14 +1995,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/select.tsx",
           "path": "registry/default/ui/select.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2018,14 +2018,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/separator.tsx",
           "path": "registry/default/ui/separator.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2043,14 +2043,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/sheet.tsx",
           "path": "registry/default/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2070,6 +2070,11 @@
         "tailwind-merge"
       ],
       "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
+          "path": "registry/default/ui/sidebar.tsx"
+        },
         {
           "type": "registry:lib",
           "target": "lib/utils.ts",
@@ -2107,11 +2112,6 @@
         },
         {
           "type": "registry:ui",
-          "target": "components/ui/sidebar.tsx",
-          "path": "registry/default/ui/sidebar.tsx"
-        },
-        {
-          "type": "registry:ui",
           "target": "components/ui/skeleton.tsx",
           "path": "registry/default/ui/skeleton.tsx"
         },
@@ -2132,14 +2132,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/skeleton.tsx",
           "path": "registry/default/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2155,14 +2155,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/slider.tsx",
           "path": "registry/default/ui/slider.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2194,14 +2194,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/switch.tsx",
           "path": "registry/default/ui/switch.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2216,14 +2216,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/table.tsx",
           "path": "registry/default/ui/table.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2239,14 +2239,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/tabs.tsx",
           "path": "registry/default/ui/tabs.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2261,14 +2261,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/textarea.tsx",
           "path": "registry/default/ui/textarea.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2286,14 +2286,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/toast.tsx",
           "path": "registry/default/ui/toast.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2311,6 +2311,11 @@
       ],
       "files": [
         {
+          "type": "registry:ui",
+          "target": "components/ui/toaster.tsx",
+          "path": "registry/default/ui/toaster.tsx"
+        },
+        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "lib/utils.ts"
@@ -2324,11 +2329,6 @@
           "type": "registry:ui",
           "target": "components/ui/toast.tsx",
           "path": "registry/default/ui/toast.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/toaster.tsx",
-          "path": "registry/default/ui/toaster.tsx"
         }
       ]
     },
@@ -2345,14 +2345,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/toggle.tsx",
           "path": "registry/default/ui/toggle.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2370,14 +2370,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/toggle-group.tsx",
           "path": "registry/default/ui/toggle-group.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2398,14 +2398,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "registry/default/ui/tooltip.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2438,14 +2438,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/new-york/use-toast.ts",
           "path": "registry/new-york/hooks/use-toast.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2483,14 +2483,14 @@
       ],
       "files": [
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/use-toast.ts",
           "path": "registry/default/hooks/use-toast.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2580,6 +2580,11 @@
         "vaul"
       ],
       "files": [
+        {
+          "type": "registry:page",
+          "target": "internal/sink/page.tsx",
+          "path": "registry/default/internal/sink/page.tsx"
+        },
         {
           "type": "registry:block",
           "target": "blocks/sidebar-07/components/nav-main.tsx",
@@ -2906,11 +2911,6 @@
           "path": "registry/default/internal/sink/components/tooltip-demo.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "internal/sink/page.tsx",
-          "path": "registry/default/internal/sink/page.tsx"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "lib/utils.ts"
@@ -3166,14 +3166,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/login-01/components/login-form.tsx",
-          "path": "registry/default/blocks/login-01/components/login-form.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/login-01/page.tsx",
           "path": "registry/default/blocks/login-01/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/login-01/components/login-form.tsx",
+          "path": "registry/default/blocks/login-01/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
@@ -3222,14 +3222,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/login-02/components/login-form.tsx",
-          "path": "registry/default/blocks/login-02/components/login-form.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/login-02/page.tsx",
           "path": "registry/default/blocks/login-02/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/login-02/components/login-form.tsx",
+          "path": "registry/default/blocks/login-02/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
@@ -3273,14 +3273,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/login-03/components/login-form.tsx",
-          "path": "registry/default/blocks/login-03/components/login-form.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/login-03/page.tsx",
           "path": "registry/default/blocks/login-03/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/login-03/components/login-form.tsx",
+          "path": "registry/default/blocks/login-03/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
@@ -3328,14 +3328,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/login-04/components/login-form.tsx",
-          "path": "registry/default/blocks/login-04/components/login-form.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/login-04/page.tsx",
           "path": "registry/default/blocks/login-04/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/login-04/components/login-form.tsx",
+          "path": "registry/default/blocks/login-04/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
@@ -3384,14 +3384,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/login-05/components/login-form.tsx",
-          "path": "registry/default/blocks/login-05/components/login-form.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/login-05/page.tsx",
           "path": "registry/default/blocks/login-05/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/login-05/components/login-form.tsx",
+          "path": "registry/default/blocks/login-05/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
@@ -3469,6 +3469,11 @@
         "vaul"
       ],
       "files": [
+        {
+          "type": "registry:page",
+          "target": "new-york/internal/sink/page.tsx",
+          "path": "registry/new-york/internal/sink/page.tsx"
+        },
         {
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-07/components/nav-main.tsx",
@@ -3795,11 +3800,6 @@
           "path": "registry/new-york/internal/sink/components/tooltip-demo.tsx"
         },
         {
-          "type": "registry:page",
-          "target": "new-york/internal/sink/page.tsx",
-          "path": "registry/new-york/internal/sink/page.tsx"
-        },
-        {
           "type": "registry:lib",
           "target": "lib/utils.ts",
           "path": "lib/utils.ts"
@@ -4055,14 +4055,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/new-york/login-01/components/login-form.tsx",
-          "path": "registry/new-york/blocks/login-01/components/login-form.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/new-york/login-01/page.tsx",
           "path": "registry/new-york/blocks/login-01/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/login-01/components/login-form.tsx",
+          "path": "registry/new-york/blocks/login-01/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
@@ -4111,14 +4111,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/new-york/login-02/components/login-form.tsx",
-          "path": "registry/new-york/blocks/login-02/components/login-form.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/new-york/login-02/page.tsx",
           "path": "registry/new-york/blocks/login-02/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/login-02/components/login-form.tsx",
+          "path": "registry/new-york/blocks/login-02/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
@@ -4162,14 +4162,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/new-york/login-03/components/login-form.tsx",
-          "path": "registry/new-york/blocks/login-03/components/login-form.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/new-york/login-03/page.tsx",
           "path": "registry/new-york/blocks/login-03/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/login-03/components/login-form.tsx",
+          "path": "registry/new-york/blocks/login-03/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
@@ -4217,14 +4217,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/new-york/login-04/components/login-form.tsx",
-          "path": "registry/new-york/blocks/login-04/components/login-form.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/new-york/login-04/page.tsx",
           "path": "registry/new-york/blocks/login-04/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/login-04/components/login-form.tsx",
+          "path": "registry/new-york/blocks/login-04/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
@@ -4273,14 +4273,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/new-york/login-05/components/login-form.tsx",
-          "path": "registry/new-york/blocks/login-05/components/login-form.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/new-york/login-05/page.tsx",
           "path": "registry/new-york/blocks/login-05/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/login-05/components/login-form.tsx",
+          "path": "registry/new-york/blocks/login-05/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
@@ -4328,6 +4328,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/new-york/sidebar-01/page.tsx",
+          "path": "registry/new-york/blocks/sidebar-01/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-01/components/app-sidebar.tsx",
           "path": "registry/new-york/blocks/sidebar-01/components/app-sidebar.tsx"
@@ -4341,11 +4346,6 @@
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-01/components/version-switcher.tsx",
           "path": "registry/new-york/blocks/sidebar-01/components/version-switcher.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york/sidebar-01/page.tsx",
-          "path": "registry/new-york/blocks/sidebar-01/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -4434,6 +4434,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/new-york/sidebar-02/page.tsx",
+          "path": "registry/new-york/blocks/sidebar-02/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-02/components/app-sidebar.tsx",
           "path": "registry/new-york/blocks/sidebar-02/components/app-sidebar.tsx"
@@ -4447,11 +4452,6 @@
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-02/components/version-switcher.tsx",
           "path": "registry/new-york/blocks/sidebar-02/components/version-switcher.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york/sidebar-02/page.tsx",
-          "path": "registry/new-york/blocks/sidebar-02/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -4542,14 +4542,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/new-york/sidebar-03/components/app-sidebar.tsx",
-          "path": "registry/new-york/blocks/sidebar-03/components/app-sidebar.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/new-york/sidebar-03/page.tsx",
           "path": "registry/new-york/blocks/sidebar-03/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/sidebar-03/components/app-sidebar.tsx",
+          "path": "registry/new-york/blocks/sidebar-03/components/app-sidebar.tsx"
         },
         {
           "type": "registry:lib",
@@ -4625,14 +4625,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/new-york/sidebar-04/components/app-sidebar.tsx",
-          "path": "registry/new-york/blocks/sidebar-04/components/app-sidebar.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/new-york/sidebar-04/page.tsx",
           "path": "registry/new-york/blocks/sidebar-04/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/sidebar-04/components/app-sidebar.tsx",
+          "path": "registry/new-york/blocks/sidebar-04/components/app-sidebar.tsx"
         },
         {
           "type": "registry:lib",
@@ -4710,6 +4710,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/new-york/sidebar-05/page.tsx",
+          "path": "registry/new-york/blocks/sidebar-05/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-05/components/app-sidebar.tsx",
           "path": "registry/new-york/blocks/sidebar-05/components/app-sidebar.tsx"
@@ -4718,11 +4723,6 @@
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-05/components/search-form.tsx",
           "path": "registry/new-york/blocks/sidebar-05/components/search-form.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york/sidebar-05/page.tsx",
-          "path": "registry/new-york/blocks/sidebar-05/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -4809,6 +4809,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/new-york/sidebar-06/page.tsx",
+          "path": "registry/new-york/blocks/sidebar-06/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-06/components/app-sidebar.tsx",
           "path": "registry/new-york/blocks/sidebar-06/components/app-sidebar.tsx"
@@ -4822,11 +4827,6 @@
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-06/components/sidebar-opt-in-form.tsx",
           "path": "registry/new-york/blocks/sidebar-06/components/sidebar-opt-in-form.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york/sidebar-06/page.tsx",
-          "path": "registry/new-york/blocks/sidebar-06/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -4915,6 +4915,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/new-york/sidebar-07/page.tsx",
+          "path": "registry/new-york/blocks/sidebar-07/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-07/components/app-sidebar.tsx",
           "path": "registry/new-york/blocks/sidebar-07/components/app-sidebar.tsx"
@@ -4938,11 +4943,6 @@
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-07/components/team-switcher.tsx",
           "path": "registry/new-york/blocks/sidebar-07/components/team-switcher.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york/sidebar-07/page.tsx",
-          "path": "registry/new-york/blocks/sidebar-07/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -5036,6 +5036,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/new-york/sidebar-08/page.tsx",
+          "path": "registry/new-york/blocks/sidebar-08/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-08/components/app-sidebar.tsx",
           "path": "registry/new-york/blocks/sidebar-08/components/app-sidebar.tsx"
@@ -5059,11 +5064,6 @@
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-08/components/nav-user.tsx",
           "path": "registry/new-york/blocks/sidebar-08/components/nav-user.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york/sidebar-08/page.tsx",
-          "path": "registry/new-york/blocks/sidebar-08/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -5158,6 +5158,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/new-york/sidebar-09/page.tsx",
+          "path": "registry/new-york/blocks/sidebar-09/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-09/components/app-sidebar.tsx",
           "path": "registry/new-york/blocks/sidebar-09/components/app-sidebar.tsx"
@@ -5166,11 +5171,6 @@
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-09/components/nav-user.tsx",
           "path": "registry/new-york/blocks/sidebar-09/components/nav-user.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york/sidebar-09/page.tsx",
-          "path": "registry/new-york/blocks/sidebar-09/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -5269,6 +5269,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/new-york/sidebar-10/page.tsx",
+          "path": "registry/new-york/blocks/sidebar-10/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-10/components/app-sidebar.tsx",
           "path": "registry/new-york/blocks/sidebar-10/components/app-sidebar.tsx"
@@ -5302,11 +5307,6 @@
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-10/components/team-switcher.tsx",
           "path": "registry/new-york/blocks/sidebar-10/components/team-switcher.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york/sidebar-10/page.tsx",
-          "path": "registry/new-york/blocks/sidebar-10/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -5398,14 +5398,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/new-york/sidebar-11/components/app-sidebar.tsx",
-          "path": "registry/new-york/blocks/sidebar-11/components/app-sidebar.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/new-york/sidebar-11/page.tsx",
           "path": "registry/new-york/blocks/sidebar-11/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/sidebar-11/components/app-sidebar.tsx",
+          "path": "registry/new-york/blocks/sidebar-11/components/app-sidebar.tsx"
         },
         {
           "type": "registry:lib",
@@ -5490,6 +5490,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/new-york/sidebar-12/page.tsx",
+          "path": "registry/new-york/blocks/sidebar-12/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-12/components/app-sidebar.tsx",
           "path": "registry/new-york/blocks/sidebar-12/components/app-sidebar.tsx"
@@ -5508,11 +5513,6 @@
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-12/components/nav-user.tsx",
           "path": "registry/new-york/blocks/sidebar-12/components/nav-user.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york/sidebar-12/page.tsx",
-          "path": "registry/new-york/blocks/sidebar-12/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -5608,14 +5608,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/new-york/sidebar-13/components/settings-dialog.tsx",
-          "path": "registry/new-york/blocks/sidebar-13/components/settings-dialog.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/new-york/sidebar-13/page.tsx",
           "path": "registry/new-york/blocks/sidebar-13/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/sidebar-13/components/settings-dialog.tsx",
+          "path": "registry/new-york/blocks/sidebar-13/components/settings-dialog.tsx"
         },
         {
           "type": "registry:lib",
@@ -5696,14 +5696,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/new-york/sidebar-14/components/app-sidebar.tsx",
-          "path": "registry/new-york/blocks/sidebar-14/components/app-sidebar.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/new-york/sidebar-14/page.tsx",
           "path": "registry/new-york/blocks/sidebar-14/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/sidebar-14/components/app-sidebar.tsx",
+          "path": "registry/new-york/blocks/sidebar-14/components/app-sidebar.tsx"
         },
         {
           "type": "registry:lib",
@@ -5783,6 +5783,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/new-york/sidebar-15/page.tsx",
+          "path": "registry/new-york/blocks/sidebar-15/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-15/components/calendars.tsx",
           "path": "registry/new-york/blocks/sidebar-15/components/calendars.tsx"
@@ -5831,11 +5836,6 @@
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-15/components/team-switcher.tsx",
           "path": "registry/new-york/blocks/sidebar-15/components/team-switcher.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york/sidebar-15/page.tsx",
-          "path": "registry/new-york/blocks/sidebar-15/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -5935,6 +5935,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/new-york/sidebar-16/page.tsx",
+          "path": "registry/new-york/blocks/sidebar-16/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-16/components/app-sidebar.tsx",
           "path": "registry/new-york/blocks/sidebar-16/components/app-sidebar.tsx"
@@ -5968,11 +5973,6 @@
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-16/components/site-header.tsx",
           "path": "registry/new-york/blocks/sidebar-16/components/site-header.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/new-york/sidebar-16/page.tsx",
-          "path": "registry/new-york/blocks/sidebar-16/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -6070,6 +6070,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/sidebar-01/page.tsx",
+          "path": "registry/default/blocks/sidebar-01/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/sidebar-01/components/app-sidebar.tsx",
           "path": "registry/default/blocks/sidebar-01/components/app-sidebar.tsx"
@@ -6083,11 +6088,6 @@
           "type": "registry:block",
           "target": "blocks/sidebar-01/components/version-switcher.tsx",
           "path": "registry/default/blocks/sidebar-01/components/version-switcher.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/sidebar-01/page.tsx",
-          "path": "registry/default/blocks/sidebar-01/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -6176,6 +6176,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/sidebar-02/page.tsx",
+          "path": "registry/default/blocks/sidebar-02/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/sidebar-02/components/app-sidebar.tsx",
           "path": "registry/default/blocks/sidebar-02/components/app-sidebar.tsx"
@@ -6189,11 +6194,6 @@
           "type": "registry:block",
           "target": "blocks/sidebar-02/components/version-switcher.tsx",
           "path": "registry/default/blocks/sidebar-02/components/version-switcher.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/sidebar-02/page.tsx",
-          "path": "registry/default/blocks/sidebar-02/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -6284,14 +6284,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/sidebar-03/components/app-sidebar.tsx",
-          "path": "registry/default/blocks/sidebar-03/components/app-sidebar.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/sidebar-03/page.tsx",
           "path": "registry/default/blocks/sidebar-03/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/sidebar-03/components/app-sidebar.tsx",
+          "path": "registry/default/blocks/sidebar-03/components/app-sidebar.tsx"
         },
         {
           "type": "registry:lib",
@@ -6367,14 +6367,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/sidebar-04/components/app-sidebar.tsx",
-          "path": "registry/default/blocks/sidebar-04/components/app-sidebar.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/sidebar-04/page.tsx",
           "path": "registry/default/blocks/sidebar-04/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/sidebar-04/components/app-sidebar.tsx",
+          "path": "registry/default/blocks/sidebar-04/components/app-sidebar.tsx"
         },
         {
           "type": "registry:lib",
@@ -6452,6 +6452,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/sidebar-05/page.tsx",
+          "path": "registry/default/blocks/sidebar-05/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/sidebar-05/components/app-sidebar.tsx",
           "path": "registry/default/blocks/sidebar-05/components/app-sidebar.tsx"
@@ -6460,11 +6465,6 @@
           "type": "registry:block",
           "target": "blocks/sidebar-05/components/search-form.tsx",
           "path": "registry/default/blocks/sidebar-05/components/search-form.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/sidebar-05/page.tsx",
-          "path": "registry/default/blocks/sidebar-05/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -6551,6 +6551,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/sidebar-06/page.tsx",
+          "path": "registry/default/blocks/sidebar-06/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/sidebar-06/components/app-sidebar.tsx",
           "path": "registry/default/blocks/sidebar-06/components/app-sidebar.tsx"
@@ -6564,11 +6569,6 @@
           "type": "registry:block",
           "target": "blocks/sidebar-06/components/sidebar-opt-in-form.tsx",
           "path": "registry/default/blocks/sidebar-06/components/sidebar-opt-in-form.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/sidebar-06/page.tsx",
-          "path": "registry/default/blocks/sidebar-06/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -6657,6 +6657,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/sidebar-07/page.tsx",
+          "path": "registry/default/blocks/sidebar-07/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/sidebar-07/components/app-sidebar.tsx",
           "path": "registry/default/blocks/sidebar-07/components/app-sidebar.tsx"
@@ -6680,11 +6685,6 @@
           "type": "registry:block",
           "target": "blocks/sidebar-07/components/team-switcher.tsx",
           "path": "registry/default/blocks/sidebar-07/components/team-switcher.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/sidebar-07/page.tsx",
-          "path": "registry/default/blocks/sidebar-07/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -6778,6 +6778,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/sidebar-08/page.tsx",
+          "path": "registry/default/blocks/sidebar-08/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/sidebar-08/components/app-sidebar.tsx",
           "path": "registry/default/blocks/sidebar-08/components/app-sidebar.tsx"
@@ -6801,11 +6806,6 @@
           "type": "registry:block",
           "target": "blocks/sidebar-08/components/nav-user.tsx",
           "path": "registry/default/blocks/sidebar-08/components/nav-user.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/sidebar-08/page.tsx",
-          "path": "registry/default/blocks/sidebar-08/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -6900,6 +6900,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/sidebar-09/page.tsx",
+          "path": "registry/default/blocks/sidebar-09/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/sidebar-09/components/app-sidebar.tsx",
           "path": "registry/default/blocks/sidebar-09/components/app-sidebar.tsx"
@@ -6908,11 +6913,6 @@
           "type": "registry:block",
           "target": "blocks/sidebar-09/components/nav-user.tsx",
           "path": "registry/default/blocks/sidebar-09/components/nav-user.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/sidebar-09/page.tsx",
-          "path": "registry/default/blocks/sidebar-09/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -7011,6 +7011,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/sidebar-10/page.tsx",
+          "path": "registry/default/blocks/sidebar-10/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/sidebar-10/components/app-sidebar.tsx",
           "path": "registry/default/blocks/sidebar-10/components/app-sidebar.tsx"
@@ -7044,11 +7049,6 @@
           "type": "registry:block",
           "target": "blocks/sidebar-10/components/team-switcher.tsx",
           "path": "registry/default/blocks/sidebar-10/components/team-switcher.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/sidebar-10/page.tsx",
-          "path": "registry/default/blocks/sidebar-10/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -7140,14 +7140,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/sidebar-11/components/app-sidebar.tsx",
-          "path": "registry/default/blocks/sidebar-11/components/app-sidebar.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/sidebar-11/page.tsx",
           "path": "registry/default/blocks/sidebar-11/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/sidebar-11/components/app-sidebar.tsx",
+          "path": "registry/default/blocks/sidebar-11/components/app-sidebar.tsx"
         },
         {
           "type": "registry:lib",
@@ -7232,6 +7232,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/sidebar-12/page.tsx",
+          "path": "registry/default/blocks/sidebar-12/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/sidebar-12/components/app-sidebar.tsx",
           "path": "registry/default/blocks/sidebar-12/components/app-sidebar.tsx"
@@ -7250,11 +7255,6 @@
           "type": "registry:block",
           "target": "blocks/sidebar-12/components/nav-user.tsx",
           "path": "registry/default/blocks/sidebar-12/components/nav-user.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/sidebar-12/page.tsx",
-          "path": "registry/default/blocks/sidebar-12/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -7350,14 +7350,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/sidebar-13/components/settings-dialog.tsx",
-          "path": "registry/default/blocks/sidebar-13/components/settings-dialog.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/sidebar-13/page.tsx",
           "path": "registry/default/blocks/sidebar-13/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/sidebar-13/components/settings-dialog.tsx",
+          "path": "registry/default/blocks/sidebar-13/components/settings-dialog.tsx"
         },
         {
           "type": "registry:lib",
@@ -7438,14 +7438,14 @@
       ],
       "files": [
         {
-          "type": "registry:block",
-          "target": "blocks/sidebar-14/components/app-sidebar.tsx",
-          "path": "registry/default/blocks/sidebar-14/components/app-sidebar.tsx"
-        },
-        {
           "type": "registry:page",
           "target": "blocks/sidebar-14/page.tsx",
           "path": "registry/default/blocks/sidebar-14/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/sidebar-14/components/app-sidebar.tsx",
+          "path": "registry/default/blocks/sidebar-14/components/app-sidebar.tsx"
         },
         {
           "type": "registry:lib",
@@ -7525,6 +7525,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/sidebar-15/page.tsx",
+          "path": "registry/default/blocks/sidebar-15/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/sidebar-15/components/calendars.tsx",
           "path": "registry/default/blocks/sidebar-15/components/calendars.tsx"
@@ -7573,11 +7578,6 @@
           "type": "registry:block",
           "target": "blocks/sidebar-15/components/team-switcher.tsx",
           "path": "registry/default/blocks/sidebar-15/components/team-switcher.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/sidebar-15/page.tsx",
-          "path": "registry/default/blocks/sidebar-15/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -7677,6 +7677,11 @@
       ],
       "files": [
         {
+          "type": "registry:page",
+          "target": "blocks/sidebar-16/page.tsx",
+          "path": "registry/default/blocks/sidebar-16/page.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/sidebar-16/components/app-sidebar.tsx",
           "path": "registry/default/blocks/sidebar-16/components/app-sidebar.tsx"
@@ -7710,11 +7715,6 @@
           "type": "registry:block",
           "target": "blocks/sidebar-16/components/site-header.tsx",
           "path": "registry/default/blocks/sidebar-16/components/site-header.tsx"
-        },
-        {
-          "type": "registry:page",
-          "target": "blocks/sidebar-16/page.tsx",
-          "path": "registry/default/blocks/sidebar-16/page.tsx"
         },
         {
           "type": "registry:lib",
@@ -11016,14 +11016,14 @@
       ],
       "files": [
         {
-          "type": "registry:component",
-          "target": "components/icons.tsx",
-          "path": "components/icons.tsx"
-        },
-        {
           "type": "registry:file",
           "target": "examples/navigation-menu-demo.tsx",
           "path": "registry/default/examples/navigation-menu-demo.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "components/icons.tsx"
         },
         {
           "type": "registry:lib",
@@ -15531,6 +15531,11 @@
       ],
       "files": [
         {
+          "type": "registry:file",
+          "target": "internal/sink/components/app-sidebar.tsx",
+          "path": "registry/default/internal/sink/components/app-sidebar.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/sidebar-07/components/nav-main.tsx",
           "path": "registry/default/blocks/sidebar-07/components/nav-main.tsx"
@@ -15549,11 +15554,6 @@
           "type": "registry:block",
           "target": "blocks/sidebar-07/components/team-switcher.tsx",
           "path": "registry/default/blocks/sidebar-07/components/team-switcher.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "internal/sink/components/app-sidebar.tsx",
-          "path": "registry/default/internal/sink/components/app-sidebar.tsx"
         },
         {
           "type": "registry:lib",
@@ -20969,14 +20969,14 @@
       ],
       "files": [
         {
-          "type": "registry:component",
-          "target": "components/icons.tsx",
-          "path": "components/icons.tsx"
-        },
-        {
           "type": "registry:file",
           "target": "new-york/examples/navigation-menu-demo.tsx",
           "path": "registry/new-york/examples/navigation-menu-demo.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "components/icons.tsx"
         },
         {
           "type": "registry:lib",
@@ -24931,14 +24931,14 @@
       ],
       "files": [
         {
-          "type": "registry:component",
-          "target": "components/icons.tsx",
-          "path": "components/icons.tsx"
-        },
-        {
           "type": "registry:file",
           "target": "new-york/internal/sidebar-16.tsx",
           "path": "registry/new-york/internal/sidebar-16.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "components/icons.tsx"
         },
         {
           "type": "registry:lib",
@@ -26110,6 +26110,11 @@
       ],
       "files": [
         {
+          "type": "registry:file",
+          "target": "new-york/internal/sink/components/app-sidebar.tsx",
+          "path": "registry/new-york/internal/sink/components/app-sidebar.tsx"
+        },
+        {
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-07/components/nav-main.tsx",
           "path": "registry/new-york/blocks/sidebar-07/components/nav-main.tsx"
@@ -26128,11 +26133,6 @@
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-07/components/team-switcher.tsx",
           "path": "registry/new-york/blocks/sidebar-07/components/team-switcher.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "new-york/internal/sink/components/app-sidebar.tsx",
-          "path": "registry/new-york/internal/sink/components/app-sidebar.tsx"
         },
         {
           "type": "registry:lib",
@@ -28445,14 +28445,14 @@
       ],
       "files": [
         {
-          "type": "registry:component",
-          "target": "components/icons.tsx",
-          "path": "components/icons.tsx"
-        },
-        {
           "type": "registry:file",
           "target": "new-york/v0/sidebar-16.tsx",
           "path": "registry/new-york/v0/sidebar-16.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "components/icons.tsx"
         },
         {
           "type": "registry:lib",
@@ -28733,14 +28733,14 @@
       ],
       "files": [
         {
-          "type": "registry:component",
-          "target": "components/icons.tsx",
-          "path": "components/icons.tsx"
-        },
-        {
           "type": "registry:file",
           "target": "v0/sidebar-16.tsx",
           "path": "registry/default/v0/sidebar-16.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "components/icons.tsx"
         },
         {
           "type": "registry:lib",
@@ -37917,6 +37917,11 @@
       "files": [
         {
           "type": "registry:block",
+          "target": "blocks/new-york/sidebar-15/components/sidebar-left.tsx",
+          "path": "registry/new-york/blocks/sidebar-15/components/sidebar-left.tsx"
+        },
+        {
+          "type": "registry:block",
           "target": "blocks/new-york/sidebar-15/components/nav-favorites.tsx",
           "path": "registry/new-york/blocks/sidebar-15/components/nav-favorites.tsx"
         },
@@ -37934,11 +37939,6 @@
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-15/components/nav-workspaces.tsx",
           "path": "registry/new-york/blocks/sidebar-15/components/nav-workspaces.tsx"
-        },
-        {
-          "type": "registry:block",
-          "target": "blocks/new-york/sidebar-15/components/sidebar-left.tsx",
-          "path": "registry/new-york/blocks/sidebar-15/components/sidebar-left.tsx"
         },
         {
           "type": "registry:block",
@@ -38029,6 +38029,11 @@
       "files": [
         {
           "type": "registry:block",
+          "target": "blocks/new-york/sidebar-15/components/sidebar-right.tsx",
+          "path": "registry/new-york/blocks/sidebar-15/components/sidebar-right.tsx"
+        },
+        {
+          "type": "registry:block",
           "target": "blocks/new-york/sidebar-15/components/calendars.tsx",
           "path": "registry/new-york/blocks/sidebar-15/components/calendars.tsx"
         },
@@ -38041,11 +38046,6 @@
           "type": "registry:block",
           "target": "blocks/new-york/sidebar-15/components/nav-user.tsx",
           "path": "registry/new-york/blocks/sidebar-15/components/nav-user.tsx"
-        },
-        {
-          "type": "registry:block",
-          "target": "blocks/new-york/sidebar-15/components/sidebar-right.tsx",
-          "path": "registry/new-york/blocks/sidebar-15/components/sidebar-right.tsx"
         },
         {
           "type": "registry:lib",
@@ -38723,13 +38723,13 @@
       "files": [
         {
           "type": "registry:block",
-          "target": "blocks/new-york/sidebar-16/components/search-form.tsx",
-          "path": "registry/new-york/blocks/sidebar-16/components/search-form.tsx"
+          "target": "blocks/new-york/sidebar-16/components/site-header.tsx",
+          "path": "registry/new-york/blocks/sidebar-16/components/site-header.tsx"
         },
         {
           "type": "registry:block",
-          "target": "blocks/new-york/sidebar-16/components/site-header.tsx",
-          "path": "registry/new-york/blocks/sidebar-16/components/site-header.tsx"
+          "target": "blocks/new-york/sidebar-16/components/search-form.tsx",
+          "path": "registry/new-york/blocks/sidebar-16/components/search-form.tsx"
         },
         {
           "type": "registry:lib",
@@ -42647,6 +42647,11 @@
       "files": [
         {
           "type": "registry:block",
+          "target": "blocks/sidebar-15/components/sidebar-left.tsx",
+          "path": "registry/default/blocks/sidebar-15/components/sidebar-left.tsx"
+        },
+        {
+          "type": "registry:block",
           "target": "blocks/sidebar-15/components/nav-favorites.tsx",
           "path": "registry/default/blocks/sidebar-15/components/nav-favorites.tsx"
         },
@@ -42664,11 +42669,6 @@
           "type": "registry:block",
           "target": "blocks/sidebar-15/components/nav-workspaces.tsx",
           "path": "registry/default/blocks/sidebar-15/components/nav-workspaces.tsx"
-        },
-        {
-          "type": "registry:block",
-          "target": "blocks/sidebar-15/components/sidebar-left.tsx",
-          "path": "registry/default/blocks/sidebar-15/components/sidebar-left.tsx"
         },
         {
           "type": "registry:block",
@@ -42759,6 +42759,11 @@
       "files": [
         {
           "type": "registry:block",
+          "target": "blocks/sidebar-15/components/sidebar-right.tsx",
+          "path": "registry/default/blocks/sidebar-15/components/sidebar-right.tsx"
+        },
+        {
+          "type": "registry:block",
           "target": "blocks/sidebar-15/components/calendars.tsx",
           "path": "registry/default/blocks/sidebar-15/components/calendars.tsx"
         },
@@ -42771,11 +42776,6 @@
           "type": "registry:block",
           "target": "blocks/sidebar-15/components/nav-user.tsx",
           "path": "registry/default/blocks/sidebar-15/components/nav-user.tsx"
-        },
-        {
-          "type": "registry:block",
-          "target": "blocks/sidebar-15/components/sidebar-right.tsx",
-          "path": "registry/default/blocks/sidebar-15/components/sidebar-right.tsx"
         },
         {
           "type": "registry:lib",
@@ -43453,13 +43453,13 @@
       "files": [
         {
           "type": "registry:block",
-          "target": "blocks/sidebar-16/components/search-form.tsx",
-          "path": "registry/default/blocks/sidebar-16/components/search-form.tsx"
+          "target": "blocks/sidebar-16/components/site-header.tsx",
+          "path": "registry/default/blocks/sidebar-16/components/site-header.tsx"
         },
         {
           "type": "registry:block",
-          "target": "blocks/sidebar-16/components/site-header.tsx",
-          "path": "registry/default/blocks/sidebar-16/components/site-header.tsx"
+          "target": "blocks/sidebar-16/components/search-form.tsx",
+          "path": "registry/default/blocks/sidebar-16/components/search-form.tsx"
         },
         {
           "type": "registry:lib",

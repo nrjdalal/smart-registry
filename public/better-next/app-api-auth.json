@@ -11,6 +11,12 @@
   ],
   "files": [
     {
+      "type": "registry:file",
+      "target": "app/api/auth/[...all]/route.ts",
+      "content": "import { auth } from \"@/lib/auth\"\nimport { toNextJsHandler } from \"better-auth/next-js\"\n\nexport const { GET, POST } = toNextJsHandler(auth.handler)\n",
+      "path": "src/app/api/auth/[...all]/route.ts"
+    },
+    {
       "type": "registry:component",
       "target": "components/auth.tsx",
       "content": "\"use client\"\n\nimport { authClient } from \"@/lib/auth/client\"\nimport { useRouter } from \"next/navigation\"\n\nexport const SignIn = () => {\n  const router = useRouter()\n\n  return (\n    <button\n      onClick={async () => {\n        await authClient.signIn.email({\n          email: \"johndoe@acme.com\",\n          password: \"JohnDoeAcmeCom\",\n        })\n        router.refresh()\n      }}\n    >\n      Sign in\n    </button>\n  )\n}\n\nexport const SignUp = () => {\n  const router = useRouter()\n\n  return (\n    <button\n      onClick={async () => {\n        await authClient.signUp.email({\n          name: \"John Doe\",\n          email: \"johndoe@acme.com\",\n          password: \"JohnDoeAcmeCom\",\n        })\n        router.refresh()\n      }}\n    >\n      Sign up\n    </button>\n  )\n}\n\nexport const SignOut = () => {\n  const router = useRouter()\n\n  return (\n    <button\n      onClick={async () => {\n        await authClient.signOut()\n        router.refresh()\n      }}\n    >\n      Sign out\n    </button>\n  )\n}\n",
@@ -27,12 +33,6 @@
       "target": "~/drizzle.config.ts",
       "content": "import { defineConfig } from \"drizzle-kit\"\n\nexport default defineConfig({\n  dialect: \"postgresql\",\n  dbCredentials: {\n    url: process.env.POSTGRES_URL!,\n  },\n  schema: \"./src/db/schema\",\n  out: \"./src/db/migrations\",\n})\n",
       "path": "drizzle.config.ts"
-    },
-    {
-      "type": "registry:file",
-      "target": "app/api/auth/[...all]/route.ts",
-      "content": "import { auth } from \"@/lib/auth\"\nimport { toNextJsHandler } from \"better-auth/next-js\"\n\nexport const { GET, POST } = toNextJsHandler(auth.handler)\n",
-      "path": "src/app/api/auth/[...all]/route.ts"
     },
     {
       "type": "registry:file",

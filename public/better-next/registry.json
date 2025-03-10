@@ -16,6 +16,11 @@
       ],
       "files": [
         {
+          "type": "registry:file",
+          "target": "app/api/auth/[...all]/route.ts",
+          "path": "src/app/api/auth/[...all]/route.ts"
+        },
+        {
           "type": "registry:component",
           "target": "components/auth.tsx",
           "path": "src/components/auth.tsx"
@@ -29,11 +34,6 @@
           "type": "registry:file",
           "target": "~/drizzle.config.ts",
           "path": "drizzle.config.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "app/api/auth/[...all]/route.ts",
-          "path": "src/app/api/auth/[...all]/route.ts"
         },
         {
           "type": "registry:file",
