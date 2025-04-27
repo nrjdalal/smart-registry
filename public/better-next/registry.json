@@ -9,7 +9,6 @@
       "type": "registry:file",
       "dependencies": [
         "better-auth",
-        "drizzle-kit",
         "drizzle-orm",
         "next",
         "postgres"

@@ -6,7 +6,7 @@
     {
       "type": "registry:component",
       "target": "components/BarChart/changelog.md",
-      "content": "# Tremor BarChart Changelog\n\n## 0.2.1\n\n### Changes\n\n- Chore: Add `tremor-id`\n\n## 0.2.0\n\n### Changes\n\n- Feat: customTooltip\n\n## 0.1.2\n\n### Changes\n\n- Chore: Padding if no y-axis and startEndOnly\n\n## 0.1.1\n\n### Changes\n\n- Fix: Legend scroll distance\n\n## 0.1.0\n\n### Changes\n\n- Feat: Add tooltipCallback prop\n\n## 0.0.1\n\n### Changes\n\n- Fix: Dynamic tooltip position on vertical layout\n- Fix: `barCategoryGap` propagation\n",
+      "content": "# Tremor BarChart Changelog\n\n## 1.0.0\n\n### Changes\n\n- BREAKING CHANGE: Tailwind CSS v4\n\n## 0.2.1\n\n### Changes\n\n- Chore: Add `tremor-id`\n\n## 0.2.0\n\n### Changes\n\n- Feat: customTooltip\n\n## 0.1.2\n\n### Changes\n\n- Chore: Padding if no y-axis and startEndOnly\n\n## 0.1.1\n\n### Changes\n\n- Fix: Legend scroll distance\n\n## 0.1.0\n\n### Changes\n\n- Feat: Add tooltipCallback prop\n\n## 0.0.1\n\n### Changes\n\n- Fix: Dynamic tooltip position on vertical layout\n- Fix: `barCategoryGap` propagation\n",
       "path": "src/components/BarChart/changelog.md"
     }
   ]

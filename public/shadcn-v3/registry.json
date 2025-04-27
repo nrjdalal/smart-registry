@@ -2533,6 +2533,205 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dashboard-01",
+      "type": "registry:page",
+      "dependencies": [
+        "@dnd-kit/core",
+        "@dnd-kit/modifiers",
+        "@dnd-kit/sortable",
+        "@dnd-kit/utilities",
+        "@radix-ui/react-avatar",
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-label",
+        "@radix-ui/react-select",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tabs",
+        "@radix-ui/react-toggle",
+        "@radix-ui/react-toggle-group",
+        "@radix-ui/react-tooltip",
+        "@tanstack/react-table",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "recharts",
+        "sonner",
+        "tailwind-merge",
+        "zod"
+      ],
+      "files": [
+        {
+          "type": "registry:page",
+          "target": "blocks/dashboard-01/page.tsx",
+          "path": "registry/default/blocks/dashboard-01/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/app-sidebar.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/app-sidebar.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/chart-area-interactive.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/chart-area-interactive.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/data-table.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/data-table.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/nav-documents.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/nav-documents.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/nav-main.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/nav-main.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/nav-secondary.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/nav-secondary.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/nav-user.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/nav-user.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/section-cards.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/section-cards.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/site-header.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/site-header.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/data.json",
+          "path": "registry/default/blocks/dashboard-01/data.json"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.tsx",
+          "path": "registry/default/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "registry/default/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
+          "path": "registry/default/ui/badge.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/default/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/chart.tsx",
+          "path": "registry/default/ui/chart.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
+          "path": "registry/default/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "registry/default/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "registry/default/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/default/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "registry/default/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
+          "path": "registry/default/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "registry/default/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/table.tsx",
+          "path": "registry/default/ui/table.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tabs.tsx",
+          "path": "registry/default/ui/tabs.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle-group.tsx",
+          "path": "registry/default/ui/toggle-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle.tsx",
+          "path": "registry/default/ui/toggle.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "registry/default/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "internal-sink",
       "type": "registry:page",
       "dependencies": [
@@ -3417,6 +3616,205 @@
           "type": "registry:ui",
           "target": "components/ui/label.tsx",
           "path": "registry/default/ui/label.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "new-york-dashboard-01",
+      "type": "registry:page",
+      "dependencies": [
+        "@dnd-kit/core",
+        "@dnd-kit/modifiers",
+        "@dnd-kit/sortable",
+        "@dnd-kit/utilities",
+        "@radix-ui/react-avatar",
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-label",
+        "@radix-ui/react-select",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tabs",
+        "@radix-ui/react-toggle",
+        "@radix-ui/react-toggle-group",
+        "@radix-ui/react-tooltip",
+        "@tanstack/react-table",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "recharts",
+        "sonner",
+        "tailwind-merge",
+        "zod"
+      ],
+      "files": [
+        {
+          "type": "registry:page",
+          "target": "blocks/new-york/dashboard-01/page.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/app-sidebar.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/app-sidebar.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/chart-area-interactive.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/chart-area-interactive.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/data-table.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/data-table.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/nav-documents.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/nav-documents.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/nav-main.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/nav-main.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/nav-secondary.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/nav-secondary.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/nav-user.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/nav-user.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/section-cards.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/section-cards.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/site-header.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/site-header.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/data.json",
+          "path": "registry/new-york/blocks/dashboard-01/data.json"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/new-york/utils.ts",
+          "path": "registry/new-york/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/new-york/use-mobile.tsx",
+          "path": "registry/new-york/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/avatar.tsx",
+          "path": "registry/new-york/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/badge.tsx",
+          "path": "registry/new-york/ui/badge.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/card.tsx",
+          "path": "registry/new-york/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/chart.tsx",
+          "path": "registry/new-york/ui/chart.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/checkbox.tsx",
+          "path": "registry/new-york/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/dropdown-menu.tsx",
+          "path": "registry/new-york/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/select.tsx",
+          "path": "registry/new-york/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/separator.tsx",
+          "path": "registry/new-york/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sheet.tsx",
+          "path": "registry/new-york/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sidebar.tsx",
+          "path": "registry/new-york/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/skeleton.tsx",
+          "path": "registry/new-york/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/table.tsx",
+          "path": "registry/new-york/ui/table.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/tabs.tsx",
+          "path": "registry/new-york/ui/tabs.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/toggle-group.tsx",
+          "path": "registry/new-york/ui/toggle-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/toggle.tsx",
+          "path": "registry/new-york/ui/toggle.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/tooltip.tsx",
+          "path": "registry/new-york/ui/tooltip.tsx"
         }
       ]
     },
@@ -33583,6 +33981,703 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dashboard-01-app-sidebar",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-avatar",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/app-sidebar.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/app-sidebar.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/nav-documents.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/nav-documents.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/nav-main.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/nav-main.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/nav-secondary.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/nav-secondary.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/nav-user.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/nav-user.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.tsx",
+          "path": "registry/default/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "registry/default/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "registry/default/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/default/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "registry/default/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
+          "path": "registry/default/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "registry/default/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "registry/default/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dashboard-01-chart-area-interactive",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-select",
+        "@radix-ui/react-toggle",
+        "@radix-ui/react-toggle-group",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/chart-area-interactive.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/chart-area-interactive.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.tsx",
+          "path": "registry/default/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/default/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/chart.tsx",
+          "path": "registry/default/ui/chart.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "registry/default/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle-group.tsx",
+          "path": "registry/default/ui/toggle-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle.tsx",
+          "path": "registry/default/ui/toggle.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dashboard-01-data",
+      "type": "registry:block",
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/data.json",
+          "path": "registry/default/blocks/dashboard-01/data.json"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dashboard-01-data-table",
+      "type": "registry:block",
+      "dependencies": [
+        "@dnd-kit/core",
+        "@dnd-kit/modifiers",
+        "@dnd-kit/sortable",
+        "@dnd-kit/utilities",
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-label",
+        "@radix-ui/react-select",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tabs",
+        "@tanstack/react-table",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "recharts",
+        "sonner",
+        "tailwind-merge",
+        "zod"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/data-table.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/data-table.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.tsx",
+          "path": "registry/default/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
+          "path": "registry/default/ui/badge.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/chart.tsx",
+          "path": "registry/default/ui/chart.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
+          "path": "registry/default/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "registry/default/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "registry/default/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/default/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "registry/default/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/table.tsx",
+          "path": "registry/default/ui/table.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tabs.tsx",
+          "path": "registry/default/ui/tabs.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dashboard-01-nav-documents",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/nav-documents.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/nav-documents.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.tsx",
+          "path": "registry/default/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "registry/default/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/default/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "registry/default/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
+          "path": "registry/default/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "registry/default/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "registry/default/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dashboard-01-nav-main",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/nav-main.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/nav-main.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.tsx",
+          "path": "registry/default/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/default/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "registry/default/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
+          "path": "registry/default/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "registry/default/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "registry/default/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dashboard-01-nav-secondary",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/nav-secondary.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/nav-secondary.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.tsx",
+          "path": "registry/default/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/default/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "registry/default/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
+          "path": "registry/default/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "registry/default/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "registry/default/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dashboard-01-nav-user",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-avatar",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/nav-user.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/nav-user.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.tsx",
+          "path": "registry/default/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "registry/default/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "registry/default/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/default/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "registry/default/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
+          "path": "registry/default/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "registry/default/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "registry/default/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dashboard-01-section-cards",
+      "type": "registry:block",
+      "dependencies": [
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/section-cards.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/section-cards.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
+          "path": "registry/default/ui/badge.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/default/ui/card.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "dashboard-01-site-header",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/dashboard-01/components/site-header.tsx",
+          "path": "registry/default/blocks/dashboard-01/components/site-header.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.tsx",
+          "path": "registry/default/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/default/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "registry/default/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
+          "path": "registry/default/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "registry/default/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "registry/default/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "login-01-login-form",
       "type": "registry:block",
       "dependencies": [
@@ -33819,6 +34914,703 @@
           "type": "registry:ui",
           "target": "components/ui/label.tsx",
           "path": "registry/default/ui/label.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "new-york-dashboard-01-app-sidebar",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-avatar",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/app-sidebar.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/app-sidebar.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/nav-documents.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/nav-documents.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/nav-main.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/nav-main.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/nav-secondary.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/nav-secondary.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/nav-user.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/nav-user.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/new-york/utils.ts",
+          "path": "registry/new-york/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/new-york/use-mobile.tsx",
+          "path": "registry/new-york/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/avatar.tsx",
+          "path": "registry/new-york/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/dropdown-menu.tsx",
+          "path": "registry/new-york/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/separator.tsx",
+          "path": "registry/new-york/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sheet.tsx",
+          "path": "registry/new-york/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sidebar.tsx",
+          "path": "registry/new-york/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/skeleton.tsx",
+          "path": "registry/new-york/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/tooltip.tsx",
+          "path": "registry/new-york/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "new-york-dashboard-01-chart-area-interactive",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-select",
+        "@radix-ui/react-toggle",
+        "@radix-ui/react-toggle-group",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/chart-area-interactive.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/chart-area-interactive.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/new-york/use-mobile.tsx",
+          "path": "registry/new-york/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/card.tsx",
+          "path": "registry/new-york/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/chart.tsx",
+          "path": "registry/new-york/ui/chart.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/select.tsx",
+          "path": "registry/new-york/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/toggle-group.tsx",
+          "path": "registry/new-york/ui/toggle-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/toggle.tsx",
+          "path": "registry/new-york/ui/toggle.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "new-york-dashboard-01-data",
+      "type": "registry:block",
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/data.json",
+          "path": "registry/new-york/blocks/dashboard-01/data.json"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "new-york-dashboard-01-data-table",
+      "type": "registry:block",
+      "dependencies": [
+        "@dnd-kit/core",
+        "@dnd-kit/modifiers",
+        "@dnd-kit/sortable",
+        "@dnd-kit/utilities",
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-label",
+        "@radix-ui/react-select",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tabs",
+        "@tanstack/react-table",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "recharts",
+        "sonner",
+        "tailwind-merge",
+        "zod"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/data-table.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/data-table.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/new-york/use-mobile.tsx",
+          "path": "registry/new-york/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/badge.tsx",
+          "path": "registry/new-york/ui/badge.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/chart.tsx",
+          "path": "registry/new-york/ui/chart.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/checkbox.tsx",
+          "path": "registry/new-york/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/dropdown-menu.tsx",
+          "path": "registry/new-york/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/select.tsx",
+          "path": "registry/new-york/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/separator.tsx",
+          "path": "registry/new-york/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sheet.tsx",
+          "path": "registry/new-york/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/table.tsx",
+          "path": "registry/new-york/ui/table.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/tabs.tsx",
+          "path": "registry/new-york/ui/tabs.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "new-york-dashboard-01-nav-documents",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/nav-documents.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/nav-documents.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/new-york/utils.ts",
+          "path": "registry/new-york/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/new-york/use-mobile.tsx",
+          "path": "registry/new-york/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/dropdown-menu.tsx",
+          "path": "registry/new-york/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/separator.tsx",
+          "path": "registry/new-york/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sheet.tsx",
+          "path": "registry/new-york/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sidebar.tsx",
+          "path": "registry/new-york/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/skeleton.tsx",
+          "path": "registry/new-york/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/tooltip.tsx",
+          "path": "registry/new-york/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "new-york-dashboard-01-nav-main",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/nav-main.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/nav-main.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/new-york/utils.ts",
+          "path": "registry/new-york/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/new-york/use-mobile.tsx",
+          "path": "registry/new-york/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/separator.tsx",
+          "path": "registry/new-york/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sheet.tsx",
+          "path": "registry/new-york/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sidebar.tsx",
+          "path": "registry/new-york/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/skeleton.tsx",
+          "path": "registry/new-york/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/tooltip.tsx",
+          "path": "registry/new-york/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "new-york-dashboard-01-nav-secondary",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/nav-secondary.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/nav-secondary.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/new-york/utils.ts",
+          "path": "registry/new-york/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/new-york/use-mobile.tsx",
+          "path": "registry/new-york/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/separator.tsx",
+          "path": "registry/new-york/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sheet.tsx",
+          "path": "registry/new-york/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sidebar.tsx",
+          "path": "registry/new-york/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/skeleton.tsx",
+          "path": "registry/new-york/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/tooltip.tsx",
+          "path": "registry/new-york/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "new-york-dashboard-01-nav-user",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-avatar",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/nav-user.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/nav-user.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/new-york/utils.ts",
+          "path": "registry/new-york/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/new-york/use-mobile.tsx",
+          "path": "registry/new-york/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/avatar.tsx",
+          "path": "registry/new-york/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/dropdown-menu.tsx",
+          "path": "registry/new-york/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/separator.tsx",
+          "path": "registry/new-york/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sheet.tsx",
+          "path": "registry/new-york/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sidebar.tsx",
+          "path": "registry/new-york/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/skeleton.tsx",
+          "path": "registry/new-york/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/tooltip.tsx",
+          "path": "registry/new-york/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "new-york-dashboard-01-section-cards",
+      "type": "registry:block",
+      "dependencies": [
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/section-cards.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/section-cards.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/badge.tsx",
+          "path": "registry/new-york/ui/badge.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/card.tsx",
+          "path": "registry/new-york/ui/card.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "new-york-dashboard-01-site-header",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/dashboard-01/components/site-header.tsx",
+          "path": "registry/new-york/blocks/dashboard-01/components/site-header.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/new-york/utils.ts",
+          "path": "registry/new-york/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/new-york/use-mobile.tsx",
+          "path": "registry/new-york/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/separator.tsx",
+          "path": "registry/new-york/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sheet.tsx",
+          "path": "registry/new-york/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sidebar.tsx",
+          "path": "registry/new-york/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/skeleton.tsx",
+          "path": "registry/new-york/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/tooltip.tsx",
+          "path": "registry/new-york/ui/tooltip.tsx"
         }
       ]
     },

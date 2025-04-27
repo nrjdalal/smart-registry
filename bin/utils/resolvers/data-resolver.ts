@@ -18,6 +18,7 @@ export const dataResolver = async ({
 
   const data = {
     dependencies: [] as string[],
+    devDependencies: [] as string[],
     files: [] as string[],
     content: {} as Record<string, string>,
   }
@@ -36,12 +37,13 @@ export const dataResolver = async ({
       )
     }
 
-    const { dependencies, files, transformations } = await typeResolver({
-      cwd,
-      aliases,
-      filepath,
-      content: data.content[filepath],
-    })
+    const { dependencies, devDependencies, files, transformations } =
+      await typeResolver({
+        cwd,
+        aliases,
+        filepath,
+        content: data.content[filepath],
+      })
 
     data.content[filepath] = data.content[filepath].replace(
       regex.imports,
@@ -56,15 +58,19 @@ export const dataResolver = async ({
 
     files.forEach((file) => data.files.push(file))
     dependencies.forEach((dependency) => data.dependencies.push(dependency))
+    devDependencies.forEach((devDependency) =>
+      data.devDependencies.push(devDependency),
+    )
   }
 
   for (const filepath of data.files) {
-    const { dependencies, files, content } = await dataResolver({
-      cwd,
-      aliases,
-      filepaths: [filepath],
-      resolved,
-    })
+    const { dependencies, devDependencies, files, content } =
+      await dataResolver({
+        cwd,
+        aliases,
+        filepaths: [filepath],
+        resolved,
+      })
 
     if (!data.content[filepath]) {
       data.content[filepath] =
@@ -74,9 +80,13 @@ export const dataResolver = async ({
 
     files.forEach((file) => data.files.push(file))
     dependencies.forEach((dependency) => data.dependencies.push(dependency))
+    devDependencies.forEach((devDependency) =>
+      data.devDependencies.push(devDependency),
+    )
   }
 
   data.dependencies = [...new Set(data.dependencies)].sort()
+  data.devDependencies = [...new Set(data.devDependencies)].sort()
   data.files = [...new Set(data.files)].sort()
 
   return data

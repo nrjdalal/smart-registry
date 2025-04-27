@@ -6,7 +6,7 @@
     {
       "type": "registry:component",
       "target": "components/Slider/changelog.md",
-      "content": "# Tremor Slider Changelog\n\n## 0.1.0\n\n### Changes\n\n- Feat: Update base color\n\n## 0.0.1\n\n### Changes\n\n- Chore: Add `tremor-id`\n",
+      "content": "# Tremor Slider Changelog\n\n## 1.0.0\n\n### Changes\n\n- BREAKING CHANGE: Tailwind CSS v4\n\n## 0.1.0\n\n### Changes\n\n- Feat: Update base color\n\n## 0.0.1\n\n### Changes\n\n- Chore: Add `tremor-id`\n",
       "path": "src/components/Slider/changelog.md"
     }
   ]

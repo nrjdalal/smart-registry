@@ -163,9 +163,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "utils.spec",
       "type": "registry:lib",
-      "dependencies": [
-        "vitest"
-      ],
       "files": [
         {
           "type": "registry:lib",
@@ -229,9 +226,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "accordion.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -248,7 +242,6 @@
         "@radix-ui/react-accordion",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -347,9 +340,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "areachart.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -366,7 +356,6 @@
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "recharts",
@@ -465,9 +454,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "badge.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -481,7 +467,6 @@
       "name": "badge.stories",
       "type": "registry:component",
       "dependencies": [
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -560,9 +545,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "barchart.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -579,7 +561,6 @@
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "recharts",
@@ -677,9 +658,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "barlist.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -693,7 +671,6 @@
       "name": "barlist.stories",
       "type": "registry:component",
       "dependencies": [
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge"
@@ -767,9 +744,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "button.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -785,7 +759,6 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -860,9 +833,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "calendar.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -877,7 +847,6 @@
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "date-fns",
         "react",
@@ -946,9 +915,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "callout.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -963,7 +929,6 @@
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -1026,9 +991,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "card.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -1051,7 +1013,6 @@
         "@radix-ui/react-tabs",
         "@radix-ui/react-tooltip",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -1199,9 +1160,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "categorybar.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -1216,7 +1174,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tooltip",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge"
@@ -1293,9 +1250,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "checkbox.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -1313,7 +1267,6 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -1412,9 +1365,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "combochart.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -1431,7 +1381,6 @@
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "recharts",
@@ -1570,7 +1519,6 @@
         "@react-aria/datepicker",
         "@react-stately/datepicker",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "date-fns",
         "react",
@@ -1625,9 +1573,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "datepicker.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -1647,7 +1592,6 @@
         "@react-aria/datepicker",
         "@react-stately/datepicker",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "date-fns",
         "react",
@@ -1752,9 +1696,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dialog.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -1771,7 +1712,6 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -1843,9 +1783,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "divider.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -1861,7 +1798,6 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -1939,9 +1875,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "donutchart.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -1957,7 +1890,6 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "@storybook/react",
         "clsx",
         "react",
         "recharts",
@@ -2054,9 +1986,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "drawer.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -2073,7 +2002,6 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -2147,9 +2075,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dropdownmenu.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -2166,7 +2091,6 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -2255,9 +2179,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "input.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -2274,7 +2195,6 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -2362,9 +2282,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "label.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -2381,7 +2298,6 @@
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -2490,9 +2406,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "linechart.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -2509,7 +2422,6 @@
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "recharts",
@@ -2608,9 +2520,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "popover.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -2629,7 +2538,6 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -2727,9 +2635,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "progressbar.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -2744,7 +2649,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -2812,9 +2716,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "progresscircle.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -2829,7 +2730,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -2907,9 +2807,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radiocardgroup.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -2926,7 +2823,6 @@
         "@radix-ui/react-radio-group",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -3009,9 +2905,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radiogroup.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -3029,7 +2922,6 @@
         "@radix-ui/react-radio-group",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -3118,9 +3010,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "select.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -3138,7 +3027,6 @@
         "@radix-ui/react-select",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -3236,9 +3124,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "selectnative.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -3253,7 +3138,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -3336,9 +3220,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "slider.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -3355,7 +3236,6 @@
         "@radix-ui/react-slider",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -3449,7 +3329,6 @@
       "name": "sparkchart-sparkareachart.stories",
       "type": "registry:component",
       "dependencies": [
-        "@storybook/react",
         "clsx",
         "react",
         "recharts",
@@ -3488,7 +3367,6 @@
       "name": "sparkchart-sparkbarchart.stories",
       "type": "registry:component",
       "dependencies": [
-        "@storybook/react",
         "clsx",
         "react",
         "recharts",
@@ -3527,7 +3405,6 @@
       "name": "sparkchart-sparklinechart.stories",
       "type": "registry:component",
       "dependencies": [
-        "@storybook/react",
         "clsx",
         "react",
         "recharts",
@@ -3565,9 +3442,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sparkchart.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -3621,9 +3495,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "switch.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -3641,7 +3512,6 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-switch",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -3728,9 +3598,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "table.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -3745,7 +3612,6 @@
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -3818,9 +3684,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tabnavigation.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -3836,7 +3699,6 @@
       "dependencies": [
         "@radix-ui/react-navigation-menu",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge"
@@ -3908,9 +3770,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tabs.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -3926,7 +3785,6 @@
       "dependencies": [
         "@radix-ui/react-tabs",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge"
@@ -4002,9 +3860,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "textarea.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -4019,7 +3874,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge"
@@ -4135,7 +3989,6 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-toast",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -4224,9 +4077,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "toggle.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -4243,7 +4093,6 @@
         "@radix-ui/react-toggle",
         "@radix-ui/react-toggle-group",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge"
@@ -4310,9 +4159,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tooltip.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -4329,7 +4175,6 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "@remixicon/react",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge",
@@ -4402,9 +4247,6 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tracker.spec",
       "type": "registry:component",
-      "dependencies": [
-        "@playwright/test"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -4419,7 +4261,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-hover-card",
-        "@storybook/react",
         "clsx",
         "react",
         "tailwind-merge"

@@ -2,9 +2,6 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "categorybar.spec",
   "type": "registry:component",
-  "dependencies": [
-    "@playwright/test"
-  ],
   "files": [
     {
       "type": "registry:component",

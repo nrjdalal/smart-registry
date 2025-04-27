@@ -1,3 +1,4 @@
+import fs from "node:fs"
 import path from "node:path"
 import { regex } from "@/constants/regex"
 import { listFiles } from "@/utils/files"
@@ -65,6 +66,7 @@ export const typeResolver = async ({
 }) => {
   const data = {
     dependencies: [] as string[],
+    devDependencies: [] as string[],
     files: [] as string[],
     transformations: {} as Record<string, any>,
   }
@@ -101,10 +103,23 @@ export const typeResolver = async ({
       })
       data.files.push(current)
     } else {
+      const packageJsonPath = path.resolve(cwd, "package.json")
+      let dependencies: Record<string, string> = {}
+      if (fs.existsSync(packageJsonPath)) {
+        const packageJson = await fs.promises.readFile(packageJsonPath, "utf8")
+        const packageJsonData = JSON.parse(packageJson)
+        dependencies = {
+          ...(packageJsonData.dependencies || {}),
+        }
+      }
       if (current.startsWith("@")) {
-        data.dependencies.push(current.split("/").slice(0, 2).join("/"))
+        const name = current.split("/").slice(0, 2).join("/")
+        if (dependencies[name]) data.dependencies.push(name)
+        else data.devDependencies.push(name)
       } else {
-        data.dependencies.push(current.replace(/\/.*/, ""))
+        const name = current.split("/")[0]
+        if (dependencies[name]) data.dependencies.push(name)
+        else data.devDependencies.push(name)
       }
     }
   }

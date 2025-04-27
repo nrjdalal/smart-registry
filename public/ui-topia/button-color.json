@@ -1,9 +1,9 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "button-demo",
+  "name": "button-color",
   "type": "registry:component",
   "description": "custom shadcn/ui button.",
-  "title": "Button Demo",
+  "title": "Button color",
   "dependencies": [
     "@radix-ui/react-slot",
     "class-variance-authority",
@@ -18,15 +18,15 @@
   "files": [
     {
       "type": "registry:component",
-      "target": "components/button-demo.tsx",
-      "content": "\"use client\";\n\nimport { Button } from \"@/components/ui/button\";\nimport { Stack } from \"@/components/ui/stack\";\n\nexport default function ButtonDemo() {\n  return (\n    <Stack\n      align=\"start\"\n      direction={{ sm: \"column\", md: \"row\" }}\n      gap={4}\n      justify=\"space-between\"\n    >\n      <Button className=\"border border-zinc-950/25 bg-gradient-to-t from-blue-600 to-blue-500/85 text-white shadow-md shadow-zinc-950/20 ring-1 ring-white/20 ring-inset transition-all duration-200 hover:brightness-110 active:brightness-90 dark:border-white/20 dark:ring-transparent\">\n        Primary\n      </Button>\n\n      <Button className=\"border border-zinc-950/35 bg-gradient-to-b from-blue-500/85 to-blue-600 text-white shadow-md shadow-zinc-950/20 transition-all duration-200 hover:brightness-110 active:brightness-95 dark:border-zinc-950/50 dark:bg-gradient-to-t dark:from-blue-600/75\">\n        Primary\n      </Button>\n\n      <Button className=\"border border-zinc-950/40 border-b-2 bg-gradient-to-t from-blue-600 to-blue-500/85 text-white shadow-md shadow-zinc-950/20 ring-1 ring-white/25 ring-inset transition-all duration-200 hover:brightness-110 active:brightness-90 dark:border-zinc-950/50 dark:border-x-0 dark:border-t-0 dark:ring-white/5\">\n        Primary\n      </Button>\n    </Stack>\n  );\n}\n",
-      "path": "registry/components/button-demo.tsx"
+      "target": "components/button-color.tsx",
+      "content": "\"use client\";\n\nimport { Button } from \"@/components/ui/button\";\nimport { Stack } from \"@/components/ui/stack\";\n\nexport default function ButtonColor() {\n  return (\n    <Stack\n      align=\"start\"\n      direction={{ sm: \"column\", md: \"row\" }}\n      gap={4}\n      justify=\"space-between\"\n    >\n      <Button className=\"border border-zinc-950/25 bg-gradient-to-t from-blue-600 to-blue-500/85 text-white shadow-md shadow-zinc-950/20 ring-1 ring-white/20 ring-inset transition-all duration-200 hover:brightness-110 active:brightness-90 dark:border-white/20 dark:ring-transparent\">\n        Primary\n      </Button>\n\n      <Button className=\"border border-zinc-950/35 bg-gradient-to-b from-blue-500/85 to-blue-600 text-white shadow-md shadow-zinc-950/20 transition-all duration-200 hover:brightness-110 active:brightness-95 dark:border-zinc-950/50 dark:bg-gradient-to-t dark:from-blue-600/75\">\n        Primary\n      </Button>\n\n      <Button className=\"border border-zinc-950/40 border-b-2 bg-gradient-to-t from-blue-600 to-blue-500/85 text-white shadow-md shadow-zinc-950/20 ring-1 ring-white/25 ring-inset transition-all duration-200 hover:brightness-110 active:brightness-90 dark:border-zinc-950/50 dark:border-x-0 dark:border-t-0 dark:ring-white/5\">\n        Primary\n      </Button>\n    </Stack>\n  );\n}\n",
+      "path": "registry/components/button-color.tsx"
     },
     {
       "type": "registry:lib",
       "target": "lib/utils.ts",
-      "content": "import { type ClassValue, clsx } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`;\n}\n",
-      "path": "lib/utils.ts"
+      "content": "import { type ClassValue, clsx } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n",
+      "path": "registry/lib/utils.ts"
     },
     {
       "type": "registry:ui",

@@ -6,7 +6,7 @@
     {
       "type": "registry:component",
       "target": "components/Toggle/changelog.md",
-      "content": "# Tremor Toggle Changelog\n",
+      "content": "# Tremor Toggle Changelog\n\n## 1.0.0\n\n### Changes\n\n- BREAKING CHANGE: Tailwind CSS v4\n\n## 0.0.0\n\n### Changes\n\n- Initial release\n",
       "path": "src/components/Toggle/changelog.md"
     }
   ]

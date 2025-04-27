@@ -6,7 +6,7 @@
     {
       "type": "registry:component",
       "target": "components/ComboChart/changelog.md",
-      "content": "# Tremor ComboChart Changelog\n\n## 0.0.0\n\n### Changes\n",
+      "content": "# Tremor ComboChart Changelog\n\n## 1.0.0\n\n### Changes\n\n- BREAKING CHANGE: Tailwind CSS v4\n\n## 0.0.0\n\n### Changes\n",
       "path": "src/components/ComboChart/changelog.md"
     }
   ]

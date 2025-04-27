@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "acme",
-  "homepage": "https://acme.com",
+  "name": "originui",
+  "homepage": "https://originui.com",
   "items": [
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
@@ -566,6 +566,29 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "progress",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-progress",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/progress.tsx",
+          "path": "registry/default/ui/progress.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radio-group",
       "type": "registry:ui",
       "dependencies": [
@@ -1032,7 +1055,7 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "use-image-upload",
+      "name": "use-file-upload",
       "type": "registry:hook",
       "dependencies": [
         "react"
@@ -1040,8 +1063,8 @@
       "files": [
         {
           "type": "registry:hook",
-          "target": "hooks/use-image-upload.ts",
-          "path": "registry/default/hooks/use-image-upload.ts"
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
         }
       ]
     },
@@ -2724,8 +2747,8 @@
         },
         {
           "type": "registry:hook",
-          "target": "hooks/use-image-upload.ts",
-          "path": "registry/default/hooks/use-image-upload.ts"
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
         },
         {
           "type": "registry:ui",
@@ -2773,8 +2796,8 @@
         },
         {
           "type": "registry:hook",
-          "target": "hooks/use-image-upload.ts",
-          "path": "registry/default/hooks/use-image-upload.ts"
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
         },
         {
           "type": "registry:ui",
@@ -11459,6 +11482,7 @@
         "tags": [
           "notification",
           "toast",
+          "sonner",
           "radix"
         ],
         "colSpan": 2,
@@ -11546,6 +11570,7 @@
         "tags": [
           "notification",
           "toast",
+          "sonner",
           "success",
           "radix"
         ],
@@ -13153,8 +13178,8 @@
         },
         {
           "type": "registry:hook",
-          "target": "hooks/use-image-upload.ts",
-          "path": "registry/default/hooks/use-image-upload.ts"
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
         },
         {
           "type": "registry:ui",
@@ -18804,7 +18829,8 @@
         "tailwind-merge"
       ],
       "registryDependencies": [
-        "https://originui.com/r/breadcrumb.json"
+        "https://originui.com/r/breadcrumb.json",
+        "https://originui.com/r/select.json"
       ],
       "files": [
         {
@@ -23467,6 +23493,510 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "comp-542",
+      "type": "registry:component",
+      "dependencies": [
+        "@dnd-kit/core",
+        "@dnd-kit/modifiers",
+        "@dnd-kit/utilities",
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-radio-group",
+        "@radix-ui/react-select",
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "class-variance-authority",
+        "clsx",
+        "date-fns",
+        "lucide-react",
+        "react",
+        "react-day-picker",
+        "sonner",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/button.json",
+        "https://originui.com/r/calendar.json",
+        "https://originui.com/r/checkbox.json",
+        "https://originui.com/r/dialog.json",
+        "https://originui.com/r/dropdown-menu.json",
+        "https://originui.com/r/input.json",
+        "https://originui.com/r/label.json",
+        "https://originui.com/r/popover.json",
+        "https://originui.com/r/radio-group.json",
+        "https://originui.com/r/select.json",
+        "https://originui.com/r/sonner.json",
+        "https://originui.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-542.tsx",
+          "path": "registry/default/components/comp-542.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/agenda-view.tsx",
+          "path": "registry/default/components/event-calendar/agenda-view.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/calendar-dnd-context.tsx",
+          "path": "registry/default/components/event-calendar/calendar-dnd-context.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/constants.ts",
+          "path": "registry/default/components/event-calendar/constants.ts"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/day-view.tsx",
+          "path": "registry/default/components/event-calendar/day-view.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/draggable-event.tsx",
+          "path": "registry/default/components/event-calendar/draggable-event.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/droppable-cell.tsx",
+          "path": "registry/default/components/event-calendar/droppable-cell.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/event-calendar.tsx",
+          "path": "registry/default/components/event-calendar/event-calendar.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/event-dialog.tsx",
+          "path": "registry/default/components/event-calendar/event-dialog.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/event-item.tsx",
+          "path": "registry/default/components/event-calendar/event-item.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/events-popup.tsx",
+          "path": "registry/default/components/event-calendar/events-popup.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/hooks/use-current-time-indicator.ts",
+          "path": "registry/default/components/event-calendar/hooks/use-current-time-indicator.ts"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/hooks/use-event-visibility.ts",
+          "path": "registry/default/components/event-calendar/hooks/use-event-visibility.ts"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/index.ts",
+          "path": "registry/default/components/event-calendar/index.ts"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/month-view.tsx",
+          "path": "registry/default/components/event-calendar/month-view.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/types.ts",
+          "path": "registry/default/components/event-calendar/types.ts"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/utils.ts",
+          "path": "registry/default/components/event-calendar/utils.ts"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/week-view.tsx",
+          "path": "registry/default/components/event-calendar/week-view.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
+          "path": "registry/default/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "registry/default/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "registry/default/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/radio-group.tsx",
+          "path": "registry/default/ui/radio-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "registry/default/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/textarea.tsx",
+          "path": "registry/default/ui/textarea.tsx"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "calendar"
+        ],
+        "colSpan": 3
+      }
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "comp-543",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/button.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-543.tsx",
+          "path": "registry/default/components/comp-543.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "upload",
+          "file",
+          "drag and drop",
+          "avatar"
+        ]
+      }
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "comp-544",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react",
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-544.tsx",
+          "path": "registry/default/components/comp-544.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "upload",
+          "file",
+          "drag and drop"
+        ],
+        "colSpan": 2
+      }
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "comp-545",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/button.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-545.tsx",
+          "path": "registry/default/components/comp-545.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "upload",
+          "file",
+          "drag and drop"
+        ],
+        "colSpan": 2
+      }
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "comp-546",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/button.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-546.tsx",
+          "path": "registry/default/components/comp-546.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "upload",
+          "file",
+          "drag and drop"
+        ],
+        "colSpan": 2
+      }
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "comp-547",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/button.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-547.tsx",
+          "path": "registry/default/components/comp-547.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "upload",
+          "file",
+          "drag and drop"
+        ],
+        "colSpan": 2
+      }
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "comp-548",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/button.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-548.tsx",
+          "path": "registry/default/components/comp-548.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "upload",
+          "file",
+          "drag and drop"
+        ],
+        "colSpan": 2
+      }
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "comp-549",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/button.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-549.tsx",
+          "path": "registry/default/components/comp-549.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "upload",
+          "file",
+          "drag and drop"
+        ],
+        "colSpan": 2
+      }
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "comp-55",
       "type": "registry:component",
       "dependencies": [
@@ -23509,6 +24039,196 @@
           "mask",
           "time"
         ]
+      }
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "comp-550",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/button.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-550.tsx",
+          "path": "registry/default/components/comp-550.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "upload",
+          "file",
+          "drag and drop"
+        ],
+        "colSpan": 2
+      }
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "comp-551",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/button.json",
+        "https://originui.com/r/table.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-551.tsx",
+          "path": "registry/default/components/comp-551.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/table.tsx",
+          "path": "registry/default/ui/table.tsx"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "upload",
+          "file",
+          "drag and drop"
+        ],
+        "colSpan": 2
+      }
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "comp-552",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/button.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-552.tsx",
+          "path": "registry/default/components/comp-552.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "upload",
+          "file",
+          "drag and drop"
+        ],
+        "colSpan": 2
+      }
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "comp-553",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/button.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-553.tsx",
+          "path": "registry/default/components/comp-553.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "upload",
+          "file",
+          "drag and drop"
+        ],
+        "colSpan": 2
       }
     },
     {
@@ -25343,6 +26063,486 @@
         ],
         "style": 2
       }
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/index.ts",
+          "path": "registry/default/components/event-calendar/index.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-agenda-view",
+      "type": "registry:component",
+      "dependencies": [
+        "@remixicon/react",
+        "date-fns",
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/agenda-view.tsx",
+          "path": "registry/default/components/event-calendar/agenda-view.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/index.ts",
+          "path": "registry/default/components/event-calendar/index.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-constants",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/constants.ts",
+          "path": "registry/default/components/event-calendar/constants.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-day-view",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "date-fns",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/day-view.tsx",
+          "path": "registry/default/components/event-calendar/day-view.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/constants.ts",
+          "path": "registry/default/components/event-calendar/constants.ts"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/index.ts",
+          "path": "registry/default/components/event-calendar/index.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-dnd-context",
+      "type": "registry:component",
+      "dependencies": [
+        "@dnd-kit/core",
+        "date-fns",
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/calendar-dnd-context.tsx",
+          "path": "registry/default/components/event-calendar/calendar-dnd-context.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/index.ts",
+          "path": "registry/default/components/event-calendar/index.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-draggable-event",
+      "type": "registry:component",
+      "dependencies": [
+        "@dnd-kit/core",
+        "@dnd-kit/utilities",
+        "date-fns",
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/draggable-event.tsx",
+          "path": "registry/default/components/event-calendar/draggable-event.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/index.ts",
+          "path": "registry/default/components/event-calendar/index.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-droppable-cell",
+      "type": "registry:component",
+      "dependencies": [
+        "@dnd-kit/core",
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/droppable-cell.tsx",
+          "path": "registry/default/components/event-calendar/droppable-cell.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/index.ts",
+          "path": "registry/default/components/event-calendar/index.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-event-calendar",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "class-variance-authority",
+        "clsx",
+        "date-fns",
+        "lucide-react",
+        "react",
+        "sonner",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/event-calendar.tsx",
+          "path": "registry/default/components/event-calendar/event-calendar.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/index.ts",
+          "path": "registry/default/components/event-calendar/index.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "registry/default/ui/dropdown-menu.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-event-dialog",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-radio-group",
+        "@radix-ui/react-select",
+        "@radix-ui/react-slot",
+        "@remixicon/react",
+        "class-variance-authority",
+        "clsx",
+        "date-fns",
+        "lucide-react",
+        "react",
+        "react-day-picker",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/event-dialog.tsx",
+          "path": "registry/default/components/event-calendar/event-dialog.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/constants.ts",
+          "path": "registry/default/components/event-calendar/constants.ts"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/index.ts",
+          "path": "registry/default/components/event-calendar/index.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
+          "path": "registry/default/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "registry/default/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/radio-group.tsx",
+          "path": "registry/default/ui/radio-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "registry/default/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/textarea.tsx",
+          "path": "registry/default/ui/textarea.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-event-item",
+      "type": "registry:component",
+      "dependencies": [
+        "@dnd-kit/core",
+        "clsx",
+        "date-fns",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/event-item.tsx",
+          "path": "registry/default/components/event-calendar/event-item.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/index.ts",
+          "path": "registry/default/components/event-calendar/index.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-events-popup",
+      "type": "registry:component",
+      "dependencies": [
+        "date-fns",
+        "lucide-react",
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/events-popup.tsx",
+          "path": "registry/default/components/event-calendar/events-popup.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/index.ts",
+          "path": "registry/default/components/event-calendar/index.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-month-view",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-popover",
+        "clsx",
+        "date-fns",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/month-view.tsx",
+          "path": "registry/default/components/event-calendar/month-view.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/constants.ts",
+          "path": "registry/default/components/event-calendar/constants.ts"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/index.ts",
+          "path": "registry/default/components/event-calendar/index.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-types",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/types.ts",
+          "path": "registry/default/components/event-calendar/types.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-use-current-time-indicator",
+      "type": "registry:component",
+      "dependencies": [
+        "date-fns",
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/hooks/use-current-time-indicator.ts",
+          "path": "registry/default/components/event-calendar/hooks/use-current-time-indicator.ts"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/constants.ts",
+          "path": "registry/default/components/event-calendar/constants.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-use-event-visibility",
+      "type": "registry:component",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/hooks/use-event-visibility.ts",
+          "path": "registry/default/components/event-calendar/hooks/use-event-visibility.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-utils",
+      "type": "registry:component",
+      "dependencies": [
+        "date-fns"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/utils.ts",
+          "path": "registry/default/components/event-calendar/utils.ts"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/index.ts",
+          "path": "registry/default/components/event-calendar/index.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "event-calendar-week-view",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "date-fns",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/week-view.tsx",
+          "path": "registry/default/components/event-calendar/week-view.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/constants.ts",
+          "path": "registry/default/components/event-calendar/constants.ts"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/event-calendar/index.ts",
+          "path": "registry/default/components/event-calendar/index.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
     }
   ]
 }

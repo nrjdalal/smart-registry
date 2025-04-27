@@ -4,7 +4,6 @@
   "type": "registry:component",
   "dependencies": [
     "@remixicon/react",
-    "@storybook/react",
     "clsx",
     "react",
     "tailwind-merge",

@@ -6,7 +6,7 @@
     {
       "type": "registry:component",
       "target": "components/Toast/changelog.md",
-      "content": "# Tremor Toast Changelog\n\n## 0.0.4\n\n### Changes\n\n- Fix: Variable assignment\n\n## 0.0.3\n\n### Changes\n\n- Fix: Variable assignment\n\n## 0.0.2\n\n### Changes\n\n- Fix: Toast description type\n\n## 0.0.1\n\n### Changes\n\n- Fix: Improved dark mode visbility\n",
+      "content": "# Tremor Toast Changelog\n\n## 1.0.0\n\n### Changes\n\n- BREAKING CHANGE: Tailwind CSS v4\n\n## 0.0.4\n\n### Changes\n\n- Fix: Variable assignment\n\n## 0.0.3\n\n### Changes\n\n- Fix: Variable assignment\n\n## 0.0.2\n\n### Changes\n\n- Fix: Toast description type\n\n## 0.0.1\n\n### Changes\n\n- Fix: Improved dark mode visbility\n",
       "path": "src/components/Toast/changelog.md"
     }
   ]
