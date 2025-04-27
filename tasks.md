@@ -1,4 +1,4 @@
-- [ ] Dev dep if key is in devDeps at package.json
+- [x] Dev dep if key is in devDeps at package.json
 - [ ] Rewrite ignore using patterns
 - [x] Transform paths in content
 - [ ] Versioned dependencies

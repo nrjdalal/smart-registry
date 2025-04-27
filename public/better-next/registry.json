@@ -13,6 +13,9 @@
         "next",
         "postgres"
       ],
+      "devDependencies": [
+        "drizzle-kit"
+      ],
       "files": [
         {
           "type": "registry:file",

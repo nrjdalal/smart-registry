@@ -109,7 +109,10 @@ const main = async () => {
             ]),
           ].sort(),
           devDependencies: [
-            ...new Set([...(existingConfig?.devDependencies || [])]),
+            ...new Set([
+              ...resolvedData.devDependencies,
+              ...(existingConfig?.devDependencies || []),
+            ]),
           ].sort(),
           registryDependencies: [
             ...new Set([...(existingConfig?.registryDependencies || [])]),
