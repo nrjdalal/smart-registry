@@ -32,8 +32,12 @@ export const listFiles = async ({
     ignore: ignore.filter((ig) => !patterns.includes(ig)),
   })
 
-  if (!files.length) {
-    for (const pattern of patterns) {
+  for (const pattern of patterns) {
+    if (
+      !files.includes(pattern) &&
+      !pattern.endsWith("**") &&
+      !pattern.endsWith(".**")
+    ) {
       try {
         const fullPath = path.resolve(cwd, pattern)
         const stats = await fs.promises.stat(fullPath)
@@ -51,5 +55,5 @@ export const listFiles = async ({
     }
   }
 
-  return files
+  return [...new Set(files)]
 }
