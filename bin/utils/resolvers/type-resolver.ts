@@ -106,11 +106,10 @@ export const typeResolver = async ({
       const packageJsonPath = path.resolve(cwd, "package.json")
       let devDependencies: Record<string, string> = {}
       if (fs.existsSync(packageJsonPath)) {
-        const packageJson = await fs.promises.readFile(packageJsonPath, "utf8")
-        const packageJsonData = JSON.parse(packageJson)
-        devDependencies = {
-          ...(packageJsonData.devDependencies || {}),
-        }
+        const packageJson = JSON.parse(
+          await fs.promises.readFile(packageJsonPath, "utf8"),
+        )
+        devDependencies = { ...packageJson.devDependencies }
       }
       if (current.startsWith("@")) {
         const name = current.split("/").slice(0, 2).join("/")
