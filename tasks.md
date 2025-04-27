@@ -1,4 +1,5 @@
 - [x] Dev dep if key is in devDeps at package.json
+- [ ] Do not read package.json over and over again
 - [ ] Rewrite ignore using patterns
 - [x] Transform paths in content
 - [ ] Versioned dependencies
