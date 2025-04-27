@@ -5,7 +5,8 @@
   "dependencies": [
     "clsx",
     "react",
-    "tailwind-merge"
+    "tailwind-merge",
+    "vaul"
   ],
   "files": [
     {

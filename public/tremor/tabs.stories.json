@@ -9,6 +9,9 @@
     "react",
     "tailwind-merge"
   ],
+  "devDependencies": [
+    "@storybook/react"
+  ],
   "files": [
     {
       "type": "registry:component",

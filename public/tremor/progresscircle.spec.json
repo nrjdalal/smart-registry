@@ -2,6 +2,9 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "progresscircle.spec",
   "type": "registry:component",
+  "devDependencies": [
+    "@playwright/test"
+  ],
   "files": [
     {
       "type": "registry:component",

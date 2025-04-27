@@ -5,8 +5,13 @@
   "description": "Full Page Login with Icons.",
   "title": "Login 05",
   "dependencies": [
+    "@radix-ui/react-checkbox",
+    "@radix-ui/react-label",
+    "@radix-ui/react-separator",
+    "@radix-ui/react-slot",
     "class-variance-authority",
     "clsx",
+    "lucide-react",
     "react",
     "tailwind-merge"
   ],

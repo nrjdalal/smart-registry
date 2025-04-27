@@ -2,6 +2,9 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "utils.spec",
   "type": "registry:lib",
+  "devDependencies": [
+    "vitest"
+  ],
   "files": [
     {
       "type": "registry:lib",

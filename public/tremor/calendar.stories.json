@@ -10,6 +10,9 @@
     "react-day-picker",
     "tailwind-merge"
   ],
+  "devDependencies": [
+    "@storybook/react"
+  ],
   "files": [
     {
       "type": "registry:component",

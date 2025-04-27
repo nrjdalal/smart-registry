@@ -3,6 +3,8 @@
   "name": "login-03-login-form",
   "type": "registry:block",
   "dependencies": [
+    "@radix-ui/react-label",
+    "@radix-ui/react-slot",
     "class-variance-authority",
     "clsx",
     "react",

@@ -6,6 +6,7 @@
     "@radix-ui/react-dialog",
     "class-variance-authority",
     "clsx",
+    "lucide-react",
     "react",
     "tailwind-merge"
   ],

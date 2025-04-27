@@ -104,22 +104,22 @@ export const typeResolver = async ({
       data.files.push(current)
     } else {
       const packageJsonPath = path.resolve(cwd, "package.json")
-      let dependencies: Record<string, string> = {}
+      let devDependencies: Record<string, string> = {}
       if (fs.existsSync(packageJsonPath)) {
         const packageJson = await fs.promises.readFile(packageJsonPath, "utf8")
         const packageJsonData = JSON.parse(packageJson)
-        dependencies = {
-          ...(packageJsonData.dependencies || {}),
+        devDependencies = {
+          ...(packageJsonData.devDependencies || {}),
         }
       }
       if (current.startsWith("@")) {
         const name = current.split("/").slice(0, 2).join("/")
-        if (dependencies[name]) data.dependencies.push(name)
-        else data.devDependencies.push(name)
+        if (devDependencies[name]) data.devDependencies.push(name)
+        else data.dependencies.push(name)
       } else {
         const name = current.split("/")[0]
-        if (dependencies[name]) data.dependencies.push(name)
-        else data.devDependencies.push(name)
+        if (devDependencies[name]) data.devDependencies.push(name)
+        else data.dependencies.push(name)
       }
     }
   }

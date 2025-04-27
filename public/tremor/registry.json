@@ -163,6 +163,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "utils.spec",
       "type": "registry:lib",
+      "devDependencies": [
+        "vitest"
+      ],
       "files": [
         {
           "type": "registry:lib",
@@ -226,6 +229,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "accordion.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -246,6 +252,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -340,6 +349,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "areachart.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -361,6 +373,9 @@
         "recharts",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -454,6 +469,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "badge.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -471,6 +489,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -545,6 +566,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "barchart.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -566,6 +590,9 @@
         "recharts",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -658,6 +685,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "barlist.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -674,6 +704,9 @@
         "clsx",
         "react",
         "tailwind-merge"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -744,6 +777,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "button.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -763,6 +799,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -833,6 +872,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "calendar.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -852,6 +894,9 @@
         "react",
         "react-day-picker",
         "tailwind-merge"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -915,6 +960,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "callout.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -933,6 +981,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -991,6 +1042,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "card.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -1017,6 +1071,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -1160,6 +1217,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "categorybar.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -1177,6 +1237,9 @@
         "clsx",
         "react",
         "tailwind-merge"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -1250,6 +1313,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "checkbox.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -1271,6 +1337,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -1365,6 +1434,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "combochart.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -1386,6 +1458,9 @@
         "recharts",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -1526,6 +1601,9 @@
         "tailwind-merge",
         "tailwind-variants"
       ],
+      "devDependencies": [
+        "@storybook/react"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -1573,6 +1651,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "datepicker.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -1598,6 +1679,9 @@
         "react-day-picker",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -1696,6 +1780,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dialog.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -1716,6 +1803,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -1783,6 +1873,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "divider.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -1802,6 +1895,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -1875,6 +1971,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "donutchart.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -1895,6 +1994,9 @@
         "recharts",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -1986,6 +2088,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "drawer.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -2006,6 +2111,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -2075,6 +2183,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dropdownmenu.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -2095,6 +2206,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -2179,6 +2293,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "input.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -2199,6 +2316,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -2282,6 +2402,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "label.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -2302,6 +2425,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -2406,6 +2532,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "linechart.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -2427,6 +2556,9 @@
         "recharts",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -2520,6 +2652,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "popover.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -2542,6 +2677,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -2635,6 +2773,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "progressbar.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -2653,6 +2794,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -2716,6 +2860,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "progresscircle.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -2734,6 +2881,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -2807,6 +2957,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radiocardgroup.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -2827,6 +2980,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -2905,6 +3061,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radiogroup.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -2926,6 +3085,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -3010,6 +3172,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "select.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -3031,6 +3196,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -3124,6 +3292,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "selectnative.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -3142,6 +3313,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -3220,6 +3394,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "slider.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -3240,6 +3417,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -3334,6 +3514,9 @@
         "recharts",
         "tailwind-merge"
       ],
+      "devDependencies": [
+        "@storybook/react"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -3371,6 +3554,9 @@
         "react",
         "recharts",
         "tailwind-merge"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -3410,6 +3596,9 @@
         "recharts",
         "tailwind-merge"
       ],
+      "devDependencies": [
+        "@storybook/react"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -3442,6 +3631,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sparkchart.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -3495,6 +3687,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "switch.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -3516,6 +3711,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -3598,6 +3796,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "table.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -3616,6 +3817,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -3684,6 +3888,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tabnavigation.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -3702,6 +3909,9 @@
         "clsx",
         "react",
         "tailwind-merge"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -3770,6 +3980,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tabs.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -3788,6 +4001,9 @@
         "clsx",
         "react",
         "tailwind-merge"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -3860,6 +4076,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "textarea.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -3877,6 +4096,9 @@
         "clsx",
         "react",
         "tailwind-merge"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -3994,6 +4216,9 @@
         "tailwind-merge",
         "tailwind-variants"
       ],
+      "devDependencies": [
+        "@storybook/react"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -4077,6 +4302,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "toggle.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -4096,6 +4324,9 @@
         "clsx",
         "react",
         "tailwind-merge"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -4159,6 +4390,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tooltip.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -4179,6 +4413,9 @@
         "react",
         "tailwind-merge",
         "tailwind-variants"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {
@@ -4247,6 +4484,9 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tracker.spec",
       "type": "registry:component",
+      "devDependencies": [
+        "@playwright/test"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -4264,6 +4504,9 @@
         "clsx",
         "react",
         "tailwind-merge"
+      ],
+      "devDependencies": [
+        "@storybook/react"
       ],
       "files": [
         {

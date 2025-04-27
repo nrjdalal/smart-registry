@@ -5,6 +5,8 @@
   "description": "A simple login form.",
   "title": "Login 03",
   "dependencies": [
+    "@radix-ui/react-label",
+    "@radix-ui/react-slot",
     "class-variance-authority",
     "clsx",
     "react",

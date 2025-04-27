@@ -5,6 +5,7 @@
   "dependencies": [
     "@radix-ui/react-checkbox",
     "clsx",
+    "lucide-react",
     "react",
     "tailwind-merge"
   ],

@@ -56,6 +56,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "clsx",
+        "lucide-react",
         "react",
         "tailwind-merge"
       ],
@@ -79,7 +80,8 @@
       "dependencies": [
         "clsx",
         "react",
-        "tailwind-merge"
+        "tailwind-merge",
+        "vaul"
       ],
       "files": [
         {
@@ -171,6 +173,7 @@
         "@radix-ui/react-dialog",
         "class-variance-authority",
         "clsx",
+        "lucide-react",
         "react",
         "tailwind-merge"
       ],
@@ -192,7 +195,10 @@
       "name": "sidebar",
       "type": "registry:ui",
       "dependencies": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-separator",
         "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
         "class-variance-authority",
         "clsx",
         "lucide-react",
@@ -527,6 +533,8 @@
       "description": "A simple login form.",
       "title": "Login 03",
       "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
         "react",
@@ -594,6 +602,9 @@
       "description": "Simple Login with Social Buttons.",
       "title": "Login 04",
       "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
         "react",
@@ -661,8 +672,13 @@
       "description": "Full Page Login with Icons.",
       "title": "Login 05",
       "dependencies": [
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-label",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
+        "lucide-react",
         "react",
         "tailwind-merge"
       ],
@@ -1094,6 +1110,8 @@
       "name": "login-03-login-form",
       "type": "registry:block",
       "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
         "react",
@@ -1142,6 +1160,9 @@
       "name": "login-04-login-form",
       "type": "registry:block",
       "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
         "react",
@@ -1190,8 +1211,13 @@
       "name": "login-05-login-form",
       "type": "registry:block",
       "dependencies": [
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-label",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
+        "lucide-react",
         "react",
         "tailwind-merge"
       ],
