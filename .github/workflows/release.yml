@@ -1,53 +1,93 @@
-name: Release
+name: Release Package
 
 on:
   push:
     branches:
-      - main
+      - "**"
+  issue_comment:
+    types: [created]
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
+permissions:
+  id-token: write
+  contents: write
+  statuses: write
+  pull-requests: write
+
 jobs:
   release:
-    name: Release
+    if: |
+      github.event_name == 'push' || 
+      github.event_name == 'issue_comment' && github.event.comment.user.login == github.repository_owner && contains(github.event.comment.body, 'release')
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
+      - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: lts/*
+          registry-url: https://registry.npmjs.org
 
-      - name: Install Dependencies
-        run: bun install --no-save
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
 
-      - name: Build
-        run: bun run build
-
-      - id: CHECK_TOKENS
-        name: Check if TOKENS are configured
+      - name: Release Package
         run: |
-          if [ -z "${{ secrets.GITHUB_TOKEN }}" ] || [ -z "${{ secrets.NPM_TOKEN }}" ]; then
-            echo "TOKENS are not configured. Skipping changeset actions."
-            echo "NOT_FOUND=true" >> $GITHUB_OUTPUT
+          PACKAGE_NAME=$(bunx json -f package.json -a name)
+          npm view "$PACKAGE_NAME" 2>/dev/null || { echo "$PACKAGE_NAME does not exist in the npm registry. Skipping publish."; exit 0; }
+          PACKAGE_VERSION=$(bunx json -f package.json -a version)
+          VERSIONS=$(npm view $PACKAGE_NAME dist-tags --json)
+          LATEST_VERSION=$(echo $VERSIONS | bunx json latest)
+          if [[ $GITHUB_EVENT_NAME == 'issue_comment' ]]; then
+            PR_NUMBER=$(echo "${{ github.event.issue.pull_request.url }}" | grep -o '[0-9]*$')
+            LATEST_COMMIT_SHA=$(curl -fsSL -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER/commits" | bunx json -a sha | tail -n 1)
+            git checkout $LATEST_COMMIT_SHA
+            TAG="test"
+            RELEASE_VERSION="0.0.0-${LATEST_COMMIT_SHA:0:7}"
+          elif [[ $PACKAGE_VERSION != $LATEST_VERSION ]]; then
+            RELEASE_VERSION=$PACKAGE_VERSION
+            HAS_TAG=$(echo $PACKAGE_VERSION | grep -o '[a-zA-Z]*' | head -n 1)
+            TAG=$([[ -n "$HAS_TAG" ]] && echo $HAS_TAG || echo "latest")
+          else
+            TAG="canary"
+            RELEASE_VERSION=$(bunx semver $LATEST_VERSION -i minor)
+            TAGGED_VERSION=$(echo $VERSIONS | bunx json $TAG)
+            RELEASE_VERSION=$([[ $TAGGED_VERSION == $RELEASE_VERSION* ]] && bunx semver $TAGGED_VERSION -i prerelease || echo $RELEASE_VERSION-$TAG.0)
           fi
 
-      - id: changesets
-        name: Create a release pull request or publish to npm
-        if: steps.CHECK_TOKENS.outputs.NOT_FOUND != 'true'
-        uses: changesets/action@v1
-        with:
-          title: "chore(release): version packages"
-          commit: "chore(release): version packages"
-          version: node .github/changeset-version.js
-          publish: bun run publish:latest
+          bunx json -I -f package.json -e "this.version=\"$RELEASE_VERSION\""
+          bun install --frozen-lockfile
+          bun run sync:external
+          bun run build
+          bunx json -I -f package.json -e 'delete this.scripts'
+          bunx json -I -f package.json -e 'delete this["simple-git-hooks"]'
+          bunx json -I -f package.json -e 'delete this.commitlint'
+          bunx json -I -f package.json -e 'delete this["lint-staged"]'
+          bunx json -I -f package.json -e 'delete this.prettier'
+          bunx json -I -f package.json -e 'delete this.devDependencies'
+          npm publish --provenance --access public --no-git-checks --tag $TAG
+
+          PACKAGE_URL="https://www.npmjs.com/package/$PACKAGE_NAME/v/$RELEASE_VERSION"
+          if [[ $GITHUB_EVENT_NAME == 'issue_comment' ]]; then
+            curl -fsSL -X DELETE -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/$GITHUB_REPOSITORY/issues/comments/${{ github.event.comment.id }}" >/dev/null \
+              && echo "🟢 Releasing comment deleted!" || echo "🔴 Failed to delete releasing comment."
+            curl -fsSL -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/$GITHUB_REPOSITORY/issues/$PR_NUMBER/comments" \
+              -d "{\"body\": \"Test package released - [\`$PACKAGE_NAME@$RELEASE_VERSION\`]($PACKAGE_URL)\"}" >/dev/null \
+              && echo "🟢 Release comment to PR added!" || echo "🔴 Failed to add release comment to PR."
+          else
+            curl -fsSL -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/$GITHUB_REPOSITORY/commits/$GITHUB_SHA/comments" \
+              -d "{\"body\": \"Package released - [\`$PACKAGE_NAME@$RELEASE_VERSION\`]($PACKAGE_URL)\"}" >/dev/null \
+              && echo "🟢 Release comment added!" || echo "🔴 Failed to add release comment."
+            curl -fsSL -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" \
+              -d "{\"state\": \"success\", \"context\": \"Package released\", \"description\": \"$PACKAGE_NAME@$RELEASE_VERSION\", \"target_url\": \"$PACKAGE_URL\"}" >/dev/null \
+              && echo "🟢 Release status updated!" || echo "🔴 Failed to update release status."
+          fi
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
