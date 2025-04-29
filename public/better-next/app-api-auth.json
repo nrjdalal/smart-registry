@@ -3,10 +3,18 @@
   "name": "app-api-auth",
   "type": "registry:file",
   "dependencies": [
+    "@radix-ui/react-label",
+    "@radix-ui/react-slot",
+    "@remixicon/react",
     "better-auth",
+    "class-variance-authority",
+    "clsx",
     "drizzle-orm",
+    "lucide-react",
     "next",
-    "postgres"
+    "postgres",
+    "react",
+    "tailwind-merge"
   ],
   "devDependencies": [
     "drizzle-kit"
@@ -19,27 +27,27 @@
       "path": "src/app/api/auth/[...all]/route.ts"
     },
     {
-      "type": "registry:component",
-      "target": "components/auth.tsx",
-      "content": "\"use client\"\n\nimport { authClient } from \"@/lib/auth/client\"\nimport { useRouter } from \"next/navigation\"\n\nexport const SignIn = () => {\n  const router = useRouter()\n\n  return (\n    <button\n      onClick={async () => {\n        await authClient.signIn.email({\n          email: \"johndoe@acme.com\",\n          password: \"JohnDoeAcmeCom\",\n        })\n        router.refresh()\n      }}\n    >\n      Sign in\n    </button>\n  )\n}\n\nexport const SignUp = () => {\n  const router = useRouter()\n\n  return (\n    <button\n      onClick={async () => {\n        await authClient.signUp.email({\n          name: \"John Doe\",\n          email: \"johndoe@acme.com\",\n          password: \"JohnDoeAcmeCom\",\n        })\n        router.refresh()\n      }}\n    >\n      Sign up\n    </button>\n  )\n}\n\nexport const SignOut = () => {\n  const router = useRouter()\n\n  return (\n    <button\n      onClick={async () => {\n        await authClient.signOut()\n        router.refresh()\n      }}\n    >\n      Sign out\n    </button>\n  )\n}\n",
-      "path": "src/components/auth.tsx"
+      "type": "registry:file",
+      "target": "~/.env.development",
+      "content": "BETTER_AUTH_SECRET=\n\nGITHUB_CLIENT_ID=\nGITHUB_CLIENT_SECRET=\n\nGOOGLE_CLIENT_ID=\nGOOGLE_CLIENT_SECRET=\n\nPOSTGRES_URL=\n",
+      "path": ".env.development"
     },
     {
       "type": "registry:file",
-      "target": "~/.env.example-auth",
-      "content": "BETTER_AUTH_URL=http://localhost:3000\nBETTER_AUTH_SECRET=\nPOSTGRES_URL=\n",
-      "path": ".env.example-auth"
+      "target": "~/.env.production",
+      "content": "BETTER_AUTH_SECRET=\n\nGITHUB_CLIENT_ID=\nGITHUB_CLIENT_SECRET=\n\nGOOGLE_CLIENT_ID=\nGOOGLE_CLIENT_SECRET=\n\nPOSTGRES_URL=\n",
+      "path": ".env.production"
     },
     {
       "type": "registry:file",
       "target": "~/drizzle.config.ts",
-      "content": "import { defineConfig } from \"drizzle-kit\"\n\nexport default defineConfig({\n  dialect: \"postgresql\",\n  dbCredentials: {\n    url: process.env.POSTGRES_URL!,\n  },\n  schema: \"./src/db/schema\",\n  out: \"./src/db/migrations\",\n})\n",
+      "content": "import { defineConfig } from \"drizzle-kit\"\n\nexport default defineConfig({\n  dialect: \"postgresql\",\n  dbCredentials: {\n    url: process.env.POSTGRES_URL!,\n  },\n  schema: \"src/db/schema\",\n  out: \"src/db/drizzle\",\n})\n",
       "path": "drizzle.config.ts"
     },
     {
       "type": "registry:file",
       "target": "db/index.ts",
-      "content": "import { authSchema } from \"@/db/schema\"\nimport { drizzle, type PostgresJsDatabase } from \"drizzle-orm/postgres-js\"\nimport postgres from \"postgres\"\n\ndeclare global {\n  // eslint-disable-next-line\n  var db: PostgresJsDatabase\n}\n\nlet db: PostgresJsDatabase\n\nif (process.env.NODE_ENV === \"production\") {\n  db = drizzle({\n    client: postgres(process.env.POSTGRES_URL!, {\n      connect_timeout: 10000,\n      idle_timeout: 30000,\n      ssl: {\n        rejectUnauthorized: true,\n      },\n    }),\n  })\n} else {\n  if (!global.db) {\n    global.db = drizzle({\n      client: postgres(process.env.POSTGRES_URL!, {\n        connect_timeout: 10000,\n        idle_timeout: 30000,\n        max: 20,\n      }),\n    })\n  }\n  db = global.db\n}\n\nexport { authSchema, db }\n",
+      "content": "import { drizzle, type PostgresJsDatabase } from \"drizzle-orm/postgres-js\"\nimport postgres from \"postgres\"\n\ndeclare global {\n  // eslint-disable-next-line\n  var db: PostgresJsDatabase\n}\n\nlet db: PostgresJsDatabase\n\nif (process.env.NODE_ENV === \"production\") {\n  db = drizzle({\n    client: postgres(process.env.POSTGRES_URL!, {\n      connect_timeout: 10000,\n      idle_timeout: 30000,\n      ssl: {\n        rejectUnauthorized: true,\n      },\n    }),\n  })\n} else {\n  if (!global.db) {\n    global.db = drizzle({\n      client: postgres(process.env.POSTGRES_URL!, {\n        connect_timeout: 10000,\n        idle_timeout: 30000,\n      }),\n    })\n  }\n  db = global.db\n}\n\nexport { db }\n",
       "path": "src/db/index.ts"
     },
     {
@@ -50,40 +58,58 @@
     },
     {
       "type": "registry:file",
-      "target": "db/schema/index.ts",
-      "content": "import { account, session, user, verification } from \"@/db/schema/auth\"\n\nexport const authSchema = { account, session, user, verification }\n",
-      "path": "src/db/schema/index.ts"
-    },
-    {
-      "type": "registry:file",
       "target": "middleware.ts",
-      "content": "import { getSessionCookie } from \"better-auth/cookies\"\nimport { NextRequest, NextResponse } from \"next/server\"\n\nexport async function middleware(request: NextRequest) {\n  const sessionCookie = getSessionCookie(request)\n  if (!sessionCookie) return NextResponse.redirect(new URL(\"/\", request.url))\n  return NextResponse.next()\n}\n\nexport const config = {\n  matcher: [\"/x\"],\n}\n",
+      "content": "import { getSessionCookie } from \"better-auth/cookies\"\nimport { NextRequest, NextResponse } from \"next/server\"\n\nexport async function middleware(request: NextRequest) {\n  const sessionCookie = getSessionCookie(request)\n  if (!sessionCookie) {\n    return NextResponse.redirect(new URL(\"/access\", request.url))\n  }\n  return NextResponse.next()\n}\n\nexport const config = {\n  matcher: [\"/dashboard\"],\n}\n",
       "path": "src/middleware.ts"
     },
     {
       "type": "registry:page",
       "target": "app/(auth)/access/page.tsx",
-      "content": "import { SignIn, SignUp } from \"@/components/auth\"\nimport { auth } from \"@/lib/auth\"\nimport { headers } from \"next/headers\"\nimport { redirect } from \"next/navigation\"\n\nexport default async function ServerComponent() {\n  const session = await auth.api.getSession({\n    headers: await headers(),\n  })\n\n  if (session) redirect(\"/x\")\n\n  return (\n    <div>\n      <SignIn />\n      <SignUp />\n    </div>\n  )\n}\n",
+      "content": "\"use client\"\n\nimport { Button } from \"@/components/ui/button\"\nimport { Input } from \"@/components/ui/input\"\nimport { Label } from \"@/components/ui/label\"\nimport { signIn } from \"@/lib/auth/client\"\nimport { RiGithubFill, RiGoogleFill } from \"@remixicon/react\"\nimport { GalleryVerticalEnd } from \"lucide-react\"\n\nexport default function Page() {\n  return (\n    <div className=\"bg-background flex min-h-svh flex-col items-center justify-center gap-6 p-6 md:p-10\">\n      <div className=\"w-full max-w-sm\">\n        <div className=\"flex flex-col gap-6\">\n          <form>\n            <div className=\"flex flex-col gap-6\">\n              <div className=\"flex flex-col items-center gap-2\">\n                <a\n                  href=\"#\"\n                  className=\"flex flex-col items-center gap-2 font-medium\"\n                >\n                  <div className=\"flex size-8 items-center justify-center rounded-md\">\n                    <GalleryVerticalEnd className=\"size-6\" />\n                  </div>\n                  <span className=\"sr-only\">Acme Inc.</span>\n                </a>\n                <h1 className=\"text-xl font-bold\">Welcome to Acme Inc.</h1>\n              </div>\n              <div className=\"flex flex-col gap-6\">\n                <div className=\"grid gap-3\">\n                  <Label htmlFor=\"email\">Email</Label>\n                  <Input\n                    id=\"email\"\n                    type=\"email\"\n                    placeholder=\"m@example.com\"\n                    required\n                  />\n                </div>\n                <Button type=\"submit\" className=\"w-full\">\n                  Login\n                </Button>\n              </div>\n              <div className=\"after:border-border relative text-center text-sm after:absolute after:inset-0 after:top-1/2 after:z-0 after:flex after:items-center after:border-t\">\n                <span className=\"bg-background text-muted-foreground relative z-10 px-2\">\n                  Or\n                </span>\n              </div>\n              <div className=\"grid gap-4 sm:grid-cols-2\">\n                <Button\n                  variant=\"outline\"\n                  type=\"button\"\n                  className=\"w-full\"\n                  onClick={async () => {\n                    await signIn.social({\n                      provider: \"github\",\n                      callbackURL: \"/dashboard\",\n                    })\n                  }}\n                >\n                  <RiGithubFill className=\"size-5\" />\n                  Continue with Github\n                </Button>\n                <Button\n                  variant=\"outline\"\n                  type=\"button\"\n                  className=\"w-full\"\n                  onClick={async () => {\n                    await signIn.social({\n                      provider: \"google\",\n                      callbackURL: \"/dashboard\",\n                    })\n                  }}\n                >\n                  <RiGoogleFill className=\"size-5\" />\n                  Continue with Google\n                </Button>\n              </div>\n            </div>\n          </form>\n          <div className=\"text-muted-foreground *:[a]:hover:text-primary text-center text-xs text-balance *:[a]:underline *:[a]:underline-offset-4\">\n            By clicking continue, you agree to our{\" \"}\n            <a href=\"#\">Terms of Service</a> and <a href=\"#\">Privacy Policy</a>.\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n",
       "path": "src/app/(auth)/access/page.tsx"
     },
     {
       "type": "registry:page",
-      "target": "app/(auth)/x/page.tsx",
-      "content": "import { SignOut } from \"@/components/auth\"\nimport { auth } from \"@/lib/auth\"\nimport { headers } from \"next/headers\"\nimport { redirect } from \"next/navigation\"\n\nexport default async function ServerComponent() {\n  const session = await auth.api.getSession({\n    headers: await headers(),\n  })\n\n  if (!session) redirect(\"/access\")\n\n  return (\n    <div>\n      <h1>Welcome {session.user.name}</h1>\n      <SignOut />\n    </div>\n  )\n}\n",
-      "path": "src/app/(auth)/x/page.tsx"
+      "target": "app/(auth)/dashboard/page.tsx",
+      "content": "export default function Page() {\n  return <>x.com/nrjdalal_com</>\n}\n",
+      "path": "src/app/(auth)/dashboard/page.tsx"
     },
     {
       "type": "registry:lib",
       "target": "lib/auth/client.ts",
-      "content": "import { createAuthClient } from \"better-auth/react\"\n\nexport const authClient = createAuthClient({\n  baseURL: process.env.NEXT_PUBLIC_APP_URL!,\n})\n",
+      "content": "import { createAuthClient } from \"better-auth/react\"\n\nexport const { signIn } = createAuthClient()\n",
       "path": "src/lib/auth/client.ts"
     },
     {
       "type": "registry:lib",
       "target": "lib/auth/index.ts",
-      "content": "import { authSchema, db } from \"@/db\"\nimport { betterAuth } from \"better-auth\"\nimport { drizzleAdapter } from \"better-auth/adapters/drizzle\"\nimport { nextCookies } from \"better-auth/next-js\"\n\nexport const auth = betterAuth({\n  database: drizzleAdapter(db, {\n    provider: \"pg\",\n    schema: authSchema,\n  }),\n  emailAndPassword: {\n    enabled: true,\n  },\n  plugins: [nextCookies()],\n})\n",
+      "content": "import { db } from \"@/db\"\nimport { account, session, user, verification } from \"@/db/schema/auth\"\nimport { betterAuth } from \"better-auth\"\nimport { drizzleAdapter } from \"better-auth/adapters/drizzle\"\nimport { nextCookies } from \"better-auth/next-js\"\n\nexport const auth = betterAuth({\n  database: drizzleAdapter(db, {\n    provider: \"pg\",\n    schema: {\n      user,\n      session,\n      account,\n      verification,\n    },\n  }),\n  socialProviders: {\n    github: {\n      clientId: process.env.GITHUB_CLIENT_ID as string,\n      clientSecret: process.env.GITHUB_CLIENT_SECRET as string,\n    },\n  },\n  plugins: [\n    nextCookies(), // for email access\n  ],\n})\n",
       "path": "src/lib/auth/index.ts"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
+      "path": "src/lib/utils.ts"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/button.tsx",
+      "content": "import { cn } from \"@/lib/utils\"\nimport { Slot } from \"@radix-ui/react-slot\"\nimport { cva, type VariantProps } from \"class-variance-authority\"\nimport * as React from \"react\"\n\nconst buttonVariants = cva(\n  \"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive\",\n  {\n    variants: {\n      variant: {\n        default:\n          \"bg-primary text-primary-foreground shadow-xs hover:bg-primary/90\",\n        destructive:\n          \"bg-destructive text-white shadow-xs hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60\",\n        outline:\n          \"border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50\",\n        secondary:\n          \"bg-secondary text-secondary-foreground shadow-xs hover:bg-secondary/80\",\n        ghost:\n          \"hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50\",\n        link: \"text-primary underline-offset-4 hover:underline\",\n      },\n      size: {\n        default: \"h-9 px-4 py-2 has-[>svg]:px-3\",\n        sm: \"h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5\",\n        lg: \"h-10 rounded-md px-6 has-[>svg]:px-4\",\n        icon: \"size-9\",\n      },\n    },\n    defaultVariants: {\n      variant: \"default\",\n      size: \"default\",\n    },\n  },\n)\n\nfunction Button({\n  className,\n  variant,\n  size,\n  asChild = false,\n  ...props\n}: React.ComponentProps<\"button\"> &\n  VariantProps<typeof buttonVariants> & {\n    asChild?: boolean\n  }) {\n  const Comp = asChild ? Slot : \"button\"\n\n  return (\n    <Comp\n      data-slot=\"button\"\n      className={cn(buttonVariants({ variant, size, className }))}\n      {...props}\n    />\n  )\n}\n\nexport { Button, buttonVariants }\n",
+      "path": "src/components/ui/button.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/input.tsx",
+      "content": "import { cn } from \"@/lib/utils\"\nimport * as React from \"react\"\n\nfunction Input({ className, type, ...props }: React.ComponentProps<\"input\">) {\n  return (\n    <input\n      type={type}\n      data-slot=\"input\"\n      className={cn(\n        \"file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 w-full min-w-0 rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm\",\n        \"focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]\",\n        \"aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive\",\n        className,\n      )}\n      {...props}\n    />\n  )\n}\n\nexport { Input }\n",
+      "path": "src/components/ui/input.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/label.tsx",
+      "content": "\"use client\"\n\nimport { cn } from \"@/lib/utils\"\nimport * as LabelPrimitive from \"@radix-ui/react-label\"\nimport * as React from \"react\"\n\nfunction Label({\n  className,\n  ...props\n}: React.ComponentProps<typeof LabelPrimitive.Root>) {\n  return (\n    <LabelPrimitive.Root\n      data-slot=\"label\"\n      className={cn(\n        \"flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50\",\n        className,\n      )}\n      {...props}\n    />\n  )\n}\n\nexport { Label }\n",
+      "path": "src/components/ui/label.tsx"
     }
   ],
-  "docs": "  --- What's next? ---\n\n  1. Rename `.env.example-auth` to `.env` and update the necessary environment variables.\n  2. Execute `npx --env-file=.env drizzle-kit push` to create PostgreSQL tables.\n  3. Start the development server with `npm run dev`.\n  4. Access http://localhost:3000/auth/access/page to test the sign-in/sign-up functionality.\n  5. Navigate to http://localhost:3000/auth/x/page to verify the protected route."
+  "docs": "  --- What's next? ---\n\n  1. Update the necessary environment variables.\n  2. Execute `npm --env-file=.env drizzle-kit push` to create PostgreSQL tables.\n  3. Start the development server with `npm run dev`.\n  4. Access http://localhost:3000/access to test the sign-in/sign-up functionality.\n  5. Navigate to http://localhost:3000/dashboard to verify the protected route."
 }

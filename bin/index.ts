@@ -43,6 +43,7 @@ const main = async () => {
         output: { type: "string", short: "o", default: "public/r" },
         cwd: { type: "string", short: "c" },
         ignore: { type: "string", short: "i", default: "" },
+        "codemod-radix": { type: "boolean" },
         help: { type: "boolean", short: "h" },
         version: { type: "boolean", short: "v" },
       },
@@ -70,6 +71,48 @@ const main = async () => {
     })
 
     const failed = [] as string[]
+
+    if (values["codemod-radix"]) {
+      for (const filepath of registryFiles) {
+        try {
+          const absoluteFilePath = path.resolve(cwd, filepath)
+          const fileContent = await fs.promises.readFile(
+            absoluteFilePath,
+            "utf-8",
+          )
+
+          let transformedContent = fileContent
+            // Replace all occurrences of `Slot` with `SlotPrimitive` in the file
+            .replace(/\bSlot\b/g, "SlotPrimitive")
+            // Replace `import * as SomePrimitive` with `import { Some as SomePrimitive }`
+            .replace(
+              /import \* as (\w+Primitive) from "@radix-ui\/react-([\w-]+)"/g,
+              (match, component) =>
+                `import { ${component.replace("Primitive", "")} as ${component} } from "radix-ui"`,
+            )
+            // Replace `import { SomePrimitive }` with `import { Some as SomePrimitive }`
+            .replace(
+              /import { (\w+Primitive) } from "@radix-ui\/react-([\w-]+)"/g,
+              (match, component) =>
+                `import { ${component.replace("Primitive", "")} as ${component} } from "radix-ui"`,
+            )
+
+          await fs.promises.writeFile(
+            absoluteFilePath,
+            transformedContent,
+            "utf-8",
+          )
+          console.log(`Updated imports in ${absoluteFilePath}`)
+        } catch (err: any) {
+          failed.push(filepath + ": " + err.message)
+        }
+      }
+
+      console.log(
+        "\nCodemod ran successfully. Please run the command again without the --codemod-radix flag to generate the registry.",
+      )
+      process.exit(0)
+    }
 
     const outputRegistry = {
       ...inputRegistry,
