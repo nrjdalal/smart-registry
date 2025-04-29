@@ -25,7 +25,7 @@ export const codemodRadix = async ({ cwd }: { cwd: string }) => {
   const unusedPackages = new Set<string>()
 
   for (const filepath of registryFiles) {
-    const absoluteFilepath = path.resolve(filepath)
+    const absoluteFilepath = path.resolve(cwd, filepath)
     const fileContent = await fs.promises.readFile(absoluteFilepath, "utf-8")
     let transformedContent = fileContent
       .replace(
