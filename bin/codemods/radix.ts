@@ -24,7 +24,7 @@ export const codemodRadix = async ({ cwd }: { cwd: string }) => {
 
   const unusedPackages = new Set<string>()
 
-  for (const filepath of registryFiles) {
+  const updateFiles = registryFiles.map(async (filepath) => {
     const absoluteFilepath = path.resolve(cwd, filepath)
     const fileContent = await fs.promises.readFile(absoluteFilepath, "utf-8")
     let transformedContent = fileContent
@@ -59,7 +59,51 @@ export const codemodRadix = async ({ cwd }: { cwd: string }) => {
         .replace(/\?\s+Slot\s+:/g, "? SlotPrimitive.Slot :")
         .replace(/<Slot\b/g, "<SlotPrimitive.Slot")
     }
-    await fs.promises.writeFile(absoluteFilepath, transformedContent, "utf-8")
+    return fs.promises.writeFile(absoluteFilepath, transformedContent, "utf-8")
+  })
+
+  await Promise.all(updateFiles)
+
+  // handle registry.json
+  const registryJsonPath = path.resolve(cwd, "registry.json")
+  if (existsSync(registryJsonPath)) {
+    const registryContent = await fs.promises.readFile(
+      registryJsonPath,
+      "utf-8",
+    )
+    const parsedRegistry = JSON.parse(registryContent)
+
+    interface RegistryObject {
+      [key: string]: any
+      dependencies?: string[]
+      devDependencies?: string[]
+    }
+
+    const updateDependencies = (obj: RegistryObject): void => {
+      for (const key in obj) {
+        if (key === "dependencies" || key === "devDependencies") {
+          obj[key] = Array.from(
+            new Set(
+              (obj[key] as string[]).map((item) => {
+                if (unusedPackages.has(item)) return "radix-ui"
+                return item
+              }),
+            ),
+          )
+        } else if (typeof obj[key] === "object" && obj[key] !== null) {
+          updateDependencies(obj[key] as RegistryObject)
+        }
+      }
+    }
+
+    updateDependencies(parsedRegistry)
+
+    const updatedRegistryContent = JSON.stringify(parsedRegistry, null, 2)
+    await fs.promises.writeFile(
+      registryJsonPath,
+      updatedRegistryContent,
+      "utf-8",
+    )
   }
 
   const packageManager = await getPackageManager(cwd)
