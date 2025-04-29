@@ -2,13 +2,12 @@
 import fs from "node:fs"
 import path from "node:path"
 import { parseArgs } from "node:util"
+import { codemodRadix } from "@/codemods/radix"
 import { registryOrder } from "@/constants/orders"
 import { getAliases } from "@/utils/aliases"
 import { getInputRegistry, listRegistryFiles } from "@/utils/files"
-import { getPackageManager } from "@/utils/get-package-manager"
 import { dataResolver } from "@/utils/resolvers"
 import { transformer } from "@/utils/transformer"
-import { execa } from "execa"
 import { author, name, version } from "../package.json"
 
 const helpMessage = `Version:
@@ -72,76 +71,14 @@ const main = async () => {
       ignore: values.ignore,
     })
 
-    const failed = [] as string[]
-
     if (values["codemod-radix"]) {
-      const unusedPackages = new Set<string>()
-
-      for (const filepath of registryFiles) {
-        const absoluteFilepath = path.resolve(filepath)
-        const fileContent = await fs.promises.readFile(
-          absoluteFilepath,
-          "utf-8",
-        )
-        const transformedContent = fileContent
-          .replace(
-            /import \* as (\w+Primitive) from "@radix-ui\/react-([\w-]+)"/g,
-            (_, primitive, pkg) => {
-              unusedPackages.add(`@radix-ui/react-${pkg}`)
-              return `import { ${primitive.replace(
-                "Primitive",
-                "",
-              )} as ${primitive} } from "radix-ui"`
-            },
-          )
-          // special case for `Sheet`
-          .replace(/Sheet as SheetPrimitive/g, "Dialog as SheetPrimitive")
-          // special cases for `Slot` including type, ternary and JSX
-          .replace(
-            /import\s+\{\s+Slot\s+\}\s+from\s+"@radix-ui\/react-slot"/,
-            () => {
-              unusedPackages.add("@radix-ui/react-slot")
-              return "import { Slot as SlotPrimitive } from 'radix-ui'"
-            },
-          )
-          .replace(/typeof\s+Slot\b/g, "typeof SlotPrimitive.Slot")
-          .replace(/\?\s+Slot\s+:/g, "? SlotPrimitive.Slot :")
-          .replace(/<Slot\b/g, "<SlotPrimitive.Slot")
-        await fs.promises.writeFile(
-          absoluteFilepath,
-          transformedContent,
-          "utf-8",
-        )
-      }
-
-      const packageManager = await getPackageManager(cwd)
-
-      if (unusedPackages.size) {
-        await execa(
-          packageManager,
-          [
-            packageManager === "npm" ? "uninstall" : "remove",
-            ...Array.from(unusedPackages),
-          ],
-          {
-            cwd,
-          },
-        )
-      }
-
-      await execa(
-        packageManager,
-        [packageManager === "npm" ? "install" : "add", "radix-ui"],
-        {
-          cwd,
-        },
-      )
-
-      console.log(
-        "\nCodemod ran successfully. Please run the command again without the --codemod-radix flag to generate the registry.",
-      )
+      await codemodRadix({
+        cwd,
+      })
       process.exit(0)
     }
+
+    const failed = [] as string[]
 
     const outputRegistry = {
       ...inputRegistry,
