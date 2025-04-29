@@ -41,14 +41,13 @@ export const codemodRadix = async ({ cwd }: { cwd: string }) => {
       // special case for `Sheet`
       .replace(/Sheet as SheetPrimitive/g, "Dialog as SheetPrimitive")
 
-    // Check if Slot import already exists
+    // special cases for `Slot` including type, ternary and JSX
     if (
       /import\s+\{\s+Slot\s+\}\s+from\s+"@radix-ui\/react-slot"/.test(
         fileContent,
       )
     ) {
       transformedContent = transformedContent
-        // special cases for `Slot` including type, ternary and JSX
         .replace(
           /import\s+\{\s+Slot\s+\}\s+from\s+"@radix-ui\/react-slot"/,
           () => {
