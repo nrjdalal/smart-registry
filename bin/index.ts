@@ -82,19 +82,20 @@ const main = async () => {
           )
 
           let transformedContent = fileContent
-            // Replace all occurrences of `Slot` with `SlotPrimitive` in the file
             .replace(/\bSlot\b/g, "SlotPrimitive")
-            // Replace `import * as SomePrimitive` with `import { Some as SomePrimitive }`
             .replace(
               /import \* as (\w+Primitive) from "@radix-ui\/react-([\w-]+)"/g,
               (match, component) =>
                 `import { ${component.replace("Primitive", "")} as ${component} } from "radix-ui"`,
             )
-            // Replace `import { SomePrimitive }` with `import { Some as SomePrimitive }`
             .replace(
               /import { (\w+Primitive) } from "@radix-ui\/react-([\w-]+)"/g,
               (match, component) =>
                 `import { ${component.replace("Primitive", "")} as ${component} } from "radix-ui"`,
+            )
+            .replace(
+              /\bSheet\s+as\s+SheetPrimitive\b/g,
+              "Dialog as SheetPrimitive",
             )
 
           await fs.promises.writeFile(
@@ -102,7 +103,7 @@ const main = async () => {
             transformedContent,
             "utf-8",
           )
-          console.log(`Updated imports in ${absoluteFilePath}`)
+          console.log(`Updated imports in ${filepath}`)
         } catch (err: any) {
           failed.push(filepath + ": " + err.message)
         }
