@@ -63,6 +63,13 @@ const main = async () => {
 
     const cwd = path.resolve(values.cwd ?? process.cwd())
 
+    if (values["codemod-radix"]) {
+      await codemodRadix({
+        cwd,
+      })
+      process.exit(0)
+    }
+
     const aliases = await getAliases(cwd)
     const inputRegistry = await getInputRegistry(cwd)
     const registryFiles = await listRegistryFiles({
@@ -70,13 +77,6 @@ const main = async () => {
       patterns: positionals,
       ignore: values.ignore,
     })
-
-    if (values["codemod-radix"]) {
-      await codemodRadix({
-        cwd,
-      })
-      process.exit(0)
-    }
 
     const failed = [] as string[]
 
