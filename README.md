@@ -117,19 +117,22 @@ If you want, you can customize the output directory, working directory, and prov
 
 ```plaintext
 Version:
-  smart-registry@x.y.z
+  smart-registry@0.17.2
 
 Usage:
   $ smart-registry [files/directories] ... [options]
 
 Arguments:
-  files/directories    files or directories to extend the registry (optional)
+  files/directories       files or directories to extend the registry (optional)
 
 Options:
-  -o, --output <path>  destination directory for json files (default: "./public/r")
-  -c, --cwd <cwd>      the working directory (default: "./")
-  -v, --version        display version
-  -h, --help           display help
+  -o, --output <path>     destination directory for json files (default: "./public/r")
+  -c, --cwd <cwd>         the working directory (default: "./")
+  -i, --ignore <pattern>  ignore files matching the pattern (default: none)
+  -p, --patterns-only     generate registry items for patterns only (default: false)
+  --codemod-radix         migrate to unify "@radix-ui/react-*" imports to "radix-ui"
+  -v, --version           display version
+  -h, --help              display help
 
 Author:
   Neeraj Dalal <admin@nrjdalal.com> (https://nrjdalal.com)
