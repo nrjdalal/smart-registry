@@ -61,18 +61,6 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "changelog",
-      "type": "registry:lib",
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "utils/changelog.md",
-          "path": "src/utils/changelog.md"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chartcolors",
       "type": "registry:lib",
       "files": [

@@ -1,13 +1,13 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "changelog",
-  "type": "registry:lib",
+  "type": "registry:hook",
   "files": [
     {
-      "type": "registry:lib",
-      "target": "utils/changelog.md",
-      "content": "# Tremor utils Changelog\n\n### Changes 0.1.0\n\n- New: chartColors added lime and fuchsia\n\n### Changes mixed\n\n- New: chartColors utilities\n- New: getYAxisDomain utility\n- New: hasOnlyOneValueForKey utility\n- Fix: hasOnlyOneValueForKey for constants\n\n## 0.1.0\n\n### Changes\n\n- New: chartColors utilities\n- New: getYAxisDomain utility\n- New: hasOnlyOneValueForKey utility\n\n## 0.0.1\n\n### Changes\n\n- Updated sort order focusInput, focusRing, hasErrorInput\n",
-      "path": "src/utils/changelog.md"
+      "type": "registry:hook",
+      "target": "hooks/changelog.md",
+      "content": "# Tremor hooks Changelog\n\n## 0.0.2\n\n### Changes\n\n- Fix: Use a function type instead of a call signature.\n\n## 0.0.1\n\n### Changes\n\n- Fix: Maximum update depth exceeded error on useOnWindowResize\n\n## 0.0.0\n\n### Changes\n\n- New: useOnWindowResize hook for charts\n",
+      "path": "src/hooks/changelog.md"
     }
   ]
 }

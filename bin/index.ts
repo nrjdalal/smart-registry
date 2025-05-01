@@ -24,6 +24,7 @@ Options:
   -c, --cwd <cwd>         the working directory (default: "./")
   -i, --ignore <pattern>  ignore files matching the pattern (default: none)
   -p, --patterns-only     generate registry items for only given files/directories (default: false)
+  -r, --registry-only     generate registry items for only given registry.json (default: false)
   --codemod-radix         migrate to unify "@radix-ui/react-*" imports to "radix-ui"
   -v, --version           display version
   -h, --help              display help
@@ -50,6 +51,11 @@ const main = async () => {
         "patterns-only": {
           type: "boolean",
           short: "p",
+          default: false,
+        },
+        "registry-only": {
+          type: "boolean",
+          short: "r",
           default: false,
         },
         "codemod-radix": { type: "boolean" },
@@ -80,12 +86,14 @@ const main = async () => {
 
     const aliases = await getAliases(cwd)
     const inputRegistry = await getInputRegistry(cwd)
-    const registryFiles = await listRegistryFiles({
-      cwd,
-      patterns: positionals,
-      ignore: values.ignore,
-      patternsOnly: values["patterns-only"],
-    })
+    const registryFiles = values["registry-only"]
+      ? []
+      : await listRegistryFiles({
+          cwd,
+          patterns: positionals,
+          ignore: values.ignore,
+          patternsOnly: values["patterns-only"],
+        })
 
     const failed = [] as string[]
 
@@ -101,7 +109,19 @@ const main = async () => {
     for (const filepath of [...registryFiles, ...inputRegistryItems]) {
       try {
         // ~ Skip if the file name is already in the output registry items
-        if (outputRegistry.items?.find((item) => item.name === filepath)) {
+        if (
+          outputRegistry.items?.find(
+            (item) =>
+              item.name === filepath ||
+              item.name ===
+                transformer({
+                  cwd,
+                  aliases,
+                  filepath,
+                }).name,
+          )
+        ) {
+          console.log("- Skipping already processed file:", filepath)
           continue
         }
 
