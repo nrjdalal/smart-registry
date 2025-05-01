@@ -41,7 +41,7 @@ Simplify your `registry.json` by removing properties like `registryDependencies`
 Or delete the `registry.json` file entirely. No changes will be made to the generated `public/r/dialog.json` file. Smart, right?
 
 ```bash
-rm registry.json
+rm registry.json && npx smart-registry
 ```
 
 <details><summary>Generated public/r/dialog.json</summary><br/>
