@@ -17,13 +17,16 @@ Usage:
   $ ${name} [files/directories] ... [options]
 
 Arguments:
-  files/directories    files or directories to extend the registry (optional)
+  files/directories       files or directories to extend the registry (optional)
 
 Options:
-  -o, --output <path>  destination directory for json files (default: "./public/r")
-  -c, --cwd <cwd>      the working directory (default: "./")
-  -v, --version        display version
-  -h, --help           display help
+  -o, --output <path>     destination directory for json files (default: "./public/r")
+  -c, --cwd <cwd>         the working directory (default: "./")
+  -i, --ignore <pattern>  ignore files matching the pattern (default: none)
+  -p, --patterns-only     generate registry items for patterns only (default: false)
+  --codemod-radix         migrate to unify "@radix-ui/react-*" imports to "radix-ui"
+  -v, --version           display version
+  -h, --help              display help
 
 Author:
   ${author.name} <${author.email}> (${author.url})`
@@ -44,6 +47,11 @@ const main = async () => {
         output: { type: "string", short: "o", default: "public/r" },
         cwd: { type: "string", short: "c" },
         ignore: { type: "string", short: "i", default: "" },
+        "patterns-only": {
+          type: "boolean",
+          short: "p",
+          default: false,
+        },
         "codemod-radix": { type: "boolean" },
         help: { type: "boolean", short: "h" },
         version: { type: "boolean", short: "v" },
@@ -76,6 +84,7 @@ const main = async () => {
       cwd,
       patterns: positionals,
       ignore: values.ignore,
+      patternsOnly: values["patterns-only"],
     })
 
     const failed = [] as string[]
