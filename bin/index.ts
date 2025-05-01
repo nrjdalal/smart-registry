@@ -89,30 +89,39 @@ const main = async () => {
 
     const failed = [] as string[]
 
+    const inputRegistryItems =
+      inputRegistry.items?.map((item: { name?: string }) => item.name) || []
+
     const outputRegistry = {
       ...inputRegistry,
       items: [] as Record<string, any>[],
     }
 
     // ~ Build registry-item for each file in the registry
-    for (const filepath of registryFiles) {
+    for (const filepath of [...registryFiles, ...inputRegistryItems]) {
       try {
+        // ~ Skip if the file name is already in the output registry items
+        if (outputRegistry.items?.find((item) => item.name === filepath)) {
+          continue
+        }
+
         const existingConfig =
           inputRegistry.items?.find(
             (item: { name?: string }) =>
+              item.name === filepath ||
               item.name ===
-              transformer({
-                cwd,
-                aliases,
-                filepath,
-              }).name,
+                transformer({
+                  cwd,
+                  aliases,
+                  filepath,
+                }).name,
           ) || {}
 
         const resolvedData = await dataResolver({
           cwd,
           aliases,
           filepaths: [
-            filepath,
+            ...(inputRegistryItems.includes(filepath) ? [] : [filepath]),
             ...(existingConfig?.files?.map(
               (file: { path: string }) => file.path,
             ) || []),
