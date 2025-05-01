@@ -130,6 +130,7 @@ Options:
   -c, --cwd <cwd>         the working directory (default: "./")
   -i, --ignore <pattern>  ignore files matching the pattern (default: none)
   -p, --patterns-only     generate registry items for only given files/directories (default: false)
+  -r, --registry-only     generate registry items for only given registry.json (default: false)
   --codemod-radix         migrate to unify "@radix-ui/react-*" imports to "radix-ui"
   -v, --version           display version
   -h, --help              display help
