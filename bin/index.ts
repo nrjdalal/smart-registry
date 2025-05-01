@@ -23,7 +23,7 @@ Options:
   -o, --output <path>     destination directory for json files (default: "./public/r")
   -c, --cwd <cwd>         the working directory (default: "./")
   -i, --ignore <pattern>  ignore files matching the pattern (default: none)
-  -p, --patterns-only     generate registry items for patterns only (default: false)
+  -p, --patterns-only     generate registry items for only given files/directories (default: false)
   --codemod-radix         migrate to unify "@radix-ui/react-*" imports to "radix-ui"
   -v, --version           display version
   -h, --help              display help
