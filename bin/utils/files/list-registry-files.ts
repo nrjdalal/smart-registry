@@ -12,21 +12,23 @@ export const listRegistryFiles = async ({
 }): Promise<string[]> => {
   let registryFiles = [] as string[]
 
-  if (!patterns.length) {
-    for (const pattern of autoDetectPatterns) {
-      registryFiles = await listFiles({
-        cwd,
-        patterns: pattern,
-        ignore,
-      })
-      if (registryFiles.length) break
-    }
-  } else {
+  for (const pattern of autoDetectPatterns) {
     registryFiles = await listFiles({
       cwd,
-      patterns,
+      patterns: pattern,
       ignore,
     })
+    if (registryFiles.length) break
+  }
+
+  if (patterns.length) {
+    registryFiles = registryFiles.concat(
+      await listFiles({
+        cwd,
+        patterns,
+        ignore,
+      }),
+    )
   }
 
   if (!registryFiles.length) {

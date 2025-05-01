@@ -123,7 +123,7 @@ Usage:
   $ smart-registry [files/directories] ... [options]
 
 Arguments:
-  files/directories    files or directories to build the registry from (optional)
+  files/directories    files or directories to extend the registry (optional)
 
 Options:
   -o, --output <path>  destination directory for json files (default: "./public/r")
@@ -132,7 +132,7 @@ Options:
   -h, --help           display help
 
 Author:
-  ${author.name} <${author.email}> (${author.url})
+  Neeraj Dalal <admin@nrjdalal.com> (https://nrjdalal.com)
 ```
 
 e.g. to generate the registry in the `json` directory from some file and directory at the working directory (`apps/www`).
