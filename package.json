@@ -1,6 +1,6 @@
 {
   "name": "smart-registry",
-  "version": "0.20.1",
+  "version": "0.21.0",
   "description": "A zero-configuration (no registry.json required), shadcn add / open in v0 compatible registry builder.",
   "keywords": [
     "components",

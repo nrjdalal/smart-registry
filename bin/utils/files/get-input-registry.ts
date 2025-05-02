@@ -51,11 +51,7 @@ export const getInputRegistry = async ({
     ) {
       uiFiles.push({
         type: "registry:ui",
-        path: transformer({
-          cwd,
-          aliases,
-          filepath,
-        }).path,
+        path: filepath,
       })
     }
   }
