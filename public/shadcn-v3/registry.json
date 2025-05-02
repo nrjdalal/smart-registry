@@ -29111,6 +29111,572 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ui",
+      "type": "registry:file",
+      "dependencies": [
+        "@radix-ui/react-accordion",
+        "@radix-ui/react-alert-dialog",
+        "@radix-ui/react-aspect-ratio",
+        "@radix-ui/react-avatar",
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-collapsible",
+        "@radix-ui/react-context-menu",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-hover-card",
+        "@radix-ui/react-label",
+        "@radix-ui/react-menubar",
+        "@radix-ui/react-navigation-menu",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-progress",
+        "@radix-ui/react-radio-group",
+        "@radix-ui/react-scroll-area",
+        "@radix-ui/react-select",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slider",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-switch",
+        "@radix-ui/react-tabs",
+        "@radix-ui/react-toast",
+        "@radix-ui/react-toggle",
+        "@radix-ui/react-toggle-group",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "cmdk",
+        "embla-carousel-react",
+        "input-otp",
+        "lucide-react",
+        "next-themes",
+        "react",
+        "react-day-picker",
+        "react-hook-form",
+        "react-resizable-panels",
+        "recharts",
+        "sonner",
+        "tailwind-merge",
+        "vaul"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/new-york/utils.ts",
+          "path": "registry/new-york/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.tsx",
+          "path": "registry/default/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-toast.ts",
+          "path": "registry/default/hooks/use-toast.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/new-york/use-mobile.tsx",
+          "path": "registry/new-york/hooks/use-mobile.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/new-york/use-toast.ts",
+          "path": "registry/new-york/hooks/use-toast.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/accordion.tsx",
+          "path": "registry/default/ui/accordion.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/alert-dialog.tsx",
+          "path": "registry/default/ui/alert-dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/alert.tsx",
+          "path": "registry/default/ui/alert.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/aspect-ratio.tsx",
+          "path": "registry/default/ui/aspect-ratio.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "registry/default/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
+          "path": "registry/default/ui/badge.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/breadcrumb.tsx",
+          "path": "registry/default/ui/breadcrumb.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/default/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/carousel.tsx",
+          "path": "registry/default/ui/carousel.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/chart.tsx",
+          "path": "registry/default/ui/chart.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
+          "path": "registry/default/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/collapsible.tsx",
+          "path": "registry/default/ui/collapsible.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/command.tsx",
+          "path": "registry/default/ui/command.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/context-menu.tsx",
+          "path": "registry/default/ui/context-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "registry/default/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/drawer.tsx",
+          "path": "registry/default/ui/drawer.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "registry/default/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/form.tsx",
+          "path": "registry/default/ui/form.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/hover-card.tsx",
+          "path": "registry/default/ui/hover-card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input-otp.tsx",
+          "path": "registry/default/ui/input-otp.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/menubar.tsx",
+          "path": "registry/default/ui/menubar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/navigation-menu.tsx",
+          "path": "registry/default/ui/navigation-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/pagination.tsx",
+          "path": "registry/default/ui/pagination.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/progress.tsx",
+          "path": "registry/default/ui/progress.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/radio-group.tsx",
+          "path": "registry/default/ui/radio-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/resizable.tsx",
+          "path": "registry/default/ui/resizable.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/scroll-area.tsx",
+          "path": "registry/default/ui/scroll-area.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "registry/default/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/default/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "registry/default/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
+          "path": "registry/default/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "registry/default/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/slider.tsx",
+          "path": "registry/default/ui/slider.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sonner.tsx",
+          "path": "registry/default/ui/sonner.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/switch.tsx",
+          "path": "registry/default/ui/switch.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/table.tsx",
+          "path": "registry/default/ui/table.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tabs.tsx",
+          "path": "registry/default/ui/tabs.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/textarea.tsx",
+          "path": "registry/default/ui/textarea.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toast.tsx",
+          "path": "registry/default/ui/toast.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toaster.tsx",
+          "path": "registry/default/ui/toaster.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle-group.tsx",
+          "path": "registry/default/ui/toggle-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle.tsx",
+          "path": "registry/default/ui/toggle.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "registry/default/ui/tooltip.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/accordion.tsx",
+          "path": "registry/new-york/ui/accordion.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/alert-dialog.tsx",
+          "path": "registry/new-york/ui/alert-dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/alert.tsx",
+          "path": "registry/new-york/ui/alert.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/aspect-ratio.tsx",
+          "path": "registry/new-york/ui/aspect-ratio.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/avatar.tsx",
+          "path": "registry/new-york/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/badge.tsx",
+          "path": "registry/new-york/ui/badge.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/breadcrumb.tsx",
+          "path": "registry/new-york/ui/breadcrumb.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/card.tsx",
+          "path": "registry/new-york/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/carousel.tsx",
+          "path": "registry/new-york/ui/carousel.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/chart.tsx",
+          "path": "registry/new-york/ui/chart.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/checkbox.tsx",
+          "path": "registry/new-york/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/collapsible.tsx",
+          "path": "registry/new-york/ui/collapsible.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/command.tsx",
+          "path": "registry/new-york/ui/command.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/context-menu.tsx",
+          "path": "registry/new-york/ui/context-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/dialog.tsx",
+          "path": "registry/new-york/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/drawer.tsx",
+          "path": "registry/new-york/ui/drawer.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/dropdown-menu.tsx",
+          "path": "registry/new-york/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/form.tsx",
+          "path": "registry/new-york/ui/form.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/hover-card.tsx",
+          "path": "registry/new-york/ui/hover-card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input-otp.tsx",
+          "path": "registry/new-york/ui/input-otp.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/menubar.tsx",
+          "path": "registry/new-york/ui/menubar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/navigation-menu.tsx",
+          "path": "registry/new-york/ui/navigation-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/pagination.tsx",
+          "path": "registry/new-york/ui/pagination.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/popover.tsx",
+          "path": "registry/new-york/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/progress.tsx",
+          "path": "registry/new-york/ui/progress.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/radio-group.tsx",
+          "path": "registry/new-york/ui/radio-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/resizable.tsx",
+          "path": "registry/new-york/ui/resizable.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/scroll-area.tsx",
+          "path": "registry/new-york/ui/scroll-area.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/select.tsx",
+          "path": "registry/new-york/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/separator.tsx",
+          "path": "registry/new-york/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sheet.tsx",
+          "path": "registry/new-york/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sidebar.tsx",
+          "path": "registry/new-york/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/skeleton.tsx",
+          "path": "registry/new-york/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/slider.tsx",
+          "path": "registry/new-york/ui/slider.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/sonner.tsx",
+          "path": "registry/new-york/ui/sonner.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/switch.tsx",
+          "path": "registry/new-york/ui/switch.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/table.tsx",
+          "path": "registry/new-york/ui/table.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/tabs.tsx",
+          "path": "registry/new-york/ui/tabs.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/textarea.tsx",
+          "path": "registry/new-york/ui/textarea.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/toast.tsx",
+          "path": "registry/new-york/ui/toast.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/toaster.tsx",
+          "path": "registry/new-york/ui/toaster.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/toggle-group.tsx",
+          "path": "registry/new-york/ui/toggle-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/toggle.tsx",
+          "path": "registry/new-york/ui/toggle.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/tooltip.tsx",
+          "path": "registry/new-york/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "v0-sidebar-16",
       "type": "registry:file",
       "dependencies": [

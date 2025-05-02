@@ -10226,6 +10226,301 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ui",
+      "type": "registry:file",
+      "dependencies": [
+        "@radix-ui/react-accordion",
+        "@radix-ui/react-alert-dialog",
+        "@radix-ui/react-aspect-ratio",
+        "@radix-ui/react-avatar",
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-collapsible",
+        "@radix-ui/react-context-menu",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-hover-card",
+        "@radix-ui/react-label",
+        "@radix-ui/react-menubar",
+        "@radix-ui/react-navigation-menu",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-progress",
+        "@radix-ui/react-radio-group",
+        "@radix-ui/react-scroll-area",
+        "@radix-ui/react-select",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slider",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-switch",
+        "@radix-ui/react-tabs",
+        "@radix-ui/react-toggle",
+        "@radix-ui/react-toggle-group",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "cmdk",
+        "embla-carousel-react",
+        "input-otp",
+        "lucide-react",
+        "next-themes",
+        "react",
+        "react-day-picker",
+        "react-hook-form",
+        "react-resizable-panels",
+        "recharts",
+        "sonner",
+        "tailwind-merge",
+        "vaul"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/new-york-v4/utils.ts",
+          "path": "registry/new-york-v4/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/new-york-v4/use-mobile.ts",
+          "path": "registry/new-york-v4/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/accordion.tsx",
+          "path": "registry/new-york-v4/ui/accordion.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/alert-dialog.tsx",
+          "path": "registry/new-york-v4/ui/alert-dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/alert.tsx",
+          "path": "registry/new-york-v4/ui/alert.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/aspect-ratio.tsx",
+          "path": "registry/new-york-v4/ui/aspect-ratio.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/avatar.tsx",
+          "path": "registry/new-york-v4/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/badge.tsx",
+          "path": "registry/new-york-v4/ui/badge.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/breadcrumb.tsx",
+          "path": "registry/new-york-v4/ui/breadcrumb.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/button.tsx",
+          "path": "registry/new-york-v4/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/calendar.tsx",
+          "path": "registry/new-york-v4/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/card.tsx",
+          "path": "registry/new-york-v4/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/carousel.tsx",
+          "path": "registry/new-york-v4/ui/carousel.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/chart.tsx",
+          "path": "registry/new-york-v4/ui/chart.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/checkbox.tsx",
+          "path": "registry/new-york-v4/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/collapsible.tsx",
+          "path": "registry/new-york-v4/ui/collapsible.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/command.tsx",
+          "path": "registry/new-york-v4/ui/command.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/context-menu.tsx",
+          "path": "registry/new-york-v4/ui/context-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/dialog.tsx",
+          "path": "registry/new-york-v4/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/drawer.tsx",
+          "path": "registry/new-york-v4/ui/drawer.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/dropdown-menu.tsx",
+          "path": "registry/new-york-v4/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/form.tsx",
+          "path": "registry/new-york-v4/ui/form.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/hover-card.tsx",
+          "path": "registry/new-york-v4/ui/hover-card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/input-otp.tsx",
+          "path": "registry/new-york-v4/ui/input-otp.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/input.tsx",
+          "path": "registry/new-york-v4/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/label.tsx",
+          "path": "registry/new-york-v4/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/menubar.tsx",
+          "path": "registry/new-york-v4/ui/menubar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/navigation-menu.tsx",
+          "path": "registry/new-york-v4/ui/navigation-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/pagination.tsx",
+          "path": "registry/new-york-v4/ui/pagination.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/popover.tsx",
+          "path": "registry/new-york-v4/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/progress.tsx",
+          "path": "registry/new-york-v4/ui/progress.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/radio-group.tsx",
+          "path": "registry/new-york-v4/ui/radio-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/resizable.tsx",
+          "path": "registry/new-york-v4/ui/resizable.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/scroll-area.tsx",
+          "path": "registry/new-york-v4/ui/scroll-area.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/select.tsx",
+          "path": "registry/new-york-v4/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/separator.tsx",
+          "path": "registry/new-york-v4/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/sheet.tsx",
+          "path": "registry/new-york-v4/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/sidebar.tsx",
+          "path": "registry/new-york-v4/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/skeleton.tsx",
+          "path": "registry/new-york-v4/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/slider.tsx",
+          "path": "registry/new-york-v4/ui/slider.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/sonner.tsx",
+          "path": "registry/new-york-v4/ui/sonner.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/switch.tsx",
+          "path": "registry/new-york-v4/ui/switch.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/table.tsx",
+          "path": "registry/new-york-v4/ui/table.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/tabs.tsx",
+          "path": "registry/new-york-v4/ui/tabs.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/textarea.tsx",
+          "path": "registry/new-york-v4/ui/textarea.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/toggle-group.tsx",
+          "path": "registry/new-york-v4/ui/toggle-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/toggle.tsx",
+          "path": "registry/new-york-v4/ui/toggle.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york-v4/tooltip.tsx",
+          "path": "registry/new-york-v4/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "use-mobile",
       "type": "registry:file",
       "dependencies": [

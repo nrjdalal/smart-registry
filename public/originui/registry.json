@@ -1155,6 +1155,259 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ui",
+      "type": "registry:file",
+      "dependencies": [
+        "@internationalized/date",
+        "@radix-ui/react-accordion",
+        "@radix-ui/react-alert-dialog",
+        "@radix-ui/react-avatar",
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-collapsible",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-hover-card",
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-progress",
+        "@radix-ui/react-radio-group",
+        "@radix-ui/react-scroll-area",
+        "@radix-ui/react-select",
+        "@radix-ui/react-slider",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-switch",
+        "@radix-ui/react-tabs",
+        "@radix-ui/react-toast",
+        "@radix-ui/react-toggle",
+        "@radix-ui/react-toggle-group",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "cmdk",
+        "lucide-react",
+        "next-themes",
+        "react",
+        "react-aria-components",
+        "react-day-picker",
+        "react-resizable-panels",
+        "sonner",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-toast.ts",
+          "path": "registry/default/hooks/use-toast.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/accordion.tsx",
+          "path": "registry/default/ui/accordion.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/alert-dialog.tsx",
+          "path": "registry/default/ui/alert-dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "registry/default/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
+          "path": "registry/default/ui/badge.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/breadcrumb.tsx",
+          "path": "registry/default/ui/breadcrumb.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar-rac.tsx",
+          "path": "registry/default/ui/calendar-rac.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/checkbox-tree.tsx",
+          "path": "registry/default/ui/checkbox-tree.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
+          "path": "registry/default/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/collapsible.tsx",
+          "path": "registry/default/ui/collapsible.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/command.tsx",
+          "path": "registry/default/ui/command.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/datefield-rac.tsx",
+          "path": "registry/default/ui/datefield-rac.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "registry/default/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "registry/default/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/hover-card.tsx",
+          "path": "registry/default/ui/hover-card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/multiselect.tsx",
+          "path": "registry/default/ui/multiselect.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/pagination.tsx",
+          "path": "registry/default/ui/pagination.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/progress.tsx",
+          "path": "registry/default/ui/progress.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/radio-group.tsx",
+          "path": "registry/default/ui/radio-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/resizable.tsx",
+          "path": "registry/default/ui/resizable.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/scroll-area.tsx",
+          "path": "registry/default/ui/scroll-area.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select-native.tsx",
+          "path": "registry/default/ui/select-native.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "registry/default/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/slider.tsx",
+          "path": "registry/default/ui/slider.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sonner.tsx",
+          "path": "registry/default/ui/sonner.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/stepper.tsx",
+          "path": "registry/default/ui/stepper.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/switch.tsx",
+          "path": "registry/default/ui/switch.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/table.tsx",
+          "path": "registry/default/ui/table.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tabs.tsx",
+          "path": "registry/default/ui/tabs.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/textarea.tsx",
+          "path": "registry/default/ui/textarea.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "registry/default/ui/timeline.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toast.tsx",
+          "path": "registry/default/ui/toast.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toaster.tsx",
+          "path": "registry/default/ui/toaster.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle-group.tsx",
+          "path": "registry/default/ui/toggle-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle.tsx",
+          "path": "registry/default/ui/toggle.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "registry/default/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "comp-01",
       "type": "registry:component",
       "dependencies": [

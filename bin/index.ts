@@ -89,7 +89,6 @@ const main = async () => {
     }
 
     const aliases = await getAliases(cwd)
-    const inputRegistry = await getInputRegistry(cwd)
     const registryFiles = values["registry-only"]
       ? []
       : await listRegistryFiles({
@@ -98,6 +97,11 @@ const main = async () => {
           ignore: values.ignore,
           patternsOnly: values["patterns-only"],
         })
+    const inputRegistry = await getInputRegistry({
+      cwd,
+      aliases,
+      registryFiles,
+    })
 
     const failed = [] as string[]
 
@@ -112,7 +116,7 @@ const main = async () => {
     // ~ Build registry-item for each file in the registry
     for (const filepath of [...registryFiles, ...inputRegistryItems]) {
       try {
-        // ~ Skip if the file name is already in the output registry items
+        // ~ Skip if the filename is already in the output registry items
         if (
           outputRegistry.items?.find(
             (item) =>
@@ -301,8 +305,6 @@ const main = async () => {
               : "    "
           }   ${path.relative(process.cwd(), registryItemPath)}`,
         )
-
-        // ${path.relative(cwd, registryItemPath)}
 
         // ~ Create necessary directories and write registry item files
         await fs.promises.mkdir(path.dirname(registryItemPath), {

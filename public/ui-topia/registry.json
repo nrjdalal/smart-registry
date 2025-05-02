@@ -745,6 +745,123 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ui",
+      "type": "registry:file",
+      "dependencies": [
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-label",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge",
+        "vaul"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.ts",
+          "path": "registry/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
+          "path": "registry/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/drawer.tsx",
+          "path": "registry/ui/drawer.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "registry/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
+          "path": "registry/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "registry/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/stack.tsx",
+          "path": "registry/ui/stack.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-effect.tsx",
+          "path": "registry/ui/text-effect.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-loop.tsx",
+          "path": "registry/ui/text-loop.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-morph.tsx",
+          "path": "registry/ui/text-morph.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-type.tsx",
+          "path": "registry/ui/text-type.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "registry/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "action-search-input-demo",
       "type": "registry:component",
       "description": "Search input that show command menu when focused.",
