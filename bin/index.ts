@@ -192,31 +192,24 @@ const main = async () => {
           ...(extend.registryDependencies.length && {
             registryDependencies: extend.registryDependencies,
           }),
-          files: resolvedData.files
-            .map((file) => {
-              return {
-                type:
-                  transformer({
-                    cwd,
-                    aliases,
-                    filepath: file,
-                  }).type || "registry:file",
-                target:
-                  transformer({
-                    cwd,
-                    aliases,
-                    filepath: file,
-                  }).target || file,
-                content: resolvedData.content[file],
-                path: file,
-              } as Record<string, any>
-            })
-            .sort((a, b) => {
-              if (a.path === filepath) return -1
-              if (b.path === filepath) return 1
-              const order = registryOrder.items.files.type.default
-              return order.indexOf(a.type) - order.indexOf(b.type)
-            }),
+          files: resolvedData.files.map((file) => {
+            return {
+              type:
+                transformer({
+                  cwd,
+                  aliases,
+                  filepath: file,
+                }).type || "registry:file",
+              target:
+                transformer({
+                  cwd,
+                  aliases,
+                  filepath: file,
+                }).target || file,
+              content: resolvedData.content[file],
+              path: file,
+            } as Record<string, any>
+          }),
           // ~ Add properties from the registry.json items, which don't exist in the resolved registry-item
           ...Object.fromEntries(
             Object.entries(existingConfig).filter(
@@ -232,6 +225,39 @@ const main = async () => {
                 ].includes(key),
             ),
           ),
+        }
+
+        if (
+          registryItem.files.some(
+            (file: { path: string }) => file.path === filepath,
+          )
+        ) {
+          registryItem.files = registryItem.files.sort(
+            (
+              a: { path: string; type: string },
+              b: { path: string; type: string },
+            ) => {
+              if (a.path === filepath) return -1
+              if (b.path === filepath) return 1
+              const order = registryOrder.items.files.type.default
+              return order.indexOf(a.type) - order.indexOf(b.type)
+            },
+          )
+        } else {
+          registryItem.files = [
+            registryItem.files[0],
+            ...registryItem.files
+              .slice(1)
+              .sort(
+                (
+                  a: { path: string; type: string },
+                  b: { path: string; type: string },
+                ) => {
+                  const order = registryOrder.items.files.type.default
+                  return order.indexOf(a.type) - order.indexOf(b.type)
+                },
+              ),
+          ]
         }
 
         registryItem = Object.keys(registryItem)

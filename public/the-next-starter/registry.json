@@ -1,0 +1,202 @@
+{
+  "name": "nrjdalal",
+  "homepage": "https://nrjdalal.com",
+  "items": [
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "better-auth",
+      "type": "registry:file",
+      "dependencies": [
+        "@remixicon/react",
+        "better-auth",
+        "class-variance-authority",
+        "clsx",
+        "drizzle-orm",
+        "lucide-react",
+        "next",
+        "postgres",
+        "radix-ui",
+        "react",
+        "sonner",
+        "tailwind-merge"
+      ],
+      "devDependencies": [
+        "drizzle-kit"
+      ],
+      "files": [
+        {
+          "type": "registry:file",
+          "target": "~/.example.env",
+          "path": ".example.env"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/sidebar/user.tsx",
+          "path": "src/components/sidebar/user.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "~/drizzle.config.ts",
+          "path": "drizzle.config.ts"
+        },
+        {
+          "type": "registry:file",
+          "target": "app/(dashboard)/layout.tsx",
+          "path": "src/app/(dashboard)/layout.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "app/api/auth/[...all]/route.ts",
+          "path": "src/app/api/auth/[...all]/route.ts"
+        },
+        {
+          "type": "registry:file",
+          "target": "db/index.ts",
+          "path": "src/db/index.ts"
+        },
+        {
+          "type": "registry:file",
+          "target": "db/schema/auth.ts",
+          "path": "src/db/schema/auth.ts"
+        },
+        {
+          "type": "registry:file",
+          "target": "middleware.ts",
+          "path": "src/middleware.ts"
+        },
+        {
+          "type": "registry:page",
+          "target": "app/(auth)/access/page.tsx",
+          "path": "src/app/(auth)/access/page.tsx"
+        },
+        {
+          "type": "registry:page",
+          "target": "app/(dashboard)/x/page.tsx",
+          "path": "src/app/(dashboard)/x/page.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/auth/client.ts",
+          "path": "src/lib/auth/client.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/auth/index.ts",
+          "path": "src/lib/auth/index.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.ts",
+          "path": "src/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "src/components/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/components/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "src/components/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "src/components/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "src/components/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "src/components/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "src/components/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
+          "path": "src/components/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "src/components/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "src/components/ui/tooltip.tsx"
+        }
+      ],
+      "docs": "  --- What's next? ---\n\n  1. Rename `.example.env` to `.env.development`.\n  2. Update the necessary environment variables in `.env.development`.\n  3. Execute `npm --env-file=.env.development drizzle-kit push` to create PostgreSQL tables.\n  4. Start the development server with `npm run dev`.\n  5. Access http://localhost:3000/access to test the sign-in/sign-up functionality.\n  6. Navigate to http://localhost:3000/x to verify the protected route."
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "drizzle",
+      "type": "registry:file",
+      "dependencies": [
+        "drizzle-orm",
+        "postgres"
+      ],
+      "devDependencies": [
+        "drizzle-kit"
+      ],
+      "files": [
+        {
+          "type": "registry:file",
+          "target": "~/drizzle.config.ts",
+          "path": "drizzle.config.ts"
+        },
+        {
+          "type": "registry:file",
+          "target": "db/index.ts",
+          "path": "src/db/index.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "providers",
+      "type": "registry:file",
+      "dependencies": [
+        "@tanstack/react-query",
+        "lucide-react",
+        "next-themes",
+        "react",
+        "sonner"
+      ],
+      "devDependencies": [
+        "@tanstack/react-query-devtools"
+      ],
+      "files": [
+        {
+          "type": "registry:file",
+          "target": "app/providers.tsx",
+          "path": "src/app/providers.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/devtools.tsx",
+          "path": "src/components/devtools.tsx"
+        }
+      ]
+    }
+  ]
+}

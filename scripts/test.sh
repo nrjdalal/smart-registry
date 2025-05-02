@@ -1,7 +1,7 @@
 #!/bin/bash
 
 repos=(
-  "https://github.com/nrjdalal/better-next better-next . -r"
+  "https://github.com/nrjdalal/the-next-starter the-next-starter . -r"
   "https://github.com/origin-space/originui originui ."
   "https://github.com/shadcn-ui/ui shadcn apps/v4"
   "https://github.com/shadcn-ui/ui shadcn-v3 apps/www"
