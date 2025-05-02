@@ -125,7 +125,6 @@ const main = async () => {
                 }).name,
           )
         ) {
-          console.log("- Skipping already processed file:", filepath)
           continue
         }
 
