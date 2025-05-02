@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "sidebar-03",
-  "type": "registry:file",
+  "type": "registry:block",
   "description": "A sidebar with submenus.",
   "dependencies": [
     "@radix-ui/react-dialog",

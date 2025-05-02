@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "chart-pie-label",
-  "type": "registry:file",
+  "type": "registry:block",
   "dependencies": [
     "clsx",
     "lucide-react",

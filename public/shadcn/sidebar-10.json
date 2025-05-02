@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "sidebar-10",
-  "type": "registry:file",
+  "type": "registry:block",
   "description": "A sidebar in a popover.",
   "dependencies": [
     "@radix-ui/react-collapsible",

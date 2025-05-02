@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "login-05",
-  "type": "registry:page",
+  "type": "registry:block",
   "description": "Full Page Login with Icons.",
   "title": "Login 05",
   "dependencies": [

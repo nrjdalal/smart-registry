@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "login-03",
-  "type": "registry:file",
+  "type": "registry:block",
   "description": "A login page with a muted background color.",
   "dependencies": [
     "@radix-ui/react-label",

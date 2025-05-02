@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "resizable",
-  "type": "registry:file",
+  "type": "registry:ui",
   "dependencies": [
     "clsx",
     "lucide-react",

@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "chart-tooltip-label-none",
-  "type": "registry:file",
+  "type": "registry:block",
   "dependencies": [
     "clsx",
     "react",

@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "sidebar-14",
-  "type": "registry:file",
+  "type": "registry:block",
   "description": "A sidebar on the right.",
   "dependencies": [
     "@radix-ui/react-dialog",

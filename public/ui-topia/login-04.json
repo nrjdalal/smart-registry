@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "login-04",
-  "type": "registry:page",
+  "type": "registry:block",
   "description": "Simple Login with Social Buttons.",
   "title": "Login 04",
   "dependencies": [

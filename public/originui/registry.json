@@ -1040,123 +1040,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "use-character-limit",
-      "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-character-limit.ts",
-          "path": "registry/default/hooks/use-character-limit.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "use-file-upload",
-      "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-file-upload.ts",
-          "path": "registry/default/hooks/use-file-upload.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "use-pagination",
-      "type": "registry:hook",
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-pagination.ts",
-          "path": "registry/default/hooks/use-pagination.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "use-slider-with-input",
-      "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-slider-with-input.ts",
-          "path": "registry/default/hooks/use-slider-with-input.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "use-toast",
-      "type": "registry:hook",
-      "dependencies": [
-        "@radix-ui/react-toast",
-        "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-toast.ts",
-          "path": "registry/default/hooks/use-toast.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/toast.tsx",
-          "path": "registry/default/ui/toast.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "utils",
-      "type": "registry:lib",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/default/lib/utils.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "registry-tags",
-      "type": "registry:file",
-      "files": [
-        {
-          "type": "registry:file",
-          "target": "registry-tags.ts",
-          "path": "registry/registry-tags.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "ui",
-      "type": "registry:file",
+      "type": "registry:ui",
       "dependencies": [
         "@internationalized/date",
         "@radix-ui/react-accordion",
@@ -1403,6 +1288,121 @@
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "registry/default/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "use-character-limit",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-character-limit.ts",
+          "path": "registry/default/hooks/use-character-limit.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "use-file-upload",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-file-upload.ts",
+          "path": "registry/default/hooks/use-file-upload.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "use-pagination",
+      "type": "registry:hook",
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-pagination.ts",
+          "path": "registry/default/hooks/use-pagination.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "use-slider-with-input",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-slider-with-input.ts",
+          "path": "registry/default/hooks/use-slider-with-input.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "use-toast",
+      "type": "registry:hook",
+      "dependencies": [
+        "@radix-ui/react-toast",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-toast.ts",
+          "path": "registry/default/hooks/use-toast.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toast.tsx",
+          "path": "registry/default/ui/toast.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "utils",
+      "type": "registry:lib",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/default/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "registry-tags",
+      "type": "registry:file",
+      "files": [
+        {
+          "type": "registry:file",
+          "target": "registry-tags.ts",
+          "path": "registry/registry-tags.ts"
         }
       ]
     },

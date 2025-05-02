@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "sonner",
-  "type": "registry:file",
+  "type": "registry:ui",
   "dependencies": [
     "next-themes",
     "sonner"

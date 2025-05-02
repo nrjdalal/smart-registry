@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "login-04",
-  "type": "registry:file",
+  "type": "registry:block",
   "description": "A login page with form and image.",
   "dependencies": [
     "@radix-ui/react-label",

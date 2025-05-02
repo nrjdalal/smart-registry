@@ -181,11 +181,13 @@ const main = async () => {
             filepath,
           }).name,
           type:
+            existingConfig.type ||
             transformer({
               cwd,
               aliases,
               filepath,
-            }).type || "registry:file",
+            }).type ||
+            "registry:file",
           ...(extend.dependencies.length && {
             dependencies: extend.dependencies,
           }),

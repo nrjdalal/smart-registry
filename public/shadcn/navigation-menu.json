@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "navigation-menu",
-  "type": "registry:file",
+  "type": "registry:ui",
   "dependencies": [
     "@radix-ui/react-navigation-menu",
     "class-variance-authority",

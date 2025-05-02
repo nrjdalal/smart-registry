@@ -376,36 +376,6 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "text-loop",
-      "type": "registry:ui",
-      "description": "text loop base",
-      "title": "Text Loop",
-      "dependencies": [
-        "clsx",
-        "motion",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:ui",
-          "target": "components/ui/text-loop.tsx",
-          "path": "registry/ui/text-loop.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/lib/utils.ts"
-        }
-      ],
-      "categories": [
-        "motion",
-        "react",
-        "tailwindcss"
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "text-morph",
       "type": "registry:ui",
       "dependencies": [
@@ -425,36 +395,6 @@
           "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "text-type",
-      "type": "registry:ui",
-      "description": "text type base",
-      "title": "Text Type",
-      "dependencies": [
-        "clsx",
-        "motion",
-        "react",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:ui",
-          "target": "components/ui/text-type.tsx",
-          "path": "registry/ui/text-type.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/lib/utils.ts"
-        }
-      ],
-      "categories": [
-        "motion",
-        "react",
-        "tailwindcss"
       ]
     },
     {
@@ -482,271 +422,8 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "use-debounce",
-      "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-debounce.ts",
-          "path": "registry/hooks/use-debounce.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "use-mobile",
-      "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
-      "files": [
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-mobile.ts",
-          "path": "registry/hooks/use-mobile.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "utils",
-      "type": "registry:lib",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/lib/utils.ts"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "login-03",
-      "type": "registry:page",
-      "description": "A simple login form.",
-      "title": "Login 03",
-      "dependencies": [
-        "@radix-ui/react-label",
-        "@radix-ui/react-slot",
-        "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "registryDependencies": [
-        "https://uitopia.xyz/r/button.json",
-        "https://uitopia.xyz/r/card.json",
-        "https://uitopia.xyz/r/input.json",
-        "https://uitopia.xyz/r/label.json"
-      ],
-      "files": [
-        {
-          "type": "registry:page",
-          "target": "blocks/login-03/page.tsx",
-          "path": "registry/blocks/login-03/page.tsx"
-        },
-        {
-          "type": "registry:block",
-          "target": "blocks/login-03/components/login-form.tsx",
-          "path": "registry/blocks/login-03/components/login-form.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/button.tsx",
-          "path": "registry/ui/button.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/card.tsx",
-          "path": "registry/ui/card.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/input.tsx",
-          "path": "registry/ui/input.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/label.tsx",
-          "path": "registry/ui/label.tsx"
-        }
-      ],
-      "meta": {
-        "iframeHeight": "auto"
-      },
-      "categories": [
-        "authentication"
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "login-04",
-      "type": "registry:page",
-      "description": "Simple Login with Social Buttons.",
-      "title": "Login 04",
-      "dependencies": [
-        "@radix-ui/react-label",
-        "@radix-ui/react-separator",
-        "@radix-ui/react-slot",
-        "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
-      ],
-      "registryDependencies": [
-        "https://uitopia.xyz/r/button.json",
-        "https://uitopia.xyz/r/input.json",
-        "https://uitopia.xyz/r/label.json",
-        "https://uitopia.xyz/r/separator.json"
-      ],
-      "files": [
-        {
-          "type": "registry:page",
-          "target": "blocks/login-04/page.tsx",
-          "path": "registry/blocks/login-04/page.tsx"
-        },
-        {
-          "type": "registry:block",
-          "target": "blocks/login-04/components/login-form.tsx",
-          "path": "registry/blocks/login-04/components/login-form.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/button.tsx",
-          "path": "registry/ui/button.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/input.tsx",
-          "path": "registry/ui/input.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/label.tsx",
-          "path": "registry/ui/label.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/separator.tsx",
-          "path": "registry/ui/separator.tsx"
-        }
-      ],
-      "meta": {
-        "iframeHeight": "auto"
-      },
-      "categories": [
-        "authentication"
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "login-05",
-      "type": "registry:page",
-      "description": "Full Page Login with Icons.",
-      "title": "Login 05",
-      "dependencies": [
-        "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "@radix-ui/react-separator",
-        "@radix-ui/react-slot",
-        "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "react",
-        "tailwind-merge"
-      ],
-      "registryDependencies": [
-        "https://uitopia.xyz/r/button.json",
-        "https://uitopia.xyz/r/checkbox.json",
-        "https://uitopia.xyz/r/input.json",
-        "https://uitopia.xyz/r/label.json",
-        "https://uitopia.xyz/r/separator.json"
-      ],
-      "files": [
-        {
-          "type": "registry:page",
-          "target": "blocks/login-05/page.tsx",
-          "path": "registry/blocks/login-05/page.tsx"
-        },
-        {
-          "type": "registry:block",
-          "target": "blocks/login-05/components/login-form.tsx",
-          "path": "registry/blocks/login-05/components/login-form.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "registry/lib/utils.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/button.tsx",
-          "path": "registry/ui/button.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/checkbox.tsx",
-          "path": "registry/ui/checkbox.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/input.tsx",
-          "path": "registry/ui/input.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/label.tsx",
-          "path": "registry/ui/label.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/separator.tsx",
-          "path": "registry/ui/separator.tsx"
-        }
-      ],
-      "meta": {
-        "iframeHeight": "auto"
-      },
-      "categories": [
-        "authentication"
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "ui",
-      "type": "registry:file",
+      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-dialog",
@@ -857,6 +534,52 @@
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "registry/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "use-debounce",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-debounce.ts",
+          "path": "registry/hooks/use-debounce.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "use-mobile",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.ts",
+          "path": "registry/hooks/use-mobile.ts"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "utils",
+      "type": "registry:lib",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/lib/utils.ts"
         }
       ]
     },
@@ -1148,6 +871,36 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "text-loop",
+      "type": "registry:component",
+      "description": "text loop base",
+      "title": "Text Loop",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-loop.tsx",
+          "path": "registry/ui/text-loop.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/lib/utils.ts"
+        }
+      ],
+      "categories": [
+        "motion",
+        "react",
+        "tailwindcss"
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "text-loop-demo",
       "type": "registry:component",
       "description": "Text animation that transitions between multiple items, creating an engaging looping effect",
@@ -1176,6 +929,36 @@
           "type": "registry:ui",
           "target": "components/ui/text-loop.tsx",
           "path": "registry/ui/text-loop.tsx"
+        }
+      ],
+      "categories": [
+        "motion",
+        "react",
+        "tailwindcss"
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "text-type",
+      "type": "registry:component",
+      "description": "text type base",
+      "title": "Text Type",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-type.tsx",
+          "path": "registry/ui/text-type.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/lib/utils.ts"
         }
       ],
       "categories": [
@@ -1220,6 +1003,75 @@
         "motion",
         "react",
         "tailwindcss"
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "login-03",
+      "type": "registry:block",
+      "description": "A simple login form.",
+      "title": "Login 03",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://uitopia.xyz/r/button.json",
+        "https://uitopia.xyz/r/card.json",
+        "https://uitopia.xyz/r/input.json",
+        "https://uitopia.xyz/r/label.json"
+      ],
+      "files": [
+        {
+          "type": "registry:page",
+          "target": "blocks/login-03/page.tsx",
+          "path": "registry/blocks/login-03/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/login-03/components/login-form.tsx",
+          "path": "registry/blocks/login-03/components/login-form.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/ui/label.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "auto"
+      },
+      "categories": [
+        "authentication"
       ]
     },
     {
@@ -1274,6 +1126,76 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "login-04",
+      "type": "registry:block",
+      "description": "Simple Login with Social Buttons.",
+      "title": "Login 04",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://uitopia.xyz/r/button.json",
+        "https://uitopia.xyz/r/input.json",
+        "https://uitopia.xyz/r/label.json",
+        "https://uitopia.xyz/r/separator.json"
+      ],
+      "files": [
+        {
+          "type": "registry:page",
+          "target": "blocks/login-04/page.tsx",
+          "path": "registry/blocks/login-04/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/login-04/components/login-form.tsx",
+          "path": "registry/blocks/login-04/components/login-form.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/ui/separator.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "auto"
+      },
+      "categories": [
+        "authentication"
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "login-04-login-form",
       "type": "registry:block",
       "dependencies": [
@@ -1321,6 +1243,84 @@
           "target": "components/ui/separator.tsx",
           "path": "registry/ui/separator.tsx"
         }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "login-05",
+      "type": "registry:block",
+      "description": "Full Page Login with Icons.",
+      "title": "Login 05",
+      "dependencies": [
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-label",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://uitopia.xyz/r/button.json",
+        "https://uitopia.xyz/r/checkbox.json",
+        "https://uitopia.xyz/r/input.json",
+        "https://uitopia.xyz/r/label.json",
+        "https://uitopia.xyz/r/separator.json"
+      ],
+      "files": [
+        {
+          "type": "registry:page",
+          "target": "blocks/login-05/page.tsx",
+          "path": "registry/blocks/login-05/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "target": "blocks/login-05/components/login-form.tsx",
+          "path": "registry/blocks/login-05/components/login-form.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "registry/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
+          "path": "registry/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/ui/separator.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "auto"
+      },
+      "categories": [
+        "authentication"
       ]
     },
     {

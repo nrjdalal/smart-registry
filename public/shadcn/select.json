@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "select",
-  "type": "registry:file",
+  "type": "registry:ui",
   "dependencies": [
     "@radix-ui/react-select",
     "clsx",

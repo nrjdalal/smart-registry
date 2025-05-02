@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "products-01",
-  "type": "registry:file",
+  "type": "registry:block",
   "description": "A table of products",
   "dependencies": [
     "@radix-ui/react-checkbox",

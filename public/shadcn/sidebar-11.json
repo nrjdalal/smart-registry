@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "sidebar-11",
-  "type": "registry:file",
+  "type": "registry:block",
   "description": "A sidebar with a collapsible file tree.",
   "dependencies": [
     "@radix-ui/react-collapsible",
