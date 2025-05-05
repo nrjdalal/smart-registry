@@ -1,11 +1,10 @@
 #!/bin/bash
 
 repos=(
-  "https://github.com/haydenbleasel/kibo kibo apps/docs"
-  "https://github.com/nrjdalal/the-next-starter the-next-starter ."
   "https://github.com/origin-space/originui originui ."
   "https://github.com/shadcn-ui/ui shadcn apps/v4"
   "https://github.com/shadcn-ui/ui shadcn-v3 apps/www"
+  "https://github.com/nrjdalal/the-next-starter the-next-starter ."
   "https://github.com/tremorlabs/tremor tremor ."
   "https://github.com/cahyawibawa/ui-topia ui-topia apps/web"
 )
