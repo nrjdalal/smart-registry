@@ -281,6 +281,15 @@ const main = async () => {
                 ),
             ]
           }
+        } else {
+          delete registryItem.files
+        }
+
+        if (
+          registryItem.cssVars &&
+          Object.keys(registryItem.cssVars).length === 0
+        ) {
+          delete registryItem.cssVars
         }
 
         registryItem = Object.keys(registryItem)
@@ -348,7 +357,7 @@ const main = async () => {
           registryItemPath,
           JSON.stringify(registryItem, null, 2) + "\n",
         )
-        registryItem.files.forEach(
+        registryItem.files?.forEach(
           (file: { content: any }) => delete file.content,
         )
         outputRegistry.items.push(registryItem)

@@ -11,7 +11,5 @@
   ],
   "registryDependencies": [
     "utils"
-  ],
-  "files": [],
-  "cssVars": {}
+  ]
 }
