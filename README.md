@@ -113,11 +113,11 @@ For more details, refer to the [directory structure](#directory-structure) secti
 npx smart-registry
 ```
 
-Yeah, that's it! You don't need to do anything else. `Smart Registry` has the word `smart` in it for a reason.
+Yeah, that's it! You don't need to do anything else (not even registry.json). `Smart Registry` has the word `smart` in it for a reason.
 
 ### Advanced Usage
 
-If you want, you can customize the output directory, working directory, and provide files or directories to build the registry from.
+If you want, you can customize the output directory, working directory, and provide additional files or directories to build the registry from.
 
 ```plaintext
 Version:
