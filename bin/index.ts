@@ -339,11 +339,12 @@ const main = async () => {
                     " ",
                   )
           } ${
-            resolvedData.dependencies.length
+            registryItem.dependencies?.length +
+            registryItem.devDependencies?.length
               ? "📦" + String(resolvedData.dependencies.length).padEnd(2, " ")
               : "    "
           }  ${
-            resolvedData.files.length - 1
+            registryItem.files?.length - 1
               ? "📄" + String(resolvedData.files.length).padEnd(2, " ")
               : "    "
           }   ${path.relative(process.cwd(), registryItemPath)}`,
