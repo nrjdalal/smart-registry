@@ -27,7 +27,7 @@ process() {
 
   [ ! -d "$junkdir/$name" ] && npx gitpick@latest $link $junkdir/$name
 
-  rm -rf $junkdir/$name${workdir:+/$workdir}/public
+  rm -rf $junkdir/$name${workdir:+/$workdir}/public/r
   node dist/bin/index.js -c $junkdir/$name${workdir:+/$workdir} ${@:4}
   mkdir -p public/$name
   rsync -a --delete $junkdir/$name${workdir:+/$workdir}/public/r/ public/$name

@@ -32,6 +32,60 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "installer",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tabs",
+        "@vercel/analytics",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "next",
+        "react",
+        "sonner",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/installer.tsx",
+          "path": "components/installer.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "packages/shadcn-ui/components/ui/button.tsx",
+          "path": "../../packages/shadcn-ui/components/ui/button.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "packages/shadcn-ui/components/ui/tabs.tsx",
+          "path": "../../packages/shadcn-ui/components/ui/tabs.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "packages/shadcn-ui/lib/utils.ts",
+          "path": "../../packages/shadcn-ui/lib/utils.ts"
+        },
+        {
+          "type": "registry:file",
+          "target": "packages/snippet/index.tsx",
+          "path": "../../packages/snippet/index.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "public/logomark.svg",
+          "path": "public/logomark.svg"
+        },
+        {
+          "type": "registry:file",
+          "target": "public/shadcn.svg",
+          "path": "public/shadcn.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "json-ld",
       "type": "registry:component",
       "dependencies": [
