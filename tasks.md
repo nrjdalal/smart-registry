@@ -3,3 +3,4 @@
 - [ ] Rewrite ignore using patterns
 - [x] Transform paths in content
 - [x] Versioned dependencies
+- [ ] Get globals.css using tinyglobby
