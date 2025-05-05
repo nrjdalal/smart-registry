@@ -288,18 +288,32 @@ const main = async () => {
 
         // ~ Log the status of each registry item being processed
         console.log(
-          `- ${path
-            .relative(process.cwd(), path.resolve(cwd, filepath))
-            .padEnd(
-              Math.max(
-                ...registryFiles.map(
-                  (file) =>
-                    path.relative(process.cwd(), path.resolve(cwd, file))
-                      .length,
-                ),
-              ) + 2,
-              " ",
-            )} ${
+          `${
+            filepath === "ui"
+              ? "\n- every 'registry:ui' component pack".padEnd(
+                  Math.max(
+                    ...registryFiles.map(
+                      (file) =>
+                        path.relative(process.cwd(), path.resolve(cwd, file))
+                          .length,
+                    ),
+                  ) + 5,
+                  " ",
+                )
+              : "- " +
+                path
+                  .relative(process.cwd(), path.resolve(cwd, filepath))
+                  .padEnd(
+                    Math.max(
+                      ...registryFiles.map(
+                        (file) =>
+                          path.relative(process.cwd(), path.resolve(cwd, file))
+                            .length,
+                      ),
+                    ) + 2,
+                    " ",
+                  )
+          } ${
             resolvedData.dependencies.length
               ? "📦" + String(resolvedData.dependencies.length).padEnd(2, " ")
               : "    "
