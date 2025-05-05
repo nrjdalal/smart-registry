@@ -39,5 +39,9 @@ export const listRegistryFiles = async ({
     throw new Error("No files/directories found to build the registry from!")
   }
 
+  registryFiles = registryFiles.sort((a: string, b: string) =>
+    a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }),
+  )
+
   return registryFiles
 }
