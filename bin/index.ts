@@ -315,7 +315,7 @@ const main = async () => {
         console.log(
           `${
             filepath === "ui" || filepath === "style"
-              ? `- 'registry:${filepath}' pack`.padEnd(
+              ? `- 🔥 'registry:${filepath}' pack`.padEnd(
                   Math.max(
                     ...registryFiles.map(
                       (file) =>
