@@ -12,6 +12,7 @@ export const getInputRegistry = async ({
   registryFiles: string[]
 }): Promise<Record<string, any>> => {
   const inputRegistry = path.resolve(cwd, "registry.json")
+
   let registry: {
     $schema: string
     name: string
@@ -19,10 +20,14 @@ export const getInputRegistry = async ({
     items: {
       name: string
       type: string
-      files: {
+      files?: {
         type: string
         path: string
       }[]
+      cssVars?: {
+        light: Record<string, string>
+        dark: Record<string, string>
+      }
     }[]
   } = {
     $schema: "https://ui.shadcn.com/schema/registry.json",
@@ -56,11 +61,91 @@ export const getInputRegistry = async ({
     }
   }
 
+  let light:
+    | {
+        name: string
+        value: string
+      }[]
+    | null = null
+
+  let dark:
+    | {
+        name: string
+        value: string
+      }[]
+    | null = null
+
+  const globalCssPath = fs.existsSync(
+    path.relative(process.cwd(), path.resolve(cwd, "app/globals.css")),
+  )
+    ? path.relative(process.cwd(), path.resolve(cwd, "app/globals.css"))
+    : fs.existsSync(
+          path.relative(
+            process.cwd(),
+            path.resolve(cwd, "src/app/globals.css"),
+          ),
+        )
+      ? path.relative(process.cwd(), path.resolve(cwd, "src/app/globals.css"))
+      : null
+
+  if (globalCssPath) {
+    const globalCss = await fs.promises.readFile(globalCssPath, "utf8")
+    const lightMatch = globalCss.match(/:root\s*{([^}]*)}/)
+    light = lightMatch
+      ? lightMatch[1]
+          .replace(/\/\*[\s\S]*?\*\//g, "")
+          .split(";")
+          .map((v) => v.trim())
+          .filter((v) => v.length)
+          .map((v) => {
+            const [name, value] = v.split(":").map((v) => v.trim())
+            return {
+              name: name.replace(/^--/, ""),
+              value,
+            }
+          })
+      : null
+    const darkMatch = globalCss.match(/\.dark\s*{([^}]*)}/)
+    dark = darkMatch
+      ? darkMatch[1]
+          .replace(/\/\*[\s\S]*?\*\//g, "")
+          .split(";")
+          .map((v) => v.trim())
+          .filter((v) => v.length)
+          .map((v) => {
+            const [name, value] = v.split(":").map((v) => v.trim())
+            return {
+              name: name.replace(/^--/, ""),
+              value,
+            }
+          })
+      : null
+  }
+
+  if (light && dark) {
+    registry.items.push({
+      name: "style",
+      type: "registry:style",
+      cssVars: {
+        light: Object.fromEntries(light.map((v) => [v.name, v.value])),
+        dark: Object.fromEntries(dark.map((v) => [v.name, v.value])),
+      },
+    })
+  }
+
   if (uiFiles.length) {
     registry.items.push({
       name: "ui",
       type: "registry:ui",
       files: uiFiles,
+      ...(light && dark
+        ? {
+            cssVars: {
+              light: Object.fromEntries(light.map((v) => [v.name, v.value])),
+              dark: Object.fromEntries(dark.map((v) => [v.name, v.value])),
+            },
+          }
+        : {}),
     })
   }
 

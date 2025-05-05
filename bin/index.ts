@@ -305,15 +305,15 @@ const main = async () => {
         // ~ Log the status of each registry item being processed
         console.log(
           `${
-            filepath === "ui"
-              ? "\n- every 'registry:ui' component pack".padEnd(
+            filepath === "ui" || filepath === "style"
+              ? `- 'registry:${filepath}' pack`.padEnd(
                   Math.max(
                     ...registryFiles.map(
                       (file) =>
                         path.relative(process.cwd(), path.resolve(cwd, file))
                           .length,
                     ),
-                  ) + 5,
+                  ) + 4,
                   " ",
                 )
               : "- " +
