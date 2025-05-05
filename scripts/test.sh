@@ -1,6 +1,7 @@
 #!/bin/bash
 
 repos=(
+  "https://github.com/haydenbleasel/kibo kibo apps/docs"
   "https://github.com/nrjdalal/the-next-starter the-next-starter ."
   "https://github.com/origin-space/originui originui ."
   "https://github.com/shadcn-ui/ui shadcn apps/v4"

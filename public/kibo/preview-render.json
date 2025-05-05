@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "preview-render",
+  "type": "registry:component",
+  "dependencies": [
+    "next-themes",
+    "react"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/preview/render.tsx",
+      "content": "'use client';\n\nimport { useTheme } from 'next-themes';\nimport type { CSSProperties, ReactNode } from 'react';\n\ntype PreviewRenderProps = {\n  children: ReactNode;\n};\n\nexport const PreviewRender = ({ children }: PreviewRenderProps) => {\n  const { resolvedTheme } = useTheme();\n\n  return (\n    <div\n      className=\"relative flex size-full flex-col items-center justify-center gap-4 overflow-hidden p-8\"\n      style={\n        {\n          '--primary':\n            resolvedTheme === 'dark' ? 'oklch(0.985 0 0)' : 'oklch(0.205 0 0)',\n          '--primary-foreground':\n            resolvedTheme === 'dark' ? 'oklch(0.205 0 0)' : 'oklch(0.985 0 0)',\n        } as CSSProperties\n      }\n    >\n      <div className=\"-translate-y-px absolute top-8 right-0 left-0 border border-border/50 border-dashed\" />\n      <div className=\"absolute right-0 bottom-8 left-0 translate-y-px border border-border/50 border-dashed\" />\n      <div className=\"-translate-x-px absolute top-0 bottom-0 left-8 border border-border/50 border-dashed\" />\n      <div className=\"absolute top-0 right-8 bottom-0 translate-x-px border border-border/50 border-dashed\" />\n      {children}\n    </div>\n  );\n};\n",
+      "path": "components/preview/render.tsx"
+    }
+  ]
+}

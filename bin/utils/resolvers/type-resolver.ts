@@ -23,7 +23,7 @@ export const resolveAliasedImport = async ({
       ) as string
     ],
   )
-  current = current.replace(/\.\//g, "").replace(/\.\.\//g, "")
+  current = current.replace(/^\.\//g, "")
   const files = await listFiles({ cwd, patterns: current })
   current =
     files.find((file) => file.startsWith(current + ".")) ||
