@@ -232,37 +232,39 @@ const main = async () => {
           ),
         }
 
-        if (
-          registryItem.files.some(
-            (file: { path: string }) => file.path === filepath,
-          )
-        ) {
-          registryItem.files = registryItem.files.sort(
-            (
-              a: { path: string; type: string },
-              b: { path: string; type: string },
-            ) => {
-              if (a.path === filepath) return -1
-              if (b.path === filepath) return 1
-              const order = registryOrder.items.files.type.default
-              return order.indexOf(a.type) - order.indexOf(b.type)
-            },
-          )
-        } else {
-          registryItem.files = [
-            registryItem.files[0],
-            ...registryItem.files
-              .slice(1)
-              .sort(
-                (
-                  a: { path: string; type: string },
-                  b: { path: string; type: string },
-                ) => {
-                  const order = registryOrder.items.files.type.default
-                  return order.indexOf(a.type) - order.indexOf(b.type)
-                },
-              ),
-          ]
+        if (registryItem.files.length) {
+          if (
+            registryItem.files.some(
+              (file: { path: string }) => file.path === filepath,
+            )
+          ) {
+            registryItem.files = registryItem.files.sort(
+              (
+                a: { path: string; type: string },
+                b: { path: string; type: string },
+              ) => {
+                if (a.path === filepath) return -1
+                if (b.path === filepath) return 1
+                const order = registryOrder.items.files.type.default
+                return order.indexOf(a.type) - order.indexOf(b.type)
+              },
+            )
+          } else {
+            registryItem.files = [
+              registryItem.files[0],
+              ...registryItem.files
+                .slice(1)
+                .sort(
+                  (
+                    a: { path: string; type: string },
+                    b: { path: string; type: string },
+                  ) => {
+                    const order = registryOrder.items.files.type.default
+                    return order.indexOf(a.type) - order.indexOf(b.type)
+                  },
+                ),
+            ]
+          }
         }
 
         registryItem = Object.keys(registryItem)
