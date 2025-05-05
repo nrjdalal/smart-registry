@@ -161,13 +161,29 @@ const main = async () => {
               ...resolvedData.dependencies,
               ...(existingConfig?.dependencies || []),
             ]),
-          ].sort(),
+          ]
+            .filter(
+              (dep, _, arr) =>
+                !arr.some(
+                  (otherDep) =>
+                    otherDep !== dep && otherDep.startsWith(dep + "@"),
+                ),
+            )
+            .sort(),
           devDependencies: [
             ...new Set([
               ...resolvedData.devDependencies,
               ...(existingConfig?.devDependencies || []),
             ]),
-          ].sort(),
+          ]
+            .filter(
+              (dep, _, arr) =>
+                !arr.some(
+                  (otherDep) =>
+                    otherDep !== dep && otherDep.startsWith(dep + "@"),
+                ),
+            )
+            .sort(),
           registryDependencies: [
             ...new Set([...(existingConfig?.registryDependencies || [])]),
           ].sort(),

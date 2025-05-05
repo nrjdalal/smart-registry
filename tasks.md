@@ -2,4 +2,4 @@
 - [ ] Do not read package.json over and over again
 - [ ] Rewrite ignore using patterns
 - [x] Transform paths in content
-- [ ] Versioned dependencies
+- [x] Versioned dependencies

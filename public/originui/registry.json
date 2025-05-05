@@ -305,7 +305,6 @@
       "dependencies": [
         "@radix-ui/react-dialog",
         "clsx",
-        "cmdk",
         "cmdk@1.0.0",
         "lucide-react",
         "react",
