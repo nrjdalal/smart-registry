@@ -13,7 +13,9 @@ A `zero-configuration` (no registry.json required), [shadcn add](https://ui.shad
 
 ## What is Zero-Configuration?
 
-Simplify your `registry.json` by removing properties like `registryDependencies`, `dependencies`, and `files`. If you don't need to add custom properties or extend default ones, you can even delete the `registry.json` file entirely.
+Simplify your `registry.json` by removing properties like `dependencies`, `devDependencies`, `registryDependencies`, and `files`.
+
+If you don't need to add custom properties or extend default ones, you can even delete the `registry.json` file entirely.
 
 ```diff
 {
@@ -103,7 +105,9 @@ Manual maintenance of `registry.json` files can lead to errors due to missing de
 
 ### Automatic Detection
 
-If your project contains a `registry`, `components`, or `src/components` directory, `Smart Registry` will automatically detect and generate the necessary registry files. For more details, refer to the [directory structure](#directory-structure) section.
+If your project contains a `registry`, `components`, or `src/components` directory, `Smart Registry` will automatically detect and generate the necessary registry files.
+
+For more details, refer to the [directory structure](#directory-structure) section.
 
 ```bash
 npx smart-registry
