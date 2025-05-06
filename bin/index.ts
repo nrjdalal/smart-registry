@@ -385,6 +385,27 @@ const main = async () => {
       JSON.stringify(outputRegistry, null, 2) + "\n",
     )
 
+    // console table for the registry.json file
+    const itemsByType = outputRegistry.items.reduce(
+      (acc: Record<string, number>, item: Record<string, any>) => {
+        acc[item.type] = (acc[item.type] || 0) + 1
+        return acc
+      },
+      {},
+    )
+    console.log()
+    console.table(
+      Object.entries(itemsByType).map(([type, count]) => ({
+        Type: type,
+        Count: count,
+      })),
+    )
+    console.log(
+      `\n- Master (shadcn-compatible) "registry.json" file created at: ${path.relative(process.cwd(), path.resolve(cwd, values.output, "registry.json"))} with ${
+        outputRegistry.items.length
+      } items`,
+    )
+
     // ~ Log failed files
     if (failed.length) {
       console.log()
