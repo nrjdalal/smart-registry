@@ -43,6 +43,7 @@ export const registryOrder = {
     ],
     type: {
       default: [
+        "registry:style",
         "registry:ui",
         "registry:hook",
         "registry:lib",
@@ -65,6 +66,7 @@ export const registryOrder = {
           "registry:lib",
           "registry:hook",
           "registry:ui",
+          "registry:style",
         ],
       },
     },

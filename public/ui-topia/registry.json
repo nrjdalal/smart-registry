@@ -16,10 +16,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "registry/ui/button.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         }
       ]
@@ -35,10 +37,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/card.tsx",
           "path": "registry/ui/card.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         }
       ]
@@ -56,10 +60,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
           "path": "registry/ui/checkbox.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         }
       ]
@@ -76,10 +82,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/drawer.tsx",
           "path": "registry/ui/drawer.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         }
       ]
@@ -95,10 +103,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "registry/ui/input.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         }
       ]
@@ -116,10 +126,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/label.tsx",
           "path": "registry/ui/label.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         }
       ]
@@ -136,10 +148,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
           "path": "registry/ui/separator.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         }
       ]
@@ -158,10 +172,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
           "path": "registry/ui/sheet.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         }
       ]
@@ -192,42 +208,52 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
           "path": "registry/ui/sidebar.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:hook",
+          "target": "hooks/use-mobile.ts",
           "path": "registry/hooks/use-mobile.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "registry/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "registry/ui/input.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
           "path": "registry/ui/separator.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
           "path": "registry/ui/sheet.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
           "path": "registry/ui/skeleton.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
           "path": "registry/ui/tooltip.tsx"
         }
       ],
@@ -284,10 +310,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
           "path": "registry/ui/skeleton.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         }
       ]
@@ -302,10 +330,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/stack.tsx",
           "path": "registry/ui/stack.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         }
       ]
@@ -322,10 +352,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/text-effect.tsx",
           "path": "registry/ui/text-effect.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         }
       ]
@@ -342,10 +374,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/text-morph.tsx",
           "path": "registry/ui/text-morph.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         }
       ]
@@ -362,10 +396,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
           "path": "registry/ui/tooltip.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         }
       ]
@@ -391,78 +427,97 @@
       "files": [
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:hook",
+          "target": "hooks/use-mobile.ts",
           "path": "registry/hooks/use-mobile.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "registry/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/card.tsx",
           "path": "registry/ui/card.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
           "path": "registry/ui/checkbox.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/drawer.tsx",
           "path": "registry/ui/drawer.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "registry/ui/input.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/label.tsx",
           "path": "registry/ui/label.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
           "path": "registry/ui/separator.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
           "path": "registry/ui/sheet.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
           "path": "registry/ui/sidebar.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
           "path": "registry/ui/skeleton.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/stack.tsx",
           "path": "registry/ui/stack.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/text-effect.tsx",
           "path": "registry/ui/text-effect.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/text-loop.tsx",
           "path": "registry/ui/text-loop.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/text-morph.tsx",
           "path": "registry/ui/text-morph.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/text-type.tsx",
           "path": "registry/ui/text-type.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
           "path": "registry/ui/tooltip.tsx"
         }
       ]
@@ -476,6 +531,7 @@
       "files": [
         {
           "type": "registry:hook",
+          "target": "hooks/use-debounce.ts",
           "path": "registry/hooks/use-debounce.ts"
         }
       ]
@@ -489,6 +545,7 @@
       "files": [
         {
           "type": "registry:hook",
+          "target": "hooks/use-mobile.ts",
           "path": "registry/hooks/use-mobile.ts"
         }
       ]
@@ -503,6 +560,7 @@
       "files": [
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         }
       ]
@@ -528,18 +586,22 @@
       "files": [
         {
           "type": "registry:component",
+          "target": "components/action-search-input-demo.tsx",
           "path": "registry/components/action-search-input-demo.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:hook",
+          "target": "hooks/use-debounce.ts",
           "path": "registry/hooks/use-debounce.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "registry/ui/input.tsx"
         }
       ],
@@ -568,18 +630,22 @@
       "files": [
         {
           "type": "registry:component",
+          "target": "components/button-color.tsx",
           "path": "registry/components/button-color.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "registry/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/stack.tsx",
           "path": "registry/ui/stack.tsx"
         }
       ]
@@ -603,18 +669,22 @@
       "files": [
         {
           "type": "registry:component",
+          "target": "components/button-destructive.tsx",
           "path": "registry/components/button-destructive.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "registry/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/stack.tsx",
           "path": "registry/ui/stack.tsx"
         }
       ]
@@ -638,18 +708,22 @@
       "files": [
         {
           "type": "registry:component",
+          "target": "components/button-outline.tsx",
           "path": "registry/components/button-outline.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "registry/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/stack.tsx",
           "path": "registry/ui/stack.tsx"
         }
       ]
@@ -673,18 +747,22 @@
       "files": [
         {
           "type": "registry:component",
+          "target": "components/button-primary.tsx",
           "path": "registry/components/button-primary.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "registry/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/stack.tsx",
           "path": "registry/ui/stack.tsx"
         }
       ]
@@ -706,10 +784,12 @@
       "files": [
         {
           "type": "registry:component",
+          "target": "components/family-wallets-demo.tsx",
           "path": "registry/components/family-wallets-demo.tsx"
         },
         {
           "type": "registry:component",
+          "target": "components/icons.tsx",
           "path": "registry/components/icons.tsx"
         }
       ],
@@ -728,6 +808,7 @@
       "files": [
         {
           "type": "registry:component",
+          "target": "components/icons.tsx",
           "path": "registry/components/icons.tsx"
         }
       ]
@@ -748,10 +829,12 @@
       "files": [
         {
           "type": "registry:component",
+          "target": "components/paper-fold-demo.tsx",
           "path": "registry/components/paper-fold-demo.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         }
       ],
@@ -774,10 +857,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/text-loop.tsx",
           "path": "registry/ui/text-loop.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         }
       ],
@@ -804,14 +889,17 @@
       "files": [
         {
           "type": "registry:component",
+          "target": "components/text-loop-demo.tsx",
           "path": "registry/components/text-loop-demo.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/text-loop.tsx",
           "path": "registry/ui/text-loop.tsx"
         }
       ],
@@ -835,10 +923,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/text-type.tsx",
           "path": "registry/ui/text-type.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         }
       ],
@@ -865,14 +955,17 @@
       "files": [
         {
           "type": "registry:component",
+          "target": "components/text-type-demo.tsx",
           "path": "registry/components/text-type-demo.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/text-type.tsx",
           "path": "registry/ui/text-type.tsx"
         }
       ],
@@ -904,34 +997,42 @@
       "files": [
         {
           "type": "registry:page",
+          "target": "blocks/login-03/page.tsx",
           "path": "registry/blocks/login-03/page.tsx"
         },
         {
           "type": "registry:block",
+          "target": "blocks/login-03/components/login-form.tsx",
           "path": "registry/blocks/login-03/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "registry/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/card.tsx",
           "path": "registry/ui/card.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "registry/ui/input.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/label.tsx",
           "path": "registry/ui/label.tsx"
         }
       ],
@@ -956,30 +1057,37 @@
       "files": [
         {
           "type": "registry:block",
+          "target": "blocks/login-03/components/login-form.tsx",
           "path": "registry/blocks/login-03/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "registry/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/card.tsx",
           "path": "registry/ui/card.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "registry/ui/input.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/label.tsx",
           "path": "registry/ui/label.tsx"
         }
       ]
@@ -1007,34 +1115,42 @@
       "files": [
         {
           "type": "registry:page",
+          "target": "blocks/login-04/page.tsx",
           "path": "registry/blocks/login-04/page.tsx"
         },
         {
           "type": "registry:block",
+          "target": "blocks/login-04/components/login-form.tsx",
           "path": "registry/blocks/login-04/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "registry/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "registry/ui/input.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/label.tsx",
           "path": "registry/ui/label.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
           "path": "registry/ui/separator.tsx"
         }
       ],
@@ -1060,30 +1176,37 @@
       "files": [
         {
           "type": "registry:block",
+          "target": "blocks/login-04/components/login-form.tsx",
           "path": "registry/blocks/login-04/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "registry/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "registry/ui/input.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/label.tsx",
           "path": "registry/ui/label.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
           "path": "registry/ui/separator.tsx"
         }
       ]
@@ -1114,38 +1237,47 @@
       "files": [
         {
           "type": "registry:page",
+          "target": "blocks/login-05/page.tsx",
           "path": "registry/blocks/login-05/page.tsx"
         },
         {
           "type": "registry:block",
+          "target": "blocks/login-05/components/login-form.tsx",
           "path": "registry/blocks/login-05/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "registry/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
           "path": "registry/ui/checkbox.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "registry/ui/input.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/label.tsx",
           "path": "registry/ui/label.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
           "path": "registry/ui/separator.tsx"
         }
       ],
@@ -1173,34 +1305,42 @@
       "files": [
         {
           "type": "registry:block",
+          "target": "blocks/login-05/components/login-form.tsx",
           "path": "registry/blocks/login-05/components/login-form.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "lib/utils.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "registry/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "registry/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
           "path": "registry/ui/checkbox.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "registry/ui/input.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/label.tsx",
           "path": "registry/ui/label.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
           "path": "registry/ui/separator.tsx"
         }
       ]

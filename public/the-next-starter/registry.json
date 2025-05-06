@@ -88,10 +88,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/accordion.tsx",
           "path": "src/components/ui/accordion.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -108,10 +110,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/alert.tsx",
           "path": "src/components/ui/alert.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -129,14 +133,17 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/alert-dialog.tsx",
           "path": "src/components/ui/alert-dialog.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "src/components/ui/button.tsx"
         }
       ]
@@ -150,6 +157,7 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/aspect-ratio.tsx",
           "path": "src/components/ui/aspect-ratio.tsx"
         }
       ]
@@ -166,10 +174,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
           "path": "src/components/ui/avatar.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -187,10 +197,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
           "path": "src/components/ui/badge.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -208,10 +220,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/breadcrumb.tsx",
           "path": "src/components/ui/breadcrumb.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -229,10 +243,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "src/components/ui/button.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -252,14 +268,17 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
           "path": "src/components/ui/calendar.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "src/components/ui/button.tsx"
         }
       ]
@@ -275,10 +294,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/card.tsx",
           "path": "src/components/ui/card.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -298,14 +319,17 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/carousel.tsx",
           "path": "src/components/ui/carousel.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "src/components/ui/button.tsx"
         }
       ]
@@ -322,10 +346,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/chart.tsx",
           "path": "src/components/ui/chart.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -343,10 +369,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
           "path": "src/components/ui/checkbox.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -360,6 +388,7 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/collapsible.tsx",
           "path": "src/components/ui/collapsible.tsx"
         }
       ]
@@ -378,14 +407,17 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/command.tsx",
           "path": "src/components/ui/command.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
           "path": "src/components/ui/dialog.tsx"
         }
       ]
@@ -403,10 +435,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/context-menu.tsx",
           "path": "src/components/ui/context-menu.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -424,10 +458,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
           "path": "src/components/ui/dialog.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -444,10 +480,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/drawer.tsx",
           "path": "src/components/ui/drawer.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -465,10 +503,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
           "path": "src/components/ui/dropdown-menu.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -486,14 +526,17 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/form.tsx",
           "path": "src/components/ui/form.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/label.tsx",
           "path": "src/components/ui/label.tsx"
         }
       ]
@@ -510,10 +553,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/hover-card.tsx",
           "path": "src/components/ui/hover-card.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -529,10 +574,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "src/components/ui/input.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -550,10 +597,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/input-otp.tsx",
           "path": "src/components/ui/input-otp.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -570,10 +619,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/label.tsx",
           "path": "src/components/ui/label.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -591,10 +642,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/menubar.tsx",
           "path": "src/components/ui/menubar.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -613,10 +666,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/navigation-menu.tsx",
           "path": "src/components/ui/navigation-menu.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -635,14 +690,17 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/pagination.tsx",
           "path": "src/components/ui/pagination.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "src/components/ui/button.tsx"
         }
       ]
@@ -659,10 +717,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
           "path": "src/components/ui/popover.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -679,10 +739,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/progress.tsx",
           "path": "src/components/ui/progress.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -700,10 +762,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/radio-group.tsx",
           "path": "src/components/ui/radio-group.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -721,10 +785,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/resizable.tsx",
           "path": "src/components/ui/resizable.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -741,10 +807,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/scroll-area.tsx",
           "path": "src/components/ui/scroll-area.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -762,10 +830,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/select.tsx",
           "path": "src/components/ui/select.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -782,10 +852,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
           "path": "src/components/ui/separator.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -803,10 +875,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
           "path": "src/components/ui/sheet.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -825,38 +899,47 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
           "path": "src/components/ui/sidebar.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:hook",
+          "target": "hooks/use-mobile.ts",
           "path": "src/hooks/use-mobile.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "src/components/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "src/components/ui/input.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
           "path": "src/components/ui/separator.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
           "path": "src/components/ui/sheet.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
           "path": "src/components/ui/skeleton.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
           "path": "src/components/ui/tooltip.tsx"
         }
       ]
@@ -871,10 +954,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
           "path": "src/components/ui/skeleton.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -891,10 +976,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/slider.tsx",
           "path": "src/components/ui/slider.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -909,6 +996,7 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/sonner.tsx",
           "path": "src/components/ui/sonner.tsx"
         }
       ]
@@ -925,10 +1013,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/switch.tsx",
           "path": "src/components/ui/switch.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -944,10 +1034,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/table.tsx",
           "path": "src/components/ui/table.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -964,10 +1056,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/tabs.tsx",
           "path": "src/components/ui/tabs.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -983,10 +1077,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/textarea.tsx",
           "path": "src/components/ui/textarea.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -1004,10 +1100,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/toggle.tsx",
           "path": "src/components/ui/toggle.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -1025,14 +1123,17 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/toggle-group.tsx",
           "path": "src/components/ui/toggle-group.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/toggle.tsx",
           "path": "src/components/ui/toggle.tsx"
         }
       ]
@@ -1049,10 +1150,12 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
           "path": "src/components/ui/tooltip.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -1081,194 +1184,242 @@
       "files": [
         {
           "type": "registry:ui",
+          "target": "components/ui/accordion.tsx",
           "path": "src/components/ui/accordion.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:hook",
+          "target": "hooks/use-mobile.ts",
           "path": "src/hooks/use-mobile.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/alert-dialog.tsx",
           "path": "src/components/ui/alert-dialog.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/alert.tsx",
           "path": "src/components/ui/alert.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/aspect-ratio.tsx",
           "path": "src/components/ui/aspect-ratio.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
           "path": "src/components/ui/avatar.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
           "path": "src/components/ui/badge.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/breadcrumb.tsx",
           "path": "src/components/ui/breadcrumb.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "src/components/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
           "path": "src/components/ui/calendar.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/card.tsx",
           "path": "src/components/ui/card.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/carousel.tsx",
           "path": "src/components/ui/carousel.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/chart.tsx",
           "path": "src/components/ui/chart.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
           "path": "src/components/ui/checkbox.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/collapsible.tsx",
           "path": "src/components/ui/collapsible.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/command.tsx",
           "path": "src/components/ui/command.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/context-menu.tsx",
           "path": "src/components/ui/context-menu.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
           "path": "src/components/ui/dialog.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/drawer.tsx",
           "path": "src/components/ui/drawer.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
           "path": "src/components/ui/dropdown-menu.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/form.tsx",
           "path": "src/components/ui/form.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/hover-card.tsx",
           "path": "src/components/ui/hover-card.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input-otp.tsx",
           "path": "src/components/ui/input-otp.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "src/components/ui/input.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/label.tsx",
           "path": "src/components/ui/label.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/menubar.tsx",
           "path": "src/components/ui/menubar.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/navigation-menu.tsx",
           "path": "src/components/ui/navigation-menu.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/pagination.tsx",
           "path": "src/components/ui/pagination.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
           "path": "src/components/ui/popover.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/progress.tsx",
           "path": "src/components/ui/progress.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/radio-group.tsx",
           "path": "src/components/ui/radio-group.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/resizable.tsx",
           "path": "src/components/ui/resizable.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/scroll-area.tsx",
           "path": "src/components/ui/scroll-area.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/select.tsx",
           "path": "src/components/ui/select.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
           "path": "src/components/ui/separator.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
           "path": "src/components/ui/sheet.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
           "path": "src/components/ui/sidebar.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
           "path": "src/components/ui/skeleton.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/slider.tsx",
           "path": "src/components/ui/slider.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/sonner.tsx",
           "path": "src/components/ui/sonner.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/switch.tsx",
           "path": "src/components/ui/switch.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/table.tsx",
           "path": "src/components/ui/table.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/tabs.tsx",
           "path": "src/components/ui/tabs.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/textarea.tsx",
           "path": "src/components/ui/textarea.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/toggle-group.tsx",
           "path": "src/components/ui/toggle-group.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/toggle.tsx",
           "path": "src/components/ui/toggle.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
           "path": "src/components/ui/tooltip.tsx"
         }
       ]
@@ -1282,6 +1433,7 @@
       "files": [
         {
           "type": "registry:hook",
+          "target": "hooks/use-mobile.ts",
           "path": "src/hooks/use-mobile.ts"
         }
       ]
@@ -1297,14 +1449,17 @@
       "files": [
         {
           "type": "registry:lib",
+          "target": "lib/auth/index.ts",
           "path": "src/lib/auth/index.ts"
         },
         {
           "type": "registry:file",
+          "target": "db/index.ts",
           "path": "src/db/index.ts"
         },
         {
           "type": "registry:file",
+          "target": "db/schema/auth.ts",
           "path": "src/db/schema/auth.ts"
         }
       ]
@@ -1318,6 +1473,7 @@
       "files": [
         {
           "type": "registry:lib",
+          "target": "lib/auth/client.ts",
           "path": "src/lib/auth/client.ts"
         }
       ]
@@ -1332,6 +1488,7 @@
       "files": [
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         }
       ]
@@ -1359,98 +1516,122 @@
       "files": [
         {
           "type": "registry:file",
+          "target": "~/.example.env",
           "path": ".example.env"
         },
         {
           "type": "registry:component",
+          "target": "components/sidebar/user.tsx",
           "path": "src/components/sidebar/user.tsx"
         },
         {
           "type": "registry:file",
+          "target": "~/drizzle.config.ts",
           "path": "drizzle.config.ts"
         },
         {
           "type": "registry:file",
+          "target": "app/(dashboard)/layout.tsx",
           "path": "src/app/(dashboard)/layout.tsx"
         },
         {
           "type": "registry:file",
+          "target": "app/api/auth/[...all]/route.ts",
           "path": "src/app/api/auth/[...all]/route.ts"
         },
         {
           "type": "registry:file",
+          "target": "db/index.ts",
           "path": "src/db/index.ts"
         },
         {
           "type": "registry:file",
+          "target": "db/schema/auth.ts",
           "path": "src/db/schema/auth.ts"
         },
         {
           "type": "registry:file",
+          "target": "middleware.ts",
           "path": "src/middleware.ts"
         },
         {
           "type": "registry:page",
+          "target": "app/(auth)/access/page.tsx",
           "path": "src/app/(auth)/access/page.tsx"
         },
         {
           "type": "registry:page",
+          "target": "app/(dashboard)/x/page.tsx",
           "path": "src/app/(dashboard)/x/page.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/auth/client.ts",
           "path": "src/lib/auth/client.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/auth/index.ts",
           "path": "src/lib/auth/index.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:hook",
+          "target": "hooks/use-mobile.ts",
           "path": "src/hooks/use-mobile.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
           "path": "src/components/ui/avatar.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "src/components/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
           "path": "src/components/ui/dropdown-menu.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "src/components/ui/input.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/label.tsx",
           "path": "src/components/ui/label.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
           "path": "src/components/ui/separator.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
           "path": "src/components/ui/sheet.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
           "path": "src/components/ui/sidebar.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
           "path": "src/components/ui/skeleton.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
           "path": "src/components/ui/tooltip.tsx"
         }
       ],
@@ -1469,10 +1650,12 @@
       "files": [
         {
           "type": "registry:file",
+          "target": "~/drizzle.config.ts",
           "path": "drizzle.config.ts"
         },
         {
           "type": "registry:file",
+          "target": "db/index.ts",
           "path": "src/db/index.ts"
         }
       ]
@@ -1493,10 +1676,12 @@
       "files": [
         {
           "type": "registry:file",
+          "target": "app/providers.tsx",
           "path": "src/app/providers.tsx"
         },
         {
           "type": "registry:component",
+          "target": "components/devtools.tsx",
           "path": "src/components/devtools.tsx"
         }
       ]
@@ -1514,6 +1699,7 @@
       "files": [
         {
           "type": "registry:component",
+          "target": "components/devtools.tsx",
           "path": "src/components/devtools.tsx"
         }
       ]
@@ -1534,54 +1720,67 @@
       "files": [
         {
           "type": "registry:component",
+          "target": "components/sidebar/user.tsx",
           "path": "src/components/sidebar/user.tsx"
         },
         {
           "type": "registry:lib",
+          "target": "lib/auth/client.ts",
           "path": "src/lib/auth/client.ts"
         },
         {
           "type": "registry:lib",
+          "target": "lib/utils.ts",
           "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:hook",
+          "target": "hooks/use-mobile.ts",
           "path": "src/hooks/use-mobile.ts"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
           "path": "src/components/ui/avatar.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button.tsx",
           "path": "src/components/ui/button.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
           "path": "src/components/ui/dropdown-menu.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input.tsx",
           "path": "src/components/ui/input.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
           "path": "src/components/ui/separator.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
           "path": "src/components/ui/sheet.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
           "path": "src/components/ui/sidebar.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
           "path": "src/components/ui/skeleton.tsx"
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
           "path": "src/components/ui/tooltip.tsx"
         }
       ]
