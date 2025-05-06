@@ -2,8 +2,8 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "text-loop",
   "type": "registry:component",
-  "description": "text loop base",
   "title": "Text Loop",
+  "description": "text loop base",
   "dependencies": [
     "clsx",
     "motion",

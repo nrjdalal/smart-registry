@@ -1,0 +1,27 @@
+{
+  "url": "https://solid-ui.com/docs/components/delta-bar",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "delta-bar",
+  "type": "registry:ui",
+  "title": "Delta Bar",
+  "description": "A delta bar component",
+  "dependencies": [
+    "clsx",
+    "solid-js",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
+      "path": "src/lib/utils.ts"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/delta-bar.tsx",
+      "content": "import { mergeProps, Show, splitProps, type Component, type ComponentProps } from \"solid-js\"\n\nimport { cn } from \"@/lib/utils\"\n\ntype DeltaBarProps = ComponentProps<\"div\"> & {\n  value: number\n  isIncreasePositive?: boolean\n}\n\nconst DeltaBar: Component<DeltaBarProps> = (rawProps) => {\n  const props = mergeProps(\n    {\n      isIncreasePositive: true\n    },\n    rawProps\n  )\n  const [local, others] = splitProps(props, [\"value\", \"isIncreasePositive\", \"class\"])\n\n  const barColor = () => \n    (local.value > 0 && local.isIncreasePositive) || (local.value < 0 && !local.isIncreasePositive)\n      ? \"bg-success-foreground\"\n      : \"bg-error-foreground\"\n\n  return (\n    <div\n      class={cn(\"relative flex h-2 w-full items-center rounded-full bg-secondary\", local.class)}\n      {...others}\n    >\n      <div class=\"flex h-full w-1/2 justify-end\">\n        <Show when={local.value < 0}>\n          <div\n            class={cn(\"rounded-l-full\", barColor())}\n            style={{ width: `${Math.abs(local.value)}%` }}\n          />\n        </Show>\n      </div>\n      <div class={cn(\"z-10 h-4 w-1 rounded-full ring-2 ring-background\", barColor())} />\n      <div class=\"flex h-full w-1/2 justify-start\">\n        <Show when={local.value > 0}>\n          <div\n            class={cn(\"rounded-r-full\", barColor())}\n            style={{ width: `${Math.abs(local.value)}%` }}\n          />\n        </Show>\n      </div>\n    </div>\n  )\n}\n\nexport { DeltaBar }\nexport type { DeltaBarProps }\n\n",
+      "path": "src/registry/ui/delta-bar.tsx"
+    }
+  ]
+}

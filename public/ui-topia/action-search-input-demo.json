@@ -2,8 +2,8 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "action-search-input-demo",
   "type": "registry:component",
-  "description": "Search input that show command menu when focused.",
   "title": "Action Search Input",
+  "description": "Search input that show command menu when focused.",
   "dependencies": [
     "clsx",
     "lucide-react",

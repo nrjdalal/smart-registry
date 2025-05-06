@@ -2,8 +2,8 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "paper-fold-demo",
   "type": "registry:component",
-  "description": "A paper folding animation.",
   "title": "Paper Fold",
+  "description": "A paper folding animation.",
   "dependencies": [
     "@remixicon/react",
     "clsx",

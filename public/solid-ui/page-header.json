@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "page-header",
+  "type": "registry:component",
+  "dependencies": [
+    "clsx",
+    "solid-js",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/page-header.tsx",
+      "content": "import type { ComponentProps } from \"solid-js\"\nimport { splitProps } from \"solid-js\"\n\nimport { cn } from \"@/lib/utils\"\n\nexport function PageHeader(props: ComponentProps<\"section\">) {\n  const [local, others] = splitProps(props, [\"class\", \"children\"])\n  return (\n    <section\n      class={cn(\n        \"flex flex-col items-start gap-2 border-b border-border/40 px-4 py-8 md:py-12 md:pb-8 lg:py-12 lg:pb-10\",\n        local.class\n      )}\n      {...others}\n    >\n      <div class=\"container\">{local.children}</div>\n    </section>\n  )\n}\n\nexport function PageHeaderHeading(props: ComponentProps<\"h1\">) {\n  const [local, others] = splitProps(props, [\"class\"])\n  return (\n    <h1\n      class={cn(\n        \"text-3xl font-bold leading-tight tracking-tighter md:text-4xl lg:leading-[1.1]\",\n        local.class\n      )}\n      {...others}\n    />\n  )\n}\n\nexport function PageHeaderDescription(props: ComponentProps<\"p\">) {\n  const [local, others] = splitProps(props, [\"class\"])\n  return <p class={cn(\"max-w-2xl text-lg font-light text-foreground\", local.class)} {...others} />\n}\n\nexport function PageHeaderActions(props: ComponentProps<\"div\">) {\n  const [local, others] = splitProps(props, [\"class\"])\n  return (\n    <div class={cn(\"flex w-full items-center justify-start gap-2 py-2\", local.class)} {...others} />\n  )\n}\n",
+      "path": "src/components/page-header.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
+      "path": "src/lib/utils.ts"
+    }
+  ]
+}

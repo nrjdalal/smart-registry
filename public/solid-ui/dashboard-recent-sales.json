@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dashboard-recent-sales",
+  "type": "registry:component",
+  "dependencies": [
+    "@kobalte/core",
+    "clsx",
+    "solid-js",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/dashboard/recent-sales.tsx",
+      "content": "import { Avatar, AvatarFallback, AvatarImage } from \"@/components/ui/avatar\"\n\nexport function RecentSales() {\n  return (\n    <div class=\"space-y-8\">\n      <div class=\"flex items-center\">\n        <Avatar class=\"size-9\">\n          <AvatarImage src=\"/avatars/01.png\" alt=\"Avatar\" />\n          <AvatarFallback>OM</AvatarFallback>\n        </Avatar>\n        <div class=\"ml-4 space-y-1\">\n          <p class=\"text-sm font-medium leading-none\">Olivia Martin</p>\n          <p class=\"text-sm text-muted-foreground\">olivia.martin@email.com</p>\n        </div>\n        <div class=\"ml-auto font-medium\">+$1,999.00</div>\n      </div>\n      <div class=\"flex items-center\">\n        <Avatar class=\"flex size-9 items-center justify-center space-y-0 border\">\n          <AvatarImage src=\"/avatars/02.png\" alt=\"Avatar\" />\n          <AvatarFallback>JL</AvatarFallback>\n        </Avatar>\n        <div class=\"ml-4 space-y-1\">\n          <p class=\"text-sm font-medium leading-none\">Jackson Lee</p>\n          <p class=\"text-sm text-muted-foreground\">jackson.lee@email.com</p>\n        </div>\n        <div class=\"ml-auto font-medium\">+$39.00</div>\n      </div>\n      <div class=\"flex items-center\">\n        <Avatar class=\"size-9\">\n          <AvatarImage src=\"/avatars/03.png\" alt=\"Avatar\" />\n          <AvatarFallback>IN</AvatarFallback>\n        </Avatar>\n        <div class=\"ml-4 space-y-1\">\n          <p class=\"text-sm font-medium leading-none\">Isabella Nguyen</p>\n          <p class=\"text-sm text-muted-foreground\">isabella.nguyen@email.com</p>\n        </div>\n        <div class=\"ml-auto font-medium\">+$299.00</div>\n      </div>\n      <div class=\"flex items-center\">\n        <Avatar class=\"size-9\">\n          <AvatarImage src=\"/avatars/04.png\" alt=\"Avatar\" />\n          <AvatarFallback>WK</AvatarFallback>\n        </Avatar>\n        <div class=\"ml-4 space-y-1\">\n          <p class=\"text-sm font-medium leading-none\">William Kim</p>\n          <p class=\"text-sm text-muted-foreground\">will@email.com</p>\n        </div>\n        <div class=\"ml-auto font-medium\">+$99.00</div>\n      </div>\n      <div class=\"flex items-center\">\n        <Avatar class=\"size-9\">\n          <AvatarImage src=\"/avatars/05.png\" alt=\"Avatar\" />\n          <AvatarFallback>SD</AvatarFallback>\n        </Avatar>\n        <div class=\"ml-4 space-y-1\">\n          <p class=\"text-sm font-medium leading-none\">Sofia Davis</p>\n          <p class=\"text-sm text-muted-foreground\">sofia.davis@email.com</p>\n        </div>\n        <div class=\"ml-auto font-medium\">+$39.00</div>\n      </div>\n    </div>\n  )\n}\n",
+      "path": "src/components/dashboard/recent-sales.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
+      "path": "src/lib/utils.ts"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/avatar.tsx",
+      "content": "import type { ValidComponent } from \"solid-js\"\nimport { splitProps } from \"solid-js\"\n\nimport * as ImagePrimitive from \"@kobalte/core/image\"\nimport type { PolymorphicProps } from \"@kobalte/core/polymorphic\"\n\nimport { cn } from \"@/lib/utils\"\n\ntype AvatarRootProps<T extends ValidComponent = \"span\"> = ImagePrimitive.ImageRootProps<T> & {\n  class?: string | undefined\n}\n\nconst Avatar = <T extends ValidComponent = \"span\">(\n  props: PolymorphicProps<T, AvatarRootProps<T>>\n) => {\n  const [local, others] = splitProps(props as AvatarRootProps, [\"class\"])\n  return (\n    <ImagePrimitive.Root\n      class={cn(\"relative flex size-10 shrink-0 overflow-hidden rounded-full\", local.class)}\n      {...others}\n    />\n  )\n}\n\ntype AvatarImageProps<T extends ValidComponent = \"img\"> = ImagePrimitive.ImageImgProps<T> & {\n  class?: string | undefined\n}\n\nconst AvatarImage = <T extends ValidComponent = \"img\">(\n  props: PolymorphicProps<T, AvatarImageProps<T>>\n) => {\n  const [local, others] = splitProps(props as AvatarImageProps, [\"class\"])\n  return <ImagePrimitive.Img class={cn(\"aspect-square size-full\", local.class)} {...others} />\n}\n\ntype AvatarFallbackProps<T extends ValidComponent = \"span\"> =\n  ImagePrimitive.ImageFallbackProps<T> & { class?: string | undefined }\n\nconst AvatarFallback = <T extends ValidComponent = \"span\">(\n  props: PolymorphicProps<T, AvatarFallbackProps<T>>\n) => {\n  const [local, others] = splitProps(props as AvatarFallbackProps, [\"class\"])\n  return (\n    <ImagePrimitive.Fallback\n      class={cn(\"flex size-full items-center justify-center bg-muted\", local.class)}\n      {...others}\n    />\n  )\n}\n\nexport { Avatar, AvatarImage, AvatarFallback }\n",
+      "path": "src/registry/ui/avatar.tsx"
+    }
+  ]
+}

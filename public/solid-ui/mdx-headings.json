@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mdx-headings",
+  "type": "registry:lib",
+  "dependencies": [
+    "unist"
+  ],
+  "devDependencies": [
+    "estree-util-value-to-estree",
+    "unist-util-visit"
+  ],
+  "files": [
+    {
+      "type": "registry:lib",
+      "target": "lib/mdx/headings.tsx",
+      "content": "import { valueToEstree } from \"estree-util-value-to-estree\"\nimport type { Node, Parent } from \"unist\"\nimport { visit } from \"unist-util-visit\"\n\ninterface ElementNode extends Node {\n  tagName: string\n  value: string\n  properties: {\n    id: string\n  }\n}\n\nexport type Heading = {\n  depth: number\n  text: string\n  slug: string\n}\n\nexport default function rehypeHeadings() {\n  return function (tree: Parent) {\n    const headings: Heading[] = []\n\n    visit(tree, \"element\", (node: ElementNode) => {\n      if (node.tagName[0] !== \"h\") return\n      const [, level] = node.tagName.match(/h([0-6])/) ?? []\n      const depth = Number.parseInt(level)\n\n      let text = \"\"\n      visit(node, (node, _, parent) => {\n        if (node.type === \"element\" || parent === null) {\n          return\n        }\n        if (node.type === \"raw\" && node.value.match(/^\\n?<.*>\\n?$/)) {\n          return\n        }\n        if (new Set([\"text\"]).has(node.type)) {\n          text += node.value\n        }\n      })\n\n      node.properties = node.properties || {}\n\n      headings.push({\n        depth,\n        slug: node.properties.id,\n        text\n      })\n    })\n\n    tree.children.unshift({\n      type: \"mdxjsEsm\",\n      data: {\n        estree: {\n          type: \"Program\",\n          sourceType: \"module\",\n          body: [\n            {\n              type: \"ExportNamedDeclaration\",\n              specifiers: [],\n              declaration: {\n                type: \"VariableDeclaration\",\n                kind: \"const\",\n                declarations: Object.entries({\n                  headings\n                }).map(([identifier, value]) => ({\n                  type: \"VariableDeclarator\",\n                  id: {\n                    type: \"Identifier\",\n                    name: identifier\n                  },\n                  init: valueToEstree(value)\n                }))\n              }\n            }\n          ]\n        }\n      }\n    })\n  }\n}\n",
+      "path": "src/lib/mdx/headings.tsx"
+    }
+  ]
+}

@@ -2,8 +2,8 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "login-05",
   "type": "registry:block",
-  "description": "Full Page Login with Icons.",
   "title": "Login 05",
+  "description": "Full Page Login with Icons.",
   "dependencies": [
     "@radix-ui/react-checkbox",
     "@radix-ui/react-label",

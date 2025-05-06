@@ -2,8 +2,8 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "text-loop-demo",
   "type": "registry:component",
-  "description": "Text animation that transitions between multiple items, creating an engaging looping effect",
   "title": "Text Loop",
+  "description": "Text animation that transitions between multiple items, creating an engaging looping effect",
   "dependencies": [
     "clsx",
     "motion",

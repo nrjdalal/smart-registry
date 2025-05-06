@@ -2,8 +2,8 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-destructive",
   "type": "registry:component",
-  "description": "custom shadcn/ui button.",
   "title": "Button Destructive",
+  "description": "custom shadcn/ui button.",
   "dependencies": [
     "@radix-ui/react-slot",
     "class-variance-authority",

@@ -2,8 +2,8 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "login-03",
   "type": "registry:block",
-  "description": "A simple login form.",
   "title": "Login 03",
+  "description": "A simple login form.",
   "dependencies": [
     "@radix-ui/react-label",
     "@radix-ui/react-slot",

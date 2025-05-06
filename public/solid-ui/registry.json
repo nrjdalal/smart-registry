@@ -1,0 +1,3530 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "solid-ui",
+  "homepage": "https://solid-ui.com",
+  "items": [
+    {
+      "url": "https://solid-ui.com/docs/components/accordion",
+      "name": "accordion",
+      "type": "registry:ui",
+      "title": "Accordion",
+      "description": "An accordion component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/accordion.tsx",
+          "path": "src/registry/ui/accordion.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/alert",
+      "name": "alert",
+      "type": "registry:ui",
+      "title": "Alert",
+      "description": "An alert component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/alert.tsx",
+          "path": "src/registry/ui/alert.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/alert-dialog",
+      "name": "alert-dialog",
+      "type": "registry:ui",
+      "title": "Alert Dialog",
+      "description": "An alert dialog component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/alert-dialog.tsx",
+          "path": "src/registry/ui/alert-dialog.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/aspect-ratio",
+      "name": "aspect-ratio",
+      "type": "registry:ui",
+      "title": "Aspect Ratio",
+      "description": "An aspect ratio component",
+      "dependencies": [
+        "solid-js"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/aspect-ratio.tsx",
+          "path": "src/registry/ui/aspect-ratio.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/avatar",
+      "name": "avatar",
+      "type": "registry:ui",
+      "title": "Avatar",
+      "description": "An avatar component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "src/registry/ui/avatar.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/badge",
+      "name": "badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "A badge component",
+      "dependencies": [
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
+          "path": "src/registry/ui/badge.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/badge-delta",
+      "name": "badge-delta",
+      "type": "registry:ui",
+      "title": "Badge Delta",
+      "description": "A badge delta component",
+      "dependencies": [
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://solid-ui.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge-delta.tsx",
+          "path": "src/registry/ui/badge-delta.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
+          "path": "src/registry/ui/badge.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/bar-list",
+      "name": "bar-list",
+      "type": "registry:ui",
+      "title": "Bar List",
+      "description": "A bar list component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/bar-list.tsx",
+          "path": "src/registry/ui/bar-list.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/breadcrumb",
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "title": "Breadcrumb",
+      "description": "A breadcrumb component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/breadcrumb.tsx",
+          "path": "src/registry/ui/breadcrumb.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/button",
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "A button component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/callout",
+      "name": "callout",
+      "type": "registry:ui",
+      "title": "Callout",
+      "description": "A callout component",
+      "dependencies": [
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/callout.tsx",
+          "path": "src/registry/ui/callout.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/card",
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "A card component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "src/registry/ui/card.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/carousel",
+      "name": "carousel",
+      "type": "registry:ui",
+      "title": "Carousel",
+      "description": "A carousel component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "embla-carousel-solid",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://solid-ui.com/r/button.json"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/carousel.tsx",
+          "path": "src/registry/ui/carousel.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/charts",
+      "name": "charts",
+      "type": "registry:ui",
+      "title": "Charts",
+      "description": "A charts component",
+      "dependencies": [
+        "@solid-primitives/refs",
+        "chart.js",
+        "solid-js"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/charts.tsx",
+          "path": "src/registry/ui/charts.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/checkbox",
+      "name": "checkbox",
+      "type": "registry:ui",
+      "title": "Checkbox",
+      "description": "A checkbox component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
+          "path": "src/registry/ui/checkbox.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/collapsible",
+      "name": "collapsible",
+      "type": "registry:ui",
+      "title": "Collapsible",
+      "description": "A collapsible component",
+      "dependencies": [
+        "@kobalte/core"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/collapsible.tsx",
+          "path": "src/registry/ui/collapsible.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/combobox",
+      "name": "combobox",
+      "type": "registry:ui",
+      "title": "Combobox",
+      "description": "A combobox component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/combobox.tsx",
+          "path": "src/registry/ui/combobox.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/command",
+      "name": "command",
+      "type": "registry:ui",
+      "title": "Command",
+      "description": "A command component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "cmdk-solid",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://solid-ui.com/r/dialog.json"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/command.tsx",
+          "path": "src/registry/ui/command.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "src/registry/ui/dialog.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/context-menu",
+      "name": "context-menu",
+      "type": "registry:ui",
+      "title": "Context Menu",
+      "description": "A context menu component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/context-menu.tsx",
+          "path": "src/registry/ui/context-menu.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/date-picker",
+      "name": "date-picker",
+      "type": "registry:ui",
+      "title": "Date Picker",
+      "description": "A date picker component",
+      "dependencies": [
+        "@ark-ui/solid",
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://solid-ui.com/r/button.json"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/date-picker.tsx",
+          "path": "src/registry/ui/date-picker.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/delta-bar",
+      "name": "delta-bar",
+      "type": "registry:ui",
+      "title": "Delta Bar",
+      "description": "A delta bar component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/delta-bar.tsx",
+          "path": "src/registry/ui/delta-bar.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/dialog",
+      "name": "dialog",
+      "type": "registry:ui",
+      "title": "Dialog",
+      "description": "A dialog component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "src/registry/ui/dialog.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/drawer",
+      "name": "drawer",
+      "type": "registry:ui",
+      "title": "Drawer",
+      "description": "A drawer component",
+      "dependencies": [
+        "@corvu/drawer",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/drawer.tsx",
+          "path": "src/registry/ui/drawer.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/dropdown-menu",
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "title": "Dropdown Menu",
+      "description": "A dropdown menu component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "src/registry/ui/dropdown-menu.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/flex",
+      "name": "flex",
+      "type": "registry:ui",
+      "title": "Flex",
+      "description": "A flex component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/flex.tsx",
+          "path": "src/registry/ui/flex.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/grid",
+      "name": "grid",
+      "type": "registry:ui",
+      "title": "Grid",
+      "description": "A grid component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/grid.tsx",
+          "path": "src/registry/ui/grid.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/hover-card",
+      "name": "hover-card",
+      "type": "registry:ui",
+      "title": "Hover Card",
+      "description": "A hover card component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/hover-card.tsx",
+          "path": "src/registry/ui/hover-card.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/label",
+      "name": "label",
+      "type": "registry:ui",
+      "title": "Label",
+      "description": "A label component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "src/registry/ui/label.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/menubar",
+      "name": "menubar",
+      "type": "registry:ui",
+      "title": "Menubar",
+      "description": "A menubar component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/menubar.tsx",
+          "path": "src/registry/ui/menubar.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/navigation-menu",
+      "name": "navigation-menu",
+      "type": "registry:ui",
+      "title": "Navigation Menu",
+      "description": "A navigation menu component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/navigation-menu.tsx",
+          "path": "src/registry/ui/navigation-menu.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/number-field",
+      "name": "number-field",
+      "type": "registry:ui",
+      "title": "Number Field",
+      "description": "A number field component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/number-field.tsx",
+          "path": "src/registry/ui/number-field.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/otp-field",
+      "name": "otp-field",
+      "type": "registry:ui",
+      "title": "OTP Field",
+      "description": "An OTP field component",
+      "dependencies": [
+        "@corvu/otp-field",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/otp-field.tsx",
+          "path": "src/registry/ui/otp-field.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/pagination",
+      "name": "pagination",
+      "type": "registry:ui",
+      "title": "Pagination",
+      "description": "A pagination component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://solid-ui.com/r/button.json"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/pagination.tsx",
+          "path": "src/registry/ui/pagination.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/popover",
+      "name": "popover",
+      "type": "registry:ui",
+      "title": "Popover",
+      "description": "A popover component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "src/registry/ui/popover.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/progress",
+      "name": "progress",
+      "type": "registry:ui",
+      "title": "Progress",
+      "description": "A progress component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://solid-ui.com/r/label.json"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "src/registry/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/progress.tsx",
+          "path": "src/registry/ui/progress.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/progress-circle",
+      "name": "progress-circle",
+      "type": "registry:ui",
+      "title": "Progress Circle",
+      "description": "A progress circle component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/progress-circle.tsx",
+          "path": "src/registry/ui/progress-circle.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/radio-group",
+      "name": "radio-group",
+      "type": "registry:ui",
+      "title": "Radio Group",
+      "description": "A radio group component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/radio-group.tsx",
+          "path": "src/registry/ui/radio-group.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/resizable",
+      "name": "resizable",
+      "type": "registry:ui",
+      "title": "Resizable",
+      "description": "A resizable component",
+      "dependencies": [
+        "@corvu/resizable",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/resizable.tsx",
+          "path": "src/registry/ui/resizable.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/select",
+      "name": "select",
+      "type": "registry:ui",
+      "title": "Select",
+      "description": "A select component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "src/registry/ui/select.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/separator",
+      "name": "separator",
+      "type": "registry:ui",
+      "title": "Separator",
+      "description": "A separator component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "src/registry/ui/separator.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/sheet",
+      "name": "sheet",
+      "type": "registry:ui",
+      "title": "Sheet",
+      "description": "A sheet component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "src/registry/ui/sheet.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/sidebar",
+      "name": "sidebar",
+      "type": "registry:ui",
+      "title": "Sidebar",
+      "description": "A sidebar component",
+      "dependencies": [
+        "@kobalte/core",
+        "@solidjs/router",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://solid-ui.com/r/button.json",
+        "https://solid-ui.com/r/separator.json",
+        "https://solid-ui.com/r/sheet.json",
+        "https://solid-ui.com/r/skeleton.json",
+        "https://solid-ui.com/r/text-field.json",
+        "https://solid-ui.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/sidebar.tsx",
+          "path": "src/components/sidebar.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "config/docs.ts",
+          "path": "src/config/docs.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
+          "path": "src/registry/ui/badge.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "src/registry/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "src/registry/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
+          "path": "src/registry/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "src/registry/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-field.tsx",
+          "path": "src/registry/ui/text-field.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "src/registry/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/skeleton",
+      "name": "skeleton",
+      "type": "registry:ui",
+      "title": "Skeleton",
+      "description": "A skeleton component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "src/registry/ui/skeleton.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/slider",
+      "name": "slider",
+      "type": "registry:ui",
+      "title": "Slider",
+      "description": "A slider component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://solid-ui.com/r/label.json"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "src/registry/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/slider.tsx",
+          "path": "src/registry/ui/slider.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/sonner",
+      "name": "sonner",
+      "type": "registry:ui",
+      "title": "Sonner",
+      "description": "A sonner component",
+      "dependencies": [
+        "solid-js",
+        "solid-sonner"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sonner.tsx",
+          "path": "src/registry/ui/sonner.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/switch",
+      "name": "switch",
+      "type": "registry:ui",
+      "title": "Switch",
+      "description": "A switch component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/switch.tsx",
+          "path": "src/registry/ui/switch.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/table",
+      "name": "table",
+      "type": "registry:ui",
+      "title": "Table",
+      "description": "A table component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/table.tsx",
+          "path": "src/registry/ui/table.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/tabs",
+      "name": "tabs",
+      "type": "registry:ui",
+      "title": "Tabs",
+      "description": "A tabs component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tabs.tsx",
+          "path": "src/registry/ui/tabs.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/text-field",
+      "name": "text-field",
+      "type": "registry:ui",
+      "title": "Text Field",
+      "description": "A text field component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-field.tsx",
+          "path": "src/registry/ui/text-field.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/timeline",
+      "name": "timeline",
+      "type": "registry:ui",
+      "title": "Timeline",
+      "description": "A timeline component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/timeline.tsx",
+          "path": "src/registry/ui/timeline.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/toast",
+      "name": "toast",
+      "type": "registry:ui",
+      "title": "Toast",
+      "description": "A toast component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toast.tsx",
+          "path": "src/registry/ui/toast.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/toggle",
+      "name": "toggle",
+      "type": "registry:ui",
+      "title": "Toggle",
+      "description": "A toggle component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle.tsx",
+          "path": "src/registry/ui/toggle.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/toggle-group",
+      "name": "toggle-group",
+      "type": "registry:ui",
+      "title": "Toggle Group",
+      "description": "A toggle group component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "https://solid-ui.com/r/toggle.json"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle-group.tsx",
+          "path": "src/registry/ui/toggle-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle.tsx",
+          "path": "src/registry/ui/toggle.tsx"
+        }
+      ]
+    },
+    {
+      "url": "https://solid-ui.com/docs/components/tooltip",
+      "name": "tooltip",
+      "type": "registry:ui",
+      "title": "Tooltip",
+      "description": "A tooltip component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "src/registry/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "hooks-use-id",
+      "type": "registry:lib",
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/hooks/use-id.ts",
+          "path": "src/lib/hooks/use-id.ts"
+        }
+      ]
+    },
+    {
+      "name": "mdx-component",
+      "type": "registry:lib",
+      "dependencies": [
+        "fs",
+        "path",
+        "solid-js",
+        "unist",
+        "valibot"
+      ],
+      "devDependencies": [
+        "unist-builder",
+        "unist-util-visit"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/mdx/component.tsx",
+          "path": "src/lib/mdx/component.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "__registry__/index.tsx",
+          "path": "src/__registry__/index.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "schema.ts",
+          "path": "src/registry/schema.ts"
+        }
+      ]
+    },
+    {
+      "name": "mdx-frontmatter",
+      "type": "registry:lib",
+      "dependencies": [
+        "unist"
+      ],
+      "devDependencies": [
+        "estree-util-value-to-estree",
+        "yaml"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/mdx/frontmatter.tsx",
+          "path": "src/lib/mdx/frontmatter.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mdx-headings",
+      "type": "registry:lib",
+      "dependencies": [
+        "unist"
+      ],
+      "devDependencies": [
+        "estree-util-value-to-estree",
+        "unist-util-visit"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/mdx/headings.tsx",
+          "path": "src/lib/mdx/headings.tsx"
+        }
+      ]
+    },
+    {
+      "name": "utils",
+      "type": "registry:lib",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "css": {
+        "@layer base": {
+          "::-webkit-scrollbar": {
+            "@apply": "w-4"
+          },
+          "::-webkit-scrollbar-thumb": {
+            "@apply": "rounded-full border-4 border-transparent bg-accent bg-clip-content"
+          },
+          "::-webkit-scrollbar-corner": {
+            "@apply": "hidden"
+          }
+        },
+        "@keyframes accordion-down": {
+          "from": {
+            "height": "0"
+          },
+          "to": {
+            "height": "var(--kb-accordion-content-height)"
+          }
+        },
+        "@keyframes accordion-up": {
+          "from": {
+            "height": "var(--kb-accordion-content-height)"
+          },
+          "to": {
+            "height": "0"
+          }
+        },
+        "@keyframes content-show": {
+          "from": {
+            "opacity": "0",
+            "transform": "scale(0.96)"
+          },
+          "to": {
+            "opacity": "1",
+            "transform": "scale(1)"
+          }
+        },
+        "@keyframes content-hide": {
+          "from": {
+            "opacity": "1",
+            "transform": "scale(1)"
+          },
+          "to": {
+            "opacity": "0",
+            "transform": "scale(0.96)"
+          }
+        },
+        "@utility container": {
+          "@apply": "px-8",
+          "@media (width >=--theme(--breakpoint-sm))": {
+            "@apply": "max-w-none"
+          },
+          "@media (max-width: 640px)": {
+            "@apply": "px-4"
+          }
+        },
+        "@utility step": {
+          "counter-increment": "step",
+          "&:before": {
+            "@apply": "absolute ml-[-50px] mt-[-4px] inline-flex h-9 w-9 items-center justify-center rounded-full border-4 border-background bg-muted text-center -indent-px font-mono text-base font-medium",
+            "content": "counter(step)"
+          }
+        }
+      },
+      "name": "css",
+      "type": "registry:theme",
+      "description": "Solid UI base CSS",
+      "cssVars": {
+        "light": {
+          "info": "oklch(0.95 0.024 236.81)",
+          "info-foreground": "oklch(0.68 0.148143 238.1044)",
+          "success": "oklch(0.95 0.0506 162.83)",
+          "success-foreground": "oklch(0.69 0.1481 162.37)",
+          "warning": "oklch(0.96 0.0569 95.61)",
+          "warning-foreground": "oklch(0.71 0.186 48.13)",
+          "error": "oklch(0.93 0.0314 17.73)",
+          "error-foreground": "oklch(0.64 0.2082 25.38)",
+          "radius": "0.5rem"
+        },
+        "dark": {
+          "info": "oklch(0.28 0.0875 267.91)",
+          "info-foreground": "oklch(0.68 0.148143 238.1044)",
+          "success": "oklch(0.26 0.0487 172.54)",
+          "success-foreground": "oklch(0.69 0.1481 162.37)",
+          "warning": "oklch(0.29 0.0638 53.82)",
+          "warning-foreground": "oklch(0.71 0.186 48.13)",
+          "error": "oklch(0.26 0.0886 26.05)",
+          "error-foreground": "oklch(0.64 0.2082 25.38)"
+        }
+      }
+    },
+    {
+      "name": "authentication",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "@modular-forms/solid",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge",
+        "valibot"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/authentication/index.tsx",
+          "path": "src/components/authentication/index.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/authentication/user-auth-form.tsx",
+          "path": "src/components/authentication/user-auth-form.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/authentication/validations/auth.ts",
+          "path": "src/components/authentication/validations/auth.ts"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/grid.tsx",
+          "path": "src/registry/ui/grid.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-field.tsx",
+          "path": "src/registry/ui/text-field.tsx"
+        }
+      ]
+    },
+    {
+      "name": "authentication-user-auth-form",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "@modular-forms/solid",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge",
+        "valibot"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/authentication/user-auth-form.tsx",
+          "path": "src/components/authentication/user-auth-form.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/authentication/validations/auth.ts",
+          "path": "src/components/authentication/validations/auth.ts"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/grid.tsx",
+          "path": "src/registry/ui/grid.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-field.tsx",
+          "path": "src/registry/ui/text-field.tsx"
+        }
+      ]
+    },
+    {
+      "name": "authentication-validations-auth",
+      "type": "registry:component",
+      "dependencies": [
+        "valibot"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/authentication/validations/auth.ts",
+          "path": "src/components/authentication/validations/auth.ts"
+        }
+      ]
+    },
+    {
+      "name": "block-display",
+      "type": "registry:component",
+      "dependencies": [
+        "@corvu/resizable",
+        "@kobalte/core",
+        "@solidjs/router",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge",
+        "valibot"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/block-display.tsx",
+          "path": "src/components/block-display.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "__registry__/index.tsx",
+          "path": "src/__registry__/index.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "schema.ts",
+          "path": "src/registry/schema.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/resizable.tsx",
+          "path": "src/registry/ui/resizable.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "src/registry/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle-group.tsx",
+          "path": "src/registry/ui/toggle-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle.tsx",
+          "path": "src/registry/ui/toggle.tsx"
+        }
+      ]
+    },
+    {
+      "name": "cards",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/cards/index.tsx",
+          "path": "src/components/cards/index.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/cards/cookie-settings.tsx",
+          "path": "src/components/cards/cookie-settings.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/cards/create-account.tsx",
+          "path": "src/components/cards/create-account.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/cards/notifications.tsx",
+          "path": "src/components/cards/notifications.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/cards/payment-method.tsx",
+          "path": "src/components/cards/payment-method.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/cards/report-an-issue.tsx",
+          "path": "src/components/cards/report-an-issue.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/cards/share-document.tsx",
+          "path": "src/components/cards/share-document.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/cards/solid-ui.tsx",
+          "path": "src/components/cards/solid-ui.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/cards/team-members.tsx",
+          "path": "src/components/cards/team-members.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "src/registry/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "src/registry/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/combobox.tsx",
+          "path": "src/registry/ui/combobox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "src/registry/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "src/registry/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/radio-group.tsx",
+          "path": "src/registry/ui/radio-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "src/registry/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "src/registry/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/switch.tsx",
+          "path": "src/registry/ui/switch.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-field.tsx",
+          "path": "src/registry/ui/text-field.tsx"
+        }
+      ]
+    },
+    {
+      "name": "cards-cookie-settings",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/cards/cookie-settings.tsx",
+          "path": "src/components/cards/cookie-settings.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "src/registry/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "src/registry/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/switch.tsx",
+          "path": "src/registry/ui/switch.tsx"
+        }
+      ]
+    },
+    {
+      "name": "cards-create-account",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/cards/create-account.tsx",
+          "path": "src/components/cards/create-account.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "src/registry/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-field.tsx",
+          "path": "src/registry/ui/text-field.tsx"
+        }
+      ]
+    },
+    {
+      "name": "cards-notifications",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/cards/notifications.tsx",
+          "path": "src/components/cards/notifications.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "src/registry/ui/card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "cards-payment-method",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/cards/payment-method.tsx",
+          "path": "src/components/cards/payment-method.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "src/registry/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "src/registry/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/radio-group.tsx",
+          "path": "src/registry/ui/radio-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "src/registry/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-field.tsx",
+          "path": "src/registry/ui/text-field.tsx"
+        }
+      ]
+    },
+    {
+      "name": "cards-report-an-issue",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/cards/report-an-issue.tsx",
+          "path": "src/components/cards/report-an-issue.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "src/registry/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "src/registry/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "src/registry/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-field.tsx",
+          "path": "src/registry/ui/text-field.tsx"
+        }
+      ]
+    },
+    {
+      "name": "cards-share-document",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/cards/share-document.tsx",
+          "path": "src/components/cards/share-document.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "src/registry/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "src/registry/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "src/registry/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "src/registry/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-field.tsx",
+          "path": "src/registry/ui/text-field.tsx"
+        }
+      ]
+    },
+    {
+      "name": "cards-solid-ui",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/cards/solid-ui.tsx",
+          "path": "src/components/cards/solid-ui.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "src/registry/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "src/registry/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "src/registry/ui/separator.tsx"
+        }
+      ]
+    },
+    {
+      "name": "cards-team-members",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/cards/team-members.tsx",
+          "path": "src/components/cards/team-members.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "src/registry/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "src/registry/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/combobox.tsx",
+          "path": "src/registry/ui/combobox.tsx"
+        }
+      ]
+    },
+    {
+      "name": "code-block-wrapper",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/code-block-wrapper.tsx",
+          "path": "src/components/code-block-wrapper.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/collapsible.tsx",
+          "path": "src/registry/ui/collapsible.tsx"
+        }
+      ]
+    },
+    {
+      "name": "component-example",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/component-example.tsx",
+          "path": "src/components/component-example.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "component-preview",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge",
+        "valibot"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/component-preview.tsx",
+          "path": "src/components/component-preview.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "__registry__/index.tsx",
+          "path": "src/__registry__/index.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "schema.ts",
+          "path": "src/registry/schema.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tabs.tsx",
+          "path": "src/registry/ui/tabs.tsx"
+        }
+      ]
+    },
+    {
+      "name": "component-source",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/component-source.tsx",
+          "path": "src/components/component-source.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/code-block-wrapper.tsx",
+          "path": "src/components/code-block-wrapper.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/collapsible.tsx",
+          "path": "src/registry/ui/collapsible.tsx"
+        }
+      ]
+    },
+    {
+      "name": "copy-button",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/copy-button.tsx",
+          "path": "src/components/copy-button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle.tsx",
+          "path": "src/registry/ui/toggle.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "src/registry/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dashboard",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "@solid-primitives/refs",
+        "chart.js",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/dashboard/index.tsx",
+          "path": "src/components/dashboard/index.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/dashboard/main-nav.tsx",
+          "path": "src/components/dashboard/main-nav.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/dashboard/overview.tsx",
+          "path": "src/components/dashboard/overview.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/dashboard/recent-sales.tsx",
+          "path": "src/components/dashboard/recent-sales.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/dashboard/search.tsx",
+          "path": "src/components/dashboard/search.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/dashboard/user-nav.tsx",
+          "path": "src/components/dashboard/user-nav.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "src/registry/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "src/registry/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/charts.tsx",
+          "path": "src/registry/ui/charts.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "src/registry/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/grid.tsx",
+          "path": "src/registry/ui/grid.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tabs.tsx",
+          "path": "src/registry/ui/tabs.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-field.tsx",
+          "path": "src/registry/ui/text-field.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dashboard-main-nav",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/dashboard/main-nav.tsx",
+          "path": "src/components/dashboard/main-nav.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "dashboard-overview",
+      "type": "registry:component",
+      "dependencies": [
+        "@solid-primitives/refs",
+        "chart.js",
+        "solid-js"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/dashboard/overview.tsx",
+          "path": "src/components/dashboard/overview.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/charts.tsx",
+          "path": "src/registry/ui/charts.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dashboard-recent-sales",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/dashboard/recent-sales.tsx",
+          "path": "src/components/dashboard/recent-sales.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "src/registry/ui/avatar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dashboard-search",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/dashboard/search.tsx",
+          "path": "src/components/dashboard/search.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-field.tsx",
+          "path": "src/registry/ui/text-field.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dashboard-user-nav",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/dashboard/user-nav.tsx",
+          "path": "src/components/dashboard/user-nav.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "src/registry/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "src/registry/ui/dropdown-menu.tsx"
+        }
+      ]
+    },
+    {
+      "name": "examples-nav",
+      "type": "registry:component",
+      "dependencies": [
+        "@solidjs/router",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/examples-nav.tsx",
+          "path": "src/components/examples-nav.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "footer",
+      "type": "registry:component",
+      "dependencies": [
+        "@solidjs/router",
+        "solid-js"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/footer.tsx",
+          "path": "src/components/footer.tsx"
+        }
+      ]
+    },
+    {
+      "name": "icons",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "mail",
+      "type": "registry:component",
+      "dependencies": [
+        "@corvu/resizable",
+        "@kobalte/core",
+        "@solid-primitives/storage",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mail/index.tsx",
+          "path": "src/components/mail/index.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mail/account-switcher.tsx",
+          "path": "src/components/mail/account-switcher.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mail/data.tsx",
+          "path": "src/components/mail/data.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mail/mail-display.tsx",
+          "path": "src/components/mail/mail-display.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mail/mail-list.tsx",
+          "path": "src/components/mail/mail-list.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mail/nav.tsx",
+          "path": "src/components/mail/nav.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mail/use-mail.tsx",
+          "path": "src/components/mail/use-mail.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "src/registry/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
+          "path": "src/registry/ui/badge.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "src/registry/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/resizable.tsx",
+          "path": "src/registry/ui/resizable.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "src/registry/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "src/registry/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/switch.tsx",
+          "path": "src/registry/ui/switch.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tabs.tsx",
+          "path": "src/registry/ui/tabs.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-field.tsx",
+          "path": "src/registry/ui/text-field.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "src/registry/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mail-account-switcher",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mail/account-switcher.tsx",
+          "path": "src/components/mail/account-switcher.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mail/data.tsx",
+          "path": "src/components/mail/data.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "src/registry/ui/select.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mail-data",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mail/data.tsx",
+          "path": "src/components/mail/data.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "mail-display",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mail/mail-display.tsx",
+          "path": "src/components/mail/mail-display.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mail/data.tsx",
+          "path": "src/components/mail/data.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mail/use-mail.tsx",
+          "path": "src/components/mail/use-mail.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "src/registry/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "src/registry/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "src/registry/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/switch.tsx",
+          "path": "src/registry/ui/switch.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/text-field.tsx",
+          "path": "src/registry/ui/text-field.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "src/registry/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mail-list",
+      "type": "registry:component",
+      "dependencies": [
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mail/mail-list.tsx",
+          "path": "src/components/mail/mail-list.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mail/data.tsx",
+          "path": "src/components/mail/data.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mail/use-mail.tsx",
+          "path": "src/components/mail/use-mail.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
+          "path": "src/registry/ui/badge.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mail-nav",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mail/nav.tsx",
+          "path": "src/components/mail/nav.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "src/registry/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mail-use-mail",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mail/use-mail.tsx",
+          "path": "src/components/mail/use-mail.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mail/data.tsx",
+          "path": "src/components/mail/data.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "mdx-components",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "@solidjs/router",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge",
+        "valibot"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mdx-components.tsx",
+          "path": "src/components/mdx-components.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/code-block-wrapper.tsx",
+          "path": "src/components/code-block-wrapper.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/component-preview.tsx",
+          "path": "src/components/component-preview.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/component-source.tsx",
+          "path": "src/components/component-source.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/copy-button.tsx",
+          "path": "src/components/copy-button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mdx-header.tsx",
+          "path": "src/components/mdx-header.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "__registry__/index.tsx",
+          "path": "src/__registry__/index.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "schema.ts",
+          "path": "src/registry/schema.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/alert.tsx",
+          "path": "src/registry/ui/alert.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
+          "path": "src/registry/ui/badge.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/callout.tsx",
+          "path": "src/registry/ui/callout.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/collapsible.tsx",
+          "path": "src/registry/ui/collapsible.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tabs.tsx",
+          "path": "src/registry/ui/tabs.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/toggle.tsx",
+          "path": "src/registry/ui/toggle.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "src/registry/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mdx-header",
+      "type": "registry:component",
+      "dependencies": [
+        "@solidjs/router",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mdx-header.tsx",
+          "path": "src/components/mdx-header.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
+          "path": "src/registry/ui/badge.tsx"
+        }
+      ]
+    },
+    {
+      "name": "meta-tags",
+      "type": "registry:component",
+      "dependencies": [
+        "@solidjs/meta",
+        "solid-js"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/meta-tags.tsx",
+          "path": "src/components/meta-tags.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mobile-nav",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mobile-nav.tsx",
+          "path": "src/components/mobile-nav.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "config/docs.ts",
+          "path": "src/config/docs.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "src/registry/ui/sheet.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mode-toggle",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "class-variance-authority",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mode-toggle.tsx",
+          "path": "src/components/mode-toggle.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "src/registry/ui/dropdown-menu.tsx"
+        }
+      ]
+    },
+    {
+      "name": "navbar",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "@solidjs/router",
+        "class-variance-authority",
+        "clsx",
+        "cmdk-solid",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/navbar.tsx",
+          "path": "src/components/navbar.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mobile-nav.tsx",
+          "path": "src/components/mobile-nav.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mode-toggle.tsx",
+          "path": "src/components/mode-toggle.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/search-bar.tsx",
+          "path": "src/components/search-bar.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "config/docs.ts",
+          "path": "src/config/docs.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/command.tsx",
+          "path": "src/registry/ui/command.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "src/registry/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "src/registry/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "src/registry/ui/sheet.tsx"
+        }
+      ]
+    },
+    {
+      "name": "page-header",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/page-header.tsx",
+          "path": "src/components/page-header.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "search-bar",
+      "type": "registry:component",
+      "dependencies": [
+        "@kobalte/core",
+        "@solidjs/router",
+        "class-variance-authority",
+        "clsx",
+        "cmdk-solid",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/search-bar.tsx",
+          "path": "src/components/search-bar.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons.tsx",
+          "path": "src/components/icons.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "config/docs.ts",
+          "path": "src/config/docs.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/command.tsx",
+          "path": "src/registry/ui/command.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "src/registry/ui/dialog.tsx"
+        }
+      ]
+    },
+    {
+      "name": "toc",
+      "type": "registry:component",
+      "dependencies": [
+        "@solidjs/router",
+        "clsx",
+        "solid-js",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/toc.tsx",
+          "path": "src/components/toc.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "src/lib/utils.ts"
+        }
+      ]
+    }
+  ]
+}

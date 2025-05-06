@@ -568,8 +568,8 @@
     {
       "name": "action-search-input-demo",
       "type": "registry:component",
-      "description": "Search input that show command menu when focused.",
       "title": "Action Search Input",
+      "description": "Search input that show command menu when focused.",
       "dependencies": [
         "clsx",
         "lucide-react",
@@ -614,8 +614,8 @@
     {
       "name": "button-color",
       "type": "registry:component",
-      "description": "custom shadcn/ui button.",
       "title": "Button color",
+      "description": "custom shadcn/ui button.",
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
@@ -653,8 +653,8 @@
     {
       "name": "button-destructive",
       "type": "registry:component",
-      "description": "custom shadcn/ui button.",
       "title": "Button Destructive",
+      "description": "custom shadcn/ui button.",
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
@@ -692,8 +692,8 @@
     {
       "name": "button-outline",
       "type": "registry:component",
-      "description": "custom shadcn/ui button.",
       "title": "Button Outline",
+      "description": "custom shadcn/ui button.",
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
@@ -731,8 +731,8 @@
     {
       "name": "button-primary",
       "type": "registry:component",
-      "description": "custom shadcn/ui button.",
       "title": "Button Primary",
+      "description": "custom shadcn/ui button.",
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
@@ -770,8 +770,8 @@
     {
       "name": "family-wallets-demo",
       "type": "registry:component",
-      "description": "An interactive interaction from Family wallets interface featuring smooth layout transitions and animations. Each wallet card can expand to show additional details and controls while collapsing others into a compact view.",
       "title": "Family Wallets",
+      "description": "An interactive interaction from Family wallets interface featuring smooth layout transitions and animations. Each wallet card can expand to show additional details and controls while collapsing others into a compact view.",
       "dependencies": [
         "lucide-react",
         "motion",
@@ -816,8 +816,8 @@
     {
       "name": "paper-fold-demo",
       "type": "registry:component",
-      "description": "A paper folding animation.",
       "title": "Paper Fold",
+      "description": "A paper folding animation.",
       "dependencies": [
         "@remixicon/react",
         "clsx",
@@ -846,8 +846,8 @@
     {
       "name": "text-loop",
       "type": "registry:component",
-      "description": "text loop base",
       "title": "Text Loop",
+      "description": "text loop base",
       "dependencies": [
         "clsx",
         "motion",
@@ -875,8 +875,8 @@
     {
       "name": "text-loop-demo",
       "type": "registry:component",
-      "description": "Text animation that transitions between multiple items, creating an engaging looping effect",
       "title": "Text Loop",
+      "description": "Text animation that transitions between multiple items, creating an engaging looping effect",
       "dependencies": [
         "clsx",
         "motion",
@@ -912,8 +912,8 @@
     {
       "name": "text-type",
       "type": "registry:component",
-      "description": "text type base",
       "title": "Text Type",
+      "description": "text type base",
       "dependencies": [
         "clsx",
         "motion",
@@ -941,8 +941,8 @@
     {
       "name": "text-type-demo",
       "type": "registry:component",
-      "description": "text type",
       "title": "Typewriter",
+      "description": "text type",
       "dependencies": [
         "clsx",
         "motion",
@@ -978,8 +978,8 @@
     {
       "name": "login-03",
       "type": "registry:block",
-      "description": "A simple login form.",
       "title": "Login 03",
+      "description": "A simple login form.",
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
@@ -1095,8 +1095,8 @@
     {
       "name": "login-04",
       "type": "registry:block",
-      "description": "Simple Login with Social Buttons.",
       "title": "Login 04",
+      "description": "Simple Login with Social Buttons.",
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-separator",
@@ -1214,8 +1214,8 @@
     {
       "name": "login-05",
       "type": "registry:block",
-      "description": "Full Page Login with Icons.",
       "title": "Login 05",
+      "description": "Full Page Login with Icons.",
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",

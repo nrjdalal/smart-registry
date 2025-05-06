@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "toc",
+  "type": "registry:component",
+  "dependencies": [
+    "@solidjs/router",
+    "clsx",
+    "solid-js",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/toc.tsx",
+      "content": "import type { Accessor, Setter } from \"solid-js\"\nimport { createEffect, createSignal, For, on, onCleanup, Suspense } from \"solid-js\"\nimport { isServer } from \"solid-js/web\"\n\nimport { useLocation } from \"@solidjs/router\"\n\nimport { cn } from \"@/lib/utils\"\n\ntype TocItem = {\n  depth: number\n  text: string\n  slug: string\n}\n\nfunction updateHeadings(setter: Setter<TocItem[]>) {\n  if (document.getElementsByTagName(\"article\").length === 0) {\n    setTimeout(() => updateHeadings(setter), 1)\n    return\n  }\n\n  setter(\n    [\n      ...document\n        .getElementsByTagName(\"article\")[0]\n        .querySelectorAll(\n          \"h1[data-toc], h2[data-toc], h3[data-toc], h4[data-toc], h5[data-toc], h6[data-toc]\"\n        )\n    ].map((element) => ({\n      depth: Number(element.tagName.substring(1)),\n      text: element.textContent!,\n      slug: element.id\n    }))\n  )\n}\n\nfunction getHeadingsFromToc(tableOfContents: TocItem[]) {\n  return tableOfContents.map(({ slug }) => {\n    const el = document.getElementById(slug)\n\n    if (!el) {\n      return\n    }\n\n    const style = window.getComputedStyle(el)\n    const scrollMt = parseFloat(style.scrollMarginTop) + 1\n    const puffer = 50\n\n    const top = window.scrollY + el.getBoundingClientRect().top - scrollMt - puffer\n\n    return { slug, top }\n  })\n}\n\nfunction useCurrentSection(tableOfContents: Accessor<TocItem[] | undefined>) {\n  const [currentSection, setCurrentSection] = createSignal(tableOfContents()?.[0]?.slug)\n\n  createEffect(() => {\n    const toc = tableOfContents()\n\n    if (toc == null || toc.length === 0) {\n      return\n    }\n\n    const headings = getHeadingsFromToc(toc)\n\n    function onScroll() {\n      const top = window.scrollY\n      let current = headings[0]?.slug\n\n      for (const heading of headings) {\n        if (heading == null) {\n          continue\n        }\n\n        if (top >= heading.top) {\n          current = heading.slug\n        } else {\n          break\n        }\n      }\n      setCurrentSection(current)\n    }\n\n    window.addEventListener(\"scroll\", onScroll, { passive: true })\n\n    onScroll()\n\n    onCleanup(() => {\n      // @ts-expect-error because reasons\n      window.removeEventListener(\"scroll\", onScroll, { passive: true })\n    })\n  })\n\n  return currentSection\n}\n\nexport function TableOfContents() {\n  const location = useLocation()\n\n  const [toc, setToc] = createSignal<TocItem[]>([])\n  createEffect(\n    on(\n      () => location.pathname,\n      () => {\n        if (isServer) return\n        updateHeadings(setToc)\n      }\n    )\n  )\n\n  const currentSection = useCurrentSection(toc)\n\n  createEffect(\n    on(\n      () => currentSection(),\n      (currentSection) => {\n        if (isServer) return\n\n        const element = document.querySelector(`a[data-toc-slug=\"${currentSection}\"]`)\n\n        element?.scrollIntoView({\n          behavior: \"smooth\",\n          block: \"nearest\"\n        })\n      }\n    )\n  )\n\n  return (\n    <aside class=\"sticky top-24\">\n      <nav aria-labelledby=\"on-this-page-title\">\n        <Suspense>\n          <h2 id=\"on-this-page-title\" class=\"font-medium\">\n            On This Page\n          </h2>\n          <ul class=\"m-0 list-none\">\n            <For each={toc()}>\n              {(section) => (\n                <li class={cn(\"mt-0 pt-2\", section.depth === 3 && \"pl-4\")}>\n                  <a\n                    data-toc-slug={section.slug}\n                    class={cn(\n                      \"inline-block text-muted-foreground no-underline transition-colors hover:text-foreground\",\n                      section.slug === currentSection()\n                        ? \"font-medium text-foreground\"\n                        : \"text-muted-foreground\"\n                    )}\n                    href={`${location.pathname}#${section.slug}`}\n                  >\n                    {section.text}\n                  </a>\n                </li>\n              )}\n            </For>\n          </ul>\n        </Suspense>\n      </nav>\n    </aside>\n  )\n}\n",
+      "path": "src/components/toc.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
+      "path": "src/lib/utils.ts"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://solid-ui.com/docs/components/badge-delta",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "badge-delta",
+  "type": "registry:ui",
+  "title": "Badge Delta",
+  "description": "A badge delta component",
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "solid-js",
+    "tailwind-merge"
+  ],
+  "registryDependencies": [
+    "https://solid-ui.com/r/badge.json"
+  ],
+  "files": [
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
+      "path": "src/lib/utils.ts"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/badge-delta.tsx",
+      "content": "import type { Component, JSXElement } from \"solid-js\"\nimport { createEffect, on, splitProps } from \"solid-js\"\n\nimport type { VariantProps } from \"class-variance-authority\"\nimport { cva } from \"class-variance-authority\"\n\nimport { cn } from \"@/lib/utils\"\nimport type { BadgeProps } from \"@/components/ui/badge\"\nimport { Badge } from \"@/components/ui/badge\"\n\ntype DeltaType = \"increase\" | \"moderateIncrease\" | \"unchanged\" | \"moderateDecrease\" | \"decrease\"\n\nconst badgeDeltaVariants = cva(\"\", {\n  variants: {\n    variant: {\n      success: \"bg-success text-success-foreground hover:bg-success\",\n      warning: \"bg-warning text-warning-foreground hover:bg-warning\",\n      error: \"bg-error text-error-foreground hover:bg-error\"\n    }\n  }\n})\ntype DeltaVariant = NonNullable<VariantProps<typeof badgeDeltaVariants>[\"variant\"]>\n\nconst iconMap: { [key in DeltaType]: (props: { class?: string }) => JSXElement } = {\n  increase: (props) => (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      stroke-width=\"2\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      class={props.class}\n    >\n      <path d=\"M12 5l0 14\" />\n      <path d=\"M18 11l-6 -6\" />\n      <path d=\"M6 11l6 -6\" />\n    </svg>\n  ),\n  moderateIncrease: (props) => (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      stroke-width=\"2\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      class={props.class}\n    >\n      <path d=\"M17 7l-10 10\" />\n      <path d=\"M8 7l9 0l0 9\" />\n    </svg>\n  ),\n  unchanged: (props) => (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      stroke-width=\"2\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      class={props.class}\n    >\n      <path d=\"M5 12l14 0\" />\n      <path d=\"M13 18l6 -6\" />\n      <path d=\"M13 6l6 6\" />\n    </svg>\n  ),\n  moderateDecrease: (props) => (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      stroke-width=\"2\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      class={props.class}\n    >\n      <path d=\"M7 7l10 10\" />\n      <path d=\"M17 8l0 9l-9 0\" />\n    </svg>\n  ),\n  decrease: (props) => (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      stroke-width=\"2\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      class={props.class}\n    >\n      <path d=\"M12 5l0 14\" />\n      <path d=\"M18 13l-6 6\" />\n      <path d=\"M6 13l6 6\" />\n    </svg>\n  )\n}\n\nconst variantMap: { [key in DeltaType]: DeltaVariant } = {\n  increase: \"success\",\n  moderateIncrease: \"success\",\n  unchanged: \"warning\",\n  moderateDecrease: \"error\",\n  decrease: \"error\"\n}\n\ntype BadgeDeltaProps = Omit<BadgeProps, \"variant\"> & {\n  deltaType: DeltaType\n}\n\nconst BadgeDelta: Component<BadgeDeltaProps> = (props) => {\n  const [local, others] = splitProps(props, [\"class\", \"children\", \"deltaType\"])\n\n  // eslint-disable-next-line solid/reactivity\n  let Icon = iconMap[local.deltaType]\n  createEffect(\n    on(\n      () => local.deltaType,\n      () => {\n        Icon = iconMap[local.deltaType]\n      }\n    )\n  )\n\n  return (\n    <Badge\n      class={cn(badgeDeltaVariants({ variant: variantMap[local.deltaType] }), local.class)}\n      {...others}\n    >\n      <span class=\"flex gap-1\">\n        <Icon class=\"size-4\" />\n        {local.children}\n      </span>\n    </Badge>\n  )\n}\n\nexport { BadgeDelta }\n",
+      "path": "src/registry/ui/badge-delta.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/badge.tsx",
+      "content": "import type { Component, ComponentProps } from \"solid-js\"\nimport { splitProps } from \"solid-js\"\n\nimport type { VariantProps } from \"class-variance-authority\"\nimport { cva } from \"class-variance-authority\"\n\nimport { cn } from \"@/lib/utils\"\n\nconst badgeVariants = cva(\n  \"inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2\",\n  {\n    variants: {\n      variant: {\n        default: \"border-transparent bg-primary text-primary-foreground\",\n        secondary: \"border-transparent bg-secondary text-secondary-foreground\",\n        outline: \"text-foreground\",\n        success: \"border-success-foreground bg-success text-success-foreground\",\n        warning: \"border-warning-foreground bg-warning text-warning-foreground\",\n        error: \"border-error-foreground bg-error text-error-foreground\"\n      }\n    },\n    defaultVariants: {\n      variant: \"default\"\n    }\n  }\n)\n\ntype BadgeProps = ComponentProps<\"div\"> &\n  VariantProps<typeof badgeVariants> & {\n    round?: boolean\n  }\n\nconst Badge: Component<BadgeProps> = (props) => {\n  const [local, others] = splitProps(props, [\"class\", \"variant\", \"round\"])\n  return (\n    <div\n      class={cn(\n        badgeVariants({ variant: local.variant }),\n        local.round && \"rounded-full\",\n        local.class\n      )}\n      {...others}\n    />\n  )\n}\n\nexport type { BadgeProps }\nexport { Badge, badgeVariants }\n",
+      "path": "src/registry/ui/badge.tsx"
+    }
+  ]
+}
