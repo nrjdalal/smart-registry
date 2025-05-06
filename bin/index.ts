@@ -358,9 +358,10 @@ const main = async () => {
           registryItemPath,
           JSON.stringify(registryItem, null, 2) + "\n",
         )
-        registryItem.files?.forEach(
-          (file: { content: any }) => delete file.content,
-        )
+        registryItem.files?.forEach((file: { target: any; content: any }) => {
+          delete file.target
+          delete file.content
+        })
         delete registryItem.$schema
         outputRegistry.items.push(registryItem)
       } catch (err: any) {
