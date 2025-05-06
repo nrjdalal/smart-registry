@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "contact",
+  "type": "registry:lib",
+  "dependencies": [
+    "next",
+    "resend",
+    "zod"
+  ],
+  "files": [
+    {
+      "type": "registry:lib",
+      "target": "lib/contact.ts",
+      "content": "\"use server\";\n\nimport { z } from \"zod\";\nimport getResend from \"@/lib/get-resend\";\nimport { headers } from \"next/headers\";\n\nconst contactSchema = z.object({\n    email: z.string().min(1, \"Email is required\").email(\"Invalid email\"),\n    message: z.string().min(1, \"Message is required\").max(1000),\n});\n\ninterface ContactFormResult {\n    success: boolean;\n    error?: string;\n}\n\nexport async function submitContactForm(\n    prevState: ContactFormResult,\n    formData: FormData\n): Promise<ContactFormResult> {\n    try {\n        const rawData = {\n            email: formData.get(\"email\")?.toString() || \"\",\n            message: formData.get(\"message\")?.toString() || \"\",\n        };\n\n        // console.log(rawData);\n        // Validate the extracted data\n        const validated = contactSchema.parse(rawData);\n\n        const resend = getResend();\n\n        // Send email using Resend\n        await resend.emails.send({\n            from: \"Contact Form <contact@kokonutui.com>\",\n            to: [\"hi@kokonutui.com\"],\n            subject: \"New Contact Form Submission\",\n            text: `\nEmail: ${validated.email}\nMessage:\n${validated.message}\n      `.trim(),\n        });\n\n        return { success: true, error: \"\" };\n    } catch (error) {\n        console.error(\"Contact form submission failed:\", error);\n        return {\n            success: false,\n            error: \"Failed to submit contact form. Please try again later.\",\n        };\n    }\n}\n",
+      "path": "lib/contact.ts"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/get-resend.ts",
+      "content": "import { Resend } from \"resend\";\n\nlet resendPromise: Resend | null;\n\nconst getResend = () => {\n    if (!resendPromise) {\n        resendPromise = new Resend(process.env.RESEND_API_KEY);\n    }\n    return resendPromise;\n};\n\nexport default getResend;\n",
+      "path": "lib/get-resend.ts"
+    }
+  ]
+}

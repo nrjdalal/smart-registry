@@ -1,0 +1,35 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "browse-button",
+  "type": "registry:ui",
+  "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "next-view-transitions",
+    "react",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:ui",
+      "target": "components/ui/browse-button.tsx",
+      "content": "\"use client\";\n\nimport { Link } from \"next-view-transitions\";\nimport { Button } from \"@/components/ui/button\";\nimport { cn } from \"@/lib/utils\";\nimport { motion } from \"motion/react\";\nimport { ArrowDownRight, ArrowRight } from \"lucide-react\";\n\nexport function BrowseComponentsButton() {\n    return (\n        <Link\n            href=\"/docs/components/action-search-bar\"\n            className=\"flex items-center gap-8\"\n        >\n            <motion.div\n                initial={{ x: 200, opacity: 0 }}\n                animate={{ x: 0, opacity: 1, transition: { duration: 0.2 } }}\n                whileHover={{ x: 5, transition: { duration: 0.2 } }}\n            >\n                <Button\n                    className={cn(\n                        \"relative inline-flex items-center justify-center gap-4 rounded-xl font-medium\",\n                        \"relative h-12 px-6 min-w-72 md:min-w-56\",\n                        \"bg-black dark:bg-white \",\n                        \"text-white dark:text-black\",\n                        \"border-2 border-orange-500/20 dark:border-orange-400/20\",\n                        \"shadow-[0_8px_16px_-6px_rgba(251,113,133,0.3)]\",\n                        \"dark:shadow-[0_8px_16px_-6px_rgba(251,113,133,0.2)]\",\n                        \"shadow-[0_15px_30px_-6px_rgba(251,113,133,0.4),0_0px_30px_-6px_rgba(168,85,247,0.4)]\",\n                        \"dark:shadow-[0_15px_30px_-6px_rgba(251,113,133,0.3),0_0px_30px_-6px_rgba(168,85,247,0.3)]\",\n                        \"backdrop-blur-xs\"\n                    )}\n                >\n                    <span className=\"font-medium\">Browse Components</span>\n                    {/* <CompassOutline className=\"w-8 h-8\" /> */}\n                    <ArrowDownRight className=\"w-5 h-5 rotate-[270deg]\" />\n                </Button>\n            </motion.div>\n        </Link>\n    );\n}\n",
+      "path": "components/ui/browse-button.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n    return twMerge(clsx(inputs));\n}\n",
+      "path": "lib/utils.ts"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/button.tsx",
+      "content": "import * as React from \"react\";\nimport { Slot } from \"@radix-ui/react-slot\";\nimport { cva, type VariantProps } from \"class-variance-authority\";\n\nimport { cn } from \"@/lib/utils\";\n\nconst buttonVariants = cva(\n    \"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 dark:ring-offset-zinc-950 dark:focus-visible:ring-zinc-300 cursor-pointer\",\n    {\n        variants: {\n            variant: {\n                default:\n                    \"bg-zinc-900 text-zinc-50 hover:bg-zinc-900/90 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-50/90\",\n                destructive:\n                    \"bg-red-500 text-zinc-50 hover:bg-red-500/90 dark:bg-red-900 dark:text-zinc-50 dark:hover:bg-red-900/90\",\n                outline:\n                    \"border border-zinc-200 bg-white hover:bg-zinc-100 hover:text-zinc-900 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-800 dark:hover:text-zinc-50\",\n                secondary:\n                    \"bg-zinc-100 text-zinc-900 hover:bg-zinc-100/80 dark:bg-zinc-800 dark:text-zinc-50 dark:hover:bg-zinc-800/80\",\n                ghost: \"hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-zinc-50\",\n                link: \"text-zinc-900 underline-offset-4 hover:underline dark:text-zinc-50\",\n            },\n            size: {\n                default: \"h-10 px-4 py-2\",\n                sm: \"h-9 rounded-md px-3\",\n                lg: \"h-11 rounded-md px-8\",\n                icon: \"h-10 w-10\",\n            },\n        },\n        defaultVariants: {\n            variant: \"default\",\n            size: \"default\",\n        },\n    }\n);\n\nexport interface ButtonProps\n    extends React.ButtonHTMLAttributes<HTMLButtonElement>,\n        VariantProps<typeof buttonVariants> {\n    asChild?: boolean;\n}\n\nconst Button = React.forwardRef<HTMLButtonElement, ButtonProps>(\n    ({ className, variant, size, asChild = false, ...props }, ref) => {\n        const Comp = asChild ? Slot : \"button\";\n        return (\n            <Comp\n                className={cn(buttonVariants({ variant, size, className }))}\n                ref={ref}\n                {...props}\n            />\n        );\n    }\n);\nButton.displayName = \"Button\";\n\nexport { Button, buttonVariants };\n",
+      "path": "components/ui/button.tsx"
+    }
+  ]
+}

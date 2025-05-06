@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shared",
+  "type": "registry:lib",
+  "dependencies": [
+    "hast-util-to-jsx-runtime",
+    "react",
+    "shiki"
+  ],
+  "files": [
+    {
+      "type": "registry:lib",
+      "target": "lib/shared.ts",
+      "content": "import { codeToHast } from \"shiki/bundle/web\";\nimport { toJsxRuntime } from \"hast-util-to-jsx-runtime\";\nimport { Fragment } from \"react\";\n\nimport { jsx, jsxs } from \"react/jsx-runtime\";\n\nexport async function highlight(\n    code: string,\n    language: string,\n    currentTheme: \"light\" | \"dark\" | \"system\" = \"dark\"\n) {\n    const themeToUse = currentTheme === \"system\" ? \"dark\" : currentTheme;\n\n    const out = await codeToHast(code, {\n        lang: language,\n        themes: {\n            light: \"github-light\",\n            dark: \"github-dark\",\n        },\n        defaultColor: themeToUse,\n    });\n\n    return toJsxRuntime(out, {\n        Fragment,\n        jsx,\n        jsxs,\n    });\n}\n",
+      "path": "lib/shared.ts"
+    }
+  ]
+}

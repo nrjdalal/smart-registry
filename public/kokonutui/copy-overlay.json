@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "copy-overlay",
+  "type": "registry:lib",
+  "dependencies": [
+    "lucide-react",
+    "motion"
+  ],
+  "files": [
+    {
+      "type": "registry:lib",
+      "target": "lib/copy-overlay.tsx",
+      "content": "import { Check } from \"lucide-react\";\nimport { motion } from \"motion/react\";\n\ninterface CopyOverlayProps {\n    show: boolean;\n}\n\nexport function CopyOverlay({ show }: CopyOverlayProps) {\n    if (!show) return null;\n\n    return (\n        <motion.div\n            initial={{ opacity: 0 }}\n            animate={{ opacity: 1 }}\n            exit={{ opacity: 0 }}\n            transition={{ duration: 0.2 }}\n            className=\"absolute inset-0 flex items-center justify-center rounded-xl z-50 overflow-hidden px-4 sm:px-0\"\n        >\n            <div\n                className=\"absolute inset-0 \n                bg-linear-to-b from-white/90 via-gray-50/90 to-white/90\n                dark:from-zinc-900/90 dark:via-zinc-800/90 dark:to-zinc-900/90\n                backdrop-blur-md\"\n            />\n\n            <motion.div\n                initial={{ scale: 0.5, opacity: 0 }}\n                animate={{ scale: 1, opacity: 1 }}\n                transition={{\n                    type: \"spring\",\n                    stiffness: 200,\n                    damping: 15,\n                }}\n                className=\"relative flex flex-col items-center gap-1.5 sm:gap-2\"\n            >\n                <div\n                    className=\"w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-green-100 dark:bg-white/15 \n                    flex items-center justify-center border border-green-200 dark:border-white/25\"\n                >\n                    <Check className=\"w-5 h-5 sm:w-6 sm:h-6 text-green-600 dark:text-white/90\" />\n                </div>\n                <span\n                    className=\"text-sm sm:text-base text-zinc-600 \n                    dark:text-white/90 font-semibold\"\n                >\n                    Copied to clipboard\n                </span>\n            </motion.div>\n        </motion.div>\n    );\n}\n",
+      "path": "lib/copy-overlay.tsx"
+    }
+  ]
+}

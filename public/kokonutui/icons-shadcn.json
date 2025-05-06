@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "icons-shadcn",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/icons/shadcn.tsx",
+      "content": "const ShadcnIcon = (props: React.SVGProps<SVGSVGElement>) => (\n    <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        viewBox=\"0 0 256 256\"\n        width=\"1em\"\n        height=\"1em\"\n        {...props}\n    >\n        <title>Shadcn UI</title>\n        <path fill=\"none\" d=\"M0 0h256v256H0z\" />\n        <path\n            fill=\"none\"\n            stroke=\"currentColor\"\n            strokeWidth={25}\n            strokeLinecap=\"round\"\n            d=\"M208 128l-80 80M192 40L40 192\"\n        />\n    </svg>\n);\nexport default ShadcnIcon;\n",
+      "path": "components/icons/shadcn.tsx"
+    }
+  ]
+}

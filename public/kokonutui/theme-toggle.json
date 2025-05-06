@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "theme-toggle",
+  "type": "registry:lib",
+  "dependencies": [
+    "lucide-react",
+    "next-themes",
+    "react"
+  ],
+  "files": [
+    {
+      "type": "registry:lib",
+      "target": "lib/theme-toggle.tsx",
+      "content": "\"use client\";\n\nimport { useTheme } from \"next-themes\";\nimport { useEffect, useState } from \"react\";\nimport { SunMoon } from \"lucide-react\";\n\nexport function ThemeToggle() {\n    const { setTheme, theme } = useTheme();\n    const [mounted, setMounted] = useState(false);\n\n    useEffect(() => {\n        setMounted(true);\n    }, []);\n\n    if (!mounted) {\n        return null;\n    }\n\n    return (\n        <div\n            className=\"cursor-pointer\"\n            onClick={() => {\n                setTheme(theme === \"dark\" ? \"light\" : \"dark\");\n            }}\n        >\n            {theme === \"light\" ? (\n                <SunMoon className=\"h-5 w-5 text-black\" />\n            ) : (\n                <SunMoon\n                    className=\"h-5 w-5 rotate-180 text-white\"\n                    color=\"white\"\n                />\n            )}\n        </div>\n    );\n}\n",
+      "path": "lib/theme-toggle.tsx"
+    }
+  ]
+}

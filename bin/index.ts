@@ -34,6 +34,9 @@ With disabled automatic detection:
 Codemods:
   --codemod-radix         migrate to unify "@radix-ui/react-*" imports to "radix-ui"
 
+Cleanup:
+  --remove-prefix         remove given prefix from the registry item name (default: none)
+
 Author:
   ${author.name} <${author.email}> (${author.url})`
 
@@ -64,6 +67,7 @@ const main = async () => {
           default: false,
         },
         "codemod-radix": { type: "boolean" },
+        "remove-prefix": { type: "string", default: "" },
         help: { type: "boolean", short: "h" },
         version: { type: "boolean", short: "v" },
       },
@@ -196,7 +200,10 @@ const main = async () => {
             cwd,
             aliases,
             filepath,
-          }).name,
+          }).name.replace(
+            new RegExp(`^${values["remove-prefix"] || ""}-?`),
+            "",
+          ),
           type:
             existingConfig.type ||
             transformer({

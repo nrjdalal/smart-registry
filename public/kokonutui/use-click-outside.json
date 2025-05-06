@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "use-click-outside",
+  "type": "registry:hook",
+  "dependencies": [
+    "react"
+  ],
+  "files": [
+    {
+      "type": "registry:hook",
+      "target": "hooks/use-click-outside.ts",
+      "content": "import { useEffect, type RefObject } from \"react\";\n\nexport function useClickOutside(\n    ref: RefObject<HTMLElement>,\n    handler: () => void\n) {\n    useEffect(() => {\n        const handleClickOutside = (event: MouseEvent) => {\n            if (ref.current && !ref.current.contains(event.target as Node)) {\n                handler();\n            }\n        };\n\n        document.addEventListener(\"mousedown\", handleClickOutside);\n        return () =>\n            document.removeEventListener(\"mousedown\", handleClickOutside);\n    }, [ref, handler]);\n}\n",
+      "path": "hooks/use-click-outside.ts"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ai-card-generation-error-generation",
+  "type": "registry:component",
+  "dependencies": [
+    "lucide-react",
+    "react"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/kokonutui/blocks/ai-card-generation/error-generation.tsx",
+      "content": "import React from \"react\";\nimport { AlertCircle } from \"lucide-react\";\n\ninterface ErrorProps {\n    error: string;\n}\n\nexport const ErrorGeneration = ({ error }: ErrorProps) => {\n    return (\n        <div className=\"m-4 px-4 py-3 flex items-center gap-2 text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/10 rounded-xl\">\n            <AlertCircle className=\"w-4 h-4 shrink-0\" />\n            <p>{error}</p>\n        </div>\n    );\n};",
+      "path": "components/kokonutui/blocks/ai-card-generation/error-generation.tsx"
+    }
+  ]
+}

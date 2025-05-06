@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "get-resend",
+  "type": "registry:lib",
+  "dependencies": [
+    "resend"
+  ],
+  "files": [
+    {
+      "type": "registry:lib",
+      "target": "lib/get-resend.ts",
+      "content": "import { Resend } from \"resend\";\n\nlet resendPromise: Resend | null;\n\nconst getResend = () => {\n    if (!resendPromise) {\n        resendPromise = new Resend(process.env.RESEND_API_KEY);\n    }\n    return resendPromise;\n};\n\nexport default getResend;\n",
+      "path": "lib/get-resend.ts"
+    }
+  ]
+}

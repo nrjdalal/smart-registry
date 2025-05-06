@@ -31,136 +31,1057 @@
       }
     },
     {
-      "name": "index",
-      "type": "registry:file",
+      "name": "accordion",
+      "type": "registry:ui",
       "dependencies": [
-        "zod"
+        "@radix-ui/react-accordion",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "index.ts",
-          "path": "registry/index.ts"
+          "type": "registry:ui",
+          "target": "components/ui/accordion.tsx",
+          "path": "components/ui/accordion.tsx"
         },
         {
-          "type": "registry:file",
-          "target": "registry-blocks.ts",
-          "path": "registry/registry-blocks.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "registry-components.ts",
-          "path": "registry/registry-components.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "registry-hooks.ts",
-          "path": "registry/registry-hooks.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "registry-lib.ts",
-          "path": "registry/registry-lib.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "schema.ts",
-          "path": "registry/schema.ts"
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
     {
-      "name": "registry-blocks",
-      "type": "registry:file",
+      "name": "alert",
+      "type": "registry:ui",
       "dependencies": [
+        "class-variance-authority",
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/alert.tsx",
+          "path": "components/ui/alert.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "aurora-gradient-background",
+      "type": "registry:ui",
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/aurora-gradient-background.tsx",
+          "path": "components/ui/aurora-gradient-background.tsx"
+        }
+      ]
+    },
+    {
+      "name": "avatar",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-avatar",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "components/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "dependencies": [
+        "class-variance-authority",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
+          "path": "components/ui/badge.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "browse-blocks",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "next-view-transitions",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/browse-blocks.tsx",
+          "path": "components/ui/browse-blocks.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "components/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "browse-button",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "next-view-transitions",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/browse-button.tsx",
+          "path": "components/ui/browse-button.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "components/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "components/ui/button.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "dependencies": [
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "components/ui/card.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "components/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-dropdown-menu",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "components/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "dependencies": [
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "components/ui/input.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "label",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "class-variance-authority",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "components/ui/label.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "popover",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-popover",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "components/ui/popover.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "progress",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-progress",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/progress.tsx",
+          "path": "components/ui/progress.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "scroll-area",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-scroll-area",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/scroll-area.tsx",
+          "path": "components/ui/scroll-area.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-select",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "components/ui/select.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "separator",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-separator",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "components/ui/separator.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "sheet",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "components/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "sidebar",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
+          "path": "components/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.ts",
+          "path": "hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "components/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "components/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "components/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "components/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "components/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "components/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "components/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-slider",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/slider.tsx",
+          "path": "components/ui/slider.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-tabs",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tabs.tsx",
+          "path": "components/ui/tabs.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "textarea",
+      "type": "registry:ui",
+      "dependencies": [
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/textarea.tsx",
+          "path": "components/ui/textarea.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-tooltip",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "components/ui/tooltip.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "ui",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-accordion",
+        "@radix-ui/react-avatar",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-progress",
+        "@radix-ui/react-scroll-area",
+        "@radix-ui/react-select",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slider",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-tabs",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "next-view-transitions",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/accordion.tsx",
+          "path": "components/ui/accordion.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.ts",
+          "path": "hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/alert.tsx",
+          "path": "components/ui/alert.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/aurora-gradient-background.tsx",
+          "path": "components/ui/aurora-gradient-background.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "components/ui/avatar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx",
+          "path": "components/ui/badge.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/browse-blocks.tsx",
+          "path": "components/ui/browse-blocks.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/browse-button.tsx",
+          "path": "components/ui/browse-button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "components/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "components/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "components/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "components/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "components/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "components/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "components/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/progress.tsx",
+          "path": "components/ui/progress.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/scroll-area.tsx",
+          "path": "components/ui/scroll-area.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "components/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "components/ui/separator.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sheet.tsx",
+          "path": "components/ui/sheet.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/sidebar.tsx",
+          "path": "components/ui/sidebar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/skeleton.tsx",
+          "path": "components/ui/skeleton.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/slider.tsx",
+          "path": "components/ui/slider.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tabs.tsx",
+          "path": "components/ui/tabs.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/textarea.tsx",
+          "path": "components/ui/textarea.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tooltip.tsx",
+          "path": "components/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "use-auto-resize-textarea",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-auto-resize-textarea.ts",
+          "path": "hooks/use-auto-resize-textarea.ts"
+        }
+      ]
+    },
+    {
+      "name": "use-click-outside",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-click-outside.ts",
+          "path": "hooks/use-click-outside.ts"
+        }
+      ]
+    },
+    {
+      "name": "use-copy-to-clipboard",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-copy-to-clipboard.ts",
+          "path": "hooks/use-copy-to-clipboard.ts"
+        }
+      ]
+    },
+    {
+      "name": "use-debounce",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-debounce.ts",
+          "path": "hooks/use-debounce.ts"
+        }
+      ]
+    },
+    {
+      "name": "use-file-input",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-file-input.ts",
+          "path": "hooks/use-file-input.ts"
+        }
+      ]
+    },
+    {
+      "name": "use-intersection",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-intersection.ts",
+          "path": "hooks/use-intersection.ts"
+        }
+      ]
+    },
+    {
+      "name": "use-mobile",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-mobile.ts",
+          "path": "hooks/use-mobile.ts"
+        }
+      ]
+    },
+    {
+      "name": "use-tags",
+      "type": "registry:hook",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-tags.ts",
+          "path": "hooks/use-tags.ts"
+        }
+      ]
+    },
+    {
+      "name": "action",
+      "type": "registry:lib",
+      "dependencies": [
+        "fs",
+        "path",
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/action.ts",
+          "path": "lib/action.ts"
+        }
+      ]
+    },
+    {
+      "name": "contact",
+      "type": "registry:lib",
+      "dependencies": [
+        "next",
+        "resend",
         "zod"
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "registry-blocks.ts",
-          "path": "registry/registry-blocks.ts"
+          "type": "registry:lib",
+          "target": "lib/contact.ts",
+          "path": "lib/contact.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/get-resend.ts",
+          "path": "lib/get-resend.ts"
+        }
+      ]
+    },
+    {
+      "name": "copy-button",
+      "type": "registry:lib",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/copy-button.tsx",
+          "path": "lib/copy-button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "copy-overlay",
+      "type": "registry:lib",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/copy-overlay.tsx",
+          "path": "lib/copy-overlay.tsx"
+        }
+      ]
+    },
+    {
+      "name": "copy-wrapper",
+      "type": "registry:lib",
+      "dependencies": [
+        "lucide-react",
+        "motion",
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/copy-wrapper.tsx",
+          "path": "lib/copy-wrapper.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/copy-overlay.tsx",
+          "path": "lib/copy-overlay.tsx"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-copy-to-clipboard.ts",
+          "path": "hooks/use-copy-to-clipboard.ts"
+        }
+      ]
+    },
+    {
+      "name": "get-resend",
+      "type": "registry:lib",
+      "dependencies": [
+        "resend"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/get-resend.ts",
+          "path": "lib/get-resend.ts"
+        }
+      ]
+    },
+    {
+      "name": "shared",
+      "type": "registry:lib",
+      "dependencies": [
+        "hast-util-to-jsx-runtime",
+        "react",
+        "shiki"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/shared.ts",
+          "path": "lib/shared.ts"
+        }
+      ]
+    },
+    {
+      "name": "source",
+      "type": "registry:lib",
+      "dependencies": [
+        "fumadocs-core",
+        "fumadocs-mdx",
+        "lucide-react",
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:lib",
+          "target": "lib/source.ts",
+          "path": "lib/source.ts"
         },
         {
           "type": "registry:file",
-          "target": "schema.ts",
-          "path": "registry/schema.ts"
+          "target": ".source/index.d.ts",
+          "path": ".source/index.d.ts"
         }
       ]
     },
     {
-      "name": "registry-components",
-      "type": "registry:file",
+      "name": "theme-toggle",
+      "type": "registry:lib",
       "dependencies": [
-        "zod"
+        "lucide-react",
+        "next-themes",
+        "react"
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "registry-components.ts",
-          "path": "registry/registry-components.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "schema.ts",
-          "path": "registry/schema.ts"
+          "type": "registry:lib",
+          "target": "lib/theme-toggle.tsx",
+          "path": "lib/theme-toggle.tsx"
         }
       ]
     },
     {
-      "name": "registry-hooks",
-      "type": "registry:file",
+      "name": "utils",
+      "type": "registry:lib",
       "dependencies": [
-        "zod"
+        "clsx",
+        "tailwind-merge"
       ],
       "files": [
         {
-          "type": "registry:file",
-          "target": "registry-hooks.ts",
-          "path": "registry/registry-hooks.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "schema.ts",
-          "path": "registry/schema.ts"
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
         }
       ]
     },
     {
-      "name": "registry-lib",
-      "type": "registry:file",
-      "dependencies": [
-        "zod"
-      ],
-      "files": [
-        {
-          "type": "registry:file",
-          "target": "registry-lib.ts",
-          "path": "registry/registry-lib.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "schema.ts",
-          "path": "registry/schema.ts"
-        }
-      ]
-    },
-    {
-      "name": "schema",
-      "type": "registry:file",
-      "dependencies": [
-        "zod"
-      ],
-      "files": [
-        {
-          "type": "registry:file",
-          "target": "schema.ts",
-          "path": "registry/schema.ts"
-        }
-      ]
-    },
-    {
-      "name": "kokonutui-action-search-bar",
+      "name": "action-search-bar",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -193,7 +1114,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-card-generation-ai-card-generation",
+      "name": "ai-card-generation-ai-card-generation",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-select",
@@ -257,7 +1178,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-card-generation-error-generation",
+      "name": "ai-card-generation-error-generation",
       "type": "registry:component",
       "dependencies": [
         "lucide-react",
@@ -272,7 +1193,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-card-generation-form-generation",
+      "name": "ai-card-generation-form-generation",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-select",
@@ -310,7 +1231,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-card-generation-header-generation",
+      "name": "ai-card-generation-header-generation",
       "type": "registry:component",
       "dependencies": [
         "react"
@@ -324,7 +1245,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-card-generation-preview-generation",
+      "name": "ai-card-generation-preview-generation",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -352,7 +1273,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-card-generation-settings-generation",
+      "name": "ai-card-generation-settings-generation",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-select",
@@ -380,7 +1301,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-chat-ai-chat",
+      "name": "ai-chat-ai-chat",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -420,7 +1341,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-chat-multimodal-input",
+      "name": "ai-chat-multimodal-input",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -455,7 +1376,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-01",
+      "name": "ai-input-ai-input-01",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -487,7 +1408,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-02",
+      "name": "ai-input-ai-input-02",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -524,7 +1445,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-03",
+      "name": "ai-input-ai-input-03",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -556,7 +1477,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-04",
+      "name": "ai-input-ai-input-04",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -589,7 +1510,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-05",
+      "name": "ai-input-ai-input-05",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -621,7 +1542,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-06",
+      "name": "ai-input-ai-input-06",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -653,7 +1574,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-07",
+      "name": "ai-input-ai-input-07",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -685,7 +1606,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-08",
+      "name": "ai-input-ai-input-08",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -707,7 +1628,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-09",
+      "name": "ai-input-ai-input-09",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -749,7 +1670,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-10",
+      "name": "ai-input-ai-input-10",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -791,7 +1712,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-11",
+      "name": "ai-input-ai-input-11",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -828,7 +1749,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-12",
+      "name": "ai-input-ai-input-12",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tooltip",
@@ -866,7 +1787,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-13",
+      "name": "ai-input-ai-input-13",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -898,7 +1819,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-14",
+      "name": "ai-input-ai-input-14",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -930,7 +1851,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-15",
+      "name": "ai-input-ai-input-15",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -962,7 +1883,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-16",
+      "name": "ai-input-ai-input-16",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -991,7 +1912,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-input-ai-input-17",
+      "name": "ai-input-ai-input-17",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -1023,7 +1944,7 @@
       ]
     },
     {
-      "name": "kokonutui-ai-prompt",
+      "name": "ai-prompt",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dropdown-menu",
@@ -1069,7 +1990,7 @@
       ]
     },
     {
-      "name": "kokonutui-alert-01",
+      "name": "alert-01",
       "type": "registry:component",
       "dependencies": [
         "lucide-react"
@@ -1083,7 +2004,7 @@
       ]
     },
     {
-      "name": "kokonutui-alert-02",
+      "name": "alert-02",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -1105,7 +2026,7 @@
       ]
     },
     {
-      "name": "kokonutui-alert-03",
+      "name": "alert-03",
       "type": "registry:component",
       "dependencies": [
         "lucide-react"
@@ -1119,7 +2040,7 @@
       ]
     },
     {
-      "name": "kokonutui-alert-04",
+      "name": "alert-04",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -1141,7 +2062,7 @@
       ]
     },
     {
-      "name": "kokonutui-alert-05",
+      "name": "alert-05",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -1163,7 +2084,7 @@
       ]
     },
     {
-      "name": "kokonutui-alert-06",
+      "name": "alert-06",
       "type": "registry:component",
       "dependencies": [
         "lucide-react",
@@ -1178,7 +2099,7 @@
       ]
     },
     {
-      "name": "kokonutui-alert-07",
+      "name": "alert-07",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1206,7 +2127,7 @@
       ]
     },
     {
-      "name": "kokonutui-auth-basic-auth-basic",
+      "name": "auth-basic-auth-basic",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-separator",
@@ -1262,7 +2183,7 @@
       ]
     },
     {
-      "name": "kokonutui-auth-basic-auth-form",
+      "name": "auth-basic-auth-form",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1296,7 +2217,7 @@
       ]
     },
     {
-      "name": "kokonutui-auth-basic-social-login",
+      "name": "auth-basic-social-login",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-separator",
@@ -1331,7 +2252,7 @@
       ]
     },
     {
-      "name": "kokonutui-avatar-picker",
+      "name": "avatar-picker",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -1358,7 +2279,7 @@
       ]
     },
     {
-      "name": "kokonutui-background-circles",
+      "name": "background-circles",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -1374,7 +2295,7 @@
       ]
     },
     {
-      "name": "kokonutui-background-paths",
+      "name": "background-paths",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1403,7 +2324,7 @@
       ]
     },
     {
-      "name": "kokonutui-beams-background",
+      "name": "beams-background",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -1425,7 +2346,7 @@
       ]
     },
     {
-      "name": "kokonutui-bento-grid",
+      "name": "bento-grid",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -1453,7 +2374,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-01",
+      "name": "button-btn-01",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1482,7 +2403,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-02",
+      "name": "button-btn-02",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1510,7 +2431,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-03",
+      "name": "button-btn-03",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1540,7 +2461,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-04",
+      "name": "button-btn-04",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1570,7 +2491,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-05",
+      "name": "button-btn-05",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1600,7 +2521,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-06",
+      "name": "button-btn-06",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1629,7 +2550,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-07",
+      "name": "button-btn-07",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1658,7 +2579,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-08",
+      "name": "button-btn-08",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1687,7 +2608,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-09",
+      "name": "button-btn-09",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1715,7 +2636,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-10",
+      "name": "button-btn-10",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1744,7 +2665,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-11",
+      "name": "button-btn-11",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1773,7 +2694,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-12",
+      "name": "button-btn-12",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1801,7 +2722,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-13",
+      "name": "button-btn-13",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1829,7 +2750,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-14",
+      "name": "button-btn-14",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1858,7 +2779,7 @@
       ]
     },
     {
-      "name": "kokonutui-button-btn-15",
+      "name": "button-btn-15",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1887,7 +2808,27 @@
       ]
     },
     {
-      "name": "kokonutui-card-01",
+      "name": "button-cta",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/button-cta.tsx",
+          "path": "components/button-cta.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "card-01",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -1908,7 +2849,7 @@
       ]
     },
     {
-      "name": "kokonutui-card-02",
+      "name": "card-02",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -1938,7 +2879,7 @@
       ]
     },
     {
-      "name": "kokonutui-card-03",
+      "name": "card-03",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -1960,7 +2901,7 @@
       ]
     },
     {
-      "name": "kokonutui-card-04",
+      "name": "card-04",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -1982,7 +2923,7 @@
       ]
     },
     {
-      "name": "kokonutui-card-05",
+      "name": "card-05",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -2004,7 +2945,7 @@
       ]
     },
     {
-      "name": "kokonutui-card-06",
+      "name": "card-06",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -2025,7 +2966,7 @@
       ]
     },
     {
-      "name": "kokonutui-card-07",
+      "name": "card-07",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -2046,7 +2987,7 @@
       ]
     },
     {
-      "name": "kokonutui-card-08",
+      "name": "card-08",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -2068,7 +3009,7 @@
       ]
     },
     {
-      "name": "kokonutui-card-09",
+      "name": "card-09",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -2089,7 +3030,7 @@
       ]
     },
     {
-      "name": "kokonutui-card-10",
+      "name": "card-10",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-progress",
@@ -2125,7 +3066,7 @@
       ]
     },
     {
-      "name": "kokonutui-checkout-interaction",
+      "name": "checkout-interaction",
       "type": "registry:component",
       "dependencies": [
         "@number-flow/react",
@@ -2157,7 +3098,7 @@
       ]
     },
     {
-      "name": "kokonutui-currency-transfer",
+      "name": "currency-transfer",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -2184,7 +3125,7 @@
       ]
     },
     {
-      "name": "kokonutui-dashboard",
+      "name": "dashboard",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-avatar",
@@ -2335,7 +3276,7 @@
       ]
     },
     {
-      "name": "kokonutui-dashboard-app-sidebar",
+      "name": "dashboard-app-sidebar",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-avatar",
@@ -2435,7 +3376,7 @@
       ]
     },
     {
-      "name": "kokonutui-dashboard-btn-11",
+      "name": "dashboard-btn-11",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -2464,7 +3405,7 @@
       ]
     },
     {
-      "name": "kokonutui-dashboard-content",
+      "name": "dashboard-content",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-progress",
@@ -2519,7 +3460,7 @@
       ]
     },
     {
-      "name": "kokonutui-dashboard-layout",
+      "name": "dashboard-layout",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-avatar",
@@ -2634,7 +3575,7 @@
       ]
     },
     {
-      "name": "kokonutui-dashboard-list-01",
+      "name": "dashboard-list-01",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -2668,7 +3609,7 @@
       ]
     },
     {
-      "name": "kokonutui-dashboard-list-02",
+      "name": "dashboard-list-02",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -2702,7 +3643,7 @@
       ]
     },
     {
-      "name": "kokonutui-dashboard-list-03",
+      "name": "dashboard-list-03",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-progress",
@@ -2742,7 +3683,7 @@
       ]
     },
     {
-      "name": "kokonutui-dashboard-nav-documents",
+      "name": "dashboard-nav-documents",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dialog",
@@ -2809,7 +3750,7 @@
       ]
     },
     {
-      "name": "kokonutui-dashboard-nav-main",
+      "name": "dashboard-nav-main",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dialog",
@@ -2876,7 +3817,7 @@
       ]
     },
     {
-      "name": "kokonutui-dashboard-nav-secondary",
+      "name": "dashboard-nav-secondary",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dialog",
@@ -2943,7 +3884,7 @@
       ]
     },
     {
-      "name": "kokonutui-dashboard-nav-user",
+      "name": "dashboard-nav-user",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-avatar",
@@ -3022,7 +3963,7 @@
       ]
     },
     {
-      "name": "kokonutui-dashboard-top-nav",
+      "name": "dashboard-top-nav",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dialog",
@@ -3095,7 +4036,28 @@
       ]
     },
     {
-      "name": "kokonutui-faq-01",
+      "name": "event-toast",
+      "type": "registry:component",
+      "dependencies": [
+        "next",
+        "react",
+        "sonner"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/event-toast.tsx",
+          "path": "components/event-toast.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/arrow-right-broken.tsx",
+          "path": "components/icons/arrow-right-broken.tsx"
+        }
+      ]
+    },
+    {
+      "name": "faq-01",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
@@ -3134,7 +4096,7 @@
       ]
     },
     {
-      "name": "kokonutui-faq-02",
+      "name": "faq-02",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3157,7 +4119,7 @@
       ]
     },
     {
-      "name": "kokonutui-faq-03",
+      "name": "faq-03",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
@@ -3191,7 +4153,7 @@
       ]
     },
     {
-      "name": "kokonutui-faq-04",
+      "name": "faq-04",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
@@ -3219,7 +4181,7 @@
       ]
     },
     {
-      "name": "kokonutui-file-upload",
+      "name": "file-upload",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3247,7 +4209,7 @@
       ]
     },
     {
-      "name": "kokonutui-hand-written-title",
+      "name": "hand-written-title",
       "type": "registry:component",
       "dependencies": [
         "motion"
@@ -3261,7 +4223,7 @@
       ]
     },
     {
-      "name": "kokonutui-hero-geometric",
+      "name": "hero-geometric",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3283,7 +4245,162 @@
       ]
     },
     {
-      "name": "kokonutui-input-01",
+      "name": "icons-arrow-right-broken",
+      "type": "registry:component",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/icons/arrow-right-broken.tsx",
+          "path": "components/icons/arrow-right-broken.tsx"
+        }
+      ]
+    },
+    {
+      "name": "icons-arrow25",
+      "type": "registry:component",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/icons/arrow25.tsx",
+          "path": "components/icons/arrow25.tsx"
+        }
+      ]
+    },
+    {
+      "name": "icons-compass",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/icons/compass.tsx",
+          "path": "components/icons/compass.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "icons-conffeti",
+      "type": "registry:component",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/icons/conffeti.tsx",
+          "path": "components/icons/conffeti.tsx"
+        }
+      ]
+    },
+    {
+      "name": "icons-motion",
+      "type": "registry:component",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/icons/motion.tsx",
+          "path": "components/icons/motion.tsx"
+        }
+      ]
+    },
+    {
+      "name": "icons-nextjs",
+      "type": "registry:component",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/icons/nextjs.tsx",
+          "path": "components/icons/nextjs.tsx"
+        }
+      ]
+    },
+    {
+      "name": "icons-react",
+      "type": "registry:component",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/icons/react.tsx",
+          "path": "components/icons/react.tsx"
+        }
+      ]
+    },
+    {
+      "name": "icons-shadcn",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/icons/shadcn.tsx",
+          "path": "components/icons/shadcn.tsx"
+        }
+      ]
+    },
+    {
+      "name": "icons-tailwindcss",
+      "type": "registry:component",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/icons/tailwindcss.tsx",
+          "path": "components/icons/tailwindcss.tsx"
+        }
+      ]
+    },
+    {
+      "name": "icons-v0",
+      "type": "registry:component",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/icons/v0.tsx",
+          "path": "components/icons/v0.tsx"
+        }
+      ]
+    },
+    {
+      "name": "icons-x-icon",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/icons/x-icon.tsx",
+          "path": "components/icons/x-icon.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input-01",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3305,7 +4422,7 @@
       ]
     },
     {
-      "name": "kokonutui-input-02",
+      "name": "input-02",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3337,7 +4454,7 @@
       ]
     },
     {
-      "name": "kokonutui-input-03",
+      "name": "input-03",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3364,7 +4481,7 @@
       ]
     },
     {
-      "name": "kokonutui-input-04",
+      "name": "input-04",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3385,7 +4502,7 @@
       ]
     },
     {
-      "name": "kokonutui-input-05",
+      "name": "input-05",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3407,7 +4524,7 @@
       ]
     },
     {
-      "name": "kokonutui-input-06",
+      "name": "input-06",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3428,7 +4545,7 @@
       ]
     },
     {
-      "name": "kokonutui-input-08",
+      "name": "input-08",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3455,7 +4572,7 @@
       ]
     },
     {
-      "name": "kokonutui-input-09",
+      "name": "input-09",
       "type": "registry:component",
       "dependencies": [
         "motion",
@@ -3471,7 +4588,7 @@
       ]
     },
     {
-      "name": "kokonutui-input-10",
+      "name": "input-10",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3493,7 +4610,405 @@
       ]
     },
     {
-      "name": "kokonutui-list-01",
+      "name": "landing-component-showcase-card",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/landing/component-showcase-card.tsx",
+          "path": "components/landing/component-showcase-card.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/alert/alert-04.tsx",
+          "path": "components/kokonutui/alert/alert-04.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/button/btn-12.tsx",
+          "path": "components/kokonutui/button/btn-12.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/button/btn-13.tsx",
+          "path": "components/kokonutui/button/btn-13.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/input/input-08.tsx",
+          "path": "components/kokonutui/input/input-08.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/input/input-10.tsx",
+          "path": "components/kokonutui/input/input-10.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-copy-to-clipboard.ts",
+          "path": "hooks/use-copy-to-clipboard.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "components/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "landing-feature-block",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "next",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/landing/feature-block.tsx",
+          "path": "components/landing/feature-block.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/nextjs.tsx",
+          "path": "components/icons/nextjs.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/react.tsx",
+          "path": "components/icons/react.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/shadcn.tsx",
+          "path": "components/icons/shadcn.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "landing-header",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react",
+        "next",
+        "next-themes",
+        "next-view-transitions",
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/landing/header.tsx",
+          "path": "components/landing/header.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/conffeti.tsx",
+          "path": "components/icons/conffeti.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/x-icon.tsx",
+          "path": "components/icons/x-icon.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/landing/header-pro.tsx",
+          "path": "components/landing/header-pro.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/theme-toggle.tsx",
+          "path": "lib/theme-toggle.tsx"
+        }
+      ]
+    },
+    {
+      "name": "landing-header-pro",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react",
+        "next",
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/landing/header-pro.tsx",
+          "path": "components/landing/header-pro.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/conffeti.tsx",
+          "path": "components/icons/conffeti.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/x-icon.tsx",
+          "path": "components/icons/x-icon.tsx"
+        }
+      ]
+    },
+    {
+      "name": "landing-hero",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "next",
+        "next-view-transitions",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/landing/hero.tsx",
+          "path": "components/landing/hero.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/nextjs.tsx",
+          "path": "components/icons/nextjs.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/react.tsx",
+          "path": "components/icons/react.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/shadcn.tsx",
+          "path": "components/icons/shadcn.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/action-search-bar.tsx",
+          "path": "components/kokonutui/action-search-bar.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/ai-input/ai-input-04.tsx",
+          "path": "components/kokonutui/ai-input/ai-input-04.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/button/btn-03.tsx",
+          "path": "components/kokonutui/button/btn-03.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/button/btn-14.tsx",
+          "path": "components/kokonutui/button/btn-14.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/card/card-08.tsx",
+          "path": "components/kokonutui/card/card-08.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/input/input-09.tsx",
+          "path": "components/kokonutui/input/input-09.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/landing/feature-block.tsx",
+          "path": "components/landing/feature-block.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-auto-resize-textarea.ts",
+          "path": "hooks/use-auto-resize-textarea.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-debounce.ts",
+          "path": "hooks/use-debounce.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/browse-blocks.tsx",
+          "path": "components/ui/browse-blocks.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/browse-button.tsx",
+          "path": "components/ui/browse-button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "components/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "components/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/textarea.tsx",
+          "path": "components/ui/textarea.tsx"
+        }
+      ]
+    },
+    {
+      "name": "landing-interactive-preview",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/landing/interactive-preview.tsx",
+          "path": "components/landing/interactive-preview.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "landing-interfacecards",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "next",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/landing/interfaceCards.tsx",
+          "path": "components/landing/interfaceCards.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/ai-input/ai-input-04.tsx",
+          "path": "components/kokonutui/ai-input/ai-input-04.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:hook",
+          "target": "hooks/use-auto-resize-textarea.ts",
+          "path": "hooks/use-auto-resize-textarea.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/textarea.tsx",
+          "path": "components/ui/textarea.tsx"
+        }
+      ]
+    },
+    {
+      "name": "landing-showcase",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "next",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/landing/showcase.tsx",
+          "path": "components/landing/showcase.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/text/text-02.tsx",
+          "path": "components/kokonutui/text/text-02.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "landing-technology-badges",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/landing/technology-badges.tsx",
+          "path": "components/landing/technology-badges.tsx"
+        }
+      ]
+    },
+    {
+      "name": "layout-footer",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react",
+        "next"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/layout/footer.tsx",
+          "path": "components/layout/footer.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/x-icon.tsx",
+          "path": "components/icons/x-icon.tsx"
+        }
+      ]
+    },
+    {
+      "name": "list-01",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3514,7 +5029,7 @@
       ]
     },
     {
-      "name": "kokonutui-list-02",
+      "name": "list-02",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3535,7 +5050,7 @@
       ]
     },
     {
-      "name": "kokonutui-list-03",
+      "name": "list-03",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3556,7 +5071,7 @@
       ]
     },
     {
-      "name": "kokonutui-list-04",
+      "name": "list-04",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3577,7 +5092,7 @@
       ]
     },
     {
-      "name": "kokonutui-list-05",
+      "name": "list-05",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3598,7 +5113,7 @@
       ]
     },
     {
-      "name": "kokonutui-list-06",
+      "name": "list-06",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3619,7 +5134,7 @@
       ]
     },
     {
-      "name": "kokonutui-matrix-text",
+      "name": "matrix-text",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3641,7 +5156,168 @@
       ]
     },
     {
-      "name": "kokonutui-minimal-shop-cart-drawer",
+      "name": "mdx-preview",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "fs",
+        "lucide-react",
+        "motion",
+        "path",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mdx/preview.tsx",
+          "path": "components/mdx/preview.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mdx/preview-content.tsx",
+          "path": "components/mdx/preview-content.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/open-in-v0-button.tsx",
+          "path": "components/open-in-v0-button.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/action.ts",
+          "path": "lib/action.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "components/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mdx-preview-client",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "fs",
+        "lucide-react",
+        "motion",
+        "path",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mdx/preview-client.tsx",
+          "path": "components/mdx/preview-client.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mdx/preview-content.tsx",
+          "path": "components/mdx/preview-content.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mdx/preview.tsx",
+          "path": "components/mdx/preview.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mdx/refresh-button.tsx",
+          "path": "components/mdx/refresh-button.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/open-in-v0-button.tsx",
+          "path": "components/open-in-v0-button.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/action.ts",
+          "path": "lib/action.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "components/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mdx-preview-content",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "fs",
+        "lucide-react",
+        "motion",
+        "path",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mdx/preview-content.tsx",
+          "path": "components/mdx/preview-content.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/open-in-v0-button.tsx",
+          "path": "components/open-in-v0-button.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/action.ts",
+          "path": "lib/action.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "components/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mdx-refresh-button",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react",
+        "react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mdx/refresh-button.tsx",
+          "path": "components/mdx/refresh-button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "minimal-shop-cart-drawer",
       "type": "registry:component",
       "dependencies": [
         "lucide-react",
@@ -3661,7 +5337,7 @@
       ]
     },
     {
-      "name": "kokonutui-minimal-shop-data",
+      "name": "minimal-shop-data",
       "type": "registry:component",
       "files": [
         {
@@ -3672,7 +5348,7 @@
       ]
     },
     {
-      "name": "kokonutui-minimal-shop-header",
+      "name": "minimal-shop-header",
       "type": "registry:component",
       "dependencies": [
         "lucide-react"
@@ -3686,7 +5362,7 @@
       ]
     },
     {
-      "name": "kokonutui-minimal-shop-minimal-shop",
+      "name": "minimal-shop-minimal-shop",
       "type": "registry:component",
       "dependencies": [
         "lucide-react",
@@ -3728,7 +5404,7 @@
       ]
     },
     {
-      "name": "kokonutui-minimal-shop-product-grid",
+      "name": "minimal-shop-product-grid",
       "type": "registry:component",
       "dependencies": [
         "motion"
@@ -3747,7 +5423,7 @@
       ]
     },
     {
-      "name": "kokonutui-minimal-shop-product-modal",
+      "name": "minimal-shop-product-modal",
       "type": "registry:component",
       "dependencies": [
         "lucide-react",
@@ -3768,7 +5444,7 @@
       ]
     },
     {
-      "name": "kokonutui-minimal-shop-top-bar",
+      "name": "minimal-shop-top-bar",
       "type": "registry:component",
       "dependencies": [
         "lucide-react",
@@ -3785,7 +5461,126 @@
       ]
     },
     {
-      "name": "kokonutui-particle-button",
+      "name": "nav",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "next",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/nav/index.tsx",
+          "path": "components/nav/index.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/nav/desktop-nav.tsx",
+          "path": "components/nav/desktop-nav.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/nav/mobile-nav.tsx",
+          "path": "components/nav/mobile-nav.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "config/navigation.ts",
+          "path": "config/navigation.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "nav-desktop-nav",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "next",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/nav/desktop-nav.tsx",
+          "path": "components/nav/desktop-nav.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "config/navigation.ts",
+          "path": "config/navigation.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "nav-mobile-nav",
+      "type": "registry:component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "next",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/nav/mobile-nav.tsx",
+          "path": "components/nav/mobile-nav.tsx"
+        },
+        {
+          "type": "registry:file",
+          "target": "config/navigation.ts",
+          "path": "config/navigation.ts"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "open-in-v0-button",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/open-in-v0-button.tsx",
+          "path": "components/open-in-v0-button.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/utils.ts",
+          "path": "lib/utils.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "components/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "particle-button",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -3815,7 +5610,7 @@
       ]
     },
     {
-      "name": "kokonutui-particles-background",
+      "name": "particles-background",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3837,7 +5632,7 @@
       ]
     },
     {
-      "name": "kokonutui-pricing-01",
+      "name": "pricing-01",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -3860,7 +5655,7 @@
       ]
     },
     {
-      "name": "kokonutui-pricing-02",
+      "name": "pricing-02",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -3889,7 +5684,7 @@
       ]
     },
     {
-      "name": "kokonutui-pricing-03",
+      "name": "pricing-03",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -3918,7 +5713,7 @@
       ]
     },
     {
-      "name": "kokonutui-pricing-04",
+      "name": "pricing-04",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -3947,7 +5742,7 @@
       ]
     },
     {
-      "name": "kokonutui-pricing-05",
+      "name": "pricing-05",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -3976,7 +5771,7 @@
       ]
     },
     {
-      "name": "kokonutui-pricing-06",
+      "name": "pricing-06",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -4005,7 +5800,7 @@
       ]
     },
     {
-      "name": "kokonutui-profile-01",
+      "name": "profile-01",
       "type": "registry:component",
       "dependencies": [
         "lucide-react",
@@ -4020,7 +5815,7 @@
       ]
     },
     {
-      "name": "kokonutui-profile-02",
+      "name": "profile-02",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -4050,7 +5845,7 @@
       ]
     },
     {
-      "name": "kokonutui-profile-03",
+      "name": "profile-03",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-avatar",
@@ -4101,7 +5896,7 @@
       ]
     },
     {
-      "name": "kokonutui-profile-04",
+      "name": "profile-04",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-progress",
@@ -4142,7 +5937,7 @@
       ]
     },
     {
-      "name": "kokonutui-profile-05",
+      "name": "profile-05",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
@@ -4177,7 +5972,7 @@
       ]
     },
     {
-      "name": "kokonutui-text-01",
+      "name": "text-01",
       "type": "registry:component",
       "files": [
         {
@@ -4188,7 +5983,7 @@
       ]
     },
     {
-      "name": "kokonutui-text-02",
+      "name": "text-02",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -4209,7 +6004,7 @@
       ]
     },
     {
-      "name": "kokonutui-text-03",
+      "name": "text-03",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -4230,7 +6025,7 @@
       ]
     },
     {
-      "name": "kokonutui-text-04",
+      "name": "text-04",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -4251,7 +6046,7 @@
       ]
     },
     {
-      "name": "kokonutui-text-05",
+      "name": "text-05",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -4272,7 +6067,7 @@
       ]
     },
     {
-      "name": "kokonutui-text-06",
+      "name": "text-06",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -4292,7 +6087,7 @@
       ]
     },
     {
-      "name": "kokonutui-toolbar",
+      "name": "toolbar",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -4315,7 +6110,7 @@
       ]
     },
     {
-      "name": "kokonutui-tweet-card",
+      "name": "tweet-card",
       "type": "registry:component",
       "dependencies": [
         "clsx",
@@ -4337,7 +6132,7 @@
       ]
     },
     {
-      "name": "kokonutui-vercel-v0-chat",
+      "name": "vercel-v0-chat",
       "type": "registry:component",
       "dependencies": [
         "clsx",

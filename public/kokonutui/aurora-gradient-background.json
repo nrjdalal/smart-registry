@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "aurora-gradient-background",
+  "type": "registry:ui",
+  "files": [
+    {
+      "type": "registry:ui",
+      "target": "components/ui/aurora-gradient-background.tsx",
+      "content": " ",
+      "path": "components/ui/aurora-gradient-background.tsx"
+    }
+  ]
+}

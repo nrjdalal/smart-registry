@@ -1,7 +1,7 @@
 #!/bin/bash
 
 repos=(
-  "https://github.com/kokonut-labs/kokonutui kokonutui . components/kokonutui"
+  "https://github.com/kokonut-labs/kokonutui kokonutui . -i registry --remove-prefix kokonutui"
   "https://github.com/origin-space/originui originui ."
   "https://github.com/shadcn-ui/ui shadcn apps/v4"
   "https://github.com/shadcn-ui/ui shadcn-v3 apps/www"

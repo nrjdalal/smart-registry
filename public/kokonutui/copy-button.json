@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "copy-button",
+  "type": "registry:lib",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "files": [
+    {
+      "type": "registry:lib",
+      "target": "lib/copy-button.tsx",
+      "content": "import { Copy, Check } from \"lucide-react\";\n\ninterface CopyButtonProps {\n    onClick?: () => void;\n}\n\nexport function CopyButton({ onClick }: CopyButtonProps) {\n    return (\n        <button\n            type=\"button\"\n            onClick={onClick}\n            className=\"relative flex items-center gap-1 px-3 py-2 rounded-lg text-sm\n                bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700\n                text-zinc-600 dark:text-zinc-400 transition-colors\n                touch-manipulation\"\n        >\n            <Copy className=\"w-4 h-4\" />\n        </button>\n    );\n}\n",
+      "path": "lib/copy-button.tsx"
+    }
+  ]
+}

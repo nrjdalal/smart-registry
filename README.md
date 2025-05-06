@@ -143,6 +143,9 @@ With disabled automatic detection:
 Codemods:
   --codemod-radix         migrate to unify "@radix-ui/react-*" imports to "radix-ui"
 
+Cleanup:
+  --remove-prefix         remove given prefix from the registry item name (default: none)
+
 Author:
   Neeraj Dalal <admin@nrjdalal.com> (https://nrjdalal.com)
 ```
