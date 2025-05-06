@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "kokonutui-text-04",
+  "type": "registry:component",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/kokonutui/text/text-04.tsx",
+      "content": "\"use client\";\n\nimport { cn } from \"@/lib/utils\";\nimport { motion } from \"motion/react\";\n\ninterface AnimatedTextProps {\n    text?: string;\n    className?: string;\n    shadowColors?: {\n        first?: string;\n        second?: string;\n        third?: string;\n        fourth?: string;\n        glow?: string;\n    };\n}\n\nexport default function Text_04({\n    text = \"LINE\",\n    className = \"\",\n    shadowColors = {\n        first: \"#07bccc\",\n        second: \"#e601c0\",\n        third: \"#e9019a\",\n        fourth: \"#f40468\",\n        glow: \"#f40468\",\n    },\n}: AnimatedTextProps) {\n    const textShadowStyle = {\n        textShadow: `10px 10px 0px ${shadowColors.first}, \n                     15px 15px 0px ${shadowColors.second}, \n                     20px 20px 0px ${shadowColors.third}, \n                     25px 25px 0px ${shadowColors.fourth}, \n                     45px 45px 10px ${shadowColors.glow}`,\n    };\n\n    const noShadowStyle = {\n        textShadow: \"none\",\n    };\n\n    return (\n        <div className=\"w-full text-center\">\n            <motion.div\n                className={cn(\n                    \"w-full text-center cursor-pointer text-3xl font-bold\",\n                    \"transition-all duration-200 ease-in-out tracking-widest\",\n                    \"text-black dark:text-white italic\",\n                    \"stroke-[#d6f4f4]\",\n                    className\n                )}\n                style={textShadowStyle}\n                whileHover={noShadowStyle}\n            >\n                {text}\n            </motion.div>\n        </div>\n    );\n}\n",
+      "path": "components/kokonutui/text/text-04.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n    return twMerge(clsx(inputs));\n}\n",
+      "path": "lib/utils.ts"
+    }
+  ]
+}

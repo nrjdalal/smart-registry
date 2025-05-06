@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "kokonutui-button-btn-14",
+  "type": "registry:component",
+  "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "react",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/kokonutui/button/btn-14.tsx",
+      "content": "import { Button } from \"@/components/ui/button\";\nimport { cn } from \"@/lib/utils\";\nimport { ArrowRight, ArrowUpRight } from \"lucide-react\";\n\ninterface Btn14Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {\n    label?: string;\n    className?: string;\n}\n\nexport function Btn14({ label = \"Submit\", className, ...props }: Btn14Props) {\n    return (\n        <Button\n            variant=\"ghost\"\n            className={cn(\n                \"group relative w-1/2 h-8 px-3 rounded-lg overflow-hidden transition-all duration-500\",\n                className\n            )}\n            {...props}\n        >\n            {/* Gradient border using pseudo-element */}\n            <div className=\"absolute inset-0 rounded-lg p-[1px] bg-linear-to-b from-[#C76A1B] via-[#E67B1F] dark:via-[#E67B1F]/50 to-[#943F00]\">\n                <div className=\"absolute inset-0 bg-[#FFF8F3] dark:bg-[#0A0705] rounded-lg opacity-80 dark:opacity-95\" />\n            </div>\n\n            {/* Base background */}\n            <div className=\"absolute inset-[1px] bg-[#FFF8F3] dark:bg-[#0A0705] rounded-lg opacity-85 dark:opacity-95\" />\n\n            {/* Multiple gradient layers */}\n            <div className=\"absolute inset-[1px] bg-linear-to-r from-[#FFF8F3] via-[#FFE6D4] to-[#FFF8F3] dark:from-[#0A0705] dark:via-[#1A0F08] dark:to-[#0A0705] rounded-lg opacity-90 dark:opacity-95\" />\n            <div className=\"absolute inset-[1px] bg-linear-to-b from-[#E67B1F]/30 via-[#FFE6D4] to-[#943F00]/30 dark:from-[#E67B1F]/20 dark:via-[#2A1710]/40 dark:to-[#943F00]/20 rounded-lg opacity-90\" />\n            <div className=\"absolute inset-[1px] bg-linear-to-br from-[#FFB067]/20 via-[#FFE6D4] to-[#3D1D07]/30 dark:from-[#FFB067]/10 dark:via-[#2A1710]/30 dark:to-[#3D1D07]/20 rounded-lg\" />\n\n            {/* Content wrapper */}\n            <div className=\"relative flex items-center justify-center gap-2\">\n                <span className=\"text-sm font-medium bg-linear-to-b from-[#C76A1B] to-[#943F00] dark:from-[#FFD4B6] dark:to-[#FFA857] bg-clip-text text-transparent drop-shadow-[0_0_12px_rgba(255,176,103,0.4)] tracking-tight\">\n                    {label}\n                </span>\n                <ArrowUpRight className=\"w-4 h-4 text-[#C76A1B] dark:text-[#FFD4B6]\" />\n            </div>\n\n            {/* Hover effects */}\n            <div className=\"absolute inset-[1px] opacity-0 transition-opacity duration-300 bg-linear-to-r from-[#3D1D07]/20 via-[#FFB067]/10 to-[#3D1D07]/20 dark:from-[#FFB067]/5 dark:via-[#FFB067]/10 dark:to-[#FFB067]/5 group-hover:opacity-100 rounded-lg\" />\n        </Button>\n    );\n}\n",
+      "path": "components/kokonutui/button/btn-14.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n    return twMerge(clsx(inputs));\n}\n",
+      "path": "lib/utils.ts"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/button.tsx",
+      "content": "import * as React from \"react\";\nimport { Slot } from \"@radix-ui/react-slot\";\nimport { cva, type VariantProps } from \"class-variance-authority\";\n\nimport { cn } from \"@/lib/utils\";\n\nconst buttonVariants = cva(\n    \"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 dark:ring-offset-zinc-950 dark:focus-visible:ring-zinc-300 cursor-pointer\",\n    {\n        variants: {\n            variant: {\n                default:\n                    \"bg-zinc-900 text-zinc-50 hover:bg-zinc-900/90 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-50/90\",\n                destructive:\n                    \"bg-red-500 text-zinc-50 hover:bg-red-500/90 dark:bg-red-900 dark:text-zinc-50 dark:hover:bg-red-900/90\",\n                outline:\n                    \"border border-zinc-200 bg-white hover:bg-zinc-100 hover:text-zinc-900 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-800 dark:hover:text-zinc-50\",\n                secondary:\n                    \"bg-zinc-100 text-zinc-900 hover:bg-zinc-100/80 dark:bg-zinc-800 dark:text-zinc-50 dark:hover:bg-zinc-800/80\",\n                ghost: \"hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-zinc-50\",\n                link: \"text-zinc-900 underline-offset-4 hover:underline dark:text-zinc-50\",\n            },\n            size: {\n                default: \"h-10 px-4 py-2\",\n                sm: \"h-9 rounded-md px-3\",\n                lg: \"h-11 rounded-md px-8\",\n                icon: \"h-10 w-10\",\n            },\n        },\n        defaultVariants: {\n            variant: \"default\",\n            size: \"default\",\n        },\n    }\n);\n\nexport interface ButtonProps\n    extends React.ButtonHTMLAttributes<HTMLButtonElement>,\n        VariantProps<typeof buttonVariants> {\n    asChild?: boolean;\n}\n\nconst Button = React.forwardRef<HTMLButtonElement, ButtonProps>(\n    ({ className, variant, size, asChild = false, ...props }, ref) => {\n        const Comp = asChild ? Slot : \"button\";\n        return (\n            <Comp\n                className={cn(buttonVariants({ variant, size, className }))}\n                ref={ref}\n                {...props}\n            />\n        );\n    }\n);\nButton.displayName = \"Button\";\n\nexport { Button, buttonVariants };\n",
+      "path": "components/ui/button.tsx"
+    }
+  ]
+}

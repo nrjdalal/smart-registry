@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "registry-lib",
+  "type": "registry:file",
+  "dependencies": [
+    "zod"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "registry-lib.ts",
+      "content": "import type { Registry } from \"@/schema\";\n\nexport const lib: Registry = [\n    {\n        name: \"utils\",\n        type: \"registry:lib\",\n        dependencies: [\"clsx\", \"tailwind-merge\"],\n        files: [\n            {\n                path: \"lib/utils.ts\",\n                type: \"registry:lib\",\n            },\n        ],\n    },\n];\n",
+      "path": "registry/registry-lib.ts"
+    },
+    {
+      "type": "registry:file",
+      "target": "schema.ts",
+      "content": "import { z } from \"zod\";\n\nexport const blockChunkSchema = z.object({\n    name: z.string(),\n    description: z.string(),\n    component: z.any(),\n    file: z.string(),\n    code: z.string().optional(),\n    container: z\n        .object({\n            className: z.string().nullish(),\n        })\n        .optional(),\n});\n\nexport const registryItemTypeSchema = z.enum([\n    \"registry:style\",\n    \"registry:lib\",\n    \"registry:example\",\n    \"registry:block\",\n    \"registry:component\",\n    \"registry:ui\",\n    \"registry:hook\",\n    \"registry:theme\",\n    \"registry:page\",\n]);\n\nexport const registryItemFileSchema = z.union([\n    z.string(),\n    z.object({\n        path: z.string(),\n        content: z.string().optional(),\n        type: registryItemTypeSchema,\n        target: z.string().optional(),\n    }),\n]);\n\nexport const registryItemTailwindSchema = z.object({\n    config: z.object({\n        content: z.array(z.string()).optional(),\n        theme: z.record(z.string(), z.any()).optional(),\n        plugins: z.array(z.string()).optional(),\n    }),\n});\n\nexport const registryItemCssVarsSchema = z.object({\n    light: z.record(z.string(), z.string()).optional(),\n    dark: z.record(z.string(), z.string()).optional(),\n});\n\nexport const registryEntrySchema = z.object({\n    name: z.string(),\n    type: registryItemTypeSchema,\n    description: z.string().optional(),\n    dependencies: z.array(z.string()).optional(),\n    devDependencies: z.array(z.string()).optional(),\n    registryDependencies: z.array(z.string()).optional(),\n    hookDependencies: z.array(z.string()).optional(),\n    files: z.array(registryItemFileSchema).optional(),\n    tailwind: registryItemTailwindSchema.optional(),\n    cssVars: registryItemCssVarsSchema.optional(),\n    source: z.string().optional(),\n    category: z.string().optional(),\n    subcategory: z.string().optional(),\n    chunks: z.array(blockChunkSchema).optional(),\n    docs: z.string().optional(),\n});\n\nexport const registrySchema = z.array(registryEntrySchema);\n\nexport type RegistryEntry = z.infer<typeof registryEntrySchema>;\n\nexport type Registry = z.infer<typeof registrySchema>;\n\nexport const blockSchema = registryEntrySchema.extend({\n    type: z.literal(\"registry:block\"),\n    style: z.enum([\"default\", \"new-york\"]),\n    component: z.any(),\n    container: z\n        .object({\n            height: z.string().nullish(),\n            className: z.string().nullish(),\n        })\n        .optional(),\n    code: z.string(),\n    highlightedCode: z.string(),\n});\n\nexport type Block = z.infer<typeof blockSchema>;\n\nexport type BlockChunk = z.infer<typeof blockChunkSchema>;\n",
+      "path": "registry/schema.ts"
+    }
+  ]
+}

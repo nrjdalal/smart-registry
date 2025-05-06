@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "kokonutui-button-btn-12",
+  "type": "registry:component",
+  "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority",
+    "clsx",
+    "react",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/kokonutui/button/btn-12.tsx",
+      "content": "import { Button } from \"@/components/ui/button\";\nimport { cn } from \"@/lib/utils\";\n\ninterface Btn12Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {\n    label?: string;\n    className?: string;\n}\n\nexport default function Btn12({ label = \"Fancy Button\", className, ...props }: Btn12Props) {\n    return (\n        <Button\n            variant=\"ghost\"\n            className={cn(\n                \"group relative w-1/2 h-12 px-4 rounded-lg overflow-hidden transition-all duration-500\",\n                className\n            )}\n            {...props}\n        >\n            <div className=\"absolute inset-0 rounded-lg p-[2px] bg-linear-to-b from-[#654358] via-[#17092A] to-[#2F0D64]\">\n                <div className=\"absolute inset-0 bg-[#170928] rounded-lg opacity-90\" />\n            </div>\n\n            <div className=\"absolute inset-[2px] bg-[#170928] rounded-lg opacity-95\" />\n\n            <div className=\"absolute inset-[2px] bg-linear-to-r from-[#170928] via-[#1d0d33] to-[#170928] rounded-lg opacity-90\" />\n            <div className=\"absolute inset-[2px] bg-linear-to-b from-[#654358]/40 via-[#1d0d33] to-[#2F0D64]/30 rounded-lg opacity-80\" />\n            <div className=\"absolute inset-[2px] bg-linear-to-br from-[#C787F6]/10 via-[#1d0d33] to-[#2A1736]/50 rounded-lg\" />\n\n            <div className=\"absolute inset-[2px] shadow-[inset_0_0_15px_rgba(199,135,246,0.15)] rounded-lg\" />\n\n            <div className=\"relative flex items-center justify-center gap-2\">\n                <span className=\"text-lg font-light bg-linear-to-b from-[#D69DDE] to-[#B873F8] bg-clip-text text-transparent drop-shadow-[0_0_12px_rgba(199,135,246,0.4)] tracking-tighter\">\n                    {label}\n                </span>\n            </div>\n\n            <div className=\"absolute inset-[2px] opacity-0 transition-opacity duration-300 bg-linear-to-r from-[#2A1736]/20 via-[#C787F6]/10 to-[#2A1736]/20 group-hover:opacity-100 rounded-lg\" />\n        </Button>\n    );\n}\n",
+      "path": "components/kokonutui/button/btn-12.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n    return twMerge(clsx(inputs));\n}\n",
+      "path": "lib/utils.ts"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/button.tsx",
+      "content": "import * as React from \"react\";\nimport { Slot } from \"@radix-ui/react-slot\";\nimport { cva, type VariantProps } from \"class-variance-authority\";\n\nimport { cn } from \"@/lib/utils\";\n\nconst buttonVariants = cva(\n    \"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 dark:ring-offset-zinc-950 dark:focus-visible:ring-zinc-300 cursor-pointer\",\n    {\n        variants: {\n            variant: {\n                default:\n                    \"bg-zinc-900 text-zinc-50 hover:bg-zinc-900/90 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-50/90\",\n                destructive:\n                    \"bg-red-500 text-zinc-50 hover:bg-red-500/90 dark:bg-red-900 dark:text-zinc-50 dark:hover:bg-red-900/90\",\n                outline:\n                    \"border border-zinc-200 bg-white hover:bg-zinc-100 hover:text-zinc-900 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-800 dark:hover:text-zinc-50\",\n                secondary:\n                    \"bg-zinc-100 text-zinc-900 hover:bg-zinc-100/80 dark:bg-zinc-800 dark:text-zinc-50 dark:hover:bg-zinc-800/80\",\n                ghost: \"hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-zinc-50\",\n                link: \"text-zinc-900 underline-offset-4 hover:underline dark:text-zinc-50\",\n            },\n            size: {\n                default: \"h-10 px-4 py-2\",\n                sm: \"h-9 rounded-md px-3\",\n                lg: \"h-11 rounded-md px-8\",\n                icon: \"h-10 w-10\",\n            },\n        },\n        defaultVariants: {\n            variant: \"default\",\n            size: \"default\",\n        },\n    }\n);\n\nexport interface ButtonProps\n    extends React.ButtonHTMLAttributes<HTMLButtonElement>,\n        VariantProps<typeof buttonVariants> {\n    asChild?: boolean;\n}\n\nconst Button = React.forwardRef<HTMLButtonElement, ButtonProps>(\n    ({ className, variant, size, asChild = false, ...props }, ref) => {\n        const Comp = asChild ? Slot : \"button\";\n        return (\n            <Comp\n                className={cn(buttonVariants({ variant, size, className }))}\n                ref={ref}\n                {...props}\n            />\n        );\n    }\n);\nButton.displayName = \"Button\";\n\nexport { Button, buttonVariants };\n",
+      "path": "components/ui/button.tsx"
+    }
+  ]
+}
