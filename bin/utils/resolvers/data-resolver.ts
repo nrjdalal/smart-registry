@@ -45,17 +45,6 @@ export const dataResolver = async ({
         content: data.content[filepath],
       })
 
-    data.content[filepath] = data.content[filepath].replace(
-      regex.imports,
-      (current) => {
-        const match = current.match(/['"](.*)['"]/)
-        if (match && transformations[match[1]]) {
-          return current.replace(match[1], transformations[match[1]].import)
-        }
-        return current
-      },
-    )
-
     files.forEach((file) => data.files.push(file))
     dependencies.forEach((dependency) => data.dependencies.push(dependency))
     devDependencies.forEach((devDependency) =>
@@ -88,6 +77,27 @@ export const dataResolver = async ({
   data.dependencies = [...new Set(data.dependencies)].sort()
   data.devDependencies = [...new Set(data.devDependencies)].sort()
   data.files = [...new Set(data.files)].sort()
+
+  for (const filepath of data.files) {
+    const { transformations } = await typeResolver({
+      cwd,
+      aliases,
+      filepath,
+      content: data.content[filepath],
+    })
+
+    data.content[filepath] = data.content[filepath].replace(
+      regex.imports,
+      (current) => {
+        const match = current.match(/['"](.*)['"]/)
+
+        if (match && transformations[match[1]]) {
+          return current.replace(match[1], transformations[match[1]].import)
+        }
+        return current
+      },
+    )
+  }
 
   return data
 }
