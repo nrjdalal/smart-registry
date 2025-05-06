@@ -39,14 +39,9 @@ export const listFiles = async ({
       !pattern.endsWith(".**")
     ) {
       try {
-        const fullPath = path.relative(cwd, pattern)
+        const fullPath = path.resolve(cwd, pattern)
         const stats = await fs.promises.stat(fullPath)
-        if (stats.isDirectory()) {
-          const dirFiles = (await fs.promises.readdir(fullPath)).map((file) =>
-            path.relative(pattern, file),
-          )
-          files.push(...dirFiles)
-        } else if (stats.isFile()) {
+        if (stats.isFile()) {
           files.push(pattern)
         }
       } catch {
