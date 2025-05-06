@@ -375,7 +375,10 @@ const main = async () => {
     // ~ Write the final registry.json file to the public directory
     outputRegistry.items
       .sort((a, b) => {
-        return a.name.localeCompare(b.name)
+        return a.name.localeCompare(b.name, undefined, {
+          numeric: true,
+          sensitivity: "base",
+        })
       })
       .sort((a, b) => {
         const typeOrder = registryOrder.items.type.default
