@@ -32,28 +32,28 @@ export const listFiles = async ({
     ignore: ignore.filter((ig) => !patterns.includes(ig)),
   })
 
-  for (const pattern of patterns) {
-    if (
-      !files.includes(pattern) &&
-      !pattern.endsWith("**") &&
-      !pattern.endsWith(".**")
-    ) {
-      try {
-        const fullPath = path.resolve(cwd, pattern)
-        const stats = await fs.promises.stat(fullPath)
-        if (stats.isDirectory()) {
-          const dirFiles = (await fs.promises.readdir(fullPath)).map((file) =>
-            path.resolve(pattern, file),
-          )
-          files.push(...dirFiles)
-        } else if (stats.isFile()) {
-          files.push(pattern)
-        }
-      } catch {
-        continue
-      }
-    }
-  }
+  // for (const pattern of patterns) {
+  //   if (
+  //     !files.includes(pattern) &&
+  //     !pattern.endsWith("**") &&
+  //     !pattern.endsWith(".**")
+  //   ) {
+  //     try {
+  //       const fullPath = path.resolve(cwd, pattern)
+  //       const stats = await fs.promises.stat(fullPath)
+  //       if (stats.isDirectory()) {
+  //         const dirFiles = (await fs.promises.readdir(fullPath)).map((file) =>
+  //           path.resolve(pattern, file),
+  //         )
+  //         files.push(...dirFiles)
+  //       } else if (stats.isFile()) {
+  //         files.push(pattern)
+  //       }
+  //     } catch {
+  //       continue
+  //     }
+  //   }
+  // }
 
   return [...new Set(files)]
 }
