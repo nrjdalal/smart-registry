@@ -9,7 +9,7 @@ A `zero-configuration` (no registry.json required), [shadcn add](https://ui.shad
 
 > The best configuration is no configuration. Focus on developing building blocks, components, pages, etc rather than spending time configuring the registry.
 
-![Demo Originui](https://github.com/user-attachments/assets/4f288629-5fc5-402c-a168-d4250d34ae92)
+<img width="800" alt="Demo Image" src="https://github.com/user-attachments/assets/3e1e5bd4-1e3e-4aab-924f-70e1d68519ab" />
 
 ## What is Zero-Configuration?
 
