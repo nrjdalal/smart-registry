@@ -8,6 +8,7 @@
         "execa": "^9.5.2",
         "strip-json-comments": "^5.0.1",
         "tinyglobby": "^0.2.12",
+        "yoctocolors": "^2.1.1",
       },
       "devDependencies": {
         "@commitlint/cli": "^19.6.0",

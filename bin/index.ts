@@ -8,6 +8,7 @@ import { getAliases } from "@/utils/aliases"
 import { getInputRegistry, listRegistryFiles } from "@/utils/files"
 import { dataResolver } from "@/utils/resolvers"
 import { transformer } from "@/utils/transformer"
+import { green } from "yoctocolors"
 import { author, name, version } from "../package.json"
 
 const helpMessage = `Version:
@@ -395,13 +396,13 @@ const main = async () => {
     )
     console.log()
     console.table(
-      Object.entries(itemsByType).map(([type, count]) => ({
+      Object.entries(itemsByType).map(([type, items]) => ({
         Type: type,
-        Count: count,
+        Items: items,
       })),
     )
     console.log(
-      `\n- Master (shadcn-compatible) "registry.json" file created at: ${path.relative(process.cwd(), path.resolve(cwd, values.output, "registry.json"))} with ${
+      `\n- Master (shadcn-compatible) "registry.json" file created at: ${green(path.relative(process.cwd(), path.resolve(cwd, values.output, "registry.json")))} with ${
         outputRegistry.items.length
       } items`,
     )
