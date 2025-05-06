@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "schema",
+  "type": "registry:file",
+  "dependencies": [
+    "valibot"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "schema.ts",
+      "content": "import * as v from \"valibot\"\n\nexport const registryTypeSchema = v.picklist([\"ui\", \"example\", \"block\", \"page\", \"component\"])\n\nexport const registryFileSchema = v.object({\n  path: v.string(),\n  content: v.optional(v.string()),\n  type: registryTypeSchema,\n  target: v.optional(v.string())\n})\n\nexport const registryItemSchema = v.object({\n  name: v.string(),\n  dependencies: v.optional(v.array(v.string())),\n  registryDependencies: v.optional(v.array(v.string())),\n  files: v.array(registryFileSchema),\n  type: registryTypeSchema,\n  description: v.optional(v.string())\n})\n\nexport const registryIndexSchema = v.record(\n  v.string(),\n  v.object({ ...registryItemSchema.entries, component: v.any() })\n)\n\nexport const registrySchema = v.array(registryItemSchema)\n\nexport type RegistryItem = v.InferOutput<typeof registryItemSchema>\nexport type RegistryIndex = v.InferOutput<typeof registryIndexSchema>\nexport type Registry = v.InferOutput<typeof registrySchema>\n",
+      "path": "src/registry/schema.ts"
+    }
+  ]
+}

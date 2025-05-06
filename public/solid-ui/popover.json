@@ -13,16 +13,16 @@
   ],
   "files": [
     {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
-    },
-    {
       "type": "registry:ui",
       "target": "components/ui/popover.tsx",
       "content": "import type { Component, ValidComponent } from \"solid-js\"\nimport { splitProps } from \"solid-js\"\n\nimport type { PolymorphicProps } from \"@kobalte/core/polymorphic\"\nimport * as PopoverPrimitive from \"@kobalte/core/popover\"\n\nimport { cn } from \"@/lib/utils\"\n\nconst PopoverTrigger = PopoverPrimitive.Trigger\n\nconst Popover: Component<PopoverPrimitive.PopoverRootProps> = (props) => {\n  return <PopoverPrimitive.Root gutter={4} {...props} />\n}\n\ntype PopoverContentProps<T extends ValidComponent = \"div\"> =\n  PopoverPrimitive.PopoverContentProps<T> & { class?: string | undefined }\n\nconst PopoverContent = <T extends ValidComponent = \"div\">(\n  props: PolymorphicProps<T, PopoverContentProps<T>>\n) => {\n  const [local, others] = splitProps(props as PopoverContentProps, [\"class\"])\n  return (\n    <PopoverPrimitive.Portal>\n      <PopoverPrimitive.Content\n        class={cn(\n          \"z-50 w-72 origin-[var(--kb-popover-content-transform-origin)] rounded-md border bg-popover p-4 text-popover-foreground shadow-md outline-none data-[expanded]:animate-in data-[closed]:animate-out data-[closed]:fade-out-0 data-[expanded]:fade-in-0 data-[closed]:zoom-out-95 data-[expanded]:zoom-in-95\",\n          local.class\n        )}\n        {...others}\n      />\n    </PopoverPrimitive.Portal>\n  )\n}\n\nexport { Popover, PopoverTrigger, PopoverContent }\n",
       "path": "src/registry/ui/popover.tsx"
+    },
+    {
+      "type": "registry:lib",
+      "target": "lib/utils.ts",
+      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
+      "path": "src/lib/utils.ts"
     }
   ]
 }
