@@ -138,14 +138,6 @@ export const getInputRegistry = async ({
       name: "ui",
       type: "registry:ui",
       files: uiFiles,
-      ...(light && dark
-        ? {
-            cssVars: {
-              light: Object.fromEntries(light.map((v) => [v.name, v.value])),
-              dark: Object.fromEntries(dark.map((v) => [v.name, v.value])),
-            },
-          }
-        : {}),
     })
   }
 
