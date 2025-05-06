@@ -4,7 +4,6 @@
   "homepage": "https://uitopia.xyz",
   "items": [
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "button",
       "type": "registry:ui",
       "dependencies": [
@@ -28,7 +27,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "card",
       "type": "registry:ui",
       "dependencies": [
@@ -50,7 +48,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "checkbox",
       "type": "registry:ui",
       "dependencies": [
@@ -74,7 +71,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "drawer",
       "type": "registry:ui",
       "dependencies": [
@@ -97,7 +93,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "input",
       "type": "registry:ui",
       "dependencies": [
@@ -119,7 +114,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "label",
       "type": "registry:ui",
       "dependencies": [
@@ -143,7 +137,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "separator",
       "type": "registry:ui",
       "dependencies": [
@@ -166,7 +159,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sheet",
       "type": "registry:ui",
       "dependencies": [
@@ -191,7 +183,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar",
       "type": "registry:ui",
       "dependencies": [
@@ -310,7 +301,6 @@
       }
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "skeleton",
       "type": "registry:ui",
       "dependencies": [
@@ -331,7 +321,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "stack",
       "type": "registry:ui",
       "dependencies": [
@@ -352,7 +341,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "text-effect",
       "type": "registry:ui",
       "dependencies": [
@@ -375,7 +363,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "text-morph",
       "type": "registry:ui",
       "dependencies": [
@@ -398,7 +385,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tooltip",
       "type": "registry:ui",
       "dependencies": [
@@ -421,7 +407,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "ui",
       "type": "registry:ui",
       "dependencies": [
@@ -538,7 +523,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "use-debounce",
       "type": "registry:hook",
       "dependencies": [
@@ -553,7 +537,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "use-mobile",
       "type": "registry:hook",
       "dependencies": [
@@ -568,7 +551,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "utils",
       "type": "registry:lib",
       "dependencies": [
@@ -584,7 +566,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "action-search-input-demo",
       "type": "registry:component",
       "description": "Search input that show command menu when focused.",
@@ -631,7 +612,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "button-color",
       "type": "registry:component",
       "description": "custom shadcn/ui button.",
@@ -671,7 +651,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "button-destructive",
       "type": "registry:component",
       "description": "custom shadcn/ui button.",
@@ -711,7 +690,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "button-outline",
       "type": "registry:component",
       "description": "custom shadcn/ui button.",
@@ -751,7 +729,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "button-primary",
       "type": "registry:component",
       "description": "custom shadcn/ui button.",
@@ -791,7 +768,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "family-wallets-demo",
       "type": "registry:component",
       "description": "An interactive interaction from Family wallets interface featuring smooth layout transitions and animations. Each wallet card can expand to show additional details and controls while collapsing others into a compact view.",
@@ -824,7 +800,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "icons",
       "type": "registry:component",
       "dependencies": [
@@ -839,7 +814,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "paper-fold-demo",
       "type": "registry:component",
       "description": "A paper folding animation.",
@@ -870,7 +844,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "text-loop",
       "type": "registry:component",
       "description": "text loop base",
@@ -900,7 +873,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "text-loop-demo",
       "type": "registry:component",
       "description": "Text animation that transitions between multiple items, creating an engaging looping effect",
@@ -938,7 +910,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "text-type",
       "type": "registry:component",
       "description": "text type base",
@@ -968,7 +939,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "text-type-demo",
       "type": "registry:component",
       "description": "text type",
@@ -1006,7 +976,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "login-03",
       "type": "registry:block",
       "description": "A simple login form.",
@@ -1075,7 +1044,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "login-03-login-form",
       "type": "registry:block",
       "dependencies": [
@@ -1125,7 +1093,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "login-04",
       "type": "registry:block",
       "description": "Simple Login with Social Buttons.",
@@ -1195,7 +1162,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "login-04-login-form",
       "type": "registry:block",
       "dependencies": [
@@ -1246,7 +1212,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "login-05",
       "type": "registry:block",
       "description": "Full Page Login with Icons.",
@@ -1324,7 +1289,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "login-05-login-form",
       "type": "registry:block",
       "dependencies": [

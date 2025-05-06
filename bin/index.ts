@@ -361,6 +361,7 @@ const main = async () => {
         registryItem.files?.forEach(
           (file: { content: any }) => delete file.content,
         )
+        delete registryItem.$schema
         outputRegistry.items.push(registryItem)
       } catch (err: any) {
         failed.push(filepath + ": " + err.message)

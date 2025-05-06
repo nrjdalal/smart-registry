@@ -4,7 +4,6 @@
   "homepage": "https://nrjdalal.com",
   "items": [
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "changelog",
       "type": "registry:hook",
       "files": [
@@ -16,7 +15,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "useonwindowresize",
       "type": "registry:hook",
       "dependencies": [
@@ -31,7 +29,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "usetoast",
       "type": "registry:hook",
       "dependencies": [
@@ -60,7 +57,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chartcolors",
       "type": "registry:lib",
       "files": [
@@ -72,7 +68,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "cx",
       "type": "registry:lib",
       "dependencies": [
@@ -88,7 +83,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "focusinput",
       "type": "registry:lib",
       "files": [
@@ -100,7 +94,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "focusring",
       "type": "registry:lib",
       "files": [
@@ -112,7 +105,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "getyaxisdomain",
       "type": "registry:lib",
       "files": [
@@ -124,7 +116,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "haserrorinput",
       "type": "registry:lib",
       "files": [
@@ -136,7 +127,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "hasonlyonevalueforkey",
       "type": "registry:lib",
       "files": [
@@ -148,7 +138,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "utils.spec",
       "type": "registry:lib",
       "devDependencies": [
@@ -178,7 +167,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "accordion",
       "type": "registry:component",
       "dependencies": [
@@ -202,7 +190,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "accordion-changelog",
       "type": "registry:component",
       "files": [
@@ -214,7 +201,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "accordion.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -229,7 +215,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "accordion.stories",
       "type": "registry:component",
       "dependencies": [
@@ -278,7 +263,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "areachart",
       "type": "registry:component",
       "dependencies": [
@@ -322,7 +306,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "areachart-changelog",
       "type": "registry:component",
       "files": [
@@ -334,7 +317,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "areachart.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -349,7 +331,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "areachart.stories",
       "type": "registry:component",
       "dependencies": [
@@ -419,7 +400,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "badge",
       "type": "registry:component",
       "dependencies": [
@@ -442,7 +422,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "badge-changelog",
       "type": "registry:component",
       "files": [
@@ -454,7 +433,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "badge.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -469,7 +447,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "badge.stories",
       "type": "registry:component",
       "dependencies": [
@@ -500,7 +477,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "barchart",
       "type": "registry:component",
       "dependencies": [
@@ -539,7 +515,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "barchart-changelog",
       "type": "registry:component",
       "files": [
@@ -551,7 +526,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "barchart.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -566,7 +540,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "barchart.stories",
       "type": "registry:component",
       "dependencies": [
@@ -631,7 +604,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "barlist",
       "type": "registry:component",
       "dependencies": [
@@ -658,7 +630,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "barlist-changelog",
       "type": "registry:component",
       "files": [
@@ -670,7 +641,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "barlist.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -685,7 +655,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "barlist.stories",
       "type": "registry:component",
       "dependencies": [
@@ -720,7 +689,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "button",
       "type": "registry:component",
       "dependencies": [
@@ -750,7 +718,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "button-changelog",
       "type": "registry:component",
       "files": [
@@ -762,7 +729,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "button.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -777,7 +743,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "button.stories",
       "type": "registry:component",
       "dependencies": [
@@ -815,7 +780,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "calendar",
       "type": "registry:component",
       "dependencies": [
@@ -845,7 +809,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "calendar-changelog",
       "type": "registry:component",
       "files": [
@@ -857,7 +820,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "calendar.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -872,7 +834,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "calendar.stories",
       "type": "registry:component",
       "dependencies": [
@@ -910,7 +871,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "callout",
       "type": "registry:component",
       "dependencies": [
@@ -933,7 +893,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "callout-changelog",
       "type": "registry:component",
       "files": [
@@ -945,7 +904,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "callout.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -960,7 +918,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "callout.stories",
       "type": "registry:component",
       "dependencies": [
@@ -992,7 +949,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "card",
       "type": "registry:component",
       "dependencies": [
@@ -1015,7 +971,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "card-changelog",
       "type": "registry:component",
       "files": [
@@ -1027,7 +982,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "card.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -1042,7 +996,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "card.stories",
       "type": "registry:component",
       "dependencies": [
@@ -1157,7 +1110,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "categorybar",
       "type": "registry:component",
       "dependencies": [
@@ -1190,7 +1142,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "categorybar-changelog",
       "type": "registry:component",
       "files": [
@@ -1202,7 +1153,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "categorybar.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -1217,7 +1167,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "categorybar.stories",
       "type": "registry:component",
       "dependencies": [
@@ -1258,7 +1207,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "checkbox",
       "type": "registry:component",
       "dependencies": [
@@ -1286,7 +1234,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "checkbox-changelog",
       "type": "registry:component",
       "files": [
@@ -1298,7 +1245,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "checkbox.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -1313,7 +1259,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "checkbox.stories",
       "type": "registry:component",
       "dependencies": [
@@ -1363,7 +1308,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "combochart",
       "type": "registry:component",
       "dependencies": [
@@ -1407,7 +1351,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "combochart-changelog",
       "type": "registry:component",
       "files": [
@@ -1419,7 +1362,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "combochart.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -1434,7 +1376,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "combochart.stories",
       "type": "registry:component",
       "dependencies": [
@@ -1504,7 +1445,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "datepicker",
       "type": "registry:component",
       "dependencies": [
@@ -1560,7 +1500,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "datepicker-changelog",
       "type": "registry:component",
       "files": [
@@ -1572,7 +1511,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "datepicker-daterangepicker.stories",
       "type": "registry:component",
       "dependencies": [
@@ -1636,7 +1574,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "datepicker.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -1651,7 +1588,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "datepicker.stories",
       "type": "registry:component",
       "dependencies": [
@@ -1725,7 +1661,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dialog",
       "type": "registry:component",
       "dependencies": [
@@ -1753,7 +1688,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dialog-changelog",
       "type": "registry:component",
       "files": [
@@ -1765,7 +1699,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dialog.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -1780,7 +1713,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dialog.stories",
       "type": "registry:component",
       "dependencies": [
@@ -1824,7 +1756,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "divider",
       "type": "registry:component",
       "dependencies": [
@@ -1846,7 +1777,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "divider-changelog",
       "type": "registry:component",
       "files": [
@@ -1858,7 +1788,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "divider.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -1873,7 +1802,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "divider.stories",
       "type": "registry:component",
       "dependencies": [
@@ -1916,7 +1844,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "donutchart",
       "type": "registry:component",
       "dependencies": [
@@ -1944,7 +1871,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "donutchart-changelog",
       "type": "registry:component",
       "files": [
@@ -1956,7 +1882,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "donutchart.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -1971,7 +1896,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "donutchart.stories",
       "type": "registry:component",
       "dependencies": [
@@ -2025,7 +1949,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "drawer",
       "type": "registry:component",
       "dependencies": [
@@ -2061,7 +1984,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "drawer-changelog",
       "type": "registry:component",
       "files": [
@@ -2073,7 +1995,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "drawer.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -2088,7 +2009,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "drawer.stories",
       "type": "registry:component",
       "dependencies": [
@@ -2132,7 +2052,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dropdownmenu",
       "type": "registry:component",
       "dependencies": [
@@ -2156,7 +2075,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dropdownmenu-changelog",
       "type": "registry:component",
       "files": [
@@ -2168,7 +2086,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dropdownmenu.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -2183,7 +2100,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dropdownmenu.stories",
       "type": "registry:component",
       "dependencies": [
@@ -2227,7 +2143,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "input",
       "type": "registry:component",
       "dependencies": [
@@ -2266,7 +2181,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "input-changelog",
       "type": "registry:component",
       "files": [
@@ -2278,7 +2192,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "input.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -2293,7 +2206,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "input.stories",
       "type": "registry:component",
       "dependencies": [
@@ -2352,7 +2264,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "label",
       "type": "registry:component",
       "dependencies": [
@@ -2375,7 +2286,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "label-changelog",
       "type": "registry:component",
       "files": [
@@ -2387,7 +2297,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "label.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -2402,7 +2311,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "label.stories",
       "type": "registry:component",
       "dependencies": [
@@ -2461,7 +2369,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "linechart",
       "type": "registry:component",
       "dependencies": [
@@ -2505,7 +2412,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "linechart-changelog",
       "type": "registry:component",
       "files": [
@@ -2517,7 +2423,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "linechart.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -2532,7 +2437,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "linechart.stories",
       "type": "registry:component",
       "dependencies": [
@@ -2602,7 +2506,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "popover",
       "type": "registry:component",
       "dependencies": [
@@ -2625,7 +2528,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "popover-changelog",
       "type": "registry:component",
       "files": [
@@ -2637,7 +2539,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "popover.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -2652,7 +2553,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "popover.stories",
       "type": "registry:component",
       "dependencies": [
@@ -2723,7 +2623,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "progressbar",
       "type": "registry:component",
       "dependencies": [
@@ -2746,7 +2645,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "progressbar-changelog",
       "type": "registry:component",
       "files": [
@@ -2758,7 +2656,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "progressbar.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -2773,7 +2670,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "progressbar.stories",
       "type": "registry:component",
       "dependencies": [
@@ -2810,7 +2706,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "progresscircle",
       "type": "registry:component",
       "dependencies": [
@@ -2833,7 +2728,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "progresscircle-changelog",
       "type": "registry:component",
       "files": [
@@ -2845,7 +2739,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "progresscircle.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -2860,7 +2753,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "progresscircle.stories",
       "type": "registry:component",
       "dependencies": [
@@ -2897,7 +2789,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radiocardgroup",
       "type": "registry:component",
       "dependencies": [
@@ -2930,7 +2821,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radiocardgroup-changelog",
       "type": "registry:component",
       "files": [
@@ -2942,7 +2832,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radiocardgroup.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -2957,7 +2846,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radiocardgroup.stories",
       "type": "registry:component",
       "dependencies": [
@@ -3006,7 +2894,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radiogroup",
       "type": "registry:component",
       "dependencies": [
@@ -3034,7 +2921,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radiogroup-changelog",
       "type": "registry:component",
       "files": [
@@ -3046,7 +2932,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radiogroup.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -3061,7 +2946,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radiogroup.stories",
       "type": "registry:component",
       "dependencies": [
@@ -3111,7 +2995,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "select",
       "type": "registry:component",
       "dependencies": [
@@ -3145,7 +3028,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "select-changelog",
       "type": "registry:component",
       "files": [
@@ -3157,7 +3039,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "select.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -3172,7 +3053,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "select.stories",
       "type": "registry:component",
       "dependencies": [
@@ -3232,7 +3112,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "selectnative",
       "type": "registry:component",
       "dependencies": [
@@ -3265,7 +3144,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "selectnative-changelog",
       "type": "registry:component",
       "files": [
@@ -3277,7 +3155,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "selectnative.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -3292,7 +3169,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "selectnative.stories",
       "type": "registry:component",
       "dependencies": [
@@ -3339,7 +3215,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "slider",
       "type": "registry:component",
       "dependencies": [
@@ -3367,7 +3242,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "slider-changelog",
       "type": "registry:component",
       "files": [
@@ -3379,7 +3253,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "slider.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -3394,7 +3267,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "slider.stories",
       "type": "registry:component",
       "dependencies": [
@@ -3448,7 +3320,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sparkchart",
       "type": "registry:component",
       "dependencies": [
@@ -3481,7 +3352,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sparkchart-changelog",
       "type": "registry:component",
       "files": [
@@ -3493,7 +3363,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sparkchart-sparkareachart.stories",
       "type": "registry:component",
       "dependencies": [
@@ -3534,7 +3403,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sparkchart-sparkbarchart.stories",
       "type": "registry:component",
       "dependencies": [
@@ -3575,7 +3443,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sparkchart-sparklinechart.stories",
       "type": "registry:component",
       "dependencies": [
@@ -3616,7 +3483,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sparkchart.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -3631,7 +3497,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "switch",
       "type": "registry:component",
       "dependencies": [
@@ -3660,7 +3525,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "switch-changelog",
       "type": "registry:component",
       "files": [
@@ -3672,7 +3536,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "switch.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -3687,7 +3550,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "switch.stories",
       "type": "registry:component",
       "dependencies": [
@@ -3747,7 +3609,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "table",
       "type": "registry:component",
       "dependencies": [
@@ -3769,7 +3630,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "table-changelog",
       "type": "registry:component",
       "files": [
@@ -3781,7 +3641,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "table.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -3796,7 +3655,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "table.stories",
       "type": "registry:component",
       "dependencies": [
@@ -3833,7 +3691,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tabnavigation",
       "type": "registry:component",
       "dependencies": [
@@ -3861,7 +3718,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tabnavigation-changelog",
       "type": "registry:component",
       "files": [
@@ -3873,7 +3729,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tabnavigation.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -3888,7 +3743,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tabnavigation.stories",
       "type": "registry:component",
       "dependencies": [
@@ -3925,7 +3779,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tabs",
       "type": "registry:component",
       "dependencies": [
@@ -3953,7 +3806,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tabs-changelog",
       "type": "registry:component",
       "files": [
@@ -3965,7 +3817,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tabs.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -3980,7 +3831,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tabs.stories",
       "type": "registry:component",
       "dependencies": [
@@ -4017,7 +3867,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "textarea",
       "type": "registry:component",
       "dependencies": [
@@ -4049,7 +3898,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "textarea-changelog",
       "type": "registry:component",
       "files": [
@@ -4061,7 +3909,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "textarea.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -4076,7 +3923,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "textarea.stories",
       "type": "registry:component",
       "dependencies": [
@@ -4122,7 +3968,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "toast",
       "type": "registry:component",
       "dependencies": [
@@ -4146,7 +3991,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "toast-changelog",
       "type": "registry:component",
       "files": [
@@ -4158,7 +4002,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "toast-toaster",
       "type": "registry:component",
       "dependencies": [
@@ -4192,7 +4035,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "toast.stories",
       "type": "registry:component",
       "dependencies": [
@@ -4246,7 +4088,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "toggle",
       "type": "registry:component",
       "dependencies": [
@@ -4275,7 +4116,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "toggle-changelog",
       "type": "registry:component",
       "files": [
@@ -4287,7 +4127,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "toggle.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -4302,7 +4141,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "toggle.stories",
       "type": "registry:component",
       "dependencies": [
@@ -4340,7 +4178,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tooltip",
       "type": "registry:component",
       "dependencies": [
@@ -4363,7 +4200,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tooltip-changelog",
       "type": "registry:component",
       "files": [
@@ -4375,7 +4211,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tooltip.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -4390,7 +4225,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tooltip.stories",
       "type": "registry:component",
       "dependencies": [
@@ -4434,7 +4268,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tracker",
       "type": "registry:component",
       "dependencies": [
@@ -4457,7 +4290,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tracker-changelog",
       "type": "registry:component",
       "files": [
@@ -4469,7 +4301,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tracker.spec",
       "type": "registry:component",
       "devDependencies": [
@@ -4484,7 +4315,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tracker.stories",
       "type": "registry:component",
       "dependencies": [

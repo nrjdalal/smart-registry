@@ -3,7 +3,6 @@
   "homepage": "https://nrjdalal.com",
   "items": [
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "style",
       "type": "registry:style",
       "cssVars": {
@@ -77,7 +76,6 @@
       }
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "accordion",
       "type": "registry:ui",
       "dependencies": [
@@ -101,7 +99,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "alert",
       "type": "registry:ui",
       "dependencies": [
@@ -124,7 +121,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "alert-dialog",
       "type": "registry:ui",
       "dependencies": [
@@ -153,7 +149,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "aspect-ratio",
       "type": "registry:ui",
       "dependencies": [
@@ -168,7 +163,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "avatar",
       "type": "registry:ui",
       "dependencies": [
@@ -191,7 +185,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "badge",
       "type": "registry:ui",
       "dependencies": [
@@ -215,7 +208,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "breadcrumb",
       "type": "registry:ui",
       "dependencies": [
@@ -239,7 +231,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "button",
       "type": "registry:ui",
       "dependencies": [
@@ -263,7 +254,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "calendar",
       "type": "registry:ui",
       "dependencies": [
@@ -294,7 +284,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "card",
       "type": "registry:ui",
       "dependencies": [
@@ -316,7 +305,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "carousel",
       "type": "registry:ui",
       "dependencies": [
@@ -347,7 +335,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart",
       "type": "registry:ui",
       "dependencies": [
@@ -370,7 +357,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "checkbox",
       "type": "registry:ui",
       "dependencies": [
@@ -394,7 +380,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "collapsible",
       "type": "registry:ui",
       "dependencies": [
@@ -409,7 +394,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "command",
       "type": "registry:ui",
       "dependencies": [
@@ -439,7 +423,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "context-menu",
       "type": "registry:ui",
       "dependencies": [
@@ -463,7 +446,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dialog",
       "type": "registry:ui",
       "dependencies": [
@@ -487,7 +469,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "drawer",
       "type": "registry:ui",
       "dependencies": [
@@ -510,7 +491,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dropdown-menu",
       "type": "registry:ui",
       "dependencies": [
@@ -534,7 +514,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "form",
       "type": "registry:ui",
       "dependencies": [
@@ -563,7 +542,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "hover-card",
       "type": "registry:ui",
       "dependencies": [
@@ -586,7 +564,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "input",
       "type": "registry:ui",
       "dependencies": [
@@ -608,7 +585,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "input-otp",
       "type": "registry:ui",
       "dependencies": [
@@ -632,7 +608,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "label",
       "type": "registry:ui",
       "dependencies": [
@@ -655,7 +630,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "menubar",
       "type": "registry:ui",
       "dependencies": [
@@ -679,7 +653,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "navigation-menu",
       "type": "registry:ui",
       "dependencies": [
@@ -704,7 +677,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "pagination",
       "type": "registry:ui",
       "dependencies": [
@@ -734,7 +706,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "popover",
       "type": "registry:ui",
       "dependencies": [
@@ -757,7 +728,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "progress",
       "type": "registry:ui",
       "dependencies": [
@@ -780,7 +750,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radio-group",
       "type": "registry:ui",
       "dependencies": [
@@ -804,7 +773,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "resizable",
       "type": "registry:ui",
       "dependencies": [
@@ -828,7 +796,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "scroll-area",
       "type": "registry:ui",
       "dependencies": [
@@ -851,7 +818,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "select",
       "type": "registry:ui",
       "dependencies": [
@@ -875,7 +841,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "separator",
       "type": "registry:ui",
       "dependencies": [
@@ -898,7 +863,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sheet",
       "type": "registry:ui",
       "dependencies": [
@@ -922,7 +886,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar",
       "type": "registry:ui",
       "dependencies": [
@@ -982,7 +945,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "skeleton",
       "type": "registry:ui",
       "dependencies": [
@@ -1003,7 +965,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "slider",
       "type": "registry:ui",
       "dependencies": [
@@ -1026,7 +987,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sonner",
       "type": "registry:ui",
       "dependencies": [
@@ -1042,7 +1002,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "switch",
       "type": "registry:ui",
       "dependencies": [
@@ -1065,7 +1024,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "table",
       "type": "registry:ui",
       "dependencies": [
@@ -1087,7 +1045,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tabs",
       "type": "registry:ui",
       "dependencies": [
@@ -1110,7 +1067,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "textarea",
       "type": "registry:ui",
       "dependencies": [
@@ -1132,7 +1088,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "toggle",
       "type": "registry:ui",
       "dependencies": [
@@ -1156,7 +1111,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "toggle-group",
       "type": "registry:ui",
       "dependencies": [
@@ -1185,7 +1139,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tooltip",
       "type": "registry:ui",
       "dependencies": [
@@ -1208,7 +1161,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "ui",
       "type": "registry:ui",
       "dependencies": [
@@ -1473,7 +1425,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "use-mobile",
       "type": "registry:hook",
       "dependencies": [
@@ -1488,7 +1439,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "auth",
       "type": "registry:lib",
       "dependencies": [
@@ -1515,7 +1465,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "auth-client",
       "type": "registry:lib",
       "dependencies": [
@@ -1530,7 +1479,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "utils",
       "type": "registry:lib",
       "dependencies": [
@@ -1546,7 +1494,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "better-auth",
       "type": "registry:file",
       "dependencies": [
@@ -1691,7 +1638,6 @@
       "docs": "  --- What's next? ---\n\n  1. Rename `.example.env` to `.env.development`.\n  2. Update the necessary environment variables in `.env.development`.\n  3. Execute `npm --env-file=.env.development drizzle-kit push` to create PostgreSQL tables.\n  4. Start the development server with `npm run dev`.\n  5. Access http://localhost:3000/access to test the sign-in/sign-up functionality.\n  6. Navigate to http://localhost:3000/x to verify the protected route."
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "drizzle",
       "type": "registry:file",
       "dependencies": [
@@ -1715,7 +1661,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "providers",
       "type": "registry:file",
       "dependencies": [
@@ -1742,7 +1687,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "devtools",
       "type": "registry:component",
       "dependencies": [
@@ -1761,7 +1705,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-user",
       "type": "registry:component",
       "dependencies": [

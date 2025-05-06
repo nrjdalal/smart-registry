@@ -3,7 +3,6 @@
   "homepage": "https://ui.shadcn.com",
   "items": [
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "index",
       "type": "registry:style",
       "dependencies": [
@@ -18,7 +17,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "style",
       "type": "registry:style",
       "cssVars": {
@@ -92,7 +90,6 @@
       }
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "accordion",
       "type": "registry:ui",
       "dependencies": [
@@ -116,7 +113,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "alert",
       "type": "registry:ui",
       "dependencies": [
@@ -139,7 +135,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "alert-dialog",
       "type": "registry:ui",
       "dependencies": [
@@ -172,7 +167,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "aspect-ratio",
       "type": "registry:ui",
       "dependencies": [
@@ -187,7 +181,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "avatar",
       "type": "registry:ui",
       "dependencies": [
@@ -210,7 +203,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "badge",
       "type": "registry:ui",
       "dependencies": [
@@ -234,7 +226,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "breadcrumb",
       "type": "registry:ui",
       "dependencies": [
@@ -258,7 +249,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "button",
       "type": "registry:ui",
       "dependencies": [
@@ -282,7 +272,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "calendar",
       "type": "registry:ui",
       "dependencies": [
@@ -317,7 +306,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "card",
       "type": "registry:ui",
       "dependencies": [
@@ -339,7 +327,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "carousel",
       "type": "registry:ui",
       "dependencies": [
@@ -373,7 +360,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart",
       "type": "registry:ui",
       "dependencies": [
@@ -400,7 +386,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "checkbox",
       "type": "registry:ui",
       "dependencies": [
@@ -424,7 +409,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "collapsible",
       "type": "registry:ui",
       "dependencies": [
@@ -439,7 +423,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "command",
       "type": "registry:ui",
       "dependencies": [
@@ -472,7 +455,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "context-menu",
       "type": "registry:ui",
       "dependencies": [
@@ -496,7 +478,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dialog",
       "type": "registry:ui",
       "dependencies": [
@@ -520,7 +501,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "drawer",
       "type": "registry:ui",
       "dependencies": [
@@ -544,7 +524,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dropdown-menu",
       "type": "registry:ui",
       "dependencies": [
@@ -568,7 +547,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "form",
       "type": "registry:ui",
       "dependencies": [
@@ -604,7 +582,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "hover-card",
       "type": "registry:ui",
       "dependencies": [
@@ -627,7 +604,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "input",
       "type": "registry:ui",
       "dependencies": [
@@ -649,7 +625,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "input-otp",
       "type": "registry:ui",
       "dependencies": [
@@ -673,7 +648,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "label",
       "type": "registry:ui",
       "dependencies": [
@@ -696,7 +670,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "menubar",
       "type": "registry:ui",
       "dependencies": [
@@ -720,7 +693,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "navigation-menu",
       "type": "registry:ui",
       "dependencies": [
@@ -745,7 +717,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-accordion",
       "type": "registry:ui",
       "dependencies": [
@@ -769,7 +740,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-alert",
       "type": "registry:ui",
       "dependencies": [
@@ -792,7 +762,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-alert-dialog",
       "type": "registry:ui",
       "dependencies": [
@@ -822,7 +791,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-aspect-ratio",
       "type": "registry:ui",
       "dependencies": [
@@ -837,7 +805,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-avatar",
       "type": "registry:ui",
       "dependencies": [
@@ -860,7 +827,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-badge",
       "type": "registry:ui",
       "dependencies": [
@@ -884,7 +850,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-breadcrumb",
       "type": "registry:ui",
       "dependencies": [
@@ -908,7 +873,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-button",
       "type": "registry:ui",
       "dependencies": [
@@ -932,7 +896,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-calendar",
       "type": "registry:ui",
       "dependencies": [
@@ -963,7 +926,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-card",
       "type": "registry:ui",
       "dependencies": [
@@ -985,7 +947,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-carousel",
       "type": "registry:ui",
       "dependencies": [
@@ -1016,7 +977,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart",
       "type": "registry:ui",
       "dependencies": [
@@ -1039,7 +999,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-checkbox",
       "type": "registry:ui",
       "dependencies": [
@@ -1063,7 +1022,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-collapsible",
       "type": "registry:ui",
       "dependencies": [
@@ -1078,7 +1036,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-command",
       "type": "registry:ui",
       "dependencies": [
@@ -1108,7 +1065,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-context-menu",
       "type": "registry:ui",
       "dependencies": [
@@ -1132,7 +1088,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-dialog",
       "type": "registry:ui",
       "dependencies": [
@@ -1156,7 +1111,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-drawer",
       "type": "registry:ui",
       "dependencies": [
@@ -1179,7 +1133,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-dropdown-menu",
       "type": "registry:ui",
       "dependencies": [
@@ -1203,7 +1156,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-form",
       "type": "registry:ui",
       "dependencies": [
@@ -1233,7 +1185,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-hover-card",
       "type": "registry:ui",
       "dependencies": [
@@ -1256,7 +1207,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-input",
       "type": "registry:ui",
       "dependencies": [
@@ -1278,7 +1228,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-input-otp",
       "type": "registry:ui",
       "dependencies": [
@@ -1302,7 +1251,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-label",
       "type": "registry:ui",
       "dependencies": [
@@ -1325,7 +1273,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-menubar",
       "type": "registry:ui",
       "dependencies": [
@@ -1349,7 +1296,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-navigation-menu",
       "type": "registry:ui",
       "dependencies": [
@@ -1374,7 +1320,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-pagination",
       "type": "registry:ui",
       "dependencies": [
@@ -1404,7 +1349,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-popover",
       "type": "registry:ui",
       "dependencies": [
@@ -1427,7 +1371,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-progress",
       "type": "registry:ui",
       "dependencies": [
@@ -1450,7 +1393,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-radio-group",
       "type": "registry:ui",
       "dependencies": [
@@ -1474,7 +1416,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-resizable",
       "type": "registry:ui",
       "dependencies": [
@@ -1498,7 +1439,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-scroll-area",
       "type": "registry:ui",
       "dependencies": [
@@ -1521,7 +1461,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-select",
       "type": "registry:ui",
       "dependencies": [
@@ -1545,7 +1484,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-separator",
       "type": "registry:ui",
       "dependencies": [
@@ -1568,7 +1506,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sheet",
       "type": "registry:ui",
       "dependencies": [
@@ -1592,7 +1529,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar",
       "type": "registry:ui",
       "dependencies": [
@@ -1660,7 +1596,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-skeleton",
       "type": "registry:ui",
       "dependencies": [
@@ -1681,7 +1616,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-slider",
       "type": "registry:ui",
       "dependencies": [
@@ -1704,7 +1638,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sonner",
       "type": "registry:ui",
       "dependencies": [
@@ -1720,7 +1653,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-switch",
       "type": "registry:ui",
       "dependencies": [
@@ -1743,7 +1675,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-table",
       "type": "registry:ui",
       "dependencies": [
@@ -1765,7 +1696,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-tabs",
       "type": "registry:ui",
       "dependencies": [
@@ -1788,7 +1718,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-textarea",
       "type": "registry:ui",
       "dependencies": [
@@ -1810,7 +1739,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-toggle",
       "type": "registry:ui",
       "dependencies": [
@@ -1834,7 +1762,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-toggle-group",
       "type": "registry:ui",
       "dependencies": [
@@ -1864,7 +1791,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-tooltip",
       "type": "registry:ui",
       "dependencies": [
@@ -1887,7 +1813,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "pagination",
       "type": "registry:ui",
       "dependencies": [
@@ -1920,7 +1845,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "popover",
       "type": "registry:ui",
       "dependencies": [
@@ -1943,7 +1867,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "progress",
       "type": "registry:ui",
       "dependencies": [
@@ -1966,7 +1889,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "radio-group",
       "type": "registry:ui",
       "dependencies": [
@@ -1990,7 +1912,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "resizable",
       "type": "registry:ui",
       "dependencies": [
@@ -2014,7 +1935,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "scroll-area",
       "type": "registry:ui",
       "dependencies": [
@@ -2037,7 +1957,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "select",
       "type": "registry:ui",
       "dependencies": [
@@ -2061,7 +1980,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "separator",
       "type": "registry:ui",
       "dependencies": [
@@ -2084,7 +2002,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sheet",
       "type": "registry:ui",
       "dependencies": [
@@ -2108,7 +2025,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar",
       "type": "registry:ui",
       "dependencies": [
@@ -2227,7 +2143,6 @@
       }
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "skeleton",
       "type": "registry:ui",
       "dependencies": [
@@ -2248,7 +2163,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "slider",
       "type": "registry:ui",
       "dependencies": [
@@ -2271,7 +2185,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sonner",
       "type": "registry:ui",
       "dependencies": [
@@ -2287,7 +2200,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "switch",
       "type": "registry:ui",
       "dependencies": [
@@ -2310,7 +2222,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "table",
       "type": "registry:ui",
       "dependencies": [
@@ -2332,7 +2243,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tabs",
       "type": "registry:ui",
       "dependencies": [
@@ -2355,7 +2265,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "textarea",
       "type": "registry:ui",
       "dependencies": [
@@ -2377,7 +2286,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "toggle",
       "type": "registry:ui",
       "dependencies": [
@@ -2401,7 +2309,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "toggle-group",
       "type": "registry:ui",
       "dependencies": [
@@ -2434,7 +2341,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "tooltip",
       "type": "registry:ui",
       "dependencies": [
@@ -2457,7 +2363,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "ui",
       "type": "registry:ui",
       "dependencies": [
@@ -2752,7 +2657,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-use-mobile",
       "type": "registry:hook",
       "dependencies": [
@@ -2767,7 +2671,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "use-mobile",
       "type": "registry:hook",
       "dependencies": [
@@ -2782,7 +2685,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-utils",
       "type": "registry:lib",
       "dependencies": [
@@ -2798,7 +2700,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "utils",
       "type": "registry:lib",
       "dependencies": [
@@ -2814,7 +2715,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-dashboard-01",
       "type": "registry:page",
       "dependencies": [
@@ -3020,7 +2920,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-login-01",
       "type": "registry:page",
       "dependencies": [
@@ -3075,7 +2974,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-login-02",
       "type": "registry:page",
       "dependencies": [
@@ -3126,7 +3024,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-login-03",
       "type": "registry:page",
       "dependencies": [
@@ -3182,7 +3079,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-login-04",
       "type": "registry:page",
       "dependencies": [
@@ -3237,7 +3133,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-login-05",
       "type": "registry:page",
       "dependencies": [
@@ -3288,7 +3183,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-products-01",
       "type": "registry:page",
       "dependencies": [
@@ -3362,7 +3256,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-01",
       "type": "registry:page",
       "dependencies": [
@@ -3467,7 +3360,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-02",
       "type": "registry:page",
       "dependencies": [
@@ -3578,7 +3470,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-03",
       "type": "registry:page",
       "dependencies": [
@@ -3661,7 +3552,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-04",
       "type": "registry:page",
       "dependencies": [
@@ -3744,7 +3634,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-05",
       "type": "registry:page",
       "dependencies": [
@@ -3844,7 +3733,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-06",
       "type": "registry:page",
       "dependencies": [
@@ -3948,7 +3836,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-07",
       "type": "registry:page",
       "dependencies": [
@@ -4069,7 +3956,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-08",
       "type": "registry:page",
       "dependencies": [
@@ -4190,7 +4076,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-09",
       "type": "registry:page",
       "dependencies": [
@@ -4302,7 +4187,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-10",
       "type": "registry:page",
       "dependencies": [
@@ -4433,7 +4317,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-11",
       "type": "registry:page",
       "dependencies": [
@@ -4522,7 +4405,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-12",
       "type": "registry:page",
       "dependencies": [
@@ -4644,7 +4526,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-13",
       "type": "registry:page",
       "dependencies": [
@@ -4732,7 +4613,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-14",
       "type": "registry:page",
       "dependencies": [
@@ -4815,7 +4695,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-15",
       "type": "registry:page",
       "dependencies": [
@@ -4967,7 +4846,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-16",
       "type": "registry:page",
       "dependencies": [
@@ -5104,7 +4982,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-area-axes",
       "type": "registry:component",
       "dependencies": [
@@ -5138,7 +5015,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-area-default",
       "type": "registry:component",
       "dependencies": [
@@ -5172,7 +5048,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-area-gradient",
       "type": "registry:component",
       "dependencies": [
@@ -5206,7 +5081,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-area-icons",
       "type": "registry:component",
       "dependencies": [
@@ -5240,7 +5114,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-area-interactive",
       "type": "registry:component",
       "dependencies": [
@@ -5280,7 +5153,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-area-legend",
       "type": "registry:component",
       "dependencies": [
@@ -5314,7 +5186,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-area-linear",
       "type": "registry:component",
       "dependencies": [
@@ -5348,7 +5219,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-area-stacked",
       "type": "registry:component",
       "dependencies": [
@@ -5382,7 +5252,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-area-stacked-expand",
       "type": "registry:component",
       "dependencies": [
@@ -5416,7 +5285,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-area-step",
       "type": "registry:component",
       "dependencies": [
@@ -5450,7 +5318,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-bar-active",
       "type": "registry:component",
       "dependencies": [
@@ -5484,7 +5351,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-bar-default",
       "type": "registry:component",
       "dependencies": [
@@ -5518,7 +5384,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-bar-horizontal",
       "type": "registry:component",
       "dependencies": [
@@ -5552,7 +5417,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-bar-interactive",
       "type": "registry:component",
       "dependencies": [
@@ -5585,7 +5449,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-bar-label",
       "type": "registry:component",
       "dependencies": [
@@ -5619,7 +5482,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-bar-label-custom",
       "type": "registry:component",
       "dependencies": [
@@ -5653,7 +5515,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-bar-mixed",
       "type": "registry:component",
       "dependencies": [
@@ -5687,7 +5548,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-bar-multiple",
       "type": "registry:component",
       "dependencies": [
@@ -5721,7 +5581,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-bar-negative",
       "type": "registry:component",
       "dependencies": [
@@ -5755,7 +5614,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-bar-stacked",
       "type": "registry:component",
       "dependencies": [
@@ -5789,7 +5647,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-line-default",
       "type": "registry:component",
       "dependencies": [
@@ -5823,7 +5680,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-line-dots",
       "type": "registry:component",
       "dependencies": [
@@ -5857,7 +5713,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-line-dots-colors",
       "type": "registry:component",
       "dependencies": [
@@ -5891,7 +5746,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-line-dots-custom",
       "type": "registry:component",
       "dependencies": [
@@ -5925,7 +5779,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-line-interactive",
       "type": "registry:component",
       "dependencies": [
@@ -5958,7 +5811,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-line-label",
       "type": "registry:component",
       "dependencies": [
@@ -5992,7 +5844,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-line-label-custom",
       "type": "registry:component",
       "dependencies": [
@@ -6026,7 +5877,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-line-linear",
       "type": "registry:component",
       "dependencies": [
@@ -6060,7 +5910,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-line-multiple",
       "type": "registry:component",
       "dependencies": [
@@ -6094,7 +5943,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-line-step",
       "type": "registry:component",
       "dependencies": [
@@ -6128,7 +5976,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-pie-donut",
       "type": "registry:component",
       "dependencies": [
@@ -6162,7 +6009,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-pie-donut-active",
       "type": "registry:component",
       "dependencies": [
@@ -6196,7 +6042,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-pie-donut-text",
       "type": "registry:component",
       "dependencies": [
@@ -6230,7 +6075,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-pie-interactive",
       "type": "registry:component",
       "dependencies": [
@@ -6270,7 +6114,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-pie-label",
       "type": "registry:component",
       "dependencies": [
@@ -6304,7 +6147,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-pie-label-custom",
       "type": "registry:component",
       "dependencies": [
@@ -6338,7 +6180,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-pie-label-list",
       "type": "registry:component",
       "dependencies": [
@@ -6372,7 +6213,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-pie-legend",
       "type": "registry:component",
       "dependencies": [
@@ -6405,7 +6245,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-pie-separator-none",
       "type": "registry:component",
       "dependencies": [
@@ -6439,7 +6278,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-pie-simple",
       "type": "registry:component",
       "dependencies": [
@@ -6473,7 +6311,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-pie-stacked",
       "type": "registry:component",
       "dependencies": [
@@ -6507,7 +6344,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radar-default",
       "type": "registry:component",
       "dependencies": [
@@ -6541,7 +6377,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radar-dots",
       "type": "registry:component",
       "dependencies": [
@@ -6575,7 +6410,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radar-grid-circle",
       "type": "registry:component",
       "dependencies": [
@@ -6609,7 +6443,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radar-grid-circle-fill",
       "type": "registry:component",
       "dependencies": [
@@ -6643,7 +6476,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radar-grid-circle-no-lines",
       "type": "registry:component",
       "dependencies": [
@@ -6677,7 +6509,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radar-grid-custom",
       "type": "registry:component",
       "dependencies": [
@@ -6711,7 +6542,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radar-grid-fill",
       "type": "registry:component",
       "dependencies": [
@@ -6745,7 +6575,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radar-grid-none",
       "type": "registry:component",
       "dependencies": [
@@ -6779,7 +6608,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radar-icons",
       "type": "registry:component",
       "dependencies": [
@@ -6813,7 +6641,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radar-label-custom",
       "type": "registry:component",
       "dependencies": [
@@ -6847,7 +6674,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radar-legend",
       "type": "registry:component",
       "dependencies": [
@@ -6881,7 +6707,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radar-lines-only",
       "type": "registry:component",
       "dependencies": [
@@ -6915,7 +6740,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radar-multiple",
       "type": "registry:component",
       "dependencies": [
@@ -6949,7 +6773,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radar-radius",
       "type": "registry:component",
       "dependencies": [
@@ -6983,7 +6806,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radial-grid",
       "type": "registry:component",
       "dependencies": [
@@ -7017,7 +6839,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radial-label",
       "type": "registry:component",
       "dependencies": [
@@ -7051,7 +6872,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radial-shape",
       "type": "registry:component",
       "dependencies": [
@@ -7085,7 +6905,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radial-simple",
       "type": "registry:component",
       "dependencies": [
@@ -7119,7 +6938,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radial-stacked",
       "type": "registry:component",
       "dependencies": [
@@ -7153,7 +6971,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-radial-text",
       "type": "registry:component",
       "dependencies": [
@@ -7187,7 +7004,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-tooltip-advanced",
       "type": "registry:component",
       "dependencies": [
@@ -7220,7 +7036,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-tooltip-default",
       "type": "registry:component",
       "dependencies": [
@@ -7253,7 +7068,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-tooltip-formatter",
       "type": "registry:component",
       "dependencies": [
@@ -7286,7 +7100,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-tooltip-icons",
       "type": "registry:component",
       "dependencies": [
@@ -7320,7 +7133,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-tooltip-indicator-line",
       "type": "registry:component",
       "dependencies": [
@@ -7353,7 +7165,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-tooltip-indicator-none",
       "type": "registry:component",
       "dependencies": [
@@ -7386,7 +7197,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-tooltip-label-custom",
       "type": "registry:component",
       "dependencies": [
@@ -7419,7 +7229,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-tooltip-label-formatter",
       "type": "registry:component",
       "dependencies": [
@@ -7452,7 +7261,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-chart-tooltip-label-none",
       "type": "registry:component",
       "dependencies": [
@@ -7485,7 +7293,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-area-axes",
       "type": "registry:block",
       "dependencies": [
@@ -7527,7 +7334,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-area-default",
       "type": "registry:block",
       "dependencies": [
@@ -7569,7 +7375,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-area-gradient",
       "type": "registry:block",
       "dependencies": [
@@ -7611,7 +7416,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-area-icons",
       "type": "registry:block",
       "dependencies": [
@@ -7653,7 +7457,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-area-interactive",
       "type": "registry:block",
       "dependencies": [
@@ -7702,7 +7505,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-area-legend",
       "type": "registry:block",
       "dependencies": [
@@ -7744,7 +7546,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-area-linear",
       "type": "registry:block",
       "dependencies": [
@@ -7786,7 +7587,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-area-stacked",
       "type": "registry:block",
       "dependencies": [
@@ -7828,7 +7628,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-area-stacked-expand",
       "type": "registry:block",
       "dependencies": [
@@ -7870,7 +7669,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-area-step",
       "type": "registry:block",
       "dependencies": [
@@ -7912,7 +7710,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-bar-active",
       "type": "registry:block",
       "dependencies": [
@@ -7954,7 +7751,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-bar-default",
       "type": "registry:block",
       "dependencies": [
@@ -7996,7 +7792,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-bar-horizontal",
       "type": "registry:block",
       "dependencies": [
@@ -8038,7 +7833,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-bar-interactive",
       "type": "registry:block",
       "dependencies": [
@@ -8079,7 +7873,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-bar-label",
       "type": "registry:block",
       "dependencies": [
@@ -8121,7 +7914,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-bar-label-custom",
       "type": "registry:block",
       "dependencies": [
@@ -8163,7 +7955,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-bar-mixed",
       "type": "registry:block",
       "dependencies": [
@@ -8205,7 +7996,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-bar-multiple",
       "type": "registry:block",
       "dependencies": [
@@ -8247,7 +8037,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-bar-negative",
       "type": "registry:block",
       "dependencies": [
@@ -8289,7 +8078,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-bar-stacked",
       "type": "registry:block",
       "dependencies": [
@@ -8331,7 +8119,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-line-default",
       "type": "registry:block",
       "dependencies": [
@@ -8373,7 +8160,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-line-dots",
       "type": "registry:block",
       "dependencies": [
@@ -8415,7 +8201,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-line-dots-colors",
       "type": "registry:block",
       "dependencies": [
@@ -8457,7 +8242,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-line-dots-custom",
       "type": "registry:block",
       "dependencies": [
@@ -8499,7 +8283,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-line-interactive",
       "type": "registry:block",
       "dependencies": [
@@ -8540,7 +8323,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-line-label",
       "type": "registry:block",
       "dependencies": [
@@ -8582,7 +8364,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-line-label-custom",
       "type": "registry:block",
       "dependencies": [
@@ -8624,7 +8405,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-line-linear",
       "type": "registry:block",
       "dependencies": [
@@ -8666,7 +8446,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-line-multiple",
       "type": "registry:block",
       "dependencies": [
@@ -8708,7 +8487,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-line-step",
       "type": "registry:block",
       "dependencies": [
@@ -8750,7 +8528,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-pie-donut",
       "type": "registry:block",
       "dependencies": [
@@ -8792,7 +8569,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-pie-donut-active",
       "type": "registry:block",
       "dependencies": [
@@ -8834,7 +8610,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-pie-donut-text",
       "type": "registry:block",
       "dependencies": [
@@ -8876,7 +8651,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-pie-interactive",
       "type": "registry:block",
       "dependencies": [
@@ -8924,7 +8698,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-pie-label",
       "type": "registry:block",
       "dependencies": [
@@ -8966,7 +8739,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-pie-label-custom",
       "type": "registry:block",
       "dependencies": [
@@ -9008,7 +8780,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-pie-label-list",
       "type": "registry:block",
       "dependencies": [
@@ -9050,7 +8821,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-pie-legend",
       "type": "registry:block",
       "dependencies": [
@@ -9091,7 +8861,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-pie-separator-none",
       "type": "registry:block",
       "dependencies": [
@@ -9133,7 +8902,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-pie-simple",
       "type": "registry:block",
       "dependencies": [
@@ -9175,7 +8943,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-pie-stacked",
       "type": "registry:block",
       "dependencies": [
@@ -9217,7 +8984,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radar-default",
       "type": "registry:block",
       "dependencies": [
@@ -9259,7 +9025,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radar-dots",
       "type": "registry:block",
       "dependencies": [
@@ -9301,7 +9066,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radar-grid-circle",
       "type": "registry:block",
       "dependencies": [
@@ -9343,7 +9107,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radar-grid-circle-fill",
       "type": "registry:block",
       "dependencies": [
@@ -9385,7 +9148,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radar-grid-circle-no-lines",
       "type": "registry:block",
       "dependencies": [
@@ -9427,7 +9189,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radar-grid-custom",
       "type": "registry:block",
       "dependencies": [
@@ -9469,7 +9230,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radar-grid-fill",
       "type": "registry:block",
       "dependencies": [
@@ -9511,7 +9271,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radar-grid-none",
       "type": "registry:block",
       "dependencies": [
@@ -9553,7 +9312,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radar-icons",
       "type": "registry:block",
       "dependencies": [
@@ -9595,7 +9353,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radar-label-custom",
       "type": "registry:block",
       "dependencies": [
@@ -9637,7 +9394,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radar-legend",
       "type": "registry:block",
       "dependencies": [
@@ -9679,7 +9435,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radar-lines-only",
       "type": "registry:block",
       "dependencies": [
@@ -9721,7 +9476,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radar-multiple",
       "type": "registry:block",
       "dependencies": [
@@ -9763,7 +9517,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radar-radius",
       "type": "registry:block",
       "dependencies": [
@@ -9805,7 +9558,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radial-grid",
       "type": "registry:block",
       "dependencies": [
@@ -9847,7 +9599,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radial-label",
       "type": "registry:block",
       "dependencies": [
@@ -9889,7 +9640,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radial-shape",
       "type": "registry:block",
       "dependencies": [
@@ -9931,7 +9681,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radial-simple",
       "type": "registry:block",
       "dependencies": [
@@ -9973,7 +9722,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radial-stacked",
       "type": "registry:block",
       "dependencies": [
@@ -10015,7 +9763,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-radial-text",
       "type": "registry:block",
       "dependencies": [
@@ -10057,7 +9804,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-tooltip-advanced",
       "type": "registry:block",
       "dependencies": [
@@ -10098,7 +9844,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-tooltip-default",
       "type": "registry:block",
       "dependencies": [
@@ -10139,7 +9884,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-tooltip-formatter",
       "type": "registry:block",
       "dependencies": [
@@ -10180,7 +9924,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-tooltip-icons",
       "type": "registry:block",
       "dependencies": [
@@ -10222,7 +9965,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-tooltip-indicator-line",
       "type": "registry:block",
       "dependencies": [
@@ -10263,7 +10005,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-tooltip-indicator-none",
       "type": "registry:block",
       "dependencies": [
@@ -10304,7 +10045,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-tooltip-label-custom",
       "type": "registry:block",
       "dependencies": [
@@ -10345,7 +10085,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-tooltip-label-formatter",
       "type": "registry:block",
       "dependencies": [
@@ -10386,7 +10125,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "chart-tooltip-label-none",
       "type": "registry:block",
       "dependencies": [
@@ -10427,7 +10165,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "dashboard-01",
       "type": "registry:block",
       "description": "A dashboard with sidebar, charts and data table.",
@@ -10658,7 +10395,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "login-01",
       "type": "registry:block",
       "description": "A simple login form.",
@@ -10724,7 +10460,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "login-02",
       "type": "registry:block",
       "description": "A two column login page with a cover image.",
@@ -10786,7 +10521,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "login-03",
       "type": "registry:block",
       "description": "A login page with a muted background color.",
@@ -10853,7 +10587,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "login-04",
       "type": "registry:block",
       "description": "A login page with form and image.",
@@ -10919,7 +10652,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "login-05",
       "type": "registry:block",
       "description": "A simple email-only login page.",
@@ -10981,7 +10713,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-dashboard-01-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -11087,7 +10818,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-dashboard-01-chart-area-interactive",
       "type": "registry:block",
       "dependencies": [
@@ -11145,7 +10875,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-dashboard-01-data",
       "type": "registry:block",
       "files": [
@@ -11157,7 +10886,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-dashboard-01-data-table",
       "type": "registry:block",
       "dependencies": [
@@ -11263,7 +10991,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-dashboard-01-nav-documents",
       "type": "registry:block",
       "dependencies": [
@@ -11343,7 +11070,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-dashboard-01-nav-main",
       "type": "registry:block",
       "dependencies": [
@@ -11417,7 +11143,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-dashboard-01-nav-secondary",
       "type": "registry:block",
       "dependencies": [
@@ -11491,7 +11216,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-dashboard-01-nav-user",
       "type": "registry:block",
       "dependencies": [
@@ -11577,7 +11301,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-dashboard-01-section-cards",
       "type": "registry:block",
       "dependencies": [
@@ -11612,7 +11335,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-dashboard-01-site-header",
       "type": "registry:block",
       "dependencies": [
@@ -11685,7 +11407,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-login-01-login-form",
       "type": "registry:block",
       "dependencies": [
@@ -11735,7 +11456,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-login-02-login-form",
       "type": "registry:block",
       "dependencies": [
@@ -11780,7 +11500,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-login-03-login-form",
       "type": "registry:block",
       "dependencies": [
@@ -11830,7 +11549,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-login-04-login-form",
       "type": "registry:block",
       "dependencies": [
@@ -11880,7 +11598,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-login-05-login-form",
       "type": "registry:block",
       "dependencies": [
@@ -11926,7 +11643,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-products-01-products-table",
       "type": "registry:block",
       "dependencies": [
@@ -11995,7 +11711,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-01-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -12090,7 +11805,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-01-search-form",
       "type": "registry:block",
       "dependencies": [
@@ -12169,7 +11883,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-01-version-switcher",
       "type": "registry:block",
       "dependencies": [
@@ -12248,7 +11961,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-02-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -12349,7 +12061,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-02-search-form",
       "type": "registry:block",
       "dependencies": [
@@ -12428,7 +12139,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-02-version-switcher",
       "type": "registry:block",
       "dependencies": [
@@ -12507,7 +12217,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-03-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -12580,7 +12289,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-04-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -12653,7 +12361,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-05-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -12743,7 +12450,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-05-search-form",
       "type": "registry:block",
       "dependencies": [
@@ -12822,7 +12528,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-06-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -12916,7 +12621,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-06-nav-main",
       "type": "registry:block",
       "dependencies": [
@@ -12995,7 +12699,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-06-sidebar-opt-in-form",
       "type": "registry:block",
       "dependencies": [
@@ -13073,7 +12776,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-07-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -13184,7 +12886,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-07-nav-main",
       "type": "registry:block",
       "dependencies": [
@@ -13263,7 +12964,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-07-nav-projects",
       "type": "registry:block",
       "dependencies": [
@@ -13342,7 +13042,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-07-nav-user",
       "type": "registry:block",
       "dependencies": [
@@ -13427,7 +13126,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-07-team-switcher",
       "type": "registry:block",
       "dependencies": [
@@ -13506,7 +13204,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-08-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -13617,7 +13314,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-08-nav-main",
       "type": "registry:block",
       "dependencies": [
@@ -13696,7 +13392,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-08-nav-projects",
       "type": "registry:block",
       "dependencies": [
@@ -13775,7 +13470,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-08-nav-secondary",
       "type": "registry:block",
       "dependencies": [
@@ -13848,7 +13542,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-08-nav-user",
       "type": "registry:block",
       "dependencies": [
@@ -13933,7 +13626,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-09-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -14035,7 +13727,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-09-nav-user",
       "type": "registry:block",
       "dependencies": [
@@ -14120,7 +13811,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-10-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -14230,7 +13920,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-10-nav-actions",
       "type": "registry:block",
       "dependencies": [
@@ -14309,7 +13998,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-10-nav-favorites",
       "type": "registry:block",
       "dependencies": [
@@ -14388,7 +14076,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-10-nav-main",
       "type": "registry:block",
       "dependencies": [
@@ -14461,7 +14148,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-10-nav-secondary",
       "type": "registry:block",
       "dependencies": [
@@ -14534,7 +14220,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-10-nav-workspaces",
       "type": "registry:block",
       "dependencies": [
@@ -14613,7 +14298,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-10-team-switcher",
       "type": "registry:block",
       "dependencies": [
@@ -14692,7 +14376,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-11-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -14771,7 +14454,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-12-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -14883,7 +14565,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-12-calendars",
       "type": "registry:block",
       "dependencies": [
@@ -14962,7 +14643,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-12-date-picker",
       "type": "registry:block",
       "dependencies": [
@@ -15041,7 +14721,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-12-nav-user",
       "type": "registry:block",
       "dependencies": [
@@ -15126,7 +14805,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-13-settings-dialog",
       "type": "registry:block",
       "dependencies": [
@@ -15209,7 +14887,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-14-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -15282,7 +14959,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-15-calendars",
       "type": "registry:block",
       "dependencies": [
@@ -15361,7 +15037,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-15-date-picker",
       "type": "registry:block",
       "dependencies": [
@@ -15440,7 +15115,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-15-nav-favorites",
       "type": "registry:block",
       "dependencies": [
@@ -15519,7 +15193,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-15-nav-main",
       "type": "registry:block",
       "dependencies": [
@@ -15592,7 +15265,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-15-nav-secondary",
       "type": "registry:block",
       "dependencies": [
@@ -15665,7 +15337,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-15-nav-user",
       "type": "registry:block",
       "dependencies": [
@@ -15750,7 +15421,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-15-nav-workspaces",
       "type": "registry:block",
       "dependencies": [
@@ -15829,7 +15499,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-15-sidebar-left",
       "type": "registry:block",
       "dependencies": [
@@ -15939,7 +15608,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-15-sidebar-right",
       "type": "registry:block",
       "dependencies": [
@@ -16051,7 +15719,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-15-team-switcher",
       "type": "registry:block",
       "dependencies": [
@@ -16130,7 +15797,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-16-app-sidebar",
       "type": "registry:block",
       "dependencies": [
@@ -16241,7 +15907,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-16-nav-main",
       "type": "registry:block",
       "dependencies": [
@@ -16320,7 +15985,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-16-nav-projects",
       "type": "registry:block",
       "dependencies": [
@@ -16399,7 +16063,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-16-nav-secondary",
       "type": "registry:block",
       "dependencies": [
@@ -16472,7 +16135,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-16-nav-user",
       "type": "registry:block",
       "dependencies": [
@@ -16557,7 +16219,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-16-search-form",
       "type": "registry:block",
       "dependencies": [
@@ -16636,7 +16297,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "new-york-v4-sidebar-16-site-header",
       "type": "registry:block",
       "dependencies": [
@@ -16725,7 +16385,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "products-01",
       "type": "registry:block",
       "description": "A table of products",
@@ -16810,7 +16469,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-01",
       "type": "registry:block",
       "description": "A simple sidebar with navigation grouped by section.",
@@ -16927,7 +16585,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-02",
       "type": "registry:block",
       "description": "A sidebar with collapsible sections.",
@@ -17050,7 +16707,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-03",
       "type": "registry:block",
       "description": "A sidebar with submenus.",
@@ -17142,7 +16798,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-04",
       "type": "registry:block",
       "description": "A floating sidebar with submenus.",
@@ -17235,7 +16890,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-05",
       "type": "registry:block",
       "description": "A sidebar with collapsible submenus.",
@@ -17347,7 +17001,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-06",
       "type": "registry:block",
       "description": "A sidebar with submenus as dropdowns.",
@@ -17463,7 +17116,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-07",
       "type": "registry:block",
       "description": "A sidebar that collapses to icons.",
@@ -17597,7 +17249,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-08",
       "type": "registry:block",
       "description": "An inset sidebar with secondary navigation.",
@@ -17731,7 +17382,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-09",
       "type": "registry:block",
       "description": "Collapsible nested sidebars.",
@@ -17858,7 +17508,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-10",
       "type": "registry:block",
       "description": "A sidebar in a popover.",
@@ -18002,7 +17651,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-11",
       "type": "registry:block",
       "description": "A sidebar with a collapsible file tree.",
@@ -18102,7 +17750,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-12",
       "type": "registry:block",
       "description": "A sidebar with a calendar.",
@@ -18238,7 +17885,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-13",
       "type": "registry:block",
       "description": "A sidebar in a dialog.",
@@ -18337,7 +17983,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-14",
       "type": "registry:block",
       "description": "A sidebar on the right.",
@@ -18429,7 +18074,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-15",
       "type": "registry:block",
       "description": "A left and right sidebar.",
@@ -18596,7 +18240,6 @@
       ]
     },
     {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "sidebar-16",
       "type": "registry:block",
       "description": "A sidebar with a sticky site header.",
