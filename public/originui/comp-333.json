@@ -5,8 +5,7 @@
   "dependencies": [
     "@radix-ui/react-dialog",
     "cmdk",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "registryDependencies": [
     "https://originui.com/r/command.json"

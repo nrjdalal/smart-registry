@@ -15,7 +15,6 @@
     "class-variance-authority",
     "clsx",
     "lucide-react",
-    "react",
     "tailwind-merge"
   ],
   "registryDependencies": [

@@ -7,7 +7,6 @@
     "@radix-ui/react-slot",
     "class-variance-authority",
     "clsx",
-    "react",
     "react-hook-form",
     "tailwind-merge"
   ],

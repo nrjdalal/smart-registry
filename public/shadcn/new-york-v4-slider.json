@@ -5,7 +5,6 @@
   "dependencies": [
     "@radix-ui/react-slider",
     "clsx",
-    "react",
     "tailwind-merge"
   ],
   "files": [

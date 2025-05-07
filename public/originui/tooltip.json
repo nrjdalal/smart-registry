@@ -3,8 +3,7 @@
   "name": "tooltip",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-tooltip",
-    "react"
+    "@radix-ui/react-tooltip"
   ],
   "files": [
     {

@@ -5,8 +5,7 @@
   "dependencies": [
     "@radix-ui/react-slot",
     "@remixicon/react",
-    "class-variance-authority",
-    "react"
+    "class-variance-authority"
   ],
   "registryDependencies": [
     "https://originui.com/r/button.json"

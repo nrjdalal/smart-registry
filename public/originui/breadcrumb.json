@@ -4,8 +4,7 @@
   "type": "registry:ui",
   "dependencies": [
     "@radix-ui/react-slot",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "files": [
     {

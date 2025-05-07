@@ -6,7 +6,6 @@
     "@radix-ui/react-dialog",
     "clsx",
     "lucide-react",
-    "react",
     "tailwind-merge"
   ],
   "files": [

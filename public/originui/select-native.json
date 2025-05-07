@@ -3,8 +3,7 @@
   "name": "select-native",
   "type": "registry:ui",
   "dependencies": [
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "files": [
     {

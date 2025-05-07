@@ -3,8 +3,7 @@
   "name": "mdx-refresh-button",
   "type": "registry:component",
   "dependencies": [
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "files": [
     {

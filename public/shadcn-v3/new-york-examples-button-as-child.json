@@ -7,7 +7,6 @@
     "class-variance-authority",
     "clsx",
     "next",
-    "react",
     "tailwind-merge"
   ],
   "files": [

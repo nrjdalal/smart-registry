@@ -9,7 +9,6 @@
     "class-variance-authority",
     "date-fns",
     "lucide-react",
-    "react",
     "react-day-picker"
   ],
   "registryDependencies": [

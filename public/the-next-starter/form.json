@@ -5,7 +5,6 @@
   "dependencies": [
     "clsx",
     "radix-ui",
-    "react",
     "react-hook-form",
     "tailwind-merge"
   ],

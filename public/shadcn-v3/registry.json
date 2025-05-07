@@ -10,7 +10,6 @@
         "@radix-ui/react-accordion",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -32,7 +31,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -56,7 +54,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -97,7 +94,6 @@
       "dependencies": [
         "@radix-ui/react-avatar",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -119,7 +115,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -142,7 +137,6 @@
         "@radix-ui/react-slot",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -165,7 +159,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -189,7 +182,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -216,7 +208,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -241,7 +232,6 @@
         "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -267,7 +257,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -291,7 +280,6 @@
         "@radix-ui/react-checkbox",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -329,7 +317,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -357,7 +344,6 @@
         "@radix-ui/react-context-menu",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -380,7 +366,6 @@
         "@radix-ui/react-dialog",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -401,7 +386,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge",
         "vaul"
       ],
@@ -425,7 +409,6 @@
         "@radix-ui/react-dropdown-menu",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -449,7 +432,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "react-hook-form",
         "tailwind-merge"
       ],
@@ -477,7 +459,6 @@
       "dependencies": [
         "@radix-ui/react-hover-card",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -498,7 +479,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -521,7 +501,6 @@
         "clsx",
         "input-otp",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -544,7 +523,6 @@
         "@radix-ui/react-label",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -567,7 +545,6 @@
         "@radix-ui/react-menubar",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -591,7 +568,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -614,7 +590,6 @@
         "@radix-ui/react-accordion",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -636,7 +611,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -660,7 +634,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -701,7 +674,6 @@
       "dependencies": [
         "@radix-ui/react-avatar",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -723,7 +695,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -746,7 +717,6 @@
         "@radix-ui/react-slot",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -769,7 +739,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -793,7 +762,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -820,7 +788,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -845,7 +812,6 @@
         "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -871,7 +837,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -895,7 +860,6 @@
         "@radix-ui/react-checkbox",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -933,7 +897,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -961,7 +924,6 @@
         "@radix-ui/react-context-menu",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -984,7 +946,6 @@
         "@radix-ui/react-dialog",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1005,7 +966,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge",
         "vaul"
       ],
@@ -1029,7 +989,6 @@
         "@radix-ui/react-dropdown-menu",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1053,7 +1012,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "react-hook-form",
         "tailwind-merge"
       ],
@@ -1081,7 +1039,6 @@
       "dependencies": [
         "@radix-ui/react-hover-card",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1102,7 +1059,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1125,7 +1081,6 @@
         "clsx",
         "input-otp",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1148,7 +1103,6 @@
         "@radix-ui/react-label",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1171,7 +1125,6 @@
         "@radix-ui/react-menubar",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1195,7 +1148,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1219,7 +1171,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1246,7 +1197,6 @@
       "dependencies": [
         "@radix-ui/react-popover",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1268,7 +1218,6 @@
       "dependencies": [
         "@radix-ui/react-progress",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1291,7 +1240,6 @@
         "@radix-ui/react-radio-group",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1335,7 +1283,6 @@
       "dependencies": [
         "@radix-ui/react-scroll-area",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1358,7 +1305,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1380,7 +1326,6 @@
       "dependencies": [
         "@radix-ui/react-separator",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1404,7 +1349,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1431,7 +1375,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1513,7 +1456,6 @@
       "dependencies": [
         "@radix-ui/react-slider",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1550,7 +1492,6 @@
       "dependencies": [
         "@radix-ui/react-switch",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1571,7 +1512,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1593,7 +1533,6 @@
       "dependencies": [
         "@radix-ui/react-tabs",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1614,7 +1553,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1638,7 +1576,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1662,7 +1599,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1695,7 +1631,6 @@
         "@radix-ui/react-toggle",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1719,7 +1654,6 @@
         "@radix-ui/react-toggle-group",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1746,7 +1680,6 @@
       "dependencies": [
         "@radix-ui/react-tooltip",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1770,7 +1703,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1797,7 +1729,6 @@
       "dependencies": [
         "@radix-ui/react-popover",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1819,7 +1750,6 @@
       "dependencies": [
         "@radix-ui/react-progress",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1842,7 +1772,6 @@
         "@radix-ui/react-radio-group",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1886,7 +1815,6 @@
       "dependencies": [
         "@radix-ui/react-scroll-area",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1909,7 +1837,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1931,7 +1858,6 @@
       "dependencies": [
         "@radix-ui/react-separator",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1955,7 +1881,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1982,7 +1907,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2064,7 +1988,6 @@
       "dependencies": [
         "@radix-ui/react-slider",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2101,7 +2024,6 @@
       "dependencies": [
         "@radix-ui/react-switch",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2122,7 +2044,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2144,7 +2065,6 @@
       "dependencies": [
         "@radix-ui/react-tabs",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2165,7 +2085,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2189,7 +2108,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2213,7 +2131,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2246,7 +2163,6 @@
         "@radix-ui/react-toggle",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2270,7 +2186,6 @@
         "@radix-ui/react-toggle-group",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2297,7 +2212,6 @@
       "dependencies": [
         "@radix-ui/react-tooltip",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2351,7 +2265,6 @@
         "input-otp",
         "lucide-react",
         "next-themes",
-        "react",
         "react-day-picker",
         "react-hook-form",
         "react-resizable-panels",
@@ -2881,9 +2794,6 @@
     {
       "name": "new-york-use-mobile",
       "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:hook",
@@ -2900,7 +2810,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2924,9 +2833,6 @@
     {
       "name": "use-mobile",
       "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:hook",
@@ -2943,7 +2849,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3018,7 +2923,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "sonner",
         "tailwind-merge",
@@ -3231,7 +3135,6 @@
         "input-otp",
         "lucide-react",
         "next",
-        "react",
         "react-day-picker",
         "react-resizable-panels",
         "recharts",
@@ -3820,7 +3723,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3875,7 +3777,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3925,7 +3826,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3979,7 +3879,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4034,7 +3933,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4099,7 +3997,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "sonner",
         "tailwind-merge",
@@ -4312,7 +4209,6 @@
         "input-otp",
         "lucide-react",
         "next",
-        "react",
         "react-day-picker",
         "react-resizable-panels",
         "recharts",
@@ -4901,7 +4797,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4956,7 +4851,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5006,7 +4900,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5060,7 +4953,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5115,7 +5007,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5169,7 +5060,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5274,7 +5164,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5381,7 +5270,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5463,7 +5351,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5547,7 +5434,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5645,7 +5531,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5750,7 +5635,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5870,7 +5754,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5991,7 +5874,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -6101,7 +5983,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -6229,7 +6110,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -6319,7 +6199,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -6437,7 +6316,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -6524,7 +6402,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -6609,7 +6486,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -6761,7 +6637,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -6895,7 +6770,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -7000,7 +6874,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -7107,7 +6980,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -7189,7 +7061,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -7273,7 +7144,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -7371,7 +7241,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -7476,7 +7345,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -7596,7 +7464,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -7717,7 +7584,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -7827,7 +7693,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -7955,7 +7820,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8045,7 +7909,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -8163,7 +8026,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8250,7 +8112,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8335,7 +8196,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -8487,7 +8347,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8615,7 +8474,6 @@
         "@radix-ui/react-accordion",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8643,7 +8501,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8671,7 +8528,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8700,7 +8556,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8752,7 +8607,6 @@
       "dependencies": [
         "@radix-ui/react-avatar",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8779,7 +8633,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8806,7 +8659,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8833,7 +8685,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8860,7 +8711,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8889,7 +8739,6 @@
         "@radix-ui/react-slot",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8923,7 +8772,6 @@
         "@radix-ui/react-slot",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8957,7 +8805,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -8986,7 +8833,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9017,7 +8863,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge",
         "vaul"
       ],
@@ -9066,7 +8911,6 @@
         "@radix-ui/react-slot",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9095,7 +8939,6 @@
         "class-variance-authority",
         "clsx",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9123,7 +8966,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9151,7 +8993,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9179,7 +9020,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9208,7 +9048,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9236,7 +9075,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9265,7 +9103,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9293,7 +9130,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9321,7 +9157,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9350,7 +9185,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9379,7 +9213,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -9419,7 +9252,6 @@
         "clsx",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker",
         "react-hook-form",
         "tailwind-merge",
@@ -9486,7 +9318,6 @@
         "clsx",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker",
         "react-hook-form",
         "tailwind-merge",
@@ -9549,7 +9380,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9590,7 +9420,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9640,7 +9469,6 @@
         "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9680,7 +9508,6 @@
         "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9720,7 +9547,6 @@
         "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9761,7 +9587,6 @@
         "embla-carousel-autoplay",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9801,7 +9626,6 @@
         "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9841,7 +9665,6 @@
         "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -9877,7 +9700,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -9904,7 +9726,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -9931,7 +9752,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -9958,7 +9778,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -9985,7 +9804,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -10012,7 +9830,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -10035,7 +9852,6 @@
         "@radix-ui/react-checkbox",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -10063,7 +9879,6 @@
         "@radix-ui/react-checkbox",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -10096,7 +9911,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -10157,7 +9971,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -10212,7 +10025,6 @@
         "@radix-ui/react-checkbox",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -10242,7 +10054,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -10279,7 +10090,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -10326,7 +10136,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -10376,7 +10185,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -10445,7 +10253,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -10492,7 +10299,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge",
         "vaul"
       ],
@@ -10547,7 +10353,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -10581,7 +10386,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -10614,7 +10418,6 @@
         "@radix-ui/react-context-menu",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -10646,7 +10449,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -10697,7 +10499,6 @@
         "clsx",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -10742,7 +10543,6 @@
         "clsx",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker",
         "react-hook-form",
         "tailwind-merge",
@@ -10807,7 +10607,6 @@
         "clsx",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -10854,7 +10653,6 @@
         "clsx",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -10896,7 +10694,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -10942,7 +10739,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -10986,7 +10782,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge",
         "vaul"
@@ -11024,7 +10819,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge",
         "vaul"
       ],
@@ -11080,7 +10874,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11115,7 +10908,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11150,7 +10942,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11186,7 +10977,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11222,7 +11012,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11248,7 +11037,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11276,7 +11064,6 @@
         "@radix-ui/react-label",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11313,7 +11100,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -11368,7 +11154,6 @@
         "clsx",
         "input-otp",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11396,7 +11181,6 @@
         "clsx",
         "input-otp",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11429,7 +11213,6 @@
         "clsx",
         "input-otp",
         "lucide-react",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -11484,7 +11267,6 @@
         "clsx",
         "input-otp",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11512,7 +11294,6 @@
         "clsx",
         "input-otp",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11540,7 +11321,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11573,7 +11353,6 @@
         "@radix-ui/react-label",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11606,7 +11385,6 @@
         "@radix-ui/react-label",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11641,7 +11419,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11674,7 +11451,6 @@
         "@radix-ui/react-menubar",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11705,7 +11481,6 @@
         "clsx",
         "lucide-react",
         "next-themes",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11740,7 +11515,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11774,7 +11548,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11809,7 +11582,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11851,7 +11623,6 @@
       "dependencies": [
         "@radix-ui/react-progress",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11881,7 +11652,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -11919,7 +11689,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -12082,7 +11851,6 @@
         "@radix-ui/react-scroll-area",
         "@radix-ui/react-separator",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12115,7 +11883,6 @@
         "@radix-ui/react-scroll-area",
         "clsx",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12143,7 +11910,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12177,7 +11943,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -12232,7 +11997,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12259,7 +12023,6 @@
       "dependencies": [
         "@radix-ui/react-separator",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12290,7 +12053,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12336,7 +12098,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12428,7 +12189,6 @@
       "dependencies": [
         "@radix-ui/react-slider",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12456,7 +12216,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "sonner",
         "tailwind-merge"
       ],
@@ -12486,7 +12245,6 @@
         "@radix-ui/react-switch",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12524,7 +12282,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -12577,7 +12334,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12607,7 +12363,6 @@
         "@radix-ui/react-tabs",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12653,7 +12408,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12679,7 +12433,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12711,7 +12464,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -12766,7 +12518,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12799,7 +12550,6 @@
         "@radix-ui/react-label",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12832,7 +12582,6 @@
         "@radix-ui/react-label",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12867,7 +12616,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12907,7 +12655,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12947,7 +12694,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -12987,7 +12733,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13027,7 +12772,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13066,7 +12810,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13095,7 +12838,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13125,7 +12867,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13160,7 +12901,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13195,7 +12935,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13230,7 +12969,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13265,7 +13003,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13300,7 +13037,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13334,7 +13070,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13363,7 +13098,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13392,7 +13126,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13421,7 +13154,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13450,7 +13182,6 @@
         "@radix-ui/react-tooltip",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13694,7 +13425,6 @@
         "class-variance-authority",
         "clsx",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13743,7 +13473,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13833,7 +13562,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -13927,7 +13655,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -14014,7 +13741,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -14093,7 +13819,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -14181,7 +13906,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -14271,7 +13995,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -14366,7 +14089,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -14462,7 +14184,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -14562,7 +14283,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -14655,7 +14375,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -14740,7 +14459,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -14838,7 +14556,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -14920,7 +14637,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -15000,7 +14716,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -15098,7 +14813,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -15170,7 +14884,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -15243,7 +14956,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -15320,7 +15032,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -15392,7 +15103,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "sonner",
         "tailwind-merge"
       ],
@@ -15466,7 +15176,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -15544,7 +15253,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -15621,7 +15329,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -15694,7 +15401,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -15771,7 +15477,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -15844,7 +15549,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -15921,7 +15625,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -15993,7 +15696,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16061,7 +15763,6 @@
         "@radix-ui/react-accordion",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16089,7 +15790,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16118,7 +15818,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16158,7 +15857,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16280,7 +15978,6 @@
       "dependencies": [
         "@radix-ui/react-avatar",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16307,7 +16004,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16334,7 +16030,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16361,7 +16056,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16388,7 +16082,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16417,7 +16110,6 @@
         "@radix-ui/react-slot",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16450,7 +16142,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16478,7 +16169,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16506,7 +16196,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16534,7 +16223,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16563,7 +16251,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16591,7 +16278,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16619,7 +16305,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16648,7 +16333,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16677,7 +16361,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -16713,7 +16396,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16753,7 +16435,6 @@
         "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16791,7 +16472,6 @@
         "@radix-ui/react-checkbox",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16821,7 +16501,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16858,7 +16537,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16902,7 +16580,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16955,7 +16632,6 @@
         "@radix-ui/react-context-menu",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -16986,7 +16662,6 @@
         "clsx",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -17028,7 +16703,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17072,7 +16746,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge",
         "vaul"
@@ -17109,7 +16782,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17145,7 +16817,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17181,7 +16852,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17209,7 +16879,6 @@
         "clsx",
         "input-otp",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17239,7 +16908,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17272,7 +16940,6 @@
         "@radix-ui/react-menubar",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17305,7 +16972,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17383,7 +17049,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17462,7 +17127,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17542,7 +17206,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17571,7 +17234,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17606,7 +17268,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17648,7 +17309,6 @@
       "dependencies": [
         "@radix-ui/react-progress",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17678,7 +17338,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17738,7 +17397,6 @@
         "@radix-ui/react-scroll-area",
         "@radix-ui/react-separator",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17771,7 +17429,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17798,7 +17455,6 @@
       "dependencies": [
         "@radix-ui/react-separator",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17829,7 +17485,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17896,7 +17551,6 @@
       "dependencies": [
         "@radix-ui/react-slider",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17924,7 +17578,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "sonner",
         "tailwind-merge"
       ],
@@ -17954,7 +17607,6 @@
         "@radix-ui/react-switch",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -17985,7 +17637,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18015,7 +17666,6 @@
         "@radix-ui/react-tabs",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18068,7 +17718,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18139,7 +17788,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18169,7 +17817,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18208,7 +17855,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18237,7 +17883,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18267,7 +17912,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18301,7 +17945,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18330,7 +17973,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18359,7 +18001,6 @@
         "@radix-ui/react-tooltip",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18392,7 +18033,6 @@
         "@radix-ui/react-accordion",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18420,7 +18060,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18448,7 +18087,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18477,7 +18115,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18529,7 +18166,6 @@
       "dependencies": [
         "@radix-ui/react-avatar",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18556,7 +18192,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18583,7 +18218,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18610,7 +18244,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18637,7 +18270,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18666,7 +18298,6 @@
         "@radix-ui/react-slot",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18700,7 +18331,6 @@
         "@radix-ui/react-slot",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18734,7 +18364,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18763,7 +18392,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18794,7 +18422,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge",
         "vaul"
       ],
@@ -18843,7 +18470,6 @@
         "@radix-ui/react-slot",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18872,7 +18498,6 @@
         "class-variance-authority",
         "clsx",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18900,7 +18525,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18928,7 +18552,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18956,7 +18579,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -18985,7 +18607,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19013,7 +18634,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19042,7 +18662,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19070,7 +18689,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19098,7 +18716,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19127,7 +18744,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19156,7 +18772,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -19196,7 +18811,6 @@
         "clsx",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker",
         "react-hook-form",
         "tailwind-merge",
@@ -19259,7 +18873,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19300,7 +18913,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19350,7 +18962,6 @@
         "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19390,7 +19001,6 @@
         "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19430,7 +19040,6 @@
         "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19471,7 +19080,6 @@
         "embla-carousel-autoplay",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19511,7 +19119,6 @@
         "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19551,7 +19158,6 @@
         "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19587,7 +19193,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -19614,7 +19219,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -19641,7 +19245,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -19668,7 +19271,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -19695,7 +19297,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -19722,7 +19323,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19745,7 +19345,6 @@
         "@radix-ui/react-checkbox",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19773,7 +19372,6 @@
         "@radix-ui/react-checkbox",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19806,7 +19404,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -19867,7 +19464,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -19922,7 +19518,6 @@
         "@radix-ui/react-checkbox",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19952,7 +19547,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -19989,7 +19583,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20036,7 +19629,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20086,7 +19678,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -20155,7 +19746,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20202,7 +19792,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge",
         "vaul"
       ],
@@ -20257,7 +19846,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20291,7 +19879,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20324,7 +19911,6 @@
         "@radix-ui/react-context-menu",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20356,7 +19942,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20407,7 +19992,6 @@
         "clsx",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -20452,7 +20036,6 @@
         "clsx",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker",
         "react-hook-form",
         "tailwind-merge",
@@ -20517,7 +20100,6 @@
         "clsx",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -20564,7 +20146,6 @@
         "clsx",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -20606,7 +20187,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20652,7 +20232,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20696,7 +20275,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge",
         "vaul"
@@ -20734,7 +20312,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge",
         "vaul"
       ],
@@ -20790,7 +20367,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20825,7 +20401,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20860,7 +20435,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20896,7 +20470,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20932,7 +20505,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20958,7 +20530,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -20986,7 +20557,6 @@
         "@radix-ui/react-label",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21023,7 +20593,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -21078,7 +20647,6 @@
         "clsx",
         "input-otp",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21106,7 +20674,6 @@
         "clsx",
         "input-otp",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21139,7 +20706,6 @@
         "clsx",
         "input-otp",
         "lucide-react",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -21194,7 +20760,6 @@
         "clsx",
         "input-otp",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21222,7 +20787,6 @@
         "clsx",
         "input-otp",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21250,7 +20814,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21283,7 +20846,6 @@
         "@radix-ui/react-label",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21316,7 +20878,6 @@
         "@radix-ui/react-label",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21351,7 +20912,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21384,7 +20944,6 @@
         "@radix-ui/react-menubar",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21415,7 +20974,6 @@
         "clsx",
         "lucide-react",
         "next-themes",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21450,7 +21008,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21484,7 +21041,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21519,7 +21075,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21561,7 +21116,6 @@
       "dependencies": [
         "@radix-ui/react-progress",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21591,7 +21145,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21629,7 +21182,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -21792,7 +21344,6 @@
         "@radix-ui/react-scroll-area",
         "@radix-ui/react-separator",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21825,7 +21376,6 @@
         "@radix-ui/react-scroll-area",
         "clsx",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21853,7 +21403,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21887,7 +21436,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -21942,7 +21490,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -21969,7 +21516,6 @@
       "dependencies": [
         "@radix-ui/react-separator",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22000,7 +21546,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22046,7 +21591,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22138,7 +21682,6 @@
       "dependencies": [
         "@radix-ui/react-slider",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22166,7 +21709,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "sonner",
         "tailwind-merge"
       ],
@@ -22196,7 +21738,6 @@
         "@radix-ui/react-switch",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22234,7 +21775,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -22287,7 +21827,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22317,7 +21856,6 @@
         "@radix-ui/react-tabs",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22363,7 +21901,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22389,7 +21926,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22421,7 +21957,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-hook-form",
         "tailwind-merge",
         "zod"
@@ -22476,7 +22011,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22509,7 +22043,6 @@
         "@radix-ui/react-label",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22542,7 +22075,6 @@
         "@radix-ui/react-label",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22577,7 +22109,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22617,7 +22148,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22657,7 +22187,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22697,7 +22226,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22737,7 +22265,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22776,7 +22303,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22805,7 +22331,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22835,7 +22360,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22870,7 +22394,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22905,7 +22428,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22940,7 +22462,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -22975,7 +22496,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -23010,7 +22530,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -23044,7 +22563,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -23073,7 +22591,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -23102,7 +22619,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -23131,7 +22647,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -23160,7 +22675,6 @@
         "@radix-ui/react-tooltip",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -23346,7 +22860,6 @@
       "dependencies": [
         "@radix-ui/react-separator",
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -23390,7 +22903,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -23457,7 +22969,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -23514,7 +23025,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge",
         "vaul"
       ],
@@ -23583,7 +23093,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -23644,7 +23153,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -23738,7 +23246,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -23820,7 +23327,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -23915,7 +23421,6 @@
         "class-variance-authority",
         "clsx",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -23964,7 +23469,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -24054,7 +23558,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -24148,7 +23651,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -24235,7 +23737,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -24314,7 +23815,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -24402,7 +23902,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -24492,7 +23991,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -24587,7 +24085,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -24683,7 +24180,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -24783,7 +24279,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -24876,7 +24371,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -24961,7 +24455,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -25059,7 +24552,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -25141,7 +24633,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -25221,7 +24712,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -25324,7 +24814,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -25426,7 +24915,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -25498,7 +24986,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -25571,7 +25058,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -25648,7 +25134,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -25720,7 +25205,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "sonner",
         "tailwind-merge"
       ],
@@ -25794,7 +25278,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -25872,7 +25355,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -25949,7 +25431,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26022,7 +25503,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26099,7 +25579,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26172,7 +25651,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26249,7 +25727,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26321,7 +25798,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26389,7 +25865,6 @@
         "@radix-ui/react-accordion",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26417,7 +25892,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26446,7 +25920,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26486,7 +25959,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26608,7 +26080,6 @@
       "dependencies": [
         "@radix-ui/react-avatar",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26635,7 +26106,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26662,7 +26132,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26689,7 +26158,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26716,7 +26184,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26745,7 +26212,6 @@
         "@radix-ui/react-slot",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26778,7 +26244,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26806,7 +26271,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26834,7 +26298,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26863,7 +26326,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26891,7 +26353,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26920,7 +26381,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26948,7 +26408,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -26976,7 +26435,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27005,7 +26463,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27034,7 +26491,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -27070,7 +26526,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27110,7 +26565,6 @@
         "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27148,7 +26602,6 @@
         "@radix-ui/react-checkbox",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27178,7 +26631,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27215,7 +26667,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27259,7 +26710,6 @@
         "clsx",
         "cmdk",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27312,7 +26762,6 @@
         "@radix-ui/react-context-menu",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27343,7 +26792,6 @@
         "clsx",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -27385,7 +26833,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27429,7 +26876,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge",
         "vaul"
@@ -27466,7 +26912,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27502,7 +26947,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27538,7 +26982,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27566,7 +27009,6 @@
         "clsx",
         "input-otp",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27596,7 +27038,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27629,7 +27070,6 @@
         "@radix-ui/react-menubar",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27662,7 +27102,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27740,7 +27179,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27819,7 +27257,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27899,7 +27336,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27928,7 +27364,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -27963,7 +27398,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28005,7 +27439,6 @@
       "dependencies": [
         "@radix-ui/react-progress",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28035,7 +27468,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28095,7 +27527,6 @@
         "@radix-ui/react-scroll-area",
         "@radix-ui/react-separator",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28128,7 +27559,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28155,7 +27585,6 @@
       "dependencies": [
         "@radix-ui/react-separator",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28186,7 +27615,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28253,7 +27681,6 @@
       "dependencies": [
         "@radix-ui/react-slider",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28281,7 +27708,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "sonner",
         "tailwind-merge"
       ],
@@ -28311,7 +27737,6 @@
         "@radix-ui/react-switch",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28342,7 +27767,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28372,7 +27796,6 @@
         "@radix-ui/react-tabs",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28425,7 +27848,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28496,7 +27918,6 @@
       "type": "registry:file",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28526,7 +27947,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28565,7 +27985,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28594,7 +28013,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28624,7 +28042,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28658,7 +28075,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28687,7 +28103,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28716,7 +28131,6 @@
         "@radix-ui/react-tooltip",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -28758,7 +28172,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -29032,7 +28445,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -29129,7 +28541,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29162,7 +28573,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29195,7 +28605,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29228,7 +28637,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29262,7 +28670,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29300,7 +28707,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29333,7 +28739,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29366,7 +28771,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29399,7 +28803,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29432,7 +28835,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29465,7 +28867,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29498,7 +28899,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29531,7 +28931,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29563,7 +28962,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29596,7 +28994,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29629,7 +29026,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29662,7 +29058,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29695,7 +29090,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29728,7 +29122,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29761,7 +29154,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29794,7 +29186,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29827,7 +29218,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29860,7 +29250,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29893,7 +29282,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29925,7 +29313,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29958,7 +29345,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -29991,7 +29377,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30024,7 +29409,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30057,7 +29441,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30090,7 +29473,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30123,7 +29505,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30156,7 +29537,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30189,7 +29569,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30223,7 +29602,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30261,7 +29639,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30294,7 +29671,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30327,7 +29703,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30359,7 +29734,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30392,7 +29766,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30425,7 +29798,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30458,7 +29830,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30491,7 +29862,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30524,7 +29894,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30557,7 +29926,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30590,7 +29958,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30623,7 +29990,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30656,7 +30022,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30689,7 +30054,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30722,7 +30086,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30755,7 +30118,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30788,7 +30150,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30821,7 +30182,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30854,7 +30214,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30887,7 +30246,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30920,7 +30278,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30953,7 +30310,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -30986,7 +30342,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31019,7 +30374,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31052,7 +30406,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31085,7 +30438,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31118,7 +30470,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31150,7 +30501,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31182,7 +30532,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31214,7 +30563,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31247,7 +30595,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31279,7 +30626,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31311,7 +30657,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31343,7 +30688,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31375,7 +30719,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31407,7 +30750,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31440,7 +30782,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31473,7 +30814,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31506,7 +30846,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31539,7 +30878,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31573,7 +30911,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31611,7 +30948,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31644,7 +30980,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31677,7 +31012,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31710,7 +31044,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31743,7 +31076,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31776,7 +31108,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31809,7 +31140,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31842,7 +31172,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31874,7 +31203,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31907,7 +31235,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31940,7 +31267,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -31973,7 +31299,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32006,7 +31331,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32039,7 +31363,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32072,7 +31395,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32105,7 +31427,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32138,7 +31459,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32171,7 +31491,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32204,7 +31523,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32236,7 +31554,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32269,7 +31586,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32302,7 +31618,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32335,7 +31650,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32368,7 +31682,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32401,7 +31714,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32434,7 +31746,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32467,7 +31778,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32500,7 +31810,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32534,7 +31843,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32572,7 +31880,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32605,7 +31912,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32638,7 +31944,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32670,7 +31975,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32703,7 +32007,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32736,7 +32039,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32769,7 +32071,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32802,7 +32103,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32835,7 +32135,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32868,7 +32167,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32901,7 +32199,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32934,7 +32231,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -32967,7 +32263,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33000,7 +32295,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33033,7 +32327,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33066,7 +32359,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33099,7 +32391,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33132,7 +32423,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33165,7 +32455,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33198,7 +32487,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33231,7 +32519,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33264,7 +32551,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33297,7 +32583,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33330,7 +32615,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33363,7 +32647,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33396,7 +32679,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33429,7 +32711,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33461,7 +32742,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33493,7 +32773,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33525,7 +32804,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33558,7 +32836,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33590,7 +32867,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33622,7 +32898,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33654,7 +32929,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33686,7 +32960,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33718,7 +32991,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33758,7 +33030,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -33859,7 +33130,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -33937,7 +33207,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "sonner",
         "tailwind-merge",
@@ -34033,7 +33302,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -34110,7 +33378,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -34182,7 +33449,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -34256,7 +33522,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -34334,7 +33599,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -34371,7 +33635,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -34440,7 +33703,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -34489,7 +33751,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -34533,7 +33794,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -34582,7 +33842,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -34632,7 +33891,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -34681,7 +33939,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -34782,7 +34039,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -34860,7 +34116,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "recharts",
         "sonner",
         "tailwind-merge",
@@ -34956,7 +34211,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35033,7 +34287,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35105,7 +34358,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35179,7 +34431,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35257,7 +34508,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35294,7 +34544,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35363,7 +34612,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35412,7 +34660,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35456,7 +34703,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35505,7 +34751,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35555,7 +34800,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35604,7 +34848,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35697,7 +34940,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35775,7 +35017,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35855,7 +35096,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -35953,7 +35193,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -36031,7 +35270,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -36108,7 +35346,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -36180,7 +35417,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -36254,7 +35490,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -36342,7 +35577,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -36420,7 +35654,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -36513,7 +35746,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -36590,7 +35822,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -36670,7 +35901,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -36778,7 +36008,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -36856,7 +36085,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -36935,7 +36163,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -37018,7 +36245,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -37098,7 +36324,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -37206,7 +36431,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -37284,7 +36508,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -37361,7 +36584,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -37435,7 +36657,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -37521,7 +36742,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -37620,7 +36840,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -37704,7 +36923,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -37812,7 +37030,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -37890,7 +37107,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -37967,7 +37183,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -38039,7 +37254,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -38112,7 +37326,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -38190,7 +37403,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -38268,7 +37480,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -38348,7 +37559,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -38457,7 +37667,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -38534,7 +37743,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -38614,7 +37822,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -38696,7 +37903,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -38778,7 +37984,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -38851,7 +38056,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -38928,7 +38132,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -39007,7 +38210,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -39084,7 +38286,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -39156,7 +38357,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -39230,7 +38430,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -39313,7 +38512,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -39392,7 +38590,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -39502,7 +38699,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -39611,7 +38807,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -39691,7 +38886,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -39799,7 +38993,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -39877,7 +39070,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -39954,7 +39146,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -40028,7 +39219,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -40111,7 +39301,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -40189,7 +39378,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -40278,7 +39466,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -40371,7 +39558,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -40449,7 +39635,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -40529,7 +39714,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -40627,7 +39811,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -40705,7 +39888,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -40782,7 +39964,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -40854,7 +40035,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -40928,7 +40108,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -41016,7 +40195,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -41094,7 +40272,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -41187,7 +40364,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -41264,7 +40440,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -41344,7 +40519,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -41452,7 +40626,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -41530,7 +40703,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -41609,7 +40781,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -41692,7 +40863,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -41772,7 +40942,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -41880,7 +41049,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -41958,7 +41126,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -42035,7 +41202,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -42109,7 +41275,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -42195,7 +41360,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -42294,7 +41458,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -42378,7 +41541,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -42486,7 +41648,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -42564,7 +41725,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -42641,7 +41801,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -42713,7 +41872,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -42786,7 +41944,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -42864,7 +42021,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -42942,7 +42098,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -43022,7 +42177,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -43131,7 +42285,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -43208,7 +42361,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -43288,7 +42440,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -43370,7 +42521,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -43452,7 +42602,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -43525,7 +42674,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -43602,7 +42750,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -43681,7 +42828,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -43758,7 +42904,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -43830,7 +42975,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -43904,7 +43048,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -43987,7 +43130,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -44066,7 +43208,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -44176,7 +43317,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -44285,7 +43425,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -44365,7 +43504,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -44473,7 +43611,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -44551,7 +43688,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -44628,7 +43764,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -44702,7 +43837,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -44785,7 +43919,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -44863,7 +43996,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [

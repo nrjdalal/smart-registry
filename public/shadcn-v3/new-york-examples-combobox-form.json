@@ -13,7 +13,6 @@
     "clsx",
     "cmdk",
     "lucide-react",
-    "react",
     "react-hook-form",
     "tailwind-merge",
     "zod"

@@ -4,7 +4,6 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
-    "react",
     "use-mask-input"
   ],
   "registryDependencies": [

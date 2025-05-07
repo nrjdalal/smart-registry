@@ -7,7 +7,6 @@
     "@radix-ui/react-toggle-group",
     "class-variance-authority",
     "clsx",
-    "react",
     "tailwind-merge"
   ],
   "registryDependencies": [

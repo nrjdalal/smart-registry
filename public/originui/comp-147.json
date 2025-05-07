@@ -5,8 +5,7 @@
   "dependencies": [
     "@radix-ui/react-checkbox",
     "@radix-ui/react-label",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "registryDependencies": [
     "https://originui.com/r/checkbox.json",

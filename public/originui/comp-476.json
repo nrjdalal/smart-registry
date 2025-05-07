@@ -3,8 +3,7 @@
   "name": "comp-476",
   "type": "registry:component",
   "dependencies": [
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "registryDependencies": [
     "https://originui.com/r/table.json"

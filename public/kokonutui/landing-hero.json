@@ -10,7 +10,6 @@
     "motion",
     "next",
     "next-view-transitions",
-    "react",
     "tailwind-merge"
   ],
   "files": [

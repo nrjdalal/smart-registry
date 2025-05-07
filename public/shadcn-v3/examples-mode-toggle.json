@@ -9,7 +9,6 @@
     "clsx",
     "lucide-react",
     "next-themes",
-    "react",
     "tailwind-merge"
   ],
   "files": [

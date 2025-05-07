@@ -4,8 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
-    "@radix-ui/react-switch",
-    "react"
+    "@radix-ui/react-switch"
   ],
   "registryDependencies": [
     "https://originui.com/r/label.json",

@@ -6,7 +6,6 @@
     "@radix-ui/react-slot",
     "class-variance-authority",
     "lucide-react",
-    "react",
     "react-day-picker"
   ],
   "registryDependencies": [

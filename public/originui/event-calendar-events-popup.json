@@ -4,8 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "date-fns",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "files": [
     {

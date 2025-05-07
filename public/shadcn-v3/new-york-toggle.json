@@ -6,7 +6,6 @@
     "@radix-ui/react-toggle",
     "class-variance-authority",
     "clsx",
-    "react",
     "tailwind-merge"
   ],
   "files": [

@@ -3,8 +3,7 @@
   "name": "comp-364",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-hover-card",
-    "react"
+    "@radix-ui/react-hover-card"
   ],
   "registryDependencies": [
     "https://originui.com/r/hover-card.json"

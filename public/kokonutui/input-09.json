@@ -4,8 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "motion",
-    "next",
-    "react"
+    "next"
   ],
   "files": [
     {

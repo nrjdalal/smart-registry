@@ -4,8 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-switch",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "registryDependencies": [
     "https://originui.com/r/switch.json"

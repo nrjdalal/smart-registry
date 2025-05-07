@@ -5,7 +5,6 @@
   "dependencies": [
     "class-variance-authority",
     "clsx",
-    "react",
     "tailwind-merge"
   ],
   "files": [

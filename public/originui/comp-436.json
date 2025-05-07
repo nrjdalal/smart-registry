@@ -5,8 +5,7 @@
   "dependencies": [
     "@radix-ui/react-scroll-area",
     "@radix-ui/react-tabs",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "registryDependencies": [
     "https://originui.com/r/scroll-area.json",

@@ -10,7 +10,6 @@
     "clsx",
     "cmdk",
     "lucide-react",
-    "react",
     "tailwind-merge"
   ],
   "files": [

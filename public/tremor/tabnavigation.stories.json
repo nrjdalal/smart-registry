@@ -6,7 +6,6 @@
     "@radix-ui/react-navigation-menu",
     "@remixicon/react",
     "clsx",
-    "react",
     "tailwind-merge"
   ],
   "devDependencies": [

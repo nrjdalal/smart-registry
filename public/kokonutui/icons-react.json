@@ -2,9 +2,6 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "icons-react",
   "type": "registry:component",
-  "dependencies": [
-    "react"
-  ],
   "files": [
     {
       "type": "registry:component",

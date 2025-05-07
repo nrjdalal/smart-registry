@@ -6,7 +6,6 @@
     "@radix-ui/react-label",
     "@radix-ui/react-slot",
     "clsx",
-    "react",
     "react-hook-form",
     "tailwind-merge"
   ],

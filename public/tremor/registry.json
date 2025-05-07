@@ -17,9 +17,6 @@
     {
       "name": "useonwindowresize",
       "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:hook",
@@ -35,7 +32,6 @@
         "@radix-ui/react-toast",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -173,7 +169,6 @@
         "@radix-ui/react-accordion",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -222,7 +217,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -268,7 +262,6 @@
       "dependencies": [
         "@remixicon/react",
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -338,7 +331,6 @@
         "@radix-ui/react-switch",
         "@remixicon/react",
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge",
         "tailwind-variants"
@@ -404,7 +396,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -451,7 +442,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -482,7 +472,6 @@
       "dependencies": [
         "@remixicon/react",
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -547,7 +536,6 @@
         "@radix-ui/react-switch",
         "@remixicon/react",
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge",
         "tailwind-variants"
@@ -608,7 +596,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -659,7 +646,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "devDependencies": [
@@ -695,7 +681,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -749,7 +734,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -786,7 +770,6 @@
         "@remixicon/react",
         "clsx",
         "date-fns",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -840,7 +823,6 @@
         "@remixicon/react",
         "clsx",
         "date-fns",
-        "react",
         "react-day-picker",
         "tailwind-merge"
       ],
@@ -875,7 +857,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -923,7 +904,6 @@
       "dependencies": [
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -954,7 +934,6 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1009,7 +988,6 @@
         "@radix-ui/react-tooltip",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -1115,7 +1093,6 @@
       "dependencies": [
         "@radix-ui/react-tooltip",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1172,7 +1149,6 @@
       "dependencies": [
         "@radix-ui/react-tooltip",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "devDependencies": [
@@ -1212,7 +1188,6 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1267,7 +1242,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -1313,7 +1287,6 @@
       "dependencies": [
         "@remixicon/react",
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -1383,7 +1356,6 @@
         "@radix-ui/react-switch",
         "@remixicon/react",
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge",
         "tailwind-variants"
@@ -1456,7 +1428,6 @@
         "@remixicon/react",
         "clsx",
         "date-fns",
-        "react",
         "react-day-picker",
         "tailwind-merge",
         "tailwind-variants"
@@ -1522,7 +1493,6 @@
         "@remixicon/react",
         "clsx",
         "date-fns",
-        "react",
         "react-day-picker",
         "tailwind-merge",
         "tailwind-variants"
@@ -1599,7 +1569,6 @@
         "@remixicon/react",
         "clsx",
         "date-fns",
-        "react",
         "react-day-picker",
         "tailwind-merge",
         "tailwind-variants"
@@ -1666,7 +1635,6 @@
       "dependencies": [
         "@radix-ui/react-dialog",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1720,7 +1688,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -1760,7 +1727,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1808,7 +1774,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -1848,7 +1813,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -1902,7 +1866,6 @@
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge",
         "tailwind-variants"
@@ -1956,7 +1919,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -2016,7 +1978,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -2058,7 +2019,6 @@
         "@radix-ui/react-dropdown-menu",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2107,7 +2067,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -2148,7 +2107,6 @@
       "dependencies": [
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -2213,7 +2171,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -2269,7 +2226,6 @@
       "dependencies": [
         "@radix-ui/react-label",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2318,7 +2274,6 @@
         "@radix-ui/react-label",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -2374,7 +2329,6 @@
       "dependencies": [
         "@remixicon/react",
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -2444,7 +2398,6 @@
         "@radix-ui/react-switch",
         "@remixicon/react",
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge",
         "tailwind-variants"
@@ -2511,7 +2464,6 @@
       "dependencies": [
         "@radix-ui/react-popover",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2562,7 +2514,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -2627,7 +2578,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -2675,7 +2625,6 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -2710,7 +2659,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -2758,7 +2706,6 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -2794,7 +2741,6 @@
       "dependencies": [
         "@radix-ui/react-radio-group",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2853,7 +2799,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -2899,7 +2844,6 @@
       "dependencies": [
         "@radix-ui/react-radio-group",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2954,7 +2898,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -3001,7 +2944,6 @@
         "@radix-ui/react-select",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3061,7 +3003,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -3116,7 +3057,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -3174,7 +3114,6 @@
       "dependencies": [
         "@radix-ui/react-label",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -3220,7 +3159,6 @@
       "dependencies": [
         "@radix-ui/react-slider",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3274,7 +3212,6 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -3324,7 +3261,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -3367,7 +3303,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -3407,7 +3342,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -3447,7 +3381,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "recharts",
         "tailwind-merge"
       ],
@@ -3502,7 +3435,6 @@
       "dependencies": [
         "@radix-ui/react-switch",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -3558,7 +3490,6 @@
         "@radix-ui/react-switch",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -3613,7 +3544,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3660,7 +3590,6 @@
       "dependencies": [
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -3696,7 +3625,6 @@
       "dependencies": [
         "@radix-ui/react-navigation-menu",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3749,7 +3677,6 @@
         "@radix-ui/react-navigation-menu",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "devDependencies": [
@@ -3784,7 +3711,6 @@
       "dependencies": [
         "@radix-ui/react-tabs",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3837,7 +3763,6 @@
         "@radix-ui/react-tabs",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "devDependencies": [
@@ -3871,7 +3796,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3928,7 +3852,6 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "devDependencies": [
@@ -3974,7 +3897,6 @@
         "@radix-ui/react-toast",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4008,7 +3930,6 @@
         "@radix-ui/react-toast",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4042,7 +3963,6 @@
         "@radix-ui/react-toast",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -4094,7 +4014,6 @@
         "@radix-ui/react-toggle",
         "@radix-ui/react-toggle-group",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4148,7 +4067,6 @@
         "@radix-ui/react-toggle-group",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "devDependencies": [
@@ -4183,7 +4101,6 @@
       "dependencies": [
         "@radix-ui/react-tooltip",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4232,7 +4149,6 @@
         "@radix-ui/react-tooltip",
         "@remixicon/react",
         "clsx",
-        "react",
         "tailwind-merge",
         "tailwind-variants"
       ],
@@ -4273,7 +4189,6 @@
       "dependencies": [
         "@radix-ui/react-hover-card",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4320,7 +4235,6 @@
       "dependencies": [
         "@radix-ui/react-hover-card",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "devDependencies": [

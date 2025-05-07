@@ -2,9 +2,6 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "use-auto-resize-textarea",
   "type": "registry:hook",
-  "dependencies": [
-    "react"
-  ],
   "files": [
     {
       "type": "registry:hook",

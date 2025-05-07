@@ -6,7 +6,6 @@
     "@radix-ui/react-radio-group",
     "clsx",
     "lucide-react",
-    "react",
     "tailwind-merge"
   ],
   "files": [

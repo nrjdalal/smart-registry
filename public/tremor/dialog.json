@@ -5,7 +5,6 @@
   "dependencies": [
     "@radix-ui/react-dialog",
     "clsx",
-    "react",
     "tailwind-merge"
   ],
   "files": [

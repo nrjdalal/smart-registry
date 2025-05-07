@@ -6,7 +6,6 @@
     "clsx",
     "motion",
     "next",
-    "react",
     "tailwind-merge"
   ],
   "files": [

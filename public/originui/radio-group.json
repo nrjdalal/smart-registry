@@ -3,8 +3,7 @@
   "name": "radio-group",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-radio-group",
-    "react"
+    "@radix-ui/react-radio-group"
   ],
   "files": [
     {

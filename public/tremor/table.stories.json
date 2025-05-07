@@ -5,7 +5,6 @@
   "dependencies": [
     "@remixicon/react",
     "clsx",
-    "react",
     "tailwind-merge",
     "tailwind-variants"
   ],

@@ -5,8 +5,7 @@
   "dependencies": [
     "lucide-react",
     "motion",
-    "next",
-    "react"
+    "next"
   ],
   "files": [
     {

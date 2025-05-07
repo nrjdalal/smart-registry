@@ -4,8 +4,7 @@
   "type": "registry:lib",
   "dependencies": [
     "fs",
-    "path",
-    "react"
+    "path"
   ],
   "files": [
     {

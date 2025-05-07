@@ -12,7 +12,6 @@
     "clsx",
     "date-fns",
     "lucide-react",
-    "react",
     "react-day-picker",
     "react-hook-form",
     "tailwind-merge",

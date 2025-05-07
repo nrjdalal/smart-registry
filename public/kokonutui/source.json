@@ -5,8 +5,7 @@
   "dependencies": [
     "fumadocs-core",
     "fumadocs-mdx",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "files": [
     {

@@ -19,7 +19,6 @@
     "class-variance-authority",
     "clsx",
     "lucide-react",
-    "react",
     "recharts",
     "sonner",
     "tailwind-merge",

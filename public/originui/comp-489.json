@@ -5,7 +5,6 @@
   "dependencies": [
     "@internationalized/date",
     "lucide-react",
-    "react",
     "react-aria",
     "react-aria-components"
   ],

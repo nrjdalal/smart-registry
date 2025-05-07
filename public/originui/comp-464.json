@@ -6,8 +6,7 @@
     "@radix-ui/react-select",
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "registryDependencies": [
     "https://originui.com/r/pagination.json",

@@ -22,7 +22,6 @@
     "lucide-react",
     "motion",
     "next-view-transitions",
-    "react",
     "tailwind-merge"
   ],
   "files": [

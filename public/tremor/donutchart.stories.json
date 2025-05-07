@@ -6,7 +6,6 @@
     "@radix-ui/react-label",
     "@radix-ui/react-switch",
     "clsx",
-    "react",
     "recharts",
     "tailwind-merge",
     "tailwind-variants"

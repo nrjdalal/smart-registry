@@ -6,7 +6,6 @@
     "clsx",
     "lucide-react",
     "radix-ui",
-    "react",
     "tailwind-merge"
   ],
   "files": [

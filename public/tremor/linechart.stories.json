@@ -7,7 +7,6 @@
     "@radix-ui/react-switch",
     "@remixicon/react",
     "clsx",
-    "react",
     "recharts",
     "tailwind-merge",
     "tailwind-variants"

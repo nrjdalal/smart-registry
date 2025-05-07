@@ -83,8 +83,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -130,8 +129,7 @@
       "dependencies": [
         "@radix-ui/react-alert-dialog",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -153,8 +151,7 @@
       "name": "avatar",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-avatar",
-        "react"
+        "@radix-ui/react-avatar"
       ],
       "files": [
         {
@@ -169,8 +166,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "files": [
         {
@@ -185,8 +181,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -201,8 +196,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "files": [
         {
@@ -220,7 +214,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -245,7 +238,6 @@
       "dependencies": [
         "@internationalized/date",
         "lucide-react",
-        "react",
         "react-aria-components"
       ],
       "files": [
@@ -260,8 +252,7 @@
       "name": "checkbox",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-checkbox",
-        "react"
+        "@radix-ui/react-checkbox"
       ],
       "files": [
         {
@@ -274,9 +265,6 @@
     {
       "name": "checkbox-tree",
       "type": "registry:ui",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:ui",
@@ -305,8 +293,7 @@
       "dependencies": [
         "@radix-ui/react-dialog",
         "cmdk@1.0.0",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "dialog"
@@ -357,8 +344,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-dialog",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -373,8 +359,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-dropdown-menu",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -388,8 +373,7 @@
       "name": "hover-card",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-hover-card",
-        "react"
+        "@radix-ui/react-hover-card"
       ],
       "files": [
         {
@@ -402,9 +386,6 @@
     {
       "name": "input",
       "type": "registry:ui",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:ui",
@@ -417,8 +398,7 @@
       "name": "label",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "files": [
         {
@@ -434,8 +414,7 @@
       "dependencies": [
         "@radix-ui/react-dialog",
         "cmdk",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/command.json"
@@ -464,8 +443,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "button"
@@ -487,8 +465,7 @@
       "name": "popover",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-popover",
-        "react"
+        "@radix-ui/react-popover"
       ],
       "files": [
         {
@@ -502,8 +479,7 @@
       "name": "progress",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-progress",
-        "react"
+        "@radix-ui/react-progress"
       ],
       "files": [
         {
@@ -517,8 +493,7 @@
       "name": "radio-group",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "files": [
         {
@@ -547,8 +522,7 @@
       "name": "scroll-area",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-scroll-area",
-        "react"
+        "@radix-ui/react-scroll-area"
       ],
       "files": [
         {
@@ -563,8 +537,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -578,8 +551,7 @@
       "name": "select-native",
       "type": "registry:ui",
       "dependencies": [
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -594,8 +566,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/tooltip.json"
@@ -633,8 +604,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -659,8 +629,7 @@
       "name": "switch",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-switch",
-        "react"
+        "@radix-ui/react-switch"
       ],
       "files": [
         {
@@ -673,9 +642,6 @@
     {
       "name": "table",
       "type": "registry:ui",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:ui",
@@ -688,8 +654,7 @@
       "name": "tabs",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-tabs",
-        "react"
+        "@radix-ui/react-tabs"
       ],
       "files": [
         {
@@ -702,9 +667,6 @@
     {
       "name": "textarea",
       "type": "registry:ui",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:ui",
@@ -717,8 +679,7 @@
       "name": "timeline",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-slot",
-        "react"
+        "@radix-ui/react-slot"
       ],
       "files": [
         {
@@ -734,8 +695,7 @@
       "dependencies": [
         "@radix-ui/react-toast",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -761,8 +721,7 @@
       "dependencies": [
         "@radix-ui/react-toast",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -787,8 +746,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-toggle",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "files": [
         {
@@ -804,8 +762,7 @@
       "dependencies": [
         "@radix-ui/react-toggle",
         "@radix-ui/react-toggle-group",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "toggle"
@@ -827,8 +784,7 @@
       "name": "tooltip",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "files": [
         {
@@ -870,7 +826,6 @@
         "cmdk",
         "lucide-react",
         "next-themes",
-        "react",
         "react-aria-components",
         "react-day-picker",
         "react-resizable-panels",
@@ -1097,9 +1052,6 @@
     {
       "name": "use-character-limit",
       "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:hook",
@@ -1111,9 +1063,6 @@
     {
       "name": "use-file-upload",
       "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:hook",
@@ -1136,9 +1085,6 @@
     {
       "name": "use-slider-with-input",
       "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:hook",
@@ -1153,8 +1099,7 @@
       "dependencies": [
         "@radix-ui/react-toast",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -1199,8 +1144,7 @@
       "name": "comp-01",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1234,8 +1178,7 @@
       "name": "comp-02",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1270,8 +1213,7 @@
       "name": "comp-03",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1306,8 +1248,7 @@
       "name": "comp-04",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1342,8 +1283,7 @@
       "name": "comp-05",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1377,8 +1317,7 @@
       "name": "comp-06",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1413,8 +1352,7 @@
       "name": "comp-07",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1448,8 +1386,7 @@
       "name": "comp-08",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1485,8 +1422,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1521,8 +1457,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1556,8 +1491,7 @@
       "name": "comp-11",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1591,8 +1525,7 @@
       "name": "comp-12",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1626,8 +1559,7 @@
       "name": "comp-13",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1661,8 +1593,7 @@
       "name": "comp-14",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1696,8 +1627,7 @@
       "name": "comp-15",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1731,8 +1661,7 @@
       "name": "comp-16",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1767,8 +1696,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1811,8 +1739,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1855,8 +1782,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1892,8 +1818,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1928,8 +1853,7 @@
       "name": "comp-21",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1966,8 +1890,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2008,8 +1931,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2046,8 +1968,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2082,8 +2003,7 @@
       "name": "comp-25",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2120,8 +2040,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2158,8 +2077,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2243,8 +2161,7 @@
       "name": "comp-30",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2278,9 +2195,6 @@
     {
       "name": "comp-31",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "registryDependencies": [
         "https://originui.com/r/input.json"
       ],
@@ -2306,9 +2220,6 @@
     {
       "name": "comp-32",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "registryDependencies": [
         "https://originui.com/r/input.json"
       ],
@@ -2334,9 +2245,6 @@
     {
       "name": "comp-33",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -2355,8 +2263,7 @@
       "name": "comp-34",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2395,8 +2302,7 @@
       "name": "comp-35",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2589,7 +2495,6 @@
       "dependencies": [
         "@internationalized/date",
         "lucide-react",
-        "react",
         "react-aria-components"
       ],
       "registryDependencies": [
@@ -2630,7 +2535,6 @@
       "dependencies": [
         "@internationalized/date",
         "lucide-react",
-        "react",
         "react-aria-components"
       ],
       "registryDependencies": [
@@ -2672,7 +2576,6 @@
       "dependencies": [
         "@internationalized/date",
         "lucide-react",
-        "react",
         "react-aria",
         "react-aria-components"
       ],
@@ -2714,8 +2617,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "input-otp",
-        "react"
+        "input-otp"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json"
@@ -2746,8 +2648,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "input-otp",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json"
@@ -2778,7 +2679,6 @@
       "dependencies": [
         "@radix-ui/react-label",
         "lucide-react",
-        "react",
         "react-phone-number-input"
       ],
       "registryDependencies": [
@@ -2816,7 +2716,6 @@
       "dependencies": [
         "@radix-ui/react-label",
         "lucide-react",
-        "react",
         "react-payment-inputs"
       ],
       "devDependencies": [
@@ -2859,7 +2758,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "react",
         "react-payment-inputs"
       ],
       "devDependencies": [
@@ -2902,7 +2800,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "react",
         "react-payment-inputs"
       ],
       "devDependencies": [
@@ -2945,7 +2842,6 @@
       "type": "registry:component",
       "dependencies": [
         "lucide-react",
-        "react",
         "react-payment-inputs"
       ],
       "devDependencies": [
@@ -2983,8 +2879,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -3019,8 +2914,7 @@
       "name": "comp-52",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -3057,8 +2951,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-tooltip",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -3100,7 +2993,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "react",
         "use-mask-input"
       ],
       "registryDependencies": [
@@ -3137,7 +3029,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "react",
         "use-mask-input"
       ],
       "registryDependencies": [
@@ -3175,8 +3066,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "emblor",
-        "react"
+        "emblor"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json"
@@ -3207,8 +3097,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "emblor",
-        "react"
+        "emblor"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json"
@@ -3239,8 +3128,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "input-otp",
-        "react"
+        "input-otp"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json"
@@ -3269,8 +3157,7 @@
       "name": "comp-59",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3304,8 +3191,7 @@
       "name": "comp-60",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3340,8 +3226,7 @@
       "name": "comp-61",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3376,8 +3261,7 @@
       "name": "comp-62",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3417,8 +3301,7 @@
       "name": "comp-63",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3452,8 +3335,7 @@
       "name": "comp-64",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3488,8 +3370,7 @@
       "name": "comp-65",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3523,8 +3404,7 @@
       "name": "comp-66",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3558,8 +3438,7 @@
       "name": "comp-67",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3596,8 +3475,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -3640,8 +3518,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -3684,8 +3561,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -3726,8 +3602,7 @@
       "name": "comp-71",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3760,9 +3635,6 @@
     {
       "name": "comp-72",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "registryDependencies": [
         "https://originui.com/r/textarea.json"
       ],
@@ -3788,9 +3660,6 @@
     {
       "name": "comp-73",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -3809,8 +3678,7 @@
       "name": "comp-74",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3849,8 +3717,7 @@
       "name": "comp-75",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3884,8 +3751,7 @@
       "name": "comp-76",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3920,8 +3786,7 @@
       "name": "comp-77",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3956,8 +3821,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -3986,8 +3850,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4017,8 +3880,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4048,8 +3910,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4079,8 +3940,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4111,8 +3971,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4142,8 +4001,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4173,8 +4031,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4205,8 +4062,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4237,8 +4093,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4268,8 +4123,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4299,8 +4153,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4330,8 +4183,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4362,8 +4214,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4393,8 +4244,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4425,8 +4275,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4456,8 +4305,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4491,8 +4339,7 @@
         "@radix-ui/react-avatar",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4531,8 +4378,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4562,8 +4408,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4593,8 +4438,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4626,8 +4470,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -4663,8 +4506,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4697,8 +4539,7 @@
         "@radix-ui/react-toggle",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/toggle.json",
@@ -4735,8 +4576,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4768,8 +4608,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4801,8 +4640,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4835,8 +4673,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -4873,8 +4710,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4906,8 +4742,7 @@
         "@radix-ui/react-toggle",
         "@radix-ui/react-toggle-group",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/toggle-group.json"
@@ -4943,8 +4778,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4976,8 +4810,7 @@
       "dependencies": [
         "@radix-ui/react-toggle",
         "@radix-ui/react-toggle-group",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/toggle-group.json"
@@ -5013,8 +4846,7 @@
       "dependencies": [
         "@radix-ui/react-toggle",
         "@radix-ui/react-toggle-group",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/toggle-group.json"
@@ -5050,8 +4882,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5081,8 +4912,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5112,8 +4942,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5144,8 +4973,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5177,8 +5005,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5209,8 +5036,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5241,8 +5067,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5274,8 +5099,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5307,8 +5131,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5341,8 +5164,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5375,8 +5197,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5409,8 +5230,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5443,8 +5263,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5475,8 +5294,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5507,8 +5325,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5548,8 +5365,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5589,8 +5405,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5620,8 +5435,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5651,8 +5465,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -5690,8 +5503,7 @@
       "dependencies": [
         "@radix-ui/react-toggle",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/toggle.json"
@@ -5724,8 +5536,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -5761,8 +5572,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -5798,8 +5608,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -5835,8 +5644,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -5872,8 +5680,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -5910,8 +5717,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -5947,8 +5753,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -5984,8 +5789,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6023,8 +5827,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6060,8 +5863,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6097,8 +5899,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6134,8 +5935,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6178,8 +5978,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6215,8 +6014,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6253,8 +6051,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6291,8 +6088,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6330,8 +6126,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6368,8 +6163,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox-tree.json",
@@ -6411,8 +6205,7 @@
       "name": "comp-149",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-checkbox",
-        "react"
+        "@radix-ui/react-checkbox"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json"
@@ -6443,8 +6236,7 @@
       "name": "comp-150",
       "type": "registry:component",
       "dependencies": [
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -6468,8 +6260,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6505,8 +6296,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -6542,8 +6332,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -6579,8 +6368,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -6616,8 +6404,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -6653,8 +6440,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -6698,8 +6484,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-radio-group",
-        "@remixicon/react",
-        "react"
+        "@remixicon/react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -6735,8 +6520,7 @@
       "name": "comp-158",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -6768,8 +6552,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -6806,8 +6589,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -6844,8 +6626,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -6883,8 +6664,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-radio-group",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -6921,8 +6701,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-radio-group",
-        "@remixicon/react",
-        "react"
+        "@remixicon/react"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -6954,8 +6733,7 @@
       "name": "comp-164",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -6987,8 +6765,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7027,8 +6804,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-radio-group",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -7070,8 +6846,7 @@
       "name": "comp-167",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -7102,8 +6877,7 @@
       "name": "comp-168",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -7135,8 +6909,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-radio-group",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -7166,8 +6939,7 @@
       "name": "comp-170",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-radio-group",
-        "react"
+        "@radix-ui/react-radio-group"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -7200,8 +6972,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-radio-group",
-        "@remixicon/react",
-        "react"
+        "@remixicon/react"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -7234,8 +7005,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-switch",
-        "react"
+        "@radix-ui/react-switch"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7271,8 +7041,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-switch",
-        "react"
+        "@radix-ui/react-switch"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7308,8 +7077,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-switch",
-        "react"
+        "@radix-ui/react-switch"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7345,8 +7113,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-switch",
-        "react"
+        "@radix-ui/react-switch"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7382,8 +7149,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-switch",
-        "react"
+        "@radix-ui/react-switch"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7419,8 +7185,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-switch",
-        "react"
+        "@radix-ui/react-switch"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7456,8 +7221,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-switch",
-        "react"
+        "@radix-ui/react-switch"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7493,8 +7257,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-switch",
-        "react"
+        "@radix-ui/react-switch"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7530,8 +7293,7 @@
       "name": "comp-180",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-switch",
-        "react"
+        "@radix-ui/react-switch"
       ],
       "registryDependencies": [
         "https://originui.com/r/switch.json"
@@ -7563,8 +7325,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7602,8 +7363,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-switch",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/switch.json"
@@ -7636,8 +7396,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7676,8 +7435,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7715,8 +7473,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-switch",
-        "react"
+        "@radix-ui/react-switch"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7753,8 +7510,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-switch",
-        "react"
+        "@radix-ui/react-switch"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7792,8 +7548,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-switch",
-        "react"
+        "@radix-ui/react-switch"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7831,8 +7586,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "@radix-ui/react-switch",
-        "react"
+        "@radix-ui/react-switch"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7870,8 +7624,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7907,8 +7660,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7944,8 +7696,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7982,8 +7733,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8019,8 +7769,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8056,8 +7805,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8094,8 +7842,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8131,8 +7878,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8169,8 +7915,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8206,8 +7951,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8243,8 +7987,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8280,8 +8023,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8318,8 +8060,7 @@
       "name": "comp-201",
       "type": "registry:component",
       "dependencies": [
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/select-native.json"
@@ -8348,8 +8089,7 @@
       "name": "comp-202",
       "type": "registry:component",
       "dependencies": [
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/select-native.json"
@@ -8380,8 +8120,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8418,8 +8157,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8456,8 +8194,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8494,8 +8231,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8533,8 +8269,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8571,8 +8306,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8609,8 +8343,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8647,8 +8380,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8686,8 +8418,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8725,8 +8456,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8763,8 +8493,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8801,8 +8530,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8839,8 +8567,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8877,8 +8604,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/select.json"
@@ -8908,8 +8634,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/select.json"
@@ -8940,8 +8665,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8980,8 +8704,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9018,8 +8741,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9057,8 +8779,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9096,8 +8817,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-select",
         "@remixicon/react",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9135,8 +8855,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-select",
         "@remixicon/react",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9173,8 +8892,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9211,8 +8929,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9250,8 +8967,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9291,8 +9007,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9332,8 +9047,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9377,8 +9091,7 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "cmdk",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -9441,8 +9154,7 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "cmdk",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -9505,8 +9217,7 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "cmdk",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -9571,8 +9282,7 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "cmdk",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -9636,8 +9346,7 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "cmdk",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -9697,8 +9406,7 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-label",
         "cmdk",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9751,8 +9459,7 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-label",
         "cmdk",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9803,8 +9510,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9841,7 +9547,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "react",
         "react-aria-components"
       ],
       "registryDependencies": [
@@ -9873,7 +9578,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "react",
         "react-aria-components"
       ],
       "registryDependencies": [
@@ -9905,7 +9609,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "react",
         "react-aria-components"
       ],
       "registryDependencies": [
@@ -9938,8 +9641,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9981,8 +9683,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10025,8 +9726,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10068,8 +9768,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10111,8 +9810,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10154,8 +9852,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10197,8 +9894,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10240,8 +9936,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10283,8 +9978,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10326,8 +10020,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10370,8 +10063,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10415,8 +10107,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10461,8 +10152,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10506,8 +10196,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10554,8 +10243,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -10619,8 +10307,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -10674,8 +10361,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10719,8 +10405,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10764,8 +10449,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -10824,8 +10508,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -10877,8 +10560,7 @@
         "@radix-ui/react-slider",
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -10928,8 +10610,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10972,8 +10653,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -11028,8 +10708,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -11076,8 +10755,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -11141,8 +10819,7 @@
         "@radix-ui/react-slider",
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -11203,8 +10880,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -11503,8 +11179,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -11536,8 +11211,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -11569,8 +11243,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -11602,8 +11275,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -11635,8 +11307,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -11668,8 +11339,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -11701,8 +11371,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -11734,8 +11403,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -11767,8 +11435,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -11801,8 +11468,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -11834,8 +11500,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -11868,8 +11533,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -11902,8 +11566,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -11936,8 +11599,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -11970,8 +11632,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12006,8 +11667,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12040,8 +11700,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12073,8 +11732,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12107,8 +11765,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-toast",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -12153,8 +11810,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-toast",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -12194,7 +11850,6 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "react",
         "sonner"
       ],
       "registryDependencies": [
@@ -12230,7 +11885,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "lucide-react",
-        "react",
         "sonner"
       ],
       "registryDependencies": [
@@ -12265,8 +11919,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12359,8 +12012,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12390,8 +12042,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12421,8 +12072,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12452,8 +12102,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12483,8 +12132,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12514,8 +12162,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12566,8 +12213,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12597,8 +12243,7 @@
       "dependencies": [
         "@radix-ui/react-alert-dialog",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/alert-dialog.json",
@@ -12639,8 +12284,7 @@
         "@radix-ui/react-alert-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/alert-dialog.json",
@@ -12681,8 +12325,7 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -12722,8 +12365,7 @@
         "@radix-ui/react-scroll-area",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -12768,8 +12410,7 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -12808,8 +12449,7 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -12848,8 +12488,7 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -12889,8 +12528,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -12942,8 +12580,7 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -12991,8 +12628,7 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13041,8 +12677,7 @@
         "@radix-ui/react-radio-group",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13103,8 +12738,7 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "input-otp",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13145,8 +12779,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13202,8 +12835,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13265,8 +12897,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13329,7 +12960,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "lucide-react",
-        "react",
         "react-payment-inputs"
       ],
       "devDependencies": [
@@ -13397,7 +13027,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "lucide-react",
-        "react",
         "react-payment-inputs"
       ],
       "devDependencies": [
@@ -13470,8 +13099,7 @@
         "@radix-ui/react-radio-group",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13524,8 +13152,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13597,8 +13224,7 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13637,8 +13263,7 @@
       "dependencies": [
         "@radix-ui/react-dialog",
         "cmdk",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/command.json"
@@ -13680,8 +13305,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -13711,8 +13335,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -13742,8 +13365,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -13773,8 +13395,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -13804,8 +13425,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -13835,8 +13455,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -13866,8 +13485,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -13897,8 +13515,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -13928,8 +13545,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -13959,8 +13575,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -13990,8 +13605,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14021,8 +13635,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14052,8 +13665,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14083,8 +13695,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14114,8 +13725,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14145,8 +13755,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14176,8 +13785,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14207,8 +13815,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14239,8 +13846,7 @@
       "dependencies": [
         "@radix-ui/react-accordion",
         "@radix-ui/react-collapsible",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json",
@@ -14278,8 +13884,7 @@
       "dependencies": [
         "@radix-ui/react-accordion",
         "@radix-ui/react-collapsible",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json",
@@ -14317,8 +13922,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14355,8 +13959,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14393,8 +13996,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14431,8 +14033,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14470,8 +14071,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14508,8 +14108,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14548,8 +14147,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14588,8 +14186,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14626,8 +14223,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14665,8 +14261,7 @@
       "dependencies": [
         "@radix-ui/react-hover-card",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14705,8 +14300,7 @@
       "name": "comp-364",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-hover-card",
-        "react"
+        "@radix-ui/react-hover-card"
       ],
       "registryDependencies": [
         "https://originui.com/r/hover-card.json"
@@ -14739,8 +14333,7 @@
       "name": "comp-365",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-hover-card",
-        "react"
+        "@radix-ui/react-hover-card"
       ],
       "registryDependencies": [
         "https://originui.com/r/hover-card.json"
@@ -14774,8 +14367,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14813,8 +14405,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14852,8 +14443,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14891,8 +14481,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14930,8 +14519,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14969,8 +14557,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15009,8 +14596,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15049,8 +14635,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15090,8 +14675,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15132,8 +14716,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15173,8 +14756,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15216,8 +14798,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json",
@@ -15264,8 +14845,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15304,8 +14884,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15344,8 +14923,7 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15386,8 +14964,7 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15438,8 +15015,7 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -15484,8 +15060,7 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -15530,8 +15105,7 @@
       "dependencies": [
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15569,8 +15143,7 @@
       "dependencies": [
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15609,8 +15182,7 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15651,8 +15223,7 @@
         "@radix-ui/react-tooltip",
         "@remixicon/react",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15704,8 +15275,7 @@
       "dependencies": [
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15751,8 +15321,7 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15788,8 +15357,7 @@
       "name": "comp-390",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-avatar",
-        "react"
+        "@radix-ui/react-avatar"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -15819,8 +15387,7 @@
       "name": "comp-391",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-avatar",
-        "react"
+        "@radix-ui/react-avatar"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -15851,8 +15418,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-avatar",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -15882,8 +15448,7 @@
       "name": "comp-393",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-avatar",
-        "react"
+        "@radix-ui/react-avatar"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -15913,8 +15478,7 @@
       "name": "comp-394",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-avatar",
-        "react"
+        "@radix-ui/react-avatar"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -15945,8 +15509,7 @@
       "name": "comp-395",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-avatar",
-        "react"
+        "@radix-ui/react-avatar"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -15977,8 +15540,7 @@
       "name": "comp-396",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-avatar",
-        "react"
+        "@radix-ui/react-avatar"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -16009,8 +15571,7 @@
       "name": "comp-397",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-avatar",
-        "react"
+        "@radix-ui/react-avatar"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -16044,8 +15605,7 @@
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json",
@@ -16085,8 +15645,7 @@
       "dependencies": [
         "@radix-ui/react-avatar",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json",
@@ -16288,8 +15847,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -16319,8 +15877,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -16350,8 +15907,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -16399,8 +15955,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -16430,8 +15985,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -16462,8 +16016,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -16493,8 +16046,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -16525,8 +16077,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -16556,8 +16107,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -16589,8 +16139,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -16621,8 +16170,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -16653,8 +16201,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -16685,8 +16232,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -16719,8 +16265,7 @@
         "@radix-ui/react-checkbox",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -16757,8 +16302,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -16786,8 +16330,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -16817,8 +16360,7 @@
       "name": "comp-426",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-tabs",
-        "react"
+        "@radix-ui/react-tabs"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -16848,8 +16390,7 @@
       "name": "comp-427",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-tabs",
-        "react"
+        "@radix-ui/react-tabs"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -16879,8 +16420,7 @@
       "name": "comp-428",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-tabs",
-        "react"
+        "@radix-ui/react-tabs"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -16910,8 +16450,7 @@
       "name": "comp-429",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-tabs",
-        "react"
+        "@radix-ui/react-tabs"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -16941,8 +16480,7 @@
       "name": "comp-430",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-tabs",
-        "react"
+        "@radix-ui/react-tabs"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -16972,8 +16510,7 @@
       "name": "comp-431",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-tabs",
-        "react"
+        "@radix-ui/react-tabs"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17003,8 +16540,7 @@
       "name": "comp-432",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-tabs",
-        "react"
+        "@radix-ui/react-tabs"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17038,8 +16574,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tabs",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/scroll-area.json",
@@ -17082,8 +16617,7 @@
       "dependencies": [
         "@radix-ui/react-scroll-area",
         "@radix-ui/react-tabs",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/scroll-area.json",
@@ -17121,8 +16655,7 @@
       "dependencies": [
         "@radix-ui/react-scroll-area",
         "@radix-ui/react-tabs",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/scroll-area.json",
@@ -17160,8 +16693,7 @@
       "dependencies": [
         "@radix-ui/react-scroll-area",
         "@radix-ui/react-tabs",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/scroll-area.json",
@@ -17201,8 +16733,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tabs",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -17245,8 +16776,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17278,8 +16808,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@radix-ui/react-tabs",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17318,8 +16847,7 @@
         "@radix-ui/react-tabs",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json",
@@ -17364,8 +16892,7 @@
         "@radix-ui/react-tabs",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json",
@@ -17406,8 +16933,7 @@
       "name": "comp-442",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-tabs",
-        "react"
+        "@radix-ui/react-tabs"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17438,8 +16964,7 @@
       "name": "comp-443",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-tabs",
-        "react"
+        "@radix-ui/react-tabs"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17471,8 +16996,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17503,8 +17027,7 @@
       "name": "comp-445",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-tabs",
-        "react"
+        "@radix-ui/react-tabs"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17537,8 +17060,7 @@
       "dependencies": [
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json",
@@ -17576,8 +17098,7 @@
       "dependencies": [
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json",
@@ -17615,8 +17136,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json"
@@ -17647,8 +17167,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json"
@@ -17679,8 +17198,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json"
@@ -17711,8 +17229,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json"
@@ -17743,8 +17260,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json"
@@ -17776,8 +17292,7 @@
       "dependencies": [
         "@radix-ui/react-select",
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json",
@@ -17816,8 +17331,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -17853,8 +17367,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -17890,8 +17403,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -17927,8 +17439,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/pagination.json"
@@ -17963,8 +17474,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -18000,8 +17510,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/pagination.json"
@@ -18041,8 +17550,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/pagination.json"
@@ -18082,8 +17590,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -18125,8 +17632,7 @@
         "@radix-ui/react-select",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/pagination.json",
@@ -18174,8 +17680,7 @@
         "@radix-ui/react-select",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -18230,8 +17735,7 @@
         "@radix-ui/react-select",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/pagination.json",
@@ -18280,8 +17784,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -18331,9 +17834,6 @@
     {
       "name": "comp-466",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
       ],
@@ -18359,9 +17859,6 @@
     {
       "name": "comp-467",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
       ],
@@ -18389,9 +17886,6 @@
     {
       "name": "comp-468",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
       ],
@@ -18417,9 +17911,6 @@
     {
       "name": "comp-469",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
       ],
@@ -18445,9 +17936,6 @@
     {
       "name": "comp-470",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
       ],
@@ -18473,9 +17961,6 @@
     {
       "name": "comp-471",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
       ],
@@ -18502,8 +17987,7 @@
       "name": "comp-472",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-checkbox",
-        "react"
+        "@radix-ui/react-checkbox"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -18538,8 +18022,7 @@
       "name": "comp-473",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-checkbox",
-        "react"
+        "@radix-ui/react-checkbox"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -18574,9 +18057,6 @@
     {
       "name": "comp-474",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
       ],
@@ -18603,9 +18083,6 @@
     {
       "name": "comp-475",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
       ],
@@ -18633,8 +18110,7 @@
       "name": "comp-476",
       "type": "registry:component",
       "dependencies": [
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
@@ -18665,8 +18141,7 @@
         "@radix-ui/react-checkbox",
         "@radix-ui/react-slot",
         "@tanstack/react-table",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -18715,8 +18190,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-select",
         "@tanstack/react-table",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -18777,8 +18251,7 @@
       "type": "registry:component",
       "dependencies": [
         "@tanstack/react-table",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
@@ -18814,8 +18287,7 @@
         "@radix-ui/react-slot",
         "@tanstack/react-table",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -18866,8 +18338,7 @@
         "@radix-ui/react-slot",
         "@tanstack/react-table",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -18910,8 +18381,7 @@
         "@radix-ui/react-slot",
         "@tanstack/react-table",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -18969,8 +18439,7 @@
         "@radix-ui/react-slot",
         "@tanstack/react-table",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -19046,8 +18515,7 @@
         "@radix-ui/react-slot",
         "@tanstack/react-table",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -19126,8 +18594,7 @@
         "@radix-ui/react-slot",
         "@tanstack/react-table",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/alert-dialog.json",
@@ -19224,8 +18691,7 @@
       "name": "comp-486",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "react"
+        "@radix-ui/react-label"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -19262,7 +18728,6 @@
       "dependencies": [
         "@internationalized/date",
         "lucide-react",
-        "react",
         "react-aria-components"
       ],
       "registryDependencies": [
@@ -19295,7 +18760,6 @@
       "dependencies": [
         "@internationalized/date",
         "lucide-react",
-        "react",
         "react-aria-components"
       ],
       "registryDependencies": [
@@ -19329,7 +18793,6 @@
       "dependencies": [
         "@internationalized/date",
         "lucide-react",
-        "react",
         "react-aria",
         "react-aria-components"
       ],
@@ -19366,7 +18829,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -19406,7 +18868,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -19447,7 +18908,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -19489,7 +18949,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -19528,7 +18987,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -19568,7 +19026,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -19608,7 +19065,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -19648,7 +19104,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -19694,7 +19149,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -19739,7 +19193,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -19780,7 +19233,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -19822,7 +19274,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -19865,7 +19316,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -19918,7 +19368,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -19974,7 +19423,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -20030,7 +19478,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -20080,7 +19527,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -20123,7 +19569,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -20167,7 +19612,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -20209,7 +19653,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -20251,7 +19694,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -20294,7 +19736,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -20350,7 +19791,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "registryDependencies": [
@@ -20401,8 +19841,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20431,8 +19870,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20461,8 +19899,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20492,8 +19929,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20528,8 +19964,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20563,8 +19998,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20593,8 +20027,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20624,8 +20057,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20660,8 +20092,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20695,8 +20126,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20725,8 +20155,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20755,8 +20184,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20785,8 +20213,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20815,8 +20242,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20847,8 +20273,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20883,8 +20308,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20914,8 +20338,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -20944,8 +20367,7 @@
       "name": "comp-530",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-slot",
-        "react"
+        "@radix-ui/react-slot"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -20974,8 +20396,7 @@
       "name": "comp-531",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-slot",
-        "react"
+        "@radix-ui/react-slot"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -21004,8 +20425,7 @@
       "name": "comp-532",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-slot",
-        "react"
+        "@radix-ui/react-slot"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -21034,8 +20454,7 @@
       "name": "comp-533",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-slot",
-        "react"
+        "@radix-ui/react-slot"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -21065,8 +20484,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -21096,8 +20514,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -21126,8 +20543,7 @@
       "name": "comp-536",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-slot",
-        "react"
+        "@radix-ui/react-slot"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -21156,8 +20572,7 @@
       "name": "comp-537",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-slot",
-        "react"
+        "@radix-ui/react-slot"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -21186,8 +20601,7 @@
       "name": "comp-538",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-slot",
-        "react"
+        "@radix-ui/react-slot"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -21217,8 +20631,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -21247,8 +20660,7 @@
       "name": "comp-540",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-slot",
-        "react"
+        "@radix-ui/react-slot"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -21276,8 +20688,7 @@
       "name": "comp-541",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-slot",
-        "react"
+        "@radix-ui/react-slot"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -21320,7 +20731,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker",
         "sonner"
       ],
@@ -21498,8 +20908,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -21535,8 +20944,7 @@
       "name": "comp-544",
       "type": "registry:component",
       "dependencies": [
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -21566,8 +20974,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -21605,8 +21012,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -21644,8 +21050,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -21683,8 +21088,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -21722,8 +21126,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -21761,8 +21164,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -21800,8 +21202,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -21845,8 +21246,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -21884,8 +21284,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -21927,8 +21326,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -22174,8 +21572,7 @@
       "dependencies": [
         "@origin-space/image-cropper",
         "@radix-ui/react-slider",
-        "@radix-ui/react-tooltip",
-        "react"
+        "@radix-ui/react-tooltip"
       ],
       "registryDependencies": [
         "https://originui.com/r/cropper.json",
@@ -22247,8 +21644,7 @@
       "name": "comp-563",
       "type": "registry:component",
       "dependencies": [
-        "@origin-space/image-cropper",
-        "react"
+        "@origin-space/image-cropper"
       ],
       "registryDependencies": [
         "https://originui.com/r/cropper.json"
@@ -22280,8 +21676,7 @@
       "dependencies": [
         "@origin-space/image-cropper",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "react"
+        "class-variance-authority"
       ],
       "registryDependencies": [
         "https://originui.com/r/cropper.json"
@@ -22328,8 +21723,7 @@
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
-        "date-fns",
-        "react"
+        "date-fns"
       ],
       "files": [
         {
@@ -22359,8 +21753,7 @@
       "name": "event-calendar-day-view",
       "type": "registry:component",
       "dependencies": [
-        "date-fns",
-        "react"
+        "date-fns"
       ],
       "files": [
         {
@@ -22385,8 +21778,7 @@
       "type": "registry:component",
       "dependencies": [
         "@dnd-kit/core",
-        "date-fns",
-        "react"
+        "date-fns"
       ],
       "files": [
         {
@@ -22407,8 +21799,7 @@
       "dependencies": [
         "@dnd-kit/core",
         "@dnd-kit/utilities",
-        "date-fns",
-        "react"
+        "date-fns"
       ],
       "files": [
         {
@@ -22452,7 +21843,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "sonner"
       ],
       "files": [
@@ -22493,7 +21883,6 @@
         "class-variance-authority",
         "date-fns",
         "lucide-react",
-        "react",
         "react-day-picker"
       ],
       "files": [
@@ -22569,8 +21958,7 @@
       "type": "registry:component",
       "dependencies": [
         "@dnd-kit/core",
-        "date-fns",
-        "react"
+        "date-fns"
       ],
       "files": [
         {
@@ -22590,8 +21978,7 @@
       "type": "registry:component",
       "dependencies": [
         "date-fns",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -22611,8 +21998,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-popover",
-        "date-fns",
-        "react"
+        "date-fns"
       ],
       "files": [
         {
@@ -22652,8 +22038,7 @@
       "name": "event-calendar-use-current-time-indicator",
       "type": "registry:component",
       "dependencies": [
-        "date-fns",
-        "react"
+        "date-fns"
       ],
       "files": [
         {
@@ -22671,9 +22056,6 @@
     {
       "name": "event-calendar-use-event-visibility",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -22705,8 +22087,7 @@
       "name": "event-calendar-week-view",
       "type": "registry:component",
       "dependencies": [
-        "date-fns",
-        "react"
+        "date-fns"
       ],
       "files": [
         {

@@ -8,7 +8,6 @@
     "clsx",
     "lucide-react",
     "next",
-    "react",
     "tailwind-merge"
   ],
   "files": [

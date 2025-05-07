@@ -10,7 +10,6 @@
     "lucide-react",
     "motion",
     "path",
-    "react",
     "tailwind-merge"
   ],
   "files": [

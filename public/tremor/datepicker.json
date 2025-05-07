@@ -11,7 +11,6 @@
     "@remixicon/react",
     "clsx",
     "date-fns",
-    "react",
     "react-day-picker",
     "tailwind-merge",
     "tailwind-variants"

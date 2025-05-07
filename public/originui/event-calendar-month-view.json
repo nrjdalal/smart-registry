@@ -4,8 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-popover",
-    "date-fns",
-    "react"
+    "date-fns"
   ],
   "files": [
     {

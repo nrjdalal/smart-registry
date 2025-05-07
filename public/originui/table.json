@@ -2,9 +2,6 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "table",
   "type": "registry:ui",
-  "dependencies": [
-    "react"
-  ],
   "files": [
     {
       "type": "registry:ui",

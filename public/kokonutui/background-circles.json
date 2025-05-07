@@ -4,8 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "clsx",
-    "motion",
-    "react"
+    "motion"
   ],
   "files": [
     {

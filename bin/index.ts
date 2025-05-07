@@ -302,6 +302,13 @@ const main = async () => {
           }
         }
 
+        // ~ Remove language-specific dependencies
+        if (registryItem.dependencies) {
+          registryItem.dependencies = registryItem.dependencies.filter(
+            (dep: string) => dep !== "react",
+          )
+        }
+
         // ~ Remove empty properties from the registry item
         for (const key in registryItem) {
           if (

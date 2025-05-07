@@ -3,8 +3,7 @@
   "name": "label",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-label",
-    "react"
+    "@radix-ui/react-label"
   ],
   "files": [
     {

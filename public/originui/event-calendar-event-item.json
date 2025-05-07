@@ -4,8 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@dnd-kit/core",
-    "date-fns",
-    "react"
+    "date-fns"
   ],
   "files": [
     {

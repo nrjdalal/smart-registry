@@ -3,8 +3,7 @@
   "name": "comp-150",
   "type": "registry:component",
   "dependencies": [
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "files": [
     {

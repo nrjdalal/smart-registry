@@ -7,8 +7,7 @@
     "@radix-ui/react-slot",
     "@radix-ui/react-tabs",
     "class-variance-authority",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "registryDependencies": [
     "https://originui.com/r/badge.json",

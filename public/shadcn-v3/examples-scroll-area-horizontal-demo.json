@@ -6,7 +6,6 @@
     "@radix-ui/react-scroll-area",
     "clsx",
     "next",
-    "react",
     "tailwind-merge"
   ],
   "files": [

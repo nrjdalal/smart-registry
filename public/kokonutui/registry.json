@@ -37,7 +37,6 @@
         "@radix-ui/react-accordion",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -91,7 +90,6 @@
       "dependencies": [
         "@radix-ui/react-avatar",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -113,7 +111,6 @@
       "dependencies": [
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -139,7 +136,6 @@
         "lucide-react",
         "motion",
         "next-view-transitions",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -170,7 +166,6 @@
         "lucide-react",
         "motion",
         "next-view-transitions",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -198,7 +193,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -219,7 +213,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -242,7 +235,6 @@
         "@radix-ui/react-dialog",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -265,7 +257,6 @@
         "@radix-ui/react-dropdown-menu",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -286,7 +277,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -309,7 +299,6 @@
         "@radix-ui/react-label",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -331,7 +320,6 @@
       "dependencies": [
         "@radix-ui/react-popover",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -353,7 +341,6 @@
       "dependencies": [
         "@radix-ui/react-progress",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -375,7 +362,6 @@
       "dependencies": [
         "@radix-ui/react-scroll-area",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -398,7 +384,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -420,7 +405,6 @@
       "dependencies": [
         "@radix-ui/react-separator",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -444,7 +428,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -471,7 +454,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -548,7 +530,6 @@
       "dependencies": [
         "@radix-ui/react-slider",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -570,7 +551,6 @@
       "dependencies": [
         "@radix-ui/react-tabs",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -591,7 +571,6 @@
       "type": "registry:ui",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -613,7 +592,6 @@
       "dependencies": [
         "@radix-ui/react-tooltip",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -652,7 +630,6 @@
         "lucide-react",
         "motion",
         "next-view-transitions",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -796,9 +773,6 @@
     {
       "name": "use-auto-resize-textarea",
       "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:hook",
@@ -810,9 +784,6 @@
     {
       "name": "use-click-outside",
       "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:hook",
@@ -824,9 +795,6 @@
     {
       "name": "use-copy-to-clipboard",
       "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:hook",
@@ -838,9 +806,6 @@
     {
       "name": "use-debounce",
       "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:hook",
@@ -852,9 +817,6 @@
     {
       "name": "use-file-input",
       "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:hook",
@@ -866,9 +828,6 @@
     {
       "name": "use-intersection",
       "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:hook",
@@ -880,9 +839,6 @@
     {
       "name": "use-mobile",
       "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:hook",
@@ -894,9 +850,6 @@
     {
       "name": "use-tags",
       "type": "registry:hook",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:hook",
@@ -910,8 +863,7 @@
       "type": "registry:lib",
       "dependencies": [
         "fs",
-        "path",
-        "react"
+        "path"
       ],
       "files": [
         {
@@ -976,8 +928,7 @@
       "type": "registry:lib",
       "dependencies": [
         "lucide-react",
-        "motion",
-        "react"
+        "motion"
       ],
       "files": [
         {
@@ -1016,7 +967,6 @@
       "type": "registry:lib",
       "dependencies": [
         "hast-util-to-jsx-runtime",
-        "react",
         "shiki"
       ],
       "files": [
@@ -1033,8 +983,7 @@
       "dependencies": [
         "fumadocs-core",
         "fumadocs-mdx",
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -1054,8 +1003,7 @@
       "type": "registry:lib",
       "dependencies": [
         "lucide-react",
-        "next-themes",
-        "react"
+        "next-themes"
       ],
       "files": [
         {
@@ -1087,7 +1035,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1121,7 +1068,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1181,8 +1127,7 @@
       "name": "ai-card-generation-error-generation",
       "type": "registry:component",
       "dependencies": [
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -1199,7 +1144,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1233,9 +1177,6 @@
     {
       "name": "ai-card-generation-header-generation",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -1251,7 +1192,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1279,7 +1219,6 @@
         "@radix-ui/react-select",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1309,7 +1248,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1349,7 +1287,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1381,7 +1318,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1413,7 +1349,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1450,7 +1385,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1483,7 +1417,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1515,7 +1448,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1547,7 +1479,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1579,7 +1510,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1611,7 +1541,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1633,7 +1562,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1675,7 +1603,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1717,7 +1644,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1755,7 +1681,6 @@
         "@radix-ui/react-tooltip",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1792,7 +1717,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1824,7 +1748,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1856,7 +1779,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1890,7 +1812,6 @@
         "cmdk",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1917,7 +1838,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -1953,7 +1873,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2105,7 +2024,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2136,7 +2054,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2190,7 +2107,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2225,7 +2141,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2257,7 +2172,6 @@
       "dependencies": [
         "clsx",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2283,8 +2197,7 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "motion",
-        "react"
+        "motion"
       ],
       "files": [
         {
@@ -2302,7 +2215,6 @@
         "class-variance-authority",
         "clsx",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2329,7 +2241,6 @@
       "dependencies": [
         "clsx",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2352,7 +2263,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2381,7 +2291,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2409,7 +2318,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2439,7 +2347,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2469,7 +2376,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2499,7 +2405,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2528,7 +2433,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2557,7 +2461,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2586,7 +2489,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2614,7 +2516,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2643,7 +2544,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2672,7 +2572,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2700,7 +2599,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2728,7 +2626,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2757,7 +2654,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2786,7 +2682,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2857,7 +2752,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -2928,7 +2822,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3039,7 +2932,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3076,7 +2968,6 @@
         "lucide-react",
         "motion",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3103,7 +2994,6 @@
       "dependencies": [
         "clsx",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3139,7 +3029,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3289,7 +3178,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3383,7 +3271,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3413,7 +3300,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3473,7 +3359,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3582,7 +3467,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3616,7 +3500,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3651,7 +3534,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3693,7 +3575,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3760,7 +3641,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3827,7 +3707,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3896,7 +3775,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -3974,7 +3852,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4040,7 +3917,6 @@
       "type": "registry:component",
       "dependencies": [
         "next",
-        "react",
         "sonner"
       ],
       "files": [
@@ -4064,7 +3940,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4102,7 +3977,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4126,7 +4000,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4159,7 +4032,6 @@
         "@radix-ui/react-accordion",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4187,7 +4059,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4247,9 +4118,6 @@
     {
       "name": "icons-arrow-right-broken",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -4261,9 +4129,6 @@
     {
       "name": "icons-arrow25",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -4277,7 +4142,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4296,9 +4160,6 @@
     {
       "name": "icons-conffeti",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -4310,9 +4171,6 @@
     {
       "name": "icons-motion",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -4324,9 +4182,6 @@
     {
       "name": "icons-nextjs",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -4338,9 +4193,6 @@
     {
       "name": "icons-react",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -4363,9 +4215,6 @@
     {
       "name": "icons-tailwindcss",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -4377,9 +4226,6 @@
     {
       "name": "icons-v0",
       "type": "registry:component",
-      "dependencies": [
-        "react"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -4405,7 +4251,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4427,7 +4272,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4459,7 +4303,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4485,7 +4328,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4507,7 +4349,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4528,7 +4369,6 @@
       "type": "registry:component",
       "dependencies": [
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4550,7 +4390,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4576,8 +4415,7 @@
       "type": "registry:component",
       "dependencies": [
         "motion",
-        "next",
-        "react"
+        "next"
       ],
       "files": [
         {
@@ -4593,7 +4431,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4618,7 +4455,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4676,7 +4512,6 @@
         "clsx",
         "motion",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4714,8 +4549,7 @@
         "lucide-react",
         "next",
         "next-themes",
-        "next-view-transitions",
-        "react"
+        "next-view-transitions"
       ],
       "files": [
         {
@@ -4750,8 +4584,7 @@
       "type": "registry:component",
       "dependencies": [
         "lucide-react",
-        "next",
-        "react"
+        "next"
       ],
       "files": [
         {
@@ -4782,7 +4615,6 @@
         "motion",
         "next",
         "next-view-transitions",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4890,7 +4722,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -4914,7 +4745,6 @@
         "lucide-react",
         "motion",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5139,7 +4969,6 @@
       "dependencies": [
         "clsx",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5166,7 +4995,6 @@
         "lucide-react",
         "motion",
         "path",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5213,7 +5041,6 @@
         "lucide-react",
         "motion",
         "path",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5270,7 +5097,6 @@
         "lucide-react",
         "motion",
         "path",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5305,8 +5131,7 @@
       "name": "mdx-refresh-button",
       "type": "registry:component",
       "dependencies": [
-        "lucide-react",
-        "react"
+        "lucide-react"
       ],
       "files": [
         {
@@ -5367,8 +5192,7 @@
       "dependencies": [
         "lucide-react",
         "motion",
-        "next",
-        "react"
+        "next"
       ],
       "files": [
         {
@@ -5427,8 +5251,7 @@
       "type": "registry:component",
       "dependencies": [
         "lucide-react",
-        "motion",
-        "react"
+        "motion"
       ],
       "files": [
         {
@@ -5449,8 +5272,7 @@
       "dependencies": [
         "lucide-react",
         "motion",
-        "next",
-        "react"
+        "next"
       ],
       "files": [
         {
@@ -5467,7 +5289,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5558,7 +5379,6 @@
         "@radix-ui/react-slot",
         "class-variance-authority",
         "clsx",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5588,7 +5408,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5615,7 +5434,6 @@
       "dependencies": [
         "clsx",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5638,7 +5456,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5662,7 +5479,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5691,7 +5507,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5720,7 +5535,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5749,7 +5563,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5778,7 +5591,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5823,7 +5635,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5854,7 +5665,6 @@
         "class-variance-authority",
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5905,7 +5715,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -5945,7 +5754,6 @@
         "clsx",
         "lucide-react",
         "next",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -6093,7 +5901,6 @@
         "clsx",
         "lucide-react",
         "motion",
-        "react",
         "tailwind-merge"
       ],
       "files": [
@@ -6137,7 +5944,6 @@
       "dependencies": [
         "clsx",
         "lucide-react",
-        "react",
         "tailwind-merge"
       ],
       "files": [

@@ -3,8 +3,7 @@
   "name": "comp-563",
   "type": "registry:component",
   "dependencies": [
-    "@origin-space/image-cropper",
-    "react"
+    "@origin-space/image-cropper"
   ],
   "registryDependencies": [
     "https://originui.com/r/cropper.json"

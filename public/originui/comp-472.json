@@ -3,8 +3,7 @@
   "name": "comp-472",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-checkbox",
-    "react"
+    "@radix-ui/react-checkbox"
   ],
   "registryDependencies": [
     "https://originui.com/r/checkbox.json",

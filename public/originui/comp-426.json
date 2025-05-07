@@ -3,8 +3,7 @@
   "name": "comp-426",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-tabs",
-    "react"
+    "@radix-ui/react-tabs"
   ],
   "registryDependencies": [
     "https://originui.com/r/tabs.json"

@@ -6,8 +6,7 @@
     "@radix-ui/react-toggle",
     "@radix-ui/react-tooltip",
     "class-variance-authority",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "registryDependencies": [
     "https://originui.com/r/toggle.json",

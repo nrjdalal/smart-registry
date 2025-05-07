@@ -5,7 +5,6 @@
   "dependencies": [
     "@radix-ui/react-hover-card",
     "clsx",
-    "react",
     "tailwind-merge"
   ],
   "files": [

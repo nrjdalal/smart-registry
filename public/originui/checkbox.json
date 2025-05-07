@@ -3,8 +3,7 @@
   "name": "checkbox",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-checkbox",
-    "react"
+    "@radix-ui/react-checkbox"
   ],
   "files": [
     {

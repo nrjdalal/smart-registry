@@ -4,8 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@remixicon/react",
-    "date-fns",
-    "react"
+    "date-fns"
   ],
   "files": [
     {

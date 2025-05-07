@@ -4,7 +4,6 @@
   "type": "registry:lib",
   "dependencies": [
     "hast-util-to-jsx-runtime",
-    "react",
     "shiki"
   ],
   "files": [

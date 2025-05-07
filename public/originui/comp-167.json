@@ -3,8 +3,7 @@
   "name": "comp-167",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-radio-group",
-    "react"
+    "@radix-ui/react-radio-group"
   ],
   "registryDependencies": [
     "https://originui.com/r/radio-group.json"

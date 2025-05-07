@@ -10,7 +10,6 @@
     "class-variance-authority",
     "clsx",
     "lucide-react",
-    "react",
     "sonner",
     "tailwind-merge"
   ],

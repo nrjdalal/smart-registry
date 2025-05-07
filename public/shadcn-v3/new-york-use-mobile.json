@@ -2,9 +2,6 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york-use-mobile",
   "type": "registry:hook",
-  "dependencies": [
-    "react"
-  ],
   "files": [
     {
       "type": "registry:hook",

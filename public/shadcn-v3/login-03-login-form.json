@@ -7,7 +7,6 @@
     "@radix-ui/react-slot",
     "class-variance-authority",
     "clsx",
-    "react",
     "tailwind-merge"
   ],
   "files": [

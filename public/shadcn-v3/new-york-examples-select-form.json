@@ -12,7 +12,6 @@
     "clsx",
     "lucide-react",
     "next",
-    "react",
     "react-hook-form",
     "tailwind-merge",
     "zod"

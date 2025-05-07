@@ -6,7 +6,6 @@
     "@radix-ui/react-toggle",
     "@radix-ui/react-toggle-group",
     "clsx",
-    "react",
     "tailwind-merge"
   ],
   "files": [

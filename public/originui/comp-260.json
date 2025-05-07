@@ -7,8 +7,7 @@
     "@radix-ui/react-slider",
     "@radix-ui/react-slot",
     "@radix-ui/react-tooltip",
-    "class-variance-authority",
-    "react"
+    "class-variance-authority"
   ],
   "registryDependencies": [
     "https://originui.com/r/button.json",

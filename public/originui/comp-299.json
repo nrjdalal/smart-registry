@@ -5,7 +5,6 @@
   "dependencies": [
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "react",
     "sonner"
   ],
   "registryDependencies": [

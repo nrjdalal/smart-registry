@@ -6,7 +6,6 @@
     "@radix-ui/react-slot",
     "clsx",
     "lucide-react",
-    "react",
     "tailwind-merge"
   ],
   "files": [

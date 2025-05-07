@@ -5,8 +5,7 @@
   "dependencies": [
     "@radix-ui/react-accordion",
     "@radix-ui/react-collapsible",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "registryDependencies": [
     "https://originui.com/r/accordion.json",

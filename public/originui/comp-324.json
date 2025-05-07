@@ -7,8 +7,7 @@
     "@radix-ui/react-slot",
     "class-variance-authority",
     "input-otp",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "registryDependencies": [
     "https://originui.com/r/button.json",

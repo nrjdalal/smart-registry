@@ -3,8 +3,7 @@
   "name": "comp-397",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-avatar",
-    "react"
+    "@radix-ui/react-avatar"
   ],
   "registryDependencies": [
     "https://originui.com/r/avatar.json"

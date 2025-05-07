@@ -4,8 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-slot",
-    "class-variance-authority",
-    "react"
+    "class-variance-authority"
   ],
   "registryDependencies": [
     "https://originui.com/r/badge.json"

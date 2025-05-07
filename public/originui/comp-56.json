@@ -4,8 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
-    "emblor",
-    "react"
+    "emblor"
   ],
   "registryDependencies": [
     "https://originui.com/r/label.json"

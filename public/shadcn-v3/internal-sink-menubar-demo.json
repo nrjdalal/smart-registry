@@ -6,7 +6,6 @@
     "@radix-ui/react-menubar",
     "clsx",
     "lucide-react",
-    "react",
     "tailwind-merge"
   ],
   "files": [

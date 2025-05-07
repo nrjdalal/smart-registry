@@ -8,7 +8,6 @@
     "clsx",
     "embla-carousel-react",
     "lucide-react",
-    "react",
     "tailwind-merge"
   ],
   "registryDependencies": [

@@ -6,8 +6,7 @@
     "@radix-ui/react-checkbox",
     "@radix-ui/react-slot",
     "@tanstack/react-table",
-    "class-variance-authority",
-    "react"
+    "class-variance-authority"
   ],
   "registryDependencies": [
     "https://originui.com/r/badge.json",

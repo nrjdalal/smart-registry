@@ -8,8 +8,7 @@
     "@radix-ui/react-label",
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "registryDependencies": [
     "https://originui.com/r/button.json",

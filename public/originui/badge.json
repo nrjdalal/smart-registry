@@ -4,8 +4,7 @@
   "type": "registry:ui",
   "dependencies": [
     "@radix-ui/react-slot",
-    "class-variance-authority",
-    "react"
+    "class-variance-authority"
   ],
   "files": [
     {

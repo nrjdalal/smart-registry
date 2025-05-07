@@ -4,8 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
-    "@radix-ui/react-radio-group",
-    "react"
+    "@radix-ui/react-radio-group"
   ],
   "registryDependencies": [
     "https://originui.com/r/input.json",

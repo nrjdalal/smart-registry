@@ -3,8 +3,7 @@
   "name": "event-calendar-week-view",
   "type": "registry:component",
   "dependencies": [
-    "date-fns",
-    "react"
+    "date-fns"
   ],
   "files": [
     {

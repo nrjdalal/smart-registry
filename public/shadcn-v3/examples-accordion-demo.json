@@ -6,7 +6,6 @@
     "@radix-ui/react-accordion",
     "clsx",
     "lucide-react",
-    "react",
     "tailwind-merge"
   ],
   "files": [

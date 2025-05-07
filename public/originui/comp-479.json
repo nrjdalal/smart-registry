@@ -4,8 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@tanstack/react-table",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "registryDependencies": [
     "https://originui.com/r/table.json"

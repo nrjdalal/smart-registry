@@ -6,7 +6,6 @@
     "class-variance-authority",
     "clsx",
     "radix-ui",
-    "react",
     "tailwind-merge"
   ],
   "files": [

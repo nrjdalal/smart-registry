@@ -3,8 +3,7 @@
   "name": "switch",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-switch",
-    "react"
+    "@radix-ui/react-switch"
   ],
   "files": [
     {

@@ -5,7 +5,6 @@
   "dependencies": [
     "clsx",
     "lucide-react",
-    "react",
     "react-resizable-panels",
     "tailwind-merge"
   ],

@@ -6,8 +6,7 @@
     "@radix-ui/react-dialog",
     "@radix-ui/react-label",
     "cmdk",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "registryDependencies": [
     "https://originui.com/r/label.json",

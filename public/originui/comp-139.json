@@ -4,8 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-checkbox",
-    "@radix-ui/react-label",
-    "react"
+    "@radix-ui/react-label"
   ],
   "registryDependencies": [
     "https://originui.com/r/checkbox.json",

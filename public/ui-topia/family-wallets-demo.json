@@ -7,7 +7,6 @@
   "dependencies": [
     "lucide-react",
     "motion",
-    "react",
     "usehooks-ts"
   ],
   "registryDependencies": [

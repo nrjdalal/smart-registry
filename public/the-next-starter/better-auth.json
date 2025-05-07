@@ -12,7 +12,6 @@
     "next",
     "postgres",
     "radix-ui",
-    "react",
     "sonner",
     "tailwind-merge"
   ],

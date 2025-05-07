@@ -6,7 +6,6 @@
     "@tanstack/react-query",
     "lucide-react",
     "next-themes",
-    "react",
     "sonner"
   ],
   "devDependencies": [

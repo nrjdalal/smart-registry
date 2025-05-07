@@ -5,8 +5,7 @@
   "dependencies": [
     "@dnd-kit/core",
     "@dnd-kit/utilities",
-    "date-fns",
-    "react"
+    "date-fns"
   ],
   "files": [
     {

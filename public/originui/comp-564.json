@@ -5,8 +5,7 @@
   "dependencies": [
     "@origin-space/image-cropper",
     "@radix-ui/react-slot",
-    "class-variance-authority",
-    "react"
+    "class-variance-authority"
   ],
   "registryDependencies": [
     "https://originui.com/r/cropper.json"

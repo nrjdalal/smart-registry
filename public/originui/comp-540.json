@@ -3,8 +3,7 @@
   "name": "comp-540",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-slot",
-    "react"
+    "@radix-ui/react-slot"
   ],
   "registryDependencies": [
     "https://originui.com/r/timeline.json"

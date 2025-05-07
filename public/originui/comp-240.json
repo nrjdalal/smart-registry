@@ -5,8 +5,7 @@
   "dependencies": [
     "@radix-ui/react-label",
     "@radix-ui/react-slider",
-    "@radix-ui/react-tooltip",
-    "react"
+    "@radix-ui/react-tooltip"
   ],
   "registryDependencies": [
     "https://originui.com/r/label.json",

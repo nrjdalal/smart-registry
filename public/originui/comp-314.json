@@ -6,8 +6,7 @@
     "@radix-ui/react-alert-dialog",
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "lucide-react",
-    "react"
+    "lucide-react"
   ],
   "registryDependencies": [
     "https://originui.com/r/alert-dialog.json",

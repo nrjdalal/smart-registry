@@ -9,7 +9,6 @@
     "lucide-react",
     "next",
     "radix-ui",
-    "react",
     "tailwind-merge"
   ],
   "files": [

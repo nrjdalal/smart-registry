@@ -7,7 +7,6 @@
     "@radix-ui/react-tooltip",
     "class-variance-authority",
     "clsx",
-    "react",
     "tailwind-merge"
   ],
   "files": [

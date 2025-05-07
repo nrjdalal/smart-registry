@@ -6,7 +6,6 @@
     "@radix-ui/react-dropdown-menu",
     "@remixicon/react",
     "clsx",
-    "react",
     "tailwind-merge"
   ],
   "files": [

@@ -7,7 +7,6 @@
     "clsx",
     "lucide-react",
     "radix-ui",
-    "react",
     "react-day-picker",
     "tailwind-merge"
   ],

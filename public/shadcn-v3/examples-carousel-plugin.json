@@ -9,7 +9,6 @@
     "embla-carousel-autoplay",
     "embla-carousel-react",
     "lucide-react",
-    "react",
     "tailwind-merge"
   ],
   "files": [

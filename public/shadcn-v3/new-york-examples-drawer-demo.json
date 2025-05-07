@@ -7,7 +7,6 @@
     "class-variance-authority",
     "clsx",
     "lucide-react",
-    "react",
     "recharts",
     "tailwind-merge",
     "vaul"

@@ -6,7 +6,6 @@
     "@radix-ui/react-tooltip",
     "clsx",
     "lucide-react",
-    "react",
     "tailwind-merge"
   ],
   "files": [

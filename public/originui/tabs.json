@@ -3,8 +3,7 @@
   "name": "tabs",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-tabs",
-    "react"
+    "@radix-ui/react-tabs"
   ],
   "files": [
     {

@@ -7,7 +7,6 @@
     "@tabler/icons-react",
     "class-variance-authority",
     "clsx",
-    "react",
     "tailwind-merge"
   ],
   "files": [

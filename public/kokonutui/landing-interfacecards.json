@@ -7,7 +7,6 @@
     "lucide-react",
     "motion",
     "next",
-    "react",
     "tailwind-merge"
   ],
   "files": [
