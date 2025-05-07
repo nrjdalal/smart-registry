@@ -2,8 +2,6 @@
 
 Drop-in replacement for `shadcn build`, generate non-error prone registry with automatic detection of dependencies and files.
 
-[![GitHub](https://img.shields.io/github/license/nrjdalal/smart-registry?color=blue)](
-
 [![Twitter](https://img.shields.io/twitter/follow/nrjdalal_com?label=%40nrjdalal_com)](https://twitter.com/nrjdalal_com)
 [![npm](https://img.shields.io/npm/v/smart-registry?color=red&logo=npm)](https://www.npmjs.com/package/smart-registry)
 [![npm](https://img.shields.io/npm/dt/smart-registry?color=red&logo=npm)](https://www.npmjs.com/package/smart-registry)
