@@ -6,9 +6,7 @@
     "@radix-ui/react-label",
     "@radix-ui/react-radio-group",
     "@remixicon/react",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/label.json",

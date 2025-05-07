@@ -7,10 +7,8 @@
     "@radix-ui/react-tabs",
     "@radix-ui/react-tooltip",
     "class-variance-authority",
-    "clsx",
     "lucide-react",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/tabs.json",

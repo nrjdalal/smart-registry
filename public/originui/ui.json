@@ -28,7 +28,6 @@
     "@radix-ui/react-toggle-group",
     "@radix-ui/react-tooltip",
     "class-variance-authority",
-    "clsx",
     "cmdk",
     "lucide-react",
     "next-themes",
@@ -36,8 +35,7 @@
     "react-aria-components",
     "react-day-picker",
     "react-resizable-panels",
-    "sonner",
-    "tailwind-merge"
+    "sonner"
   ],
   "files": [
     {

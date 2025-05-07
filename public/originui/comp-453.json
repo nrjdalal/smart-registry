@@ -5,10 +5,8 @@
   "dependencies": [
     "@radix-ui/react-select",
     "@radix-ui/react-slot",
-    "clsx",
     "lucide-react",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/breadcrumb.json",

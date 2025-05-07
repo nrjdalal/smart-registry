@@ -4,9 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-checkbox",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/checkbox.json",

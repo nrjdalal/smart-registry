@@ -6,9 +6,7 @@
     "@radix-ui/react-slot",
     "@radix-ui/react-tabs",
     "class-variance-authority",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/tabs.json"

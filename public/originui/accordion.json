@@ -4,10 +4,8 @@
   "type": "registry:ui",
   "dependencies": [
     "@radix-ui/react-accordion",
-    "clsx",
     "lucide-react",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "files": [
     {

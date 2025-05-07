@@ -263,6 +263,9 @@ const main = async () => {
             registryItem.files = registryItem.files.filter(
               (file: { target: string }) => file.target !== "lib/utils.ts",
             )
+            registryItem.dependencies = registryItem.dependencies.filter(
+              (dep: string) => !["clsx", "tailwind-merge"].includes(dep),
+            )
           }
 
           if (

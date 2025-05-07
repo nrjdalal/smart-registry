@@ -5,11 +5,9 @@
   "dependencies": [
     "@radix-ui/react-dialog",
     "@radix-ui/react-label",
-    "clsx",
     "cmdk",
     "lucide-react",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/label.json",

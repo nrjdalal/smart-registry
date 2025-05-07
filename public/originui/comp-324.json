@@ -6,11 +6,9 @@
     "@radix-ui/react-dialog",
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
     "input-otp",
     "lucide-react",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/button.json",

@@ -3,9 +3,7 @@
   "name": "datefield-rac",
   "type": "registry:ui",
   "dependencies": [
-    "clsx",
-    "react-aria-components",
-    "tailwind-merge"
+    "react-aria-components"
   ],
   "files": [
     {

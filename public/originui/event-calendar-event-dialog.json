@@ -12,12 +12,10 @@
     "@radix-ui/react-slot",
     "@remixicon/react",
     "class-variance-authority",
-    "clsx",
     "date-fns",
     "lucide-react",
     "react",
-    "react-day-picker",
-    "tailwind-merge"
+    "react-day-picker"
   ],
   "files": [
     {

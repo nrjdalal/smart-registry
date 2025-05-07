@@ -12,10 +12,8 @@
     "@radix-ui/react-slot",
     "@tanstack/react-table",
     "class-variance-authority",
-    "clsx",
     "lucide-react",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/alert-dialog.json",

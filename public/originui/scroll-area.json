@@ -4,9 +4,7 @@
   "type": "registry:ui",
   "dependencies": [
     "@radix-ui/react-scroll-area",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "files": [
     {

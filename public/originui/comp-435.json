@@ -5,10 +5,8 @@
   "dependencies": [
     "@radix-ui/react-scroll-area",
     "@radix-ui/react-tabs",
-    "clsx",
     "lucide-react",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/scroll-area.json",

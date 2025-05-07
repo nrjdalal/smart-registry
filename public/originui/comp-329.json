@@ -8,11 +8,9 @@
     "@radix-ui/react-radio-group",
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
     "lucide-react",
     "react",
-    "react-payment-inputs",
-    "tailwind-merge"
+    "react-payment-inputs"
   ],
   "devDependencies": [
     "@types/react-payment-inputs"

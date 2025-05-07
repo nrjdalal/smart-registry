@@ -3,10 +3,8 @@
   "name": "comp-476",
   "type": "registry:component",
   "dependencies": [
-    "clsx",
     "lucide-react",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/table.json"

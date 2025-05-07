@@ -4,11 +4,9 @@
   "type": "registry:ui",
   "dependencies": [
     "@radix-ui/react-dialog",
-    "clsx",
     "cmdk",
     "lucide-react",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/command.json"

@@ -4,10 +4,8 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
-    "clsx",
     "react",
-    "react-payment-inputs",
-    "tailwind-merge"
+    "react-payment-inputs"
   ],
   "devDependencies": [
     "@types/react-payment-inputs"

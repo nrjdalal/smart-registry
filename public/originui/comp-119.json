@@ -6,9 +6,7 @@
     "@radix-ui/react-slot",
     "@remixicon/react",
     "class-variance-authority",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/button.json"

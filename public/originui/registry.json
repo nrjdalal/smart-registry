@@ -83,10 +83,8 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -133,9 +131,7 @@
         "@radix-ui/react-alert-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -158,9 +154,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-avatar",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -176,9 +170,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -193,10 +185,8 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -212,9 +202,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -230,12 +218,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "button"
@@ -258,11 +244,9 @@
       "type": "registry:ui",
       "dependencies": [
         "@internationalized/date",
-        "clsx",
         "lucide-react",
         "react",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "files": [
         {
@@ -277,9 +261,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -322,11 +304,9 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-dialog",
-        "clsx",
         "cmdk@1.0.0",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "dialog"
@@ -348,9 +328,7 @@
       "name": "cropper",
       "type": "registry:ui",
       "dependencies": [
-        "@origin-space/image-cropper",
-        "clsx",
-        "tailwind-merge"
+        "@origin-space/image-cropper"
       ],
       "files": [
         {
@@ -364,9 +342,7 @@
       "name": "datefield-rac",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "files": [
         {
@@ -381,10 +357,8 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-dialog",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -399,10 +373,8 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-dropdown-menu",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -417,9 +389,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-hover-card",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -433,9 +403,7 @@
       "name": "input",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -450,9 +418,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -467,11 +433,9 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-dialog",
-        "clsx",
         "cmdk",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/command.json"
@@ -500,10 +464,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "button"
@@ -526,9 +488,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-popover",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -543,9 +503,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-progress",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -560,9 +518,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -576,10 +532,8 @@
       "name": "resizable",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "react-resizable-panels",
-        "tailwind-merge"
+        "react-resizable-panels"
       ],
       "files": [
         {
@@ -594,9 +548,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-scroll-area",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -611,10 +563,8 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -628,10 +578,8 @@
       "name": "select-native",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -647,9 +595,7 @@
       "dependencies": [
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tooltip.json"
@@ -687,10 +633,8 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -716,9 +660,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -732,9 +674,7 @@
       "name": "table",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -749,9 +689,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -765,9 +703,7 @@
       "name": "textarea",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -782,9 +718,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -800,10 +734,8 @@
       "dependencies": [
         "@radix-ui/react-toast",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -829,10 +761,8 @@
       "dependencies": [
         "@radix-ui/react-toast",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -858,9 +788,7 @@
       "dependencies": [
         "@radix-ui/react-toggle",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -877,9 +805,7 @@
         "@radix-ui/react-toggle",
         "@radix-ui/react-toggle-group",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "toggle"
@@ -902,9 +828,7 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -943,7 +867,6 @@
         "@radix-ui/react-toggle-group",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "cmdk",
         "lucide-react",
         "next-themes",
@@ -951,8 +874,7 @@
         "react-aria-components",
         "react-day-picker",
         "react-resizable-panels",
-        "sonner",
-        "tailwind-merge"
+        "sonner"
       ],
       "files": [
         {
@@ -1231,10 +1153,8 @@
       "dependencies": [
         "@radix-ui/react-toast",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -1280,9 +1200,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1317,9 +1235,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1355,9 +1271,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1393,9 +1307,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1431,9 +1343,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1468,9 +1378,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1506,9 +1414,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1543,9 +1449,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1581,10 +1485,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1619,10 +1521,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1657,9 +1557,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1694,9 +1592,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1731,9 +1627,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1768,9 +1662,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1805,9 +1697,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1842,9 +1732,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1879,10 +1767,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1925,10 +1811,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -1971,10 +1855,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2010,10 +1892,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2049,9 +1929,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2089,9 +1967,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2132,10 +2008,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2172,10 +2046,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2211,9 +2083,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2250,10 +2120,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2290,10 +2158,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2378,9 +2244,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2415,9 +2279,7 @@
       "name": "comp-31",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json"
@@ -2445,9 +2307,7 @@
       "name": "comp-32",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json"
@@ -2496,9 +2356,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2538,9 +2396,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2579,9 +2435,7 @@
       "name": "comp-36",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "registryDependencies": [
         "https://originui.com/r/datefield-rac.json"
@@ -2611,9 +2465,7 @@
       "name": "comp-37",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "registryDependencies": [
         "https://originui.com/r/datefield-rac.json"
@@ -2643,10 +2495,8 @@
       "name": "comp-38",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "registryDependencies": [
         "https://originui.com/r/datefield-rac.json"
@@ -2676,10 +2526,8 @@
       "name": "comp-39",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "registryDependencies": [
         "https://originui.com/r/datefield-rac.json"
@@ -2709,9 +2557,7 @@
       "name": "comp-40",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "registryDependencies": [
         "https://originui.com/r/datefield-rac.json"
@@ -2742,11 +2588,9 @@
       "type": "registry:component",
       "dependencies": [
         "@internationalized/date",
-        "clsx",
         "lucide-react",
         "react",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar-rac.json",
@@ -2785,11 +2629,9 @@
       "type": "registry:component",
       "dependencies": [
         "@internationalized/date",
-        "clsx",
         "lucide-react",
         "react",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar-rac.json",
@@ -2829,12 +2671,10 @@
       "type": "registry:component",
       "dependencies": [
         "@internationalized/date",
-        "clsx",
         "lucide-react",
         "react",
         "react-aria",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar-rac.json",
@@ -2874,10 +2714,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "input-otp",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json"
@@ -2907,11 +2745,9 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "input-otp",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json"
@@ -2941,11 +2777,9 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
         "react",
-        "react-phone-number-input",
-        "tailwind-merge"
+        "react-phone-number-input"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -2981,11 +2815,9 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
         "react",
-        "react-payment-inputs",
-        "tailwind-merge"
+        "react-payment-inputs"
       ],
       "devDependencies": [
         "@types/react-payment-inputs"
@@ -3027,10 +2859,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "react",
-        "react-payment-inputs",
-        "tailwind-merge"
+        "react-payment-inputs"
       ],
       "devDependencies": [
         "@types/react-payment-inputs"
@@ -3072,10 +2902,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "react",
-        "react-payment-inputs",
-        "tailwind-merge"
+        "react-payment-inputs"
       ],
       "devDependencies": [
         "@types/react-payment-inputs"
@@ -3116,11 +2944,9 @@
       "name": "comp-50",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
         "react",
-        "react-payment-inputs",
-        "tailwind-merge"
+        "react-payment-inputs"
       ],
       "devDependencies": [
         "@types/react-payment-inputs"
@@ -3157,10 +2983,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -3196,9 +3020,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -3235,10 +3057,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-tooltip",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -3280,9 +3100,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "react",
-        "tailwind-merge",
         "use-mask-input"
       ],
       "registryDependencies": [
@@ -3319,9 +3137,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "react",
-        "tailwind-merge",
         "use-mask-input"
       ],
       "registryDependencies": [
@@ -3359,10 +3175,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "emblor",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json"
@@ -3393,10 +3207,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "emblor",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json"
@@ -3427,10 +3239,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "input-otp",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json"
@@ -3460,9 +3270,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3497,9 +3305,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3535,9 +3341,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3573,9 +3377,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3616,9 +3418,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3653,9 +3453,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3691,9 +3489,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3728,9 +3524,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3765,9 +3559,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3805,9 +3597,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -3851,9 +3641,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -3897,9 +3685,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -3941,9 +3727,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -3977,9 +3761,7 @@
       "name": "comp-72",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/textarea.json"
@@ -4028,9 +3810,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -4070,9 +3850,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -4107,9 +3885,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -4145,9 +3921,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -4183,9 +3957,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4215,9 +3987,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4248,9 +4018,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4280,10 +4048,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4313,10 +4079,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4347,10 +4111,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4380,10 +4142,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4413,10 +4173,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4447,10 +4205,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4481,10 +4237,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4514,10 +4268,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4548,9 +4300,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4580,10 +4330,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4614,10 +4362,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4648,9 +4394,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4681,10 +4425,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4715,9 +4457,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4751,10 +4491,8 @@
         "@radix-ui/react-avatar",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4793,10 +4531,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4826,10 +4562,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4859,10 +4593,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4894,10 +4626,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -4934,9 +4664,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -4969,10 +4697,8 @@
         "@radix-ui/react-toggle",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/toggle.json",
@@ -5009,10 +4735,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5044,10 +4768,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5079,10 +4801,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5115,10 +4835,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -5155,10 +4873,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5190,10 +4906,8 @@
         "@radix-ui/react-toggle",
         "@radix-ui/react-toggle-group",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/toggle-group.json"
@@ -5229,10 +4943,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5265,9 +4977,7 @@
         "@radix-ui/react-toggle",
         "@radix-ui/react-toggle-group",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/toggle-group.json"
@@ -5304,9 +5014,7 @@
         "@radix-ui/react-toggle",
         "@radix-ui/react-toggle-group",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/toggle-group.json"
@@ -5342,10 +5050,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5375,10 +5081,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5408,10 +5112,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5442,10 +5144,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5477,10 +5177,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5511,10 +5209,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5545,10 +5241,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5580,10 +5274,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5616,9 +5308,7 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5652,9 +5342,7 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5688,9 +5376,7 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5724,9 +5410,7 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5759,10 +5443,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5793,10 +5475,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5827,10 +5507,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5870,10 +5548,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5913,10 +5589,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5946,10 +5620,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -5979,10 +5651,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -6020,10 +5690,8 @@
       "dependencies": [
         "@radix-ui/react-toggle",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/toggle.json"
@@ -6056,10 +5724,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -6096,9 +5762,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6135,9 +5799,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6174,9 +5836,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6213,9 +5873,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6253,9 +5911,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6292,9 +5948,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6331,9 +5985,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6372,9 +6024,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6411,9 +6061,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6450,9 +6098,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6489,9 +6135,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6535,9 +6179,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6574,9 +6216,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6614,9 +6254,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6654,9 +6292,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6694,10 +6330,8 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6735,9 +6369,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox-tree.json",
@@ -6780,9 +6412,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json"
@@ -6839,9 +6469,7 @@
       "dependencies": [
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -6878,9 +6506,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -6917,9 +6543,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -6956,9 +6580,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -6995,9 +6617,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7034,9 +6654,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -7081,9 +6699,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-radio-group",
         "@remixicon/react",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7120,9 +6736,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -7155,9 +6769,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7195,9 +6807,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7235,9 +6845,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7275,10 +6883,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-radio-group",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7316,9 +6922,7 @@
       "dependencies": [
         "@radix-ui/react-radio-group",
         "@remixicon/react",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -7351,9 +6955,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -7386,9 +6988,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7428,9 +7028,7 @@
         "@radix-ui/react-radio-group",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -7473,9 +7071,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -7507,9 +7103,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -7541,10 +7135,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-radio-group",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -7575,9 +7167,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-radio-group",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -7611,9 +7201,7 @@
       "dependencies": [
         "@radix-ui/react-radio-group",
         "@remixicon/react",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/radio-group.json"
@@ -7647,9 +7235,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7686,9 +7272,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7725,9 +7309,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7764,9 +7346,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7803,9 +7383,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7842,9 +7420,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7881,9 +7457,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7920,9 +7494,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -7959,9 +7531,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/switch.json"
@@ -7993,10 +7563,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8034,10 +7602,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-switch",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/switch.json"
@@ -8070,10 +7636,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8112,10 +7676,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8154,9 +7716,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8194,9 +7754,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8235,9 +7793,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8276,9 +7832,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8316,10 +7870,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8355,10 +7907,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8394,10 +7944,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8434,10 +7982,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8473,10 +8019,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8512,10 +8056,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8552,10 +8094,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8591,10 +8131,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8631,10 +8169,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8670,10 +8206,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8709,10 +8243,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8748,10 +8280,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8788,10 +8318,8 @@
       "name": "comp-201",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/select-native.json"
@@ -8820,10 +8348,8 @@
       "name": "comp-202",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/select-native.json"
@@ -8854,10 +8380,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8894,10 +8418,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8934,10 +8456,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -8974,10 +8494,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9015,10 +8533,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9055,10 +8571,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9095,10 +8609,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9135,10 +8647,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9176,10 +8686,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9217,10 +8725,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9257,10 +8763,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9297,10 +8801,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9337,10 +8839,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9377,10 +8877,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/select.json"
@@ -9410,10 +8908,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/select.json"
@@ -9444,10 +8940,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9486,10 +8980,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9526,10 +9018,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9567,10 +9057,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9608,10 +9096,8 @@
         "@radix-ui/react-label",
         "@radix-ui/react-select",
         "@remixicon/react",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9649,10 +9135,8 @@
         "@radix-ui/react-label",
         "@radix-ui/react-select",
         "@remixicon/react",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9689,10 +9173,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9729,10 +9211,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9770,10 +9250,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9813,10 +9291,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9856,10 +9332,8 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -9902,11 +9376,9 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "cmdk",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -9968,11 +9440,9 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "cmdk",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -10034,11 +9504,9 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "cmdk",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -10102,11 +9570,9 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "cmdk",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -10169,11 +9635,9 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "cmdk",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -10232,11 +9696,9 @@
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-label",
-        "clsx",
         "cmdk",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10288,11 +9750,9 @@
       "dependencies": [
         "@radix-ui/react-dialog",
         "@radix-ui/react-label",
-        "clsx",
         "cmdk",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10343,10 +9803,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10383,10 +9841,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "react",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json"
@@ -10417,10 +9873,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "react",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json"
@@ -10451,10 +9905,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
         "react",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json"
@@ -10487,9 +9939,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10532,9 +9982,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10578,9 +10026,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10623,9 +10069,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10668,9 +10112,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10713,9 +10155,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10758,9 +10198,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10803,9 +10241,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10848,9 +10284,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10893,9 +10327,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10939,9 +10371,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -10986,9 +10416,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -11033,10 +10461,8 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -11081,9 +10507,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -11130,10 +10554,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -11198,9 +10620,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -11255,9 +10675,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -11302,9 +10720,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -11349,9 +10765,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -11410,10 +10824,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -11466,9 +10878,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -11519,9 +10929,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -11565,9 +10973,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -11623,9 +11029,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -11672,10 +11076,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -11740,9 +11142,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -11804,9 +11204,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -12105,10 +11503,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12140,10 +11536,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12175,10 +11569,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12210,10 +11602,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12245,10 +11635,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12280,10 +11668,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12315,10 +11701,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12350,10 +11734,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12385,10 +11767,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12421,10 +11801,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12456,10 +11834,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12492,10 +11868,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12528,10 +11902,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12564,10 +11936,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12600,10 +11970,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12638,10 +12006,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12674,10 +12040,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12709,10 +12073,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12745,10 +12107,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-toast",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -12793,10 +12153,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-toast",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -12836,10 +12194,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "react",
-        "sonner",
-        "tailwind-merge"
+        "sonner"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12873,11 +12229,9 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "react",
-        "sonner",
-        "tailwind-merge"
+        "sonner"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -12912,9 +12266,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -13007,10 +12359,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -13040,10 +12390,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -13073,10 +12421,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -13106,10 +12452,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -13139,10 +12483,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -13172,10 +12514,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -13226,10 +12566,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -13260,9 +12598,7 @@
         "@radix-ui/react-alert-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/alert-dialog.json",
@@ -13303,10 +12639,8 @@
         "@radix-ui/react-alert-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/alert-dialog.json",
@@ -13347,10 +12681,8 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13390,10 +12722,8 @@
         "@radix-ui/react-scroll-area",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13438,10 +12768,8 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13480,10 +12808,8 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13522,10 +12848,8 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13565,10 +12889,8 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13620,10 +12942,8 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13671,10 +12991,8 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13723,10 +13041,8 @@
         "@radix-ui/react-radio-group",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13786,11 +13102,9 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "input-otp",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13831,10 +13145,8 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13890,10 +13202,8 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -13955,10 +13265,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14020,11 +13328,9 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "react",
-        "react-payment-inputs",
-        "tailwind-merge"
+        "react-payment-inputs"
       ],
       "devDependencies": [
         "@types/react-payment-inputs"
@@ -14090,11 +13396,9 @@
         "@radix-ui/react-radio-group",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "react",
-        "react-payment-inputs",
-        "tailwind-merge"
+        "react-payment-inputs"
       ],
       "devDependencies": [
         "@types/react-payment-inputs"
@@ -14166,10 +13470,8 @@
         "@radix-ui/react-radio-group",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14222,10 +13524,8 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14297,10 +13597,8 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -14338,11 +13636,9 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dialog",
-        "clsx",
         "cmdk",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/command.json"
@@ -14384,10 +13680,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14417,10 +13711,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14450,10 +13742,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14483,10 +13773,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14516,10 +13804,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14549,10 +13835,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14582,10 +13866,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14615,10 +13897,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14648,10 +13928,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14681,10 +13959,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14714,10 +13990,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14747,10 +14021,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14780,10 +14052,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14813,10 +14083,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14846,10 +14114,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14879,10 +14145,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14912,10 +14176,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14945,10 +14207,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json"
@@ -14979,10 +14239,8 @@
       "dependencies": [
         "@radix-ui/react-accordion",
         "@radix-ui/react-collapsible",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json",
@@ -15020,10 +14278,8 @@
       "dependencies": [
         "@radix-ui/react-accordion",
         "@radix-ui/react-collapsible",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/accordion.json",
@@ -15062,9 +14318,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15102,9 +14356,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15142,9 +14394,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15182,9 +14432,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15222,10 +14470,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15263,9 +14509,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15304,10 +14548,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15347,9 +14589,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15387,9 +14627,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15428,9 +14666,7 @@
         "@radix-ui/react-hover-card",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15470,9 +14706,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-hover-card",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/hover-card.json"
@@ -15506,9 +14740,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-hover-card",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/hover-card.json"
@@ -15542,10 +14774,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15583,10 +14813,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15624,10 +14852,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15665,10 +14891,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15706,10 +14930,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15747,10 +14969,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15789,10 +15009,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15831,10 +15049,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15874,10 +15090,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15918,10 +15132,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -15961,10 +15173,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -16006,10 +15216,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json",
@@ -16056,10 +15264,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -16098,10 +15304,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -16140,10 +15344,8 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -16184,10 +15386,8 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -16238,10 +15438,8 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -16286,10 +15484,8 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -16335,9 +15531,7 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -16376,9 +15570,7 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -16417,10 +15609,8 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -16461,10 +15651,8 @@
         "@radix-ui/react-tooltip",
         "@remixicon/react",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -16517,9 +15705,7 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -16565,10 +15751,8 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -16605,9 +15789,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-avatar",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -16638,9 +15820,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-avatar",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -16671,10 +15851,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-avatar",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -16705,9 +15883,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-avatar",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -16738,9 +15914,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-avatar",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -16772,9 +15946,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-avatar",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -16806,9 +15978,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-avatar",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -16840,9 +16010,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-avatar",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json"
@@ -16877,9 +16045,7 @@
         "@radix-ui/react-avatar",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json",
@@ -16920,9 +16086,7 @@
         "@radix-ui/react-avatar",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/avatar.json",
@@ -17125,9 +16289,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -17158,9 +16320,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -17191,9 +16351,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -17242,9 +16400,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -17275,9 +16431,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -17308,10 +16462,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -17342,9 +16494,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -17376,9 +16526,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -17409,9 +16557,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -17443,10 +16589,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -17478,9 +16622,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -17512,9 +16654,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -17546,9 +16686,7 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -17581,10 +16719,8 @@
         "@radix-ui/react-checkbox",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -17621,10 +16757,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -17652,10 +16786,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json"
@@ -17686,9 +16818,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17719,9 +16849,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17752,9 +16880,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17785,9 +16911,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17818,9 +16942,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17851,9 +16973,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17884,9 +17004,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -17920,10 +17038,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tabs",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/scroll-area.json",
@@ -17966,10 +17082,8 @@
       "dependencies": [
         "@radix-ui/react-scroll-area",
         "@radix-ui/react-tabs",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/scroll-area.json",
@@ -18007,10 +17121,8 @@
       "dependencies": [
         "@radix-ui/react-scroll-area",
         "@radix-ui/react-tabs",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/scroll-area.json",
@@ -18048,10 +17160,8 @@
       "dependencies": [
         "@radix-ui/react-scroll-area",
         "@radix-ui/react-tabs",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/scroll-area.json",
@@ -18091,10 +17201,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tabs",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -18137,10 +17245,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -18173,9 +17279,7 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tabs",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -18214,10 +17318,8 @@
         "@radix-ui/react-tabs",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json",
@@ -18262,10 +17364,8 @@
         "@radix-ui/react-tabs",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json",
@@ -18307,9 +17407,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -18341,9 +17439,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -18375,10 +17471,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -18410,9 +17504,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/tabs.json"
@@ -18445,10 +17537,8 @@
       "dependencies": [
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json",
@@ -18486,10 +17576,8 @@
       "dependencies": [
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json",
@@ -18527,10 +17615,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json"
@@ -18561,10 +17647,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json"
@@ -18595,10 +17679,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json"
@@ -18629,10 +17711,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json"
@@ -18663,10 +17743,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json"
@@ -18698,10 +17776,8 @@
       "dependencies": [
         "@radix-ui/react-select",
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/breadcrumb.json",
@@ -18740,10 +17816,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -18779,10 +17853,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -18818,10 +17890,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -18857,10 +17927,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/pagination.json"
@@ -18895,10 +17963,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -18934,10 +18000,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/pagination.json"
@@ -18977,10 +18041,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/pagination.json"
@@ -19020,10 +18082,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -19065,10 +18125,8 @@
         "@radix-ui/react-select",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/pagination.json",
@@ -19116,10 +18174,8 @@
         "@radix-ui/react-select",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/label.json",
@@ -19174,10 +18230,8 @@
         "@radix-ui/react-select",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/pagination.json",
@@ -19226,10 +18280,8 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -19280,9 +18332,7 @@
       "name": "comp-466",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
@@ -19310,9 +18360,7 @@
       "name": "comp-467",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
@@ -19342,9 +18390,7 @@
       "name": "comp-468",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
@@ -19372,9 +18418,7 @@
       "name": "comp-469",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
@@ -19402,9 +18446,7 @@
       "name": "comp-470",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
@@ -19432,9 +18474,7 @@
       "name": "comp-471",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
@@ -19463,9 +18503,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -19501,9 +18539,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-checkbox",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -19539,9 +18575,7 @@
       "name": "comp-474",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
@@ -19570,9 +18604,7 @@
       "name": "comp-475",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
@@ -19601,10 +18633,8 @@
       "name": "comp-476",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
@@ -19636,9 +18666,7 @@
         "@radix-ui/react-slot",
         "@tanstack/react-table",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -19687,10 +18715,8 @@
         "@radix-ui/react-label",
         "@radix-ui/react-select",
         "@tanstack/react-table",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/checkbox.json",
@@ -19751,10 +18777,8 @@
       "type": "registry:component",
       "dependencies": [
         "@tanstack/react-table",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/table.json"
@@ -19790,10 +18814,8 @@
         "@radix-ui/react-slot",
         "@tanstack/react-table",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -19844,10 +18866,8 @@
         "@radix-ui/react-slot",
         "@tanstack/react-table",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -19890,10 +18910,8 @@
         "@radix-ui/react-slot",
         "@tanstack/react-table",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -19951,10 +18969,8 @@
         "@radix-ui/react-slot",
         "@tanstack/react-table",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -20030,10 +19046,8 @@
         "@radix-ui/react-slot",
         "@tanstack/react-table",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/badge.json",
@@ -20112,10 +19126,8 @@
         "@radix-ui/react-slot",
         "@tanstack/react-table",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/alert-dialog.json",
@@ -20213,9 +19225,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/input.json",
@@ -20251,11 +19261,9 @@
       "type": "registry:component",
       "dependencies": [
         "@internationalized/date",
-        "clsx",
         "lucide-react",
         "react",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar-rac.json"
@@ -20286,11 +19294,9 @@
       "type": "registry:component",
       "dependencies": [
         "@internationalized/date",
-        "clsx",
         "lucide-react",
         "react",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar-rac.json"
@@ -20322,12 +19328,10 @@
       "type": "registry:component",
       "dependencies": [
         "@internationalized/date",
-        "clsx",
         "lucide-react",
         "react",
         "react-aria",
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar-rac.json"
@@ -20361,11 +19365,9 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json"
@@ -20402,12 +19404,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json"
@@ -20445,12 +19445,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json"
@@ -20489,12 +19487,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json"
@@ -20531,11 +19527,9 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json"
@@ -20572,12 +19566,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json"
@@ -20615,11 +19607,9 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json"
@@ -20657,11 +19647,9 @@
         "@radix-ui/react-select",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json",
@@ -20705,11 +19693,9 @@
         "@radix-ui/react-select",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json",
@@ -20752,11 +19738,9 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json"
@@ -20794,12 +19778,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -20838,12 +19820,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -20883,12 +19863,10 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json",
@@ -20939,11 +19917,9 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json",
@@ -20996,12 +19972,10 @@
         "@radix-ui/react-scroll-area",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -21054,12 +20028,10 @@
         "@radix-ui/react-scroll-area",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -21106,12 +20078,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -21151,12 +20121,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -21197,12 +20165,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json"
@@ -21241,12 +20207,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json"
@@ -21285,12 +20249,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/calendar.json"
@@ -21330,12 +20292,10 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -21388,12 +20348,10 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -21443,10 +20401,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21475,10 +20431,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21507,10 +20461,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21540,10 +20492,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21578,10 +20528,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21615,10 +20563,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21647,10 +20593,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21680,10 +20624,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21718,10 +20660,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21755,10 +20695,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21787,10 +20725,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21819,10 +20755,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21851,10 +20785,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21883,10 +20815,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21917,10 +20847,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21955,10 +20883,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -21988,10 +20914,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/stepper.json"
@@ -22021,9 +20945,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -22053,9 +20975,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -22085,9 +21005,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -22117,9 +21035,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -22149,10 +21065,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -22182,10 +21096,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -22215,9 +21127,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -22247,9 +21157,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -22279,9 +21187,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -22311,10 +21217,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -22344,9 +21248,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -22375,9 +21277,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/timeline.json"
@@ -22418,13 +21318,11 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
         "react-day-picker",
-        "sonner",
-        "tailwind-merge"
+        "sonner"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -22600,10 +21498,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -22670,10 +21566,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -22711,10 +21605,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -22752,10 +21644,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -22793,10 +21683,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -22834,10 +21722,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -22875,10 +21761,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -22916,10 +21800,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -22963,10 +21845,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -23004,10 +21884,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json"
@@ -23049,10 +21927,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/button.json",
@@ -23116,9 +21992,7 @@
       "name": "comp-555",
       "type": "registry:component",
       "dependencies": [
-        "@origin-space/image-cropper",
-        "clsx",
-        "tailwind-merge"
+        "@origin-space/image-cropper"
       ],
       "registryDependencies": [
         "https://originui.com/r/cropper.json"
@@ -23148,9 +22022,7 @@
       "name": "comp-556",
       "type": "registry:component",
       "dependencies": [
-        "@origin-space/image-cropper",
-        "clsx",
-        "tailwind-merge"
+        "@origin-space/image-cropper"
       ],
       "registryDependencies": [
         "https://originui.com/r/cropper.json"
@@ -23180,9 +22052,7 @@
       "name": "comp-557",
       "type": "registry:component",
       "dependencies": [
-        "@origin-space/image-cropper",
-        "clsx",
-        "tailwind-merge"
+        "@origin-space/image-cropper"
       ],
       "registryDependencies": [
         "https://originui.com/r/cropper.json"
@@ -23212,9 +22082,7 @@
       "name": "comp-558",
       "type": "registry:component",
       "dependencies": [
-        "@origin-space/image-cropper",
-        "clsx",
-        "tailwind-merge"
+        "@origin-space/image-cropper"
       ],
       "registryDependencies": [
         "https://originui.com/r/cropper.json"
@@ -23244,9 +22112,7 @@
       "name": "comp-559",
       "type": "registry:component",
       "dependencies": [
-        "@origin-space/image-cropper",
-        "clsx",
-        "tailwind-merge"
+        "@origin-space/image-cropper"
       ],
       "registryDependencies": [
         "https://originui.com/r/cropper.json"
@@ -23276,9 +22142,7 @@
       "name": "comp-560",
       "type": "registry:component",
       "dependencies": [
-        "@origin-space/image-cropper",
-        "clsx",
-        "tailwind-merge"
+        "@origin-space/image-cropper"
       ],
       "registryDependencies": [
         "https://originui.com/r/cropper.json"
@@ -23311,9 +22175,7 @@
         "@origin-space/image-cropper",
         "@radix-ui/react-slider",
         "@radix-ui/react-tooltip",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/cropper.json",
@@ -23355,9 +22217,7 @@
       "name": "comp-562",
       "type": "registry:component",
       "dependencies": [
-        "@origin-space/image-cropper",
-        "clsx",
-        "tailwind-merge"
+        "@origin-space/image-cropper"
       ],
       "registryDependencies": [
         "https://originui.com/r/cropper.json"
@@ -23388,9 +22248,7 @@
       "type": "registry:component",
       "dependencies": [
         "@origin-space/image-cropper",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/cropper.json"
@@ -23423,9 +22281,7 @@
         "@origin-space/image-cropper",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "registryDependencies": [
         "https://originui.com/r/cropper.json"
@@ -23503,10 +22359,8 @@
       "name": "event-calendar-day-view",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "date-fns",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -23573,9 +22427,7 @@
       "name": "event-calendar-droppable-cell",
       "type": "registry:component",
       "dependencies": [
-        "@dnd-kit/core",
-        "clsx",
-        "tailwind-merge"
+        "@dnd-kit/core"
       ],
       "files": [
         {
@@ -23598,12 +22450,10 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "sonner",
-        "tailwind-merge"
+        "sonner"
       ],
       "files": [
         {
@@ -23641,12 +22491,10 @@
         "@radix-ui/react-slot",
         "@remixicon/react",
         "class-variance-authority",
-        "clsx",
         "date-fns",
         "lucide-react",
         "react",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "files": [
         {
@@ -23721,10 +22569,8 @@
       "type": "registry:component",
       "dependencies": [
         "@dnd-kit/core",
-        "clsx",
         "date-fns",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -23765,10 +22611,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-popover",
-        "clsx",
         "date-fns",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {
@@ -23861,10 +22705,8 @@
       "name": "event-calendar-week-view",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "date-fns",
-        "react",
-        "tailwind-merge"
+        "react"
       ],
       "files": [
         {

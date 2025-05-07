@@ -4,9 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@origin-space/image-cropper",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/cropper.json"

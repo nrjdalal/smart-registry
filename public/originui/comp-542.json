@@ -16,13 +16,11 @@
     "@radix-ui/react-slot",
     "@remixicon/react",
     "class-variance-authority",
-    "clsx",
     "date-fns",
     "lucide-react",
     "react",
     "react-day-picker",
-    "sonner",
-    "tailwind-merge"
+    "sonner"
   ],
   "registryDependencies": [
     "https://originui.com/r/button.json",

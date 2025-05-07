@@ -3,11 +3,9 @@
   "name": "comp-50",
   "type": "registry:component",
   "dependencies": [
-    "clsx",
     "lucide-react",
     "react",
-    "react-payment-inputs",
-    "tailwind-merge"
+    "react-payment-inputs"
   ],
   "devDependencies": [
     "@types/react-payment-inputs"

@@ -6,9 +6,7 @@
     "@radix-ui/react-label",
     "@radix-ui/react-slider",
     "@radix-ui/react-tooltip",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/input.json",

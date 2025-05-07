@@ -4,10 +4,8 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-slot",
-    "clsx",
     "lucide-react",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/stepper.json"

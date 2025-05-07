@@ -4,10 +4,8 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-popover",
-    "clsx",
     "date-fns",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "files": [
     {

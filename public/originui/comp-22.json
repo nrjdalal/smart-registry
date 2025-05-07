@@ -6,9 +6,7 @@
     "@radix-ui/react-label",
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/input.json",

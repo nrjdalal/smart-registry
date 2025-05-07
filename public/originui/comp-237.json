@@ -4,10 +4,8 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
-    "clsx",
     "react",
-    "react-aria-components",
-    "tailwind-merge"
+    "react-aria-components"
   ],
   "registryDependencies": [
     "https://originui.com/r/label.json"

@@ -3,9 +3,7 @@
   "name": "event-calendar-droppable-cell",
   "type": "registry:component",
   "dependencies": [
-    "@dnd-kit/core",
-    "clsx",
-    "tailwind-merge"
+    "@dnd-kit/core"
   ],
   "files": [
     {

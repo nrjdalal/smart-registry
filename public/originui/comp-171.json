@@ -5,9 +5,7 @@
   "dependencies": [
     "@radix-ui/react-radio-group",
     "@remixicon/react",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/radio-group.json"

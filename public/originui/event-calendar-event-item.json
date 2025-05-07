@@ -4,10 +4,8 @@
   "type": "registry:component",
   "dependencies": [
     "@dnd-kit/core",
-    "clsx",
     "date-fns",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "files": [
     {

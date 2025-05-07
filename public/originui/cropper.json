@@ -3,9 +3,7 @@
   "name": "cropper",
   "type": "registry:ui",
   "dependencies": [
-    "@origin-space/image-cropper",
-    "clsx",
-    "tailwind-merge"
+    "@origin-space/image-cropper"
   ],
   "files": [
     {

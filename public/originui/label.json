@@ -4,9 +4,7 @@
   "type": "registry:ui",
   "dependencies": [
     "@radix-ui/react-label",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "files": [
     {

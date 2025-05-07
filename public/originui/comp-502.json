@@ -6,12 +6,10 @@
     "@radix-ui/react-label",
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
     "date-fns",
     "lucide-react",
     "react",
-    "react-day-picker",
-    "tailwind-merge"
+    "react-day-picker"
   ],
   "registryDependencies": [
     "https://originui.com/r/calendar.json",

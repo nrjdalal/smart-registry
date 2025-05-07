@@ -6,9 +6,7 @@
     "@radix-ui/react-toggle",
     "@radix-ui/react-toggle-group",
     "class-variance-authority",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/toggle-group.json"

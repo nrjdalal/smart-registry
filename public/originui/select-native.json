@@ -3,10 +3,8 @@
   "name": "select-native",
   "type": "registry:ui",
   "dependencies": [
-    "clsx",
     "lucide-react",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "files": [
     {

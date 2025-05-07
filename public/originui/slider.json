@@ -5,9 +5,7 @@
   "dependencies": [
     "@radix-ui/react-slider",
     "@radix-ui/react-tooltip",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/tooltip.json"

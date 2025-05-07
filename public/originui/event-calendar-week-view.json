@@ -3,10 +3,8 @@
   "name": "event-calendar-week-view",
   "type": "registry:component",
   "dependencies": [
-    "clsx",
     "date-fns",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "files": [
     {

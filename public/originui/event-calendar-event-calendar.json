@@ -7,12 +7,10 @@
     "@radix-ui/react-slot",
     "@remixicon/react",
     "class-variance-authority",
-    "clsx",
     "date-fns",
     "lucide-react",
     "react",
-    "sonner",
-    "tailwind-merge"
+    "sonner"
   ],
   "files": [
     {

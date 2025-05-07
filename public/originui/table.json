@@ -3,9 +3,7 @@
   "name": "table",
   "type": "registry:ui",
   "dependencies": [
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "files": [
     {

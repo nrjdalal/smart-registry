@@ -6,9 +6,7 @@
     "@origin-space/image-cropper",
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/cropper.json"

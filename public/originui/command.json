@@ -4,11 +4,9 @@
   "type": "registry:ui",
   "dependencies": [
     "@radix-ui/react-dialog",
-    "clsx",
     "cmdk@1.0.0",
     "lucide-react",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "dialog"

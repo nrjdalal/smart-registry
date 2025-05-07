@@ -6,10 +6,8 @@
     "@radix-ui/react-popover",
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
     "lucide-react",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/badge.json",

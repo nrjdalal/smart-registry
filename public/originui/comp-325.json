@@ -7,10 +7,8 @@
     "@radix-ui/react-label",
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
     "lucide-react",
-    "react",
-    "tailwind-merge"
+    "react"
   ],
   "registryDependencies": [
     "https://originui.com/r/button.json",

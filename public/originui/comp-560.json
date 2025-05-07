@@ -3,9 +3,7 @@
   "name": "comp-560",
   "type": "registry:component",
   "dependencies": [
-    "@origin-space/image-cropper",
-    "clsx",
-    "tailwind-merge"
+    "@origin-space/image-cropper"
   ],
   "registryDependencies": [
     "https://originui.com/r/cropper.json"

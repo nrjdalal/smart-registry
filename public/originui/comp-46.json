@@ -4,11 +4,9 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
-    "clsx",
     "lucide-react",
     "react",
-    "react-phone-number-input",
-    "tailwind-merge"
+    "react-phone-number-input"
   ],
   "registryDependencies": [
     "https://originui.com/r/input.json",

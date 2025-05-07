@@ -3,10 +3,8 @@
   "name": "comp-38",
   "type": "registry:component",
   "dependencies": [
-    "clsx",
     "lucide-react",
-    "react-aria-components",
-    "tailwind-merge"
+    "react-aria-components"
   ],
   "registryDependencies": [
     "https://originui.com/r/datefield-rac.json"

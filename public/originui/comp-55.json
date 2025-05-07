@@ -4,9 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-label",
-    "clsx",
     "react",
-    "tailwind-merge",
     "use-mask-input"
   ],
   "registryDependencies": [

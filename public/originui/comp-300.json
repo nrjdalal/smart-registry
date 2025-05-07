@@ -5,11 +5,9 @@
   "dependencies": [
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
     "lucide-react",
     "react",
-    "sonner",
-    "tailwind-merge"
+    "sonner"
   ],
   "registryDependencies": [
     "https://originui.com/r/button.json"
