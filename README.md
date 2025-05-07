@@ -1,5 +1,9 @@
 # Smart Registry
 
+Drop-in replacement for `shadcn build`, generate non-error prone registry with automatic detection of dependencies and files.
+
+[![GitHub](https://img.shields.io/github/license/nrjdalal/smart-registry?color=blue)](
+
 [![Twitter](https://img.shields.io/twitter/follow/nrjdalal_com?label=%40nrjdalal_com)](https://twitter.com/nrjdalal_com)
 [![npm](https://img.shields.io/npm/v/smart-registry?color=red&logo=npm)](https://www.npmjs.com/package/smart-registry)
 [![npm](https://img.shields.io/npm/dt/smart-registry?color=red&logo=npm)](https://www.npmjs.com/package/smart-registry)
@@ -144,7 +148,8 @@ Codemods:
   --codemod-radix         migrate to unify "@radix-ui/react-*" imports to "radix-ui"
 
 Cleanup:
-  --remove-prefix         remove given prefix from the registry item name (default: none)
+  --no-utils              remove @/lib/utils from the registry items (default: false)
+  --remove-prefix         remove given prefix from the registry item names (default: none)
 
 Author:
   Neeraj Dalal <admin@nrjdalal.com> (https://nrjdalal.com)

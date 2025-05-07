@@ -35,9 +35,8 @@ Codemods:
   --codemod-radix         migrate to unify "@radix-ui/react-*" imports to "radix-ui"
 
 Cleanup:
-  --no-utils              remove utils from the registry item name (default: false)
-  --remove-prefix         remove given prefix from the registry item name (default: none)
-  
+  --no-utils              remove @/lib/utils from the registry items (default: false)
+  --remove-prefix         remove given prefix from the registry item names (default: none)
 
 Author:
   ${author.name} <${author.email}> (${author.url})`
