@@ -35,7 +35,9 @@ Codemods:
   --codemod-radix         migrate to unify "@radix-ui/react-*" imports to "radix-ui"
 
 Cleanup:
+  --no-utils              remove utils from the registry item name (default: false)
   --remove-prefix         remove given prefix from the registry item name (default: none)
+  
 
 Author:
   ${author.name} <${author.email}> (${author.url})`
@@ -68,6 +70,7 @@ const main = async () => {
         },
         "codemod-radix": { type: "boolean" },
         "remove-prefix": { type: "string", default: "" },
+        "no-utils": { type: "boolean", default: false },
         help: { type: "boolean", short: "h" },
         version: { type: "boolean", short: "v" },
       },
@@ -257,6 +260,12 @@ const main = async () => {
         }
 
         if (registryItem.files.length) {
+          if (registryItem.files.length > 1 && values["no-utils"]) {
+            registryItem.files = registryItem.files.filter(
+              (file: { target: string }) => file.target !== "lib/utils.ts",
+            )
+          }
+
           if (
             registryItem.files.some(
               (file: { path: string }) => file.path === filepath,

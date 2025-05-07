@@ -2,7 +2,7 @@
 
 repos=(
   "https://github.com/kokonut-labs/kokonutui kokonutui . -i registry --remove-prefix kokonutui"
-  "https://github.com/origin-space/originui originui ."
+  "https://github.com/origin-space/originui originui . --no-utils"
   "https://github.com/shadcn-ui/ui shadcn apps/v4"
   "https://github.com/shadcn-ui/ui shadcn-v3 apps/www"
   "https://github.com/stefan-karger/solid-ui solid-ui apps/docs"
