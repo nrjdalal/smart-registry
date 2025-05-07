@@ -102,9 +102,13 @@ export const transformer = ({
         .replace(cwd + path.sep, "")
         .replace(/\.[^/.]+$/, "")
         .replace(/\/index$/, ""),
+    // TODO: better way to handle this
     target:
       originalFilepath.split("/").length > 1
-        ? transformedPath
+        ? transformedPath.startsWith("blocks/") &&
+          transformedPath.endsWith("page.tsx")
+          ? transformedPath.replace(/^blocks\//, "app/")
+          : transformedPath
         : `~/${transformedPath}`,
     path: filepath,
   }

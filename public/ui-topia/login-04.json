@@ -21,7 +21,7 @@
   "files": [
     {
       "type": "registry:page",
-      "target": "blocks/login-04/page.tsx",
+      "target": "app/login-04/page.tsx",
       "content": "import { Login04 } from \"@/blocks/login-04/components/login-form\";\n\nexport default function Page() {\n  return (\n    <div className=\"flex min-h-svh w-full items-center justify-center p-6 md:p-10\">\n      <div className=\"w-full max-w-sm\">\n        <Login04 />\n      </div>\n    </div>\n  );\n}\n",
       "path": "registry/blocks/login-04/page.tsx"
     },

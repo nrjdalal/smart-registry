@@ -2657,7 +2657,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/dashboard-01/page.tsx",
+          "target": "app/new-york-v4/dashboard-01/page.tsx",
           "path": "registry/new-york-v4/blocks/dashboard-01/page.tsx"
         },
         {
@@ -2840,7 +2840,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/login-01/page.tsx",
+          "target": "app/new-york-v4/login-01/page.tsx",
           "path": "registry/new-york-v4/blocks/login-01/page.tsx"
         },
         {
@@ -2894,7 +2894,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/login-02/page.tsx",
+          "target": "app/new-york-v4/login-02/page.tsx",
           "path": "registry/new-york-v4/blocks/login-02/page.tsx"
         },
         {
@@ -2943,7 +2943,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/login-03/page.tsx",
+          "target": "app/new-york-v4/login-03/page.tsx",
           "path": "registry/new-york-v4/blocks/login-03/page.tsx"
         },
         {
@@ -2996,7 +2996,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/login-04/page.tsx",
+          "target": "app/new-york-v4/login-04/page.tsx",
           "path": "registry/new-york-v4/blocks/login-04/page.tsx"
         },
         {
@@ -3050,7 +3050,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/login-05/page.tsx",
+          "target": "app/new-york-v4/login-05/page.tsx",
           "path": "registry/new-york-v4/blocks/login-05/page.tsx"
         },
         {
@@ -3102,7 +3102,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/products-01/page.tsx",
+          "target": "app/new-york-v4/products-01/page.tsx",
           "path": "registry/new-york-v4/blocks/products-01/page.tsx"
         },
         {
@@ -3175,7 +3175,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-01/page.tsx",
+          "target": "app/new-york-v4/sidebar-01/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-01/page.tsx"
         },
         {
@@ -3279,7 +3279,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-02/page.tsx",
+          "target": "app/new-york-v4/sidebar-02/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-02/page.tsx"
         },
         {
@@ -3385,7 +3385,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-03/page.tsx",
+          "target": "app/new-york-v4/sidebar-03/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-03/page.tsx"
         },
         {
@@ -3466,7 +3466,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-04/page.tsx",
+          "target": "app/new-york-v4/sidebar-04/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-04/page.tsx"
         },
         {
@@ -3549,7 +3549,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-05/page.tsx",
+          "target": "app/new-york-v4/sidebar-05/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-05/page.tsx"
         },
         {
@@ -3646,7 +3646,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-06/page.tsx",
+          "target": "app/new-york-v4/sidebar-06/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-06/page.tsx"
         },
         {
@@ -3750,7 +3750,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-07/page.tsx",
+          "target": "app/new-york-v4/sidebar-07/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-07/page.tsx"
         },
         {
@@ -3869,7 +3869,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-08/page.tsx",
+          "target": "app/new-york-v4/sidebar-08/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-08/page.tsx"
         },
         {
@@ -3989,7 +3989,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-09/page.tsx",
+          "target": "app/new-york-v4/sidebar-09/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-09/page.tsx"
         },
         {
@@ -4098,7 +4098,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-10/page.tsx",
+          "target": "app/new-york-v4/sidebar-10/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-10/page.tsx"
         },
         {
@@ -4225,7 +4225,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-11/page.tsx",
+          "target": "app/new-york-v4/sidebar-11/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-11/page.tsx"
         },
         {
@@ -4315,7 +4315,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-12/page.tsx",
+          "target": "app/new-york-v4/sidebar-12/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-12/page.tsx"
         },
         {
@@ -4431,7 +4431,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-13/page.tsx",
+          "target": "app/new-york-v4/sidebar-13/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-13/page.tsx"
         },
         {
@@ -4517,7 +4517,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-14/page.tsx",
+          "target": "app/new-york-v4/sidebar-14/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-14/page.tsx"
         },
         {
@@ -4602,7 +4602,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-15/page.tsx",
+          "target": "app/new-york-v4/sidebar-15/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-15/page.tsx"
         },
         {
@@ -4752,7 +4752,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-16/page.tsx",
+          "target": "app/new-york-v4/sidebar-16/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-16/page.tsx"
         },
         {
@@ -10021,7 +10021,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/dashboard-01/page.tsx",
+          "target": "app/new-york-v4/dashboard-01/page.tsx",
           "path": "registry/new-york-v4/blocks/dashboard-01/page.tsx"
         },
         {
@@ -10169,7 +10169,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/login-01/page.tsx",
+          "target": "app/new-york-v4/login-01/page.tsx",
           "path": "registry/new-york-v4/blocks/login-01/page.tsx"
         },
         {
@@ -10234,7 +10234,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/login-02/page.tsx",
+          "target": "app/new-york-v4/login-02/page.tsx",
           "path": "registry/new-york-v4/blocks/login-02/page.tsx"
         },
         {
@@ -10294,7 +10294,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/login-03/page.tsx",
+          "target": "app/new-york-v4/login-03/page.tsx",
           "path": "registry/new-york-v4/blocks/login-03/page.tsx"
         },
         {
@@ -10358,7 +10358,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/login-04/page.tsx",
+          "target": "app/new-york-v4/login-04/page.tsx",
           "path": "registry/new-york-v4/blocks/login-04/page.tsx"
         },
         {
@@ -10423,7 +10423,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/login-05/page.tsx",
+          "target": "app/new-york-v4/login-05/page.tsx",
           "path": "registry/new-york-v4/blocks/login-05/page.tsx"
         },
         {
@@ -16091,7 +16091,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/products-01/page.tsx",
+          "target": "app/new-york-v4/products-01/page.tsx",
           "path": "registry/new-york-v4/blocks/products-01/page.tsx"
         },
         {
@@ -16182,7 +16182,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-01/page.tsx",
+          "target": "app/new-york-v4/sidebar-01/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-01/page.tsx"
         },
         {
@@ -16298,7 +16298,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-02/page.tsx",
+          "target": "app/new-york-v4/sidebar-02/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-02/page.tsx"
         },
         {
@@ -16403,7 +16403,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-03/page.tsx",
+          "target": "app/new-york-v4/sidebar-03/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-03/page.tsx"
         },
         {
@@ -16494,7 +16494,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-04/page.tsx",
+          "target": "app/new-york-v4/sidebar-04/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-04/page.tsx"
         },
         {
@@ -16594,7 +16594,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-05/page.tsx",
+          "target": "app/new-york-v4/sidebar-05/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-05/page.tsx"
         },
         {
@@ -16708,7 +16708,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-06/page.tsx",
+          "target": "app/new-york-v4/sidebar-06/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-06/page.tsx"
         },
         {
@@ -16835,7 +16835,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-07/page.tsx",
+          "target": "app/new-york-v4/sidebar-07/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-07/page.tsx"
         },
         {
@@ -16967,7 +16967,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-08/page.tsx",
+          "target": "app/new-york-v4/sidebar-08/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-08/page.tsx"
         },
         {
@@ -17087,7 +17087,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-09/page.tsx",
+          "target": "app/new-york-v4/sidebar-09/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-09/page.tsx"
         },
         {
@@ -17234,7 +17234,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-10/page.tsx",
+          "target": "app/new-york-v4/sidebar-10/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-10/page.tsx"
         },
         {
@@ -17342,7 +17342,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-11/page.tsx",
+          "target": "app/new-york-v4/sidebar-11/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-11/page.tsx"
         },
         {
@@ -17461,7 +17461,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-12/page.tsx",
+          "target": "app/new-york-v4/sidebar-12/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-12/page.tsx"
         },
         {
@@ -17573,7 +17573,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-13/page.tsx",
+          "target": "app/new-york-v4/sidebar-13/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-13/page.tsx"
         },
         {
@@ -17668,7 +17668,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-14/page.tsx",
+          "target": "app/new-york-v4/sidebar-14/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-14/page.tsx"
         },
         {
@@ -17813,7 +17813,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-15/page.tsx",
+          "target": "app/new-york-v4/sidebar-15/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-15/page.tsx"
         },
         {
@@ -17963,7 +17963,7 @@
         },
         {
           "type": "registry:page",
-          "target": "blocks/new-york-v4/sidebar-16/page.tsx",
+          "target": "app/new-york-v4/sidebar-16/page.tsx",
           "path": "registry/new-york-v4/blocks/sidebar-16/page.tsx"
         },
         {

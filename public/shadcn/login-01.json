@@ -31,7 +31,7 @@
     },
     {
       "type": "registry:page",
-      "target": "blocks/new-york-v4/login-01/page.tsx",
+      "target": "app/new-york-v4/login-01/page.tsx",
       "content": "import { LoginForm } from \"@/blocks/new-york-v4/login-01/components/login-form\"\n\nexport default function Page() {\n  return (\n    <div className=\"flex min-h-svh w-full items-center justify-center p-6 md:p-10\">\n      <div className=\"w-full max-w-sm\">\n        <LoginForm />\n      </div>\n    </div>\n  )\n}\n",
       "path": "registry/new-york-v4/blocks/login-01/page.tsx"
     },

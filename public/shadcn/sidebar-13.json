@@ -34,7 +34,7 @@
     },
     {
       "type": "registry:page",
-      "target": "blocks/new-york-v4/sidebar-13/page.tsx",
+      "target": "app/new-york-v4/sidebar-13/page.tsx",
       "content": "import { SettingsDialog } from \"@/blocks/new-york-v4/sidebar-13/components/settings-dialog\"\n\nexport default function Page() {\n  return (\n    <div className=\"flex h-svh items-center justify-center\">\n      <SettingsDialog />\n    </div>\n  )\n}\n",
       "path": "registry/new-york-v4/blocks/sidebar-13/page.tsx"
     },

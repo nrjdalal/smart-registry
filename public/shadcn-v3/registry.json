@@ -2931,7 +2931,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/dashboard-01/page.tsx",
+          "target": "app/dashboard-01/page.tsx",
           "path": "registry/default/blocks/dashboard-01/page.tsx"
         },
         {
@@ -3728,7 +3728,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/login-01/page.tsx",
+          "target": "app/login-01/page.tsx",
           "path": "registry/default/blocks/login-01/page.tsx"
         },
         {
@@ -3782,7 +3782,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/login-02/page.tsx",
+          "target": "app/login-02/page.tsx",
           "path": "registry/default/blocks/login-02/page.tsx"
         },
         {
@@ -3831,7 +3831,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/login-03/page.tsx",
+          "target": "app/login-03/page.tsx",
           "path": "registry/default/blocks/login-03/page.tsx"
         },
         {
@@ -3884,7 +3884,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/login-04/page.tsx",
+          "target": "app/login-04/page.tsx",
           "path": "registry/default/blocks/login-04/page.tsx"
         },
         {
@@ -3938,7 +3938,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/login-05/page.tsx",
+          "target": "app/login-05/page.tsx",
           "path": "registry/default/blocks/login-05/page.tsx"
         },
         {
@@ -4005,7 +4005,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/dashboard-01/page.tsx",
+          "target": "app/new-york/dashboard-01/page.tsx",
           "path": "registry/new-york/blocks/dashboard-01/page.tsx"
         },
         {
@@ -4802,7 +4802,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/login-01/page.tsx",
+          "target": "app/new-york/login-01/page.tsx",
           "path": "registry/new-york/blocks/login-01/page.tsx"
         },
         {
@@ -4856,7 +4856,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/login-02/page.tsx",
+          "target": "app/new-york/login-02/page.tsx",
           "path": "registry/new-york/blocks/login-02/page.tsx"
         },
         {
@@ -4905,7 +4905,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/login-03/page.tsx",
+          "target": "app/new-york/login-03/page.tsx",
           "path": "registry/new-york/blocks/login-03/page.tsx"
         },
         {
@@ -4958,7 +4958,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/login-04/page.tsx",
+          "target": "app/new-york/login-04/page.tsx",
           "path": "registry/new-york/blocks/login-04/page.tsx"
         },
         {
@@ -5012,7 +5012,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/login-05/page.tsx",
+          "target": "app/new-york/login-05/page.tsx",
           "path": "registry/new-york/blocks/login-05/page.tsx"
         },
         {
@@ -5065,7 +5065,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-01/page.tsx",
+          "target": "app/new-york/sidebar-01/page.tsx",
           "path": "registry/new-york/blocks/sidebar-01/page.tsx"
         },
         {
@@ -5169,7 +5169,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-02/page.tsx",
+          "target": "app/new-york/sidebar-02/page.tsx",
           "path": "registry/new-york/blocks/sidebar-02/page.tsx"
         },
         {
@@ -5275,7 +5275,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-03/page.tsx",
+          "target": "app/new-york/sidebar-03/page.tsx",
           "path": "registry/new-york/blocks/sidebar-03/page.tsx"
         },
         {
@@ -5356,7 +5356,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-04/page.tsx",
+          "target": "app/new-york/sidebar-04/page.tsx",
           "path": "registry/new-york/blocks/sidebar-04/page.tsx"
         },
         {
@@ -5439,7 +5439,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-05/page.tsx",
+          "target": "app/new-york/sidebar-05/page.tsx",
           "path": "registry/new-york/blocks/sidebar-05/page.tsx"
         },
         {
@@ -5536,7 +5536,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-06/page.tsx",
+          "target": "app/new-york/sidebar-06/page.tsx",
           "path": "registry/new-york/blocks/sidebar-06/page.tsx"
         },
         {
@@ -5640,7 +5640,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-07/page.tsx",
+          "target": "app/new-york/sidebar-07/page.tsx",
           "path": "registry/new-york/blocks/sidebar-07/page.tsx"
         },
         {
@@ -5759,7 +5759,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-08/page.tsx",
+          "target": "app/new-york/sidebar-08/page.tsx",
           "path": "registry/new-york/blocks/sidebar-08/page.tsx"
         },
         {
@@ -5879,7 +5879,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-09/page.tsx",
+          "target": "app/new-york/sidebar-09/page.tsx",
           "path": "registry/new-york/blocks/sidebar-09/page.tsx"
         },
         {
@@ -5988,7 +5988,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-10/page.tsx",
+          "target": "app/new-york/sidebar-10/page.tsx",
           "path": "registry/new-york/blocks/sidebar-10/page.tsx"
         },
         {
@@ -6115,7 +6115,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-11/page.tsx",
+          "target": "app/new-york/sidebar-11/page.tsx",
           "path": "registry/new-york/blocks/sidebar-11/page.tsx"
         },
         {
@@ -6205,7 +6205,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-12/page.tsx",
+          "target": "app/new-york/sidebar-12/page.tsx",
           "path": "registry/new-york/blocks/sidebar-12/page.tsx"
         },
         {
@@ -6321,7 +6321,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-13/page.tsx",
+          "target": "app/new-york/sidebar-13/page.tsx",
           "path": "registry/new-york/blocks/sidebar-13/page.tsx"
         },
         {
@@ -6407,7 +6407,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-14/page.tsx",
+          "target": "app/new-york/sidebar-14/page.tsx",
           "path": "registry/new-york/blocks/sidebar-14/page.tsx"
         },
         {
@@ -6492,7 +6492,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-15/page.tsx",
+          "target": "app/new-york/sidebar-15/page.tsx",
           "path": "registry/new-york/blocks/sidebar-15/page.tsx"
         },
         {
@@ -6642,7 +6642,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/new-york/sidebar-16/page.tsx",
+          "target": "app/new-york/sidebar-16/page.tsx",
           "path": "registry/new-york/blocks/sidebar-16/page.tsx"
         },
         {
@@ -6775,7 +6775,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-01/page.tsx",
+          "target": "app/sidebar-01/page.tsx",
           "path": "registry/default/blocks/sidebar-01/page.tsx"
         },
         {
@@ -6879,7 +6879,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-02/page.tsx",
+          "target": "app/sidebar-02/page.tsx",
           "path": "registry/default/blocks/sidebar-02/page.tsx"
         },
         {
@@ -6985,7 +6985,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-03/page.tsx",
+          "target": "app/sidebar-03/page.tsx",
           "path": "registry/default/blocks/sidebar-03/page.tsx"
         },
         {
@@ -7066,7 +7066,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-04/page.tsx",
+          "target": "app/sidebar-04/page.tsx",
           "path": "registry/default/blocks/sidebar-04/page.tsx"
         },
         {
@@ -7149,7 +7149,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-05/page.tsx",
+          "target": "app/sidebar-05/page.tsx",
           "path": "registry/default/blocks/sidebar-05/page.tsx"
         },
         {
@@ -7246,7 +7246,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-06/page.tsx",
+          "target": "app/sidebar-06/page.tsx",
           "path": "registry/default/blocks/sidebar-06/page.tsx"
         },
         {
@@ -7350,7 +7350,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-07/page.tsx",
+          "target": "app/sidebar-07/page.tsx",
           "path": "registry/default/blocks/sidebar-07/page.tsx"
         },
         {
@@ -7469,7 +7469,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-08/page.tsx",
+          "target": "app/sidebar-08/page.tsx",
           "path": "registry/default/blocks/sidebar-08/page.tsx"
         },
         {
@@ -7589,7 +7589,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-09/page.tsx",
+          "target": "app/sidebar-09/page.tsx",
           "path": "registry/default/blocks/sidebar-09/page.tsx"
         },
         {
@@ -7698,7 +7698,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-10/page.tsx",
+          "target": "app/sidebar-10/page.tsx",
           "path": "registry/default/blocks/sidebar-10/page.tsx"
         },
         {
@@ -7825,7 +7825,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-11/page.tsx",
+          "target": "app/sidebar-11/page.tsx",
           "path": "registry/default/blocks/sidebar-11/page.tsx"
         },
         {
@@ -7915,7 +7915,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-12/page.tsx",
+          "target": "app/sidebar-12/page.tsx",
           "path": "registry/default/blocks/sidebar-12/page.tsx"
         },
         {
@@ -8031,7 +8031,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-13/page.tsx",
+          "target": "app/sidebar-13/page.tsx",
           "path": "registry/default/blocks/sidebar-13/page.tsx"
         },
         {
@@ -8117,7 +8117,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-14/page.tsx",
+          "target": "app/sidebar-14/page.tsx",
           "path": "registry/default/blocks/sidebar-14/page.tsx"
         },
         {
@@ -8202,7 +8202,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-15/page.tsx",
+          "target": "app/sidebar-15/page.tsx",
           "path": "registry/default/blocks/sidebar-15/page.tsx"
         },
         {
@@ -8352,7 +8352,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/sidebar-16/page.tsx",
+          "target": "app/sidebar-16/page.tsx",
           "path": "registry/default/blocks/sidebar-16/page.tsx"
         },
         {

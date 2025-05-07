@@ -19,7 +19,7 @@
   "files": [
     {
       "type": "registry:page",
-      "target": "blocks/sidebar-16/page.tsx",
+      "target": "app/sidebar-16/page.tsx",
       "content": "import { AppSidebar } from \"@/blocks/sidebar-16/components/app-sidebar\"\nimport { SiteHeader } from \"@/blocks/sidebar-16/components/site-header\"\nimport { SidebarInset, SidebarProvider } from \"@/components/ui/sidebar\"\n\nexport const iframeHeight = \"800px\"\n\nexport const description = \"A sidebar with a header and a search form.\"\n\nexport default function Page() {\n  return (\n    <div className=\"[--header-height:calc(theme(spacing.14))]\">\n      <SidebarProvider className=\"flex flex-col\">\n        <SiteHeader />\n        <div className=\"flex flex-1\">\n          <AppSidebar />\n          <SidebarInset>\n            <div className=\"flex flex-1 flex-col gap-4 p-4\">\n              <div className=\"grid auto-rows-min gap-4 md:grid-cols-3\">\n                <div className=\"aspect-video rounded-xl bg-muted/50\" />\n                <div className=\"aspect-video rounded-xl bg-muted/50\" />\n                <div className=\"aspect-video rounded-xl bg-muted/50\" />\n              </div>\n              <div className=\"min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min\" />\n            </div>\n          </SidebarInset>\n        </div>\n      </SidebarProvider>\n    </div>\n  )\n}\n",
       "path": "registry/default/blocks/sidebar-16/page.tsx"
     },

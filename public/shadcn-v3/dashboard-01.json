@@ -31,7 +31,7 @@
   "files": [
     {
       "type": "registry:page",
-      "target": "blocks/dashboard-01/page.tsx",
+      "target": "app/dashboard-01/page.tsx",
       "content": "import { AppSidebar } from \"@/blocks/dashboard-01/components/app-sidebar\"\nimport { ChartAreaInteractive } from \"@/blocks/dashboard-01/components/chart-area-interactive\"\nimport { DataTable } from \"@/blocks/dashboard-01/components/data-table\"\nimport { SectionCards } from \"@/blocks/dashboard-01/components/section-cards\"\nimport { SiteHeader } from \"@/blocks/dashboard-01/components/site-header\"\nimport { SidebarInset, SidebarProvider } from \"@/components/ui/sidebar\"\n\nimport data from \"@/blocks/dashboard-01/data\"\n\nexport default function Page() {\n  return (\n    <SidebarProvider>\n      <AppSidebar variant=\"inset\" />\n      <SidebarInset>\n        <SiteHeader />\n        <div className=\"flex flex-1 flex-col\">\n          <div className=\"@container/main flex flex-1 flex-col gap-2\">\n            <div className=\"flex flex-col gap-4 py-4 md:gap-6 md:py-6\">\n              <SectionCards />\n              <div className=\"px-4 lg:px-6\">\n                <ChartAreaInteractive />\n              </div>\n              <DataTable data={data} />\n            </div>\n          </div>\n        </div>\n      </SidebarInset>\n    </SidebarProvider>\n  )\n}\n",
       "path": "registry/default/blocks/dashboard-01/page.tsx"
     },

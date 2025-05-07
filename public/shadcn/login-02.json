@@ -32,7 +32,7 @@
     },
     {
       "type": "registry:page",
-      "target": "blocks/new-york-v4/login-02/page.tsx",
+      "target": "app/new-york-v4/login-02/page.tsx",
       "content": "import { GalleryVerticalEnd } from \"lucide-react\"\n\nimport { LoginForm } from \"@/blocks/new-york-v4/login-02/components/login-form\"\n\nexport default function LoginPage() {\n  return (\n    <div className=\"grid min-h-svh lg:grid-cols-2\">\n      <div className=\"flex flex-col gap-4 p-6 md:p-10\">\n        <div className=\"flex justify-center gap-2 md:justify-start\">\n          <a href=\"#\" className=\"flex items-center gap-2 font-medium\">\n            <div className=\"bg-primary text-primary-foreground flex size-6 items-center justify-center rounded-md\">\n              <GalleryVerticalEnd className=\"size-4\" />\n            </div>\n            Acme Inc.\n          </a>\n        </div>\n        <div className=\"flex flex-1 items-center justify-center\">\n          <div className=\"w-full max-w-xs\">\n            <LoginForm />\n          </div>\n        </div>\n      </div>\n      <div className=\"bg-muted relative hidden lg:block\">\n        <img\n          src=\"/placeholder.svg\"\n          alt=\"Image\"\n          className=\"absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale\"\n        />\n      </div>\n    </div>\n  )\n}\n",
       "path": "registry/new-york-v4/blocks/login-02/page.tsx"
     },

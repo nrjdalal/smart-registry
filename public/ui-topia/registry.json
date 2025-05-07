@@ -967,7 +967,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/login-03/page.tsx",
+          "target": "app/login-03/page.tsx",
           "path": "registry/blocks/login-03/page.tsx"
         },
         {
@@ -1083,7 +1083,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/login-04/page.tsx",
+          "target": "app/login-04/page.tsx",
           "path": "registry/blocks/login-04/page.tsx"
         },
         {
@@ -1203,7 +1203,7 @@
       "files": [
         {
           "type": "registry:page",
-          "target": "blocks/login-05/page.tsx",
+          "target": "app/login-05/page.tsx",
           "path": "registry/blocks/login-05/page.tsx"
         },
         {

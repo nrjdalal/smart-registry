@@ -24,7 +24,7 @@
   "files": [
     {
       "type": "registry:page",
-      "target": "blocks/login-05/page.tsx",
+      "target": "app/login-05/page.tsx",
       "content": "import { Login05 } from \"@/blocks/login-05/components/login-form\";\n\nexport default function Page() {\n  return (\n    <div className=\"flex min-h-screen items-center justify-center\">\n      <div className=\"mx-auto w-full max-w-xs space-y-6\">\n        <Login05 />\n      </div>\n    </div>\n  );\n}\n",
       "path": "registry/blocks/login-05/page.tsx"
     },
