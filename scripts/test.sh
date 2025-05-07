@@ -4,11 +4,11 @@ repos=(
   "https://github.com/origin-space/originui originui . --no-utils"
   "https://github.com/shadcn-ui/ui shadcn apps/v4"
   "https://github.com/shadcn-ui/ui shadcn-v3 apps/www"
-  "https://github.com/stefan-karger/solid-ui solid-ui apps/docs"
   "https://github.com/nrjdalal/the-next-starter the-next-starter ."
   "https://github.com/tremorlabs/tremor tremor ."
-  "https://github.com/cahyawibawa/ui-topia ui-topia apps/web"
+  "https://github.com/stefan-karger/solid-ui solid-ui apps/docs"
   "https://github.com/kokonut-labs/kokonutui kokonutui . -i registry --remove-prefix kokonutui"
+  "https://github.com/cahyawibawa/ui-topia ui-topia apps/web"
 )
 
 if [ "$1" == "clear" ]; then
