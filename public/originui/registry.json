@@ -1130,17 +1130,6 @@
       ]
     },
     {
-      "name": "registry-tags",
-      "type": "registry:file",
-      "files": [
-        {
-          "type": "registry:file",
-          "target": "registry-tags.ts",
-          "path": "registry/registry-tags.ts"
-        }
-      ]
-    },
-    {
       "name": "comp-01",
       "type": "registry:component",
       "dependencies": [

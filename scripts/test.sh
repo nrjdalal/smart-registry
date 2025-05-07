@@ -1,7 +1,6 @@
 #!/bin/bash
 
 repos=(
-  "https://github.com/kokonut-labs/kokonutui kokonutui . -i registry --remove-prefix kokonutui"
   "https://github.com/origin-space/originui originui . --no-utils"
   "https://github.com/shadcn-ui/ui shadcn apps/v4"
   "https://github.com/shadcn-ui/ui shadcn-v3 apps/www"
@@ -9,6 +8,7 @@ repos=(
   "https://github.com/nrjdalal/the-next-starter the-next-starter ."
   "https://github.com/tremorlabs/tremor tremor ."
   "https://github.com/cahyawibawa/ui-topia ui-topia apps/web"
+  "https://github.com/kokonut-labs/kokonutui kokonutui . -i registry --remove-prefix kokonutui"
 )
 
 if [ "$1" == "clear" ]; then

@@ -39,9 +39,19 @@ export const listRegistryFiles = async ({
     throw new Error("No files/directories found to build the registry from!")
   }
 
-  registryFiles = registryFiles.sort((a: string, b: string) =>
-    a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }),
-  )
+  console.log(registryFiles)
+
+  registryFiles = registryFiles
+    .sort((a: string, b: string) =>
+      a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }),
+    )
+    .filter(
+      (file: string) =>
+        !file.startsWith("registry/registry") &&
+        !file.startsWith("registry/index") &&
+        !file.startsWith("src/registry/registry") &&
+        !file.startsWith("src/registry/index"),
+    )
 
   return registryFiles
 }
