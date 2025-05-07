@@ -1,5 +1,6 @@
 export const autoDetectPatterns = [
   "registry/**",
+  "src/registry/**",
   [
     "blocks/**",
     "components/**",
