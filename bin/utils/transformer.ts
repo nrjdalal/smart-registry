@@ -18,7 +18,7 @@ export const transformer = ({
     )
   }
 
-  const transformedPath = filepath.startsWith("registry/")
+  let transformedPath = filepath.startsWith("registry/")
     ? filepath
         .replace(/^registry\//, "")
         .replace(
@@ -60,7 +60,7 @@ export const transformer = ({
         .replace(/\.\.\//g, "")
         .replace(/\.\//g, "")
 
-  let name = transformedPath
+  const name = transformedPath
     .toLowerCase()
     .replace(
       /^(blocks|components\/charts|components\/ui|components|hooks|lib|utils|helpers)\//,
@@ -78,23 +78,45 @@ export const transformer = ({
     .replace(/(\b\w+)\b\/\1\b/g, "$1")
     .replace(/\//g, "-")
 
+  // ~ TODO: handle this better
+  transformedPath =
+    transformedPath.startsWith("blocks/") &&
+    transformedPath.includes("components/")
+      ? transformedPath
+          .replace(/^blocks\//, "")
+          .replace(
+            /(?:([^\/]*)\/)?components\//,
+            (_, p1) => `components/${p1 ? p1 + "/" : ""}`,
+          )
+          .replace(/.*?(components\/)/, "$1")
+      : transformedPath
+
+  const type = transformedPath.endsWith("page.tsx")
+    ? "registry:page"
+    : transformedPath.endsWith(".css")
+      ? "registry:style"
+      : transformedPath
+          .match(
+            /^(blocks|components\/charts|components\/ui|components|hooks|lib|utils|helpers)/,
+          )?.[1]
+          .replace("blocks", "registry:block")
+          .replace("components/charts", "registry:component")
+          .replace("components/ui", "registry:ui")
+          .replace("components", "registry:component")
+          .replace("hooks", "registry:hook")
+          .replace("lib", "registry:lib")
+          .replace("utils", "registry:lib")
+          .replace("helpers", "registry:lib") || "registry:file"
+
+  // ~ TODO: handle this better
+  transformedPath =
+    transformedPath.startsWith("blocks/") &&
+    transformedPath.endsWith("page.tsx")
+      ? transformedPath.replace(/^blocks\//, "app/")
+      : transformedPath
+
   return {
-    type: transformedPath.endsWith("page.tsx")
-      ? "registry:page"
-      : transformedPath.endsWith(".css")
-        ? "registry:style"
-        : transformedPath
-            .match(
-              /^(blocks|components\/charts|components\/ui|components|hooks|lib|utils|helpers)/,
-            )?.[1]
-            .replace("blocks", "registry:block")
-            .replace("components/charts", "registry:component")
-            .replace("components/ui", "registry:ui")
-            .replace("components", "registry:component")
-            .replace("hooks", "registry:hook")
-            .replace("lib", "registry:lib")
-            .replace("utils", "registry:lib")
-            .replace("helpers", "registry:lib") || "registry:file",
+    type,
     name,
     import:
       "@/" +
@@ -102,13 +124,9 @@ export const transformer = ({
         .replace(cwd + path.sep, "")
         .replace(/\.[^/.]+$/, "")
         .replace(/\/index$/, ""),
-    // TODO: better way to handle this
     target:
       originalFilepath.split("/").length > 1
-        ? transformedPath.startsWith("blocks/") &&
-          transformedPath.endsWith("page.tsx")
-          ? transformedPath.replace(/^blocks\//, "app/")
-          : transformedPath
+        ? transformedPath
         : `~/${transformedPath}`,
     path: filepath,
   }

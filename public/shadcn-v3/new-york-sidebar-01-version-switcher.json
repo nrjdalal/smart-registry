@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york-sidebar-01-version-switcher",
-  "type": "registry:block",
+  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-dialog",
     "@radix-ui/react-dropdown-menu",
@@ -15,8 +15,8 @@
   ],
   "files": [
     {
-      "type": "registry:block",
-      "target": "blocks/new-york/sidebar-01/components/version-switcher.tsx",
+      "type": "registry:component",
+      "target": "components/sidebar-01/version-switcher.tsx",
       "content": "\"use client\"\n\nimport * as React from \"react\"\nimport { Check, ChevronsUpDown, GalleryVerticalEnd } from \"lucide-react\"\n\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuItem,\n  DropdownMenuTrigger,\n} from \"@/components/ui/new-york/dropdown-menu\"\nimport {\n  SidebarMenu,\n  SidebarMenuButton,\n  SidebarMenuItem,\n} from \"@/components/ui/new-york/sidebar\"\n\nexport function VersionSwitcher({\n  versions,\n  defaultVersion,\n}: {\n  versions: string[]\n  defaultVersion: string\n}) {\n  const [selectedVersion, setSelectedVersion] = React.useState(defaultVersion)\n\n  return (\n    <SidebarMenu>\n      <SidebarMenuItem>\n        <DropdownMenu>\n          <DropdownMenuTrigger asChild>\n            <SidebarMenuButton\n              size=\"lg\"\n              className=\"data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground\"\n            >\n              <div className=\"flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground\">\n                <GalleryVerticalEnd className=\"size-4\" />\n              </div>\n              <div className=\"flex flex-col gap-0.5 leading-none\">\n                <span className=\"font-semibold\">Documentation</span>\n                <span className=\"\">v{selectedVersion}</span>\n              </div>\n              <ChevronsUpDown className=\"ml-auto\" />\n            </SidebarMenuButton>\n          </DropdownMenuTrigger>\n          <DropdownMenuContent\n            className=\"w-[--radix-dropdown-menu-trigger-width]\"\n            align=\"start\"\n          >\n            {versions.map((version) => (\n              <DropdownMenuItem\n                key={version}\n                onSelect={() => setSelectedVersion(version)}\n              >\n                v{version}{\" \"}\n                {version === selectedVersion && <Check className=\"ml-auto\" />}\n              </DropdownMenuItem>\n            ))}\n          </DropdownMenuContent>\n        </DropdownMenu>\n      </SidebarMenuItem>\n    </SidebarMenu>\n  )\n}\n",
       "path": "registry/new-york/blocks/sidebar-01/components/version-switcher.tsx"
     },

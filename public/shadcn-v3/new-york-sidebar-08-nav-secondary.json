@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york-sidebar-08-nav-secondary",
-  "type": "registry:block",
+  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-dialog",
     "@radix-ui/react-separator",
@@ -14,8 +14,8 @@
   ],
   "files": [
     {
-      "type": "registry:block",
-      "target": "blocks/new-york/sidebar-08/components/nav-secondary.tsx",
+      "type": "registry:component",
+      "target": "components/sidebar-08/nav-secondary.tsx",
       "content": "import * as React from \"react\"\nimport { type LucideIcon } from \"lucide-react\"\n\nimport {\n  SidebarGroup,\n  SidebarGroupContent,\n  SidebarMenu,\n  SidebarMenuButton,\n  SidebarMenuItem,\n} from \"@/components/ui/new-york/sidebar\"\n\nexport function NavSecondary({\n  items,\n  ...props\n}: {\n  items: {\n    title: string\n    url: string\n    icon: LucideIcon\n  }[]\n} & React.ComponentPropsWithoutRef<typeof SidebarGroup>) {\n  return (\n    <SidebarGroup {...props}>\n      <SidebarGroupContent>\n        <SidebarMenu>\n          {items.map((item) => (\n            <SidebarMenuItem key={item.title}>\n              <SidebarMenuButton asChild size=\"sm\">\n                <a href={item.url}>\n                  <item.icon />\n                  <span>{item.title}</span>\n                </a>\n              </SidebarMenuButton>\n            </SidebarMenuItem>\n          ))}\n        </SidebarMenu>\n      </SidebarGroupContent>\n    </SidebarGroup>\n  )\n}\n",
       "path": "registry/new-york/blocks/sidebar-08/components/nav-secondary.tsx"
     },

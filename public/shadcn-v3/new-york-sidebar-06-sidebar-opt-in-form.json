@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york-sidebar-06-sidebar-opt-in-form",
-  "type": "registry:block",
+  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-dialog",
     "@radix-ui/react-separator",
@@ -14,8 +14,8 @@
   ],
   "files": [
     {
-      "type": "registry:block",
-      "target": "blocks/new-york/sidebar-06/components/sidebar-opt-in-form.tsx",
+      "type": "registry:component",
+      "target": "components/sidebar-06/sidebar-opt-in-form.tsx",
       "content": "import { Button } from \"@/components/ui/new-york/button\"\nimport {\n  Card,\n  CardContent,\n  CardDescription,\n  CardHeader,\n  CardTitle,\n} from \"@/components/ui/new-york/card\"\nimport { SidebarInput } from \"@/components/ui/new-york/sidebar\"\n\nexport function SidebarOptInForm() {\n  return (\n    <Card className=\"shadow-none\">\n      <form>\n        <CardHeader className=\"p-4 pb-0\">\n          <CardTitle className=\"text-sm\">Subscribe to our newsletter</CardTitle>\n          <CardDescription>\n            Opt-in to receive updates and news about the sidebar.\n          </CardDescription>\n        </CardHeader>\n        <CardContent className=\"grid gap-2.5 p-4\">\n          <SidebarInput type=\"email\" placeholder=\"Email\" />\n          <Button\n            className=\"w-full bg-sidebar-primary text-sidebar-primary-foreground shadow-none\"\n            size=\"sm\"\n          >\n            Subscribe\n          </Button>\n        </CardContent>\n      </form>\n    </Card>\n  )\n}\n",
       "path": "registry/new-york/blocks/sidebar-06/components/sidebar-opt-in-form.tsx"
     },

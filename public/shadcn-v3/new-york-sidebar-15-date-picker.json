@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york-sidebar-15-date-picker",
-  "type": "registry:block",
+  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-dialog",
     "@radix-ui/react-separator",
@@ -15,8 +15,8 @@
   ],
   "files": [
     {
-      "type": "registry:block",
-      "target": "blocks/new-york/sidebar-15/components/date-picker.tsx",
+      "type": "registry:component",
+      "target": "components/sidebar-15/date-picker.tsx",
       "content": "import { Calendar } from \"@/components/ui/new-york/calendar\"\nimport {\n  SidebarGroup,\n  SidebarGroupContent,\n} from \"@/components/ui/new-york/sidebar\"\n\nexport function DatePicker() {\n  return (\n    <SidebarGroup className=\"px-0\">\n      <SidebarGroupContent>\n        <Calendar className=\"[&_[role=gridcell].bg-accent]:bg-sidebar-primary [&_[role=gridcell].bg-accent]:text-sidebar-primary-foreground [&_[role=gridcell]]:w-[33px]\" />\n      </SidebarGroupContent>\n    </SidebarGroup>\n  )\n}\n",
       "path": "registry/new-york/blocks/sidebar-15/components/date-picker.tsx"
     },

@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york-dashboard-01-site-header",
-  "type": "registry:block",
+  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-dialog",
     "@radix-ui/react-separator",
@@ -14,8 +14,8 @@
   ],
   "files": [
     {
-      "type": "registry:block",
-      "target": "blocks/new-york/dashboard-01/components/site-header.tsx",
+      "type": "registry:component",
+      "target": "components/dashboard-01/site-header.tsx",
       "content": "import { Separator } from \"@/components/ui/new-york/separator\"\nimport { SidebarTrigger } from \"@/components/ui/new-york/sidebar\"\n\nexport function SiteHeader() {\n  return (\n    <header className=\"group-has-data-[collapsible=icon]/sidebar-wrapper:h-12 flex h-12 shrink-0 items-center gap-2 border-b transition-[width,height] ease-linear\">\n      <div className=\"flex w-full items-center gap-1 px-4 lg:gap-2 lg:px-6\">\n        <SidebarTrigger className=\"-ml-1\" />\n        <Separator\n          orientation=\"vertical\"\n          className=\"mx-2 data-[orientation=vertical]:h-4\"\n        />\n        <h1 className=\"text-base font-medium\">Documents</h1>\n      </div>\n    </header>\n  )\n}\n",
       "path": "registry/new-york/blocks/dashboard-01/components/site-header.tsx"
     },

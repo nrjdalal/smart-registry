@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "sidebar-06-nav-main",
-  "type": "registry:block",
+  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-dialog",
     "@radix-ui/react-dropdown-menu",
@@ -15,8 +15,8 @@
   ],
   "files": [
     {
-      "type": "registry:block",
-      "target": "blocks/sidebar-06/components/nav-main.tsx",
+      "type": "registry:component",
+      "target": "components/sidebar-06/nav-main.tsx",
       "content": "\"use client\"\n\nimport { MoreHorizontal, type LucideIcon } from \"lucide-react\"\n\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuItem,\n  DropdownMenuTrigger,\n} from \"@/components/ui/dropdown-menu\"\nimport {\n  SidebarGroup,\n  SidebarMenu,\n  SidebarMenuButton,\n  SidebarMenuItem,\n  useSidebar,\n} from \"@/components/ui/sidebar\"\n\nexport function NavMain({\n  items,\n}: {\n  items: {\n    title: string\n    url: string\n    icon?: LucideIcon\n    isActive?: boolean\n    items?: {\n      title: string\n      url: string\n    }[]\n  }[]\n}) {\n  const { isMobile } = useSidebar()\n\n  return (\n    <SidebarGroup>\n      <SidebarMenu>\n        {items.map((item) => (\n          <DropdownMenu key={item.title}>\n            <SidebarMenuItem>\n              <DropdownMenuTrigger asChild>\n                <SidebarMenuButton className=\"data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground\">\n                  {item.title} <MoreHorizontal className=\"ml-auto\" />\n                </SidebarMenuButton>\n              </DropdownMenuTrigger>\n              {item.items?.length ? (\n                <DropdownMenuContent\n                  side={isMobile ? \"bottom\" : \"right\"}\n                  align={isMobile ? \"end\" : \"start\"}\n                  className=\"min-w-56 rounded-lg\"\n                >\n                  {item.items.map((item) => (\n                    <DropdownMenuItem asChild key={item.title}>\n                      <a href={item.url}>{item.title}</a>\n                    </DropdownMenuItem>\n                  ))}\n                </DropdownMenuContent>\n              ) : null}\n            </SidebarMenuItem>\n          </DropdownMenu>\n        ))}\n      </SidebarMenu>\n    </SidebarGroup>\n  )\n}\n",
       "path": "registry/default/blocks/sidebar-06/components/nav-main.tsx"
     },

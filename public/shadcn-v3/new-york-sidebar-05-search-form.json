@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york-sidebar-05-search-form",
-  "type": "registry:block",
+  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-dialog",
     "@radix-ui/react-label",
@@ -15,8 +15,8 @@
   ],
   "files": [
     {
-      "type": "registry:block",
-      "target": "blocks/new-york/sidebar-05/components/search-form.tsx",
+      "type": "registry:component",
+      "target": "components/sidebar-05/search-form.tsx",
       "content": "import { Search } from \"lucide-react\"\n\nimport { Label } from \"@/components/ui/new-york/label\"\nimport {\n  SidebarGroup,\n  SidebarGroupContent,\n  SidebarInput,\n} from \"@/components/ui/new-york/sidebar\"\n\nexport function SearchForm({ ...props }: React.ComponentProps<\"form\">) {\n  return (\n    <form {...props}>\n      <SidebarGroup className=\"py-0\">\n        <SidebarGroupContent className=\"relative\">\n          <Label htmlFor=\"search\" className=\"sr-only\">\n            Search\n          </Label>\n          <SidebarInput\n            id=\"search\"\n            placeholder=\"Search the docs...\"\n            className=\"pl-8\"\n          />\n          <Search className=\"pointer-events-none absolute left-2 top-1/2 size-4 -translate-y-1/2 select-none opacity-50\" />\n        </SidebarGroupContent>\n      </SidebarGroup>\n    </form>\n  )\n}\n",
       "path": "registry/new-york/blocks/sidebar-05/components/search-form.tsx"
     },

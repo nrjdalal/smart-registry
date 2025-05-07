@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york-sidebar-10-nav-main",
-  "type": "registry:block",
+  "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-dialog",
     "@radix-ui/react-separator",
@@ -14,8 +14,8 @@
   ],
   "files": [
     {
-      "type": "registry:block",
-      "target": "blocks/new-york/sidebar-10/components/nav-main.tsx",
+      "type": "registry:component",
+      "target": "components/sidebar-10/nav-main.tsx",
       "content": "\"use client\"\n\nimport { type LucideIcon } from \"lucide-react\"\n\nimport {\n  SidebarMenu,\n  SidebarMenuButton,\n  SidebarMenuItem,\n} from \"@/components/ui/new-york/sidebar\"\n\nexport function NavMain({\n  items,\n}: {\n  items: {\n    title: string\n    url: string\n    icon: LucideIcon\n    isActive?: boolean\n  }[]\n}) {\n  return (\n    <SidebarMenu>\n      {items.map((item) => (\n        <SidebarMenuItem key={item.title}>\n          <SidebarMenuButton asChild isActive={item.isActive}>\n            <a href={item.url}>\n              <item.icon />\n              <span>{item.title}</span>\n            </a>\n          </SidebarMenuButton>\n        </SidebarMenuItem>\n      ))}\n    </SidebarMenu>\n  )\n}\n",
       "path": "registry/new-york/blocks/sidebar-10/components/nav-main.tsx"
     },

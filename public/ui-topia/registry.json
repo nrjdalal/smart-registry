@@ -630,6 +630,123 @@
       ]
     },
     {
+      "name": "login-03-login-form",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-slot",
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/login-03/login-form.tsx",
+          "path": "registry/blocks/login-03/components/login-form.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/ui/label.tsx"
+        }
+      ]
+    },
+    {
+      "name": "login-04-login-form",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/login-04/login-form.tsx",
+          "path": "registry/blocks/login-04/components/login-form.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/ui/separator.tsx"
+        }
+      ]
+    },
+    {
+      "name": "login-05-login-form",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-label",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/login-05/login-form.tsx",
+          "path": "registry/blocks/login-05/components/login-form.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
+          "path": "registry/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/ui/separator.tsx"
+        }
+      ]
+    },
+    {
       "name": "paper-fold-demo",
       "type": "registry:component",
       "title": "Paper Fold",
@@ -775,8 +892,8 @@
           "path": "registry/blocks/login-03/page.tsx"
         },
         {
-          "type": "registry:block",
-          "target": "blocks/login-03/components/login-form.tsx",
+          "type": "registry:component",
+          "target": "components/login-03/login-form.tsx",
           "path": "registry/blocks/login-03/components/login-form.tsx"
         },
         {
@@ -805,42 +922,6 @@
       },
       "categories": [
         "authentication"
-      ]
-    },
-    {
-      "name": "login-03-login-form",
-      "type": "registry:block",
-      "dependencies": [
-        "@radix-ui/react-label",
-        "@radix-ui/react-slot",
-        "class-variance-authority"
-      ],
-      "files": [
-        {
-          "type": "registry:block",
-          "target": "blocks/login-03/components/login-form.tsx",
-          "path": "registry/blocks/login-03/components/login-form.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/button.tsx",
-          "path": "registry/ui/button.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/card.tsx",
-          "path": "registry/ui/card.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/input.tsx",
-          "path": "registry/ui/input.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/label.tsx",
-          "path": "registry/ui/label.tsx"
-        }
       ]
     },
     {
@@ -867,8 +948,8 @@
           "path": "registry/blocks/login-04/page.tsx"
         },
         {
-          "type": "registry:block",
-          "target": "blocks/login-04/components/login-form.tsx",
+          "type": "registry:component",
+          "target": "components/login-04/login-form.tsx",
           "path": "registry/blocks/login-04/components/login-form.tsx"
         },
         {
@@ -897,43 +978,6 @@
       },
       "categories": [
         "authentication"
-      ]
-    },
-    {
-      "name": "login-04-login-form",
-      "type": "registry:block",
-      "dependencies": [
-        "@radix-ui/react-label",
-        "@radix-ui/react-separator",
-        "@radix-ui/react-slot",
-        "class-variance-authority"
-      ],
-      "files": [
-        {
-          "type": "registry:block",
-          "target": "blocks/login-04/components/login-form.tsx",
-          "path": "registry/blocks/login-04/components/login-form.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/button.tsx",
-          "path": "registry/ui/button.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/input.tsx",
-          "path": "registry/ui/input.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/label.tsx",
-          "path": "registry/ui/label.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/separator.tsx",
-          "path": "registry/ui/separator.tsx"
-        }
       ]
     },
     {
@@ -963,8 +1007,8 @@
           "path": "registry/blocks/login-05/page.tsx"
         },
         {
-          "type": "registry:block",
-          "target": "blocks/login-05/components/login-form.tsx",
+          "type": "registry:component",
+          "target": "components/login-05/login-form.tsx",
           "path": "registry/blocks/login-05/components/login-form.tsx"
         },
         {
@@ -998,50 +1042,6 @@
       },
       "categories": [
         "authentication"
-      ]
-    },
-    {
-      "name": "login-05-login-form",
-      "type": "registry:block",
-      "dependencies": [
-        "@radix-ui/react-checkbox",
-        "@radix-ui/react-label",
-        "@radix-ui/react-separator",
-        "@radix-ui/react-slot",
-        "class-variance-authority",
-        "lucide-react"
-      ],
-      "files": [
-        {
-          "type": "registry:block",
-          "target": "blocks/login-05/components/login-form.tsx",
-          "path": "registry/blocks/login-05/components/login-form.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/button.tsx",
-          "path": "registry/ui/button.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/checkbox.tsx",
-          "path": "registry/ui/checkbox.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/input.tsx",
-          "path": "registry/ui/input.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/label.tsx",
-          "path": "registry/ui/label.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/separator.tsx",
-          "path": "registry/ui/separator.tsx"
-        }
       ]
     }
   ]
