@@ -3,10 +3,8 @@
   "name": "nav",
   "type": "registry:component",
   "dependencies": [
-    "clsx",
     "lucide-react",
-    "next",
-    "tailwind-merge"
+    "next"
   ],
   "files": [
     {
@@ -32,12 +30,6 @@
       "target": "config/navigation.ts",
       "content": "export interface NavItem {\n    id: string | number;\n    title: string;\n    href: string;\n    description?: string;\n    count?: number | string;\n    isComingSoon?: boolean;\n    isNew?: boolean;\n    isLab?: boolean;\n}\n\nexport interface NavSection {\n    title: string;\n    items: NavItem[];\n}\n\nexport const navigationSections: NavSection[] = [\n    {\n        title: \"Getting Started\",\n        items: [\n            {\n                id: \"intro\",\n                title: \"Installation\",\n                href: \"/docs\",\n                description: \"Introduction and usage guidelines\",\n            },\n        ],\n    },\n    {\n        title: \"Components\",\n        items: [\n            {\n                id: 1,\n                title: \"AI-Input\",\n                href: \"/docs/components/ai-input\",\n                description: \"Modern AI chat interface components\",\n                count: 16,\n            },\n            {\n                id: 2,\n                title: \"Alerts\",\n                href: \"/docs/components/alert\",\n                description: \"Alert components and layouts\",\n                count: 7,\n            },\n            {\n                id: 3,\n                title: \"Button\",\n                href: \"/docs/components/button\",\n                description: \"Interactive button components with animations\",\n                count: 10,\n            },\n            {\n                id: 4,\n                title: \"Card\",\n                href: \"/docs/components/card\",\n                description: \"Versatile card components and layouts\",\n                count: 7,\n            },\n            {\n                id: 5,\n                title: \"Faq\",\n                href: \"/docs/components/faq\",\n                description: \"Frequently asked questions\",\n                count: 4,\n            },\n            {\n                id: 6,\n                title: \"Input\",\n                href: \"/docs/components/input\",\n                description: \"More components coming soon\",\n                count: \"10\",\n            },\n            {\n                id: 7,\n                title: \"List\",\n                href: \"/docs/components/list\",\n                description: \"List components and layouts\",\n                count: 6,\n            },\n            {\n                id: 8,\n                title: \"Pricing\",\n                href: \"/docs/components/pricing\",\n                description: \"Pricing components and layouts\",\n                count: 4,\n                isNew: true,\n            },\n            {\n                id: 9,\n                title: \"Profile\",\n                href: \"/docs/components/profile\",\n                description: \"Profile components and layouts\",\n                count: 5,\n                isNew: true,\n            },\n            {\n                id: 10,\n                title: \"Text\",\n                href: \"/docs/components/text\",\n                description: \"Typography and text animation components\",\n                count: 6,\n            },\n        ],\n    },\n    {\n        title: \"Hooks\",\n        items: [\n            {\n                id: 1,\n                title: \"Custom Hooks\",\n                href: \"/docs/hooks\",\n            },\n        ],\n    },\n    {\n        title: \"Blocks\",\n        items: [\n            {\n                id: 1,\n                title: \"Block - 01\",\n                href: \"/docs/components/block\",\n                isLab: true,\n            },\n        ],\n    },\n];\n",
       "path": "config/navigation.ts"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n    return twMerge(clsx(inputs));\n}\n",
-      "path": "lib/utils.ts"
     }
   ]
 }

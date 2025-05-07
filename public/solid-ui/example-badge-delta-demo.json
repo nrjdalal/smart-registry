@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "class-variance-authority",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "example/badge-delta-demo.tsx",
       "content": "import { BadgeDelta } from \"@/components/ui/badge-delta\"\n\nexport default function BadgeDeltaDemo() {\n  return (\n    <div class=\"flex flex-col gap-4\">\n      <p>BadgeDelta with pre-defined status icons</p>\n      <div class=\"flex flex-wrap gap-2\">\n        <BadgeDelta deltaType=\"increase\">text</BadgeDelta>\n        <BadgeDelta deltaType=\"moderateIncrease\">text</BadgeDelta>\n        <BadgeDelta deltaType=\"unchanged\">text</BadgeDelta>\n        <BadgeDelta deltaType=\"moderateDecrease\">text</BadgeDelta>\n        <BadgeDelta deltaType=\"decrease\">text</BadgeDelta>\n      </div>\n      <p>BadgeDelta without text</p>\n      <div class=\"flex flex-wrap gap-2\">\n        <BadgeDelta deltaType=\"increase\" />\n        <BadgeDelta deltaType=\"moderateIncrease\" />\n        <BadgeDelta deltaType=\"unchanged\" />\n        <BadgeDelta deltaType=\"moderateDecrease\" />\n        <BadgeDelta deltaType=\"decrease\" />\n      </div>\n    </div>\n  )\n}\n",
       "path": "src/registry/example/badge-delta-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

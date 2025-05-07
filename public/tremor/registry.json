@@ -30,9 +30,7 @@
       "type": "registry:hook",
       "dependencies": [
         "@radix-ui/react-toast",
-        "@remixicon/react",
-        "clsx",
-        "tailwind-merge"
+        "@remixicon/react"
       ],
       "files": [
         {
@@ -134,42 +132,11 @@
       ]
     },
     {
-      "name": "utils.spec",
-      "type": "registry:lib",
-      "devDependencies": [
-        "vitest"
-      ],
-      "files": [
-        {
-          "type": "registry:lib",
-          "target": "utils/utils.spec.ts",
-          "path": "src/utils/utils.spec.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/chartColors.ts",
-          "path": "src/utils/chartColors.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/getYAxisDomain.ts",
-          "path": "src/utils/getYAxisDomain.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "utils/hasOnlyOneValueForKey.ts",
-          "path": "src/utils/hasOnlyOneValueForKey.ts"
-        }
-      ]
-    },
-    {
       "name": "accordion",
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "@remixicon/react",
-        "clsx",
-        "tailwind-merge"
+        "@remixicon/react"
       ],
       "files": [
         {
@@ -216,8 +183,6 @@
         "@radix-ui/react-accordion",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -261,9 +226,7 @@
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
-        "clsx",
-        "recharts",
-        "tailwind-merge"
+        "recharts"
       ],
       "files": [
         {
@@ -330,9 +293,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
         "@remixicon/react",
-        "clsx",
         "recharts",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -395,8 +356,6 @@
       "name": "badge",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "files": [
@@ -441,8 +400,6 @@
       "name": "badge.stories",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -471,9 +428,7 @@
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
-        "clsx",
-        "recharts",
-        "tailwind-merge"
+        "recharts"
       ],
       "files": [
         {
@@ -535,9 +490,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
         "@remixicon/react",
-        "clsx",
         "recharts",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -594,10 +547,6 @@
     {
       "name": "barlist",
       "type": "registry:component",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -644,10 +593,6 @@
     {
       "name": "barlist.stories",
       "type": "registry:component",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "devDependencies": [
         "@storybook/react"
       ],
@@ -680,8 +625,6 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "files": [
@@ -733,8 +676,6 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -768,10 +709,8 @@
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
-        "clsx",
         "date-fns",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "files": [
         {
@@ -821,10 +760,8 @@
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
-        "clsx",
         "date-fns",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "devDependencies": [
         "@storybook/react"
@@ -856,8 +793,6 @@
       "name": "callout",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "files": [
@@ -903,8 +838,6 @@
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -932,9 +865,7 @@
       "name": "card",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-slot",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-slot"
       ],
       "files": [
         {
@@ -987,8 +918,6 @@
         "@radix-ui/react-tabs",
         "@radix-ui/react-tooltip",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -1091,9 +1020,7 @@
       "name": "categorybar",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-tooltip",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-tooltip"
       ],
       "files": [
         {
@@ -1147,9 +1074,7 @@
       "name": "categorybar.stories",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-tooltip",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-tooltip"
       ],
       "devDependencies": [
         "@storybook/react"
@@ -1186,9 +1111,7 @@
       "name": "checkbox",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-checkbox",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-checkbox"
       ],
       "files": [
         {
@@ -1241,8 +1164,6 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -1286,9 +1207,7 @@
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
-        "clsx",
-        "recharts",
-        "tailwind-merge"
+        "recharts"
       ],
       "files": [
         {
@@ -1355,9 +1274,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
         "@remixicon/react",
-        "clsx",
         "recharts",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -1426,10 +1343,8 @@
         "@react-aria/datepicker",
         "@react-stately/datepicker",
         "@remixicon/react",
-        "clsx",
         "date-fns",
         "react-day-picker",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "files": [
@@ -1491,10 +1406,8 @@
         "@react-aria/datepicker",
         "@react-stately/datepicker",
         "@remixicon/react",
-        "clsx",
         "date-fns",
         "react-day-picker",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -1567,10 +1480,8 @@
         "@react-aria/datepicker",
         "@react-stately/datepicker",
         "@remixicon/react",
-        "clsx",
         "date-fns",
         "react-day-picker",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -1633,9 +1544,7 @@
       "name": "dialog",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-dialog",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-dialog"
       ],
       "files": [
         {
@@ -1687,8 +1596,6 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -1725,10 +1632,6 @@
     {
       "name": "divider",
       "type": "registry:component",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -1773,8 +1676,6 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -1812,9 +1713,7 @@
       "name": "donutchart",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "recharts",
-        "tailwind-merge"
+        "recharts"
       ],
       "files": [
         {
@@ -1865,9 +1764,7 @@
       "dependencies": [
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
-        "clsx",
         "recharts",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -1918,8 +1815,6 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "files": [
@@ -1977,8 +1872,6 @@
         "@radix-ui/react-dialog",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -2017,9 +1910,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-dropdown-menu",
-        "@remixicon/react",
-        "clsx",
-        "tailwind-merge"
+        "@remixicon/react"
       ],
       "files": [
         {
@@ -2066,8 +1957,6 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -2106,8 +1995,6 @@
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "files": [
@@ -2170,8 +2057,6 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -2224,9 +2109,7 @@
       "name": "label",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-label",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-label"
       ],
       "files": [
         {
@@ -2273,8 +2156,6 @@
         "@radix-ui/react-checkbox",
         "@radix-ui/react-label",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -2328,9 +2209,7 @@
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
-        "clsx",
-        "recharts",
-        "tailwind-merge"
+        "recharts"
       ],
       "files": [
         {
@@ -2397,9 +2276,7 @@
         "@radix-ui/react-label",
         "@radix-ui/react-switch",
         "@remixicon/react",
-        "clsx",
         "recharts",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -2462,9 +2339,7 @@
       "name": "popover",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-popover",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-popover"
       ],
       "files": [
         {
@@ -2513,8 +2388,6 @@
         "@radix-ui/react-popover",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -2577,8 +2450,6 @@
       "name": "progressbar",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "files": [
@@ -2624,8 +2495,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -2658,8 +2527,6 @@
       "name": "progresscircle",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "files": [
@@ -2705,8 +2572,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -2739,9 +2604,7 @@
       "name": "radiocardgroup",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-radio-group",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-radio-group"
       ],
       "files": [
         {
@@ -2798,8 +2661,6 @@
         "@radix-ui/react-radio-group",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -2842,9 +2703,7 @@
       "name": "radiogroup",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-radio-group",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-radio-group"
       ],
       "files": [
         {
@@ -2897,8 +2756,6 @@
         "@radix-ui/react-radio-group",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -2942,9 +2799,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-select",
-        "@remixicon/react",
-        "clsx",
-        "tailwind-merge"
+        "@remixicon/react"
       ],
       "files": [
         {
@@ -3002,8 +2857,6 @@
         "@radix-ui/react-select",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -3056,8 +2909,6 @@
       "name": "selectnative",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "files": [
@@ -3113,8 +2964,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-label",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -3157,9 +3006,7 @@
       "name": "slider",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-slider",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-slider"
       ],
       "files": [
         {
@@ -3211,8 +3058,6 @@
         "@radix-ui/react-slider",
         "@radix-ui/react-slot",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -3260,9 +3105,7 @@
       "name": "sparkchart",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "recharts",
-        "tailwind-merge"
+        "recharts"
       ],
       "files": [
         {
@@ -3302,9 +3145,7 @@
       "name": "sparkchart-sparkareachart.stories",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "recharts",
-        "tailwind-merge"
+        "recharts"
       ],
       "devDependencies": [
         "@storybook/react"
@@ -3341,9 +3182,7 @@
       "name": "sparkchart-sparkbarchart.stories",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "recharts",
-        "tailwind-merge"
+        "recharts"
       ],
       "devDependencies": [
         "@storybook/react"
@@ -3380,9 +3219,7 @@
       "name": "sparkchart-sparklinechart.stories",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "recharts",
-        "tailwind-merge"
+        "recharts"
       ],
       "devDependencies": [
         "@storybook/react"
@@ -3434,8 +3271,6 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-switch",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "files": [
@@ -3489,8 +3324,6 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-switch",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -3542,10 +3375,6 @@
     {
       "name": "table",
       "type": "registry:component",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -3589,8 +3418,6 @@
       "type": "registry:component",
       "dependencies": [
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -3623,9 +3450,7 @@
       "name": "tabnavigation",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-navigation-menu",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-navigation-menu"
       ],
       "files": [
         {
@@ -3675,9 +3500,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-navigation-menu",
-        "@remixicon/react",
-        "clsx",
-        "tailwind-merge"
+        "@remixicon/react"
       ],
       "devDependencies": [
         "@storybook/react"
@@ -3709,9 +3532,7 @@
       "name": "tabs",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-tabs",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-tabs"
       ],
       "files": [
         {
@@ -3761,9 +3582,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tabs",
-        "@remixicon/react",
-        "clsx",
-        "tailwind-merge"
+        "@remixicon/react"
       ],
       "devDependencies": [
         "@storybook/react"
@@ -3794,10 +3613,6 @@
     {
       "name": "textarea",
       "type": "registry:component",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:component",
@@ -3850,9 +3665,7 @@
       "name": "textarea.stories",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-slot",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-slot"
       ],
       "devDependencies": [
         "@storybook/react"
@@ -3895,9 +3708,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-toast",
-        "@remixicon/react",
-        "clsx",
-        "tailwind-merge"
+        "@remixicon/react"
       ],
       "files": [
         {
@@ -3928,9 +3739,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-toast",
-        "@remixicon/react",
-        "clsx",
-        "tailwind-merge"
+        "@remixicon/react"
       ],
       "files": [
         {
@@ -3962,8 +3771,6 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-toast",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -4012,9 +3819,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-toggle",
-        "@radix-ui/react-toggle-group",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-toggle-group"
       ],
       "files": [
         {
@@ -4065,9 +3870,7 @@
       "dependencies": [
         "@radix-ui/react-toggle",
         "@radix-ui/react-toggle-group",
-        "@remixicon/react",
-        "clsx",
-        "tailwind-merge"
+        "@remixicon/react"
       ],
       "devDependencies": [
         "@storybook/react"
@@ -4099,9 +3902,7 @@
       "name": "tooltip",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-tooltip",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-tooltip"
       ],
       "files": [
         {
@@ -4148,8 +3949,6 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "@remixicon/react",
-        "clsx",
-        "tailwind-merge",
         "tailwind-variants"
       ],
       "devDependencies": [
@@ -4187,9 +3986,7 @@
       "name": "tracker",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-hover-card",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-hover-card"
       ],
       "files": [
         {
@@ -4233,9 +4030,7 @@
       "name": "tracker.stories",
       "type": "registry:component",
       "dependencies": [
-        "@radix-ui/react-hover-card",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-hover-card"
       ],
       "devDependencies": [
         "@storybook/react"

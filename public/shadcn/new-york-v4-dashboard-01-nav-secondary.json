@@ -9,9 +9,7 @@
     "@radix-ui/react-tooltip",
     "@tabler/icons-react",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -19,12 +17,6 @@
       "target": "components/dashboard-01/nav-secondary.tsx",
       "content": "\"use client\"\n\nimport * as React from \"react\"\nimport { type Icon } from \"@tabler/icons-react\"\n\nimport {\n  SidebarGroup,\n  SidebarGroupContent,\n  SidebarMenu,\n  SidebarMenuButton,\n  SidebarMenuItem,\n} from \"@/components/ui/new-york-v4/sidebar\"\n\nexport function NavSecondary({\n  items,\n  ...props\n}: {\n  items: {\n    title: string\n    url: string\n    icon: Icon\n  }[]\n} & React.ComponentPropsWithoutRef<typeof SidebarGroup>) {\n  return (\n    <SidebarGroup {...props}>\n      <SidebarGroupContent>\n        <SidebarMenu>\n          {items.map((item) => (\n            <SidebarMenuItem key={item.title}>\n              <SidebarMenuButton asChild>\n                <a href={item.url}>\n                  <item.icon />\n                  <span>{item.title}</span>\n                </a>\n              </SidebarMenuButton>\n            </SidebarMenuItem>\n          ))}\n        </SidebarMenu>\n      </SidebarGroupContent>\n    </SidebarGroup>\n  )\n}\n",
       "path": "registry/new-york-v4/blocks/dashboard-01/components/nav-secondary.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:lib",

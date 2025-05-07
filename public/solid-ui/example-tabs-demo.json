@@ -5,9 +5,7 @@
   "dependencies": [
     "@kobalte/core",
     "class-variance-authority",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -15,12 +13,6 @@
       "target": "example/tabs-demo.tsx",
       "content": "import { Button } from \"@/components/ui/button\"\nimport {\n  Card,\n  CardContent,\n  CardDescription,\n  CardFooter,\n  CardHeader,\n  CardTitle\n} from \"@/components/ui/card\"\nimport { Tabs, TabsContent, TabsList, TabsTrigger } from \"@/components/ui/tabs\"\nimport { TextField, TextFieldInput, TextFieldLabel } from \"@/components/ui/text-field\"\n\nexport default function TabsDemo() {\n  return (\n    <Tabs defaultValue=\"account\" class=\"w-[400px]\">\n      <TabsList class=\"grid w-full grid-cols-2\">\n        <TabsTrigger value=\"account\">Account</TabsTrigger>\n        <TabsTrigger value=\"password\">Password</TabsTrigger>\n      </TabsList>\n      <TabsContent value=\"account\">\n        <Card>\n          <CardHeader>\n            <CardTitle>Account</CardTitle>\n            <CardDescription>\n              Make changes to your account here. Click save when you're done.\n            </CardDescription>\n          </CardHeader>\n          <CardContent class=\"space-y-2\">\n            <TextField class=\"space-y-1\">\n              <TextFieldLabel>Name</TextFieldLabel>\n              <TextFieldInput value=\"Pedro Duarte\" type=\"text\" />\n            </TextField>\n            <TextField class=\"space-y-1\">\n              <TextFieldLabel>Username</TextFieldLabel>\n              <TextFieldInput value=\"@peduarte\" type=\"text\" />\n            </TextField>\n          </CardContent>\n          <CardFooter>\n            <Button>Save changes</Button>\n          </CardFooter>\n        </Card>\n      </TabsContent>\n      <TabsContent value=\"password\">\n        <Card>\n          <CardHeader>\n            <CardTitle>Password</CardTitle>\n            <CardDescription>\n              Change your password here. After saving, you'll be logged out.\n            </CardDescription>\n          </CardHeader>\n          <CardContent class=\"space-y-2\">\n            <TextField class=\"space-y-1\">\n              <TextFieldLabel>Current password</TextFieldLabel>\n              <TextFieldInput type=\"password\" />\n            </TextField>\n            <TextField class=\"space-y-1\">\n              <TextFieldLabel>New password</TextFieldLabel>\n              <TextFieldInput type=\"password\" />\n            </TextField>\n          </CardContent>\n          <CardFooter>\n            <Button>Save password</Button>\n          </CardFooter>\n        </Card>\n      </TabsContent>\n    </Tabs>\n  )\n}\n",
       "path": "src/registry/example/tabs-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

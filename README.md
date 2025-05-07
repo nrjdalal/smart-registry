@@ -135,6 +135,7 @@ Options:
   -o, --output <path>     destination directory for json files (default: "./public/r")
   -c, --cwd <cwd>         the working directory (default: "./")
   -i, --ignore <pattern>  ignore files matching the pattern (default: none)
+  -u, --with-utils        include @/lib/utils in the registry items if exists (default: false)
   -v, --version           display version
   -h, --help              display help
 
@@ -146,7 +147,6 @@ Codemods:
   --codemod-radix         migrate to unify "@radix-ui/react-*" imports to "radix-ui"
 
 Cleanup:
-  --no-utils              remove @/lib/utils from the registry items (default: false)
   --remove-prefix         remove given prefix from the registry item names (default: none)
 
 Author:

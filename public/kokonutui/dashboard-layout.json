@@ -10,10 +10,8 @@
     "@radix-ui/react-slot",
     "@radix-ui/react-tooltip",
     "class-variance-authority",
-    "clsx",
     "lucide-react",
-    "next",
-    "tailwind-merge"
+    "next"
   ],
   "files": [
     {
@@ -63,12 +61,6 @@
       "target": "components/kokonutui/blocks/dashboard/top-nav.tsx",
       "content": "import { ChevronRight } from \"lucide-react\";\nimport Link from \"next/link\";\nimport { SidebarTrigger } from \"@/components/ui/sidebar\";\nimport { Separator } from \"@/components/ui/separator\";\nimport Btn11 from \"@/components/kokonutui/blocks/dashboard/btn-11\";\n\ninterface BreadcrumbItem {\n    label: string;\n    href?: string;\n}\n\nexport default function TopNav() {\n    const breadcrumbs: BreadcrumbItem[] = [\n        { label: \"kokonut/ui\", href: \"#\" },\n        { label: \"dashboard\", href: \"#\" },\n    ];\n\n    return (\n        <nav className=\"flex h-(--header-height) shrink-0 items-center gap-2 border-b transition-[width,height] ease-linear group-has-data-[collapsible=icon]/sidebar-wrapper:h-(--header-height)\">\n            <div className=\"flex w-full items-center gap-1 px-4 lg:gap-2 lg:px-6 text-sm\">\n                <SidebarTrigger className=\"-ml-1\" />\n                <Separator\n                    orientation=\"vertical\"\n                    className=\"mx-2 data-[orientation=vertical]:h-4\"\n                />\n                {breadcrumbs.map((item, index) => (\n                    <div key={item.label} className=\"flex items-center\">\n                        {index > 0 && (\n                            <ChevronRight className=\"h-4 w-4 text-gray-500 dark:text-gray-400 mx-1\" />\n                        )}\n                        {item.href ? (\n                            <Link\n                                href={item.href}\n                                className=\"text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition-colors\"\n                            >\n                                {item.label}\n                            </Link>\n                        ) : (\n                            <span className=\"text-gray-900 dark:text-gray-100\">\n                                {item.label}\n                            </span>\n                        )}\n                    </div>\n                ))}\n            </div>\n\n            <div className=\"flex items-center gap-2 sm:gap-4 sm:ml-0 mr-4\">\n                <Btn11 className=\"h-8\">Upgrade to Pro</Btn11>\n            </div>\n        </nav>\n    );\n}\n",
       "path": "components/kokonutui/blocks/dashboard/top-nav.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n    return twMerge(clsx(inputs));\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:hook",

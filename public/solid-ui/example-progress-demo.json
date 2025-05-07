@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "@kobalte/core",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "example/progress-demo.tsx",
       "content": "import { Progress, ProgressLabel, ProgressValueLabel } from \"@/components/ui/progress\"\n\nexport default function ProgressDemo() {\n  return (\n    <Progress\n      value={3}\n      minValue={0}\n      maxValue={10}\n      getValueLabel={({ value, max }) => `${value} of ${max} tasks completed`}\n      class=\"w-[300px] space-y-1\"\n    >\n      <div class=\"flex justify-between\">\n        <ProgressLabel>Processing...</ProgressLabel>\n        <ProgressValueLabel />\n      </div>\n    </Progress>\n  )\n}\n",
       "path": "src/registry/example/progress-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

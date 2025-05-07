@@ -6,9 +6,7 @@
     "@corvu/drawer",
     "@kobalte/core",
     "class-variance-authority",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -16,12 +14,6 @@
       "target": "example/drawer-dialog.tsx",
       "content": "import type { ComponentProps } from \"solid-js\"\nimport { createSignal, onMount, Show } from \"solid-js\"\n\nimport { cn } from \"@/lib/utils\"\nimport { Button } from \"@/components/ui/button\"\nimport {\n  Dialog,\n  DialogContent,\n  DialogDescription,\n  DialogHeader,\n  DialogTitle,\n  DialogTrigger\n} from \"@/components/ui/dialog\"\nimport {\n  Drawer,\n  DrawerClose,\n  DrawerContent,\n  DrawerDescription,\n  DrawerFooter,\n  DrawerHeader,\n  DrawerTitle,\n  DrawerTrigger\n} from \"@/components/ui/drawer\"\nimport { TextField, TextFieldInput, TextFieldLabel } from \"@/components/ui/text-field\"\n\nexport default function DrawerDialogDemo() {\n  const [open, setOpen] = createSignal(false)\n  const [isDesktop, setIsDesktop] = createSignal(false)\n\n  onMount(() => {\n    setIsDesktop(window.innerWidth >= 768)\n  })\n\n  const MobileDialog = () => (\n    <Drawer open={open()} onOpenChange={setOpen}>\n      <DrawerTrigger as={Button<\"button\">} variant=\"outline\">\n        Edit Profile\n      </DrawerTrigger>\n      <DrawerContent>\n        <DrawerHeader class=\"text-left\">\n          <DrawerTitle>Edit profile</DrawerTitle>\n          <DrawerDescription>\n            Make changes to your profile here. Click save when you're done.\n          </DrawerDescription>\n        </DrawerHeader>\n        <ProfileForm class=\"px-4\" />\n        <DrawerFooter class=\"pt-2\">\n          <DrawerClose as={Button<\"button\">} variant=\"outline\">\n            Cancel\n          </DrawerClose>\n        </DrawerFooter>\n      </DrawerContent>\n    </Drawer>\n  )\n\n  return (\n    <Show when={isDesktop()} fallback={<MobileDialog />}>\n      <Dialog open={open()} onOpenChange={setOpen}>\n        <DialogTrigger as={Button} variant=\"outline\">\n          Edit Profile\n        </DialogTrigger>\n        <DialogContent class=\"sm:max-w-[425px]\">\n          <DialogHeader>\n            <DialogTitle>Edit profile</DialogTitle>\n            <DialogDescription>\n              Make changes to your profile here. Click save when you're done.\n            </DialogDescription>\n          </DialogHeader>\n          <ProfileForm />\n        </DialogContent>\n      </Dialog>\n    </Show>\n  )\n}\n\nfunction ProfileForm(props: ComponentProps<\"form\">) {\n  return (\n    <form class={cn(\"grid items-start gap-4\", props.class)}>\n      <TextField class=\"grid gap-2\">\n        <TextFieldLabel>Email</TextFieldLabel>\n        <TextFieldInput placeholder=\"shadcn@example.com\" type=\"email\" />\n      </TextField>\n      <TextField class=\"grid gap-2\">\n        <TextFieldLabel>Username</TextFieldLabel>\n        <TextFieldInput placeholder=\"@shadcn\" type=\"text\" />\n      </TextField>\n      <Button type=\"submit\">Save changes</Button>\n    </form>\n  )\n}\n",
       "path": "src/registry/example/drawer-dialog.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

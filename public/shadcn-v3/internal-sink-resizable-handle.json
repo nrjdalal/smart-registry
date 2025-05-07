@@ -3,10 +3,8 @@
   "name": "internal-sink-resizable-handle",
   "type": "registry:file",
   "dependencies": [
-    "clsx",
     "lucide-react",
-    "react-resizable-panels",
-    "tailwind-merge"
+    "react-resizable-panels"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "internal/sink/components/resizable-handle.tsx",
       "content": "import {\n  ResizableHandle,\n  ResizablePanel,\n  ResizablePanelGroup,\n} from \"@/components/ui/resizable\"\n\nexport function ResizableHandleDemo() {\n  return (\n    <ResizablePanelGroup\n      direction=\"horizontal\"\n      className=\"min-h-[200px] max-w-md rounded-lg border md:min-w-[450px]\"\n    >\n      <ResizablePanel defaultSize={25}>\n        <div className=\"flex h-full items-center justify-center p-6\">\n          <span className=\"font-semibold\">Sidebar</span>\n        </div>\n      </ResizablePanel>\n      <ResizableHandle withHandle />\n      <ResizablePanel defaultSize={75}>\n        <div className=\"flex h-full items-center justify-center p-6\">\n          <span className=\"font-semibold\">Content</span>\n        </div>\n      </ResizablePanel>\n    </ResizablePanelGroup>\n  )\n}\n",
       "path": "registry/default/internal/sink/components/resizable-handle.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

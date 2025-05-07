@@ -5,9 +5,7 @@
   "dependencies": [
     "@kobalte/core",
     "class-variance-authority",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -15,12 +13,6 @@
       "target": "example/toast-demo.tsx",
       "content": "import { Button } from \"@/components/ui/button\"\nimport { showToast, Toaster } from \"@/components/ui/toast\"\n\nexport default function ToastDemo() {\n  return (\n    <div class=\"flex flex-wrap gap-2\">\n      <Button\n        onClick={() =>\n          showToast({\n            title: \"Event has been created\",\n            description: \"Monday, January 3rd at 6:00pm\"\n          })\n        }\n      >\n        Add Event\n      </Button>\n      <Button\n        variant=\"destructive\"\n        onClick={() =>\n          showToast({\n            title: \"Event has been deleted\",\n            description: \"Monday, January 3rd at 6:00pm\",\n            variant: \"destructive\"\n          })\n        }\n      >\n        Delete Event\n      </Button>\n      <Button\n        variant=\"outline\"\n        onClick={() =>\n          showToast({\n            title: \"SUCCESS!\",\n            description: \"Monday, January 3rd at 6:00pm\",\n            variant: \"success\"\n          })\n        }\n      >\n        Success\n      </Button>\n      <Button\n        variant=\"outline\"\n        onClick={() =>\n          showToast({\n            title: \"WARING!\",\n            description: \"Monday, January 3rd at 6:00pm\",\n            variant: \"warning\"\n          })\n        }\n      >\n        Warning\n      </Button>\n      <Button\n        variant=\"outline\"\n        onClick={() =>\n          showToast({\n            title: \"ERROR!\",\n            description: \"Monday, January 3rd at 6:00pm\",\n            variant: \"error\"\n          })\n        }\n      >\n        Error\n      </Button>\n      <Toaster />\n    </div>\n  )\n}\n",
       "path": "src/registry/example/toast-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

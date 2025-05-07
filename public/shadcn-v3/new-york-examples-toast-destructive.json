@@ -6,9 +6,7 @@
     "@radix-ui/react-slot",
     "@radix-ui/react-toast",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -16,12 +14,6 @@
       "target": "new-york/examples/toast-destructive.tsx",
       "content": "\"use client\"\n\nimport { useToast } from \"@/hooks/new-york/use-toast\"\nimport { Button } from \"@/components/ui/new-york/button\"\nimport { ToastAction } from \"@/components/ui/new-york/toast\"\n\nexport default function ToastDestructive() {\n  const { toast } = useToast()\n\n  return (\n    <Button\n      variant=\"outline\"\n      onClick={() => {\n        toast({\n          variant: \"destructive\",\n          title: \"Uh oh! Something went wrong.\",\n          description: \"There was a problem with your request.\",\n          action: <ToastAction altText=\"Try again\">Try again</ToastAction>,\n        })\n      }}\n    >\n      Show Toast\n    </Button>\n  )\n}\n",
       "path": "registry/new-york/examples/toast-destructive.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:hook",

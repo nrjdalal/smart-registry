@@ -11,20 +11,13 @@
       "description": "An accordion component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/accordion.tsx",
           "path": "src/registry/ui/accordion.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -37,20 +30,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/alert.tsx",
           "path": "src/registry/ui/alert.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -62,20 +48,13 @@
       "description": "An alert dialog component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/alert-dialog.tsx",
           "path": "src/registry/ui/alert-dialog.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -104,20 +83,13 @@
       "description": "An avatar component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/avatar.tsx",
           "path": "src/registry/ui/avatar.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -129,20 +101,13 @@
       "description": "A badge component",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/badge.tsx",
           "path": "src/registry/ui/badge.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -154,9 +119,7 @@
       "description": "A badge delta component",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "registryDependencies": [
         "https://solid-ui.com/r/badge.json"
@@ -166,11 +129,6 @@
           "type": "registry:ui",
           "target": "components/ui/badge-delta.tsx",
           "path": "src/registry/ui/badge-delta.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -186,20 +144,13 @@
       "title": "Bar List",
       "description": "A bar list component",
       "dependencies": [
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/bar-list.tsx",
           "path": "src/registry/ui/bar-list.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -211,20 +162,13 @@
       "description": "A breadcrumb component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/breadcrumb.tsx",
           "path": "src/registry/ui/breadcrumb.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -237,20 +181,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "src/registry/ui/button.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -262,20 +199,13 @@
       "description": "A callout component",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/callout.tsx",
           "path": "src/registry/ui/callout.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -286,20 +216,13 @@
       "title": "Card",
       "description": "A card component",
       "dependencies": [
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/card.tsx",
           "path": "src/registry/ui/card.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -312,10 +235,8 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
         "embla-carousel-solid",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "registryDependencies": [
         "https://solid-ui.com/r/button.json"
@@ -325,11 +246,6 @@
           "type": "registry:ui",
           "target": "components/ui/carousel.tsx",
           "path": "src/registry/ui/carousel.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -365,20 +281,13 @@
       "description": "A checkbox component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/checkbox.tsx",
           "path": "src/registry/ui/checkbox.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -407,20 +316,13 @@
       "description": "A combobox component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/combobox.tsx",
           "path": "src/registry/ui/combobox.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -432,10 +334,8 @@
       "description": "A command component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
         "cmdk-solid",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "registryDependencies": [
         "https://solid-ui.com/r/dialog.json"
@@ -445,11 +345,6 @@
           "type": "registry:ui",
           "target": "components/ui/command.tsx",
           "path": "src/registry/ui/command.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -466,20 +361,13 @@
       "description": "A context menu component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/context-menu.tsx",
           "path": "src/registry/ui/context-menu.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -493,9 +381,7 @@
         "@ark-ui/solid",
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "registryDependencies": [
         "https://solid-ui.com/r/button.json"
@@ -505,11 +391,6 @@
           "type": "registry:ui",
           "target": "components/ui/date-picker.tsx",
           "path": "src/registry/ui/date-picker.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -525,20 +406,13 @@
       "title": "Delta Bar",
       "description": "A delta bar component",
       "dependencies": [
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/delta-bar.tsx",
           "path": "src/registry/ui/delta-bar.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -550,20 +424,13 @@
       "description": "A dialog component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/dialog.tsx",
           "path": "src/registry/ui/dialog.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -575,20 +442,13 @@
       "description": "A drawer component",
       "dependencies": [
         "@corvu/drawer",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/drawer.tsx",
           "path": "src/registry/ui/drawer.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -600,20 +460,13 @@
       "description": "A dropdown menu component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/dropdown-menu.tsx",
           "path": "src/registry/ui/dropdown-menu.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -624,20 +477,13 @@
       "title": "Flex",
       "description": "A flex component",
       "dependencies": [
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/flex.tsx",
           "path": "src/registry/ui/flex.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -648,20 +494,13 @@
       "title": "Grid",
       "description": "A grid component",
       "dependencies": [
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/grid.tsx",
           "path": "src/registry/ui/grid.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -673,20 +512,13 @@
       "description": "A hover card component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/hover-card.tsx",
           "path": "src/registry/ui/hover-card.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -697,20 +529,13 @@
       "title": "Label",
       "description": "A label component",
       "dependencies": [
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/label.tsx",
           "path": "src/registry/ui/label.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -722,20 +547,13 @@
       "description": "A menubar component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/menubar.tsx",
           "path": "src/registry/ui/menubar.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -747,20 +565,13 @@
       "description": "A navigation menu component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/navigation-menu.tsx",
           "path": "src/registry/ui/navigation-menu.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -772,20 +583,13 @@
       "description": "A number field component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/number-field.tsx",
           "path": "src/registry/ui/number-field.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -797,20 +601,13 @@
       "description": "An OTP field component",
       "dependencies": [
         "@corvu/otp-field",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/otp-field.tsx",
           "path": "src/registry/ui/otp-field.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -823,9 +620,7 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "registryDependencies": [
         "https://solid-ui.com/r/button.json"
@@ -835,11 +630,6 @@
           "type": "registry:ui",
           "target": "components/ui/pagination.tsx",
           "path": "src/registry/ui/pagination.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -856,20 +646,13 @@
       "description": "A popover component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/popover.tsx",
           "path": "src/registry/ui/popover.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -881,9 +664,7 @@
       "description": "A progress component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "registryDependencies": [
         "https://solid-ui.com/r/label.json"
@@ -893,11 +674,6 @@
           "type": "registry:ui",
           "target": "components/ui/progress.tsx",
           "path": "src/registry/ui/progress.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -913,20 +689,13 @@
       "title": "Progress Circle",
       "description": "A progress circle component",
       "dependencies": [
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/progress-circle.tsx",
           "path": "src/registry/ui/progress-circle.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -938,20 +707,13 @@
       "description": "A radio group component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/radio-group.tsx",
           "path": "src/registry/ui/radio-group.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -963,20 +725,13 @@
       "description": "A resizable component",
       "dependencies": [
         "@corvu/resizable",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/resizable.tsx",
           "path": "src/registry/ui/resizable.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -989,20 +744,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/select.tsx",
           "path": "src/registry/ui/select.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1014,20 +762,13 @@
       "description": "A separator component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/separator.tsx",
           "path": "src/registry/ui/separator.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1040,20 +781,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/sheet.tsx",
           "path": "src/registry/ui/sheet.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1066,9 +800,7 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "registryDependencies": [
         "https://solid-ui.com/r/button.json",
@@ -1083,11 +815,6 @@
           "type": "registry:ui",
           "target": "components/ui/sidebar.tsx",
           "path": "src/registry/ui/sidebar.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1129,20 +856,13 @@
       "description": "A skeleton component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/skeleton.tsx",
           "path": "src/registry/ui/skeleton.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1154,9 +874,7 @@
       "description": "A slider component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "registryDependencies": [
         "https://solid-ui.com/r/label.json"
@@ -1166,11 +884,6 @@
           "type": "registry:ui",
           "target": "components/ui/slider.tsx",
           "path": "src/registry/ui/slider.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1205,20 +918,13 @@
       "description": "A switch component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/switch.tsx",
           "path": "src/registry/ui/switch.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1230,20 +936,13 @@
       "description": "A table component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/table.tsx",
           "path": "src/registry/ui/table.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1255,20 +954,13 @@
       "description": "A tabs component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/tabs.tsx",
           "path": "src/registry/ui/tabs.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1281,20 +973,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/text-field.tsx",
           "path": "src/registry/ui/text-field.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1305,20 +990,13 @@
       "title": "Timeline",
       "description": "A timeline component",
       "dependencies": [
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/timeline.tsx",
           "path": "src/registry/ui/timeline.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1331,20 +1009,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/toast.tsx",
           "path": "src/registry/ui/toast.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1357,20 +1028,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/toggle.tsx",
           "path": "src/registry/ui/toggle.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1383,9 +1047,7 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "registryDependencies": [
         "https://solid-ui.com/r/toggle.json"
@@ -1395,11 +1057,6 @@
           "type": "registry:ui",
           "target": "components/ui/toggle-group.tsx",
           "path": "src/registry/ui/toggle-group.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1416,20 +1073,13 @@
       "description": "A tooltip component",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "src/registry/ui/tooltip.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1445,19 +1095,12 @@
         "@solid-primitives/refs",
         "chart.js",
         "class-variance-authority",
-        "clsx",
         "cmdk-solid",
         "embla-carousel-solid",
         "solid-js",
-        "solid-sonner",
-        "tailwind-merge"
+        "solid-sonner"
       ],
       "files": [
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
-        },
         {
           "type": "registry:ui",
           "target": "components/ui/accordion.tsx",
@@ -1830,9 +1473,7 @@
         "@kobalte/core",
         "@solidjs/router",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -1844,11 +1485,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1894,9 +1530,7 @@
         "@kobalte/core",
         "@solidjs/router",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -1923,11 +1557,6 @@
           "type": "registry:file",
           "target": "block/sidebar-01/components/version-switcher.tsx",
           "path": "src/registry/block/sidebar-01/components/version-switcher.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1983,9 +1612,7 @@
         "@kobalte/core",
         "@solidjs/router",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -2007,11 +1634,6 @@
           "type": "registry:file",
           "target": "block/sidebar-01/components/version-switcher.tsx",
           "path": "src/registry/block/sidebar-01/components/version-switcher.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2061,9 +1683,7 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -2075,11 +1695,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2124,9 +1739,7 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -2138,11 +1751,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2191,20 +1799,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/accordion-demo.tsx",
           "path": "src/registry/example/accordion-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2219,9 +1820,7 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -2233,11 +1832,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2252,20 +1846,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/alert-dialog-demo.tsx",
           "path": "src/registry/example/alert-dialog-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2285,20 +1872,13 @@
       "dependencies": [
         "@solid-primitives/refs",
         "chart.js",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/area-chart-demo.tsx",
           "path": "src/registry/example/area-chart-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2336,20 +1916,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/avatar-demo.tsx",
           "path": "src/registry/example/avatar-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2363,20 +1936,13 @@
       "type": "registry:file",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/badge-delta-demo.tsx",
           "path": "src/registry/example/badge-delta-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2395,20 +1961,13 @@
       "type": "registry:file",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/badge-demo.tsx",
           "path": "src/registry/example/badge-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2423,20 +1982,13 @@
       "dependencies": [
         "@solid-primitives/refs",
         "chart.js",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/bar-chart-demo.tsx",
           "path": "src/registry/example/bar-chart-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2454,9 +2006,7 @@
       "name": "example-bar-list-demo",
       "type": "registry:file",
       "dependencies": [
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -2468,11 +2018,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2491,20 +2036,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/breadcrumb-demo.tsx",
           "path": "src/registry/example/breadcrumb-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2519,20 +2057,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/button-demo.tsx",
           "path": "src/registry/example/button-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2548,20 +2079,13 @@
         "@ark-ui/solid",
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/calendar-demo.tsx",
           "path": "src/registry/example/calendar-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2580,20 +2104,13 @@
       "type": "registry:file",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/callout-demo.tsx",
           "path": "src/registry/example/callout-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2608,9 +2125,7 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -2622,11 +2137,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2651,21 +2161,14 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
         "embla-carousel-solid",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/carousel-api-demo.tsx",
           "path": "src/registry/example/carousel-api-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2690,21 +2193,14 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
         "embla-carousel-solid",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/carousel-demo.tsx",
           "path": "src/registry/example/carousel-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2729,21 +2225,14 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
         "embla-carousel-solid",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/carousel-orientation-demo.tsx",
           "path": "src/registry/example/carousel-orientation-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2768,22 +2257,15 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
         "embla-carousel-autoplay",
         "embla-carousel-solid",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/carousel-plugin-demo.tsx",
           "path": "src/registry/example/carousel-plugin-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2808,21 +2290,14 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
         "embla-carousel-solid",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/carousel-size-demo.tsx",
           "path": "src/registry/example/carousel-size-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2847,21 +2322,14 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
         "embla-carousel-solid",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/carousel-spacing-demo.tsx",
           "path": "src/registry/example/carousel-spacing-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2885,20 +2353,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/checkbox-demo.tsx",
           "path": "src/registry/example/checkbox-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2917,20 +2378,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/checkbox-indeterminate-demo.tsx",
           "path": "src/registry/example/checkbox-indeterminate-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2949,9 +2403,7 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -2965,11 +2417,6 @@
           "path": "src/components/icons.tsx"
         },
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/collapsible.tsx",
           "path": "src/registry/ui/collapsible.tsx"
@@ -2981,20 +2428,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/combobox-demo.tsx",
           "path": "src/registry/example/combobox-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3008,10 +2448,8 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
         "cmdk-solid",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -3023,11 +2461,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3046,10 +2479,8 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
         "cmdk-solid",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -3061,11 +2492,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3084,20 +2510,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/context-menu-demo.tsx",
           "path": "src/registry/example/context-menu-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3113,9 +2532,7 @@
         "@kobalte/core",
         "@tanstack/solid-table",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -3127,11 +2544,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3167,20 +2579,13 @@
         "@ark-ui/solid",
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/date-picker-demo.tsx",
           "path": "src/registry/example/date-picker-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3201,20 +2606,13 @@
         "@ark-ui/solid",
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/date-range-demo.tsx",
           "path": "src/registry/example/date-range-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3232,20 +2630,13 @@
       "name": "example-delta-bar-demo",
       "type": "registry:file",
       "dependencies": [
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/delta-bar-demo.tsx",
           "path": "src/registry/example/delta-bar-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3260,20 +2651,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/dialog-demo.tsx",
           "path": "src/registry/example/dialog-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3299,9 +2683,7 @@
         "@corvu/drawer",
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -3313,11 +2695,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3338,20 +2715,13 @@
         "@corvu/drawer",
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/drawer-dialog.tsx",
           "path": "src/registry/example/drawer-dialog.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3381,20 +2751,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/dropdown-menu-demo.tsx",
           "path": "src/registry/example/dropdown-menu-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3412,20 +2775,13 @@
       "name": "example-flex-demo",
       "type": "registry:file",
       "dependencies": [
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/flex-demo.tsx",
           "path": "src/registry/example/flex-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3443,20 +2799,13 @@
       "name": "example-grid-demo",
       "type": "registry:file",
       "dependencies": [
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/grid-demo.tsx",
           "path": "src/registry/example/grid-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3476,9 +2825,7 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -3490,11 +2837,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3518,20 +2860,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/menubar-demo.tsx",
           "path": "src/registry/example/menubar-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3546,9 +2881,7 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -3560,11 +2893,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3583,9 +2911,7 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -3597,11 +2923,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3620,20 +2941,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/number-field-demo.tsx",
           "path": "src/registry/example/number-field-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3647,20 +2961,13 @@
       "type": "registry:file",
       "dependencies": [
         "@corvu/otp-field",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/otp-field-demo.tsx",
           "path": "src/registry/example/otp-field-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3675,20 +2982,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/pagination-demo.tsx",
           "path": "src/registry/example/pagination-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3708,20 +3008,13 @@
       "dependencies": [
         "@solid-primitives/refs",
         "chart.js",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/pie-chart-demo.tsx",
           "path": "src/registry/example/pie-chart-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3741,20 +3034,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/popover-demo.tsx",
           "path": "src/registry/example/popover-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3773,20 +3059,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/progress-circle-demo.tsx",
           "path": "src/registry/example/progress-circle-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3810,20 +3089,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/progress-demo.tsx",
           "path": "src/registry/example/progress-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3842,20 +3114,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/radio-group-demo.tsx",
           "path": "src/registry/example/radio-group-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3869,20 +3134,13 @@
       "type": "registry:file",
       "dependencies": [
         "@corvu/resizable",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/resizable-demo.tsx",
           "path": "src/registry/example/resizable-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3897,20 +3155,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/select-demo.tsx",
           "path": "src/registry/example/select-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3924,20 +3175,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/separator-demo.tsx",
           "path": "src/registry/example/separator-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3952,20 +3196,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/sheet-demo.tsx",
           "path": "src/registry/example/sheet-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3989,20 +3226,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/skeleton-demo.tsx",
           "path": "src/registry/example/skeleton-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4016,20 +3246,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/slider-demo.tsx",
           "path": "src/registry/example/slider-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4049,21 +3272,14 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
         "solid-js",
-        "solid-sonner",
-        "tailwind-merge"
+        "solid-sonner"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/sonner-demo.tsx",
           "path": "src/registry/example/sonner-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4082,20 +3298,13 @@
       "type": "registry:file",
       "dependencies": [
         "@kobalte/core",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/switch-demo.tsx",
           "path": "src/registry/example/switch-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4108,20 +3317,13 @@
       "name": "example-table-demo",
       "type": "registry:file",
       "dependencies": [
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/table-demo.tsx",
           "path": "src/registry/example/table-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4136,20 +3338,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/tabs-demo.tsx",
           "path": "src/registry/example/tabs-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4179,20 +3374,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/text-field-demo.tsx",
           "path": "src/registry/example/text-field-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4207,20 +3395,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/text-field-error-demo.tsx",
           "path": "src/registry/example/text-field-error-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4240,20 +3421,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/text-field-textarea-demo.tsx",
           "path": "src/registry/example/text-field-textarea-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4266,20 +3440,13 @@
       "name": "example-timeline-demo",
       "type": "registry:file",
       "dependencies": [
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/timeline-demo.tsx",
           "path": "src/registry/example/timeline-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4294,20 +3461,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/toast-demo.tsx",
           "path": "src/registry/example/toast-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4327,9 +3487,7 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -4341,11 +3499,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4360,9 +3513,7 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
@@ -4374,11 +3525,6 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "src/components/icons.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4398,20 +3544,13 @@
       "dependencies": [
         "@kobalte/core",
         "class-variance-authority",
-        "clsx",
-        "solid-js",
-        "tailwind-merge"
+        "solid-js"
       ],
       "files": [
         {
           "type": "registry:file",
           "target": "example/tooltip-demo.tsx",
           "path": "src/registry/example/tooltip-demo.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",

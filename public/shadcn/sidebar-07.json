@@ -12,9 +12,7 @@
     "@radix-ui/react-slot",
     "@radix-ui/react-tooltip",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "registryDependencies": [
     "avatar",
@@ -25,12 +23,6 @@
     "sidebar"
   ],
   "files": [
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
-    },
     {
       "type": "registry:component",
       "target": "components/sidebar-07/app-sidebar.tsx",

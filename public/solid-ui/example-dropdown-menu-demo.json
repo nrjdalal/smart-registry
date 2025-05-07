@@ -5,9 +5,7 @@
   "dependencies": [
     "@kobalte/core",
     "class-variance-authority",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -15,12 +13,6 @@
       "target": "example/dropdown-menu-demo.tsx",
       "content": "import { createSignal } from \"solid-js\"\n\nimport { Button } from \"@/components/ui/button\"\nimport {\n  DropdownMenu,\n  DropdownMenuCheckboxItem,\n  DropdownMenuContent,\n  DropdownMenuGroup,\n  DropdownMenuGroupLabel,\n  DropdownMenuItem,\n  DropdownMenuPortal,\n  DropdownMenuRadioGroup,\n  DropdownMenuRadioItem,\n  DropdownMenuSeparator,\n  DropdownMenuShortcut,\n  DropdownMenuSub,\n  DropdownMenuSubContent,\n  DropdownMenuSubTrigger,\n  DropdownMenuTrigger\n} from \"@/components/ui/dropdown-menu\"\n\nexport default function DropdownMenuDemo() {\n  const [showGitLog, setShowGitLog] = createSignal(false)\n  const [showHistory, setShowHistory] = createSignal(false)\n  const [branch, setBranch] = createSignal(\"develop\")\n\n  return (\n    <div class=\"flex-col\">\n      <DropdownMenu>\n        <DropdownMenuTrigger as={Button<\"button\">}>Git Settings</DropdownMenuTrigger>\n        <DropdownMenuContent class=\"w-48\">\n          <DropdownMenuItem>\n            <span>Commit</span>\n            <DropdownMenuShortcut>⌘+K</DropdownMenuShortcut>\n          </DropdownMenuItem>\n          <DropdownMenuItem>\n            <span>Push</span>\n            <DropdownMenuShortcut>⇧+⌘+K</DropdownMenuShortcut>\n          </DropdownMenuItem>\n          <DropdownMenuItem>\n            <span>Update Project</span>\n            <DropdownMenuShortcut>⌘+T</DropdownMenuShortcut>\n          </DropdownMenuItem>\n          <DropdownMenuSub overlap>\n            <DropdownMenuSubTrigger>GitHub</DropdownMenuSubTrigger>\n            <DropdownMenuPortal>\n              <DropdownMenuSubContent>\n                <DropdownMenuItem>Create Pull Request…</DropdownMenuItem>\n                <DropdownMenuItem>View Pull Requests</DropdownMenuItem>\n                <DropdownMenuItem>Sync Fork</DropdownMenuItem>\n                <DropdownMenuSeparator />\n                <DropdownMenuItem>Open on GitHub</DropdownMenuItem>\n              </DropdownMenuSubContent>\n            </DropdownMenuPortal>\n          </DropdownMenuSub>\n          <DropdownMenuSeparator />\n          <DropdownMenuCheckboxItem checked={showGitLog()} onChange={setShowGitLog}>\n            Show Git Log\n          </DropdownMenuCheckboxItem>\n          <DropdownMenuCheckboxItem checked={showHistory()} onChange={setShowHistory}>\n            Show History\n          </DropdownMenuCheckboxItem>\n          <DropdownMenuSeparator />\n          <DropdownMenuGroup>\n            <DropdownMenuGroupLabel>Branches</DropdownMenuGroupLabel>\n            <DropdownMenuRadioGroup value={branch()} onChange={setBranch}>\n              <DropdownMenuRadioItem value=\"main\">main</DropdownMenuRadioItem>\n              <DropdownMenuRadioItem value=\"develop\">develop</DropdownMenuRadioItem>\n            </DropdownMenuRadioGroup>\n          </DropdownMenuGroup>\n        </DropdownMenuContent>\n      </DropdownMenu>\n      <p class=\"pt-2 text-sm text-gray-500\">Show Git Log: {showGitLog() ? \"yes\" : \"no\"}</p>\n      <p class=\"pt-2 text-sm text-gray-500\">Show History: {showHistory() ? \"yes\" : \"no\"}</p>\n      <p class=\"pt-2 text-sm text-gray-500\">Selected Branch: {branch()}</p>\n    </div>\n  )\n}\n",
       "path": "src/registry/example/dropdown-menu-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

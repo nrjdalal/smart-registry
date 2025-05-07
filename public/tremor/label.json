@@ -3,9 +3,7 @@
   "name": "label",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-label",
-    "clsx",
-    "tailwind-merge"
+    "@radix-ui/react-label"
   ],
   "files": [
     {

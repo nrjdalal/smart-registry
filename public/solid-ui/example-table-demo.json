@@ -3,9 +3,7 @@
   "name": "example-table-demo",
   "type": "registry:file",
   "dependencies": [
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -13,12 +11,6 @@
       "target": "example/table-demo.tsx",
       "content": "import { For } from \"solid-js\"\n\nimport {\n  Table,\n  TableBody,\n  TableCaption,\n  TableCell,\n  TableHead,\n  TableHeader,\n  TableRow\n} from \"@/components/ui/table\"\n\nconst invoices = [\n  {\n    invoice: \"INV001\",\n    paymentStatus: \"Paid\",\n    totalAmount: \"$250.00\",\n    paymentMethod: \"Credit Card\"\n  },\n  {\n    invoice: \"INV002\",\n    paymentStatus: \"Pending\",\n    totalAmount: \"$150.00\",\n    paymentMethod: \"PayPal\"\n  },\n  {\n    invoice: \"INV003\",\n    paymentStatus: \"Unpaid\",\n    totalAmount: \"$350.00\",\n    paymentMethod: \"Bank Transfer\"\n  },\n  {\n    invoice: \"INV004\",\n    paymentStatus: \"Paid\",\n    totalAmount: \"$450.00\",\n    paymentMethod: \"Credit Card\"\n  },\n  {\n    invoice: \"INV005\",\n    paymentStatus: \"Paid\",\n    totalAmount: \"$550.00\",\n    paymentMethod: \"PayPal\"\n  },\n  {\n    invoice: \"INV006\",\n    paymentStatus: \"Pending\",\n    totalAmount: \"$200.00\",\n    paymentMethod: \"Bank Transfer\"\n  },\n  {\n    invoice: \"INV007\",\n    paymentStatus: \"Unpaid\",\n    totalAmount: \"$300.00\",\n    paymentMethod: \"Credit Card\"\n  }\n]\n\nexport default function TableDemo() {\n  return (\n    <Table>\n      <TableCaption>A list of your recent invoices.</TableCaption>\n      <TableHeader>\n        <TableRow>\n          <TableHead class=\"w-[100px]\">Invoice</TableHead>\n          <TableHead>Status</TableHead>\n          <TableHead>Method</TableHead>\n          <TableHead class=\"text-right\">Amount</TableHead>\n        </TableRow>\n      </TableHeader>\n      <TableBody>\n        <For each={invoices}>\n          {(invoice) => (\n            <TableRow>\n              <TableCell class=\"font-medium\">{invoice.invoice}</TableCell>\n              <TableCell>{invoice.paymentStatus}</TableCell>\n              <TableCell>{invoice.paymentMethod}</TableCell>\n              <TableCell class=\"text-right\">{invoice.totalAmount}</TableCell>\n            </TableRow>\n          )}\n        </For>\n      </TableBody>\n    </Table>\n  )\n}\n",
       "path": "src/registry/example/table-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

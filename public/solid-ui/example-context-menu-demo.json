@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "@kobalte/core",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "example/context-menu-demo.tsx",
       "content": "import { createSignal } from \"solid-js\"\n\nimport {\n  ContextMenu,\n  ContextMenuCheckboxItem,\n  ContextMenuContent,\n  ContextMenuGroup,\n  ContextMenuGroupLabel,\n  ContextMenuItem,\n  ContextMenuPortal,\n  ContextMenuRadioGroup,\n  ContextMenuRadioItem,\n  ContextMenuSeparator,\n  ContextMenuShortcut,\n  ContextMenuSub,\n  ContextMenuSubContent,\n  ContextMenuSubTrigger,\n  ContextMenuTrigger\n} from \"@/components/ui/context-menu\"\n\nexport default function ContextMenuDemo() {\n  const [showGitLog, setShowGitLog] = createSignal(true)\n  const [showHistory, setShowHistory] = createSignal(false)\n  const [branch, setBranch] = createSignal(\"main\")\n  return (\n    <ContextMenu>\n      <ContextMenuTrigger class=\"flex h-[150px] w-[300px] items-center justify-center rounded-md border border-dashed text-sm\">\n        Right click here.\n      </ContextMenuTrigger>\n      <ContextMenuPortal>\n        <ContextMenuContent class=\"w-48\">\n          <ContextMenuItem>\n            <span>Commit</span>\n            <ContextMenuShortcut>⌘+K</ContextMenuShortcut>\n          </ContextMenuItem>\n          <ContextMenuItem>\n            <span>Push</span>\n            <ContextMenuShortcut>⇧+⌘+K</ContextMenuShortcut>\n          </ContextMenuItem>\n          <ContextMenuItem disabled>\n            <span>Update Project</span>\n            <ContextMenuShortcut>⌘+T</ContextMenuShortcut>\n          </ContextMenuItem>\n          <ContextMenuSub overlap>\n            <ContextMenuSubTrigger>GitHub</ContextMenuSubTrigger>\n            <ContextMenuPortal>\n              <ContextMenuSubContent>\n                <ContextMenuItem>Create Pull Request…</ContextMenuItem>\n                <ContextMenuItem>View Pull Requests</ContextMenuItem>\n                <ContextMenuItem>Sync Fork</ContextMenuItem>\n                <ContextMenuSeparator />\n                <ContextMenuItem>Open on GitHub</ContextMenuItem>\n              </ContextMenuSubContent>\n            </ContextMenuPortal>\n          </ContextMenuSub>\n          <ContextMenuSeparator />\n          <ContextMenuCheckboxItem checked={showGitLog()} onChange={setShowGitLog}>\n            Show Git Log\n          </ContextMenuCheckboxItem>\n          <ContextMenuCheckboxItem checked={showHistory()} onChange={setShowHistory}>\n            Show History\n          </ContextMenuCheckboxItem>\n          <ContextMenuSeparator />\n          <ContextMenuGroup>\n            <ContextMenuGroupLabel>Branches</ContextMenuGroupLabel>\n            <ContextMenuRadioGroup value={branch()} onChange={setBranch}>\n              <ContextMenuRadioItem value=\"main\">main</ContextMenuRadioItem>\n              <ContextMenuRadioItem value=\"develop\">develop</ContextMenuRadioItem>\n            </ContextMenuRadioGroup>\n          </ContextMenuGroup>\n        </ContextMenuContent>\n      </ContextMenuPortal>\n    </ContextMenu>\n  )\n}\n",
       "path": "src/registry/example/context-menu-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

@@ -5,9 +5,7 @@
   "dependencies": [
     "@kobalte/core",
     "class-variance-authority",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -15,12 +13,6 @@
       "target": "example/select-demo.tsx",
       "content": "import { createSignal } from \"solid-js\"\n\nimport { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from \"@/components/ui/select\"\n\nexport default function SelectDemo() {\n  const [value, setValue] = createSignal(\"\")\n  return (\n    <div class=\"flex-col\">\n      <Select\n        value={value()}\n        onChange={setValue}\n        options={[\"Apple\", \"Banana\", \"Blueberry\", \"Grapes\", \"Pineapple\"]}\n        placeholder=\"Select a fruit…\"\n        itemComponent={(props) => <SelectItem item={props.item}>{props.item.rawValue}</SelectItem>}\n      >\n        <SelectTrigger aria-label=\"Fruit\" class=\"w-[180px]\">\n          <SelectValue<string>>{(state) => state.selectedOption()}</SelectValue>\n        </SelectTrigger>\n        <SelectContent />\n      </Select>\n      <p class=\"pt-2 text-sm text-gray-500\">Your favorite fruit is: {value()}</p>\n    </div>\n  )\n}\n",
       "path": "src/registry/example/select-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

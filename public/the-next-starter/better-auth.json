@@ -6,14 +6,12 @@
     "@remixicon/react",
     "better-auth",
     "class-variance-authority",
-    "clsx",
     "drizzle-orm",
     "lucide-react",
     "next",
     "postgres",
     "radix-ui",
-    "sonner",
-    "tailwind-merge"
+    "sonner"
   ],
   "devDependencies": [
     "drizzle-kit"
@@ -90,12 +88,6 @@
       "target": "lib/auth/index.ts",
       "content": "import { db } from \"@/db\"\nimport { account, session, user, verification } from \"@/db/schema/auth\"\nimport { betterAuth } from \"better-auth\"\nimport { drizzleAdapter } from \"better-auth/adapters/drizzle\"\nimport { nextCookies } from \"better-auth/next-js\"\n\nexport const auth = betterAuth({\n  database: drizzleAdapter(db, {\n    provider: \"pg\",\n    schema: {\n      user,\n      session,\n      account,\n      verification,\n    },\n  }),\n  socialProviders: {\n    github: {\n      clientId: process.env.GITHUB_CLIENT_ID as string,\n      clientSecret: process.env.GITHUB_CLIENT_SECRET as string,\n    },\n  },\n  plugins: [\n    nextCookies(), // for email access\n  ],\n})\n",
       "path": "src/lib/auth/index.ts"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:hook",

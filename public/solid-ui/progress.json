@@ -7,9 +7,7 @@
   "description": "A progress component",
   "dependencies": [
     "@kobalte/core",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "registryDependencies": [
     "https://solid-ui.com/r/label.json"
@@ -20,12 +18,6 @@
       "target": "components/ui/progress.tsx",
       "content": "import type { Component, JSX, ValidComponent } from \"solid-js\"\nimport { splitProps } from \"solid-js\"\n\nimport type { PolymorphicProps } from \"@kobalte/core/polymorphic\"\nimport * as ProgressPrimitive from \"@kobalte/core/progress\"\n\nimport { Label } from \"@/components/ui/label\"\n\ntype ProgressRootProps<T extends ValidComponent = \"div\"> =\n  ProgressPrimitive.ProgressRootProps<T> & { children?: JSX.Element }\n\nconst Progress = <T extends ValidComponent = \"div\">(\n  props: PolymorphicProps<T, ProgressRootProps<T>>\n) => {\n  const [local, others] = splitProps(props as ProgressRootProps, [\"children\"])\n  return (\n    <ProgressPrimitive.Root {...others}>\n      {local.children}\n      <ProgressPrimitive.Track class=\"relative h-2 w-full overflow-hidden rounded-full bg-secondary\">\n        <ProgressPrimitive.Fill class=\"h-full w-[var(--kb-progress-fill-width)] flex-1 bg-primary transition-all\" />\n      </ProgressPrimitive.Track>\n    </ProgressPrimitive.Root>\n  )\n}\n\nconst ProgressLabel: Component<ProgressPrimitive.ProgressLabelProps> = (props) => {\n  return <ProgressPrimitive.Label as={Label} {...props} />\n}\n\nconst ProgressValueLabel: Component<ProgressPrimitive.ProgressValueLabelProps> = (props) => {\n  return <ProgressPrimitive.ValueLabel as={Label} {...props} />\n}\n\nexport { Progress, ProgressLabel, ProgressValueLabel }\n",
       "path": "src/registry/ui/progress.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

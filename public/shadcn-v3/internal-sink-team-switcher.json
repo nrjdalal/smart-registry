@@ -9,9 +9,7 @@
     "@radix-ui/react-slot",
     "@radix-ui/react-tooltip",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -19,18 +17,6 @@
       "target": "internal/sink/components/team-switcher.tsx",
       "content": "\"use client\"\n\nimport * as React from \"react\"\nimport { ChevronsUpDown, Plus } from \"lucide-react\"\n\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuItem,\n  DropdownMenuLabel,\n  DropdownMenuSeparator,\n  DropdownMenuShortcut,\n  DropdownMenuTrigger,\n} from \"@/components/ui/dropdown-menu\"\nimport {\n  SidebarMenu,\n  SidebarMenuButton,\n  SidebarMenuItem,\n  useSidebar,\n} from \"@/components/ui/sidebar\"\n\nexport function TeamSwitcher({\n  teams,\n}: {\n  teams: {\n    name: string\n    logo: React.ElementType\n    plan: string\n  }[]\n}) {\n  const { isMobile } = useSidebar()\n  const [activeTeam, setActiveTeam] = React.useState(teams[0])\n\n  if (!activeTeam) {\n    return null\n  }\n\n  return (\n    <SidebarMenu>\n      <SidebarMenuItem>\n        <DropdownMenu>\n          <DropdownMenuTrigger asChild>\n            <SidebarMenuButton\n              size=\"lg\"\n              className=\"data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground\"\n            >\n              <div className=\"flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground\">\n                <activeTeam.logo className=\"size-4\" />\n              </div>\n              <div className=\"grid flex-1 text-left text-sm leading-tight\">\n                <span className=\"truncate font-semibold\">\n                  {activeTeam.name}\n                </span>\n                <span className=\"truncate text-xs\">{activeTeam.plan}</span>\n              </div>\n              <ChevronsUpDown className=\"ml-auto\" />\n            </SidebarMenuButton>\n          </DropdownMenuTrigger>\n          <DropdownMenuContent\n            className=\"w-[--radix-dropdown-menu-trigger-width] min-w-56 rounded-lg\"\n            align=\"start\"\n            side={isMobile ? \"bottom\" : \"right\"}\n            sideOffset={4}\n          >\n            <DropdownMenuLabel className=\"text-xs text-muted-foreground\">\n              Teams\n            </DropdownMenuLabel>\n            {teams.map((team, index) => (\n              <DropdownMenuItem\n                key={team.name}\n                onClick={() => setActiveTeam(team)}\n                className=\"gap-2 p-2\"\n              >\n                <div className=\"flex size-6 items-center justify-center rounded-sm border\">\n                  <team.logo className=\"size-4 shrink-0\" />\n                </div>\n                {team.name}\n                <DropdownMenuShortcut>⌘{index + 1}</DropdownMenuShortcut>\n              </DropdownMenuItem>\n            ))}\n            <DropdownMenuSeparator />\n            <DropdownMenuItem className=\"gap-2 p-2\">\n              <div className=\"flex size-6 items-center justify-center rounded-md border bg-background\">\n                <Plus className=\"size-4\" />\n              </div>\n              <div className=\"font-medium text-muted-foreground\">Add team</div>\n            </DropdownMenuItem>\n          </DropdownMenuContent>\n        </DropdownMenu>\n      </SidebarMenuItem>\n    </SidebarMenu>\n  )\n}\n",
       "path": "registry/default/internal/sink/components/team-switcher.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
-      "path": "registry/default/lib/utils.ts"
     },
     {
       "type": "registry:hook",

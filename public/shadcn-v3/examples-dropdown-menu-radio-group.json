@@ -6,9 +6,7 @@
     "@radix-ui/react-dropdown-menu",
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -16,12 +14,6 @@
       "target": "examples/dropdown-menu-radio-group.tsx",
       "content": "\"use client\"\n\nimport * as React from \"react\"\n\nimport { Button } from \"@/components/ui/button\"\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuLabel,\n  DropdownMenuRadioGroup,\n  DropdownMenuRadioItem,\n  DropdownMenuSeparator,\n  DropdownMenuTrigger,\n} from \"@/components/ui/dropdown-menu\"\n\nexport default function DropdownMenuRadioGroupDemo() {\n  const [position, setPosition] = React.useState(\"bottom\")\n\n  return (\n    <DropdownMenu>\n      <DropdownMenuTrigger asChild>\n        <Button variant=\"outline\">Open</Button>\n      </DropdownMenuTrigger>\n      <DropdownMenuContent className=\"w-56\">\n        <DropdownMenuLabel>Panel Position</DropdownMenuLabel>\n        <DropdownMenuSeparator />\n        <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>\n          <DropdownMenuRadioItem value=\"top\">Top</DropdownMenuRadioItem>\n          <DropdownMenuRadioItem value=\"bottom\">Bottom</DropdownMenuRadioItem>\n          <DropdownMenuRadioItem value=\"right\">Right</DropdownMenuRadioItem>\n        </DropdownMenuRadioGroup>\n      </DropdownMenuContent>\n    </DropdownMenu>\n  )\n}\n",
       "path": "registry/default/examples/dropdown-menu-radio-group.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

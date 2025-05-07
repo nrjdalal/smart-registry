@@ -7,9 +7,7 @@
   "description": "A skeleton component",
   "dependencies": [
     "@kobalte/core",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -17,12 +15,6 @@
       "target": "components/ui/skeleton.tsx",
       "content": "import type { ValidComponent } from \"solid-js\"\nimport { splitProps } from \"solid-js\"\n\nimport type { PolymorphicProps } from \"@kobalte/core/polymorphic\"\nimport * as SkeletonPrimitive from \"@kobalte/core/skeleton\"\n\nimport { cn } from \"@/lib/utils\"\n\ntype SkeletonRootProps<T extends ValidComponent = \"div\"> =\n  SkeletonPrimitive.SkeletonRootProps<T> & { class?: string | undefined }\n\nconst Skeleton = <T extends ValidComponent = \"div\">(\n  props: PolymorphicProps<T, SkeletonRootProps<T>>\n) => {\n  const [local, others] = splitProps(props as SkeletonRootProps, [\"class\"])\n  return (\n    <SkeletonPrimitive.Root\n      class={cn(\"bg-primary/10 data-[animate='true']:animate-pulse\", local.class)}\n      {...others}\n    />\n  )\n}\n\nexport { Skeleton }\n",
       "path": "src/registry/ui/skeleton.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     }
   ]
 }

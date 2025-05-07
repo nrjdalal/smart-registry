@@ -3,8 +3,6 @@
   "name": "badge.stories",
   "type": "registry:component",
   "dependencies": [
-    "clsx",
-    "tailwind-merge",
     "tailwind-variants"
   ],
   "devDependencies": [

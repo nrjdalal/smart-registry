@@ -3,9 +3,7 @@
   "name": "card",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-slot",
-    "clsx",
-    "tailwind-merge"
+    "@radix-ui/react-slot"
   ],
   "files": [
     {

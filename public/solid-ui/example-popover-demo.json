@@ -5,9 +5,7 @@
   "dependencies": [
     "@kobalte/core",
     "class-variance-authority",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -15,12 +13,6 @@
       "target": "example/popover-demo.tsx",
       "content": "import { Button } from \"@/components/ui/button\"\nimport { Popover, PopoverContent, PopoverTrigger } from \"@/components/ui/popover\"\n\nexport default function PopoverDemo() {\n  return (\n    <Popover>\n      <PopoverTrigger as={Button<\"button\">}>trigger me</PopoverTrigger>\n      <PopoverContent>\n        A UI toolkit for building accessible web apps and design systems with SolidJS.\n      </PopoverContent>\n    </Popover>\n  )\n}\n",
       "path": "src/registry/example/popover-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

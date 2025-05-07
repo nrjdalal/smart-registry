@@ -3,9 +3,7 @@
   "name": "new-york-examples-avatar-demo",
   "type": "registry:file",
   "dependencies": [
-    "@radix-ui/react-avatar",
-    "clsx",
-    "tailwind-merge"
+    "@radix-ui/react-avatar"
   ],
   "files": [
     {
@@ -13,12 +11,6 @@
       "target": "new-york/examples/avatar-demo.tsx",
       "content": "import {\n  Avatar,\n  AvatarFallback,\n  AvatarImage,\n} from \"@/components/ui/new-york/avatar\"\n\nexport default function AvatarDemo() {\n  return (\n    <Avatar>\n      <AvatarImage src=\"https://github.com/shadcn.png\" alt=\"@shadcn\" />\n      <AvatarFallback>CN</AvatarFallback>\n    </Avatar>\n  )\n}\n",
       "path": "registry/new-york/examples/avatar-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

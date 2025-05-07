@@ -24,6 +24,7 @@ Options:
   -o, --output <path>     destination directory for json files (default: "./public/r")
   -c, --cwd <cwd>         the working directory (default: "./")
   -i, --ignore <pattern>  ignore files matching the pattern (default: none)
+  -u, --with-utils        include @/lib/utils in the registry items if exists (default: false)
   -v, --version           display version
   -h, --help              display help
 
@@ -35,7 +36,6 @@ Codemods:
   --codemod-radix         migrate to unify "@radix-ui/react-*" imports to "radix-ui"
 
 Cleanup:
-  --no-utils              remove @/lib/utils from the registry items (default: false)
   --remove-prefix         remove given prefix from the registry item names (default: none)
 
 Author:
@@ -57,6 +57,11 @@ const main = async () => {
         output: { type: "string", short: "o", default: "public/r" },
         cwd: { type: "string", short: "c" },
         ignore: { type: "string", short: "i", default: "" },
+        "with-utils": {
+          type: "boolean",
+          short: "u",
+          default: false,
+        },
         "patterns-only": {
           type: "boolean",
           short: "p",
@@ -69,7 +74,6 @@ const main = async () => {
         },
         "codemod-radix": { type: "boolean" },
         "remove-prefix": { type: "string", default: "" },
-        "no-utils": { type: "boolean", default: false },
         help: { type: "boolean", short: "h" },
         version: { type: "boolean", short: "v" },
       },
@@ -260,7 +264,7 @@ const main = async () => {
         }
 
         if (registryItem.files.length) {
-          if (registryItem.files.length > 1 && values["no-utils"]) {
+          if (registryItem.files.length > 1 && !values["with-utils"]) {
             registryItem.files = registryItem.files.filter(
               (file: { target: string }) => file.target !== "lib/utils.ts",
             )

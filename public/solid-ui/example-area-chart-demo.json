@@ -5,9 +5,7 @@
   "dependencies": [
     "@solid-primitives/refs",
     "chart.js",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -15,12 +13,6 @@
       "target": "example/area-chart-demo.tsx",
       "content": "import { Card, CardContent, CardHeader, CardTitle } from \"@/components/ui/card\"\nimport { LineChart } from \"@/components/ui/charts\"\n\nexport default function AreaChartDemo() {\n  const chartData = {\n    labels: [\n      \"Jan 22\",\n      \"Feb 22\",\n      \"Mar 22\",\n      \"Apr 22\",\n      \"May 22\",\n      \"Jun 22\",\n      \"Jul 22\",\n      \"Aug 22\",\n      \"Sep 22\",\n      \"Oct 22\",\n      \"Nov 22\",\n      \"Dec 22\"\n    ],\n    datasets: [\n      {\n        label: \"SemiAnalysis\",\n        data: [2890, 2756, 3322, 3470, 3475, 3129, 3490, 2903, 2643, 2837, 2954, 3239],\n        fill: true\n      },\n      {\n        label: \"The Pragmatic Engineer\",\n        data: [2338, 2103, 2194, 2108, 1812, 1726, 1982, 2012, 2342, 2473, 3848, 3736],\n        fill: true\n      }\n    ]\n  }\n  return (\n    <Card>\n      <CardHeader>\n        <CardTitle>Newsletter revenue over time (USD)</CardTitle>\n      </CardHeader>\n      <CardContent class=\"h-64 w-[500px] max-w-full\">\n        <LineChart data={chartData} />\n      </CardContent>\n    </Card>\n  )\n}\n",
       "path": "src/registry/example/area-chart-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

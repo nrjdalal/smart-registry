@@ -3,8 +3,6 @@
   "name": "progresscircle",
   "type": "registry:component",
   "dependencies": [
-    "clsx",
-    "tailwind-merge",
     "tailwind-variants"
   ],
   "files": [

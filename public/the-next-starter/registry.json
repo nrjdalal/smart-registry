@@ -79,21 +79,14 @@
       "name": "accordion",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/accordion.tsx",
           "path": "src/components/ui/accordion.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -101,20 +94,13 @@
       "name": "alert",
       "type": "registry:ui",
       "dependencies": [
-        "class-variance-authority",
-        "clsx",
-        "tailwind-merge"
+        "class-variance-authority"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/alert.tsx",
           "path": "src/components/ui/alert.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -123,20 +109,13 @@
       "type": "registry:ui",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/alert-dialog.tsx",
           "path": "src/components/ui/alert-dialog.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -163,20 +142,13 @@
       "name": "avatar",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/avatar.tsx",
           "path": "src/components/ui/avatar.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -185,20 +157,13 @@
       "type": "registry:ui",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/badge.tsx",
           "path": "src/components/ui/badge.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -206,21 +171,14 @@
       "name": "breadcrumb",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/breadcrumb.tsx",
           "path": "src/components/ui/breadcrumb.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -229,20 +187,13 @@
       "type": "registry:ui",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "src/components/ui/button.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -251,22 +202,15 @@
       "type": "registry:ui",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "radix-ui",
-        "react-day-picker",
-        "tailwind-merge"
+        "react-day-picker"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/calendar.tsx",
           "path": "src/components/ui/calendar.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -278,20 +222,11 @@
     {
       "name": "card",
       "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/card.tsx",
           "path": "src/components/ui/card.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -300,22 +235,15 @@
       "type": "registry:ui",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
         "embla-carousel-react",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/carousel.tsx",
           "path": "src/components/ui/carousel.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -328,20 +256,13 @@
       "name": "chart",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "recharts",
-        "tailwind-merge"
+        "recharts"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/chart.tsx",
           "path": "src/components/ui/chart.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -349,21 +270,14 @@
       "name": "checkbox",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/checkbox.tsx",
           "path": "src/components/ui/checkbox.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -385,22 +299,15 @@
       "name": "command",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "cmdk",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/command.tsx",
           "path": "src/components/ui/command.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -413,21 +320,14 @@
       "name": "context-menu",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/context-menu.tsx",
           "path": "src/components/ui/context-menu.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -435,21 +335,14 @@
       "name": "dialog",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/dialog.tsx",
           "path": "src/components/ui/dialog.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -457,8 +350,6 @@
       "name": "drawer",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "tailwind-merge",
         "vaul"
       ],
       "files": [
@@ -466,11 +357,6 @@
           "type": "registry:ui",
           "target": "components/ui/drawer.tsx",
           "path": "src/components/ui/drawer.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -478,21 +364,14 @@
       "name": "dropdown-menu",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/dropdown-menu.tsx",
           "path": "src/components/ui/dropdown-menu.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -500,21 +379,14 @@
       "name": "form",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "radix-ui",
-        "react-hook-form",
-        "tailwind-merge"
+        "react-hook-form"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/form.tsx",
           "path": "src/components/ui/form.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -527,40 +399,24 @@
       "name": "hover-card",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/hover-card.tsx",
           "path": "src/components/ui/hover-card.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
     {
       "name": "input",
       "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/input.tsx",
           "path": "src/components/ui/input.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -568,21 +424,14 @@
       "name": "input-otp",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "input-otp",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/input-otp.tsx",
           "path": "src/components/ui/input-otp.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -590,20 +439,13 @@
       "name": "label",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/label.tsx",
           "path": "src/components/ui/label.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -611,21 +453,14 @@
       "name": "menubar",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/menubar.tsx",
           "path": "src/components/ui/menubar.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -634,21 +469,14 @@
       "type": "registry:ui",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/navigation-menu.tsx",
           "path": "src/components/ui/navigation-menu.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -657,21 +485,14 @@
       "type": "registry:ui",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/pagination.tsx",
           "path": "src/components/ui/pagination.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -684,20 +505,13 @@
       "name": "popover",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/popover.tsx",
           "path": "src/components/ui/popover.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -705,20 +519,13 @@
       "name": "progress",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/progress.tsx",
           "path": "src/components/ui/progress.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -726,21 +533,14 @@
       "name": "radio-group",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/radio-group.tsx",
           "path": "src/components/ui/radio-group.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -748,21 +548,14 @@
       "name": "resizable",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "react-resizable-panels",
-        "tailwind-merge"
+        "react-resizable-panels"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/resizable.tsx",
           "path": "src/components/ui/resizable.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -770,20 +563,13 @@
       "name": "scroll-area",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/scroll-area.tsx",
           "path": "src/components/ui/scroll-area.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -791,21 +577,14 @@
       "name": "select",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/select.tsx",
           "path": "src/components/ui/select.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -813,20 +592,13 @@
       "name": "separator",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/separator.tsx",
           "path": "src/components/ui/separator.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -834,21 +606,14 @@
       "name": "sheet",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/sheet.tsx",
           "path": "src/components/ui/sheet.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -857,21 +622,14 @@
       "type": "registry:ui",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/sidebar.tsx",
           "path": "src/components/ui/sidebar.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -913,20 +671,11 @@
     {
       "name": "skeleton",
       "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/skeleton.tsx",
           "path": "src/components/ui/skeleton.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -934,20 +683,13 @@
       "name": "slider",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/slider.tsx",
           "path": "src/components/ui/slider.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -970,40 +712,24 @@
       "name": "switch",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/switch.tsx",
           "path": "src/components/ui/switch.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
     {
       "name": "table",
       "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/table.tsx",
           "path": "src/components/ui/table.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1011,40 +737,24 @@
       "name": "tabs",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/tabs.tsx",
           "path": "src/components/ui/tabs.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
     {
       "name": "textarea",
       "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/textarea.tsx",
           "path": "src/components/ui/textarea.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1053,20 +763,13 @@
       "type": "registry:ui",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/toggle.tsx",
           "path": "src/components/ui/toggle.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1075,20 +778,13 @@
       "type": "registry:ui",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/toggle-group.tsx",
           "path": "src/components/ui/toggle-group.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1101,20 +797,13 @@
       "name": "tooltip",
       "type": "registry:ui",
       "dependencies": [
-        "clsx",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "src/components/ui/tooltip.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         }
       ]
     },
@@ -1123,7 +812,6 @@
       "type": "registry:ui",
       "dependencies": [
         "class-variance-authority",
-        "clsx",
         "cmdk",
         "embla-carousel-react",
         "input-otp",
@@ -1135,7 +823,6 @@
         "react-resizable-panels",
         "recharts",
         "sonner",
-        "tailwind-merge",
         "vaul"
       ],
       "files": [
@@ -1143,11 +830,6 @@
           "type": "registry:ui",
           "target": "components/ui/accordion.tsx",
           "path": "src/components/ui/accordion.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1454,14 +1136,12 @@
         "@remixicon/react",
         "better-auth",
         "class-variance-authority",
-        "clsx",
         "drizzle-orm",
         "lucide-react",
         "next",
         "postgres",
         "radix-ui",
-        "sonner",
-        "tailwind-merge"
+        "sonner"
       ],
       "devDependencies": [
         "drizzle-kit"
@@ -1526,11 +1206,6 @@
           "type": "registry:lib",
           "target": "lib/auth/index.ts",
           "path": "src/lib/auth/index.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1661,11 +1336,9 @@
       "dependencies": [
         "better-auth",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "next",
-        "radix-ui",
-        "tailwind-merge"
+        "radix-ui"
       ],
       "files": [
         {
@@ -1677,11 +1350,6 @@
           "type": "registry:lib",
           "target": "lib/auth/client.ts",
           "path": "src/lib/auth/client.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "src/lib/utils.ts"
         },
         {
           "type": "registry:hook",

@@ -3,9 +3,7 @@
   "name": "tabs",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-tabs",
-    "clsx",
-    "tailwind-merge"
+    "@radix-ui/react-tabs"
   ],
   "files": [
     {

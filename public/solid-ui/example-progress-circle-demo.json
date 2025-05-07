@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "@kobalte/core",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "example/progress-circle-demo.tsx",
       "content": "import { Avatar, AvatarFallback, AvatarImage } from \"@/components/ui/avatar\"\nimport { Card } from \"@/components/ui/card\"\nimport { ProgressCircle } from \"@/components/ui/progress-circle\"\n\nexport default function ProgressCircleDemo() {\n  return (\n    <div class=\"flex flex-col items-center gap-3\">\n      <p class=\"text-sm text-muted-foreground\"> Without children </p>\n      <Card class=\"p-4\">\n        <div class=\"flex items-center justify-start space-x-5\">\n          <ProgressCircle value={75} />\n          <div>\n            <p class=\"text-tremor-default text-tremor-content-strong dark:text-dark-tremor-content-strong font-medium\">\n              $340/$450 (75%)\n            </p>\n            <p class=\"text-tremor-default text-tremor-content dark:text-dark-tremor-content\">\n              Spend management control\n            </p>\n          </div>\n        </div>\n      </Card>\n      <p class=\"text-sm text-muted-foreground\">Progress value as children</p>\n      <Card class=\"mx-auto max-w-sm p-4\">\n        <div class=\"flex items-center justify-start space-x-5\">\n          <ProgressCircle value={75}>\n            <span class=\"text-xs font-medium text-slate-700\">75%</span>\n          </ProgressCircle>\n          <div>\n            <p class=\"text-tremor-default text-tremor-content-strong dark:text-dark-tremor-content-strong font-medium\">\n              $340/$450 (75%)\n            </p>\n            <p class=\"text-tremor-default text-tremor-content dark:text-dark-tremor-content\">\n              Spend management control\n            </p>\n          </div>\n        </div>\n      </Card>\n      <p class=\"text-sm text-muted-foreground\"> Avatar as children </p>\n      <Card class=\"mx-auto max-w-sm p-4\">\n        <div class=\"flex items-center justify-center space-x-5\">\n          <ProgressCircle value={75}>\n            <Avatar class=\"size-12\">\n              <AvatarImage src=\"https://github.com/stefan-karger.png\" />\n              <AvatarFallback>EK</AvatarFallback>\n            </Avatar>\n          </ProgressCircle>\n          <div>\n            <p class=\"text-tremor-default text-tremor-content-strong dark:text-dark-tremor-content-strong font-medium\">\n              $340/$450 (75%)\n            </p>\n            <p class=\"text-tremor-default text-tremor-content dark:text-dark-tremor-content\">\n              Spend management control\n            </p>\n          </div>\n        </div>\n      </Card>\n    </div>\n  )\n}\n",
       "path": "src/registry/example/progress-circle-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

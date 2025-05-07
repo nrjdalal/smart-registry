@@ -9,10 +9,8 @@
     "@react-aria/datepicker",
     "@react-stately/datepicker",
     "@remixicon/react",
-    "clsx",
     "date-fns",
     "react-day-picker",
-    "tailwind-merge",
     "tailwind-variants"
   ],
   "files": [

@@ -4,9 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@remixicon/react",
-    "clsx",
-    "recharts",
-    "tailwind-merge"
+    "recharts"
   ],
   "files": [
     {

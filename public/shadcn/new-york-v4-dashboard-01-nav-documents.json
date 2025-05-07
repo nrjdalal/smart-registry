@@ -10,9 +10,7 @@
     "@radix-ui/react-tooltip",
     "@tabler/icons-react",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -20,12 +18,6 @@
       "target": "components/dashboard-01/nav-documents.tsx",
       "content": "\"use client\"\n\nimport {\n  IconDots,\n  IconFolder,\n  IconShare3,\n  IconTrash,\n  type Icon,\n} from \"@tabler/icons-react\"\n\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuItem,\n  DropdownMenuSeparator,\n  DropdownMenuTrigger,\n} from \"@/components/ui/new-york-v4/dropdown-menu\"\nimport {\n  SidebarGroup,\n  SidebarGroupLabel,\n  SidebarMenu,\n  SidebarMenuAction,\n  SidebarMenuButton,\n  SidebarMenuItem,\n  useSidebar,\n} from \"@/components/ui/new-york-v4/sidebar\"\n\nexport function NavDocuments({\n  items,\n}: {\n  items: {\n    name: string\n    url: string\n    icon: Icon\n  }[]\n}) {\n  const { isMobile } = useSidebar()\n\n  return (\n    <SidebarGroup className=\"group-data-[collapsible=icon]:hidden\">\n      <SidebarGroupLabel>Documents</SidebarGroupLabel>\n      <SidebarMenu>\n        {items.map((item) => (\n          <SidebarMenuItem key={item.name}>\n            <SidebarMenuButton asChild>\n              <a href={item.url}>\n                <item.icon />\n                <span>{item.name}</span>\n              </a>\n            </SidebarMenuButton>\n            <DropdownMenu>\n              <DropdownMenuTrigger asChild>\n                <SidebarMenuAction\n                  showOnHover\n                  className=\"data-[state=open]:bg-accent rounded-sm\"\n                >\n                  <IconDots />\n                  <span className=\"sr-only\">More</span>\n                </SidebarMenuAction>\n              </DropdownMenuTrigger>\n              <DropdownMenuContent\n                className=\"w-24 rounded-lg\"\n                side={isMobile ? \"bottom\" : \"right\"}\n                align={isMobile ? \"end\" : \"start\"}\n              >\n                <DropdownMenuItem>\n                  <IconFolder />\n                  <span>Open</span>\n                </DropdownMenuItem>\n                <DropdownMenuItem>\n                  <IconShare3 />\n                  <span>Share</span>\n                </DropdownMenuItem>\n                <DropdownMenuSeparator />\n                <DropdownMenuItem variant=\"destructive\">\n                  <IconTrash />\n                  <span>Delete</span>\n                </DropdownMenuItem>\n              </DropdownMenuContent>\n            </DropdownMenu>\n          </SidebarMenuItem>\n        ))}\n        <SidebarMenuItem>\n          <SidebarMenuButton className=\"text-sidebar-foreground/70\">\n            <IconDots className=\"text-sidebar-foreground/70\" />\n            <span>More</span>\n          </SidebarMenuButton>\n        </SidebarMenuItem>\n      </SidebarMenu>\n    </SidebarGroup>\n  )\n}\n",
       "path": "registry/new-york-v4/blocks/dashboard-01/components/nav-documents.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:lib",

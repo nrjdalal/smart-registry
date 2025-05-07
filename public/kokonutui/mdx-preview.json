@@ -5,12 +5,10 @@
   "dependencies": [
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
     "fs",
     "lucide-react",
     "motion",
-    "path",
-    "tailwind-merge"
+    "path"
   ],
   "files": [
     {
@@ -36,12 +34,6 @@
       "target": "lib/action.ts",
       "content": "\"use server\";\n\nimport path from \"path\";\nimport { promises as fs } from \"fs\";\nimport { cache } from \"react\";\n\n// Create a cached version of the file reading operation\nconst readFileCache = cache(async (filePath: string) => {\n    return await fs.readFile(filePath, \"utf-8\");\n});\n\n// Improve caching for the entire component getter\nexport const getComponent = async (fileName: string | null, folder: string) => {\n    const baseDir = path.join(process.cwd(), \"components/kokonutui\");\n    if (!fileName || fileName === \"undefined\") {\n        const fullPath = path.join(baseDir, `${folder}.tsx`);\n        // console.log(\"fullPath\", fullPath);\n        return await readFileCache(fullPath);\n    }\n\n    const fullPath = path.join(baseDir, folder, `${fileName}.tsx`);\n\n    return await readFileCache(fullPath);\n};\n\nexport type CopyComponentState = {\n    error: string;\n    content: string;\n    success: boolean;\n};\n\nexport const copyComponent = async (\n    prevState: CopyComponentState,\n    formData: FormData\n) => {\n    try {\n        const folder = formData.get(\"folder\");\n        const fileName = formData.get(\"fileName\");\n\n        if (!folder && !fileName) {\n            return {\n                error: \"Folder or file name not found\",\n                content: \"\",\n                success: false,\n            };\n        }\n\n        const content = await getComponent(\n            fileName as string,\n            folder as string\n        );\n\n        if (!content) {\n            return {\n                error: \"Component not found\",\n                content: \"\",\n                success: false,\n            };\n        }\n\n        return {\n            error: \"\",\n            content: content,\n            success: true,\n        };\n    } catch (error) {\n        console.error(error);\n        return {\n            error: \"Failed to copy component\",\n            content: \"\",\n            success: false,\n        };\n    }\n};\n",
       "path": "lib/action.ts"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n    return twMerge(clsx(inputs));\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

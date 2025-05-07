@@ -6,8 +6,6 @@
     "@radix-ui/react-accordion",
     "@radix-ui/react-slot",
     "@remixicon/react",
-    "clsx",
-    "tailwind-merge",
     "tailwind-variants"
   ],
   "devDependencies": [

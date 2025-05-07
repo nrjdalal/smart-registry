@@ -8,9 +8,7 @@
     "@radix-ui/react-slot",
     "@radix-ui/react-tooltip",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -18,12 +16,6 @@
       "target": "components/sidebar-15/nav-main.tsx",
       "content": "\"use client\"\n\nimport { type LucideIcon } from \"lucide-react\"\n\nimport {\n  SidebarMenu,\n  SidebarMenuButton,\n  SidebarMenuItem,\n} from \"@/components/ui/new-york-v4/sidebar\"\n\nexport function NavMain({\n  items,\n}: {\n  items: {\n    title: string\n    url: string\n    icon: LucideIcon\n    isActive?: boolean\n  }[]\n}) {\n  return (\n    <SidebarMenu>\n      {items.map((item) => (\n        <SidebarMenuItem key={item.title}>\n          <SidebarMenuButton asChild isActive={item.isActive}>\n            <a href={item.url}>\n              <item.icon />\n              <span>{item.title}</span>\n            </a>\n          </SidebarMenuButton>\n        </SidebarMenuItem>\n      ))}\n    </SidebarMenu>\n  )\n}\n",
       "path": "registry/new-york-v4/blocks/sidebar-15/components/nav-main.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:lib",

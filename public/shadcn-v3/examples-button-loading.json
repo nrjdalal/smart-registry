@@ -5,9 +5,7 @@
   "dependencies": [
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -15,12 +13,6 @@
       "target": "examples/button-loading.tsx",
       "content": "import { Loader2 } from \"lucide-react\"\n\nimport { Button } from \"@/components/ui/button\"\n\nexport default function ButtonLoading() {\n  return (\n    <Button disabled>\n      <Loader2 className=\"animate-spin\" />\n      Please wait\n    </Button>\n  )\n}\n",
       "path": "registry/default/examples/button-loading.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

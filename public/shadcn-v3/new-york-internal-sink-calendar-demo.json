@@ -5,10 +5,8 @@
   "dependencies": [
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
     "lucide-react",
-    "react-day-picker",
-    "tailwind-merge"
+    "react-day-picker"
   ],
   "files": [
     {
@@ -16,12 +14,6 @@
       "target": "new-york/internal/sink/components/calendar-demo.tsx",
       "content": "\"use client\"\n\nimport * as React from \"react\"\n\nimport { Calendar } from \"@/components/ui/new-york/calendar\"\n\nexport function CalendarDemo() {\n  const [date, setDate] = React.useState<Date | undefined>(new Date())\n\n  return (\n    <Calendar\n      mode=\"single\"\n      selected={date}\n      onSelect={setDate}\n      className=\"rounded-md border shadow\"\n    />\n  )\n}\n",
       "path": "registry/new-york/internal/sink/components/calendar-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

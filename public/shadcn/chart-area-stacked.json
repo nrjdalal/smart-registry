@@ -3,22 +3,14 @@
   "name": "chart-area-stacked",
   "type": "registry:block",
   "dependencies": [
-    "clsx",
     "lucide-react",
-    "recharts",
-    "tailwind-merge"
+    "recharts"
   ],
   "registryDependencies": [
     "card",
     "chart"
   ],
   "files": [
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
-    },
     {
       "type": "registry:component",
       "target": "components/charts/new-york-v4/chart-area-stacked.tsx",

@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "class-variance-authority",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "example/callout-demo.tsx",
       "content": "import { Callout, CalloutContent, CalloutTitle } from \"@/components/ui/callout\"\n\nexport default function CalloutDemo() {\n  return (\n    <div class=\"flex flex-col space-y-4\">\n      <Callout>\n        <CalloutTitle>Default</CalloutTitle>\n        <CalloutContent>\n          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora cupiditate sapiente\n          officiis ullam, nulla nam sunt? Ipsa facilis ut aspernatur debitis. Qui dolorem modi,\n          assumenda nihil eligendi commodi tempore eos?\n        </CalloutContent>\n      </Callout>\n      <Callout variant={\"success\"}>\n        <CalloutTitle>Success</CalloutTitle>\n        <CalloutContent>\n          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora cupiditate sapiente\n          officiis ullam, nulla nam sunt? Ipsa facilis ut aspernatur debitis. Qui dolorem modi,\n          assumenda nihil eligendi commodi tempore eos?\n        </CalloutContent>\n      </Callout>\n      <Callout variant={\"warning\"}>\n        <CalloutTitle>Warning</CalloutTitle>\n        <CalloutContent>\n          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora cupiditate sapiente\n          officiis ullam, nulla nam sunt? Ipsa facilis ut aspernatur debitis. Qui dolorem modi,\n          assumenda nihil eligendi commodi tempore eos?\n        </CalloutContent>\n      </Callout>\n      <Callout variant={\"error\"}>\n        <CalloutTitle>Error</CalloutTitle>\n        <CalloutContent>\n          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora cupiditate sapiente\n          officiis ullam, nulla nam sunt? Ipsa facilis ut aspernatur debitis. Qui dolorem modi,\n          assumenda nihil eligendi commodi tempore eos?\n        </CalloutContent>\n      </Callout>\n    </div>\n  )\n}\n",
       "path": "src/registry/example/callout-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

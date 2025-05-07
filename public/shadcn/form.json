@@ -6,9 +6,7 @@
     "@hookform/resolvers",
     "@radix-ui/react-label",
     "@radix-ui/react-slot",
-    "clsx",
     "react-hook-form",
-    "tailwind-merge",
     "zod"
   ],
   "registryDependencies": [
@@ -16,12 +14,6 @@
     "label"
   ],
   "files": [
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
-    },
     {
       "type": "registry:ui",
       "target": "components/ui/new-york-v4/form.tsx",

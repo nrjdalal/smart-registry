@@ -3,8 +3,6 @@
   "name": "selectnative",
   "type": "registry:component",
   "dependencies": [
-    "clsx",
-    "tailwind-merge",
     "tailwind-variants"
   ],
   "files": [

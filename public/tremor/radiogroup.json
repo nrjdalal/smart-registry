@@ -3,9 +3,7 @@
   "name": "radiogroup",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-radio-group",
-    "clsx",
-    "tailwind-merge"
+    "@radix-ui/react-radio-group"
   ],
   "files": [
     {

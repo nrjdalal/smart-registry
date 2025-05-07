@@ -9,11 +9,9 @@
     "@radix-ui/react-slot",
     "@radix-ui/react-toast",
     "class-variance-authority",
-    "clsx",
     "lucide-react",
     "next",
     "react-hook-form",
-    "tailwind-merge",
     "zod"
   ],
   "files": [
@@ -22,12 +20,6 @@
       "target": "new-york/examples/checkbox-form-single.tsx",
       "content": "\"use client\"\n\nimport Link from \"next/link\"\nimport { zodResolver } from \"@hookform/resolvers/zod\"\nimport { useForm } from \"react-hook-form\"\nimport { z } from \"zod\"\n\nimport { toast } from \"@/hooks/new-york/use-toast\"\nimport { Button } from \"@/components/ui/new-york/button\"\nimport { Checkbox } from \"@/components/ui/new-york/checkbox\"\nimport {\n  Form,\n  FormControl,\n  FormDescription,\n  FormField,\n  FormItem,\n  FormLabel,\n} from \"@/components/ui/new-york/form\"\n\nconst FormSchema = z.object({\n  mobile: z.boolean().default(false).optional(),\n})\n\nexport default function CheckboxReactHookFormSingle() {\n  const form = useForm<z.infer<typeof FormSchema>>({\n    resolver: zodResolver(FormSchema),\n    defaultValues: {\n      mobile: true,\n    },\n  })\n\n  function onSubmit(data: z.infer<typeof FormSchema>) {\n    toast({\n      title: \"You submitted the following values:\",\n      description: (\n        <pre className=\"mt-2 w-[340px] rounded-md bg-slate-950 p-4\">\n          <code className=\"text-white\">{JSON.stringify(data, null, 2)}</code>\n        </pre>\n      ),\n    })\n  }\n\n  return (\n    <Form {...form}>\n      <form onSubmit={form.handleSubmit(onSubmit)} className=\"space-y-6\">\n        <FormField\n          control={form.control}\n          name=\"mobile\"\n          render={({ field }) => (\n            <FormItem className=\"flex flex-row items-start space-x-3 space-y-0 rounded-md border p-4 shadow\">\n              <FormControl>\n                <Checkbox\n                  checked={field.value}\n                  onCheckedChange={field.onChange}\n                />\n              </FormControl>\n              <div className=\"space-y-1 leading-none\">\n                <FormLabel>\n                  Use different settings for my mobile devices\n                </FormLabel>\n                <FormDescription>\n                  You can manage your mobile notifications in the{\" \"}\n                  <Link href=\"/examples/forms\">mobile settings</Link> page.\n                </FormDescription>\n              </div>\n            </FormItem>\n          )}\n        />\n        <Button type=\"submit\">Submit</Button>\n      </form>\n    </Form>\n  )\n}\n",
       "path": "registry/new-york/examples/checkbox-form-single.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:hook",

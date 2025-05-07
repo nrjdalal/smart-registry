@@ -6,9 +6,7 @@
     "@radix-ui/react-separator",
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -16,12 +14,6 @@
       "target": "components/kokonutui/blocks/auth-basic/social-login.tsx",
       "content": "\"use client\";\n\nimport { useState } from \"react\";\nimport { Button } from \"@/components/ui/button\";\nimport { Separator } from \"@/components/ui/separator\";\nimport { Loader2 } from \"lucide-react\";\n\nexport function SocialLogin() {\n    const [isGoogleLoading, setIsGoogleLoading] = useState(false);\n\n    async function handleGoogleSignIn() {\n        setIsGoogleLoading(true);\n        try {\n            /**\n             * To update with your actual authentication logic\n             */\n            await new Promise((resolve) => setTimeout(resolve, 1500));\n            console.log(\"Signing in with Google\");\n        } catch (error) {\n            console.error(\"Google sign-in error:\", error);\n        } finally {\n            setIsGoogleLoading(false);\n        }\n    }\n\n    function GoogleIcon() {\n        return (\n            <svg\n                className=\"mr-2 h-4 w-4\"\n                aria-hidden=\"true\"\n                focusable=\"false\"\n                data-prefix=\"fab\"\n                data-icon=\"google\"\n                role=\"img\"\n                xmlns=\"http://www.w3.org/2000/svg\"\n                viewBox=\"0 0 488 512\"\n            >\n                <path\n                    fill=\"currentColor\"\n                    d=\"M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z\"\n                ></path>\n            </svg>\n        );\n    }\n\n    return (\n        <>\n            <div className=\"relative\">\n                <div className=\"absolute inset-0 flex items-center\">\n                    <Separator className=\"w-full border-neutral-200 dark:border-neutral-800\" />\n                </div>\n                <div className=\"relative flex justify-center text-xs uppercase\">\n                    <span className=\"bg-white dark:bg-black px-2 text-neutral-600 dark:text-neutral-400\">\n                        Or continue with\n                    </span>\n                </div>\n            </div>\n\n            <Button\n                variant=\"outline\"\n                onClick={handleGoogleSignIn}\n                disabled={isGoogleLoading}\n                className=\"w-full h-12 font-medium border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-50 dark:bg-black dark:hover:bg-neutral-900 transition-colors\"\n            >\n                {isGoogleLoading ? (\n                    <Loader2 className=\"mr-2 h-4 w-4 animate-spin\" />\n                ) : (\n                    <GoogleIcon />\n                )}\n                {isGoogleLoading ? \"Connecting...\" : \"Sign in with Google\"}\n            </Button>\n        </>\n    );\n}\n",
       "path": "components/kokonutui/blocks/auth-basic/social-login.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n    return twMerge(clsx(inputs));\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

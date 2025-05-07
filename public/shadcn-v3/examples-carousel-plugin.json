@@ -5,11 +5,9 @@
   "dependencies": [
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
     "embla-carousel-autoplay",
     "embla-carousel-react",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -17,12 +15,6 @@
       "target": "examples/carousel-plugin.tsx",
       "content": "import * as React from \"react\"\nimport Autoplay from \"embla-carousel-autoplay\"\n\nimport { Card, CardContent } from \"@/components/ui/card\"\nimport {\n  Carousel,\n  CarouselContent,\n  CarouselItem,\n  CarouselNext,\n  CarouselPrevious,\n} from \"@/components/ui/carousel\"\n\nexport default function CarouselPlugin() {\n  const plugin = React.useRef(\n    Autoplay({ delay: 2000, stopOnInteraction: true })\n  )\n\n  return (\n    <Carousel\n      plugins={[plugin.current]}\n      className=\"w-full max-w-xs\"\n      onMouseEnter={plugin.current.stop}\n      onMouseLeave={plugin.current.reset}\n    >\n      <CarouselContent>\n        {Array.from({ length: 5 }).map((_, index) => (\n          <CarouselItem key={index}>\n            <div className=\"p-1\">\n              <Card>\n                <CardContent className=\"flex aspect-square items-center justify-center p-6\">\n                  <span className=\"text-4xl font-semibold\">{index + 1}</span>\n                </CardContent>\n              </Card>\n            </div>\n          </CarouselItem>\n        ))}\n      </CarouselContent>\n      <CarouselPrevious />\n      <CarouselNext />\n    </Carousel>\n  )\n}\n",
       "path": "registry/default/examples/carousel-plugin.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

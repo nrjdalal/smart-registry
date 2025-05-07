@@ -3,9 +3,7 @@
   "name": "donutchart",
   "type": "registry:component",
   "dependencies": [
-    "clsx",
-    "recharts",
-    "tailwind-merge"
+    "recharts"
   ],
   "files": [
     {

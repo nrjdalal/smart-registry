@@ -12,9 +12,7 @@
     "@radix-ui/react-slot",
     "@radix-ui/react-tooltip",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -64,18 +62,6 @@
       "target": "components/sidebar-16/site-header.tsx",
       "content": "\"use client\"\n\nimport { SidebarIcon } from \"lucide-react\"\n\nimport { SearchForm } from \"@/components/sidebar-16/search-form\"\nimport {\n  Breadcrumb,\n  BreadcrumbItem,\n  BreadcrumbLink,\n  BreadcrumbList,\n  BreadcrumbPage,\n  BreadcrumbSeparator,\n} from \"@/components/ui/breadcrumb\"\nimport { Button } from \"@/components/ui/button\"\nimport { Separator } from \"@/components/ui/separator\"\nimport { useSidebar } from \"@/components/ui/sidebar\"\n\nexport function SiteHeader() {\n  const { toggleSidebar } = useSidebar()\n\n  return (\n    <header className=\"flex sticky top-0 z-50 w-full items-center border-b bg-background\">\n      <div className=\"flex h-[--header-height] w-full items-center gap-2 px-4\">\n        <Button\n          className=\"h-8 w-8\"\n          variant=\"ghost\"\n          size=\"icon\"\n          onClick={toggleSidebar}\n        >\n          <SidebarIcon />\n        </Button>\n        <Separator orientation=\"vertical\" className=\"mr-2 h-4\" />\n        <Breadcrumb className=\"hidden sm:block\">\n          <BreadcrumbList>\n            <BreadcrumbItem>\n              <BreadcrumbLink href=\"#\">\n                Building Your Application\n              </BreadcrumbLink>\n            </BreadcrumbItem>\n            <BreadcrumbSeparator />\n            <BreadcrumbItem>\n              <BreadcrumbPage>Data Fetching</BreadcrumbPage>\n            </BreadcrumbItem>\n          </BreadcrumbList>\n        </Breadcrumb>\n        <SearchForm className=\"w-full sm:ml-auto sm:w-auto\" />\n      </div>\n    </header>\n  )\n}\n",
       "path": "registry/default/blocks/sidebar-16/components/site-header.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
-      "path": "registry/default/lib/utils.ts"
     },
     {
       "type": "registry:hook",

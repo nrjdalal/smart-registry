@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "@radix-ui/react-slot",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "examples/breadcrumb-separator.tsx",
       "content": "import { Slash } from \"lucide-react\"\n\nimport {\n  Breadcrumb,\n  BreadcrumbItem,\n  BreadcrumbLink,\n  BreadcrumbList,\n  BreadcrumbPage,\n  BreadcrumbSeparator,\n} from \"@/components/ui/breadcrumb\"\n\nexport default function BreadcrumbWithCustomSeparator() {\n  return (\n    <Breadcrumb>\n      <BreadcrumbList>\n        <BreadcrumbItem>\n          <BreadcrumbLink href=\"/\">Home</BreadcrumbLink>\n        </BreadcrumbItem>\n        <BreadcrumbSeparator>\n          <Slash />\n        </BreadcrumbSeparator>\n        <BreadcrumbItem>\n          <BreadcrumbLink href=\"/components\">Components</BreadcrumbLink>\n        </BreadcrumbItem>\n        <BreadcrumbSeparator>\n          <Slash />\n        </BreadcrumbSeparator>\n        <BreadcrumbItem>\n          <BreadcrumbPage>Breadcrumb</BreadcrumbPage>\n        </BreadcrumbItem>\n      </BreadcrumbList>\n    </Breadcrumb>\n  )\n}\n",
       "path": "registry/default/examples/breadcrumb-separator.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

@@ -3,9 +3,7 @@
   "name": "internal-sink-progress-demo",
   "type": "registry:file",
   "dependencies": [
-    "@radix-ui/react-progress",
-    "clsx",
-    "tailwind-merge"
+    "@radix-ui/react-progress"
   ],
   "files": [
     {
@@ -13,12 +11,6 @@
       "target": "internal/sink/components/progress-demo.tsx",
       "content": "\"use client\"\n\nimport * as React from \"react\"\n\nimport { Progress } from \"@/components/ui/progress\"\n\nexport function ProgressDemo() {\n  const [progress, setProgress] = React.useState(13)\n\n  React.useEffect(() => {\n    const timer = setTimeout(() => setProgress(66), 500)\n    return () => clearTimeout(timer)\n  }, [])\n\n  return <Progress value={progress} className=\"w-[60%]\" />\n}\n",
       "path": "registry/default/internal/sink/components/progress-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

@@ -3,9 +3,7 @@
   "name": "dialog",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-dialog",
-    "clsx",
-    "tailwind-merge"
+    "@radix-ui/react-dialog"
   ],
   "files": [
     {

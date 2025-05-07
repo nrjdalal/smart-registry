@@ -3,9 +3,7 @@
   "name": "text-02",
   "type": "registry:component",
   "dependencies": [
-    "clsx",
-    "motion",
-    "tailwind-merge"
+    "motion"
   ],
   "files": [
     {
@@ -13,12 +11,6 @@
       "target": "components/kokonutui/text/text-02.tsx",
       "content": "\"use client\";\n\nimport { cn } from \"@/lib/utils\";\nimport { motion } from \"motion/react\";\n\ninterface TextSplitProps {\n    text: string;\n    className?: string;\n    containerClassName?: string;\n    splitSpacing?: number;\n}\n\nconst Text_02: React.FC<TextSplitProps> = ({\n    text = \"Payout fees\",\n    className = \"\",\n    containerClassName = \"\",\n    splitSpacing = 2,\n}) => {\n    return (\n        <motion.div\n            className={cn(\n                \"w-full text-center relative inline-block\",\n                containerClassName\n            )}\n            whileHover=\"hover\"\n            initial=\"default\"\n        >\n            <motion.div\n                className={cn(\"absolute w-full text-4xl -ml-0.5\", className)}\n                variants={{\n                    default: {\n                        clipPath: \"inset(0 0 50% 0)\",\n                        y: -splitSpacing / 2,\n                        opacity: 1,\n                    },\n                    hover: {\n                        clipPath: \"inset(0 0 0 0)\",\n                        y: 0,\n                        opacity: 0,\n                    },\n                }}\n                transition={{ duration: 0.1 }}\n            >\n                {text}\n            </motion.div>\n            <motion.div\n                className={cn(\"absolute w-full text-4xl\", className)}\n                variants={{\n                    default: {\n                        clipPath: \"inset(50% 0 0 0)\",\n                        y: splitSpacing / 2,\n                        opacity: 1,\n                    },\n                    hover: {\n                        clipPath: \"inset(0 0 0 0)\",\n                        y: 0,\n                        opacity: 1,\n                    },\n                }}\n                transition={{ duration: 0.1 }}\n            >\n                {text}\n            </motion.div>\n\n            {/* Hidden text for maintaining layout size */}\n            <div className={cn(\"invisible text-4xl\", className)}>{text}</div>\n        </motion.div>\n    );\n};\n\nexport default Text_02;\n",
       "path": "components/kokonutui/text/text-02.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n    return twMerge(clsx(inputs));\n}\n",
-      "path": "lib/utils.ts"
     }
   ]
 }

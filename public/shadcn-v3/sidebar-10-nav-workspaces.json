@@ -9,9 +9,7 @@
     "@radix-ui/react-slot",
     "@radix-ui/react-tooltip",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -19,18 +17,6 @@
       "target": "components/sidebar-10/nav-workspaces.tsx",
       "content": "import { ChevronRight, MoreHorizontal, Plus } from \"lucide-react\"\n\nimport {\n  Collapsible,\n  CollapsibleContent,\n  CollapsibleTrigger,\n} from \"@/components/ui/collapsible\"\nimport {\n  SidebarGroup,\n  SidebarGroupContent,\n  SidebarGroupLabel,\n  SidebarMenu,\n  SidebarMenuAction,\n  SidebarMenuButton,\n  SidebarMenuItem,\n  SidebarMenuSub,\n  SidebarMenuSubButton,\n  SidebarMenuSubItem,\n} from \"@/components/ui/sidebar\"\n\nexport function NavWorkspaces({\n  workspaces,\n}: {\n  workspaces: {\n    name: string\n    emoji: React.ReactNode\n    pages: {\n      name: string\n      emoji: React.ReactNode\n    }[]\n  }[]\n}) {\n  return (\n    <SidebarGroup>\n      <SidebarGroupLabel>Workspaces</SidebarGroupLabel>\n      <SidebarGroupContent>\n        <SidebarMenu>\n          {workspaces.map((workspace) => (\n            <Collapsible key={workspace.name}>\n              <SidebarMenuItem>\n                <SidebarMenuButton asChild>\n                  <a href=\"#\">\n                    <span>{workspace.emoji}</span>\n                    <span>{workspace.name}</span>\n                  </a>\n                </SidebarMenuButton>\n                <CollapsibleTrigger asChild>\n                  <SidebarMenuAction\n                    className=\"left-2 bg-sidebar-accent text-sidebar-accent-foreground data-[state=open]:rotate-90\"\n                    showOnHover\n                  >\n                    <ChevronRight />\n                  </SidebarMenuAction>\n                </CollapsibleTrigger>\n                <SidebarMenuAction showOnHover>\n                  <Plus />\n                </SidebarMenuAction>\n                <CollapsibleContent>\n                  <SidebarMenuSub>\n                    {workspace.pages.map((page) => (\n                      <SidebarMenuSubItem key={page.name}>\n                        <SidebarMenuSubButton asChild>\n                          <a href=\"#\">\n                            <span>{page.emoji}</span>\n                            <span>{page.name}</span>\n                          </a>\n                        </SidebarMenuSubButton>\n                      </SidebarMenuSubItem>\n                    ))}\n                  </SidebarMenuSub>\n                </CollapsibleContent>\n              </SidebarMenuItem>\n            </Collapsible>\n          ))}\n          <SidebarMenuItem>\n            <SidebarMenuButton className=\"text-sidebar-foreground/70\">\n              <MoreHorizontal />\n              <span>More</span>\n            </SidebarMenuButton>\n          </SidebarMenuItem>\n        </SidebarMenu>\n      </SidebarGroupContent>\n    </SidebarGroup>\n  )\n}\n",
       "path": "registry/default/blocks/sidebar-10/components/nav-workspaces.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
-      "path": "registry/default/lib/utils.ts"
     },
     {
       "type": "registry:hook",

@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "@kobalte/core",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "example/skeleton-demo.tsx",
       "content": "import { Skeleton } from \"@/components/ui/skeleton\"\n\nexport default function SkeletonDemo() {\n  return (\n    <div class=\"flex items-center space-x-4\">\n      <Skeleton height={48} circle animate={false} />\n      <div class=\"space-y-2\">\n        <Skeleton height={16} width={250} radius={10} />\n        <Skeleton height={16} width={200} radius={10} />\n      </div>\n    </div>\n  )\n}\n",
       "path": "src/registry/example/skeleton-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

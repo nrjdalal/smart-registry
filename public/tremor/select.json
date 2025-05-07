@@ -4,9 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-select",
-    "@remixicon/react",
-    "clsx",
-    "tailwind-merge"
+    "@remixicon/react"
   ],
   "files": [
     {

@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "@radix-ui/react-slot",
-    "class-variance-authority",
-    "clsx",
-    "tailwind-merge"
+    "class-variance-authority"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "new-york/examples/button-ghost.tsx",
       "content": "import { Button } from \"@/components/ui/new-york/button\"\n\nexport default function ButtonGhost() {\n  return <Button variant=\"ghost\">Ghost</Button>\n}\n",
       "path": "registry/new-york/examples/button-ghost.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

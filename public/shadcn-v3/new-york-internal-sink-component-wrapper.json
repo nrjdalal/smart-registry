@@ -2,10 +2,6 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "new-york-internal-sink-component-wrapper",
   "type": "registry:file",
-  "dependencies": [
-    "clsx",
-    "tailwind-merge"
-  ],
   "files": [
     {
       "type": "registry:file",

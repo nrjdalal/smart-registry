@@ -3,10 +3,8 @@
   "name": "new-york-examples-input-otp-controlled",
   "type": "registry:file",
   "dependencies": [
-    "clsx",
     "input-otp",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "new-york/examples/input-otp-controlled.tsx",
       "content": "\"use client\"\n\nimport * as React from \"react\"\n\nimport {\n  InputOTP,\n  InputOTPGroup,\n  InputOTPSlot,\n} from \"@/components/ui/new-york/input-otp\"\n\nexport default function InputOTPControlled() {\n  const [value, setValue] = React.useState(\"\")\n\n  return (\n    <div className=\"space-y-2\">\n      <InputOTP\n        maxLength={6}\n        value={value}\n        onChange={(value) => setValue(value)}\n      >\n        <InputOTPGroup>\n          <InputOTPSlot index={0} />\n          <InputOTPSlot index={1} />\n          <InputOTPSlot index={2} />\n          <InputOTPSlot index={3} />\n          <InputOTPSlot index={4} />\n          <InputOTPSlot index={5} />\n        </InputOTPGroup>\n      </InputOTP>\n      <div className=\"text-center text-sm\">\n        {value === \"\" ? (\n          <>Enter your one-time password.</>\n        ) : (\n          <>You entered: {value}</>\n        )}\n      </div>\n    </div>\n  )\n}\n",
       "path": "registry/new-york/examples/input-otp-controlled.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

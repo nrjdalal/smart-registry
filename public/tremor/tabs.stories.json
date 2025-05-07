@@ -4,9 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-tabs",
-    "@remixicon/react",
-    "clsx",
-    "tailwind-merge"
+    "@remixicon/react"
   ],
   "devDependencies": [
     "@storybook/react"

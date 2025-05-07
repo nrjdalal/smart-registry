@@ -9,9 +9,7 @@
     "@radix-ui/react-slot",
     "@radix-ui/react-tooltip",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -19,18 +17,6 @@
       "target": "components/sidebar-16/nav-projects.tsx",
       "content": "\"use client\"\n\nimport {\n  Folder,\n  MoreHorizontal,\n  Share,\n  Trash2,\n  type LucideIcon,\n} from \"lucide-react\"\n\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuItem,\n  DropdownMenuSeparator,\n  DropdownMenuTrigger,\n} from \"@/components/ui/dropdown-menu\"\nimport {\n  SidebarGroup,\n  SidebarGroupLabel,\n  SidebarMenu,\n  SidebarMenuAction,\n  SidebarMenuButton,\n  SidebarMenuItem,\n  useSidebar,\n} from \"@/components/ui/sidebar\"\n\nexport function NavProjects({\n  projects,\n}: {\n  projects: {\n    name: string\n    url: string\n    icon: LucideIcon\n  }[]\n}) {\n  const { isMobile } = useSidebar()\n\n  return (\n    <SidebarGroup className=\"group-data-[collapsible=icon]:hidden\">\n      <SidebarGroupLabel>Projects</SidebarGroupLabel>\n      <SidebarMenu>\n        {projects.map((item) => (\n          <SidebarMenuItem key={item.name}>\n            <SidebarMenuButton asChild>\n              <a href={item.url}>\n                <item.icon />\n                <span>{item.name}</span>\n              </a>\n            </SidebarMenuButton>\n            <DropdownMenu>\n              <DropdownMenuTrigger asChild>\n                <SidebarMenuAction showOnHover>\n                  <MoreHorizontal />\n                  <span className=\"sr-only\">More</span>\n                </SidebarMenuAction>\n              </DropdownMenuTrigger>\n              <DropdownMenuContent\n                className=\"w-48\"\n                side={isMobile ? \"bottom\" : \"right\"}\n                align={isMobile ? \"end\" : \"start\"}\n              >\n                <DropdownMenuItem>\n                  <Folder className=\"text-muted-foreground\" />\n                  <span>View Project</span>\n                </DropdownMenuItem>\n                <DropdownMenuItem>\n                  <Share className=\"text-muted-foreground\" />\n                  <span>Share Project</span>\n                </DropdownMenuItem>\n                <DropdownMenuSeparator />\n                <DropdownMenuItem>\n                  <Trash2 className=\"text-muted-foreground\" />\n                  <span>Delete Project</span>\n                </DropdownMenuItem>\n              </DropdownMenuContent>\n            </DropdownMenu>\n          </SidebarMenuItem>\n        ))}\n        <SidebarMenuItem>\n          <SidebarMenuButton>\n            <MoreHorizontal />\n            <span>More</span>\n          </SidebarMenuButton>\n        </SidebarMenuItem>\n      </SidebarMenu>\n    </SidebarGroup>\n  )\n}\n",
       "path": "registry/default/blocks/sidebar-16/components/nav-projects.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n",
-      "path": "registry/default/lib/utils.ts"
     },
     {
       "type": "registry:hook",

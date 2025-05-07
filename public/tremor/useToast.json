@@ -4,9 +4,7 @@
   "type": "registry:hook",
   "dependencies": [
     "@radix-ui/react-toast",
-    "@remixicon/react",
-    "clsx",
-    "tailwind-merge"
+    "@remixicon/react"
   ],
   "files": [
     {

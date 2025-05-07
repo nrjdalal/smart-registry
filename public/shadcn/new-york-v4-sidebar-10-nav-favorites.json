@@ -9,9 +9,7 @@
     "@radix-ui/react-slot",
     "@radix-ui/react-tooltip",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -19,12 +17,6 @@
       "target": "components/sidebar-10/nav-favorites.tsx",
       "content": "\"use client\"\n\nimport {\n  ArrowUpRight,\n  Link,\n  MoreHorizontal,\n  StarOff,\n  Trash2,\n} from \"lucide-react\"\n\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuItem,\n  DropdownMenuSeparator,\n  DropdownMenuTrigger,\n} from \"@/components/ui/new-york-v4/dropdown-menu\"\nimport {\n  SidebarGroup,\n  SidebarGroupLabel,\n  SidebarMenu,\n  SidebarMenuAction,\n  SidebarMenuButton,\n  SidebarMenuItem,\n  useSidebar,\n} from \"@/components/ui/new-york-v4/sidebar\"\n\nexport function NavFavorites({\n  favorites,\n}: {\n  favorites: {\n    name: string\n    url: string\n    emoji: string\n  }[]\n}) {\n  const { isMobile } = useSidebar()\n\n  return (\n    <SidebarGroup className=\"group-data-[collapsible=icon]:hidden\">\n      <SidebarGroupLabel>Favorites</SidebarGroupLabel>\n      <SidebarMenu>\n        {favorites.map((item) => (\n          <SidebarMenuItem key={item.name}>\n            <SidebarMenuButton asChild>\n              <a href={item.url} title={item.name}>\n                <span>{item.emoji}</span>\n                <span>{item.name}</span>\n              </a>\n            </SidebarMenuButton>\n            <DropdownMenu>\n              <DropdownMenuTrigger asChild>\n                <SidebarMenuAction showOnHover>\n                  <MoreHorizontal />\n                  <span className=\"sr-only\">More</span>\n                </SidebarMenuAction>\n              </DropdownMenuTrigger>\n              <DropdownMenuContent\n                className=\"w-56 rounded-lg\"\n                side={isMobile ? \"bottom\" : \"right\"}\n                align={isMobile ? \"end\" : \"start\"}\n              >\n                <DropdownMenuItem>\n                  <StarOff className=\"text-muted-foreground\" />\n                  <span>Remove from Favorites</span>\n                </DropdownMenuItem>\n                <DropdownMenuSeparator />\n                <DropdownMenuItem>\n                  <Link className=\"text-muted-foreground\" />\n                  <span>Copy Link</span>\n                </DropdownMenuItem>\n                <DropdownMenuItem>\n                  <ArrowUpRight className=\"text-muted-foreground\" />\n                  <span>Open in New Tab</span>\n                </DropdownMenuItem>\n                <DropdownMenuSeparator />\n                <DropdownMenuItem>\n                  <Trash2 className=\"text-muted-foreground\" />\n                  <span>Delete</span>\n                </DropdownMenuItem>\n              </DropdownMenuContent>\n            </DropdownMenu>\n          </SidebarMenuItem>\n        ))}\n        <SidebarMenuItem>\n          <SidebarMenuButton className=\"text-sidebar-foreground/70\">\n            <MoreHorizontal />\n            <span>More</span>\n          </SidebarMenuButton>\n        </SidebarMenuItem>\n      </SidebarMenu>\n    </SidebarGroup>\n  )\n}\n",
       "path": "registry/new-york-v4/blocks/sidebar-10/components/nav-favorites.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:lib",

@@ -2,10 +2,6 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "barlist.stories",
   "type": "registry:component",
-  "dependencies": [
-    "clsx",
-    "tailwind-merge"
-  ],
   "devDependencies": [
     "@storybook/react"
   ],

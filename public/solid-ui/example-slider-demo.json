@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "@kobalte/core",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "example/slider-demo.tsx",
       "content": "import {\n  Slider,\n  SliderFill,\n  SliderLabel,\n  SliderThumb,\n  SliderTrack,\n  SliderValueLabel\n} from \"@/components/ui/slider\"\n\nexport default function SliderDemo() {\n  return (\n    <Slider\n      minValue={10}\n      maxValue={2000}\n      defaultValue={[20, 500]}\n      getValueLabel={(params) => `$${params.values[0]} - $${params.values[1]}`}\n      class=\"w-[300px] space-y-3\"\n    >\n      <div class=\"flex w-full justify-between\">\n        <SliderLabel>Money</SliderLabel>\n        <SliderValueLabel />\n      </div>\n      <SliderTrack>\n        <SliderFill />\n        <SliderThumb />\n        <SliderThumb />\n      </SliderTrack>\n    </Slider>\n  )\n}\n",
       "path": "src/registry/example/slider-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

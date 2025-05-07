@@ -3,9 +3,7 @@
   "name": "new-york-examples-chart-bar-demo-grid",
   "type": "registry:file",
   "dependencies": [
-    "clsx",
-    "recharts",
-    "tailwind-merge"
+    "recharts"
   ],
   "files": [
     {
@@ -13,12 +11,6 @@
       "target": "new-york/examples/chart-bar-demo-grid.tsx",
       "content": "\"use client\"\n\nimport { Bar, BarChart, CartesianGrid } from \"recharts\"\n\nimport { ChartConfig, ChartContainer } from \"@/components/ui/new-york/chart\"\n\nconst chartData = [\n  { month: \"January\", desktop: 186, mobile: 80 },\n  { month: \"February\", desktop: 305, mobile: 200 },\n  { month: \"March\", desktop: 237, mobile: 120 },\n  { month: \"April\", desktop: 73, mobile: 190 },\n  { month: \"May\", desktop: 209, mobile: 130 },\n  { month: \"June\", desktop: 214, mobile: 140 },\n]\n\nconst chartConfig = {\n  desktop: {\n    label: \"Desktop\",\n    color: \"#2563eb\",\n  },\n  mobile: {\n    label: \"Mobile\",\n    color: \"#60a5fa\",\n  },\n} satisfies ChartConfig\n\nexport default function Component() {\n  return (\n    <ChartContainer config={chartConfig} className=\"min-h-[200px] w-full\">\n      <BarChart accessibilityLayer data={chartData}>\n        <CartesianGrid vertical={false} />\n        <Bar dataKey=\"desktop\" fill=\"var(--color-desktop)\" radius={4} />\n        <Bar dataKey=\"mobile\" fill=\"var(--color-mobile)\" radius={4} />\n      </BarChart>\n    </ChartContainer>\n  )\n}\n",
       "path": "registry/new-york/examples/chart-bar-demo-grid.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "class-variance-authority",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "example/badge-demo.tsx",
       "content": "import { Badge } from \"@/components/ui/badge\"\n\nexport default function BadgeDemo() {\n  return (\n    <div class=\"flex gap-2\">\n      <Badge>Badge</Badge>\n      <Badge variant=\"secondary\">Secondary</Badge>\n      <Badge variant=\"outline\">Outline</Badge>\n      <Badge variant=\"error\">Error</Badge>\n      <Badge round>Round</Badge>\n    </div>\n  )\n}\n",
       "path": "src/registry/example/badge-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

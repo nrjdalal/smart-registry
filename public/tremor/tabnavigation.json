@@ -3,9 +3,7 @@
   "name": "tabnavigation",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-navigation-menu",
-    "clsx",
-    "tailwind-merge"
+    "@radix-ui/react-navigation-menu"
   ],
   "files": [
     {

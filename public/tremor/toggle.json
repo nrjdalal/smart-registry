@@ -4,9 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-toggle",
-    "@radix-ui/react-toggle-group",
-    "clsx",
-    "tailwind-merge"
+    "@radix-ui/react-toggle-group"
   ],
   "files": [
     {

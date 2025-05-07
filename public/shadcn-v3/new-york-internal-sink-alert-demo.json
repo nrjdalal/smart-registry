@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "new-york/internal/sink/components/alert-demo.tsx",
       "content": "import { Terminal } from \"lucide-react\"\n\nimport {\n  Alert,\n  AlertDescription,\n  AlertTitle,\n} from \"@/components/ui/new-york/alert\"\n\nexport function AlertDemo() {\n  return (\n    <Alert>\n      <Terminal className=\"h-4 w-4\" />\n      <AlertTitle>Heads up!</AlertTitle>\n      <AlertDescription>\n        You can add components to your app using the cli.\n      </AlertDescription>\n    </Alert>\n  )\n}\n",
       "path": "registry/new-york/internal/sink/components/alert-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "@kobalte/core",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "example/combobox-demo.tsx",
       "content": "import {\n  Combobox,\n  ComboboxContent,\n  ComboboxControl,\n  ComboboxInput,\n  ComboboxItem,\n  ComboboxItemIndicator,\n  ComboboxItemLabel,\n  ComboboxSection,\n  ComboboxTrigger\n} from \"@/components/ui/combobox\"\n\ninterface Food {\n  value: string\n  label: string\n  disabled: boolean\n}\ninterface Category {\n  label: string\n  options: Food[]\n}\nconst ALL_OPTIONS: Category[] = [\n  {\n    label: \"Fruits\",\n    options: [\n      { value: \"apple\", label: \"Apple\", disabled: false },\n      { value: \"banana\", label: \"Banana\", disabled: false },\n      { value: \"blueberry\", label: \"Blueberry\", disabled: false },\n      { value: \"grapes\", label: \"Grapes\", disabled: true },\n      { value: \"pineapple\", label: \"Pineapple\", disabled: false }\n    ]\n  },\n  {\n    label: \"Meat\",\n    options: [\n      { value: \"beef\", label: \"Beef\", disabled: false },\n      { value: \"chicken\", label: \"Chicken\", disabled: false },\n      { value: \"lamb\", label: \"Lamb\", disabled: false },\n      { value: \"pork\", label: \"Pork\", disabled: false }\n    ]\n  }\n]\n\nexport default function ComboboxDemo() {\n  return (\n    <Combobox<Food, Category>\n      options={ALL_OPTIONS}\n      optionValue=\"value\"\n      optionTextValue=\"label\"\n      optionLabel=\"label\"\n      optionDisabled=\"disabled\"\n      optionGroupChildren=\"options\"\n      placeholder=\"Search a food…\"\n      itemComponent={(props) => (\n        <ComboboxItem item={props.item}>\n          <ComboboxItemLabel>{props.item.rawValue.label}</ComboboxItemLabel>\n          <ComboboxItemIndicator />\n        </ComboboxItem>\n      )}\n      sectionComponent={(props) => (\n        <ComboboxSection>{props.section.rawValue.label}</ComboboxSection>\n      )}\n    >\n      <ComboboxControl aria-label=\"Food\">\n        <ComboboxInput />\n        <ComboboxTrigger />\n      </ComboboxControl>\n      <ComboboxContent />\n    </Combobox>\n  )\n}\n",
       "path": "src/registry/example/combobox-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

@@ -4,8 +4,6 @@
   "type": "registry:component",
   "dependencies": [
     "@remixicon/react",
-    "clsx",
-    "tailwind-merge",
     "tailwind-variants"
   ],
   "devDependencies": [

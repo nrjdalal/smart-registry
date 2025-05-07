@@ -4,9 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-dropdown-menu",
-    "@remixicon/react",
-    "clsx",
-    "tailwind-merge"
+    "@remixicon/react"
   ],
   "files": [
     {

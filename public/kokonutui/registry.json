@@ -35,20 +35,13 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/accordion.tsx",
           "path": "components/ui/accordion.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -56,20 +49,13 @@
       "name": "alert",
       "type": "registry:ui",
       "dependencies": [
-        "class-variance-authority",
-        "clsx",
-        "tailwind-merge"
+        "class-variance-authority"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/alert.tsx",
           "path": "components/ui/alert.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -88,20 +74,13 @@
       "name": "avatar",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-avatar",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-avatar"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/avatar.tsx",
           "path": "components/ui/avatar.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -109,20 +88,13 @@
       "name": "badge",
       "type": "registry:ui",
       "dependencies": [
-        "class-variance-authority",
-        "clsx",
-        "tailwind-merge"
+        "class-variance-authority"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/badge.tsx",
           "path": "components/ui/badge.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -132,22 +104,15 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "motion",
-        "next-view-transitions",
-        "tailwind-merge"
+        "next-view-transitions"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/browse-blocks.tsx",
           "path": "components/ui/browse-blocks.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -162,22 +127,15 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "motion",
-        "next-view-transitions",
-        "tailwind-merge"
+        "next-view-transitions"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/browse-button.tsx",
           "path": "components/ui/browse-button.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -191,40 +149,24 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "clsx",
-        "tailwind-merge"
+        "class-variance-authority"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "components/ui/button.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
     {
       "name": "card",
       "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/card.tsx",
           "path": "components/ui/card.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -233,20 +175,13 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-dialog",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/dialog.tsx",
           "path": "components/ui/dialog.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -255,40 +190,24 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-dropdown-menu",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/dropdown-menu.tsx",
           "path": "components/ui/dropdown-menu.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
     {
       "name": "input",
       "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/input.tsx",
           "path": "components/ui/input.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -297,20 +216,13 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-label",
-        "class-variance-authority",
-        "clsx",
-        "tailwind-merge"
+        "class-variance-authority"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/label.tsx",
           "path": "components/ui/label.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -318,20 +230,13 @@
       "name": "popover",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-popover",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-popover"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/popover.tsx",
           "path": "components/ui/popover.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -339,20 +244,13 @@
       "name": "progress",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-progress",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-progress"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/progress.tsx",
           "path": "components/ui/progress.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -360,20 +258,13 @@
       "name": "scroll-area",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-scroll-area",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-scroll-area"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/scroll-area.tsx",
           "path": "components/ui/scroll-area.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -382,20 +273,13 @@
       "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-select",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/select.tsx",
           "path": "components/ui/select.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -403,20 +287,13 @@
       "name": "separator",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-separator",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-separator"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/separator.tsx",
           "path": "components/ui/separator.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -426,20 +303,13 @@
       "dependencies": [
         "@radix-ui/react-dialog",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/sheet.tsx",
           "path": "components/ui/sheet.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -452,20 +322,13 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/sidebar.tsx",
           "path": "components/ui/sidebar.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -507,20 +370,11 @@
     {
       "name": "skeleton",
       "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/skeleton.tsx",
           "path": "components/ui/skeleton.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -528,20 +382,13 @@
       "name": "slider",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-slider",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-slider"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/slider.tsx",
           "path": "components/ui/slider.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -549,40 +396,24 @@
       "name": "tabs",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-tabs",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-tabs"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/tabs.tsx",
           "path": "components/ui/tabs.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
     {
       "name": "textarea",
       "type": "registry:ui",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/textarea.tsx",
           "path": "components/ui/textarea.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -590,20 +421,13 @@
       "name": "tooltip",
       "type": "registry:ui",
       "dependencies": [
-        "@radix-ui/react-tooltip",
-        "clsx",
-        "tailwind-merge"
+        "@radix-ui/react-tooltip"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "components/ui/tooltip.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -626,22 +450,15 @@
         "@radix-ui/react-tabs",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "motion",
-        "next-view-transitions",
-        "tailwind-merge"
+        "next-view-transitions"
       ],
       "files": [
         {
           "type": "registry:ui",
           "target": "components/ui/accordion.tsx",
           "path": "components/ui/accordion.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1032,21 +849,14 @@
       "name": "action-search-bar",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/action-search-bar.tsx",
           "path": "components/kokonutui/action-search-bar.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1065,10 +875,8 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-select",
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
@@ -1100,11 +908,6 @@
           "type": "registry:component",
           "target": "components/kokonutui/blocks/ai-card-generation/settings-generation.tsx",
           "path": "components/kokonutui/blocks/ai-card-generation/settings-generation.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1142,9 +945,7 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-select",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
@@ -1156,11 +957,6 @@
           "type": "registry:component",
           "target": "components/kokonutui/blocks/ai-card-generation/settings-generation.tsx",
           "path": "components/kokonutui/blocks/ai-card-generation/settings-generation.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1189,21 +985,14 @@
       "name": "ai-card-generation-preview-generation",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/blocks/ai-card-generation/preview-generation.tsx",
           "path": "components/kokonutui/blocks/ai-card-generation/preview-generation.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1217,20 +1006,13 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-select",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/blocks/ai-card-generation/settings-generation.tsx",
           "path": "components/kokonutui/blocks/ai-card-generation/settings-generation.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1245,10 +1027,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
@@ -1260,11 +1040,6 @@
           "type": "registry:component",
           "target": "components/kokonutui/blocks/ai-chat/multimodal-input.tsx",
           "path": "components/kokonutui/blocks/ai-chat/multimodal-input.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1284,21 +1059,14 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/blocks/ai-chat/multimodal-input.tsx",
           "path": "components/kokonutui/blocks/ai-chat/multimodal-input.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -1316,20 +1084,13 @@
       "name": "ai-input-ai-input-01",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-01.tsx",
           "path": "components/kokonutui/ai-input/ai-input-01.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1347,20 +1108,13 @@
       "name": "ai-input-ai-input-02",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-02.tsx",
           "path": "components/kokonutui/ai-input/ai-input-02.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1383,20 +1137,13 @@
       "name": "ai-input-ai-input-03",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-03.tsx",
           "path": "components/kokonutui/ai-input/ai-input-03.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1414,21 +1161,14 @@
       "name": "ai-input-ai-input-04",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-04.tsx",
           "path": "components/kokonutui/ai-input/ai-input-04.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1446,20 +1186,13 @@
       "name": "ai-input-ai-input-05",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-05.tsx",
           "path": "components/kokonutui/ai-input/ai-input-05.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1477,20 +1210,13 @@
       "name": "ai-input-ai-input-06",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-06.tsx",
           "path": "components/kokonutui/ai-input/ai-input-06.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1508,20 +1234,13 @@
       "name": "ai-input-ai-input-07",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-07.tsx",
           "path": "components/kokonutui/ai-input/ai-input-07.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1539,20 +1258,13 @@
       "name": "ai-input-ai-input-08",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-08.tsx",
           "path": "components/kokonutui/ai-input/ai-input-08.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1560,20 +1272,13 @@
       "name": "ai-input-ai-input-09",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-09.tsx",
           "path": "components/kokonutui/ai-input/ai-input-09.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1601,20 +1306,13 @@
       "name": "ai-input-ai-input-10",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-10.tsx",
           "path": "components/kokonutui/ai-input/ai-input-10.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1642,20 +1340,13 @@
       "name": "ai-input-ai-input-11",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-11.tsx",
           "path": "components/kokonutui/ai-input/ai-input-11.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1679,20 +1370,13 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-tooltip",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-12.tsx",
           "path": "components/kokonutui/ai-input/ai-input-12.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1715,20 +1399,13 @@
       "name": "ai-input-ai-input-13",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-13.tsx",
           "path": "components/kokonutui/ai-input/ai-input-13.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1746,20 +1423,13 @@
       "name": "ai-input-ai-input-14",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-14.tsx",
           "path": "components/kokonutui/ai-input/ai-input-14.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1777,20 +1447,13 @@
       "name": "ai-input-ai-input-15",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-15.tsx",
           "path": "components/kokonutui/ai-input/ai-input-15.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1808,22 +1471,15 @@
       "name": "ai-input-ai-input-16",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "cmdk",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-16.tsx",
           "path": "components/kokonutui/ai-input/ai-input-16.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1836,20 +1492,13 @@
       "name": "ai-input-ai-input-17",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-17.tsx",
           "path": "components/kokonutui/ai-input/ai-input-17.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1870,21 +1519,14 @@
         "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/ai-prompt.tsx",
           "path": "components/kokonutui/ai-prompt.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -1926,21 +1568,14 @@
       "name": "alert-02",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/alert/alert-02.tsx",
           "path": "components/kokonutui/alert/alert-02.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1962,21 +1597,14 @@
       "name": "alert-04",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/alert/alert-04.tsx",
           "path": "components/kokonutui/alert/alert-04.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -1984,21 +1612,14 @@
       "name": "alert-05",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/alert/alert-05.tsx",
           "path": "components/kokonutui/alert/alert-05.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2022,20 +1643,13 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "clsx",
-        "tailwind-merge"
+        "class-variance-authority"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/alert/alert-07.tsx",
           "path": "components/kokonutui/alert/alert-07.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2051,10 +1665,8 @@
         "@radix-ui/react-separator",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
@@ -2071,11 +1683,6 @@
           "type": "registry:component",
           "target": "components/kokonutui/blocks/auth-basic/social-login.tsx",
           "path": "components/kokonutui/blocks/auth-basic/social-login.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2105,20 +1712,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/blocks/auth-basic/auth-form.tsx",
           "path": "components/kokonutui/blocks/auth-basic/auth-form.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2139,20 +1739,13 @@
         "@radix-ui/react-separator",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/blocks/auth-basic/social-login.tsx",
           "path": "components/kokonutui/blocks/auth-basic/social-login.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2170,20 +1763,13 @@
       "name": "avatar-picker",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/avatar-picker.tsx",
           "path": "components/kokonutui/avatar-picker.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2213,20 +1799,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/background-paths.tsx",
           "path": "components/kokonutui/background-paths.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2239,20 +1818,13 @@
       "name": "beams-background",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/beams-background.tsx",
           "path": "components/kokonutui/beams-background.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2260,21 +1832,14 @@
       "name": "bento-grid",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/bento-grid.tsx",
           "path": "components/kokonutui/bento-grid.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2289,20 +1854,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-01.tsx",
           "path": "components/kokonutui/button/btn-01.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2316,20 +1874,13 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "clsx",
-        "tailwind-merge"
+        "class-variance-authority"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-02.tsx",
           "path": "components/kokonutui/button/btn-02.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2344,21 +1895,14 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-03.tsx",
           "path": "components/kokonutui/button/btn-03.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2373,21 +1917,14 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-04.tsx",
           "path": "components/kokonutui/button/btn-04.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2402,21 +1939,14 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-05.tsx",
           "path": "components/kokonutui/button/btn-05.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2431,20 +1961,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-06.tsx",
           "path": "components/kokonutui/button/btn-06.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2459,20 +1982,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-07.tsx",
           "path": "components/kokonutui/button/btn-07.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2487,20 +2003,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-08.tsx",
           "path": "components/kokonutui/button/btn-08.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2514,20 +2023,13 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "clsx",
-        "tailwind-merge"
+        "class-variance-authority"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-09.tsx",
           "path": "components/kokonutui/button/btn-09.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2542,20 +2044,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-10.tsx",
           "path": "components/kokonutui/button/btn-10.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2570,20 +2065,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-11.tsx",
           "path": "components/kokonutui/button/btn-11.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2597,20 +2085,13 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "clsx",
-        "tailwind-merge"
+        "class-variance-authority"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-12.tsx",
           "path": "components/kokonutui/button/btn-12.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2624,20 +2105,13 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "clsx",
-        "tailwind-merge"
+        "class-variance-authority"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-13.tsx",
           "path": "components/kokonutui/button/btn-13.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2652,20 +2126,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-14.tsx",
           "path": "components/kokonutui/button/btn-14.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2680,20 +2147,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/button/btn-15.tsx",
           "path": "components/kokonutui/button/btn-15.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2705,20 +2165,11 @@
     {
       "name": "button-cta",
       "type": "registry:component",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/button-cta.tsx",
           "path": "components/button-cta.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2726,20 +2177,13 @@
       "name": "card-01",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/card/card-01.tsx",
           "path": "components/kokonutui/card/card-01.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2749,21 +2193,14 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/card/card-02.tsx",
           "path": "components/kokonutui/card/card-02.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2776,21 +2213,14 @@
       "name": "card-03",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/card/card-03.tsx",
           "path": "components/kokonutui/card/card-03.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2798,21 +2228,14 @@
       "name": "card-04",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/card/card-04.tsx",
           "path": "components/kokonutui/card/card-04.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2820,20 +2243,13 @@
       "name": "card-05",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/card/card-05.tsx",
           "path": "components/kokonutui/card/card-05.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2841,20 +2257,13 @@
       "name": "card-06",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/card/card-06.tsx",
           "path": "components/kokonutui/card/card-06.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2862,20 +2271,13 @@
       "name": "card-07",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/card/card-07.tsx",
           "path": "components/kokonutui/card/card-07.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2883,21 +2285,14 @@
       "name": "card-08",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/card/card-08.tsx",
           "path": "components/kokonutui/card/card-08.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2905,20 +2300,13 @@
       "name": "card-09",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/card/card-09.tsx",
           "path": "components/kokonutui/card/card-09.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -2929,21 +2317,14 @@
         "@radix-ui/react-progress",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/card/card-10.tsx",
           "path": "components/kokonutui/card/card-10.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2964,22 +2345,15 @@
         "@number-flow/react",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "motion",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/checkout-interaction.tsx",
           "path": "components/kokonutui/checkout-interaction.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -2992,20 +2366,13 @@
       "name": "currency-transfer",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/currency-transfer.tsx",
           "path": "components/kokonutui/currency-transfer.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3026,10 +2393,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
@@ -3096,11 +2461,6 @@
           "type": "registry:component",
           "target": "components/kokonutui/blocks/dashboard/top-nav.tsx",
           "path": "components/kokonutui/blocks/dashboard/top-nav.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -3175,10 +2535,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
@@ -3205,11 +2563,6 @@
           "type": "registry:component",
           "target": "components/kokonutui/blocks/dashboard/nav-user.tsx",
           "path": "components/kokonutui/blocks/dashboard/nav-user.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -3269,20 +2622,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/blocks/dashboard/btn-11.tsx",
           "path": "components/kokonutui/blocks/dashboard/btn-11.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3298,9 +2644,7 @@
         "@radix-ui/react-progress",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
@@ -3322,11 +2666,6 @@
           "type": "registry:component",
           "target": "components/kokonutui/blocks/dashboard/list-03.tsx",
           "path": "components/kokonutui/blocks/dashboard/list-03.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3356,10 +2695,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
@@ -3401,11 +2738,6 @@
           "type": "registry:component",
           "target": "components/kokonutui/blocks/dashboard/top-nav.tsx",
           "path": "components/kokonutui/blocks/dashboard/top-nav.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -3465,20 +2797,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/blocks/dashboard/list-01.tsx",
           "path": "components/kokonutui/blocks/dashboard/list-01.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3498,20 +2823,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/blocks/dashboard/list-02.tsx",
           "path": "components/kokonutui/blocks/dashboard/list-02.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3532,20 +2850,13 @@
         "@radix-ui/react-progress",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/blocks/dashboard/list-03.tsx",
           "path": "components/kokonutui/blocks/dashboard/list-03.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3573,20 +2884,13 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/blocks/dashboard/nav-documents.tsx",
           "path": "components/kokonutui/blocks/dashboard/nav-documents.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -3639,20 +2943,13 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/blocks/dashboard/nav-main.tsx",
           "path": "components/kokonutui/blocks/dashboard/nav-main.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -3705,20 +3002,13 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/blocks/dashboard/nav-secondary.tsx",
           "path": "components/kokonutui/blocks/dashboard/nav-secondary.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -3773,20 +3063,13 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/blocks/dashboard/nav-user.tsx",
           "path": "components/kokonutui/blocks/dashboard/nav-user.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -3849,10 +3132,8 @@
         "@radix-ui/react-slot",
         "@radix-ui/react-tooltip",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
@@ -3864,11 +3145,6 @@
           "type": "registry:component",
           "target": "components/kokonutui/blocks/dashboard/btn-11.tsx",
           "path": "components/kokonutui/blocks/dashboard/btn-11.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -3938,20 +3214,13 @@
       "dependencies": [
         "@radix-ui/react-accordion",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/faq/faq-01.tsx",
           "path": "components/kokonutui/faq/faq-01.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -3974,21 +3243,14 @@
       "name": "faq-02",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/faq/faq-02.tsx",
           "path": "components/kokonutui/faq/faq-02.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -3998,20 +3260,13 @@
       "dependencies": [
         "@radix-ui/react-accordion",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/faq/faq-03.tsx",
           "path": "components/kokonutui/faq/faq-03.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4030,20 +3285,13 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-accordion",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/faq/faq-04.tsx",
           "path": "components/kokonutui/faq/faq-04.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4056,21 +3304,14 @@
       "name": "file-upload",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/file-upload.tsx",
           "path": "components/kokonutui/file-upload.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -4097,21 +3338,14 @@
       "name": "hero-geometric",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "motion",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/hero-geometric.tsx",
           "path": "components/kokonutui/hero-geometric.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4140,20 +3374,11 @@
     {
       "name": "icons-compass",
       "type": "registry:component",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/icons/compass.tsx",
           "path": "components/icons/compass.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4249,20 +3474,13 @@
       "name": "input-01",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/input/input-01.tsx",
           "path": "components/kokonutui/input/input-01.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4270,20 +3488,13 @@
       "name": "input-02",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/input/input-02.tsx",
           "path": "components/kokonutui/input/input-02.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -4301,20 +3512,13 @@
       "name": "input-03",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/input/input-03.tsx",
           "path": "components/kokonutui/input/input-03.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -4326,20 +3530,11 @@
     {
       "name": "input-04",
       "type": "registry:component",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/input/input-04.tsx",
           "path": "components/kokonutui/input/input-04.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4347,40 +3542,24 @@
       "name": "input-05",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/input/input-05.tsx",
           "path": "components/kokonutui/input/input-05.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
     {
       "name": "input-06",
       "type": "registry:component",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/input/input-06.tsx",
           "path": "components/kokonutui/input/input-06.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4388,20 +3567,13 @@
       "name": "input-08",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/input/input-08.tsx",
           "path": "components/kokonutui/input/input-08.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -4429,20 +3601,13 @@
       "name": "input-10",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/input/input-10.tsx",
           "path": "components/kokonutui/input/input-10.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4452,10 +3617,8 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
@@ -4489,11 +3652,6 @@
           "path": "components/kokonutui/input/input-10.tsx"
         },
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/use-copy-to-clipboard.ts",
           "path": "hooks/use-copy-to-clipboard.ts"
@@ -4509,10 +3667,8 @@
       "name": "landing-feature-block",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "motion",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
@@ -4534,11 +3690,6 @@
           "type": "registry:component",
           "target": "components/icons/shadcn.tsx",
           "path": "components/icons/shadcn.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4610,12 +3761,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
         "motion",
         "next",
-        "next-view-transitions",
-        "tailwind-merge"
+        "next-view-transitions"
       ],
       "files": [
         {
@@ -4674,11 +3823,6 @@
           "path": "components/landing/feature-block.tsx"
         },
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:hook",
           "target": "hooks/use-auto-resize-textarea.ts",
           "path": "hooks/use-auto-resize-textarea.ts"
@@ -4719,21 +3863,14 @@
       "name": "landing-interactive-preview",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/landing/interactive-preview.tsx",
           "path": "components/landing/interactive-preview.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4741,11 +3878,9 @@
       "name": "landing-interfacecards",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
         "motion",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
@@ -4757,11 +3892,6 @@
           "type": "registry:component",
           "target": "components/kokonutui/ai-input/ai-input-04.tsx",
           "path": "components/kokonutui/ai-input/ai-input-04.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",
@@ -4779,11 +3909,9 @@
       "name": "landing-showcase",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
         "motion",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
@@ -4795,11 +3923,6 @@
           "type": "registry:component",
           "target": "components/kokonutui/text/text-02.tsx",
           "path": "components/kokonutui/text/text-02.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4841,20 +3964,13 @@
       "name": "list-01",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/list/list-01.tsx",
           "path": "components/kokonutui/list/list-01.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4862,20 +3978,13 @@
       "name": "list-02",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/list/list-02.tsx",
           "path": "components/kokonutui/list/list-02.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4883,20 +3992,13 @@
       "name": "list-03",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/list/list-03.tsx",
           "path": "components/kokonutui/list/list-03.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4904,20 +4006,13 @@
       "name": "list-04",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/list/list-04.tsx",
           "path": "components/kokonutui/list/list-04.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4925,20 +4020,13 @@
       "name": "list-05",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/list/list-05.tsx",
           "path": "components/kokonutui/list/list-05.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4946,20 +4034,13 @@
       "name": "list-06",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/list/list-06.tsx",
           "path": "components/kokonutui/list/list-06.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4967,20 +4048,13 @@
       "name": "matrix-text",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/matrix-text.tsx",
           "path": "components/kokonutui/matrix-text.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -4990,12 +4064,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "fs",
         "lucide-react",
         "motion",
-        "path",
-        "tailwind-merge"
+        "path"
       ],
       "files": [
         {
@@ -5019,11 +4091,6 @@
           "path": "lib/action.ts"
         },
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "components/ui/button.tsx"
@@ -5036,12 +4103,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "fs",
         "lucide-react",
         "motion",
-        "path",
-        "tailwind-merge"
+        "path"
       ],
       "files": [
         {
@@ -5075,11 +4140,6 @@
           "path": "lib/action.ts"
         },
         {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
-        },
-        {
           "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "components/ui/button.tsx"
@@ -5092,12 +4152,10 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "fs",
         "lucide-react",
         "motion",
-        "path",
-        "tailwind-merge"
+        "path"
       ],
       "files": [
         {
@@ -5114,11 +4172,6 @@
           "type": "registry:lib",
           "target": "lib/action.ts",
           "path": "lib/action.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -5286,10 +4339,8 @@
       "name": "nav",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
@@ -5311,11 +4362,6 @@
           "type": "registry:file",
           "target": "config/navigation.ts",
           "path": "config/navigation.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -5323,9 +4369,7 @@
       "name": "nav-desktop-nav",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
@@ -5337,11 +4381,6 @@
           "type": "registry:file",
           "target": "config/navigation.ts",
           "path": "config/navigation.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -5349,10 +4388,8 @@
       "name": "nav-mobile-nav",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
@@ -5364,11 +4401,6 @@
           "type": "registry:file",
           "target": "config/navigation.ts",
           "path": "config/navigation.ts"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -5377,20 +4409,13 @@
       "type": "registry:component",
       "dependencies": [
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "clsx",
-        "tailwind-merge"
+        "class-variance-authority"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/open-in-v0-button.tsx",
           "path": "components/open-in-v0-button.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -5405,21 +4430,14 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/particle-button.tsx",
           "path": "components/kokonutui/particle-button.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -5432,20 +4450,13 @@
       "name": "particles-background",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/particles-background.tsx",
           "path": "components/kokonutui/particles-background.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -5453,21 +4464,14 @@
       "name": "pricing-01",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/pricing/pricing-01.tsx",
           "path": "components/kokonutui/pricing/pricing-01.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -5477,20 +4481,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/pricing/pricing-02.tsx",
           "path": "components/kokonutui/pricing/pricing-02.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -5505,20 +4502,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/pricing/pricing-03.tsx",
           "path": "components/kokonutui/pricing/pricing-03.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -5533,20 +4523,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/pricing/pricing-04.tsx",
           "path": "components/kokonutui/pricing/pricing-04.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -5561,20 +4544,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/pricing/pricing-05.tsx",
           "path": "components/kokonutui/pricing/pricing-05.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -5589,20 +4565,13 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/pricing/pricing-06.tsx",
           "path": "components/kokonutui/pricing/pricing-06.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -5632,21 +4601,14 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/profile/profile-02.tsx",
           "path": "components/kokonutui/profile/profile-02.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -5663,20 +4625,13 @@
         "@radix-ui/react-label",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/profile/profile-03.tsx",
           "path": "components/kokonutui/profile/profile-03.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -5712,21 +4667,14 @@
         "@radix-ui/react-progress",
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/profile/profile-04.tsx",
           "path": "components/kokonutui/profile/profile-04.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -5751,21 +4699,14 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/profile/profile-05.tsx",
           "path": "components/kokonutui/profile/profile-05.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:ui",
@@ -5794,20 +4735,13 @@
       "name": "text-02",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/text/text-02.tsx",
           "path": "components/kokonutui/text/text-02.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -5815,20 +4749,13 @@
       "name": "text-03",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/text/text-03.tsx",
           "path": "components/kokonutui/text/text-03.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -5836,20 +4763,13 @@
       "name": "text-04",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/text/text-04.tsx",
           "path": "components/kokonutui/text/text-04.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -5857,40 +4777,24 @@
       "name": "text-05",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/text/text-05.tsx",
           "path": "components/kokonutui/text/text-05.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
     {
       "name": "text-06",
       "type": "registry:component",
-      "dependencies": [
-        "clsx",
-        "tailwind-merge"
-      ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/text/text-06.tsx",
           "path": "components/kokonutui/text/text-06.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -5898,21 +4802,14 @@
       "name": "toolbar",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "motion",
-        "tailwind-merge"
+        "motion"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/toolbar.tsx",
           "path": "components/kokonutui/toolbar.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -5920,21 +4817,14 @@
       "name": "tweet-card",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
         "lucide-react",
-        "next",
-        "tailwind-merge"
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/tweet-card.tsx",
           "path": "components/kokonutui/tweet-card.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         }
       ]
     },
@@ -5942,20 +4832,13 @@
       "name": "vercel-v0-chat",
       "type": "registry:component",
       "dependencies": [
-        "clsx",
-        "lucide-react",
-        "tailwind-merge"
+        "lucide-react"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/vercel-v0-chat.tsx",
           "path": "components/kokonutui/vercel-v0-chat.tsx"
-        },
-        {
-          "type": "registry:lib",
-          "target": "lib/utils.ts",
-          "path": "lib/utils.ts"
         },
         {
           "type": "registry:hook",

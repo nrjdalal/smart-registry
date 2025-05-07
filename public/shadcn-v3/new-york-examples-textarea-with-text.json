@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "@radix-ui/react-label",
-    "class-variance-authority",
-    "clsx",
-    "tailwind-merge"
+    "class-variance-authority"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "new-york/examples/textarea-with-text.tsx",
       "content": "import { Label } from \"@/components/ui/new-york/label\"\nimport { Textarea } from \"@/components/ui/new-york/textarea\"\n\nexport default function TextareaWithText() {\n  return (\n    <div className=\"grid w-full gap-1.5\">\n      <Label htmlFor=\"message-2\">Your Message</Label>\n      <Textarea placeholder=\"Type your message here.\" id=\"message-2\" />\n      <p className=\"text-sm text-muted-foreground\">\n        Your message will be copied to the support team.\n      </p>\n    </div>\n  )\n}\n",
       "path": "registry/new-york/examples/textarea-with-text.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

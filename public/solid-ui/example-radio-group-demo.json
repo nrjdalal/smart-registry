@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "@kobalte/core",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "example/radio-group-demo.tsx",
       "content": "import { For } from \"solid-js\"\n\nimport { RadioGroup, RadioGroupItem, RadioGroupItemLabel } from \"@/components/ui/radio-group\"\n\nexport default function RadioGroupDemo() {\n  return (\n    <RadioGroup>\n      <For each={[\"Apple\", \"Orange\", \"Watermelon\"]}>\n        {(fruit) => (\n          <RadioGroupItem value={fruit}>\n            <RadioGroupItemLabel>{fruit}</RadioGroupItemLabel>\n          </RadioGroupItem>\n        )}\n      </For>\n    </RadioGroup>\n  )\n}\n",
       "path": "src/registry/example/radio-group-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

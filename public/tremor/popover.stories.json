@@ -8,8 +8,6 @@
     "@radix-ui/react-popover",
     "@radix-ui/react-slot",
     "@remixicon/react",
-    "clsx",
-    "tailwind-merge",
     "tailwind-variants"
   ],
   "devDependencies": [

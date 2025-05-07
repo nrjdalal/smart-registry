@@ -5,9 +5,7 @@
   "dependencies": [
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -15,12 +13,6 @@
       "target": "components/kokonutui/button/btn-01.tsx",
       "content": "import { Button } from \"@/components/ui/button\";\nimport { cn } from \"@/lib/utils\";\nimport { ArrowRight } from \"lucide-react\";\n\ninterface Btn01Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {\n    children?: React.ReactNode;\n}\n\nexport default function Btn01({\n    className,\n    children = \"Continue\",\n    ...props\n}: Btn01Props) {\n    return (\n        <Button\n            className={cn(\n                \"relative h-11 px-6\",\n                \"bg-zinc-900 dark:bg-zinc-50\",\n                \"text-zinc-50 dark:text-zinc-900\",\n                \"hover:bg-zinc-800 dark:hover:bg-zinc-100\",\n                \"rounded-xl\",\n                \"transition-all duration-300\",\n                \"overflow-hidden\",\n                \"group\",\n                className\n            )}\n            {...props}\n        >\n            <div\n                className={cn(\n                    \"flex items-center gap-2\",\n                    \"transition-all duration-300\"\n                )}\n            >\n                <span>{children}</span>\n                <ArrowRight\n                    className={cn(\n                        \"w-4 h-4\",\n                        \"transition-transform duration-300\",\n                        \"group-hover:translate-x-1\"\n                    )}\n                />\n            </div>\n        </Button>\n    );\n}\n",
       "path": "components/kokonutui/button/btn-01.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n    return twMerge(clsx(inputs));\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

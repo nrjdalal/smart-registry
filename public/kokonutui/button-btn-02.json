@@ -4,9 +4,7 @@
   "type": "registry:component",
   "dependencies": [
     "@radix-ui/react-slot",
-    "class-variance-authority",
-    "clsx",
-    "tailwind-merge"
+    "class-variance-authority"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "components/kokonutui/button/btn-02.tsx",
       "content": "import { Button } from \"@/components/ui/button\";\nimport { cn } from \"@/lib/utils\";\n\nexport default function Btn02({\n    className,\n    children = \"Continue\",\n    ...props\n}: React.ButtonHTMLAttributes<HTMLButtonElement>) {\n    return (\n        <Button\n            className={cn(\n                \"relative h-11 px-6\",\n                \"bg-white dark:bg-zinc-900/20\",\n                \"text-zinc-900 dark:text-zinc-100\",\n                \"border border-zinc-200 dark:border-zinc-800\",\n                \"shadow-xs\",\n                \"hover:shadow-md hover:-translate-y-0.5\",\n                \"hover:bg-zinc-50 dark:hover:bg-zinc-900\",\n                \"active:translate-y-0\",\n                \"transition-all duration-200\",\n                \"after:absolute after:inset-0\",\n                \"after:rounded-[inherit] after:opacity-0\",\n                \"after:border after:border-zinc-900/10 dark:after:border-white/10\",\n                \"after:transition-opacity after:duration-300\",\n                \"hover:after:opacity-100\",\n                className\n            )}\n            {...props}\n        >\n            {children}\n        </Button>\n    );\n}\n",
       "path": "components/kokonutui/button/btn-02.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n    return twMerge(clsx(inputs));\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

@@ -5,9 +5,7 @@
   "dependencies": [
     "@radix-ui/react-label",
     "@radix-ui/react-switch",
-    "clsx",
     "recharts",
-    "tailwind-merge",
     "tailwind-variants"
   ],
   "devDependencies": [

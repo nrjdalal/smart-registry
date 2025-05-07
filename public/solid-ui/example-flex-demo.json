@@ -3,9 +3,7 @@
   "name": "example-flex-demo",
   "type": "registry:file",
   "dependencies": [
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -13,12 +11,6 @@
       "target": "example/flex-demo.tsx",
       "content": "import { Card } from \"@/components/ui/card\"\nimport { Flex } from \"@/components/ui/flex\"\n\nexport default function FlexDemo() {\n  return (\n    <Card class=\"w-full max-w-xs p-6\">\n      <Flex>\n        <div>\n          <p class=\"text-sm font-normal text-card-foreground/70\">Tickets sold</p>\n          <p class=\"text-3xl font-semibold text-card-foreground\">9,876</p>\n        </div>\n        <div>\n          <p class=\"text-sm font-normal text-card-foreground/70\">Average Selling Price</p>\n          <p class=\"text-3xl font-semibold text-card-foreground\">$ 175.20</p>\n        </div>\n      </Flex>\n    </Card>\n  )\n}\n",
       "path": "src/registry/example/flex-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

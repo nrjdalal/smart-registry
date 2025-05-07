@@ -5,22 +5,14 @@
   "dependencies": [
     "@radix-ui/react-slot",
     "class-variance-authority",
-    "clsx",
     "date-fns",
     "lucide-react",
-    "react-day-picker@8.10.1",
-    "tailwind-merge"
+    "react-day-picker@8.10.1"
   ],
   "registryDependencies": [
     "button"
   ],
   "files": [
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
-    },
     {
       "type": "registry:ui",
       "target": "components/ui/new-york-v4/button.tsx",

@@ -5,9 +5,7 @@
   "dependencies": [
     "@radix-ui/react-toast",
     "class-variance-authority",
-    "clsx",
-    "lucide-react",
-    "tailwind-merge"
+    "lucide-react"
   ],
   "files": [
     {
@@ -15,12 +13,6 @@
       "target": "components/ui/new-york/toaster.tsx",
       "content": "\"use client\"\n\nimport { useToast } from \"@/hooks/new-york/use-toast\"\nimport {\n  Toast,\n  ToastClose,\n  ToastDescription,\n  ToastProvider,\n  ToastTitle,\n  ToastViewport,\n} from \"@/components/ui/new-york/toast\"\n\nexport function Toaster() {\n  const { toasts } = useToast()\n\n  return (\n    <ToastProvider>\n      {toasts.map(function ({ id, title, description, action, ...props }) {\n        return (\n          <Toast key={id} {...props}>\n            <div className=\"grid gap-1\">\n              {title && <ToastTitle>{title}</ToastTitle>}\n              {description && (\n                <ToastDescription>{description}</ToastDescription>\n              )}\n            </div>\n            {action}\n            <ToastClose />\n          </Toast>\n        )\n      })}\n      <ToastViewport />\n    </ToastProvider>\n  )\n}\n",
       "path": "registry/new-york/ui/toaster.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:hook",

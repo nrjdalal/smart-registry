@@ -3,9 +3,7 @@
   "name": "categorybar",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-tooltip",
-    "clsx",
-    "tailwind-merge"
+    "@radix-ui/react-tooltip"
   ],
   "files": [
     {

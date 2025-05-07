@@ -4,10 +4,8 @@
   "type": "registry:component",
   "dependencies": [
     "@remixicon/react",
-    "clsx",
     "date-fns",
-    "react-day-picker",
-    "tailwind-merge"
+    "react-day-picker"
   ],
   "files": [
     {

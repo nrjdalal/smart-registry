@@ -5,9 +5,7 @@
   "dependencies": [
     "@kobalte/core",
     "class-variance-authority",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -15,12 +13,6 @@
       "target": "example/text-field-error-demo.tsx",
       "content": "import { createSignal } from \"solid-js\"\n\nimport {\n  TextField,\n  TextFieldErrorMessage,\n  TextFieldInput,\n  TextFieldLabel\n} from \"@/components/ui/text-field\"\nimport { Tooltip, TooltipContent, TooltipTrigger } from \"@/components/ui/tooltip\"\n\nexport default function TextFieldErrorDemo() {\n  const [value, setValue] = createSignal(\"no valid email\")\n  const [error, setError] = createSignal(true)\n\n  const verifyInput = (value: string) => {\n    const isValid = /^.+@.+\\..+$/.test(value) && value.length < 256\n    setError(!isValid)\n    setValue(value)\n  }\n\n  return (\n    <TextField\n      validationState={error() ? \"invalid\" : \"valid\"}\n      value={value()}\n      onChange={verifyInput}\n    >\n      <TextFieldLabel>Email</TextFieldLabel>\n      <Tooltip>\n        <TooltipTrigger as={TextFieldInput} required />\n        <TooltipContent>\n          <TextFieldErrorMessage>Please enter a valid email.</TextFieldErrorMessage>\n        </TooltipContent>\n      </Tooltip>\n    </TextField>\n  )\n}\n",
       "path": "src/registry/example/text-field-error-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",

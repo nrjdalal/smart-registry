@@ -21,11 +21,9 @@
     "@radix-ui/react-tooltip",
     "@tanstack/react-table",
     "class-variance-authority",
-    "clsx",
     "lucide-react",
     "recharts",
     "sonner",
-    "tailwind-merge",
     "zod"
   ],
   "files": [
@@ -94,12 +92,6 @@
       "target": "components/dashboard-01/site-header.tsx",
       "content": "import { Separator } from \"@/components/ui/new-york/separator\"\nimport { SidebarTrigger } from \"@/components/ui/new-york/sidebar\"\n\nexport function SiteHeader() {\n  return (\n    <header className=\"group-has-data-[collapsible=icon]/sidebar-wrapper:h-12 flex h-12 shrink-0 items-center gap-2 border-b transition-[width,height] ease-linear\">\n      <div className=\"flex w-full items-center gap-1 px-4 lg:gap-2 lg:px-6\">\n        <SidebarTrigger className=\"-ml-1\" />\n        <Separator\n          orientation=\"vertical\"\n          className=\"mx-2 data-[orientation=vertical]:h-4\"\n        />\n        <h1 className=\"text-base font-medium\">Documents</h1>\n      </div>\n    </header>\n  )\n}\n",
       "path": "registry/new-york/blocks/dashboard-01/components/site-header.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:lib",

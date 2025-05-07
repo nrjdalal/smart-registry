@@ -4,9 +4,7 @@
   "type": "registry:file",
   "dependencies": [
     "@radix-ui/react-scroll-area",
-    "@radix-ui/react-separator",
-    "clsx",
-    "tailwind-merge"
+    "@radix-ui/react-separator"
   ],
   "files": [
     {
@@ -14,12 +12,6 @@
       "target": "new-york/internal/sink/components/scroll-area-demo.tsx",
       "content": "import * as React from \"react\"\n\nimport { ScrollArea } from \"@/components/ui/new-york/scroll-area\"\nimport { Separator } from \"@/components/ui/new-york/separator\"\n\nconst tags = Array.from({ length: 50 }).map(\n  (_, i, a) => `v1.2.0-beta.${a.length - i}`\n)\n\nexport function ScrollAreaDemo() {\n  return (\n    <ScrollArea className=\"h-72 w-48 rounded-md border\">\n      <div className=\"p-4\">\n        <h4 className=\"mb-4 text-sm font-medium leading-none\">Tags</h4>\n        {tags.map((tag) => (\n          <React.Fragment key={tag}>\n            <div className=\"text-sm\">{tag}</div>\n            <Separator className=\"my-2\" />\n          </React.Fragment>\n        ))}\n      </div>\n    </ScrollArea>\n  )\n}\n",
       "path": "registry/new-york/internal/sink/components/scroll-area-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function formatDate(input: string | number): string {\n  const date = new Date(input)\n  return date.toLocaleDateString(\"en-US\", {\n    month: \"long\",\n    day: \"numeric\",\n    year: \"numeric\",\n  })\n}\n\nexport function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`\n}\n",
-      "path": "lib/utils.ts"
     },
     {
       "type": "registry:ui",

@@ -3,9 +3,7 @@
   "name": "tracker.stories",
   "type": "registry:component",
   "dependencies": [
-    "@radix-ui/react-hover-card",
-    "clsx",
-    "tailwind-merge"
+    "@radix-ui/react-hover-card"
   ],
   "devDependencies": [
     "@storybook/react"

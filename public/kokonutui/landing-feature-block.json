@@ -3,10 +3,8 @@
   "name": "landing-feature-block",
   "type": "registry:component",
   "dependencies": [
-    "clsx",
     "motion",
-    "next",
-    "tailwind-merge"
+    "next"
   ],
   "files": [
     {
@@ -32,12 +30,6 @@
       "target": "components/icons/shadcn.tsx",
       "content": "const ShadcnIcon = (props: React.SVGProps<SVGSVGElement>) => (\n    <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        viewBox=\"0 0 256 256\"\n        width=\"1em\"\n        height=\"1em\"\n        {...props}\n    >\n        <title>Shadcn UI</title>\n        <path fill=\"none\" d=\"M0 0h256v256H0z\" />\n        <path\n            fill=\"none\"\n            stroke=\"currentColor\"\n            strokeWidth={25}\n            strokeLinecap=\"round\"\n            d=\"M208 128l-80 80M192 40L40 192\"\n        />\n    </svg>\n);\nexport default ShadcnIcon;\n",
       "path": "components/icons/shadcn.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import { clsx, type ClassValue } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n    return twMerge(clsx(inputs));\n}\n",
-      "path": "lib/utils.ts"
     }
   ]
 }

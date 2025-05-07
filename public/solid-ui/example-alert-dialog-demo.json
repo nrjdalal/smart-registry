@@ -5,9 +5,7 @@
   "dependencies": [
     "@kobalte/core",
     "class-variance-authority",
-    "clsx",
-    "solid-js",
-    "tailwind-merge"
+    "solid-js"
   ],
   "files": [
     {
@@ -15,12 +13,6 @@
       "target": "example/alert-dialog-demo.tsx",
       "content": "import {\n  AlertDialog,\n  AlertDialogContent,\n  AlertDialogDescription,\n  AlertDialogTitle,\n  AlertDialogTrigger\n} from \"@/components/ui/alert-dialog\"\nimport { Button } from \"@/components/ui/button\"\n\nexport default function AlertDialogDemo() {\n  return (\n    <AlertDialog>\n      <AlertDialogTrigger as={Button} variant=\"outline\">\n        Show Dialog\n      </AlertDialogTrigger>\n      <AlertDialogContent>\n        <AlertDialogTitle>Alert Dialog</AlertDialogTitle>\n        <AlertDialogDescription>\n          An Alert Dialog enables assistive technologies and browsers to distinguish alert dialogs\n          from other dialogs so they have the option of giving alert dialogs special treatment, such\n          as playing a system alert sound.\n        </AlertDialogDescription>\n      </AlertDialogContent>\n    </AlertDialog>\n  )\n}\n",
       "path": "src/registry/example/alert-dialog-demo.tsx"
-    },
-    {
-      "type": "registry:lib",
-      "target": "lib/utils.ts",
-      "content": "import type { ClassValue } from \"clsx\"\nimport { clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n\nexport function clamp(val: number, min: number, max: number) {\n  return val > max ? max : val < min ? min : val\n}\n\nexport function toggleValue<T>(array: T[], value: T): T[] {\n  return array.includes(value) ? array.filter((item) => item !== value) : [...array, value]\n}\n",
-      "path": "src/lib/utils.ts"
     },
     {
       "type": "registry:ui",
