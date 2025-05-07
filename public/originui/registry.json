@@ -79,6 +79,17 @@
       }
     },
     {
+      "name": "styles",
+      "type": "registry:style",
+      "files": [
+        {
+          "type": "registry:theme",
+          "target": "components/ui/styles.css",
+          "path": "registry/default/ui/styles.css"
+        }
+      ]
+    },
+    {
       "name": "accordion",
       "type": "registry:ui",
       "dependencies": [
@@ -615,17 +626,6 @@
       ]
     },
     {
-      "name": "styles",
-      "type": "registry:ui",
-      "files": [
-        {
-          "type": "registry:ui",
-          "target": "components/ui/styles.css",
-          "path": "registry/default/ui/styles.css"
-        }
-      ]
-    },
-    {
       "name": "switch",
       "type": "registry:ui",
       "dependencies": [
@@ -991,11 +991,6 @@
           "type": "registry:ui",
           "target": "components/ui/stepper.tsx",
           "path": "registry/default/ui/stepper.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/styles.css",
-          "path": "registry/default/ui/styles.css"
         },
         {
           "type": "registry:ui",

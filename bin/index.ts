@@ -225,12 +225,13 @@ const main = async () => {
           }),
           files: resolvedData.files.map((file) => {
             return {
-              type:
-                transformer({
-                  cwd,
-                  aliases,
-                  filepath: file,
-                }).type || "registry:file",
+              type: file.endsWith(".css")
+                ? "registry:theme" // ~ WAIT: this is temp as maybe registry:style will be added to schema later
+                : transformer({
+                    cwd,
+                    aliases,
+                    filepath: file,
+                  }).type || "registry:file",
               target:
                 transformer({
                   cwd,

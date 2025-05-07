@@ -81,18 +81,20 @@ export const transformer = ({
   return {
     type: transformedPath.endsWith("page.tsx")
       ? "registry:page"
-      : transformedPath
-          .match(
-            /^(blocks|components\/charts|components\/ui|components|hooks|lib|utils|helpers)/,
-          )?.[1]
-          .replace("blocks", "registry:block")
-          .replace("components/charts", "registry:component")
-          .replace("components/ui", "registry:ui")
-          .replace("components", "registry:component")
-          .replace("hooks", "registry:hook")
-          .replace("lib", "registry:lib")
-          .replace("utils", "registry:lib")
-          .replace("helpers", "registry:lib") || "registry:file",
+      : transformedPath.endsWith(".css")
+        ? "registry:style"
+        : transformedPath
+            .match(
+              /^(blocks|components\/charts|components\/ui|components|hooks|lib|utils|helpers)/,
+            )?.[1]
+            .replace("blocks", "registry:block")
+            .replace("components/charts", "registry:component")
+            .replace("components/ui", "registry:ui")
+            .replace("components", "registry:component")
+            .replace("hooks", "registry:hook")
+            .replace("lib", "registry:lib")
+            .replace("utils", "registry:lib")
+            .replace("helpers", "registry:lib") || "registry:file",
     name,
     import:
       "@/" +
