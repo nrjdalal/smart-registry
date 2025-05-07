@@ -300,15 +300,19 @@ const main = async () => {
                 ),
             ]
           }
-        } else {
-          delete registryItem.files
         }
 
-        if (
-          registryItem.cssVars &&
-          Object.keys(registryItem.cssVars).length === 0
-        ) {
-          delete registryItem.cssVars
+        // ~ Remove empty properties from the registry item
+        for (const key in registryItem) {
+          if (
+            (Array.isArray(registryItem[key]) &&
+              registryItem[key].length === 0) ||
+            (typeof registryItem[key] === "object" &&
+              registryItem[key] !== null &&
+              Object.keys(registryItem[key]).length === 0)
+          ) {
+            delete registryItem[key]
+          }
         }
 
         registryItem = Object.keys(registryItem)
