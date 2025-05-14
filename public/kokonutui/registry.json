@@ -2339,6 +2339,26 @@
       ]
     },
     {
+      "name": "card-grid",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react",
+        "next"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/card-grid.tsx",
+          "path": "components/kokonutui/card-grid.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/card/card-08.tsx",
+          "path": "components/kokonutui/card/card-08.tsx"
+        }
+      ]
+    },
+    {
       "name": "checkout-interaction",
       "type": "registry:component",
       "dependencies": [
@@ -4062,6 +4082,7 @@
       "name": "mdx-preview",
       "type": "registry:component",
       "dependencies": [
+        "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
         "fs",
@@ -4074,6 +4095,11 @@
           "type": "registry:component",
           "target": "components/mdx/preview.tsx",
           "path": "components/mdx/preview.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/shadcn.tsx",
+          "path": "components/icons/shadcn.tsx"
         },
         {
           "type": "registry:component",
@@ -4094,6 +4120,11 @@
           "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "components/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "components/ui/dropdown-menu.tsx"
         }
       ]
     },
@@ -4101,6 +4132,7 @@
       "name": "mdx-preview-client",
       "type": "registry:component",
       "dependencies": [
+        "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
         "fs",
@@ -4113,6 +4145,11 @@
           "type": "registry:component",
           "target": "components/mdx/preview-client.tsx",
           "path": "components/mdx/preview-client.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/shadcn.tsx",
+          "path": "components/icons/shadcn.tsx"
         },
         {
           "type": "registry:component",
@@ -4143,6 +4180,11 @@
           "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "components/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "components/ui/dropdown-menu.tsx"
         }
       ]
     },
@@ -4150,6 +4192,7 @@
       "name": "mdx-preview-content",
       "type": "registry:component",
       "dependencies": [
+        "@radix-ui/react-dropdown-menu",
         "@radix-ui/react-slot",
         "class-variance-authority",
         "fs",
@@ -4165,6 +4208,11 @@
         },
         {
           "type": "registry:component",
+          "target": "components/icons/shadcn.tsx",
+          "path": "components/icons/shadcn.tsx"
+        },
+        {
+          "type": "registry:component",
           "target": "components/open-in-v0-button.tsx",
           "path": "components/open-in-v0-button.tsx"
         },
@@ -4177,6 +4225,11 @@
           "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "components/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "components/ui/dropdown-menu.tsx"
         }
       ]
     },
