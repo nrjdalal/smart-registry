@@ -56,22 +56,22 @@
     "semi": false
   },
   "dependencies": {
-    "@antfu/ni": "^24.3.0",
-    "execa": "^9.5.2",
-    "strip-json-comments": "^5.0.1",
-    "tinyglobby": "^0.2.12",
+    "@antfu/ni": "^24.4.0",
+    "execa": "^9.5.3",
+    "strip-json-comments": "^5.0.2",
+    "tinyglobby": "^0.2.13",
     "yoctocolors": "^2.1.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.0",
-    "@commitlint/config-conventional": "^19.6.0",
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
-    "@types/node": "^22.10.1",
-    "lint-staged": "^15.2.10",
-    "prettier": "^3.4.2",
-    "simple-git-hooks": "^2.11.1",
-    "sort-package-json": "^2.14.0",
-    "tsup": "^8.3.5",
-    "typescript": "^5.7.2"
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+    "@types/node": "^22.15.18",
+    "lint-staged": "^15.5.2",
+    "prettier": "^3.5.3",
+    "simple-git-hooks": "^2.13.0",
+    "sort-package-json": "^2.15.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
   }
 }
