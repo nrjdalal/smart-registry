@@ -4,3 +4,4 @@
 - [x] Transform paths in content
 - [x] Versioned dependencies
 - [ ] Get globals.css using tinyglobby
+- [ ] Better table on -r
