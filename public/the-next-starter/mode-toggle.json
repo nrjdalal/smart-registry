@@ -1,12 +1,20 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "button",
-  "type": "registry:ui",
+  "name": "mode-toggle",
+  "type": "registry:component",
   "dependencies": [
+    "@remixicon/react",
     "class-variance-authority",
+    "next-themes",
     "radix-ui"
   ],
   "files": [
+    {
+      "type": "registry:component",
+      "target": "components/mode-toggle.tsx",
+      "content": "\"use client\"\n\nimport { RiMoonLine, RiSunLine } from \"@remixicon/react\"\nimport { useTheme } from \"next-themes\"\n\nimport { Button } from \"@/components/ui/button\"\n\nexport default function Component() {\n  const { theme, setTheme } = useTheme()\n\n  const smartToggle = () => {\n    /* The smart toggle by @nrjdalal */\n    const prefersDarkScheme = window.matchMedia(\"(prefers-color-scheme: dark)\").matches\n    if (theme === \"system\") {\n      setTheme(prefersDarkScheme ? \"light\" : \"dark\")\n    } else if (\n      (theme === \"light\" && !prefersDarkScheme) ||\n      (theme === \"dark\" && prefersDarkScheme)\n    ) {\n      setTheme(theme === \"light\" ? \"dark\" : \"light\")\n    } else {\n      setTheme(\"system\")\n    }\n  }\n\n  return (\n    <Button\n      className=\"size-8 cursor-pointer [&_svg]:!size-4\"\n      onClick={smartToggle}\n      aria-label=\"Switch between system/light/dark version\"\n      size=\"sm\"\n      variant=\"outline\"\n    >\n      <RiSunLine className=\"dark:hidden\" aria-hidden=\"true\" />\n      <RiMoonLine className=\"hidden dark:block\" aria-hidden=\"true\" />\n    </Button>\n  )\n}\n",
+      "path": "src/components/mode-toggle.tsx"
+    },
     {
       "type": "registry:ui",
       "target": "components/ui/button.tsx",

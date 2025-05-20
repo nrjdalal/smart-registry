@@ -9,7 +9,7 @@
     {
       "type": "registry:lib",
       "target": "lib/auth/client.ts",
-      "content": "import { createAuthClient } from \"better-auth/react\"\n\nexport const { signIn, signOut } = createAuthClient()\n",
+      "content": "import { magicLinkClient } from \"better-auth/client/plugins\"\nimport { createAuthClient } from \"better-auth/react\"\n\nexport const { signIn, signOut, useSession } = createAuthClient({\n  plugins: [magicLinkClient()],\n})\n",
       "path": "src/lib/auth/client.ts"
     }
   ]

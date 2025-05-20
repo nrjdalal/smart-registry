@@ -1080,7 +1080,8 @@
       "dependencies": [
         "better-auth",
         "drizzle-orm",
-        "postgres"
+        "postgres",
+        "resend"
       ],
       "files": [
         {
@@ -1133,15 +1134,20 @@
       "name": "better-auth",
       "type": "registry:file",
       "dependencies": [
+        "@hookform/resolvers",
         "@remixicon/react",
         "better-auth",
         "class-variance-authority",
         "drizzle-orm",
         "lucide-react",
         "next",
+        "next-themes",
         "postgres",
         "radix-ui",
-        "sonner"
+        "react-hook-form",
+        "resend",
+        "sonner",
+        "zod"
       ],
       "devDependencies": [
         "drizzle-kit"
@@ -1151,6 +1157,21 @@
           "type": "registry:file",
           "target": "~/.example.env",
           "path": ".example.env"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/access.tsx",
+          "path": "src/components/access.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mode-toggle.tsx",
+          "path": "src/components/mode-toggle.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/navbar/home.tsx",
+          "path": "src/components/navbar/home.tsx"
         },
         {
           "type": "registry:component",
@@ -1189,11 +1210,6 @@
         },
         {
           "type": "registry:page",
-          "target": "app/(auth)/access/page.tsx",
-          "path": "src/app/(auth)/access/page.tsx"
-        },
-        {
-          "type": "registry:page",
           "target": "app/(dashboard)/x/page.tsx",
           "path": "src/app/(dashboard)/x/page.tsx"
         },
@@ -1224,8 +1240,18 @@
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "src/components/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
           "target": "components/ui/dropdown-menu.tsx",
           "path": "src/components/ui/dropdown-menu.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/form.tsx",
+          "path": "src/components/ui/form.tsx"
         },
         {
           "type": "registry:ui",
@@ -1263,7 +1289,7 @@
           "path": "src/components/ui/tooltip.tsx"
         }
       ],
-      "docs": "  --- What's next? ---\n\n  1. Rename `.example.env` to `.env.development`.\n  2. Update the necessary environment variables in `.env.development`.\n  3. Execute `npm --env-file=.env.development drizzle-kit push` to create PostgreSQL tables.\n  4. Start the development server with `npm run dev`.\n  5. Access http://localhost:3000/access to test the sign-in/sign-up functionality.\n  6. Navigate to http://localhost:3000/x to verify the protected route."
+      "docs": "  --- What's next? ---\n\n  1. Rename `.example.env` to `.env.development`.\n  2. Update the necessary environment variables in `.env.development`.\n  3. Execute `npm --env-file=.env.development drizzle-kit push` to create PostgreSQL tables.\n  4. Start the development server with `npm run dev`.\n  5. Go to `http://localhost:3000` and have fun!"
     },
     {
       "name": "drizzle",
@@ -1314,6 +1340,58 @@
       ]
     },
     {
+      "name": "access",
+      "type": "registry:component",
+      "dependencies": [
+        "@hookform/resolvers",
+        "@remixicon/react",
+        "better-auth",
+        "class-variance-authority",
+        "lucide-react",
+        "radix-ui",
+        "react-hook-form",
+        "sonner",
+        "zod"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/access.tsx",
+          "path": "src/components/access.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/auth/client.ts",
+          "path": "src/lib/auth/client.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/components/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "src/components/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/form.tsx",
+          "path": "src/components/ui/form.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "src/components/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "src/components/ui/label.tsx"
+        }
+      ]
+    },
+    {
       "name": "devtools",
       "type": "registry:component",
       "dependencies": [
@@ -1327,6 +1405,92 @@
           "type": "registry:component",
           "target": "components/devtools.tsx",
           "path": "src/components/devtools.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mode-toggle",
+      "type": "registry:component",
+      "dependencies": [
+        "@remixicon/react",
+        "class-variance-authority",
+        "next-themes",
+        "radix-ui"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/mode-toggle.tsx",
+          "path": "src/components/mode-toggle.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/components/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "navbar-home",
+      "type": "registry:component",
+      "dependencies": [
+        "@hookform/resolvers",
+        "@remixicon/react",
+        "better-auth",
+        "class-variance-authority",
+        "lucide-react",
+        "next",
+        "next-themes",
+        "radix-ui",
+        "react-hook-form",
+        "sonner",
+        "zod"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/navbar/home.tsx",
+          "path": "src/components/navbar/home.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/access.tsx",
+          "path": "src/components/access.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/mode-toggle.tsx",
+          "path": "src/components/mode-toggle.tsx"
+        },
+        {
+          "type": "registry:lib",
+          "target": "lib/auth/client.ts",
+          "path": "src/lib/auth/client.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/components/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dialog.tsx",
+          "path": "src/components/ui/dialog.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/form.tsx",
+          "path": "src/components/ui/form.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "src/components/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "src/components/ui/label.tsx"
         }
       ]
     },
