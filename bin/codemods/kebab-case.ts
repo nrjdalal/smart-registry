@@ -22,7 +22,7 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
     : []
 
   // 2. Find all JS/TS files (respecting ignores)
-  const files = await glob(["**/*.{js,jsx,ts,tsx}"], { cwd, ignore })
+  const files = await glob(["**/*"], { cwd, ignore })
 
   // 3. Rename files and directory segments on disk
   for (const relPath of files) {
@@ -31,10 +31,6 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
     const transformedSegments = segments.map((seg) => {
       const ext = path.extname(seg)
       const name = path.basename(seg, ext)
-      // Skip PascalCase segments
-      if (/^[A-Z]/.test(name)) {
-        return seg
-      }
       const kebab = name.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase()
       return kebab + ext
     })
@@ -62,8 +58,6 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
             if (seg === "." || seg === "..") return seg
             // preserve alias prefix (e.g., "@" or "@alias")
             if (index === 0 && seg.startsWith("@")) return seg
-            // Skip PascalCase segments
-            if (/^[A-Z]/.test(seg)) return seg
             return seg.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase()
           })
           .join("/")
