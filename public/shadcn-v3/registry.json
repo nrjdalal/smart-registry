@@ -142,8 +142,8 @@
         },
         {
           "type": "registry:ui",
-          "target": "components/ui/button.tsx",
-          "path": "registry/default/ui/button.tsx"
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -3007,6 +3007,11 @@
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "registry/default/ui/tooltip.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -6937,6 +6942,11 @@
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "registry/default/ui/tooltip.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -7218,6 +7228,11 @@
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "registry/default/ui/tooltip.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -7924,13 +7939,13 @@
         },
         {
           "type": "registry:ui",
-          "target": "components/ui/button.tsx",
-          "path": "registry/default/ui/button.tsx"
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
         },
         {
           "type": "registry:ui",
-          "target": "components/ui/calendar.tsx",
-          "path": "registry/default/ui/calendar.tsx"
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -7990,6 +8005,11 @@
           "type": "registry:ui",
           "target": "components/ui/toast.tsx",
           "path": "registry/default/ui/toast.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -8049,6 +8069,11 @@
           "type": "registry:ui",
           "target": "components/ui/toast.tsx",
           "path": "registry/default/ui/toast.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -8996,6 +9021,11 @@
           "type": "registry:ui",
           "target": "components/ui/popover.tsx",
           "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -9055,6 +9085,11 @@
           "type": "registry:ui",
           "target": "components/ui/toast.tsx",
           "path": "registry/default/ui/toast.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -9095,6 +9130,11 @@
           "type": "registry:ui",
           "target": "components/ui/select.tsx",
           "path": "registry/default/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -9129,6 +9169,11 @@
           "type": "registry:ui",
           "target": "components/ui/popover.tsx",
           "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -12259,6 +12304,11 @@
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "registry/default/ui/tooltip.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -12480,6 +12530,11 @@
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "registry/default/ui/tooltip.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -13764,13 +13819,13 @@
         },
         {
           "type": "registry:ui",
-          "target": "components/ui/button.tsx",
-          "path": "registry/default/ui/button.tsx"
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
         },
         {
           "type": "registry:ui",
-          "target": "components/ui/calendar.tsx",
-          "path": "registry/default/ui/calendar.tsx"
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -14012,6 +14067,11 @@
           "type": "registry:ui",
           "target": "components/ui/popover.tsx",
           "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -35395,6 +35455,11 @@
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "registry/default/ui/tooltip.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -35525,6 +35590,11 @@
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "registry/default/ui/tooltip.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -35854,6 +35924,11 @@
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "registry/default/ui/tooltip.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -36367,6 +36442,11 @@
           "type": "registry:ui",
           "target": "components/ui/tooltip.tsx",
           "path": "registry/default/ui/tooltip.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
         }
       ]
     },
@@ -36933,6 +37013,1169 @@
       ]
     },
     {
+      "name": "calendar-01",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-01.tsx",
+          "path": "registry/default/blocks/calendar-01.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-02",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-02.tsx",
+          "path": "registry/default/blocks/calendar-02.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-03",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-03.tsx",
+          "path": "registry/default/blocks/calendar-03.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-04",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-04.tsx",
+          "path": "registry/default/blocks/calendar-04.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-05",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-05.tsx",
+          "path": "registry/default/blocks/calendar-05.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-06",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-06.tsx",
+          "path": "registry/default/blocks/calendar-06.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-07",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-07.tsx",
+          "path": "registry/default/blocks/calendar-07.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-08",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-08.tsx",
+          "path": "registry/default/blocks/calendar-08.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-09",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-09.tsx",
+          "path": "registry/default/blocks/calendar-09.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-10",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-10.tsx",
+          "path": "registry/default/blocks/calendar-10.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/default/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-11",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-11.tsx",
+          "path": "registry/default/blocks/calendar-11.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-12",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-select",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-12.tsx",
+          "path": "registry/default/blocks/calendar-12.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/default/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "registry/default/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-13",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-select",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-13.tsx",
+          "path": "registry/default/blocks/calendar-13.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/select.tsx",
+          "path": "registry/default/ui/select.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-14",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-14.tsx",
+          "path": "registry/default/blocks/calendar-14.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-15",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-15.tsx",
+          "path": "registry/default/blocks/calendar-15.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-16",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-16.tsx",
+          "path": "registry/default/blocks/calendar-16.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/default/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-17",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-17.tsx",
+          "path": "registry/default/blocks/calendar-17.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/default/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-18",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-18.tsx",
+          "path": "registry/default/blocks/calendar-18.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-19",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "date-fns",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-19.tsx",
+          "path": "registry/default/blocks/calendar-19.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/default/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-20",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-20.tsx",
+          "path": "registry/default/blocks/calendar-20.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/default/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-21",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-21.tsx",
+          "path": "registry/default/blocks/calendar-21.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-22",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-22.tsx",
+          "path": "registry/default/blocks/calendar-22.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-23",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-23.tsx",
+          "path": "registry/default/blocks/calendar-23.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-24",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-24.tsx",
+          "path": "registry/default/blocks/calendar-24.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-25",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-25.tsx",
+          "path": "registry/default/blocks/calendar-25.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-26",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-26.tsx",
+          "path": "registry/default/blocks/calendar-26.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-27",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker",
+        "recharts"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-27.tsx",
+          "path": "registry/default/blocks/calendar-27.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/default/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/chart.tsx",
+          "path": "registry/default/ui/chart.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-28",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-28.tsx",
+          "path": "registry/default/blocks/calendar-28.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-29",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "chrono-node",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-29.tsx",
+          "path": "registry/default/blocks/calendar-29.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-30",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "little-date",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-30.tsx",
+          "path": "registry/default/blocks/calendar-30.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/popover.tsx",
+          "path": "registry/default/ui/popover.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-31",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "little-date",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-31.tsx",
+          "path": "registry/default/blocks/calendar-31.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "registry/default/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-32",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker",
+        "vaul"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/calendar-32.tsx",
+          "path": "registry/default/blocks/calendar-32.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/calendar.tsx",
+          "path": "registry/default/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/drawer.tsx",
+          "path": "registry/default/ui/drawer.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
       "name": "dashboard-01-data",
       "type": "registry:block",
       "files": [
@@ -36940,6 +38183,1099 @@
           "type": "registry:block",
           "target": "blocks/dashboard-01/data.json",
           "path": "registry/default/blocks/dashboard-01/data.json"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-01",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-01.tsx",
+          "path": "registry/new-york/blocks/calendar-01.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-02",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-02.tsx",
+          "path": "registry/new-york/blocks/calendar-02.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-03",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-03.tsx",
+          "path": "registry/new-york/blocks/calendar-03.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-04",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-04.tsx",
+          "path": "registry/new-york/blocks/calendar-04.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-05",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-05.tsx",
+          "path": "registry/new-york/blocks/calendar-05.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-06",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-06.tsx",
+          "path": "registry/new-york/blocks/calendar-06.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-07",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-07.tsx",
+          "path": "registry/new-york/blocks/calendar-07.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-08",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-08.tsx",
+          "path": "registry/new-york/blocks/calendar-08.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-09",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-09.tsx",
+          "path": "registry/new-york/blocks/calendar-09.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-10",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-10.tsx",
+          "path": "registry/new-york/blocks/calendar-10.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/card.tsx",
+          "path": "registry/new-york/ui/card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-11",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-11.tsx",
+          "path": "registry/new-york/blocks/calendar-11.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-12",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-select",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-12.tsx",
+          "path": "registry/new-york/blocks/calendar-12.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/card.tsx",
+          "path": "registry/new-york/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/select.tsx",
+          "path": "registry/new-york/ui/select.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-13",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-select",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-13.tsx",
+          "path": "registry/new-york/blocks/calendar-13.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/select.tsx",
+          "path": "registry/new-york/ui/select.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-14",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-14.tsx",
+          "path": "registry/new-york/blocks/calendar-14.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-15",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-15.tsx",
+          "path": "registry/new-york/blocks/calendar-15.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-16",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-16.tsx",
+          "path": "registry/new-york/blocks/calendar-16.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/card.tsx",
+          "path": "registry/new-york/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-17",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-17.tsx",
+          "path": "registry/new-york/blocks/calendar-17.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/card.tsx",
+          "path": "registry/new-york/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-18",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-18.tsx",
+          "path": "registry/new-york/blocks/calendar-18.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-19",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "date-fns",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-19.tsx",
+          "path": "registry/new-york/blocks/calendar-19.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/card.tsx",
+          "path": "registry/new-york/ui/card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-20",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-20.tsx",
+          "path": "registry/new-york/blocks/calendar-20.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/card.tsx",
+          "path": "registry/new-york/ui/card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-21",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-21.tsx",
+          "path": "registry/new-york/blocks/calendar-21.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-22",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-22.tsx",
+          "path": "registry/new-york/blocks/calendar-22.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/popover.tsx",
+          "path": "registry/new-york/ui/popover.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-23",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-23.tsx",
+          "path": "registry/new-york/blocks/calendar-23.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/popover.tsx",
+          "path": "registry/new-york/ui/popover.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-24",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-24.tsx",
+          "path": "registry/new-york/blocks/calendar-24.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/popover.tsx",
+          "path": "registry/new-york/ui/popover.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-25",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-25.tsx",
+          "path": "registry/new-york/blocks/calendar-25.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/popover.tsx",
+          "path": "registry/new-york/ui/popover.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-26",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-26.tsx",
+          "path": "registry/new-york/blocks/calendar-26.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/popover.tsx",
+          "path": "registry/new-york/ui/popover.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-27",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker",
+        "recharts"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-27.tsx",
+          "path": "registry/new-york/blocks/calendar-27.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/card.tsx",
+          "path": "registry/new-york/ui/card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/chart.tsx",
+          "path": "registry/new-york/ui/chart.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/popover.tsx",
+          "path": "registry/new-york/ui/popover.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-28",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-28.tsx",
+          "path": "registry/new-york/blocks/calendar-28.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/popover.tsx",
+          "path": "registry/new-york/ui/popover.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-29",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "chrono-node",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-29.tsx",
+          "path": "registry/new-york/blocks/calendar-29.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/popover.tsx",
+          "path": "registry/new-york/ui/popover.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-30",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "little-date",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-30.tsx",
+          "path": "registry/new-york/blocks/calendar-30.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/popover.tsx",
+          "path": "registry/new-york/ui/popover.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-31",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "little-date",
+        "lucide-react",
+        "react-day-picker"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-31.tsx",
+          "path": "registry/new-york/blocks/calendar-31.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/card.tsx",
+          "path": "registry/new-york/ui/card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-calendar-32",
+      "type": "registry:block",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "lucide-react",
+        "react-day-picker",
+        "vaul"
+      ],
+      "files": [
+        {
+          "type": "registry:block",
+          "target": "blocks/new-york/calendar-32.tsx",
+          "path": "registry/new-york/blocks/calendar-32.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/calendar.tsx",
+          "path": "registry/new-york/ui/calendar.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/drawer.tsx",
+          "path": "registry/new-york/ui/drawer.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
         }
       ]
     },

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "typography-h3",
+  "type": "registry:example",
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "new-york-v4/examples/typography-h3.tsx",
+      "content": "export default function TypographyH3() {\n  return (\n    <h3 className=\"scroll-m-20 text-2xl font-semibold tracking-tight\">\n      The Joke Tax\n    </h3>\n  )\n}\n",
+      "path": "registry/new-york-v4/examples/typography-h3.tsx"
+    }
+  ]
+}

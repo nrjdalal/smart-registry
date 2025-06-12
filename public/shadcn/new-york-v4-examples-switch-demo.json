@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "new-york-v4-examples-switch-demo",
+  "type": "registry:file",
+  "dependencies": [
+    "@radix-ui/react-label",
+    "@radix-ui/react-switch"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "new-york-v4/examples/switch-demo.tsx",
+      "content": "import { Label } from \"@/components/ui/new-york-v4/label\"\nimport { Switch } from \"@/components/ui/new-york-v4/switch\"\n\nexport default function SwitchDemo() {\n  return (\n    <div className=\"flex items-center space-x-2\">\n      <Switch id=\"airplane-mode\" />\n      <Label htmlFor=\"airplane-mode\">Airplane Mode</Label>\n    </div>\n  )\n}\n",
+      "path": "registry/new-york-v4/examples/switch-demo.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/new-york-v4/label.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\nimport * as LabelPrimitive from \"@radix-ui/react-label\"\n\nimport { cn } from \"@/lib/utils\"\n\nfunction Label({\n  className,\n  ...props\n}: React.ComponentProps<typeof LabelPrimitive.Root>) {\n  return (\n    <LabelPrimitive.Root\n      data-slot=\"label\"\n      className={cn(\n        \"flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50\",\n        className\n      )}\n      {...props}\n    />\n  )\n}\n\nexport { Label }\n",
+      "path": "registry/new-york-v4/ui/label.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/new-york-v4/switch.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\nimport * as SwitchPrimitive from \"@radix-ui/react-switch\"\n\nimport { cn } from \"@/lib/utils\"\n\nfunction Switch({\n  className,\n  ...props\n}: React.ComponentProps<typeof SwitchPrimitive.Root>) {\n  return (\n    <SwitchPrimitive.Root\n      data-slot=\"switch\"\n      className={cn(\n        \"peer data-[state=checked]:bg-primary data-[state=unchecked]:bg-input focus-visible:border-ring focus-visible:ring-ring/50 dark:data-[state=unchecked]:bg-input/80 inline-flex h-[1.15rem] w-8 shrink-0 items-center rounded-full border border-transparent shadow-xs transition-all outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50\",\n        className\n      )}\n      {...props}\n    >\n      <SwitchPrimitive.Thumb\n        data-slot=\"switch-thumb\"\n        className={cn(\n          \"bg-background dark:data-[state=unchecked]:bg-foreground dark:data-[state=checked]:bg-primary-foreground pointer-events-none block size-4 rounded-full ring-0 transition-transform data-[state=checked]:translate-x-[calc(100%-2px)] data-[state=unchecked]:translate-x-0\"\n        )}\n      />\n    </SwitchPrimitive.Root>\n  )\n}\n\nexport { Switch }\n",
+      "path": "registry/new-york-v4/ui/switch.tsx"
+    }
+  ]
+}

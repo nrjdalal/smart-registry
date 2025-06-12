@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "badge-demo",
+  "type": "registry:example",
+  "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority",
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "badge"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "new-york-v4/examples/badge-demo.tsx",
+      "content": "import { AlertCircleIcon, BadgeCheckIcon, CheckIcon } from \"lucide-react\"\n\nimport { Badge } from \"@/components/ui/new-york-v4/badge\"\n\nexport default function BadgeDemo() {\n  return (\n    <div className=\"flex flex-col items-center gap-2\">\n      <div className=\"flex w-full flex-wrap gap-2\">\n        <Badge>Badge</Badge>\n        <Badge variant=\"secondary\">Secondary</Badge>\n        <Badge variant=\"destructive\">Destructive</Badge>\n        <Badge variant=\"outline\">Outline</Badge>\n      </div>\n      <div className=\"flex w-full flex-wrap gap-2\">\n        <Badge\n          variant=\"secondary\"\n          className=\"bg-blue-500 text-white dark:bg-blue-600\"\n        >\n          <BadgeCheckIcon />\n          Verified\n        </Badge>\n        <Badge className=\"h-5 min-w-5 rounded-full px-1 font-mono tabular-nums\">\n          8\n        </Badge>\n        <Badge\n          className=\"h-5 min-w-5 rounded-full px-1 font-mono tabular-nums\"\n          variant=\"destructive\"\n        >\n          99\n        </Badge>\n        <Badge\n          className=\"h-5 min-w-5 rounded-full px-1 font-mono tabular-nums\"\n          variant=\"outline\"\n        >\n          20+\n        </Badge>\n      </div>\n    </div>\n  )\n}\n",
+      "path": "registry/new-york-v4/examples/badge-demo.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/new-york-v4/badge.tsx",
+      "content": "import * as React from \"react\"\nimport { Slot } from \"@radix-ui/react-slot\"\nimport { cva, type VariantProps } from \"class-variance-authority\"\n\nimport { cn } from \"@/lib/utils\"\n\nconst badgeVariants = cva(\n  \"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden\",\n  {\n    variants: {\n      variant: {\n        default:\n          \"border-transparent bg-primary text-primary-foreground [a&]:hover:bg-primary/90\",\n        secondary:\n          \"border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90\",\n        destructive:\n          \"border-transparent bg-destructive text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60\",\n        outline:\n          \"text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground\",\n      },\n    },\n    defaultVariants: {\n      variant: \"default\",\n    },\n  }\n)\n\nfunction Badge({\n  className,\n  variant,\n  asChild = false,\n  ...props\n}: React.ComponentProps<\"span\"> &\n  VariantProps<typeof badgeVariants> & { asChild?: boolean }) {\n  const Comp = asChild ? Slot : \"span\"\n\n  return (\n    <Comp\n      data-slot=\"badge\"\n      className={cn(badgeVariants({ variant }), className)}\n      {...props}\n    />\n  )\n}\n\nexport { Badge, badgeVariants }\n",
+      "path": "registry/new-york-v4/ui/badge.tsx"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "textarea-with-text",
+  "type": "registry:example",
+  "dependencies": [
+    "@radix-ui/react-label"
+  ],
+  "registryDependencies": [
+    "label",
+    "textarea"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "new-york-v4/examples/textarea-with-text.tsx",
+      "content": "import { Label } from \"@/components/ui/new-york-v4/label\"\nimport { Textarea } from \"@/components/ui/new-york-v4/textarea\"\n\nexport default function TextareaWithText() {\n  return (\n    <div className=\"grid w-full gap-3\">\n      <Label htmlFor=\"message-2\">Your Message</Label>\n      <Textarea placeholder=\"Type your message here.\" id=\"message-2\" />\n      <p className=\"text-muted-foreground text-sm\">\n        Your message will be copied to the support team.\n      </p>\n    </div>\n  )\n}\n",
+      "path": "registry/new-york-v4/examples/textarea-with-text.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/new-york-v4/label.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\nimport * as LabelPrimitive from \"@radix-ui/react-label\"\n\nimport { cn } from \"@/lib/utils\"\n\nfunction Label({\n  className,\n  ...props\n}: React.ComponentProps<typeof LabelPrimitive.Root>) {\n  return (\n    <LabelPrimitive.Root\n      data-slot=\"label\"\n      className={cn(\n        \"flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50\",\n        className\n      )}\n      {...props}\n    />\n  )\n}\n\nexport { Label }\n",
+      "path": "registry/new-york-v4/ui/label.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/new-york-v4/textarea.tsx",
+      "content": "import * as React from \"react\"\n\nimport { cn } from \"@/lib/utils\"\n\nfunction Textarea({ className, ...props }: React.ComponentProps<\"textarea\">) {\n  return (\n    <textarea\n      data-slot=\"textarea\"\n      className={cn(\n        \"border-input placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 flex field-sizing-content min-h-16 w-full rounded-md border bg-transparent px-3 py-2 text-base shadow-xs transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 md:text-sm\",\n        className\n      )}\n      {...props}\n    />\n  )\n}\n\nexport { Textarea }\n",
+      "path": "registry/new-york-v4/ui/textarea.tsx"
+    }
+  ]
+}

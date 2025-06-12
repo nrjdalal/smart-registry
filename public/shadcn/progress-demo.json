@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "progress-demo",
+  "type": "registry:example",
+  "dependencies": [
+    "@radix-ui/react-progress"
+  ],
+  "registryDependencies": [
+    "progress"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "new-york-v4/examples/progress-demo.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\n\nimport { Progress } from \"@/components/ui/new-york-v4/progress\"\n\nexport default function ProgressDemo() {\n  const [progress, setProgress] = React.useState(13)\n\n  React.useEffect(() => {\n    const timer = setTimeout(() => setProgress(66), 500)\n    return () => clearTimeout(timer)\n  }, [])\n\n  return <Progress value={progress} className=\"w-[60%]\" />\n}\n",
+      "path": "registry/new-york-v4/examples/progress-demo.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/new-york-v4/progress.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\nimport * as ProgressPrimitive from \"@radix-ui/react-progress\"\n\nimport { cn } from \"@/lib/utils\"\n\nfunction Progress({\n  className,\n  value,\n  ...props\n}: React.ComponentProps<typeof ProgressPrimitive.Root>) {\n  return (\n    <ProgressPrimitive.Root\n      data-slot=\"progress\"\n      className={cn(\n        \"bg-primary/20 relative h-2 w-full overflow-hidden rounded-full\",\n        className\n      )}\n      {...props}\n    >\n      <ProgressPrimitive.Indicator\n        data-slot=\"progress-indicator\"\n        className=\"bg-primary h-full w-full flex-1 transition-all\"\n        style={{ transform: `translateX(-${100 - (value || 0)}%)` }}\n      />\n    </ProgressPrimitive.Root>\n  )\n}\n\nexport { Progress }\n",
+      "path": "registry/new-york-v4/ui/progress.tsx"
+    }
+  ]
+}

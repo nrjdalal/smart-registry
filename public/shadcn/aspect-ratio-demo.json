@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "aspect-ratio-demo",
+  "type": "registry:example",
+  "dependencies": [
+    "@radix-ui/react-aspect-ratio",
+    "next"
+  ],
+  "registryDependencies": [
+    "aspect-ratio"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "new-york-v4/examples/aspect-ratio-demo.tsx",
+      "content": "import Image from \"next/image\"\n\nimport { AspectRatio } from \"@/components/ui/new-york-v4/aspect-ratio\"\n\nexport default function AspectRatioDemo() {\n  return (\n    <AspectRatio ratio={16 / 9} className=\"bg-muted rounded-lg\">\n      <Image\n        src=\"https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=800&dpr=2&q=80\"\n        alt=\"Photo by Drew Beamer\"\n        fill\n        className=\"h-full w-full rounded-lg object-cover dark:brightness-[0.2] dark:grayscale\"\n      />\n    </AspectRatio>\n  )\n}\n",
+      "path": "registry/new-york-v4/examples/aspect-ratio-demo.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/new-york-v4/aspect-ratio.tsx",
+      "content": "\"use client\"\n\nimport * as AspectRatioPrimitive from \"@radix-ui/react-aspect-ratio\"\n\nfunction AspectRatio({\n  ...props\n}: React.ComponentProps<typeof AspectRatioPrimitive.Root>) {\n  return <AspectRatioPrimitive.Root data-slot=\"aspect-ratio\" {...props} />\n}\n\nexport { AspectRatio }\n",
+      "path": "registry/new-york-v4/ui/aspect-ratio.tsx"
+    }
+  ]
+}

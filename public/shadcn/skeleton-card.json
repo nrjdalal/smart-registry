@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "skeleton-card",
+  "type": "registry:example",
+  "registryDependencies": [
+    "skeleton"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "new-york-v4/examples/skeleton-card.tsx",
+      "content": "import { Skeleton } from \"@/components/ui/new-york-v4/skeleton\"\n\nexport default function SkeletonCard() {\n  return (\n    <div className=\"flex flex-col space-y-3\">\n      <Skeleton className=\"h-[125px] w-[250px] rounded-xl\" />\n      <div className=\"space-y-2\">\n        <Skeleton className=\"h-4 w-[250px]\" />\n        <Skeleton className=\"h-4 w-[200px]\" />\n      </div>\n    </div>\n  )\n}\n",
+      "path": "registry/new-york-v4/examples/skeleton-card.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/new-york-v4/skeleton.tsx",
+      "content": "import { cn } from \"@/lib/utils\"\n\nfunction Skeleton({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"skeleton\"\n      className={cn(\"bg-accent animate-pulse rounded-md\", className)}\n      {...props}\n    />\n  )\n}\n\nexport { Skeleton }\n",
+      "path": "registry/new-york-v4/ui/skeleton.tsx"
+    }
+  ]
+}
