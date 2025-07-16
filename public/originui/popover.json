@@ -3,7 +3,6 @@
   "name": "popover",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-popover",
     "radix-ui"
   ],
   "files": [

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "sliced-text",
+  "type": "registry:component",
+  "dependencies": [
+    "motion"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/kokonutui/sliced-text.tsx",
+      "content": "\"use client\";\n\n/**\n * @author: @dorian_baffier\n * @description: Sliced Text\n * @version: 1.0.0\n * @date: 2025-06-26\n * @license: MIT\n * @website: https://kokonutui.com\n * @github: https://github.com/kokonut-labs/kokonutui\n */\n\nimport { cn } from \"@/lib/utils\";\nimport { motion } from \"motion/react\";\n\ninterface SlicedTextProps {\n    text: string;\n    className?: string;\n    containerClassName?: string;\n    splitSpacing?: number;\n}\n\nconst SlicedText: React.FC<SlicedTextProps> = ({\n    text = \"Sliced Text\",\n    className = \"\",\n    containerClassName = \"\",\n    splitSpacing = 2,\n}) => {\n    return (\n        <motion.div\n            className={cn(\n                \"w-full text-center relative inline-block\",\n                containerClassName\n            )}\n            whileHover=\"hover\"\n            initial=\"default\"\n        >\n            <motion.div\n                className={cn(\"absolute w-full text-4xl -ml-0.5\", className)}\n                variants={{\n                    default: {\n                        clipPath: \"inset(0 0 50% 0)\",\n                        y: -splitSpacing / 2,\n                        opacity: 1,\n                    },\n                    hover: {\n                        clipPath: \"inset(0 0 0 0)\",\n                        y: 0,\n                        opacity: 0,\n                    },\n                }}\n                transition={{ duration: 0.1 }}\n            >\n                {text}\n            </motion.div>\n            <motion.div\n                className={cn(\"absolute w-full text-4xl\", className)}\n                variants={{\n                    default: {\n                        clipPath: \"inset(50% 0 0 0)\",\n                        y: splitSpacing / 2,\n                        opacity: 1,\n                    },\n                    hover: {\n                        clipPath: \"inset(0 0 0 0)\",\n                        y: 0,\n                        opacity: 1,\n                    },\n                }}\n                transition={{ duration: 0.1 }}\n            >\n                {text}\n            </motion.div>\n\n            <div className={cn(\"invisible text-4xl\", className)}>{text}</div>\n        </motion.div>\n    );\n};\n\nexport default SlicedText;\n",
+      "path": "components/kokonutui/sliced-text.tsx"
+    }
+  ]
+}

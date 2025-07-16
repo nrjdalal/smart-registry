@@ -5133,7 +5133,7 @@
       "type": "registry:ui",
       "dependencies": [
         "lucide-react",
-        "recharts"
+        "recharts@2.15.4"
       ],
       "registryDependencies": [
         "card"

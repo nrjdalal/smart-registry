@@ -3,7 +3,6 @@
   "name": "dropdown-menu",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-dropdown-menu",
     "lucide-react",
     "radix-ui"
   ],

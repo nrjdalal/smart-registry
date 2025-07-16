@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "icons-gemini",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/icons/gemini.tsx",
+      "content": "const Gemini = (props: React.SVGProps<SVGSVGElement>) => (\n    <svg\n        height=\"1em\"\n        style={{\n            flex: \"none\",\n            lineHeight: 1,\n        }}\n        viewBox=\"0 0 24 24\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n        width=\"1em\"\n        {...props}\n    >\n        <title>{\"Gemini\"}</title>\n        <defs>\n            <linearGradient\n                id=\"lobe-icons-gemini-fill\"\n                x1=\"0%\"\n                x2=\"68.73%\"\n                y1=\"100%\"\n                y2=\"30.395%\"\n            >\n                <stop offset=\"0%\" stopColor=\"#1C7DFF\" />\n                <stop offset=\"52.021%\" stopColor=\"#1C69FF\" />\n                <stop offset=\"100%\" stopColor=\"#F0DCD6\" />\n            </linearGradient>\n        </defs>\n        <path\n            d=\"M12 24A14.304 14.304 0 000 12 14.304 14.304 0 0012 0a14.305 14.305 0 0012 12 14.305 14.305 0 00-12 12\"\n            fill=\"url(#lobe-icons-gemini-fill)\"\n            fillRule=\"nonzero\"\n        />\n    </svg>\n);\nexport default Gemini;\n",
+      "path": "components/icons/gemini.tsx"
+    }
+  ]
+}

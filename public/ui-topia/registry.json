@@ -4,6 +4,20 @@
   "homepage": "https://uitopia.vercel.app",
   "items": [
     {
+      "name": "avatar",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-avatar"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "registry/ui/avatar.tsx"
+        }
+      ]
+    },
+    {
       "name": "button",
       "type": "registry:ui",
       "dependencies": [
@@ -287,6 +301,7 @@
       "name": "ui",
       "type": "registry:ui",
       "dependencies": [
+        "@radix-ui/react-avatar",
         "@radix-ui/react-checkbox",
         "@radix-ui/react-dialog",
         "@radix-ui/react-label",
@@ -303,6 +318,11 @@
           "type": "registry:hook",
           "target": "hooks/use-mobile.ts",
           "path": "registry/hooks/use-mobile.ts"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx",
+          "path": "registry/ui/avatar.tsx"
         },
         {
           "type": "registry:ui",
@@ -585,6 +605,98 @@
       ]
     },
     {
+      "name": "cd-demo",
+      "type": "registry:component",
+      "title": "Disc",
+      "description": "CD demo component.",
+      "dependencies": [
+        "@number-flow/react",
+        "motion",
+        "next"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/cd-demo.tsx",
+          "path": "registry/components/cd-demo.tsx"
+        }
+      ]
+    },
+    {
+      "name": "clip-path-demo",
+      "type": "registry:component",
+      "title": "Clip Path",
+      "description": "Clip path component.",
+      "dependencies": [
+        "motion"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/clip-path-demo.tsx",
+          "path": "registry/components/clip-path-demo.tsx"
+        }
+      ]
+    },
+    {
+      "name": "css-box",
+      "type": "registry:component",
+      "dependencies": [
+        "motion"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/css-box.tsx",
+          "path": "registry/components/css-box.tsx"
+        }
+      ]
+    },
+    {
+      "name": "css-box-demo",
+      "type": "registry:component",
+      "title": "CSS Box",
+      "description": "CSS box component.",
+      "dependencies": [
+        "motion"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/css-box-demo.tsx",
+          "path": "registry/components/css-box-demo.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/css-box.tsx",
+          "path": "registry/components/css-box.tsx"
+        }
+      ],
+      "categories": [
+        "motion",
+        "react",
+        "tailwindcss"
+      ]
+    },
+    {
+      "name": "expandable-tabs-demo",
+      "type": "registry:component",
+      "title": "Expandable Tabs",
+      "description": "Expandable tabs component.",
+      "dependencies": [
+        "lucide-react",
+        "motion",
+        "usehooks-ts"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/expandable-tabs-demo.tsx",
+          "path": "registry/components/expandable-tabs-demo.tsx"
+        }
+      ]
+    },
+    {
       "name": "family-wallets-demo",
       "type": "registry:component",
       "title": "Family Wallets",
@@ -626,6 +738,23 @@
           "type": "registry:component",
           "target": "components/icons.tsx",
           "path": "registry/components/icons.tsx"
+        }
+      ]
+    },
+    {
+      "name": "inline-dropdown-demo",
+      "type": "registry:component",
+      "title": "Inline Dropdown",
+      "description": "Inline dropdown component.",
+      "dependencies": [
+        "motion",
+        "react-icons"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/inline-dropdown-demo.tsx",
+          "path": "registry/components/inline-dropdown-demo.tsx"
         }
       ]
     },
@@ -867,6 +996,23 @@
         "motion",
         "react",
         "tailwindcss"
+      ]
+    },
+    {
+      "name": "transaction-btn-demo",
+      "type": "registry:component",
+      "title": "Transaction",
+      "description": "Transaction button component.",
+      "dependencies": [
+        "motion",
+        "usehooks-ts"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/transaction-btn-demo.tsx",
+          "path": "registry/components/transaction-btn-demo.tsx"
+        }
       ]
     },
     {

@@ -3,7 +3,6 @@
   "name": "select",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-select",
     "lucide-react",
     "radix-ui"
   ],

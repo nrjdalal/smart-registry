@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "swoosh-text",
+  "type": "registry:component",
+  "dependencies": [
+    "motion"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/kokonutui/swoosh-text.tsx",
+      "content": "\"use client\";\n\n/**\n * @author: @dorian_baffier\n * @description: Swoosh Text\n * @version: 1.0.0\n * @date: 2025-06-26\n * @license: MIT\n * @website: https://kokonutui.com\n * @github: https://github.com/kokonut-labs/kokonutui\n */\n\nimport { cn } from \"@/lib/utils\";\nimport { motion } from \"motion/react\";\n\ninterface SwooshTextProps {\n    text?: string;\n    className?: string;\n    shadowColors?: {\n        first?: string;\n        second?: string;\n        third?: string;\n        fourth?: string;\n        glow?: string;\n    };\n}\n\nexport default function SwooshText({\n    text = \"Hover Me\",\n    className = \"\",\n    shadowColors = {\n        first: \"#07bccc\",\n        second: \"#e601c0\",\n        third: \"#e9019a\",\n        fourth: \"#f40468\",\n        glow: \"#f40468\",\n    },\n}: SwooshTextProps) {\n    const textShadowStyle = {\n        textShadow: `10px 10px 0px ${shadowColors.first}, \n                     15px 15px 0px ${shadowColors.second}, \n                     20px 20px 0px ${shadowColors.third}, \n                     25px 25px 0px ${shadowColors.fourth}, \n                     45px 45px 10px ${shadowColors.glow}`,\n    };\n\n    const noShadowStyle = {\n        textShadow: \"none\",\n    };\n\n    return (\n        <div className=\"w-full text-center\">\n            <motion.div\n                className={cn(\n                    \"w-full text-center cursor-pointer text-3xl font-bold\",\n                    \"transition-all duration-200 ease-in-out tracking-widest\",\n                    \"text-black dark:text-white italic\",\n                    \"stroke-[#d6f4f4]\",\n                    className\n                )}\n                style={textShadowStyle}\n                whileHover={noShadowStyle}\n            >\n                {text}\n            </motion.div>\n        </div>\n    );\n}\n",
+      "path": "components/kokonutui/swoosh-text.tsx"
+    }
+  ]
+}

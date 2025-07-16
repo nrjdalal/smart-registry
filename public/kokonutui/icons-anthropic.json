@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "icons-anthropic",
+  "type": "registry:component",
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/icons/anthropic.tsx",
+      "content": "const Anthropic = (props: React.SVGProps<SVGSVGElement>) => (\n    <svg\n        fill=\"#000\"\n        fillRule=\"evenodd\"\n        style={{\n            flex: \"none\",\n            lineHeight: 1,\n        }}\n        viewBox=\"0 0 24 24\"\n        width=\"1em\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n        height=\"1em\"\n        {...props}\n    >\n        <title>{\"Anthropic\"}</title>\n        <path d=\"M13.827 3.52h3.603L24 20h-3.603l-6.57-16.48zm-7.258 0h3.767L16.906 20h-3.674l-1.343-3.461H5.017l-1.344 3.46H0L6.57 3.522zm4.132 9.959L8.453 7.687 6.205 13.48H10.7z\" />\n    </svg>\n);\nexport default Anthropic;\n",
+      "path": "components/icons/anthropic.tsx"
+    }
+  ]
+}

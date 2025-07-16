@@ -3,7 +3,6 @@
   "name": "dialog",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-dialog",
     "lucide-react",
     "radix-ui"
   ],

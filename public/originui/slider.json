@@ -3,7 +3,6 @@
   "name": "slider",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-slider",
     "radix-ui"
   ],
   "registryDependencies": [

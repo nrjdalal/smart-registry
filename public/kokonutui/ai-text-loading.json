@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ai-text-loading",
+  "type": "registry:component",
+  "dependencies": [
+    "motion"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "target": "components/kokonutui/ai-text-loading.tsx",
+      "content": "\"use client\";\n\n/**\n * @author: @kokonutui\n * @description: AI Text Loading\n * @version: 1.0.0\n * @date: 2025-06-26\n * @license: MIT\n * @website: https://kokonutui.com\n * @github: https://github.com/kokonut-labs/kokonutui\n */\n\nimport { cn } from \"@/lib/utils\";\nimport { motion, AnimatePresence } from \"motion/react\";\nimport { useEffect, useState } from \"react\";\n\ninterface AITextLoadingProps {\n    texts?: string[];\n    className?: string;\n    interval?: number;\n}\n\nexport default function AITextLoading({\n    texts = [\n        \"Thinking...\",\n        \"Processing...\",\n        \"Analyzing...\",\n        \"Computing...\",\n        \"Almost...\",\n    ],\n    className,\n    interval = 1500,\n}: AITextLoadingProps) {\n    const [currentTextIndex, setCurrentTextIndex] = useState(0);\n\n    useEffect(() => {\n        const timer = setInterval(() => {\n            setCurrentTextIndex((prevIndex) => (prevIndex + 1) % texts.length);\n        }, interval);\n\n        return () => clearInterval(timer);\n    }, [interval, texts.length]);\n\n    return (\n        <div className=\"flex items-center justify-center p-8\">\n            <motion.div\n                className=\"relative px-4 py-2 w-full\"\n                initial={{ opacity: 0 }}\n                animate={{ opacity: 1 }}\n                transition={{ duration: 0.4 }}\n            >\n                <AnimatePresence mode=\"wait\">\n                    <motion.div\n                        key={currentTextIndex}\n                        initial={{ opacity: 0, y: 20 }}\n                        animate={{\n                            opacity: 1,\n                            y: 0,\n                            backgroundPosition: [\"200% center\", \"-200% center\"],\n                        }}\n                        exit={{ opacity: 0, y: -20 }}\n                        transition={{\n                            opacity: { duration: 0.3 },\n                            y: { duration: 0.3 },\n                            backgroundPosition: {\n                                duration: 2.5,\n                                ease: \"linear\",\n                                repeat: Infinity,\n                            },\n                        }}\n                        className={cn(\n                            \"flex justify-center text-3xl font-bold bg-gradient-to-r from-neutral-950 via-neutral-400 to-neutral-950 dark:from-white dark:via-neutral-600 dark:to-white bg-[length:200%_100%] bg-clip-text text-transparent whitespace-nowrap min-w-max\",\n                            className\n                        )}\n                    >\n                        {texts[currentTextIndex]}\n                    </motion.div>\n                </AnimatePresence>\n            </motion.div>\n        </div>\n    );\n}\n",
+      "path": "components/kokonutui/ai-text-loading.tsx"
+    }
+  ]
+}
