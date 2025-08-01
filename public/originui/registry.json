@@ -23017,6 +23017,117 @@
       }
     },
     {
+      "name": "comp-597",
+      "type": "registry:component",
+      "dependencies": [
+        "@headless-tree/core",
+        "@headless-tree/react",
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/checkbox.json",
+        "https://originui.com/r/tree.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-597.tsx",
+          "path": "registry/default/components/comp-597.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
+          "path": "registry/default/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tree.tsx",
+          "path": "registry/default/ui/tree.tsx"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "tree",
+          "checkbox"
+        ]
+      }
+    },
+    {
+      "name": "comp-598",
+      "type": "registry:component",
+      "dependencies": [
+        "@headless-tree/core",
+        "@headless-tree/react",
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/checkbox.json",
+        "https://originui.com/r/tree.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-598.tsx",
+          "path": "registry/default/components/comp-598.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
+          "path": "registry/default/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tree.tsx",
+          "path": "registry/default/ui/tree.tsx"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "tree",
+          "checkbox"
+        ]
+      }
+    },
+    {
+      "name": "comp-599",
+      "type": "registry:component",
+      "dependencies": [
+        "@headless-tree/core",
+        "@headless-tree/react",
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "https://originui.com/r/checkbox.json",
+        "https://originui.com/r/tree.json"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/comp-599.tsx",
+          "path": "registry/default/components/comp-599.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/checkbox.tsx",
+          "path": "registry/default/ui/checkbox.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/tree.tsx",
+          "path": "registry/default/ui/tree.tsx"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "tree",
+          "checkbox"
+        ]
+      }
+    },
+    {
       "name": "event-calendar",
       "type": "registry:component",
       "files": [
