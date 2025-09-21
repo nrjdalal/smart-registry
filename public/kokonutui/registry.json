@@ -1,7 +1,6 @@
 {
-  "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "nrjdalal",
-  "homepage": "https://nrjdalal.com",
+  "name": "kokonut-ui",
+  "homepage": "https://kokonutui.com",
   "items": [
     {
       "name": "style",
@@ -2070,75 +2069,6 @@
       ]
     },
     {
-      "name": "nav",
-      "type": "registry:component",
-      "dependencies": [
-        "lucide-react",
-        "next"
-      ],
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/nav/index.tsx",
-          "path": "components/nav/index.tsx"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/nav/desktop-nav.tsx",
-          "path": "components/nav/desktop-nav.tsx"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/nav/mobile-nav.tsx",
-          "path": "components/nav/mobile-nav.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "config/navigation.ts",
-          "path": "config/navigation.ts"
-        }
-      ]
-    },
-    {
-      "name": "nav-desktop-nav",
-      "type": "registry:component",
-      "dependencies": [
-        "next"
-      ],
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/nav/desktop-nav.tsx",
-          "path": "components/nav/desktop-nav.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "config/navigation.ts",
-          "path": "config/navigation.ts"
-        }
-      ]
-    },
-    {
-      "name": "nav-mobile-nav",
-      "type": "registry:component",
-      "dependencies": [
-        "lucide-react",
-        "next"
-      ],
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/nav/mobile-nav.tsx",
-          "path": "components/nav/mobile-nav.tsx"
-        },
-        {
-          "type": "registry:file",
-          "target": "config/navigation.ts",
-          "path": "config/navigation.ts"
-        }
-      ]
-    },
-    {
       "name": "open-in-v0-button",
       "type": "registry:component",
       "dependencies": [
@@ -2177,6 +2107,32 @@
           "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "components/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "profile-dropdown",
+      "type": "registry:component",
+      "dependencies": [
+        "@radix-ui/react-dropdown-menu",
+        "lucide-react",
+        "next"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/profile-dropdown.tsx",
+          "path": "components/kokonutui/profile-dropdown.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/gemini.tsx",
+          "path": "components/icons/gemini.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/dropdown-menu.tsx",
+          "path": "components/ui/dropdown-menu.tsx"
         }
       ]
     },

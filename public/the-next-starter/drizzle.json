@@ -19,7 +19,7 @@
     {
       "type": "registry:file",
       "target": "db/index.ts",
-      "content": "import { drizzle, type PostgresJsDatabase } from \"drizzle-orm/postgres-js\"\nimport postgres from \"postgres\"\n\ndeclare global {\n  // eslint-disable-next-line\n  var db: PostgresJsDatabase\n}\n\nlet db: PostgresJsDatabase\n\nif (process.env.NODE_ENV === \"production\") {\n  db = drizzle({\n    client: postgres(process.env.POSTGRES_URL!, {\n      connect_timeout: 10000,\n      idle_timeout: 30000,\n      ssl: {\n        rejectUnauthorized: true,\n      },\n    }),\n  })\n} else {\n  if (!global.db) {\n    global.db = drizzle({\n      client: postgres(process.env.POSTGRES_URL!, {\n        connect_timeout: 10000,\n        idle_timeout: 30000,\n      }),\n    })\n  }\n  db = global.db\n}\n\nexport { db }\n",
+      "content": "import { drizzle, type PostgresJsDatabase } from \"drizzle-orm/postgres-js\"\nimport postgres from \"postgres\"\n\ndeclare global {\n  var db: PostgresJsDatabase\n}\n\nlet db: PostgresJsDatabase\n\nif (process.env.NODE_ENV === \"production\") {\n  db = drizzle({\n    client: postgres(process.env.POSTGRES_URL!, {\n      connect_timeout: 10000,\n      idle_timeout: 30000,\n      ssl: {\n        rejectUnauthorized: true,\n      },\n    }),\n  })\n} else {\n  if (!global.db) {\n    global.db = drizzle({\n      client: postgres(process.env.POSTGRES_URL!, {\n        connect_timeout: 10000,\n        idle_timeout: 30000,\n      }),\n    })\n  }\n  db = global.db\n}\n\nexport { db }\n",
       "path": "src/db/index.ts"
     }
   ]
