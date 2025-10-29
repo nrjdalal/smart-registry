@@ -126,6 +126,27 @@
       ]
     },
     {
+      "name": "button-group",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button-group.tsx",
+          "path": "registry/default/ui/button-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/default/ui/separator.tsx"
+        }
+      ]
+    },
+    {
       "name": "calendar",
       "type": "registry:ui",
       "dependencies": [
@@ -304,6 +325,46 @@
       ]
     },
     {
+      "name": "empty",
+      "type": "registry:ui",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/empty.tsx",
+          "path": "registry/default/ui/empty.tsx"
+        }
+      ]
+    },
+    {
+      "name": "field",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-separator",
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/field.tsx",
+          "path": "registry/default/ui/field.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "registry/default/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/default/ui/separator.tsx"
+        }
+      ]
+    },
+    {
       "name": "form",
       "type": "registry:ui",
       "dependencies": [
@@ -351,6 +412,36 @@
       ]
     },
     {
+      "name": "input-group",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input-group.tsx",
+          "path": "registry/default/ui/input-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "registry/default/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/textarea.tsx",
+          "path": "registry/default/ui/textarea.tsx"
+        }
+      ]
+    },
+    {
       "name": "input-otp",
       "type": "registry:ui",
       "dependencies": [
@@ -362,6 +453,38 @@
           "type": "registry:ui",
           "target": "components/ui/input-otp.tsx",
           "path": "registry/default/ui/input-otp.tsx"
+        }
+      ]
+    },
+    {
+      "name": "item",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/item.tsx",
+          "path": "registry/default/ui/item.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "registry/default/ui/separator.tsx"
+        }
+      ]
+    },
+    {
+      "name": "kbd",
+      "type": "registry:ui",
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/kbd.tsx",
+          "path": "registry/default/ui/kbd.tsx"
         }
       ]
     },
@@ -530,6 +653,27 @@
           "type": "registry:ui",
           "target": "components/ui/new-york/button.tsx",
           "path": "registry/new-york/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-button-group",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button-group.tsx",
+          "path": "registry/new-york/ui/button-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/separator.tsx",
+          "path": "registry/new-york/ui/separator.tsx"
         }
       ]
     },
@@ -712,6 +856,46 @@
       ]
     },
     {
+      "name": "new-york-empty",
+      "type": "registry:ui",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/empty.tsx",
+          "path": "registry/new-york/ui/empty.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-field",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-label",
+        "@radix-ui/react-separator",
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/field.tsx",
+          "path": "registry/new-york/ui/field.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/label.tsx",
+          "path": "registry/new-york/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/separator.tsx",
+          "path": "registry/new-york/ui/separator.tsx"
+        }
+      ]
+    },
+    {
       "name": "new-york-form",
       "type": "registry:ui",
       "dependencies": [
@@ -759,6 +943,36 @@
       ]
     },
     {
+      "name": "new-york-input-group",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input-group.tsx",
+          "path": "registry/new-york/ui/input-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/button.tsx",
+          "path": "registry/new-york/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/input.tsx",
+          "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/textarea.tsx",
+          "path": "registry/new-york/ui/textarea.tsx"
+        }
+      ]
+    },
+    {
       "name": "new-york-input-otp",
       "type": "registry:ui",
       "dependencies": [
@@ -770,6 +984,38 @@
           "type": "registry:ui",
           "target": "components/ui/new-york/input-otp.tsx",
           "path": "registry/new-york/ui/input-otp.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-item",
+      "type": "registry:ui",
+      "dependencies": [
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slot",
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/item.tsx",
+          "path": "registry/new-york/ui/item.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/separator.tsx",
+          "path": "registry/new-york/ui/separator.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-kbd",
+      "type": "registry:ui",
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/kbd.tsx",
+          "path": "registry/new-york/ui/kbd.tsx"
         }
       ]
     },
@@ -1053,6 +1299,20 @@
           "type": "registry:ui",
           "target": "components/ui/new-york/sonner.tsx",
           "path": "registry/new-york/ui/sonner.tsx"
+        }
+      ]
+    },
+    {
+      "name": "new-york-spinner",
+      "type": "registry:ui",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/spinner.tsx",
+          "path": "registry/new-york/ui/spinner.tsx"
         }
       ]
     },
@@ -1419,6 +1679,7 @@
       "name": "sonner",
       "type": "registry:ui",
       "dependencies": [
+        "lucide-react",
         "next-themes",
         "sonner"
       ],
@@ -1427,6 +1688,20 @@
           "type": "registry:ui",
           "target": "components/ui/sonner.tsx",
           "path": "registry/default/ui/sonner.tsx"
+        }
+      ]
+    },
+    {
+      "name": "spinner",
+      "type": "registry:ui",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/spinner.tsx",
+          "path": "registry/default/ui/spinner.tsx"
         }
       ]
     },
@@ -1679,6 +1954,11 @@
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button-group.tsx",
+          "path": "registry/default/ui/button-group.tsx"
+        },
+        {
+          "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "registry/default/ui/button.tsx"
         },
@@ -1739,6 +2019,16 @@
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/empty.tsx",
+          "path": "registry/default/ui/empty.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/field.tsx",
+          "path": "registry/default/ui/field.tsx"
+        },
+        {
+          "type": "registry:ui",
           "target": "components/ui/form.tsx",
           "path": "registry/default/ui/form.tsx"
         },
@@ -1749,6 +2039,11 @@
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input-group.tsx",
+          "path": "registry/default/ui/input-group.tsx"
+        },
+        {
+          "type": "registry:ui",
           "target": "components/ui/input-otp.tsx",
           "path": "registry/default/ui/input-otp.tsx"
         },
@@ -1756,6 +2051,16 @@
           "type": "registry:ui",
           "target": "components/ui/input.tsx",
           "path": "registry/default/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/item.tsx",
+          "path": "registry/default/ui/item.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/kbd.tsx",
+          "path": "registry/default/ui/kbd.tsx"
         },
         {
           "type": "registry:ui",
@@ -1839,6 +2144,11 @@
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/spinner.tsx",
+          "path": "registry/default/ui/spinner.tsx"
+        },
+        {
+          "type": "registry:ui",
           "target": "components/ui/switch.tsx",
           "path": "registry/default/ui/switch.tsx"
         },
@@ -1919,6 +2229,11 @@
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/new-york/button-group.tsx",
+          "path": "registry/new-york/ui/button-group.tsx"
+        },
+        {
+          "type": "registry:ui",
           "target": "components/ui/new-york/button.tsx",
           "path": "registry/new-york/ui/button.tsx"
         },
@@ -1979,6 +2294,16 @@
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/new-york/empty.tsx",
+          "path": "registry/new-york/ui/empty.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/field.tsx",
+          "path": "registry/new-york/ui/field.tsx"
+        },
+        {
+          "type": "registry:ui",
           "target": "components/ui/new-york/form.tsx",
           "path": "registry/new-york/ui/form.tsx"
         },
@@ -1989,6 +2314,11 @@
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/new-york/input-group.tsx",
+          "path": "registry/new-york/ui/input-group.tsx"
+        },
+        {
+          "type": "registry:ui",
           "target": "components/ui/new-york/input-otp.tsx",
           "path": "registry/new-york/ui/input-otp.tsx"
         },
@@ -1996,6 +2326,16 @@
           "type": "registry:ui",
           "target": "components/ui/new-york/input.tsx",
           "path": "registry/new-york/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/item.tsx",
+          "path": "registry/new-york/ui/item.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/kbd.tsx",
+          "path": "registry/new-york/ui/kbd.tsx"
         },
         {
           "type": "registry:ui",
@@ -2076,6 +2416,11 @@
           "type": "registry:ui",
           "target": "components/ui/new-york/sonner.tsx",
           "path": "registry/new-york/ui/sonner.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/new-york/spinner.tsx",
+          "path": "registry/new-york/ui/spinner.tsx"
         },
         {
           "type": "registry:ui",

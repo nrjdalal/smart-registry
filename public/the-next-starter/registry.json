@@ -198,6 +198,26 @@
       ]
     },
     {
+      "name": "button-group",
+      "type": "registry:ui",
+      "dependencies": [
+        "class-variance-authority",
+        "radix-ui"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button-group.tsx",
+          "path": "src/components/ui/button-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "src/components/ui/separator.tsx"
+        }
+      ]
+    },
+    {
       "name": "calendar",
       "type": "registry:ui",
       "dependencies": [
@@ -376,6 +396,45 @@
       ]
     },
     {
+      "name": "empty",
+      "type": "registry:ui",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/empty.tsx",
+          "path": "src/components/ui/empty.tsx"
+        }
+      ]
+    },
+    {
+      "name": "field",
+      "type": "registry:ui",
+      "dependencies": [
+        "class-variance-authority",
+        "radix-ui"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/field.tsx",
+          "path": "src/components/ui/field.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx",
+          "path": "src/components/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "src/components/ui/separator.tsx"
+        }
+      ]
+    },
+    {
       "name": "form",
       "type": "registry:ui",
       "dependencies": [
@@ -421,6 +480,36 @@
       ]
     },
     {
+      "name": "input-group",
+      "type": "registry:ui",
+      "dependencies": [
+        "class-variance-authority",
+        "radix-ui"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input-group.tsx",
+          "path": "src/components/ui/input-group.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "src/components/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx",
+          "path": "src/components/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/textarea.tsx",
+          "path": "src/components/ui/textarea.tsx"
+        }
+      ]
+    },
+    {
       "name": "input-otp",
       "type": "registry:ui",
       "dependencies": [
@@ -432,6 +521,37 @@
           "type": "registry:ui",
           "target": "components/ui/input-otp.tsx",
           "path": "src/components/ui/input-otp.tsx"
+        }
+      ]
+    },
+    {
+      "name": "item",
+      "type": "registry:ui",
+      "dependencies": [
+        "class-variance-authority",
+        "radix-ui"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/item.tsx",
+          "path": "src/components/ui/item.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "src/components/ui/separator.tsx"
+        }
+      ]
+    },
+    {
+      "name": "kbd",
+      "type": "registry:ui",
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/kbd.tsx",
+          "path": "src/components/ui/kbd.tsx"
         }
       ]
     },
@@ -697,6 +817,7 @@
       "name": "sonner",
       "type": "registry:ui",
       "dependencies": [
+        "lucide-react",
         "next-themes",
         "sonner"
       ],
@@ -705,6 +826,20 @@
           "type": "registry:ui",
           "target": "components/ui/sonner.tsx",
           "path": "src/components/ui/sonner.tsx"
+        }
+      ]
+    },
+    {
+      "name": "spinner",
+      "type": "registry:ui",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "type": "registry:ui",
+          "target": "components/ui/spinner.tsx",
+          "path": "src/components/ui/spinner.tsx"
         }
       ]
     },
@@ -868,6 +1003,11 @@
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/button-group.tsx",
+          "path": "src/components/ui/button-group.tsx"
+        },
+        {
+          "type": "registry:ui",
           "target": "components/ui/button.tsx",
           "path": "src/components/ui/button.tsx"
         },
@@ -928,6 +1068,16 @@
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/empty.tsx",
+          "path": "src/components/ui/empty.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/field.tsx",
+          "path": "src/components/ui/field.tsx"
+        },
+        {
+          "type": "registry:ui",
           "target": "components/ui/form.tsx",
           "path": "src/components/ui/form.tsx"
         },
@@ -938,6 +1088,11 @@
         },
         {
           "type": "registry:ui",
+          "target": "components/ui/input-group.tsx",
+          "path": "src/components/ui/input-group.tsx"
+        },
+        {
+          "type": "registry:ui",
           "target": "components/ui/input-otp.tsx",
           "path": "src/components/ui/input-otp.tsx"
         },
@@ -945,6 +1100,16 @@
           "type": "registry:ui",
           "target": "components/ui/input.tsx",
           "path": "src/components/ui/input.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/item.tsx",
+          "path": "src/components/ui/item.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/kbd.tsx",
+          "path": "src/components/ui/kbd.tsx"
         },
         {
           "type": "registry:ui",
@@ -1025,6 +1190,11 @@
           "type": "registry:ui",
           "target": "components/ui/sonner.tsx",
           "path": "src/components/ui/sonner.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/spinner.tsx",
+          "path": "src/components/ui/spinner.tsx"
         },
         {
           "type": "registry:ui",
@@ -1134,8 +1304,8 @@
       "name": "better-auth",
       "type": "registry:file",
       "dependencies": [
-        "@hookform/resolvers",
         "@remixicon/react",
+        "@tanstack/react-form",
         "better-auth",
         "class-variance-authority",
         "drizzle-orm",
@@ -1144,7 +1314,6 @@
         "next-themes",
         "postgres",
         "radix-ui",
-        "react-hook-form",
         "resend",
         "sonner",
         "zod"
@@ -1205,8 +1374,8 @@
         },
         {
           "type": "registry:file",
-          "target": "middleware.ts",
-          "path": "src/middleware.ts"
+          "target": "proxy.ts",
+          "path": "src/proxy.ts"
         },
         {
           "type": "registry:page",
@@ -1250,8 +1419,8 @@
         },
         {
           "type": "registry:ui",
-          "target": "components/ui/form.tsx",
-          "path": "src/components/ui/form.tsx"
+          "target": "components/ui/field.tsx",
+          "path": "src/components/ui/field.tsx"
         },
         {
           "type": "registry:ui",
@@ -1343,13 +1512,12 @@
       "name": "access",
       "type": "registry:component",
       "dependencies": [
-        "@hookform/resolvers",
         "@remixicon/react",
+        "@tanstack/react-form",
         "better-auth",
         "class-variance-authority",
         "lucide-react",
         "radix-ui",
-        "react-hook-form",
         "sonner",
         "zod"
       ],
@@ -1376,8 +1544,8 @@
         },
         {
           "type": "registry:ui",
-          "target": "components/ui/form.tsx",
-          "path": "src/components/ui/form.tsx"
+          "target": "components/ui/field.tsx",
+          "path": "src/components/ui/field.tsx"
         },
         {
           "type": "registry:ui",
@@ -1388,6 +1556,11 @@
           "type": "registry:ui",
           "target": "components/ui/label.tsx",
           "path": "src/components/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "src/components/ui/separator.tsx"
         }
       ]
     },
@@ -1434,15 +1607,14 @@
       "name": "navbar-home",
       "type": "registry:component",
       "dependencies": [
-        "@hookform/resolvers",
         "@remixicon/react",
+        "@tanstack/react-form",
         "better-auth",
         "class-variance-authority",
         "lucide-react",
         "next",
         "next-themes",
         "radix-ui",
-        "react-hook-form",
         "sonner",
         "zod"
       ],
@@ -1479,8 +1651,8 @@
         },
         {
           "type": "registry:ui",
-          "target": "components/ui/form.tsx",
-          "path": "src/components/ui/form.tsx"
+          "target": "components/ui/field.tsx",
+          "path": "src/components/ui/field.tsx"
         },
         {
           "type": "registry:ui",
@@ -1491,6 +1663,11 @@
           "type": "registry:ui",
           "target": "components/ui/label.tsx",
           "path": "src/components/ui/label.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx",
+          "path": "src/components/ui/separator.tsx"
         }
       ]
     },

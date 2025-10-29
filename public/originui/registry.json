@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "originui",
-  "homepage": "https://originui.com",
+  "homepage": "https://coss.com/origin",
   "items": [
     {
       "name": "style",
@@ -131,7 +131,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -216,7 +216,7 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "button"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -295,7 +295,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "dialog"
+        "https://coss.com/origin/r/dialog.json"
       ],
       "files": [
         {
@@ -416,7 +416,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/command.json"
+        "https://coss.com/origin/r/command.json"
       ],
       "files": [
         {
@@ -461,7 +461,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "button"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -583,7 +583,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -767,7 +767,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "toggle"
+        "https://coss.com/origin/r/toggle.json"
       ],
       "files": [
         {
@@ -1123,8 +1123,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1157,8 +1157,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1192,8 +1192,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1227,8 +1227,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1262,8 +1262,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1296,8 +1296,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1331,8 +1331,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1365,8 +1365,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1401,8 +1401,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1436,8 +1436,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1470,8 +1470,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1504,8 +1504,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1538,8 +1538,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1572,8 +1572,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1606,8 +1606,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1640,8 +1640,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1675,9 +1675,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -1718,9 +1718,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -1761,8 +1761,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1797,8 +1797,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1832,8 +1832,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1868,8 +1868,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1909,8 +1909,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1946,8 +1946,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -1981,8 +1981,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2018,8 +2018,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2055,8 +2055,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2139,8 +2139,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2171,7 +2171,7 @@
       "name": "comp-31",
       "type": "registry:component",
       "registryDependencies": [
-        "https://originui.com/r/input.json"
+        "https://coss.com/origin/r/input.json"
       ],
       "files": [
         {
@@ -2196,7 +2196,7 @@
       "name": "comp-32",
       "type": "registry:component",
       "registryDependencies": [
-        "https://originui.com/r/input.json"
+        "https://coss.com/origin/r/input.json"
       ],
       "files": [
         {
@@ -2241,8 +2241,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2280,8 +2280,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2319,7 +2319,7 @@
         "react-aria-components"
       ],
       "registryDependencies": [
-        "https://originui.com/r/datefield-rac.json"
+        "https://coss.com/origin/r/datefield-rac.json"
       ],
       "files": [
         {
@@ -2349,7 +2349,7 @@
         "react-aria-components"
       ],
       "registryDependencies": [
-        "https://originui.com/r/datefield-rac.json"
+        "https://coss.com/origin/r/datefield-rac.json"
       ],
       "files": [
         {
@@ -2380,7 +2380,7 @@
         "react-aria-components"
       ],
       "registryDependencies": [
-        "https://originui.com/r/datefield-rac.json"
+        "https://coss.com/origin/r/datefield-rac.json"
       ],
       "files": [
         {
@@ -2411,7 +2411,7 @@
         "react-aria-components"
       ],
       "registryDependencies": [
-        "https://originui.com/r/datefield-rac.json"
+        "https://coss.com/origin/r/datefield-rac.json"
       ],
       "files": [
         {
@@ -2441,7 +2441,7 @@
         "react-aria-components"
       ],
       "registryDependencies": [
-        "https://originui.com/r/datefield-rac.json"
+        "https://coss.com/origin/r/datefield-rac.json"
       ],
       "files": [
         {
@@ -2473,8 +2473,8 @@
         "react-aria-components"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar-rac.json",
-        "https://originui.com/r/datefield-rac.json"
+        "https://coss.com/origin/r/calendar-rac.json",
+        "https://coss.com/origin/r/datefield-rac.json"
       ],
       "files": [
         {
@@ -2513,8 +2513,8 @@
         "react-aria-components"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar-rac.json",
-        "https://originui.com/r/datefield-rac.json"
+        "https://coss.com/origin/r/calendar-rac.json",
+        "https://coss.com/origin/r/datefield-rac.json"
       ],
       "files": [
         {
@@ -2555,8 +2555,8 @@
         "react-aria-components"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar-rac.json",
-        "https://originui.com/r/datefield-rac.json"
+        "https://coss.com/origin/r/calendar-rac.json",
+        "https://coss.com/origin/r/datefield-rac.json"
       ],
       "files": [
         {
@@ -2595,7 +2595,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2626,7 +2626,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2657,8 +2657,8 @@
         "react-phone-number-input"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2697,8 +2697,8 @@
         "@types/react-payment-inputs"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2739,8 +2739,8 @@
         "@types/react-payment-inputs"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2781,8 +2781,8 @@
         "@types/react-payment-inputs"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2823,8 +2823,8 @@
         "@types/react-payment-inputs"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2857,8 +2857,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2892,8 +2892,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -2928,9 +2928,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -2970,8 +2970,8 @@
         "use-mask-input"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -3006,8 +3006,8 @@
         "use-mask-input"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -3043,7 +3043,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -3074,7 +3074,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -3105,7 +3105,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -3134,8 +3134,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3168,8 +3168,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3203,8 +3203,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3238,19 +3238,14 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/comp-62.tsx",
           "path": "registry/default/components/comp-62.tsx"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/comp-63.tsx",
-          "path": "registry/default/components/comp-63.tsx"
         },
         {
           "type": "registry:ui",
@@ -3278,8 +3273,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3312,8 +3307,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3347,8 +3342,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3381,8 +3376,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3415,8 +3410,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3451,9 +3446,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3493,9 +3488,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3535,9 +3530,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3576,8 +3571,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3607,7 +3602,7 @@
       "name": "comp-72",
       "type": "registry:component",
       "registryDependencies": [
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3652,8 +3647,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3691,8 +3686,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3725,8 +3720,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3760,8 +3755,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -3795,7 +3790,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -3824,7 +3819,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -3854,7 +3849,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -3884,7 +3879,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -3914,7 +3909,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -3945,7 +3940,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -3975,7 +3970,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4005,7 +4000,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4036,7 +4031,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4067,7 +4062,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4097,7 +4092,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4127,7 +4122,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4157,7 +4152,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4188,7 +4183,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4218,7 +4213,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4249,7 +4244,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4279,7 +4274,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4312,7 +4307,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/avatar.json",
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4351,7 +4347,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4381,7 +4377,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4411,7 +4407,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4442,8 +4438,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -4478,7 +4474,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4510,8 +4506,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/toggle.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/toggle.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -4547,7 +4543,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4579,7 +4575,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4611,7 +4607,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4643,8 +4639,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -4680,7 +4676,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4711,7 +4707,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/toggle-group.json"
+        "https://coss.com/origin/r/toggle-group.json"
       ],
       "files": [
         {
@@ -4747,7 +4743,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4778,7 +4774,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/toggle-group.json"
+        "https://coss.com/origin/r/toggle-group.json"
       ],
       "files": [
         {
@@ -4813,7 +4809,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/toggle-group.json"
+        "https://coss.com/origin/r/toggle-group.json"
       ],
       "files": [
         {
@@ -4849,7 +4845,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4879,7 +4875,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4909,7 +4905,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4940,7 +4936,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -4972,7 +4968,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5003,7 +4999,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5034,7 +5030,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5066,7 +5062,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5098,7 +5094,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5131,7 +5127,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5164,7 +5160,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5197,7 +5193,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5230,7 +5226,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5261,7 +5257,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5292,7 +5288,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5332,7 +5328,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5372,7 +5368,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5402,7 +5398,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5432,8 +5428,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json",
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -5470,7 +5466,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/toggle.json"
+        "https://coss.com/origin/r/toggle.json"
       ],
       "files": [
         {
@@ -5502,8 +5498,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -5537,8 +5533,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -5572,8 +5568,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -5607,8 +5603,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -5642,8 +5638,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -5678,8 +5674,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -5713,8 +5709,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -5748,8 +5744,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -5785,8 +5781,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -5820,8 +5816,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -5855,8 +5851,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -5890,9 +5886,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -5932,8 +5928,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -5967,8 +5963,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -6003,8 +5999,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -6039,8 +6035,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -6076,8 +6072,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -6112,9 +6108,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox-tree.json",
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox-tree.json",
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -6154,7 +6150,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json"
+        "https://coss.com/origin/r/checkbox.json"
       ],
       "files": [
         {
@@ -6208,8 +6204,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -6243,8 +6239,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6278,8 +6274,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6313,8 +6309,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6348,8 +6344,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6383,9 +6379,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6426,8 +6422,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6462,7 +6458,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6493,8 +6489,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6529,8 +6525,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6565,8 +6561,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6602,8 +6598,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6639,7 +6635,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6671,7 +6667,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6702,8 +6698,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6739,9 +6735,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6781,7 +6777,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6812,7 +6808,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6844,7 +6840,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6874,7 +6870,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6907,7 +6903,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -6939,8 +6935,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -6974,8 +6970,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7009,8 +7005,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7044,8 +7040,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7079,8 +7075,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7114,8 +7110,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7149,8 +7145,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7184,8 +7180,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7220,7 +7216,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7251,8 +7247,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7289,7 +7285,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7321,8 +7317,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7359,8 +7355,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7396,8 +7392,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7432,8 +7428,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7469,8 +7465,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7506,8 +7502,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -7544,8 +7540,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -7580,8 +7576,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -7616,8 +7612,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -7653,8 +7649,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -7689,8 +7685,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -7725,8 +7721,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -7762,8 +7758,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -7798,8 +7794,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -7835,8 +7831,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -7871,8 +7867,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -7907,8 +7903,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -7943,8 +7939,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -7980,7 +7976,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -8009,7 +8005,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -8039,8 +8035,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8075,8 +8071,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8111,8 +8107,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8147,8 +8143,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8184,8 +8180,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8220,8 +8216,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8256,8 +8252,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8292,8 +8288,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8329,8 +8325,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8366,8 +8362,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8402,8 +8398,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8438,8 +8434,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8474,8 +8470,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8511,7 +8507,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8541,7 +8537,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8571,8 +8567,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8609,8 +8605,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8645,8 +8641,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8682,8 +8678,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8719,8 +8715,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8756,8 +8752,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8792,8 +8788,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8828,8 +8824,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8865,8 +8861,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8904,8 +8900,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8943,8 +8939,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -8984,10 +8980,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/command.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/command.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -9044,10 +9040,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/command.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/command.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -9104,10 +9100,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/command.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/command.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -9166,10 +9162,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/command.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/command.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -9227,10 +9223,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/command.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/command.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -9286,8 +9282,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/multiselect.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/multiselect.json"
       ],
       "files": [
         {
@@ -9338,8 +9334,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/multiselect.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/multiselect.json"
       ],
       "files": [
         {
@@ -9389,8 +9385,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select-native.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select-native.json"
       ],
       "files": [
         {
@@ -9426,7 +9422,7 @@
         "react-aria-components"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -9457,7 +9453,7 @@
         "react-aria-components"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -9488,7 +9484,7 @@
         "react-aria-components"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -9518,8 +9514,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -9558,8 +9554,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -9599,8 +9595,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -9639,8 +9635,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -9679,8 +9675,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -9719,8 +9715,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -9759,8 +9755,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -9799,8 +9795,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -9839,8 +9835,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -9879,8 +9875,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -9920,8 +9916,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -9962,8 +9958,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10005,8 +10001,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10047,8 +10043,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10091,11 +10087,11 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -10153,9 +10149,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10205,8 +10201,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10247,8 +10243,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10289,9 +10285,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10345,9 +10341,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10394,9 +10390,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10442,8 +10438,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10483,9 +10479,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10536,8 +10532,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10580,10 +10576,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10641,10 +10637,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10700,8 +10696,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -10999,7 +10995,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11031,7 +11027,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11063,7 +11059,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11095,7 +11091,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11127,7 +11123,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11159,7 +11155,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11191,7 +11187,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11223,7 +11219,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11255,7 +11251,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11288,7 +11284,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11320,7 +11316,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11353,7 +11349,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11386,7 +11382,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11419,7 +11415,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11452,7 +11448,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11487,7 +11483,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11520,7 +11516,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11552,7 +11548,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11584,8 +11580,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/toast.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/toast.json"
       ],
       "files": [
         {
@@ -11628,8 +11624,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/toast.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/toast.json"
       ],
       "files": [
         {
@@ -11668,7 +11664,7 @@
         "sonner"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11703,7 +11699,7 @@
         "sonner"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11737,7 +11733,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11830,7 +11826,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11860,7 +11856,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11890,7 +11886,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11920,7 +11916,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11950,7 +11946,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -11980,7 +11976,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -12031,7 +12027,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -12060,8 +12056,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/alert-dialog.json",
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/alert-dialog.json",
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -12100,8 +12096,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/alert-dialog.json",
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/alert-dialog.json",
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -12140,8 +12136,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json"
       ],
       "files": [
         {
@@ -12178,9 +12174,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json",
-        "https://originui.com/r/scroll-area.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json",
+        "https://coss.com/origin/r/scroll-area.json"
       ],
       "files": [
         {
@@ -12222,8 +12218,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json"
       ],
       "files": [
         {
@@ -12260,8 +12256,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json"
       ],
       "files": [
         {
@@ -12298,8 +12294,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json"
       ],
       "files": [
         {
@@ -12336,10 +12332,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -12387,9 +12383,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json",
-        "https://originui.com/r/input.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json",
+        "https://coss.com/origin/r/input.json"
       ],
       "files": [
         {
@@ -12434,9 +12430,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -12480,11 +12476,11 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -12540,8 +12536,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json"
       ],
       "files": [
         {
@@ -12579,10 +12575,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -12632,11 +12628,11 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/dialog.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/dialog.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -12691,11 +12687,11 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -12754,11 +12750,11 @@
         "@types/react-payment-inputs"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/dialog.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/dialog.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -12818,12 +12814,12 @@
         "@types/react-payment-inputs"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -12884,10 +12880,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -12935,11 +12931,11 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -13006,8 +13002,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dialog.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dialog.json"
       ],
       "files": [
         {
@@ -13045,7 +13041,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/command.json"
+        "https://coss.com/origin/r/command.json"
       ],
       "files": [
         {
@@ -13087,7 +13083,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13117,7 +13113,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13147,7 +13143,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13177,7 +13173,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13207,7 +13203,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13237,7 +13233,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13267,7 +13263,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13297,7 +13293,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13327,7 +13323,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13357,7 +13353,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13387,7 +13383,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13417,7 +13413,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13447,7 +13443,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13477,7 +13473,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13507,7 +13503,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13537,7 +13533,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13567,7 +13563,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13597,7 +13593,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json"
+        "https://coss.com/origin/r/accordion.json"
       ],
       "files": [
         {
@@ -13627,8 +13623,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json",
-        "https://originui.com/r/collapsible.json"
+        "https://coss.com/origin/r/accordion.json",
+        "https://coss.com/origin/r/collapsible.json"
       ],
       "files": [
         {
@@ -13664,8 +13660,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/accordion.json",
-        "https://originui.com/r/collapsible.json"
+        "https://coss.com/origin/r/accordion.json",
+        "https://coss.com/origin/r/collapsible.json"
       ],
       "files": [
         {
@@ -13701,8 +13697,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -13737,8 +13733,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -13773,8 +13769,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -13809,8 +13805,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -13846,8 +13842,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -13882,8 +13878,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -13920,8 +13916,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -13958,8 +13954,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -13994,8 +13990,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -14031,8 +14027,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/hover-card.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/hover-card.json"
       ],
       "files": [
         {
@@ -14070,7 +14066,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/hover-card.json"
+        "https://coss.com/origin/r/hover-card.json"
       ],
       "files": [
         {
@@ -14103,7 +14099,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/hover-card.json"
+        "https://coss.com/origin/r/hover-card.json"
       ],
       "files": [
         {
@@ -14136,8 +14132,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14173,8 +14169,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14210,8 +14206,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14247,8 +14243,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14284,8 +14280,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14321,8 +14317,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14359,8 +14355,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14397,8 +14393,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14436,8 +14432,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14476,8 +14472,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14515,8 +14511,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14555,9 +14551,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/avatar.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14601,8 +14597,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14639,8 +14635,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14677,8 +14673,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -14715,10 +14711,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -14765,9 +14761,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -14809,9 +14805,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -14853,8 +14849,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -14890,8 +14886,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -14928,8 +14924,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -14967,10 +14963,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/popover.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/popover.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -15018,9 +15014,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/popover.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/popover.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -15063,8 +15059,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -15099,7 +15095,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json"
+        "https://coss.com/origin/r/avatar.json"
       ],
       "files": [
         {
@@ -15129,7 +15125,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json"
+        "https://coss.com/origin/r/avatar.json"
       ],
       "files": [
         {
@@ -15160,7 +15156,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json"
+        "https://coss.com/origin/r/avatar.json"
       ],
       "files": [
         {
@@ -15190,7 +15186,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json"
+        "https://coss.com/origin/r/avatar.json"
       ],
       "files": [
         {
@@ -15220,7 +15216,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json"
+        "https://coss.com/origin/r/avatar.json"
       ],
       "files": [
         {
@@ -15251,7 +15247,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json"
+        "https://coss.com/origin/r/avatar.json"
       ],
       "files": [
         {
@@ -15282,7 +15278,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json"
+        "https://coss.com/origin/r/avatar.json"
       ],
       "files": [
         {
@@ -15313,7 +15309,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json"
+        "https://coss.com/origin/r/avatar.json"
       ],
       "files": [
         {
@@ -15346,8 +15342,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json",
-        "https://originui.com/r/badge.json"
+        "https://coss.com/origin/r/avatar.json",
+        "https://coss.com/origin/r/badge.json"
       ],
       "files": [
         {
@@ -15385,8 +15381,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json",
-        "https://originui.com/r/badge.json"
+        "https://coss.com/origin/r/avatar.json",
+        "https://coss.com/origin/r/badge.json"
       ],
       "files": [
         {
@@ -15587,7 +15583,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -15617,7 +15613,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -15647,7 +15643,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -15695,7 +15691,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json"
+        "https://coss.com/origin/r/badge.json"
       ],
       "files": [
         {
@@ -15725,7 +15721,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json"
+        "https://coss.com/origin/r/badge.json"
       ],
       "files": [
         {
@@ -15756,7 +15752,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json"
+        "https://coss.com/origin/r/badge.json"
       ],
       "files": [
         {
@@ -15786,7 +15782,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json"
+        "https://coss.com/origin/r/badge.json"
       ],
       "files": [
         {
@@ -15817,7 +15813,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json"
+        "https://coss.com/origin/r/badge.json"
       ],
       "files": [
         {
@@ -15847,7 +15843,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json"
+        "https://coss.com/origin/r/badge.json"
       ],
       "files": [
         {
@@ -15879,7 +15875,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json"
+        "https://coss.com/origin/r/badge.json"
       ],
       "files": [
         {
@@ -15910,7 +15906,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json"
+        "https://coss.com/origin/r/badge.json"
       ],
       "files": [
         {
@@ -15941,7 +15937,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json"
+        "https://coss.com/origin/r/badge.json"
       ],
       "files": [
         {
@@ -15972,7 +15968,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json"
+        "https://coss.com/origin/r/badge.json"
       ],
       "files": [
         {
@@ -16004,7 +16000,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/checkbox.json"
       ],
       "files": [
         {
@@ -16040,6 +16037,9 @@
         "lucide-react",
         "radix-ui"
       ],
+      "registryDependencies": [
+        "https://coss.com/origin/r/badge.json"
+      ],
       "files": [
         {
           "type": "registry:component",
@@ -16069,7 +16069,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json"
+        "https://coss.com/origin/r/badge.json"
       ],
       "files": [
         {
@@ -16099,7 +16099,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16129,7 +16129,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16159,7 +16159,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16189,7 +16189,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16219,7 +16219,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16249,7 +16249,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16279,7 +16279,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16311,8 +16311,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/scroll-area.json",
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/scroll-area.json",
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16353,8 +16353,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/scroll-area.json",
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/scroll-area.json",
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16390,8 +16390,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/scroll-area.json",
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/scroll-area.json",
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16427,8 +16427,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/scroll-area.json",
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/scroll-area.json",
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16465,9 +16465,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json",
-        "https://originui.com/r/scroll-area.json",
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/scroll-area.json",
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16508,7 +16508,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16539,7 +16539,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16576,8 +16577,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/tabs.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -16619,8 +16621,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/tabs.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -16660,7 +16663,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16691,7 +16694,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16723,7 +16726,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16754,7 +16757,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tabs.json"
+        "https://coss.com/origin/r/tabs.json"
       ],
       "files": [
         {
@@ -16786,8 +16789,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/breadcrumb.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/breadcrumb.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -16823,8 +16826,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/breadcrumb.json",
-        "https://originui.com/r/dropdown-menu.json"
+        "https://coss.com/origin/r/breadcrumb.json",
+        "https://coss.com/origin/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -16861,7 +16864,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/breadcrumb.json"
+        "https://coss.com/origin/r/breadcrumb.json"
       ],
       "files": [
         {
@@ -16892,7 +16895,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/breadcrumb.json"
+        "https://coss.com/origin/r/breadcrumb.json"
       ],
       "files": [
         {
@@ -16923,7 +16926,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/breadcrumb.json"
+        "https://coss.com/origin/r/breadcrumb.json"
       ],
       "files": [
         {
@@ -16954,7 +16957,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/breadcrumb.json"
+        "https://coss.com/origin/r/breadcrumb.json"
       ],
       "files": [
         {
@@ -16985,7 +16988,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/breadcrumb.json"
+        "https://coss.com/origin/r/breadcrumb.json"
       ],
       "files": [
         {
@@ -17016,8 +17019,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/breadcrumb.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/breadcrumb.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -17055,8 +17058,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/pagination.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/pagination.json"
       ],
       "files": [
         {
@@ -17091,8 +17094,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/pagination.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/pagination.json"
       ],
       "files": [
         {
@@ -17127,8 +17130,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/pagination.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/pagination.json"
       ],
       "files": [
         {
@@ -17163,7 +17166,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/pagination.json"
+        "https://coss.com/origin/r/pagination.json"
       ],
       "files": [
         {
@@ -17198,8 +17201,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/pagination.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/pagination.json"
       ],
       "files": [
         {
@@ -17234,7 +17237,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/pagination.json"
+        "https://coss.com/origin/r/pagination.json"
       ],
       "files": [
         {
@@ -17274,7 +17277,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/pagination.json"
+        "https://coss.com/origin/r/pagination.json"
       ],
       "files": [
         {
@@ -17314,8 +17317,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/pagination.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/pagination.json"
       ],
       "files": [
         {
@@ -17355,8 +17358,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/pagination.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/pagination.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -17401,9 +17404,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/pagination.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/pagination.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -17455,8 +17458,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/pagination.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/pagination.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -17503,9 +17506,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/pagination.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/pagination.json"
       ],
       "files": [
         {
@@ -17551,7 +17554,7 @@
       "name": "comp-466",
       "type": "registry:component",
       "registryDependencies": [
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -17576,7 +17579,7 @@
       "name": "comp-467",
       "type": "registry:component",
       "registryDependencies": [
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -17603,7 +17606,7 @@
       "name": "comp-468",
       "type": "registry:component",
       "registryDependencies": [
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -17628,7 +17631,7 @@
       "name": "comp-469",
       "type": "registry:component",
       "registryDependencies": [
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -17653,7 +17656,7 @@
       "name": "comp-470",
       "type": "registry:component",
       "registryDependencies": [
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -17678,7 +17681,7 @@
       "name": "comp-471",
       "type": "registry:component",
       "registryDependencies": [
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -17706,8 +17709,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -17741,8 +17744,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -17774,7 +17777,7 @@
       "name": "comp-474",
       "type": "registry:component",
       "registryDependencies": [
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -17800,7 +17803,7 @@
       "name": "comp-475",
       "type": "registry:component",
       "registryDependencies": [
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -17829,7 +17832,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -17859,9 +17862,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json",
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -17906,11 +17909,11 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/select.json",
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/select.json",
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -17967,7 +17970,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -18002,9 +18005,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -18053,9 +18056,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -18095,10 +18098,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -18150,13 +18153,13 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/pagination.json",
-        "https://originui.com/r/select.json",
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/pagination.json",
+        "https://coss.com/origin/r/select.json",
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -18224,12 +18227,12 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/pagination.json",
-        "https://originui.com/r/select.json",
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/pagination.json",
+        "https://coss.com/origin/r/select.json",
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -18297,17 +18300,17 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/alert-dialog.json",
-        "https://originui.com/r/badge.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/pagination.json",
-        "https://originui.com/r/popover.json",
-        "https://originui.com/r/select.json",
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/alert-dialog.json",
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/pagination.json",
+        "https://coss.com/origin/r/popover.json",
+        "https://coss.com/origin/r/select.json",
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -18394,8 +18397,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -18431,7 +18434,7 @@
         "react-aria-components"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar-rac.json"
+        "https://coss.com/origin/r/calendar-rac.json"
       ],
       "files": [
         {
@@ -18463,7 +18466,7 @@
         "react-aria-components"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar-rac.json"
+        "https://coss.com/origin/r/calendar-rac.json"
       ],
       "files": [
         {
@@ -18497,7 +18500,7 @@
         "react-aria-components"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar-rac.json"
+        "https://coss.com/origin/r/calendar-rac.json"
       ],
       "files": [
         {
@@ -18532,7 +18535,7 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -18571,7 +18574,7 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -18611,7 +18614,7 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -18652,7 +18655,7 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -18690,7 +18693,7 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -18729,7 +18732,7 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -18768,7 +18771,7 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -18806,8 +18809,8 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/calendar.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -18850,8 +18853,8 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/calendar.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -18894,7 +18897,7 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -18934,8 +18937,8 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -18975,8 +18978,8 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -19016,9 +19019,9 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/calendar.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -19067,9 +19070,9 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json"
+        "https://coss.com/origin/r/calendar.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json"
       ],
       "files": [
         {
@@ -19120,10 +19123,10 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/calendar.json",
-        "https://originui.com/r/collapsible.json",
-        "https://originui.com/r/scroll-area.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/calendar.json",
+        "https://coss.com/origin/r/collapsible.json",
+        "https://coss.com/origin/r/scroll-area.json"
       ],
       "files": [
         {
@@ -19174,9 +19177,9 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/calendar.json",
-        "https://originui.com/r/scroll-area.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/calendar.json",
+        "https://coss.com/origin/r/scroll-area.json"
       ],
       "files": [
         {
@@ -19223,8 +19226,8 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -19265,8 +19268,8 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -19308,7 +19311,7 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -19349,7 +19352,7 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -19390,7 +19393,7 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/calendar.json"
+        "https://coss.com/origin/r/calendar.json"
       ],
       "files": [
         {
@@ -19430,10 +19433,10 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/calendar.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/calendar.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -19483,10 +19486,10 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/calendar.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/calendar.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -19533,7 +19536,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -19562,7 +19565,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -19591,7 +19594,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -19621,7 +19624,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -19656,7 +19660,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -19690,7 +19695,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -19719,7 +19724,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -19749,7 +19754,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -19784,7 +19790,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -19818,7 +19825,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -19847,7 +19854,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -19876,7 +19883,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -19905,7 +19912,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -19934,7 +19941,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -19965,7 +19972,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -20000,7 +20008,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -20030,7 +20038,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/stepper.json"
+        "https://coss.com/origin/r/stepper.json"
       ],
       "files": [
         {
@@ -20059,7 +20067,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/timeline.json"
+        "https://coss.com/origin/r/timeline.json"
       ],
       "files": [
         {
@@ -20088,7 +20096,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/timeline.json"
+        "https://coss.com/origin/r/timeline.json"
       ],
       "files": [
         {
@@ -20117,7 +20125,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/timeline.json"
+        "https://coss.com/origin/r/timeline.json"
       ],
       "files": [
         {
@@ -20146,7 +20154,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/timeline.json"
+        "https://coss.com/origin/r/timeline.json"
       ],
       "files": [
         {
@@ -20176,7 +20184,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/timeline.json"
+        "https://coss.com/origin/r/timeline.json"
       ],
       "files": [
         {
@@ -20206,7 +20214,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/timeline.json"
+        "https://coss.com/origin/r/timeline.json"
       ],
       "files": [
         {
@@ -20235,7 +20243,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/timeline.json"
+        "https://coss.com/origin/r/timeline.json"
       ],
       "files": [
         {
@@ -20264,7 +20272,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/timeline.json"
+        "https://coss.com/origin/r/timeline.json"
       ],
       "files": [
         {
@@ -20293,7 +20301,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/timeline.json"
+        "https://coss.com/origin/r/timeline.json"
       ],
       "files": [
         {
@@ -20323,7 +20331,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/timeline.json"
+        "https://coss.com/origin/r/timeline.json"
       ],
       "files": [
         {
@@ -20352,7 +20360,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/timeline.json"
+        "https://coss.com/origin/r/timeline.json"
       ],
       "files": [
         {
@@ -20380,7 +20388,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/timeline.json"
+        "https://coss.com/origin/r/timeline.json"
       ],
       "files": [
         {
@@ -20417,18 +20425,18 @@
         "sonner"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/calendar.json",
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/dialog.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/popover.json",
-        "https://originui.com/r/radio-group.json",
-        "https://originui.com/r/select.json",
-        "https://originui.com/r/sonner.json",
-        "https://originui.com/r/textarea.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/calendar.json",
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/dialog.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/popover.json",
+        "https://coss.com/origin/r/radio-group.json",
+        "https://coss.com/origin/r/select.json",
+        "https://coss.com/origin/r/sonner.json",
+        "https://coss.com/origin/r/textarea.json"
       ],
       "files": [
         {
@@ -20593,7 +20601,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -20659,7 +20667,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -20697,7 +20705,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -20735,7 +20743,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -20773,7 +20781,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -20811,7 +20819,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -20849,7 +20857,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -20887,8 +20895,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/table.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/table.json"
       ],
       "files": [
         {
@@ -20931,7 +20939,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -20969,7 +20977,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -21008,11 +21016,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/cropper.json",
-        "https://originui.com/r/dialog.json",
-        "https://originui.com/r/select.json",
-        "https://originui.com/r/slider.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/cropper.json",
+        "https://coss.com/origin/r/dialog.json",
+        "https://coss.com/origin/r/slider.json"
       ],
       "files": [
         {
@@ -21072,7 +21079,7 @@
         "@origin-space/image-cropper"
       ],
       "registryDependencies": [
-        "https://originui.com/r/cropper.json"
+        "https://coss.com/origin/r/cropper.json"
       ],
       "files": [
         {
@@ -21102,7 +21109,7 @@
         "@origin-space/image-cropper"
       ],
       "registryDependencies": [
-        "https://originui.com/r/cropper.json"
+        "https://coss.com/origin/r/cropper.json"
       ],
       "files": [
         {
@@ -21132,7 +21139,7 @@
         "@origin-space/image-cropper"
       ],
       "registryDependencies": [
-        "https://originui.com/r/cropper.json"
+        "https://coss.com/origin/r/cropper.json"
       ],
       "files": [
         {
@@ -21162,7 +21169,7 @@
         "@origin-space/image-cropper"
       ],
       "registryDependencies": [
-        "https://originui.com/r/cropper.json"
+        "https://coss.com/origin/r/cropper.json"
       ],
       "files": [
         {
@@ -21192,7 +21199,7 @@
         "@origin-space/image-cropper"
       ],
       "registryDependencies": [
-        "https://originui.com/r/cropper.json"
+        "https://coss.com/origin/r/cropper.json"
       ],
       "files": [
         {
@@ -21222,7 +21229,7 @@
         "@origin-space/image-cropper"
       ],
       "registryDependencies": [
-        "https://originui.com/r/cropper.json"
+        "https://coss.com/origin/r/cropper.json"
       ],
       "files": [
         {
@@ -21253,8 +21260,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/cropper.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/cropper.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -21295,7 +21302,7 @@
         "@origin-space/image-cropper"
       ],
       "registryDependencies": [
-        "https://originui.com/r/cropper.json"
+        "https://coss.com/origin/r/cropper.json"
       ],
       "files": [
         {
@@ -21325,7 +21332,7 @@
         "@origin-space/image-cropper"
       ],
       "registryDependencies": [
-        "https://originui.com/r/cropper.json"
+        "https://coss.com/origin/r/cropper.json"
       ],
       "files": [
         {
@@ -21357,7 +21364,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/cropper.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/cropper.json"
       ],
       "files": [
         {
@@ -21395,7 +21403,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {
@@ -21425,7 +21433,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {
@@ -21455,7 +21463,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {
@@ -21485,7 +21493,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {
@@ -21515,7 +21523,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {
@@ -21545,7 +21553,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {
@@ -21580,8 +21588,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {
@@ -21618,8 +21626,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {
@@ -21656,7 +21664,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {
@@ -21687,8 +21695,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {
@@ -21725,7 +21733,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {
@@ -21755,7 +21763,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {
@@ -21785,9 +21793,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/navigation-menu.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/navigation-menu.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -21832,9 +21840,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/navigation-menu.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/navigation-menu.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -21879,9 +21887,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/navigation-menu.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/navigation-menu.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -21926,10 +21934,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/navigation-menu.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/navigation-menu.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -21979,11 +21987,11 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/navigation-menu.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/avatar.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/navigation-menu.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -22053,13 +22061,13 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/navigation-menu.json",
-        "https://originui.com/r/popover.json",
-        "https://originui.com/r/select.json",
-        "https://originui.com/r/tooltip.json"
+        "https://coss.com/origin/r/avatar.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/navigation-menu.json",
+        "https://coss.com/origin/r/popover.json",
+        "https://coss.com/origin/r/select.json",
+        "https://coss.com/origin/r/tooltip.json"
       ],
       "files": [
         {
@@ -22139,12 +22147,12 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json",
-        "https://originui.com/r/breadcrumb.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/popover.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/avatar.json",
+        "https://coss.com/origin/r/breadcrumb.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/popover.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -22214,12 +22222,12 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/navigation-menu.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/avatar.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/navigation-menu.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -22289,12 +22297,12 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/navigation-menu.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/avatar.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/navigation-menu.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -22364,10 +22372,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/input.json"
+        "https://coss.com/origin/r/avatar.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/input.json"
       ],
       "files": [
         {
@@ -22417,10 +22425,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/navigation-menu.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/navigation-menu.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -22470,9 +22478,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/navigation-menu.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/navigation-menu.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -22532,13 +22540,13 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json",
-        "https://originui.com/r/breadcrumb.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/navigation-menu.json",
-        "https://originui.com/r/popover.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/avatar.json",
+        "https://coss.com/origin/r/breadcrumb.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/navigation-menu.json",
+        "https://coss.com/origin/r/popover.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -22608,11 +22616,11 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/navigation-menu.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/avatar.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/navigation-menu.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -22677,10 +22685,10 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/select.json"
+        "https://coss.com/origin/r/avatar.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/select.json"
       ],
       "files": [
         {
@@ -22730,12 +22738,12 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/input.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/popover.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/input.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/popover.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -22807,12 +22815,12 @@
         "react-day-picker"
       ],
       "registryDependencies": [
-        "https://originui.com/r/breadcrumb.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/calendar.json",
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/popover.json"
+        "https://coss.com/origin/r/breadcrumb.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/calendar.json",
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/popover.json"
       ],
       "files": [
         {
@@ -22877,9 +22885,9 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/dropdown-menu.json",
-        "https://originui.com/r/radio-group.json"
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/dropdown-menu.json",
+        "https://coss.com/origin/r/radio-group.json"
       ],
       "files": [
         {
@@ -22929,8 +22937,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/avatar.json",
-        "https://originui.com/r/button.json"
+        "https://coss.com/origin/r/avatar.json",
+        "https://coss.com/origin/r/button.json"
       ],
       "files": [
         {
@@ -22965,12 +22973,12 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/badge.json",
-        "https://originui.com/r/button.json",
-        "https://originui.com/r/label.json",
-        "https://originui.com/r/navigation-menu.json",
-        "https://originui.com/r/popover.json",
-        "https://originui.com/r/switch.json"
+        "https://coss.com/origin/r/badge.json",
+        "https://coss.com/origin/r/button.json",
+        "https://coss.com/origin/r/label.json",
+        "https://coss.com/origin/r/navigation-menu.json",
+        "https://coss.com/origin/r/popover.json",
+        "https://coss.com/origin/r/switch.json"
       ],
       "files": [
         {
@@ -23026,8 +23034,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {
@@ -23063,8 +23071,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {
@@ -23100,8 +23108,8 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://originui.com/r/checkbox.json",
-        "https://originui.com/r/tree.json"
+        "https://coss.com/origin/r/checkbox.json",
+        "https://coss.com/origin/r/tree.json"
       ],
       "files": [
         {

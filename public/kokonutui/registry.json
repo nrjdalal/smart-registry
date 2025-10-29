@@ -104,7 +104,6 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react",
         "motion",
         "next-view-transitions"
       ],
@@ -135,11 +134,6 @@
           "type": "registry:ui",
           "target": "components/ui/browse-button.tsx",
           "path": "components/ui/browse-button.tsx"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/icons/compass.tsx",
-          "path": "components/icons/compass.tsx"
         },
         {
           "type": "registry:ui",
@@ -475,19 +469,14 @@
       ],
       "files": [
         {
-          "type": "registry:component",
-          "target": "components/icons/compass.tsx",
-          "path": "components/icons/compass.tsx"
+          "type": "registry:ui",
+          "target": "components/ui/accordion.tsx",
+          "path": "components/ui/accordion.tsx"
         },
         {
           "type": "registry:hook",
           "target": "hooks/use-mobile.ts",
           "path": "hooks/use-mobile.ts"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/accordion.tsx",
-          "path": "components/ui/accordion.tsx"
         },
         {
           "type": "registry:ui",
@@ -816,7 +805,8 @@
       "name": "theme-toggle",
       "type": "registry:lib",
       "dependencies": [
-        "lucide-react",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
         "next-themes"
       ],
       "files": [
@@ -824,6 +814,16 @@
           "type": "registry:lib",
           "target": "lib/theme-toggle.tsx",
           "path": "lib/theme-toggle.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/icons/circle-theme.tsx",
+          "path": "components/icons/circle-theme.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "components/ui/button.tsx"
         }
       ]
     },
@@ -1259,26 +1259,6 @@
       ]
     },
     {
-      "name": "event-toast",
-      "type": "registry:component",
-      "dependencies": [
-        "next",
-        "sonner"
-      ],
-      "files": [
-        {
-          "type": "registry:component",
-          "target": "components/event-toast.tsx",
-          "path": "components/event-toast.tsx"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/icons/arrow-right-broken.tsx",
-          "path": "components/icons/arrow-right-broken.tsx"
-        }
-      ]
-    },
-    {
       "name": "file-upload",
       "type": "registry:component",
       "dependencies": [
@@ -1401,6 +1381,17 @@
           "type": "registry:component",
           "target": "components/icons/checkout.tsx",
           "path": "components/icons/checkout.tsx"
+        }
+      ]
+    },
+    {
+      "name": "icons-circle-theme",
+      "type": "registry:component",
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/icons/circle-theme.tsx",
+          "path": "components/icons/circle-theme.tsx"
         }
       ]
     },
@@ -1603,6 +1594,8 @@
       "name": "landing-header",
       "type": "registry:component",
       "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
         "lucide-react",
         "next",
         "next-themes",
@@ -1616,13 +1609,13 @@
         },
         {
           "type": "registry:component",
-          "target": "components/icons/conffeti.tsx",
-          "path": "components/icons/conffeti.tsx"
+          "target": "components/icons/circle-theme.tsx",
+          "path": "components/icons/circle-theme.tsx"
         },
         {
           "type": "registry:component",
-          "target": "components/icons/x-icon.tsx",
-          "path": "components/icons/x-icon.tsx"
+          "target": "components/icons/conffeti.tsx",
+          "path": "components/icons/conffeti.tsx"
         },
         {
           "type": "registry:component",
@@ -1633,6 +1626,11 @@
           "type": "registry:lib",
           "target": "lib/theme-toggle.tsx",
           "path": "lib/theme-toggle.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "components/ui/button.tsx"
         }
       ]
     },
@@ -1653,11 +1651,26 @@
           "type": "registry:component",
           "target": "components/icons/conffeti.tsx",
           "path": "components/icons/conffeti.tsx"
+        }
+      ]
+    },
+    {
+      "name": "landing-header-pro-small",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react",
+        "next"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/landing/header-pro-small.tsx",
+          "path": "components/landing/header-pro-small.tsx"
         },
         {
           "type": "registry:component",
-          "target": "components/icons/x-icon.tsx",
-          "path": "components/icons/x-icon.tsx"
+          "target": "components/icons/conffeti.tsx",
+          "path": "components/icons/conffeti.tsx"
         }
       ]
     },
@@ -1691,11 +1704,6 @@
         },
         {
           "type": "registry:component",
-          "target": "components/icons/compass.tsx",
-          "path": "components/icons/compass.tsx"
-        },
-        {
-          "type": "registry:component",
           "target": "components/icons/nextjs.tsx",
           "path": "components/icons/nextjs.tsx"
         },
@@ -1708,11 +1716,6 @@
           "type": "registry:component",
           "target": "components/icons/shadcn.tsx",
           "path": "components/icons/shadcn.tsx"
-        },
-        {
-          "type": "registry:component",
-          "target": "components/kokonutui/action-search-bar.tsx",
-          "path": "components/kokonutui/action-search-bar.tsx"
         },
         {
           "type": "registry:component",
@@ -1736,6 +1739,11 @@
         },
         {
           "type": "registry:component",
+          "target": "components/kokonutui/file-upload.tsx",
+          "path": "components/kokonutui/file-upload.tsx"
+        },
+        {
+          "type": "registry:component",
           "target": "components/landing/feature-block.tsx",
           "path": "components/landing/feature-block.tsx"
         },
@@ -1743,11 +1751,6 @@
           "type": "registry:hook",
           "target": "hooks/use-auto-resize-textarea.ts",
           "path": "hooks/use-auto-resize-textarea.ts"
-        },
-        {
-          "type": "registry:hook",
-          "target": "hooks/use-debounce.ts",
-          "path": "hooks/use-debounce.ts"
         },
         {
           "type": "registry:ui",
@@ -1768,11 +1771,6 @@
           "type": "registry:ui",
           "target": "components/ui/dropdown-menu.tsx",
           "path": "components/ui/dropdown-menu.tsx"
-        },
-        {
-          "type": "registry:ui",
-          "target": "components/ui/input.tsx",
-          "path": "components/ui/input.tsx"
         },
         {
           "type": "registry:ui",
@@ -1835,13 +1833,38 @@
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
-        "lucide-react"
+        "lucide-react",
+        "next"
       ],
       "files": [
         {
           "type": "registry:component",
           "target": "components/kokonutui/liquid-glass-card.tsx",
           "path": "components/kokonutui/liquid-glass-card.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx",
+          "path": "components/ui/button.tsx"
+        },
+        {
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx",
+          "path": "components/ui/card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "loader",
+      "type": "registry:component",
+      "dependencies": [
+        "motion"
+      ],
+      "files": [
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/loader.tsx",
+          "path": "components/kokonutui/loader.tsx"
         }
       ]
     },
@@ -1893,6 +1916,11 @@
         },
         {
           "type": "registry:component",
+          "target": "components/kokonutui/loader.tsx",
+          "path": "components/kokonutui/loader.tsx"
+        },
+        {
+          "type": "registry:component",
           "target": "components/mdx/package-manager-tabs.tsx",
           "path": "components/mdx/package-manager-tabs.tsx"
         },
@@ -1934,6 +1962,11 @@
           "type": "registry:component",
           "target": "components/mdx/preview-client.tsx",
           "path": "components/mdx/preview-client.tsx"
+        },
+        {
+          "type": "registry:component",
+          "target": "components/kokonutui/loader.tsx",
+          "path": "components/kokonutui/loader.tsx"
         },
         {
           "type": "registry:component",

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "spinner-basic",
+  "type": "registry:example",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "button",
+    "spinner"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "new-york-v4/examples/spinner-basic.tsx",
+      "content": "import { Spinner } from \"@/components/ui/new-york-v4/spinner\"\n\nexport default function SpinnerBasic() {\n  return (\n    <div className=\"flex flex-col items-center justify-center gap-8\">\n      <Spinner />\n    </div>\n  )\n}\n",
+      "path": "registry/new-york-v4/examples/spinner-basic.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/new-york-v4/spinner.tsx",
+      "content": "import { Loader2Icon } from \"lucide-react\"\n\nimport { cn } from \"@/lib/utils\"\n\nfunction Spinner({ className, ...props }: React.ComponentProps<\"svg\">) {\n  return (\n    <Loader2Icon\n      role=\"status\"\n      aria-label=\"Loading\"\n      className={cn(\"size-4 animate-spin\", className)}\n      {...props}\n    />\n  )\n}\n\nexport { Spinner }\n",
+      "path": "registry/new-york-v4/ui/spinner.tsx"
+    }
+  ]
+}

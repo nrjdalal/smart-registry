@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "new-york-v4-examples-form-next-demo-schema",
+  "type": "registry:file",
+  "dependencies": [
+    "zod"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "new-york-v4/examples/form-next-demo-schema.ts",
+      "content": "import { z } from \"zod\"\n\nexport const formSchema = z.object({\n  title: z\n    .string()\n    .min(5, \"Bug title must be at least 5 characters.\")\n    .max(32, \"Bug title must be at most 32 characters.\"),\n  description: z\n    .string()\n    .min(20, \"Description must be at least 20 characters.\")\n    .max(100, \"Description must be at most 100 characters.\"),\n})\n\nexport type FormState = {\n  values: z.infer<typeof formSchema>\n  errors: null | Partial<Record<keyof z.infer<typeof formSchema>, string[]>>\n  success: boolean\n}\n",
+      "path": "registry/new-york-v4/examples/form-next-demo-schema.ts"
+    }
+  ]
+}

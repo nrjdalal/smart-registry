@@ -3,15 +3,28 @@
   "name": "theme-toggle",
   "type": "registry:lib",
   "dependencies": [
-    "lucide-react",
+    "@radix-ui/react-slot",
+    "class-variance-authority",
     "next-themes"
   ],
   "files": [
     {
       "type": "registry:lib",
       "target": "lib/theme-toggle.tsx",
-      "content": "\"use client\";\n\nimport { useTheme } from \"next-themes\";\nimport { useEffect, useState } from \"react\";\nimport { Moon, Sun } from \"lucide-react\";\n\nexport function ThemeToggle() {\n    const { setTheme, theme } = useTheme();\n    const [mounted, setMounted] = useState(false);\n\n    useEffect(() => {\n        setMounted(true);\n    }, []);\n\n    if (!mounted) {\n        return null;\n    }\n\n    return (\n        <div\n            className=\"cursor-pointer\"\n            onClick={() => {\n                setTheme(theme === \"dark\" ? \"light\" : \"dark\");\n            }}\n        >\n            {theme === \"light\" ? (\n                <Moon className=\"h-5 w-5 text-black\" />\n            ) : (\n                <Sun className=\"h-5 w-5 text-white\" color=\"white\" />\n            )}\n        </div>\n    );\n}\n",
+      "content": "\"use client\";\n\nimport { useTheme } from \"next-themes\";\nimport { useEffect, useState } from \"react\";\nimport CircleTheme from \"@/components/icons/circle-theme\";\nimport { Button } from \"@/components/ui/button\";\n\nexport function ThemeToggle() {\n  const { setTheme, theme } = useTheme();\n  const [mounted, setMounted] = useState(false);\n\n  useEffect(() => {\n    setMounted(true);\n  }, []);\n\n  if (!mounted) {\n    return null;\n  }\n\n  return (\n    <Button\n      className=\"cursor-pointer rounded-md border border-transparent px-3 py-1.5 transition-all hover:border-zinc-200 hover:bg-zinc-50 dark:hover:border-zinc-800 dark:hover:bg-zinc-900\"\n      onClick={() => {\n        setTheme(theme === \"dark\" ? \"light\" : \"dark\");\n      }}\n      variant=\"ghost\"\n    >\n      {theme === \"light\" ? (\n        <CircleTheme className=\"h-5 w-5 text-black\" />\n      ) : (\n        <CircleTheme className=\"h-5 w-5 text-white\" />\n      )}\n    </Button>\n  );\n}\n",
       "path": "lib/theme-toggle.tsx"
+    },
+    {
+      "type": "registry:component",
+      "target": "components/icons/circle-theme.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nexport default function CircleTheme(props: SVGProps<SVGSVGElement>) {\n  return (\n    <svg\n      fill=\"currentColor\"\n      height=\"1em\"\n      preserveAspectRatio=\"xMidYMid\"\n      viewBox=\"0 0 15 15\"\n      width=\"1em\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...props}\n    >\n      <title>Circle Theme</title>\n      <path\n        clipRule=\"evenodd\"\n        d=\"M7.49991 0.876892C3.84222 0.876892 0.877075 3.84204 0.877075 7.49972C0.877075 11.1574 3.84222 14.1226 7.49991 14.1226C11.1576 14.1226 14.1227 11.1574 14.1227 7.49972C14.1227 3.84204 11.1576 0.876892 7.49991 0.876892ZM7.49988 1.82689C4.36688 1.8269 1.82707 4.36672 1.82707 7.49972C1.82707 10.6327 4.36688 13.1725 7.49988 13.1726V1.82689Z\"\n        fillRule=\"evenodd\"\n      />\n    </svg>\n  );\n}\n",
+      "path": "components/icons/circle-theme.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/button.tsx",
+      "content": "import * as React from \"react\";\nimport { Slot } from \"@radix-ui/react-slot\";\nimport { cva, type VariantProps } from \"class-variance-authority\";\n\nimport { cn } from \"@/lib/utils\";\n\nconst buttonVariants = cva(\n    \"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 dark:ring-offset-zinc-950 dark:focus-visible:ring-zinc-300 cursor-pointer\",\n    {\n        variants: {\n            variant: {\n                default:\n                    \"bg-zinc-900 text-zinc-50 hover:bg-zinc-900/90 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-50/90\",\n                destructive:\n                    \"bg-red-500 text-zinc-50 hover:bg-red-500/90 dark:bg-red-900 dark:text-zinc-50 dark:hover:bg-red-900/90\",\n                outline:\n                    \"border border-zinc-200 bg-white hover:bg-zinc-100 hover:text-zinc-900 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-800 dark:hover:text-zinc-50\",\n                secondary:\n                    \"bg-zinc-100 text-zinc-900 hover:bg-zinc-100/80 dark:bg-zinc-800 dark:text-zinc-50 dark:hover:bg-zinc-800/80\",\n                ghost: \"hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-zinc-50\",\n                link: \"text-zinc-900 underline-offset-4 hover:underline dark:text-zinc-50\",\n            },\n            size: {\n                default: \"h-10 px-4 py-2\",\n                sm: \"h-9 rounded-md px-3\",\n                lg: \"h-11 rounded-md px-8\",\n                icon: \"h-10 w-10\",\n            },\n        },\n        defaultVariants: {\n            variant: \"default\",\n            size: \"default\",\n        },\n    }\n);\n\nexport interface ButtonProps\n    extends React.ButtonHTMLAttributes<HTMLButtonElement>,\n        VariantProps<typeof buttonVariants> {\n    asChild?: boolean;\n}\n\nconst Button = React.forwardRef<HTMLButtonElement, ButtonProps>(\n    ({ className, variant, size, asChild = false, ...props }, ref) => {\n        const Comp = asChild ? Slot : \"button\";\n        return (\n            <Comp\n                className={cn(buttonVariants({ variant, size, className }))}\n                ref={ref}\n                {...props}\n            />\n        );\n    }\n);\nButton.displayName = \"Button\";\n\nexport { Button, buttonVariants };\n",
+      "path": "components/ui/button.tsx"
     }
   ]
 }

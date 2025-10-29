@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "spinner-color",
+  "type": "registry:example",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "spinner"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "new-york-v4/examples/spinner-color.tsx",
+      "content": "import { Spinner } from \"@/components/ui/new-york-v4/spinner\"\n\nexport default function SpinnerColor() {\n  return (\n    <div className=\"flex items-center gap-6\">\n      <Spinner className=\"size-6 text-red-500\" />\n      <Spinner className=\"size-6 text-green-500\" />\n      <Spinner className=\"size-6 text-blue-500\" />\n      <Spinner className=\"size-6 text-yellow-500\" />\n      <Spinner className=\"size-6 text-purple-500\" />\n    </div>\n  )\n}\n",
+      "path": "registry/new-york-v4/examples/spinner-color.tsx"
+    },
+    {
+      "type": "registry:ui",
+      "target": "components/ui/new-york-v4/spinner.tsx",
+      "content": "import { Loader2Icon } from \"lucide-react\"\n\nimport { cn } from \"@/lib/utils\"\n\nfunction Spinner({ className, ...props }: React.ComponentProps<\"svg\">) {\n  return (\n    <Loader2Icon\n      role=\"status\"\n      aria-label=\"Loading\"\n      className={cn(\"size-4 animate-spin\", className)}\n      {...props}\n    />\n  )\n}\n\nexport { Spinner }\n",
+      "path": "registry/new-york-v4/ui/spinner.tsx"
+    }
+  ]
+}

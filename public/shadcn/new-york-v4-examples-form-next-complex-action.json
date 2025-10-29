@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "new-york-v4-examples-form-next-complex-action",
+  "type": "registry:file",
+  "dependencies": [
+    "zod"
+  ],
+  "files": [
+    {
+      "type": "registry:file",
+      "target": "new-york-v4/examples/form-next-complex-action.ts",
+      "content": "\"use server\"\n\nimport { formSchema, type FormState } from \"@/new-york-v4/examples/form-next-complex-schema\"\n\nexport async function complexFormAction(\n  _prevState: FormState,\n  formData: FormData\n) {\n  // Sleep for 1 second\n  await new Promise((resolve) => setTimeout(resolve, 1000))\n\n  const values = {\n    plan: formData.get(\"plan\") as FormState[\"values\"][\"plan\"],\n    billingPeriod: formData.get(\"billingPeriod\") as string,\n    addons: formData.getAll(\"addons\") as string[],\n    emailNotifications: formData.get(\"emailNotifications\") === \"on\",\n  }\n\n  const result = formSchema.safeParse(values)\n\n  if (!result.success) {\n    return {\n      values,\n      success: false,\n      errors: result.error.flatten().fieldErrors,\n    }\n  }\n\n  // Do something with the values.\n  // Call your database or API here.\n\n  return {\n    values,\n    errors: null,\n    success: true,\n  }\n}\n",
+      "path": "registry/new-york-v4/examples/form-next-complex-action.ts"
+    },
+    {
+      "type": "registry:file",
+      "target": "new-york-v4/examples/form-next-complex-schema.ts",
+      "content": "import { z } from \"zod\"\n\nexport const formSchema = z.object({\n  plan: z\n    .string({\n      required_error: \"Please select a subscription plan\",\n    })\n    .min(1, \"Please select a subscription plan\")\n    .refine((value) => value === \"basic\" || value === \"pro\", {\n      message: \"Invalid plan selection. Please choose Basic or Pro\",\n    }),\n  billingPeriod: z\n    .string({\n      required_error: \"Please select a billing period\",\n    })\n    .min(1, \"Please select a billing period\"),\n  addons: z\n    .array(z.string())\n    .min(1, \"Please select at least one add-on\")\n    .max(3, \"You can select up to 3 add-ons\")\n    .refine(\n      (value) => value.every((addon) => addons.some((a) => a.id === addon)),\n      {\n        message: \"You selected an invalid add-on\",\n      }\n    ),\n  emailNotifications: z.boolean(),\n})\n\nexport type FormState = {\n  values: z.infer<typeof formSchema>\n  errors: null | Partial<Record<keyof z.infer<typeof formSchema>, string[]>>\n  success: boolean\n}\n\nexport const addons = [\n  {\n    id: \"analytics\",\n    title: \"Analytics\",\n    description: \"Advanced analytics and reporting\",\n  },\n  {\n    id: \"backup\",\n    title: \"Backup\",\n    description: \"Automated daily backups\",\n  },\n  {\n    id: \"support\",\n    title: \"Priority Support\",\n    description: \"24/7 premium customer support\",\n  },\n] as const\n",
+      "path": "registry/new-york-v4/examples/form-next-complex-schema.ts"
+    }
+  ]
+}
