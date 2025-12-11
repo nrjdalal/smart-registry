@@ -62,6 +62,8 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
     const transformed = segments.map((seg) => {
       const ext = path.extname(seg)
       const name = path.basename(seg, ext)
+      // skip ALL_CAPS files like README.md, LICENSE, CLAUDE.md
+      if (/^[A-Z0-9_]+$/.test(name)) return seg
       const kebab = name.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase()
       return `${kebab}${ext}`
     })
@@ -80,6 +82,8 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
       .map((seg, i) => {
         if (seg === "." || seg === "..") return seg
         if (i === 0 && seg.startsWith("@")) return seg
+        // skip ALL_CAPS segments in imports too
+        if (/^[A-Z0-9_]+$/.test(seg)) return seg
         return seg.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase()
       })
       .join("/")
@@ -94,15 +98,27 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
     const absPath = path.resolve(cwd, relPath)
     let content = await fs.promises.readFile(absPath, "utf8")
 
-    // a) update real imports: from "…"
+    // a1) update real imports: from "…"
     content = content.replace(
       /(from\s+['"`])([^'"`]+)(['"`])/g,
       (_full, p1, p2, p3) => `${p1}${kebabifyPath(p2)}${p3}`,
     )
 
-    // b) update Vitest mock imports: vi.mock("…") & vi.importActual("…")
+    // a2) update side-effect imports: import "…"
     content = content.replace(
-      /(vi\.(?:mock|importActual)\(\s*['"`])([^'"`]+)(['"`])/g,
+      /(import\s+['"`])([^'"`]+)(['"`])/g,
+      (_full, p1, p2, p3) => `${p1}${kebabifyPath(p2)}${p3}`,
+    )
+
+    // a3) update dynamic imports & require: import("…"), require("…")
+    content = content.replace(
+      /((?:import|require)\s*\(\s*['"`])([^'"`]+)(['"`]\s*\))/g,
+      (_full, p1, p2, p3) => `${p1}${kebabifyPath(p2)}${p3}`,
+    )
+
+    // b) update Vitest/Jest mock imports: vi.mock("…"), jest.mock("…")
+    content = content.replace(
+      /((?:vi|jest)\.(?:mock|importActual|requireActual)\(\s*['"`])([^'"`]+)(['"`])/g,
       (_full, p1, p2, p3) => `${p1}${kebabifyPath(p2)}${p3}`,
     )
 
