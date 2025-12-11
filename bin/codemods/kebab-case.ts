@@ -64,7 +64,10 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
       const name = path.basename(seg, ext)
       // skip ALL_CAPS files like README.md, LICENSE, CLAUDE.md
       if (/^[A-Z0-9_]+$/.test(name)) return seg
-      const kebab = name.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase()
+      const kebab = name
+        .replace(/([A-Z]+)([A-Z][a-z])/g, "$1-$2")
+        .replace(/([a-z])([A-Z])/g, "$1-$2")
+        .toLowerCase()
       return `${kebab}${ext}`
     })
     const newRel = transformed.join("/")
@@ -84,7 +87,10 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
         if (i === 0 && seg.startsWith("@")) return seg
         // skip ALL_CAPS segments in imports too
         if (/^[A-Z0-9_]+$/.test(seg)) return seg
-        return seg.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase()
+        return seg
+          .replace(/([A-Z]+)([A-Z][a-z])/g, "$1-$2")
+          .replace(/([a-z])([A-Z])/g, "$1-$2")
+          .toLowerCase()
       })
       .join("/")
   }
@@ -101,19 +107,31 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
     // a1) update real imports: from "…"
     content = content.replace(
       /(from\s+['"`])([^'"`]+)(['"`])/g,
-      (_full, p1, p2, p3) => `${p1}${kebabifyPath(p2)}${p3}`,
+      (_full, p1, p2, p3) => {
+        const newPath = kebabifyPath(p2)
+        if (p2 !== newPath) console.log(`  Fix: ${p2} -> ${newPath}`)
+        return `${p1}${newPath}${p3}`
+      },
     )
 
     // a2) update side-effect imports: import "…"
     content = content.replace(
       /(import\s+['"`])([^'"`]+)(['"`])/g,
-      (_full, p1, p2, p3) => `${p1}${kebabifyPath(p2)}${p3}`,
+      (_full, p1, p2, p3) => {
+        const newPath = kebabifyPath(p2)
+        if (p2 !== newPath) console.log(`  Fix: ${p2} -> ${newPath}`)
+        return `${p1}${newPath}${p3}`
+      },
     )
 
     // a3) update dynamic imports & require: import("…"), require("…")
     content = content.replace(
       /((?:import|require)\s*\(\s*['"`])([^'"`]+)(['"`]\s*\))/g,
-      (_full, p1, p2, p3) => `${p1}${kebabifyPath(p2)}${p3}`,
+      (_full, p1, p2, p3) => {
+        const newPath = kebabifyPath(p2)
+        if (p2 !== newPath) console.log(`  Fix: ${p2} -> ${newPath}`)
+        return `${p1}${newPath}${p3}`
+      },
     )
 
     // b) update Vitest/Jest mock imports: vi.mock("…"), jest.mock("…")
