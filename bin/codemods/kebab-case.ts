@@ -109,6 +109,14 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
 
     // helper to replace and track changes
     const replacer = (_: string, p2: string) => {
+      // DEBUG: Trace specific problem paths
+      if (p2.includes("initDrizzle") || p2.includes("createStripeCli")) {
+        console.log(`[DEBUG] File: ${relPath}`)
+        console.log(`        Path: "${p2}"`)
+        const computed = kebabifyPath(p2)
+        console.log(`        -> "${computed}"`)
+      }
+
       const newPath = kebabifyPath(p2)
       if (p2 !== newPath) {
         changed = true
@@ -117,6 +125,31 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
       return p2
     }
 
+    // a1 & a2) Update imports using the project's standard regex (covers side-effects and type imports too)
+    // Regex adapted from bin/constants/regex.ts
+    const importRegex =
+      /import\s+type\s+[\s\S]+?from\s+['"][^'"]+['"]|import\s+['"][^'"]+['"]|import\s+[\s\S]+?from\s+['"][^'"]+['"]/g
+
+    content = content.replace(importRegex, (statement) => {
+      // Extract path: look for the last quoted string
+      const match = statement.match(/['"]([^'"]+)['"]$/)
+      if (!match) return statement
+
+      const [quotedPath, rawPath] = match
+      const newPath = replacer(statement, rawPath)
+
+      // If no change, return original
+      if (rawPath === newPath) return statement
+
+      // Replace the path inside the statement (careful to replace only the path part)
+      // We reconstruct the string to be safe
+      return (
+        statement.substring(0, statement.length - quotedPath.length) +
+        quotedPath.replace(rawPath, newPath)
+      )
+    })
+
+    /*
     // a1) update real imports: from "…"
     content = content.replace(
       /(from\s+['"`])([^'"`]+)(['"`])/g,
@@ -128,6 +161,7 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
       /(import\s+['"`])([^'"`]+)(['"`])/g,
       (_full, p1, p2, p3) => `${p1}${replacer(_full, p2)}${p3}`,
     )
+    */
 
     // a3) update dynamic imports & require: import("…"), require("…")
     content = content.replace(
