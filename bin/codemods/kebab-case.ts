@@ -100,53 +100,56 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
     cwd,
     ignore,
   })
+  console.log(`Checking ${postFiles.length} files for imports to update...`)
+
   for (const relPath of postFiles) {
     const absPath = path.resolve(cwd, relPath)
     let content = await fs.promises.readFile(absPath, "utf8")
+    let changed = false
+
+    // helper to replace and track changes
+    const replacer = (_: string, p2: string) => {
+      const newPath = kebabifyPath(p2)
+      if (p2 !== newPath) {
+        changed = true
+        return newPath
+      }
+      return p2
+    }
 
     // a1) update real imports: from "…"
     content = content.replace(
       /(from\s+['"`])([^'"`]+)(['"`])/g,
-      (_full, p1, p2, p3) => {
-        const newPath = kebabifyPath(p2)
-        if (p2 !== newPath) console.log(`  Fix: ${p2} -> ${newPath}`)
-        return `${p1}${newPath}${p3}`
-      },
+      (_full, p1, p2, p3) => `${p1}${replacer(_full, p2)}${p3}`,
     )
 
     // a2) update side-effect imports: import "…"
     content = content.replace(
       /(import\s+['"`])([^'"`]+)(['"`])/g,
-      (_full, p1, p2, p3) => {
-        const newPath = kebabifyPath(p2)
-        if (p2 !== newPath) console.log(`  Fix: ${p2} -> ${newPath}`)
-        return `${p1}${newPath}${p3}`
-      },
+      (_full, p1, p2, p3) => `${p1}${replacer(_full, p2)}${p3}`,
     )
 
     // a3) update dynamic imports & require: import("…"), require("…")
     content = content.replace(
       /((?:import|require)\s*\(\s*['"`])([^'"`]+)(['"`]\s*\))/g,
-      (_full, p1, p2, p3) => {
-        const newPath = kebabifyPath(p2)
-        if (p2 !== newPath) console.log(`  Fix: ${p2} -> ${newPath}`)
-        return `${p1}${newPath}${p3}`
-      },
+      (_full, p1, p2, p3) => `${p1}${replacer(_full, p2)}${p3}`,
     )
 
     // b) update Vitest/Jest mock imports: vi.mock("…"), jest.mock("…")
     content = content.replace(
       /((?:vi|jest)\.(?:mock|importActual|requireActual)\(\s*['"`])([^'"`]+)(['"`])/g,
-      (_full, p1, p2, p3) => `${p1}${kebabifyPath(p2)}${p3}`,
+      (_full, p1, p2, p3) => `${p1}${replacer(_full, p2)}${p3}`,
     )
 
     // c) update CSS url() paths: url("…")
     content = content.replace(
       /(url\(\s*['"`]?)([^)'"`]+)(['"`]?\s*\))/g,
-      (_full, p1, p2, p3) => `${p1}${kebabifyPath(p2)}${p3}`,
+      (_full, p1, p2, p3) => `${p1}${replacer(_full, p2)}${p3}`,
     )
 
-    await fs.promises.writeFile(absPath, content, "utf8")
+    if (changed) {
+      await fs.promises.writeFile(absPath, content, "utf8")
+    }
   }
 
   console.log(
