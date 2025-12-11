@@ -16,13 +16,26 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
   function gitMv(oldPath: string, newPath: string) {
     const oldLower = oldPath.toLowerCase()
     const newLower = newPath.toLowerCase()
-    // case-insensitive FS: if only case differs, go via a temp file
-    if (oldLower === newLower && oldPath !== newPath) {
-      const tmpPath = `${oldPath}.tmp-case-rename`
-      execSync(`git mv "${oldPath}" "${tmpPath}"`, { stdio: "inherit" })
-      execSync(`git mv "${tmpPath}" "${newPath}"`, { stdio: "inherit" })
-    } else {
-      execSync(`git mv "${oldPath}" "${newPath}"`, { stdio: "inherit" })
+    const isCaseOnly = oldLower === newLower && oldPath !== newPath
+
+    try {
+      // case-insensitive FS: if only case differs, go via a temp file
+      if (isCaseOnly) {
+        const tmpPath = `${oldPath}.tmp-case-rename`
+        execSync(`git mv "${oldPath}" "${tmpPath}"`, { stdio: "pipe" })
+        execSync(`git mv "${tmpPath}" "${newPath}"`, { stdio: "pipe" })
+      } else {
+        execSync(`git mv "${oldPath}" "${newPath}"`, { stdio: "pipe" })
+      }
+    } catch {
+      // Fallback to fs.rename if git mv fails (e.g. untracked file)
+      if (isCaseOnly) {
+        const tmpPath = `${oldPath}.tmp-case-rename`
+        fs.renameSync(oldPath, tmpPath)
+        fs.renameSync(tmpPath, newPath)
+      } else {
+        fs.renameSync(oldPath, newPath)
+      }
     }
   }
 
