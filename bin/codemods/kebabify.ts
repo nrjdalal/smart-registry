@@ -2,6 +2,7 @@ import { existsSync } from "node:fs"
 import { readFile, rename, writeFile } from "node:fs/promises"
 import path from "node:path"
 import { getAliases } from "@/utils/aliases"
+import { execa } from "execa"
 import { glob } from "tinyglobby"
 
 const toKebabCase = (str: string) => {
@@ -120,12 +121,19 @@ export const codemodKebabify = async ({ cwd }: { cwd: string }) => {
     if (base !== newBase) {
       const newPath = path.join(dir, newBase)
       try {
-        await rename(p, newPath)
+        await execa("git", ["mv", p, newPath], { cwd })
         console.log(
-          `Renamed: ${path.relative(cwd, p)} -> ${path.relative(cwd, newPath)}`,
+          `Renamed (git): ${path.relative(cwd, p)} -> ${path.relative(cwd, newPath)}`,
         )
-      } catch (error) {
-        console.error(`Failed to rename ${p} to ${newPath}:`, error)
+      } catch {
+        try {
+          await rename(p, newPath)
+          console.log(
+            `Renamed: ${path.relative(cwd, p)} -> ${path.relative(cwd, newPath)}`,
+          )
+        } catch (error) {
+          console.error(`Failed to rename ${p} to ${newPath}:`, error)
+        }
       }
     }
   }
