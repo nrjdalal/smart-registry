@@ -20,7 +20,18 @@ const kebabifyPath = (filePath: string) => {
 
 export const codemodKebabify = async ({ cwd }: { cwd: string }) => {
   // ~ Hardcoded include list for external packages to kebabify
-  const include = ["@server"]
+  const include = [
+    "@api",
+    "@emails",
+    "@lua",
+    "@models",
+    "@scripts",
+    "@server",
+    "@shared",
+    "@tests",
+    "@types",
+    "@utils",
+  ]
   const gitignorePath = path.resolve(cwd, ".gitignore")
   const ignore = existsSync(gitignorePath)
     ? (await readFile(gitignorePath, "utf8"))
