@@ -1,7 +1,6 @@
 import fs, { existsSync } from "node:fs"
 import { mkdir, readFile, writeFile } from "node:fs/promises"
 import path from "node:path"
-import { regex } from "@/constants/regex"
 import { getAliases } from "@/utils/aliases"
 import { execa } from "execa"
 import { glob } from "tinyglobby"
@@ -102,38 +101,50 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
     let content = await readFile(file, "utf8")
     const originalContent = content
 
-    // a) Update imports using the project's standard regex
-    content = content.replace(regex.imports, (statement) => {
-      const match = statement.match(/['"]([^'"]+)['"]$/)
-      if (!match) return statement
+    // Helper to replace content safely
+    const replaceSafely = (fullMatch: string, pathGroup: string) => {
+      const newPath = getNewPath(pathGroup)
+      if (newPath === pathGroup) return fullMatch
 
-      const [quotedPath, rawPath] = match
-      const newPath = getNewPath(rawPath)
-
-      if (newPath === rawPath) return statement
+      // Find the last occurrence of the path in the match to ensure we replace the path and not a similar symbol
+      const lastIndex = fullMatch.lastIndexOf(pathGroup)
+      if (lastIndex === -1) return fullMatch
 
       return (
-        statement.substring(0, statement.length - quotedPath.length) +
-        quotedPath.replace(rawPath, newPath)
+        fullMatch.substring(0, lastIndex) +
+        newPath +
+        fullMatch.substring(lastIndex + pathGroup.length)
       )
-    })
+    }
+
+    // a) Update imports/exports
+    // Covers:
+    // - import "pkg"
+    // - import { ... } from "pkg"
+    // - import type { ... } from "pkg"
+    // - export { ... } from "pkg"
+    // - export * from "pkg"
+    content = content.replace(
+      /(?:import|export)\s+(?:type\s+)?(?:[\s\S]*?\s+from\s+)?['"]([^'"]+)['"]/g,
+      (match, p1) => replaceSafely(match, p1),
+    )
 
     // b) Update dynamic imports & require: import("…"), require("…")
     content = content.replace(
-      /((?:import|require)\s*\(\s*['"`])([^'"`]+)(['"`]\s*\))/g,
-      (_full, p1, p2, p3) => `${p1}${getNewPath(p2)}${p3}`,
+      /(?:import|require)\s*\(\s*['"]([^'"]+)['"]\s*\)/g,
+      (match, p1) => replaceSafely(match, p1),
     )
 
     // c) Update Vitest/Jest mock imports: vi.mock("…"), jest.mock("…")
     content = content.replace(
-      /((?:vi|jest)\.(?:mock|importActual|requireActual)\(\s*['"`])([^'"`]+)(['"`])/g,
-      (_full, p1, p2, p3) => `${p1}${getNewPath(p2)}${p3}`,
+      /(?:vi|jest)\.(?:mock|importActual|requireActual)\(\s*['"]([^'"]+)['"]\)/g,
+      (match, p1) => replaceSafely(match, p1),
     )
 
     // d) Update CSS url() paths: url("…")
     content = content.replace(
-      /(url\(\s*['"`]?)([^)'"`]+)(['"`]?\s*\))/g,
-      (_full, p1, p2, p3) => `${p1}${getNewPath(p2)}${p3}`,
+      /url\(\s*['"]?([^)'"]+)['"]?\s*\)/g,
+      (match, p1) => replaceSafely(match, p1),
     )
 
     if (content !== originalContent) {
