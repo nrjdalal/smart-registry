@@ -106,15 +106,15 @@ export const codemodCamelToKebab = async ({ cwd }: { cwd: string }) => {
       const newPath = getNewPath(pathGroup)
       if (newPath === pathGroup) return fullMatch
 
-      // Find the last occurrence of the path in the match to ensure we replace the path and not a similar symbol
-      const lastIndex = fullMatch.lastIndexOf(pathGroup)
-      if (lastIndex === -1) return fullMatch
+      // The match ends with "path" or 'path'
+      const quote = fullMatch[fullMatch.length - 1]
+      const suffix = quote + pathGroup + quote
 
-      return (
-        fullMatch.substring(0, lastIndex) +
-        newPath +
-        fullMatch.substring(lastIndex + pathGroup.length)
-      )
+      if (fullMatch.endsWith(suffix)) {
+        return fullMatch.slice(0, -suffix.length) + quote + newPath + quote
+      }
+
+      return fullMatch
     }
 
     // a) Update imports/exports
