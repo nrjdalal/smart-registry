@@ -18,6 +18,8 @@ const kebabifyPath = (filePath: string) => {
 }
 
 export const codemodKebabify = async ({ cwd }: { cwd: string }) => {
+  // ~ Hardcoded include list for external packages to kebabify
+  const include = ["@server"]
   const gitignorePath = path.resolve(cwd, ".gitignore")
   const ignore = existsSync(gitignorePath)
     ? (await readFile(gitignorePath, "utf8"))
@@ -58,8 +60,11 @@ export const codemodKebabify = async ({ cwd }: { cwd: string }) => {
           const isAlias = aliasKeys.some((alias) =>
             importPath.startsWith(alias),
           )
+          const isIncluded = include.some((pattern) =>
+            importPath.startsWith(pattern),
+          )
 
-          if (!isLocal && !isAlias) {
+          if (!isLocal && !isAlias && !isIncluded) {
             return match
           }
 
@@ -75,8 +80,11 @@ export const codemodKebabify = async ({ cwd }: { cwd: string }) => {
           const isAlias = aliasKeys.some((alias) =>
             importPath.startsWith(alias),
           )
+          const isIncluded = include.some((pattern) =>
+            importPath.startsWith(pattern),
+          )
 
-          if (!isLocal && !isAlias) {
+          if (!isLocal && !isAlias && !isIncluded) {
             return match
           }
 
