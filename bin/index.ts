@@ -2,7 +2,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { parseArgs } from "node:util"
-import { codemodCamelToKebab } from "@/codemods/kebab-case"
+import { codemodKebabify } from "@/codemods/kebabify"
 import { codemodRadix } from "@/codemods/radix"
 import { registryOrder } from "@/constants/orders"
 import { getAliases } from "@/utils/aliases"
@@ -35,7 +35,7 @@ With disabled automatic detection:
 
 Codemods:
   --codemod-radix         migrate to unify "@radix-ui/react-*" imports to "radix-ui"
-  --codemod-camel-to-kebab rename camelCase filenames to kebab-case and update all import paths (default: false)
+  --codemod-kebabify      migrate to kebab-case file names and imports
 
 Cleanup:
   --remove-prefix         remove given prefix from the registry item names (default: none)
@@ -75,7 +75,7 @@ const main = async () => {
           default: false,
         },
         "codemod-radix": { type: "boolean" },
-        "codemod-camel-to-kebab": { type: "boolean" },
+        "codemod-kebabify": { type: "boolean" },
         "remove-prefix": { type: "string", default: "" },
         help: { type: "boolean", short: "h" },
         version: { type: "boolean", short: "v" },
@@ -102,8 +102,8 @@ const main = async () => {
       process.exit(0)
     }
 
-    if (values["codemod-camel-to-kebab"]) {
-      await codemodCamelToKebab({
+    if (values["codemod-kebabify"]) {
+      await codemodKebabify({
         cwd,
       })
       process.exit(0)
