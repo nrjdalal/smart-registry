@@ -64,7 +64,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.0",
-    "@commitlint/config-conventional": "^19.6.0",
+    "@commitlint/config-conventional": "^20.0.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
     "@types/node": "^22.10.1",
     "lint-staged": "^15.2.10",
